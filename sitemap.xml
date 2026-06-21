@@ -1,11 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <loc>https://titan-900.github.io/NAE-TRUCK/</loc>
-    <lastmod>2026-06-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+<url>
+<loc>https://titan-900.github.io/NAE-TRUCK/</loc>
+<priority>1.0</priority>
+</url>
+
+<url>
+<loc>https://titan-900.github.io/NAE-TRUCK/products/axle-parts/</loc>
+</url>
+
+<url>
+<loc>https://titan-900.github.io/NAE-TRUCK/products/brake-system/</loc>
+</url>
+
+<url>
+<loc>https://titan-900.github.io/NAE-TRUCK/products/clutch-system/</loc>
+</url>
+
+<url>
+<loc>https://titan-900.github.io/NAE-TRUCK/products/cooling-system/</loc>
+</url>
+
+<url>
+<loc>https://titan-900.github.io/NAE-TRUCK/products/electrical-system/</loc>
+</url>
+
+<url>
+<loc>https://titan-900.github.io/NAE-TRUCK/products/engine-parts/</loc>
+</url>
+
+<url>
+<loc>https://titan-900.github.io/NAE-TRUCK/products/steering-system/</loc>
+</url>
+
+<url>
+<loc>https://titan-900.github.io/NAE-TRUCK/products/suspension-system/</loc>
+</url>
+
+<url>
+<loc>https://titan-900.github.io/NAE-TRUCK/products/trailer-parts/</loc>
+</url>
+
+<url>
+<loc>https://titan-900.github.io/NAE-TRUCK/products/transmission-parts/</loc>
+</url>
 
 </urlset>
