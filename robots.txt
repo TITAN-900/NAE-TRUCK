@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://titan-900.github.io/NAE-TRUCK/sitemap.xml
