@@ -1,0 +1,562 @@
+﻿[
+    {
+        "id":  "12310-97773",
+        "number":  "12310-97773",
+        "name":  "Flywheel",
+        "category":  "clutch-system",
+        "description":  "17\" IOH 140T RF8 NS",
+        "application":  "",
+        "brand":  "Imported catalogue",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/12310-97773.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "498"
+                                      ],
+                               "ID":  [
+                                          "460",
+                                          "17",
+                                          "58"
+                                      ],
+                               "HI":  [
+                                          "20",
+                                          "105"
+                                      ],
+                               "Teeth":  [
+                                             "140T"
+                                         ]
+                           },
+        "specs":  [
+                      "OD 498",
+                      "ID 460, 17, 58",
+                      "HI 20, 105",
+                      "Teeth 140T"
+                  ],
+        "confidence":  92,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-04-04 at 3.35.08 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-04-04 at 3.35.08 PM.jpeg",
+                       "ocrText":  "GEAT OD 498 ID 460 IOH ID 17MM ID 58 HI 20 140T 121-1 220MM 17\" 1432MM HI 105 12310-97773 FLYWHEEL 17\" IOH 140T RF8 NS 16.5MM",
+                       "importedAt":  "2026-06-29T23:42:15"
+                   }
+    },
+    {
+        "id":  "8-98056-355-2",
+        "number":  "8-98056-355-2",
+        "name":  "Flywheel",
+        "category":  "clutch-system",
+        "description":  "14\"81-1 143T 4HK1 FRR",
+        "application":  "",
+        "brand":  "Imported catalogue",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/8-98056-355-2.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "434"
+                                      ],
+                               "ID":  [
+                                          "402",
+                                          "52"
+                                      ],
+                               "HI":  [
+                                          "15",
+                                          "87",
+                                          "65"
+                                      ],
+                               "Teeth":  [
+                                             "143T"
+                                         ],
+                               "Holes":  [
+                                             "56H M14"
+                                         ],
+                               "Diameter":  [
+                                                "14\" / 356mm"
+                                            ]
+                           },
+        "specs":  [
+                      "OD 434",
+                      "ID 402, 52",
+                      "HI 15, 87, 65",
+                      "Teeth 143T",
+                      "Holes 56H M14",
+                      "Diameter 14\" / 356mm"
+                  ],
+        "confidence":  97,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-04-02 at 6.59.59 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-04-02 at 6.59.59 PM.jpeg",
+                       "ocrText":  "56H 14\" / 356MM OD 434 ID 402 143T M16 ID 52 HI 15 HI 87 8-98056-355-2 FLYWHEEL 14\"81-1 143T 4HK1 FRR HI 65M",
+                       "importedAt":  "2026-06-29T23:42:15"
+                   }
+    },
+    {
+        "id":  "13450-3701",
+        "number":  "13450-3701",
+        "name":  "Flywheel",
+        "category":  "clutch-system",
+        "description":  "17\" 137T 8H E13C",
+        "application":  "",
+        "brand":  "Imported catalogue",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/13450-3701.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "487"
+                                      ],
+                               "ID":  [
+                                          "62",
+                                          "438"
+                                      ],
+                               "HI":  [
+                                          "24"
+                                      ],
+                               "Teeth":  [
+                                             "137T"
+                                         ],
+                               "Holes":  [
+                                             "8H M18"
+                                         ],
+                               "Diameter":  [
+                                                "17\" / 432mm"
+                                            ],
+                               "Bearing":  [
+                                               "6206"
+                                           ]
+                           },
+        "specs":  [
+                      "OD 487",
+                      "ID 62, 438",
+                      "HI 24",
+                      "Teeth 137T",
+                      "Holes 8H M18",
+                      "Diameter 17\" / 432mm",
+                      "Bearing 6206"
+                  ],
+        "confidence":  92,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-04-02 at 6.59.30 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-04-02 at 6.59.30 PM.jpeg",
+                       "ocrText":  "ID 62 HI 24 242 17\" / 432MM 561-1 8H M18 OD 487 ID 438 137T 92 13450-3701 FLYWHEEL 17\" 137T 8H E13C BRG 6206",
+                       "importedAt":  "2026-06-29T23:42:15"
+                   }
+    },
+    {
+        "id":  "8-94127-250-0",
+        "number":  "8-94127-250-0",
+        "name":  "Flywheel",
+        "category":  "clutch-system",
+        "description":  "12\" 128T6H 48D1 NPR",
+        "application":  "",
+        "brand":  "Imported catalogue",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/8-94127-250-0.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "390"
+                                      ],
+                               "ID":  [
+                                          "355",
+                                          "180"
+                                      ],
+                               "HI":  [
+                                          "14",
+                                          "38"
+                                      ],
+                               "Teeth":  [
+                                             "128T"
+                                         ]
+                           },
+        "specs":  [
+                      "OD 390",
+                      "ID 355, 180",
+                      "HI 14, 38",
+                      "Teeth 128T"
+                  ],
+        "confidence":  97,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-05-24 at 2.53.58 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-05-24 at 2.53.58 PM.jpeg",
+                       "ocrText":  "GEAR OD 390 ID 355 HI 14 128T ID 180 13 3/8\" 1340MM HI 38 8-94127-250-0 FLYWHEEL 12\" 128T6H 48D1 NPR 14.5M",
+                       "importedAt":  "2026-06-29T23:42:15"
+                   }
+    },
+    {
+        "id":  "12310-96006",
+        "number":  "12310-96006",
+        "name":  "Flywheel",
+        "category":  "clutch-system",
+        "description":  "16\" 140T NS RD8",
+        "application":  "",
+        "brand":  "Imported catalogue",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/12310-96006.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "498"
+                                      ],
+                               "ID":  [
+                                          "460",
+                                          "125",
+                                          "46",
+                                          "203"
+                                      ],
+                               "HI":  [
+                                          "31",
+                                          "110"
+                                      ],
+                               "Teeth":  [
+                                             "140T"
+                                         ],
+                               "Holes":  [
+                                             "9H M17"
+                                         ]
+                           },
+        "specs":  [
+                      "OD 498",
+                      "ID 460, 125, 46, 203",
+                      "HI 31, 110",
+                      "Teeth 140T",
+                      "Holes 9H M17"
+                  ],
+        "confidence":  92,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-04-22 at 6.00.53 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-04-22 at 6.00.53 PM.jpeg",
+                       "ocrText":  "GEAR OD 498 ID 460 9H 17MM ID 125 ID 46/49 HI 31 12H MIO ID 203MM 16 112\" 1418MM 140T 1214 15MM HI 110 12310-96006 FLYWHEEL 16\" 140T NS RD8",
+                       "importedAt":  "2026-06-29T23:42:15"
+                   }
+    },
+    {
+        "id":  "12310-9Z00E",
+        "number":  "12310-9Z00E",
+        "name":  "Flywheel",
+        "category":  "clutch-system",
+        "description":  "17\" 153T 12H 50.5 QUESTER",
+        "application":  "",
+        "brand":  "Imported catalogue",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/12310-9Z00E.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "494"
+                                      ],
+                               "HI":  [
+                                          "21"
+                                      ],
+                               "Teeth":  [
+                                             "153T"
+                                         ],
+                               "Holes":  [
+                                             "12H M50.5"
+                                         ]
+                           },
+        "specs":  [
+                      "OD 494",
+                      "HI 21",
+                      "Teeth 153T",
+                      "Holes 12H M50.5"
+                  ],
+        "confidence":  92,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-04-17 at 11.38.33 AM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-04-17 at 11.38.33 AM.jpeg",
+                       "ocrText":  "GEAR OD 494 HI 21 17 3/4\" 1450MM 153T 12310-9Z00E FLYWHEEL 17\" 153T 12H 50.5 QUESTER GHII",
+                       "importedAt":  "2026-06-29T23:42:15"
+                   }
+    },
+    {
+        "id":  "13450-3980",
+        "number":  "13450-3980",
+        "name":  "Flywheel",
+        "category":  "clutch-system",
+        "description":  "17\" 145T",
+        "application":  "",
+        "brand":  "Imported catalogue",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/13450-3980.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "442"
+                                      ],
+                               "ID":  [
+                                          "396",
+                                          "100",
+                                          "47",
+                                          "248"
+                                      ],
+                               "HI":  [
+                                          "28",
+                                          "110"
+                                      ],
+                               "Teeth":  [
+                                             "145T"
+                                         ],
+                               "ABS Hole":  [
+                                                "56"
+                                            ]
+                           },
+        "specs":  [
+                      "OD 442",
+                      "ID 396, 100, 47, 248",
+                      "HI 28, 110",
+                      "Teeth 145T",
+                      "ABS Hole 56"
+                  ],
+        "confidence":  78,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-04-02 at 6.56.29 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-04-02 at 6.56.29 PM.jpeg",
+                       "ocrText":  "GEAR OD 442 ID 396 81-1 M14 ID 100 ID 47 HI 28 145T 561-1 ID 248MM 17\" 1432MM HI 110 13450-3980 FLYWHEEL 17\" 145T J08E ABS HOLE 56",
+                       "importedAt":  "2026-06-29T23:42:15"
+                   }
+    },
+    {
+        "id":  "13450-1912",
+        "number":  "13450-1912",
+        "name":  "Flywheel",
+        "category":  "clutch-system",
+        "description":  "14\" 8H 129T ID47 J08C",
+        "application":  "",
+        "brand":  "Imported catalogue",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/13450-1912.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "392"
+                                      ],
+                               "ID":  [
+                                          "355",
+                                          "100",
+                                          "47",
+                                          "218"
+                                      ],
+                               "HI":  [
+                                          "14",
+                                          "86"
+                                      ],
+                               "Teeth":  [
+                                             "129T"
+                                         ],
+                               "Holes":  [
+                                             "8H M14",
+                                             "8H M129"
+                                         ],
+                               "Sensor":  [
+                                              "No sensor"
+                                          ]
+                           },
+        "specs":  [
+                      "OD 392",
+                      "ID 355, 100, 47, 218",
+                      "HI 14, 86",
+                      "Teeth 129T",
+                      "Holes 8H M14, 8H M129",
+                      "Sensor No sensor"
+                  ],
+        "confidence":  92,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-04-02 at 6.56.02 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-04-02 at 6.56.02 PM.jpeg",
+                       "ocrText":  "GEAR OD 392 ID 355 8H M14 ID 100 ID 47 HI 14 129T NO SENSOR-4 ID 218MM 14\" 1355MM HI 86 13450-1912 FLYWHEEL 14\" 8H 129T ID47 J08C J07C J05C SAME 561-113450-E0281",
+                       "importedAt":  "2026-06-29T23:42:15"
+                   }
+    },
+    {
+        "id":  "8-94395-519-0",
+        "number":  "8-94395-519-0",
+        "name":  "Flywheel",
+        "category":  "clutch-system",
+        "description":  "14\" 8H 140T IZ 6HH1",
+        "application":  "",
+        "brand":  "Imported catalogue",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/8-94395-519-0.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "426"
+                                      ],
+                               "ID":  [
+                                          "393",
+                                          "52",
+                                          "215"
+                                      ],
+                               "HI":  [
+                                          "12",
+                                          "84"
+                                      ],
+                               "Teeth":  [
+                                             "140T"
+                                         ],
+                               "Holes":  [
+                                             "8H M140"
+                                         ]
+                           },
+        "specs":  [
+                      "OD 426",
+                      "ID 393, 52, 215",
+                      "HI 12, 84",
+                      "Teeth 140T",
+                      "Holes 8H M140"
+                  ],
+        "confidence":  97,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-04-02 at 10.18.48 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-04-02 at 10.18.48 PM.jpeg",
+                       "ocrText":  "GEAR OD 426 ID 393 ID 52 HI 12 140T ID 215MM 14\" 1355MM HI 84 8-94395-519-0 FLYWHEEL 14\" 8H 140T IZ 6HH1",
+                       "importedAt":  "2026-06-29T23:42:15"
+                   }
+    },
+    {
+        "id":  "13450-3591",
+        "number":  "13450-3591",
+        "name":  "Flywheel",
+        "category":  "clutch-system",
+        "description":  "12\"61-1 121T W04D DUTRO ID 40",
+        "application":  "",
+        "brand":  "Imported catalogue",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/13450-3591.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "370"
+                                      ],
+                               "ID":  [
+                                          "331",
+                                          "40",
+                                          "100",
+                                          "188"
+                                      ],
+                               "HI":  [
+                                          "12",
+                                          "36",
+                                          "40"
+                                      ],
+                               "Teeth":  [
+                                             "121T"
+                                         ]
+                           },
+        "specs":  [
+                      "OD 370",
+                      "ID 331, 40, 100, 188",
+                      "HI 12, 36, 40",
+                      "Teeth 121T"
+                  ],
+        "confidence":  92,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-04-02 at 6.59.00 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-04-02 at 6.59.00 PM.jpeg",
+                       "ocrText":  "GEAR OD 370 ID 331 ID 40 HI 12 ID 100 121T HI 36 221-1 MIO 5K M14 IH M18/M14 ID 188 12\" HI 40 13450-3591 FLYWHEEL 12\"61-1 121T W04D DUTRO ID 40 2 IN 1 HOLE",
+                       "importedAt":  "2026-06-29T23:42:15"
+                   }
+    },
+    {
+        "id":  "13450-1912-SENSOR",
+        "number":  "13450-1912-SENSOR",
+        "name":  "Flywheel",
+        "category":  "clutch-system",
+        "description":  "14\"",
+        "application":  "",
+        "brand":  "Imported catalogue",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/13450-1912-SENSOR.jpeg",
+        "specifications":  {
+                               "ID":  [
+                                          "100",
+                                          "217",
+                                          "47"
+                                      ],
+                               "HI":  [
+                                          "14",
+                                          "87"
+                                      ],
+                               "Teeth":  [
+                                             "129T"
+                                         ],
+                               "Holes":  [
+                                             "8H M14"
+                                         ],
+                               "Sensor":  [
+                                              "Sensor hole"
+                                          ]
+                           },
+        "specs":  [
+                      "ID 100, 217, 47",
+                      "HI 14, 87",
+                      "Teeth 129T",
+                      "Holes 8H M14",
+                      "Sensor Sensor hole"
+                  ],
+        "confidence":  80,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-04-02 at 6.58.08 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-04-02 at 6.58.08 PM.jpeg",
+                       "ocrText":  "8H M14 O O \u0027D 47 HI 14 ID 100 5614 ID 217 14\" 1356MM II HI 87 FLYWHEEL 14\" 13450-1912-SENSOR 81-1 129T ID47 J07E J07 56 ABS SENSOR HOLE 4 LEG ALL COMPLETE ABS HOLE. J08C",
+                       "importedAt":  "2026-06-29T23:42:15"
+                   }
+    },
+    {
+        "id":  "13450-E0444",
+        "number":  "13450-E0444",
+        "name":  "Flywheel",
+        "category":  "clutch-system",
+        "description":  "17\" ID62 PIIC",
+        "application":  "",
+        "brand":  "Imported catalogue",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/13450-E0444.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "487"
+                                      ],
+                               "ID":  [
+                                          "440",
+                                          "62",
+                                          "116"
+                                      ],
+                               "HI":  [
+                                          "23",
+                                          "95"
+                                      ],
+                               "Teeth":  [
+                                             "137T"
+                                         ],
+                               "Diameter":  [
+                                                "17\" / 432mm"
+                                            ],
+                               "ABS Hole":  [
+                                                "56"
+                                            ],
+                               "Pin":  [
+                                           "Pin reference detected"
+                                       ]
+                           },
+        "specs":  [
+                      "OD 487",
+                      "ID 440, 62, 116",
+                      "HI 23, 95",
+                      "Teeth 137T",
+                      "Diameter 17\" / 432mm",
+                      "ABS Hole 56",
+                      "Pin Pin reference detected"
+                  ],
+        "confidence":  78,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-04-02 at 6.57.08 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-04-02 at 6.57.08 PM.jpeg",
+                       "ocrText":  "GEAR OD 487 ID 440 121-1 M12 2H MIO H M16 ID 62 HI 23 ID 116 561-1 248MM 17\" / 432MM HI 95 13450-E0444 FLYWHEEL 17\" ID62 PIIC 137T 9H ( GOT ABS HOLE 56HOLE ) GOT LEG 4 PART LEG",
+                       "importedAt":  "2026-06-29T23:42:15"
+                   }
+    }
+]

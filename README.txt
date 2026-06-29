@@ -25,10 +25,21 @@ CATALOGUE MAINTENANCE
 Homepage category content: assets/js/site.js
 Category-page product content: assets/js/category.js
 Site-wide styling: assets/css/styles.css
+WhatsApp/OCR importer guide: scripts/README-importer.txt
 
 The catalogue is data-driven so additional items can be added without rebuilding
 the page layout. For a large live catalogue, the data can later be connected to a
 CMS, database or e-commerce backend.
+
+PRODUCT IMPORTER
+Put new WhatsApp product images into whatsapp-import, then run:
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/import-whatsapp-products.ps1
+
+Generated products are stored in assets/data/products.generated.json and
+assets/data/products.generated.js. Uncertain OCR results are written to
+whatsapp-import/review instead of being guessed. The importer is modular so a
+future PDF catalogue source can reuse the same OCR, parser, product store and
+reporting pipeline.
 
 IMAGE GENERATION NOTE
 The hero image was generated with the built-in OpenAI image-generation tool using
