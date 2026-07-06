@@ -2137,287 +2137,6 @@
                                                                                                                           "TextAngle":  0,
                                                                                                                           "UpdatedAt":  "2026-06-29T23:36:10"
                                                                                                                       },
-    "c:\\users\\helon\\onedrive\\desktop\\nae-truck\\whatsapp-import\\whatsapp image 2026-06-09 at 3.42.41 pm.jpeg":  {
-                                                                                                                          "Signature":  "217166|639182612688241333",
-                                                                                                                          "Text":  "GEAR OD 392 ID 362 61-1 ID 16mm ID 110 ID 40 HI 18 129T ID 227mm 13\" 1330.2mm HI 50 1231043026 FLYWHEEL 13\"6H 129T NS FE6T LKA211 M17",
-                                                                                                                          "Lines":  [
-                                                                                                                                        {
-                                                                                                                                            "Text":  "GEAR",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "GEAR",
-                                                                                                                                                              "X":  47,
-                                                                                                                                                              "Y":  42,
-                                                                                                                                                              "Width":  67,
-                                                                                                                                                              "Height":  20
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "OD 392",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "OD",
-                                                                                                                                                              "X":  36,
-                                                                                                                                                              "Y":  77,
-                                                                                                                                                              "Width":  36,
-                                                                                                                                                              "Height":  19
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "392",
-                                                                                                                                                              "X":  80,
-                                                                                                                                                              "Y":  77,
-                                                                                                                                                              "Width":  44,
-                                                                                                                                                              "Height":  20
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "ID 362",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "ID",
-                                                                                                                                                              "X":  42,
-                                                                                                                                                              "Y":  112,
-                                                                                                                                                              "Width":  24,
-                                                                                                                                                              "Height":  19
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "362",
-                                                                                                                                                              "X":  74,
-                                                                                                                                                              "Y":  112,
-                                                                                                                                                              "Width":  44,
-                                                                                                                                                              "Height":  20
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "61-1 ID 16mm",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "61-1",
-                                                                                                                                                              "X":  447,
-                                                                                                                                                              "Y":  48,
-                                                                                                                                                              "Width":  50,
-                                                                                                                                                              "Height":  32
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "ID",
-                                                                                                                                                              "X":  512,
-                                                                                                                                                              "Y":  49,
-                                                                                                                                                              "Width":  38,
-                                                                                                                                                              "Height":  30
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "16mm",
-                                                                                                                                                              "X":  565,
-                                                                                                                                                              "Y":  48,
-                                                                                                                                                              "Width":  122,
-                                                                                                                                                              "Height":  32
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "ID 110",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "ID",
-                                                                                                                                                              "X":  571,
-                                                                                                                                                              "Y":  283,
-                                                                                                                                                              "Width":  38,
-                                                                                                                                                              "Height":  30
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "110",
-                                                                                                                                                              "X":  624,
-                                                                                                                                                              "Y":  282,
-                                                                                                                                                              "Width":  68,
-                                                                                                                                                              "Height":  32
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "ID 40",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "ID",
-                                                                                                                                                              "X":  266,
-                                                                                                                                                              "Y":  566,
-                                                                                                                                                              "Width":  38,
-                                                                                                                                                              "Height":  30
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "40",
-                                                                                                                                                              "X":  316,
-                                                                                                                                                              "Y":  565,
-                                                                                                                                                              "Width":  46,
-                                                                                                                                                              "Height":  32
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "HI 18",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "HI",
-                                                                                                                                                              "X":  265,
-                                                                                                                                                              "Y":  622,
-                                                                                                                                                              "Width":  39,
-                                                                                                                                                              "Height":  30
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "18",
-                                                                                                                                                              "X":  319,
-                                                                                                                                                              "Y":  621,
-                                                                                                                                                              "Width":  44,
-                                                                                                                                                              "Height":  32
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "129T",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "129T",
-                                                                                                                                                              "X":  215,
-                                                                                                                                                              "Y":  850,
-                                                                                                                                                              "Width":  95,
-                                                                                                                                                              "Height":  32
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "ID 227mm",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "ID",
-                                                                                                                                                              "X":  853,
-                                                                                                                                                              "Y":  569,
-                                                                                                                                                              "Width":  38,
-                                                                                                                                                              "Height":  30
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "227mm",
-                                                                                                                                                              "X":  904,
-                                                                                                                                                              "Y":  568,
-                                                                                                                                                              "Width":  148,
-                                                                                                                                                              "Height":  31
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "13\" 1330.2mm",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "13\"",
-                                                                                                                                                              "X":  801,
-                                                                                                                                                              "Y":  629,
-                                                                                                                                                              "Width":  62,
-                                                                                                                                                              "Height":  36
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "1330.2mm",
-                                                                                                                                                              "X":  886,
-                                                                                                                                                              "Y":  631,
-                                                                                                                                                              "Width":  213,
-                                                                                                                                                              "Height":  41
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "HI 50",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "HI",
-                                                                                                                                                              "X":  943,
-                                                                                                                                                              "Y":  914,
-                                                                                                                                                              "Width":  39,
-                                                                                                                                                              "Height":  30
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "50",
-                                                                                                                                                              "X":  995,
-                                                                                                                                                              "Y":  913,
-                                                                                                                                                              "Width":  46,
-                                                                                                                                                              "Height":  32
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "1231043026",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "1231043026",
-                                                                                                                                                              "X":  382,
-                                                                                                                                                              "Y":  1037,
-                                                                                                                                                              "Width":  491,
-                                                                                                                                                              "Height":  58
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "FLYWHEEL 13\"6H 129T NS FE6T LKA211",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "FLYWHEEL",
-                                                                                                                                                              "X":  267,
-                                                                                                                                                              "Y":  1113,
-                                                                                                                                                              "Width":  199,
-                                                                                                                                                              "Height":  29
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "13\"6H",
-                                                                                                                                                              "X":  479,
-                                                                                                                                                              "Y":  1113,
-                                                                                                                                                              "Width":  107,
-                                                                                                                                                              "Height":  29
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "129T",
-                                                                                                                                                              "X":  600,
-                                                                                                                                                              "Y":  1113,
-                                                                                                                                                              "Width":  84,
-                                                                                                                                                              "Height":  30
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "NS",
-                                                                                                                                                              "X":  697,
-                                                                                                                                                              "Y":  1113,
-                                                                                                                                                              "Width":  49,
-                                                                                                                                                              "Height":  29
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "FE6T",
-                                                                                                                                                              "X":  759,
-                                                                                                                                                              "Y":  1113,
-                                                                                                                                                              "Width":  92,
-                                                                                                                                                              "Height":  30
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "LKA211",
-                                                                                                                                                              "X":  864,
-                                                                                                                                                              "Y":  1113,
-                                                                                                                                                              "Width":  123,
-                                                                                                                                                              "Height":  29
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "M17",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "M17",
-                                                                                                                                                              "X":  593,
-                                                                                                                                                              "Y":  1166,
-                                                                                                                                                              "Width":  68,
-                                                                                                                                                              "Height":  29
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        }
-                                                                                                                                    ],
-                                                                                                                          "TextAngle":  0,
-                                                                                                                          "UpdatedAt":  "2026-06-29T23:36:11"
-                                                                                                                      },
     "c:\\users\\helon\\onedrive\\desktop\\nae-truck\\whatsapp-import\\whatsapp image 2026-04-17 at 6.04.37 pm.jpeg":  {
                                                                                                                           "Signature":  "194542|639182612689237852",
                                                                                                                           "Text":  "GEAR OD 440 ID 402 IOH 16mm ID 125 ID 46 HI 22 137T ABS HOLE 58 o ID 235mm 17 314\" / 500mm HI 62 12310-9ZOOD FLYWHEEL 17\" IOH 137T NS QUESTER GI-IB 21499565",
@@ -4215,6 +3934,306 @@
                                                                                                                            "TextAngle":  0,
                                                                                                                            "UpdatedAt":  "2026-06-29T23:35:42"
                                                                                                                        },
+    "c:\\users\\helon\\onedrive\\desktop\\nae-truck\\whatsapp-import\\whatsapp image 2026-04-22 at 6.00.53 pm.jpeg":  {
+                                                                                                                          "Signature":  "205088|639182612688790745",
+                                                                                                                          "Text":  "GEAR OD 498 ID 460 9H 17mm ID 125 ID 46/49 HI 31 12H MIO ID 203mm 16 112\" 1418mm 140T 1214 15mm HI 110 12310-96006 FLYWHEEL 16\" 140T NS RD8",
+                                                                                                                          "Lines":  [
+                                                                                                                                        {
+                                                                                                                                            "Text":  "GEAR",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "GEAR",
+                                                                                                                                                              "X":  43,
+                                                                                                                                                              "Y":  28,
+                                                                                                                                                              "Width":  73,
+                                                                                                                                                              "Height":  22
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "OD 498",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "OD",
+                                                                                                                                                              "X":  32,
+                                                                                                                                                              "Y":  66,
+                                                                                                                                                              "Width":  39,
+                                                                                                                                                              "Height":  22
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "498",
+                                                                                                                                                              "X":  78,
+                                                                                                                                                              "Y":  66,
+                                                                                                                                                              "Width":  49,
+                                                                                                                                                              "Height":  22
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "ID 460",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "ID",
+                                                                                                                                                              "X":  39,
+                                                                                                                                                              "Y":  104,
+                                                                                                                                                              "Width":  26,
+                                                                                                                                                              "Height":  21
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "460",
+                                                                                                                                                              "X":  72,
+                                                                                                                                                              "Y":  104,
+                                                                                                                                                              "Width":  49,
+                                                                                                                                                              "Height":  21
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "9H 17mm",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "9H",
+                                                                                                                                                              "X":  501,
+                                                                                                                                                              "Y":  121,
+                                                                                                                                                              "Width":  53,
+                                                                                                                                                              "Height":  32
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "17mm",
+                                                                                                                                                              "X":  569,
+                                                                                                                                                              "Y":  121,
+                                                                                                                                                              "Width":  125,
+                                                                                                                                                              "Height":  32
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "ID 125",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "ID",
+                                                                                                                                                              "X":  557,
+                                                                                                                                                              "Y":  284,
+                                                                                                                                                              "Width":  39,
+                                                                                                                                                              "Height":  32
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "125",
+                                                                                                                                                              "X":  610,
+                                                                                                                                                              "Y":  284,
+                                                                                                                                                              "Width":  70,
+                                                                                                                                                              "Height":  32
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "ID 46/49",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "ID",
+                                                                                                                                                              "X":  236,
+                                                                                                                                                              "Y":  568,
+                                                                                                                                                              "Width":  39,
+                                                                                                                                                              "Height":  31
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "46/49",
+                                                                                                                                                              "X":  286,
+                                                                                                                                                              "Y":  565,
+                                                                                                                                                              "Width":  114,
+                                                                                                                                                              "Height":  42
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "HI 31",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "HI",
+                                                                                                                                                              "X":  262,
+                                                                                                                                                              "Y":  625,
+                                                                                                                                                              "Width":  40,
+                                                                                                                                                              "Height":  31
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "31",
+                                                                                                                                                              "X":  315,
+                                                                                                                                                              "Y":  624,
+                                                                                                                                                              "Width":  48,
+                                                                                                                                                              "Height":  33
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "12H MIO",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "12H",
+                                                                                                                                                              "X":  698,
+                                                                                                                                                              "Y":  54,
+                                                                                                                                                              "Width":  76,
+                                                                                                                                                              "Height":  31
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "MIO",
+                                                                                                                                                              "X":  789,
+                                                                                                                                                              "Y":  54,
+                                                                                                                                                              "Width":  81,
+                                                                                                                                                              "Height":  32
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "ID 203mm",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "ID",
+                                                                                                                                                              "X":  879,
+                                                                                                                                                              "Y":  572,
+                                                                                                                                                              "Width":  39,
+                                                                                                                                                              "Height":  31
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "203mm",
+                                                                                                                                                              "X":  930,
+                                                                                                                                                              "Y":  572,
+                                                                                                                                                              "Width":  152,
+                                                                                                                                                              "Height":  32
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "16 112\" 1418mm",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "16",
+                                                                                                                                                              "X":  809,
+                                                                                                                                                              "Y":  672,
+                                                                                                                                                              "Width":  46,
+                                                                                                                                                              "Height":  33
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "112\"",
+                                                                                                                                                              "X":  869,
+                                                                                                                                                              "Y":  668,
+                                                                                                                                                              "Width":  79,
+                                                                                                                                                              "Height":  44
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "1418mm",
+                                                                                                                                                              "X":  972,
+                                                                                                                                                              "Y":  670,
+                                                                                                                                                              "Width":  178,
+                                                                                                                                                              "Height":  42
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "140T",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "140T",
+                                                                                                                                                              "X":  235,
+                                                                                                                                                              "Y":  880,
+                                                                                                                                                              "Width":  98,
+                                                                                                                                                              "Height":  33
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "1214 15mm",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "1214",
+                                                                                                                                                              "X":  99,
+                                                                                                                                                              "Y":  944,
+                                                                                                                                                              "Width":  76,
+                                                                                                                                                              "Height":  31
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "15mm",
+                                                                                                                                                              "X":  190,
+                                                                                                                                                              "Y":  944,
+                                                                                                                                                              "Width":  124,
+                                                                                                                                                              "Height":  32
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "HI 110",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "HI",
+                                                                                                                                                              "X":  976,
+                                                                                                                                                              "Y":  946,
+                                                                                                                                                              "Width":  40,
+                                                                                                                                                              "Height":  32
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "110",
+                                                                                                                                                              "X":  1031,
+                                                                                                                                                              "Y":  946,
+                                                                                                                                                              "Width":  70,
+                                                                                                                                                              "Height":  32
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "12310-96006",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "12310-96006",
+                                                                                                                                                              "X":  340,
+                                                                                                                                                              "Y":  1056,
+                                                                                                                                                              "Width":  599,
+                                                                                                                                                              "Height":  70
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "FLYWHEEL 16\" 140T NS RD8",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "FLYWHEEL",
+                                                                                                                                                              "X":  359,
+                                                                                                                                                              "Y":  1145,
+                                                                                                                                                              "Width":  189,
+                                                                                                                                                              "Height":  28
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "16\"",
+                                                                                                                                                              "X":  560,
+                                                                                                                                                              "Y":  1145,
+                                                                                                                                                              "Width":  52,
+                                                                                                                                                              "Height":  28
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "140T",
+                                                                                                                                                              "X":  693,
+                                                                                                                                                              "Y":  1145,
+                                                                                                                                                              "Width":  85,
+                                                                                                                                                              "Height":  28
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "NS",
+                                                                                                                                                              "X":  790,
+                                                                                                                                                              "Y":  1145,
+                                                                                                                                                              "Width":  46,
+                                                                                                                                                              "Height":  28
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "RD8",
+                                                                                                                                                              "X":  850,
+                                                                                                                                                              "Y":  1145,
+                                                                                                                                                              "Width":  70,
+                                                                                                                                                              "Height":  28
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        }
+                                                                                                                                    ],
+                                                                                                                          "TextAngle":  0,
+                                                                                                                          "UpdatedAt":  "2026-06-29T23:36:11"
+                                                                                                                      },
     "c:\\users\\helon\\onedrive\\desktop\\nae-truck\\whatsapp-import\\whatsapp image 2026-04-17 at 10.37.35 am.jpeg":  {
                                                                                                                            "Signature":  "198677|639182612689442856",
                                                                                                                            "Text":  "GEAR OD 485 ID 439 91-116mm ID 116 (7 c ID 62 HI 21 137T ABS HOLE 45 ID 245mm 17\" 1432mm HI 98 HINO-rw-pnc-45H FLYWHEEL 17\" ABS 45 ID 62 PIIC COMMAINRAIL 137T 91-1 (GOT ABS HOLE 45 HOLE ) GOT LEG",
@@ -5627,299 +5646,280 @@
                                                                                                                            "TextAngle":  0,
                                                                                                                            "UpdatedAt":  "2026-06-29T23:36:11"
                                                                                                                        },
-    "c:\\users\\helon\\onedrive\\desktop\\nae-truck\\whatsapp-import\\whatsapp image 2026-04-22 at 6.00.53 pm.jpeg":  {
-                                                                                                                          "Signature":  "205088|639182612688790745",
-                                                                                                                          "Text":  "GEAR OD 498 ID 460 9H 17mm ID 125 ID 46/49 HI 31 12H MIO ID 203mm 16 112\" 1418mm 140T 1214 15mm HI 110 12310-96006 FLYWHEEL 16\" 140T NS RD8",
+    "c:\\users\\helon\\onedrive\\desktop\\nae-truck\\whatsapp-import\\whatsapp image 2026-06-09 at 3.42.41 pm.jpeg":  {
+                                                                                                                          "Signature":  "217166|639182612688241333",
+                                                                                                                          "Text":  "GEAR OD 392 ID 362 61-1 ID 16mm ID 110 ID 40 HI 18 129T ID 227mm 13\" 1330.2mm HI 50 1231043026 FLYWHEEL 13\"6H 129T NS FE6T LKA211 M17",
                                                                                                                           "Lines":  [
                                                                                                                                         {
                                                                                                                                             "Text":  "GEAR",
                                                                                                                                             "Words":  [
                                                                                                                                                           {
                                                                                                                                                               "Text":  "GEAR",
-                                                                                                                                                              "X":  43,
-                                                                                                                                                              "Y":  28,
-                                                                                                                                                              "Width":  73,
-                                                                                                                                                              "Height":  22
+                                                                                                                                                              "X":  47,
+                                                                                                                                                              "Y":  42,
+                                                                                                                                                              "Width":  67,
+                                                                                                                                                              "Height":  20
                                                                                                                                                           }
                                                                                                                                                       ]
                                                                                                                                         },
                                                                                                                                         {
-                                                                                                                                            "Text":  "OD 498",
+                                                                                                                                            "Text":  "OD 392",
                                                                                                                                             "Words":  [
                                                                                                                                                           {
                                                                                                                                                               "Text":  "OD",
-                                                                                                                                                              "X":  32,
-                                                                                                                                                              "Y":  66,
-                                                                                                                                                              "Width":  39,
-                                                                                                                                                              "Height":  22
+                                                                                                                                                              "X":  36,
+                                                                                                                                                              "Y":  77,
+                                                                                                                                                              "Width":  36,
+                                                                                                                                                              "Height":  19
                                                                                                                                                           },
                                                                                                                                                           {
-                                                                                                                                                              "Text":  "498",
-                                                                                                                                                              "X":  78,
-                                                                                                                                                              "Y":  66,
-                                                                                                                                                              "Width":  49,
-                                                                                                                                                              "Height":  22
+                                                                                                                                                              "Text":  "392",
+                                                                                                                                                              "X":  80,
+                                                                                                                                                              "Y":  77,
+                                                                                                                                                              "Width":  44,
+                                                                                                                                                              "Height":  20
                                                                                                                                                           }
                                                                                                                                                       ]
                                                                                                                                         },
                                                                                                                                         {
-                                                                                                                                            "Text":  "ID 460",
+                                                                                                                                            "Text":  "ID 362",
                                                                                                                                             "Words":  [
                                                                                                                                                           {
                                                                                                                                                               "Text":  "ID",
-                                                                                                                                                              "X":  39,
-                                                                                                                                                              "Y":  104,
-                                                                                                                                                              "Width":  26,
-                                                                                                                                                              "Height":  21
+                                                                                                                                                              "X":  42,
+                                                                                                                                                              "Y":  112,
+                                                                                                                                                              "Width":  24,
+                                                                                                                                                              "Height":  19
                                                                                                                                                           },
                                                                                                                                                           {
-                                                                                                                                                              "Text":  "460",
-                                                                                                                                                              "X":  72,
-                                                                                                                                                              "Y":  104,
-                                                                                                                                                              "Width":  49,
-                                                                                                                                                              "Height":  21
+                                                                                                                                                              "Text":  "362",
+                                                                                                                                                              "X":  74,
+                                                                                                                                                              "Y":  112,
+                                                                                                                                                              "Width":  44,
+                                                                                                                                                              "Height":  20
                                                                                                                                                           }
                                                                                                                                                       ]
                                                                                                                                         },
                                                                                                                                         {
-                                                                                                                                            "Text":  "9H 17mm",
+                                                                                                                                            "Text":  "61-1 ID 16mm",
                                                                                                                                             "Words":  [
                                                                                                                                                           {
-                                                                                                                                                              "Text":  "9H",
-                                                                                                                                                              "X":  501,
-                                                                                                                                                              "Y":  121,
-                                                                                                                                                              "Width":  53,
+                                                                                                                                                              "Text":  "61-1",
+                                                                                                                                                              "X":  447,
+                                                                                                                                                              "Y":  48,
+                                                                                                                                                              "Width":  50,
                                                                                                                                                               "Height":  32
                                                                                                                                                           },
                                                                                                                                                           {
-                                                                                                                                                              "Text":  "17mm",
-                                                                                                                                                              "X":  569,
-                                                                                                                                                              "Y":  121,
-                                                                                                                                                              "Width":  125,
+                                                                                                                                                              "Text":  "ID",
+                                                                                                                                                              "X":  512,
+                                                                                                                                                              "Y":  49,
+                                                                                                                                                              "Width":  38,
+                                                                                                                                                              "Height":  30
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "16mm",
+                                                                                                                                                              "X":  565,
+                                                                                                                                                              "Y":  48,
+                                                                                                                                                              "Width":  122,
                                                                                                                                                               "Height":  32
                                                                                                                                                           }
                                                                                                                                                       ]
                                                                                                                                         },
                                                                                                                                         {
-                                                                                                                                            "Text":  "ID 125",
+                                                                                                                                            "Text":  "ID 110",
                                                                                                                                             "Words":  [
                                                                                                                                                           {
                                                                                                                                                               "Text":  "ID",
-                                                                                                                                                              "X":  557,
-                                                                                                                                                              "Y":  284,
-                                                                                                                                                              "Width":  39,
-                                                                                                                                                              "Height":  32
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "125",
-                                                                                                                                                              "X":  610,
-                                                                                                                                                              "Y":  284,
-                                                                                                                                                              "Width":  70,
-                                                                                                                                                              "Height":  32
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "ID 46/49",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "ID",
-                                                                                                                                                              "X":  236,
-                                                                                                                                                              "Y":  568,
-                                                                                                                                                              "Width":  39,
-                                                                                                                                                              "Height":  31
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "46/49",
-                                                                                                                                                              "X":  286,
-                                                                                                                                                              "Y":  565,
-                                                                                                                                                              "Width":  114,
-                                                                                                                                                              "Height":  42
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "HI 31",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "HI",
-                                                                                                                                                              "X":  262,
-                                                                                                                                                              "Y":  625,
-                                                                                                                                                              "Width":  40,
-                                                                                                                                                              "Height":  31
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "31",
-                                                                                                                                                              "X":  315,
-                                                                                                                                                              "Y":  624,
-                                                                                                                                                              "Width":  48,
-                                                                                                                                                              "Height":  33
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "12H MIO",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "12H",
-                                                                                                                                                              "X":  698,
-                                                                                                                                                              "Y":  54,
-                                                                                                                                                              "Width":  76,
-                                                                                                                                                              "Height":  31
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "MIO",
-                                                                                                                                                              "X":  789,
-                                                                                                                                                              "Y":  54,
-                                                                                                                                                              "Width":  81,
-                                                                                                                                                              "Height":  32
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "ID 203mm",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "ID",
-                                                                                                                                                              "X":  879,
-                                                                                                                                                              "Y":  572,
-                                                                                                                                                              "Width":  39,
-                                                                                                                                                              "Height":  31
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "203mm",
-                                                                                                                                                              "X":  930,
-                                                                                                                                                              "Y":  572,
-                                                                                                                                                              "Width":  152,
-                                                                                                                                                              "Height":  32
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "16 112\" 1418mm",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "16",
-                                                                                                                                                              "X":  809,
-                                                                                                                                                              "Y":  672,
-                                                                                                                                                              "Width":  46,
-                                                                                                                                                              "Height":  33
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "112\"",
-                                                                                                                                                              "X":  869,
-                                                                                                                                                              "Y":  668,
-                                                                                                                                                              "Width":  79,
-                                                                                                                                                              "Height":  44
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "1418mm",
-                                                                                                                                                              "X":  972,
-                                                                                                                                                              "Y":  670,
-                                                                                                                                                              "Width":  178,
-                                                                                                                                                              "Height":  42
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "140T",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "140T",
-                                                                                                                                                              "X":  235,
-                                                                                                                                                              "Y":  880,
-                                                                                                                                                              "Width":  98,
-                                                                                                                                                              "Height":  33
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "1214 15mm",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "1214",
-                                                                                                                                                              "X":  99,
-                                                                                                                                                              "Y":  944,
-                                                                                                                                                              "Width":  76,
-                                                                                                                                                              "Height":  31
-                                                                                                                                                          },
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "15mm",
-                                                                                                                                                              "X":  190,
-                                                                                                                                                              "Y":  944,
-                                                                                                                                                              "Width":  124,
-                                                                                                                                                              "Height":  32
-                                                                                                                                                          }
-                                                                                                                                                      ]
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "Text":  "HI 110",
-                                                                                                                                            "Words":  [
-                                                                                                                                                          {
-                                                                                                                                                              "Text":  "HI",
-                                                                                                                                                              "X":  976,
-                                                                                                                                                              "Y":  946,
-                                                                                                                                                              "Width":  40,
-                                                                                                                                                              "Height":  32
+                                                                                                                                                              "X":  571,
+                                                                                                                                                              "Y":  283,
+                                                                                                                                                              "Width":  38,
+                                                                                                                                                              "Height":  30
                                                                                                                                                           },
                                                                                                                                                           {
                                                                                                                                                               "Text":  "110",
-                                                                                                                                                              "X":  1031,
-                                                                                                                                                              "Y":  946,
-                                                                                                                                                              "Width":  70,
+                                                                                                                                                              "X":  624,
+                                                                                                                                                              "Y":  282,
+                                                                                                                                                              "Width":  68,
                                                                                                                                                               "Height":  32
                                                                                                                                                           }
                                                                                                                                                       ]
                                                                                                                                         },
                                                                                                                                         {
-                                                                                                                                            "Text":  "12310-96006",
+                                                                                                                                            "Text":  "ID 40",
                                                                                                                                             "Words":  [
                                                                                                                                                           {
-                                                                                                                                                              "Text":  "12310-96006",
-                                                                                                                                                              "X":  340,
-                                                                                                                                                              "Y":  1056,
-                                                                                                                                                              "Width":  599,
-                                                                                                                                                              "Height":  70
+                                                                                                                                                              "Text":  "ID",
+                                                                                                                                                              "X":  266,
+                                                                                                                                                              "Y":  566,
+                                                                                                                                                              "Width":  38,
+                                                                                                                                                              "Height":  30
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "40",
+                                                                                                                                                              "X":  316,
+                                                                                                                                                              "Y":  565,
+                                                                                                                                                              "Width":  46,
+                                                                                                                                                              "Height":  32
                                                                                                                                                           }
                                                                                                                                                       ]
                                                                                                                                         },
                                                                                                                                         {
-                                                                                                                                            "Text":  "FLYWHEEL 16\" 140T NS RD8",
+                                                                                                                                            "Text":  "HI 18",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "HI",
+                                                                                                                                                              "X":  265,
+                                                                                                                                                              "Y":  622,
+                                                                                                                                                              "Width":  39,
+                                                                                                                                                              "Height":  30
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "18",
+                                                                                                                                                              "X":  319,
+                                                                                                                                                              "Y":  621,
+                                                                                                                                                              "Width":  44,
+                                                                                                                                                              "Height":  32
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "129T",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "129T",
+                                                                                                                                                              "X":  215,
+                                                                                                                                                              "Y":  850,
+                                                                                                                                                              "Width":  95,
+                                                                                                                                                              "Height":  32
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "ID 227mm",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "ID",
+                                                                                                                                                              "X":  853,
+                                                                                                                                                              "Y":  569,
+                                                                                                                                                              "Width":  38,
+                                                                                                                                                              "Height":  30
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "227mm",
+                                                                                                                                                              "X":  904,
+                                                                                                                                                              "Y":  568,
+                                                                                                                                                              "Width":  148,
+                                                                                                                                                              "Height":  31
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "13\" 1330.2mm",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "13\"",
+                                                                                                                                                              "X":  801,
+                                                                                                                                                              "Y":  629,
+                                                                                                                                                              "Width":  62,
+                                                                                                                                                              "Height":  36
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "1330.2mm",
+                                                                                                                                                              "X":  886,
+                                                                                                                                                              "Y":  631,
+                                                                                                                                                              "Width":  213,
+                                                                                                                                                              "Height":  41
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "HI 50",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "HI",
+                                                                                                                                                              "X":  943,
+                                                                                                                                                              "Y":  914,
+                                                                                                                                                              "Width":  39,
+                                                                                                                                                              "Height":  30
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "50",
+                                                                                                                                                              "X":  995,
+                                                                                                                                                              "Y":  913,
+                                                                                                                                                              "Width":  46,
+                                                                                                                                                              "Height":  32
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "1231043026",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "1231043026",
+                                                                                                                                                              "X":  382,
+                                                                                                                                                              "Y":  1037,
+                                                                                                                                                              "Width":  491,
+                                                                                                                                                              "Height":  58
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "FLYWHEEL 13\"6H 129T NS FE6T LKA211",
                                                                                                                                             "Words":  [
                                                                                                                                                           {
                                                                                                                                                               "Text":  "FLYWHEEL",
-                                                                                                                                                              "X":  359,
-                                                                                                                                                              "Y":  1145,
-                                                                                                                                                              "Width":  189,
-                                                                                                                                                              "Height":  28
+                                                                                                                                                              "X":  267,
+                                                                                                                                                              "Y":  1113,
+                                                                                                                                                              "Width":  199,
+                                                                                                                                                              "Height":  29
                                                                                                                                                           },
                                                                                                                                                           {
-                                                                                                                                                              "Text":  "16\"",
-                                                                                                                                                              "X":  560,
-                                                                                                                                                              "Y":  1145,
-                                                                                                                                                              "Width":  52,
-                                                                                                                                                              "Height":  28
+                                                                                                                                                              "Text":  "13\"6H",
+                                                                                                                                                              "X":  479,
+                                                                                                                                                              "Y":  1113,
+                                                                                                                                                              "Width":  107,
+                                                                                                                                                              "Height":  29
                                                                                                                                                           },
                                                                                                                                                           {
-                                                                                                                                                              "Text":  "140T",
-                                                                                                                                                              "X":  693,
-                                                                                                                                                              "Y":  1145,
-                                                                                                                                                              "Width":  85,
-                                                                                                                                                              "Height":  28
+                                                                                                                                                              "Text":  "129T",
+                                                                                                                                                              "X":  600,
+                                                                                                                                                              "Y":  1113,
+                                                                                                                                                              "Width":  84,
+                                                                                                                                                              "Height":  30
                                                                                                                                                           },
                                                                                                                                                           {
                                                                                                                                                               "Text":  "NS",
-                                                                                                                                                              "X":  790,
-                                                                                                                                                              "Y":  1145,
-                                                                                                                                                              "Width":  46,
-                                                                                                                                                              "Height":  28
+                                                                                                                                                              "X":  697,
+                                                                                                                                                              "Y":  1113,
+                                                                                                                                                              "Width":  49,
+                                                                                                                                                              "Height":  29
                                                                                                                                                           },
                                                                                                                                                           {
-                                                                                                                                                              "Text":  "RD8",
-                                                                                                                                                              "X":  850,
-                                                                                                                                                              "Y":  1145,
-                                                                                                                                                              "Width":  70,
-                                                                                                                                                              "Height":  28
+                                                                                                                                                              "Text":  "FE6T",
+                                                                                                                                                              "X":  759,
+                                                                                                                                                              "Y":  1113,
+                                                                                                                                                              "Width":  92,
+                                                                                                                                                              "Height":  30
+                                                                                                                                                          },
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "LKA211",
+                                                                                                                                                              "X":  864,
+                                                                                                                                                              "Y":  1113,
+                                                                                                                                                              "Width":  123,
+                                                                                                                                                              "Height":  29
+                                                                                                                                                          }
+                                                                                                                                                      ]
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "Text":  "M17",
+                                                                                                                                            "Words":  [
+                                                                                                                                                          {
+                                                                                                                                                              "Text":  "M17",
+                                                                                                                                                              "X":  593,
+                                                                                                                                                              "Y":  1166,
+                                                                                                                                                              "Width":  68,
+                                                                                                                                                              "Height":  29
                                                                                                                                                           }
                                                                                                                                                       ]
                                                                                                                                         }

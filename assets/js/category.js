@@ -1,6 +1,6 @@
 const productData = {
   'engine-parts': {
-    title: 'Engine Parts',
+   title: 'Engine Parts',
     icon: '\u2b21',
     intro: 'Heavy-duty engine components for reliable power, efficiency and long-haul durability.',
     products: [
@@ -323,8 +323,12 @@ function renderProductCard(product, highlightTerms) {
     product.brand
   ].filter(Boolean).slice(0, 4);
   const imageMarkup = product.image
-    ? `<img loading="lazy" src="${escapeHtml(assetPath(product.image))}" alt="${escapeHtml(`${product.name} ${product.number}`)}">`
-    : `<i>${escapeHtml(data.icon)}</i>`;
+  ? `<img
+      class="product-photo"
+      loading="lazy"
+      src="${escapeHtml(assetPath(product.image))}"
+      alt="${escapeHtml(`${product.name} ${product.number}`)}">`
+  : `<i>${escapeHtml(data.icon)}</i>`;
   const badge = product.isImported ? 'Imported product' : 'Catalogue preview';
   const description = product.description || product.application || 'Heavy-duty replacement part';
 
@@ -334,9 +338,9 @@ function renderProductCard(product, highlightTerms) {
       ${imageMarkup}
     </div>
     <div class="product-body">
-      <span class="product-code">${highlightText(product.number, highlightTerms)}</span>
-      <h3>${highlightText(product.name, highlightTerms)}</h3>
-      <p class="product-code">${highlightText(description, highlightTerms)}</p>
+    <h3>${highlightText(product.number, highlightTerms)}</h3>
+    <span class="product-name">${highlightText(product.name, highlightTerms)}</span>
+<p class="product-code">${highlightText(description, highlightTerms)}</p>
       <div class="product-meta">${meta.map(item => `<span>${highlightText(item, highlightTerms)}</span>`).join('')}</div>
       <div class="product-action">
         <small>${escapeHtml(product.availability)}</small>
@@ -396,6 +400,7 @@ function render() {
       location.href = '../../index.html#contact';
     });
   });
+  initLightbox();
 }
 
 function scheduleRender() {
@@ -416,3 +421,34 @@ function scheduleRender() {
 
 enhanceSearchBar();
 render();
+initLightbox();
+
+const lightbox = document.createElement("div");
+lightbox.id = "image-lightbox";
+lightbox.innerHTML = `<img src="">`;
+document.body.appendChild(lightbox);
+
+const lightboxImg = lightbox.querySelector("img");
+
+function initLightbox() {
+
+  document.querySelectorAll(".product-photo").forEach(img => {
+
+    img.onclick = () => {
+
+      lightbox.style.display = "flex";
+
+      lightboxImg.src = img.src;
+
+    };
+
+  });
+
+}
+
+lightbox.onclick = () => {
+
+  lightbox.style.display = "none";
+
+};
+
