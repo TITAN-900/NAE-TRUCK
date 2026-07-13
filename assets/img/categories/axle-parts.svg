@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Axle Parts placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#111214"/>
+      <stop offset="1" stop-color="#2a1a12"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#bg)"/>
+  <rect x="58" y="58" width="524" height="304" rx="18" fill="#191a1c" stroke="#3a3b3d"/>
+  <path d="M146 214h348" stroke="#f36b21" stroke-width="36" stroke-linecap="round"/>
+  <circle cx="178" cy="214" r="58" fill="#f2f0ec"/>
+  <circle cx="462" cy="214" r="58" fill="#f2f0ec"/>
+  <circle cx="178" cy="214" r="24" fill="#111214"/>
+  <circle cx="462" cy="214" r="24" fill="#111214"/>
+  <text x="70" y="90" fill="#8c8d90" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="4">TEMPORARY THUMBNAIL</text>
+  <text x="70" y="346" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900">AXLE PARTS</text>
+</svg>

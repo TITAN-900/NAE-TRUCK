@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Cooling System placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#111214"/>
+      <stop offset="1" stop-color="#2a1a12"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#bg)"/>
+  <rect x="58" y="58" width="524" height="304" rx="18" fill="#191a1c" stroke="#3a3b3d"/>
+  <rect x="214" y="122" width="212" height="164" rx="16" fill="#f36b21"/>
+  <g stroke="#111214" stroke-width="12">
+    <path d="M250 130v148"/>
+    <path d="M286 130v148"/>
+    <path d="M322 130v148"/>
+    <path d="M358 130v148"/>
+    <path d="M394 130v148"/>
+  </g>
+  <path d="M184 166h46M410 166h46M184 238h46M410 238h46" stroke="#f2f0ec" stroke-width="18" stroke-linecap="round"/>
+  <text x="70" y="90" fill="#8c8d90" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="4">TEMPORARY THUMBNAIL</text>
+  <text x="70" y="346" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900">COOLING SYSTEM</text>
+</svg>
