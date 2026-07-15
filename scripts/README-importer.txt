@@ -6,9 +6,27 @@ Main command:
 Normal future workflow:
   1. Put new WhatsApp product images into whatsapp-import.
   2. Run the command above from the project folder.
-  3. New recognized products are added to assets/data/products.generated.json and products.generated.js.
-  4. Duplicate product numbers are skipped.
-  5. Uncertain OCR results are written to whatsapp-import/review.
+  3. New recognized products are copied safely into assets/img/products.
+  4. Product data is added to assets/data/products.generated.json and products.generated.js.
+  5. Duplicate product numbers are skipped, or safely updated only if existing fields/images are missing.
+  6. Uncertain OCR results are written to whatsapp-import/review.
+
+Product data architecture:
+  assets/data/catalogue.json
+    Category metadata only: category slugs, labels, thumbnails and category preview tags.
+    Do not use this as a second product database.
+
+  assets/data/products.generated.json
+  assets/data/products.generated.js
+    The generated product catalogue used by the website for real imported products.
+    These files are the single source for product cards created from WhatsApp images.
+
+  assets/img/products
+    Safe product image destination. Existing files are not overwritten.
+
+Recognition rules:
+  The importer must identify product number, product name/category, and vehicle brand/type before importing.
+  If any of these are uncertain, the item goes to whatsapp-import/review instead of being guessed.
 
 Useful options:
   -DryRun
@@ -18,7 +36,7 @@ Useful options:
     Re-read all images instead of using whatsapp-import/.ocr-cache.json.
 
   -RebuildGeneratedData
-    Rebuild generated catalogue data from source images. This is useful after improving parser rules.
+    Rebuild generated catalogue data from source images. Use carefully; normal imports should not need this.
 
 How it is organized:
   scripts/import-whatsapp-products.ps1

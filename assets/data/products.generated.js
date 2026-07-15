@@ -562,10 +562,11 @@ window.NAE_IMPORTED_PRODUCTS = [
     }
 ];
 window.NAE_IMPORT_META = {
-    "generatedAt":  "2026-07-03T00:13:10",
+    "generatedAt":  "2026-07-15T23:01:45",
     "totalProducts":  12,
     "importedThisRun":  0,
-    "skippedDuplicates":  12,
-    "needsReview":  9,
+    "updatedThisRun":  0,
+    "skippedDuplicates":  0,
+    "needsReview":  59,
     "source":  "whatsapp-import"
 };

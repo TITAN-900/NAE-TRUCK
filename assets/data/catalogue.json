@@ -9,62 +9,11 @@
       "desc": "Core components for dependable heavy-duty power.",
       "intro": "Heavy-duty engine components for reliable power, efficiency and long-haul durability.",
       "thumbnail": "assets/img/categories/engine-parts.svg",
-      "items": ["Pistons & liners", "Gasket sets", "Oil pumps", "Turbo components"],
-      "products": [
-        {
-          "number": "NAE-ENG-001",
-          "name": "Piston & Liner Kit",
-          "description": "Engine internal replacement kit for heavy-duty diesel operation.",
-          "brand": "SINOTRUK HOWO",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/engine-parts.svg",
-          "specs": ["Engine internal", "Cylinder liner", "Heavy-duty diesel"]
-        },
-        {
-          "number": "NAE-ENG-002",
-          "name": "Cylinder Head Assembly",
-          "description": "Top-end engine assembly for commercial truck repair and overhaul.",
-          "brand": "SHACMAN",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/engine-parts.svg",
-          "specs": ["Top end", "Diesel engine", "Workshop replacement"]
-        },
-        {
-          "number": "NAE-ENG-003",
-          "name": "Full Gasket Set",
-          "description": "Complete sealing set for engine service and rebuild work.",
-          "brand": "FAW",
-          "availability": "On request",
-          "image": "assets/img/categories/engine-parts.svg",
-          "specs": ["Gasket set", "Engine sealing", "Multiple applications"]
-        },
-        {
-          "number": "NAE-ENG-004",
-          "name": "Engine Oil Pump",
-          "description": "High-flow lubrication pump for long-haul engine protection.",
-          "brand": "DONGFENG",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/engine-parts.svg",
-          "specs": ["Lubrication", "Oil pressure", "High-flow replacement"]
-        },
-        {
-          "number": "NAE-ENG-005",
-          "name": "Turbocharger Assembly",
-          "description": "Air induction replacement assembly for heavy commercial duty.",
-          "brand": "FOTON",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/engine-parts.svg",
-          "specs": ["Turbo", "Air induction", "Commercial duty"]
-        },
-        {
-          "number": "NAE-ENG-006",
-          "name": "Connecting Rod Bearing",
-          "description": "Precision engine bearing for heavy-duty rebuild applications.",
-          "brand": "JAC HEAVY",
-          "availability": "On request",
-          "image": "assets/img/categories/engine-parts.svg",
-          "specs": ["Bearing", "Engine internal", "Standard size"]
-        }
+      "items": [
+        "Pistons & liners",
+        "Gasket sets",
+        "Oil pumps",
+        "Turbo components"
       ]
     },
     {
@@ -74,62 +23,11 @@
       "desc": "High-load engagement and driveline control.",
       "intro": "Engagement, release and actuation parts engineered for heavy commercial drivetrains.",
       "thumbnail": "assets/img/categories/clutch-system.svg",
-      "items": ["Clutch discs", "Pressure plates", "Release bearings", "Clutch boosters"],
-      "products": [
-        {
-          "number": "NAE-CLU-001",
-          "name": "Clutch Disc Assembly",
-          "description": "Heavy-duty clutch disc for prime mover driveline service.",
-          "brand": "SINOTRUK HOWO",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/clutch-system.svg",
-          "specs": ["430 mm class", "Prime mover", "High-load engagement"]
-        },
-        {
-          "number": "NAE-CLU-002",
-          "name": "Clutch Pressure Plate",
-          "description": "High clamp-load pressure plate for commercial drivetrain repair.",
-          "brand": "SHACMAN",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/clutch-system.svg",
-          "specs": ["Pressure plate", "Heavy-duty", "High clamp load"]
-        },
-        {
-          "number": "NAE-CLU-003",
-          "name": "Release Bearing",
-          "description": "Clutch release bearing for workshop replacement applications.",
-          "brand": "FAW",
-          "availability": "On request",
-          "image": "assets/img/categories/clutch-system.svg",
-          "specs": ["Release bearing", "Clutch release", "Multiple applications"]
-        },
-        {
-          "number": "NAE-CLU-004",
-          "name": "Clutch Booster",
-          "description": "Air-assisted clutch booster for cab-over heavy trucks.",
-          "brand": "DONGFENG",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/clutch-system.svg",
-          "specs": ["Air-assisted", "Cab-over truck", "Driveline control"]
-        },
-        {
-          "number": "NAE-CLU-005",
-          "name": "Clutch Master Cylinder",
-          "description": "Hydraulic clutch master cylinder for replacement service.",
-          "brand": "FOTON",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/clutch-system.svg",
-          "specs": ["Hydraulic", "Master cylinder", "Replacement"]
-        },
-        {
-          "number": "NAE-CLU-006",
-          "name": "Clutch Fork Assembly",
-          "description": "Commercial-duty actuation fork for clutch release systems.",
-          "brand": "JAC HEAVY",
-          "availability": "On request",
-          "image": "assets/img/categories/clutch-system.svg",
-          "specs": ["Actuation", "Release system", "Commercial duty"]
-        }
+      "items": [
+        "Clutch discs",
+        "Pressure plates",
+        "Release bearings",
+        "Clutch boosters"
       ]
     },
     {
@@ -139,62 +37,11 @@
       "desc": "Stopping confidence for trucks and trailers.",
       "intro": "Pneumatic and friction components for confident heavy-truck and trailer braking.",
       "thumbnail": "assets/img/categories/brake-system.svg",
-      "items": ["Brake linings", "Brake chambers", "Valves", "Air dryers"],
-      "products": [
-        {
-          "number": "NAE-BRA-001",
-          "name": "Brake Lining Set",
-          "description": "Friction lining set for heavy truck axle braking service.",
-          "brand": "SINOTRUK HOWO",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/brake-system.svg",
-          "specs": ["Friction", "Truck axle", "Brake lining"]
-        },
-        {
-          "number": "NAE-BRA-002",
-          "name": "Spring Brake Chamber",
-          "description": "Air brake chamber for truck and trailer brake systems.",
-          "brand": "SHACMAN",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/brake-system.svg",
-          "specs": ["Air brake", "Truck / trailer", "Spring chamber"]
-        },
-        {
-          "number": "NAE-BRA-003",
-          "name": "Four-Circuit Valve",
-          "description": "Air management valve for heavy-duty pneumatic brake control.",
-          "brand": "FAW",
-          "availability": "On request",
-          "image": "assets/img/categories/brake-system.svg",
-          "specs": ["Air management", "Valve", "Heavy-duty"]
-        },
-        {
-          "number": "NAE-BRA-004",
-          "name": "Air Dryer Assembly",
-          "description": "Air treatment assembly for prime mover brake reliability.",
-          "brand": "DONGFENG",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/brake-system.svg",
-          "specs": ["Air treatment", "Prime mover", "Moisture control"]
-        },
-        {
-          "number": "NAE-BRA-005",
-          "name": "Relay Valve",
-          "description": "Relay valve for responsive truck and trailer brake operation.",
-          "brand": "FOTON",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/brake-system.svg",
-          "specs": ["Air brake", "Trailer compatible", "Relay valve"]
-        },
-        {
-          "number": "NAE-BRA-006",
-          "name": "Brake Drum",
-          "description": "Commercial-duty wheel-end brake drum for heavy vehicles.",
-          "brand": "JAC HEAVY",
-          "availability": "On request",
-          "image": "assets/img/categories/brake-system.svg",
-          "specs": ["Wheel end", "Brake drum", "Commercial duty"]
-        }
+      "items": [
+        "Brake linings",
+        "Brake chambers",
+        "Valves",
+        "Air dryers"
       ]
     },
     {
@@ -204,62 +51,11 @@
       "desc": "Ride control for demanding roads and payloads.",
       "intro": "Load-control and ride components for prime movers, container haulers and trailers.",
       "thumbnail": "assets/img/categories/suspension-system.svg",
-      "items": ["Leaf springs", "Torque rods", "Shock absorbers", "Air springs"],
-      "products": [
-        {
-          "number": "NAE-SUS-001",
-          "name": "Front Leaf Spring",
-          "description": "Steel suspension leaf spring for heavy front axle support.",
-          "brand": "SINOTRUK HOWO",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/suspension-system.svg",
-          "specs": ["Steel suspension", "Heavy axle", "Leaf spring"]
-        },
-        {
-          "number": "NAE-SUS-002",
-          "name": "Torque Rod Assembly",
-          "description": "Axle location torque rod assembly for prime movers.",
-          "brand": "SHACMAN",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/suspension-system.svg",
-          "specs": ["Axle location", "Prime mover", "Torque rod"]
-        },
-        {
-          "number": "NAE-SUS-003",
-          "name": "Cab Shock Absorber",
-          "description": "Cab suspension shock absorber for front or rear installation.",
-          "brand": "FAW",
-          "availability": "On request",
-          "image": "assets/img/categories/suspension-system.svg",
-          "specs": ["Cab suspension", "Front / rear", "Shock absorber"]
-        },
-        {
-          "number": "NAE-SUS-004",
-          "name": "Air Spring Bellows",
-          "description": "Air suspension bellows for truck and trailer load control.",
-          "brand": "DONGFENG",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/suspension-system.svg",
-          "specs": ["Air suspension", "Truck / trailer", "Air spring"]
-        },
-        {
-          "number": "NAE-SUS-005",
-          "name": "Stabiliser Bar Link",
-          "description": "Heavy-duty chassis control link for suspension service.",
-          "brand": "FOTON",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/suspension-system.svg",
-          "specs": ["Chassis control", "Heavy-duty", "Stabiliser link"]
-        },
-        {
-          "number": "NAE-SUS-006",
-          "name": "Spring Shackle Kit",
-          "description": "Suspension mounting kit for commercial vehicle repair.",
-          "brand": "JAC HEAVY",
-          "availability": "On request",
-          "image": "assets/img/categories/suspension-system.svg",
-          "specs": ["Suspension mount", "Replacement", "Shackle kit"]
-        }
+      "items": [
+        "Leaf springs",
+        "Torque rods",
+        "Shock absorbers",
+        "Air springs"
       ]
     },
     {
@@ -269,62 +65,11 @@
       "desc": "Thermal management for long-haul operation.",
       "intro": "Cooling and temperature-control parts that help heavy engines perform under load.",
       "thumbnail": "assets/img/categories/cooling-system.svg",
-      "items": ["Water pumps", "Radiators", "Fan clutches", "Thermostats"],
-      "products": [
-        {
-          "number": "NAE-COO-001",
-          "name": "Engine Water Pump",
-          "description": "Coolant circulation pump for heavy diesel engine service.",
-          "brand": "SINOTRUK HOWO",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/cooling-system.svg",
-          "specs": ["Coolant circulation", "Heavy diesel", "Water pump"]
-        },
-        {
-          "number": "NAE-COO-002",
-          "name": "Radiator Assembly",
-          "description": "Heat exchange radiator assembly for prime mover cooling.",
-          "brand": "SHACMAN",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/cooling-system.svg",
-          "specs": ["Heat exchange", "Prime mover", "Radiator"]
-        },
-        {
-          "number": "NAE-COO-003",
-          "name": "Fan Clutch",
-          "description": "Thermal control fan clutch for heavy-duty engine cooling.",
-          "brand": "FAW",
-          "availability": "On request",
-          "image": "assets/img/categories/cooling-system.svg",
-          "specs": ["Thermal control", "Heavy-duty", "Fan clutch"]
-        },
-        {
-          "number": "NAE-COO-004",
-          "name": "Thermostat Kit",
-          "description": "Temperature-control thermostat kit for multiple ratings.",
-          "brand": "DONGFENG",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/cooling-system.svg",
-          "specs": ["Temperature control", "Multiple ratings", "Thermostat"]
-        },
-        {
-          "number": "NAE-COO-005",
-          "name": "Expansion Tank",
-          "description": "Coolant reserve tank for cab-over truck applications.",
-          "brand": "FOTON",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/cooling-system.svg",
-          "specs": ["Coolant reserve", "Cab-over truck", "Expansion tank"]
-        },
-        {
-          "number": "NAE-COO-006",
-          "name": "Radiator Hose Set",
-          "description": "Model-specific coolant hose set for heavy truck cooling.",
-          "brand": "JAC HEAVY",
-          "availability": "On request",
-          "image": "assets/img/categories/cooling-system.svg",
-          "specs": ["Coolant transfer", "Model specific", "Radiator hose"]
-        }
+      "items": [
+        "Water pumps",
+        "Radiators",
+        "Fan clutches",
+        "Thermostats"
       ]
     },
     {
@@ -334,62 +79,11 @@
       "desc": "Starting, charging and vehicle electronics.",
       "intro": "Starting, charging, sensing and control components for modern heavy commercial vehicles.",
       "thumbnail": "assets/img/categories/electrical-system.svg",
-      "items": ["Starters", "Alternators", "Sensors", "Switches"],
-      "products": [
-        {
-          "number": "NAE-ELE-001",
-          "name": "Starter Motor",
-          "description": "24V starter motor for heavy diesel engine applications.",
-          "brand": "SINOTRUK HOWO",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/electrical-system.svg",
-          "specs": ["24V system", "Heavy diesel", "Starter"]
-        },
-        {
-          "number": "NAE-ELE-002",
-          "name": "Alternator Assembly",
-          "description": "24V commercial charging alternator for fleet service.",
-          "brand": "SHACMAN",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/electrical-system.svg",
-          "specs": ["Charging", "24V commercial", "Alternator"]
-        },
-        {
-          "number": "NAE-ELE-003",
-          "name": "Crankshaft Sensor",
-          "description": "Engine sensing component for electronic diesel systems.",
-          "brand": "FAW",
-          "availability": "On request",
-          "image": "assets/img/categories/electrical-system.svg",
-          "specs": ["Engine sensing", "Electronic diesel", "Sensor"]
-        },
-        {
-          "number": "NAE-ELE-004",
-          "name": "Combination Switch",
-          "description": "Cab control switch assembly for model-specific replacement.",
-          "brand": "DONGFENG",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/electrical-system.svg",
-          "specs": ["Cab controls", "Model specific", "Switch"]
-        },
-        {
-          "number": "NAE-ELE-005",
-          "name": "Headlamp Assembly",
-          "description": "Left or right lighting assembly for heavy truck repair.",
-          "brand": "FOTON",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/electrical-system.svg",
-          "specs": ["Lighting", "Left / right", "Headlamp"]
-        },
-        {
-          "number": "NAE-ELE-006",
-          "name": "Relay & Fuse Module",
-          "description": "Electrical control module for heavy truck circuit service.",
-          "brand": "JAC HEAVY",
-          "availability": "On request",
-          "image": "assets/img/categories/electrical-system.svg",
-          "specs": ["Electrical control", "Heavy truck", "Relay fuse"]
-        }
+      "items": [
+        "Starters",
+        "Alternators",
+        "Sensors",
+        "Switches"
       ]
     },
     {
@@ -399,62 +93,11 @@
       "desc": "Precise control for heavy commercial chassis.",
       "intro": "Hydraulic and mechanical steering components for accurate, dependable road control.",
       "thumbnail": "assets/img/categories/steering-system.svg",
-      "items": ["Steering pumps", "Drag links", "Tie rods", "Repair kits"],
-      "products": [
-        {
-          "number": "NAE-STE-001",
-          "name": "Power Steering Pump",
-          "description": "Hydraulic assist steering pump for heavy-duty chassis.",
-          "brand": "SINOTRUK HOWO",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/steering-system.svg",
-          "specs": ["Hydraulic assist", "Heavy-duty", "Steering pump"]
-        },
-        {
-          "number": "NAE-STE-002",
-          "name": "Drag Link Assembly",
-          "description": "Model-specific steering linkage for commercial trucks.",
-          "brand": "SHACMAN",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/steering-system.svg",
-          "specs": ["Steering linkage", "Model specific", "Drag link"]
-        },
-        {
-          "number": "NAE-STE-003",
-          "name": "Tie Rod End",
-          "description": "Left or right front axle tie rod end for steering repair.",
-          "brand": "FAW",
-          "availability": "On request",
-          "image": "assets/img/categories/steering-system.svg",
-          "specs": ["Front axle", "Left / right", "Tie rod"]
-        },
-        {
-          "number": "NAE-STE-004",
-          "name": "Steering Gear Repair Kit",
-          "description": "Seal set for hydraulic steering gear repair work.",
-          "brand": "DONGFENG",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/steering-system.svg",
-          "specs": ["Hydraulic steering", "Seal set", "Repair kit"]
-        },
-        {
-          "number": "NAE-STE-005",
-          "name": "Steering Column Joint",
-          "description": "Cab linkage joint for commercial vehicle steering service.",
-          "brand": "FOTON",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/steering-system.svg",
-          "specs": ["Cab linkage", "Replacement", "Column joint"]
-        },
-        {
-          "number": "NAE-STE-006",
-          "name": "Kingpin Repair Kit",
-          "description": "Commercial-duty repair kit for steer axle service.",
-          "brand": "JAC HEAVY",
-          "availability": "On request",
-          "image": "assets/img/categories/steering-system.svg",
-          "specs": ["Steer axle", "Commercial duty", "Kingpin"]
-        }
+      "items": [
+        "Steering pumps",
+        "Drag links",
+        "Tie rods",
+        "Repair kits"
       ]
     },
     {
@@ -464,62 +107,11 @@
       "desc": "Gearing components built for heavy torque.",
       "intro": "Gearbox internals and shifting components designed for high-torque commercial duty.",
       "thumbnail": "assets/img/categories/transmission-parts.svg",
-      "items": ["Synchronisers", "Gear sets", "Bearings", "Shift components"],
-      "products": [
-        {
-          "number": "NAE-TRA-001",
-          "name": "Synchroniser Assembly",
-          "description": "Gear engagement synchroniser assembly for manual transmissions.",
-          "brand": "SINOTRUK HOWO",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/transmission-parts.svg",
-          "specs": ["Gear engagement", "Manual transmission", "Synchroniser"]
-        },
-        {
-          "number": "NAE-TRA-002",
-          "name": "Main Shaft Gear",
-          "description": "Heavy-duty gear train component for torque transfer.",
-          "brand": "SHACMAN",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/transmission-parts.svg",
-          "specs": ["Gear train", "Heavy-duty", "Main shaft"]
-        },
-        {
-          "number": "NAE-TRA-003",
-          "name": "Countershaft Bearing",
-          "description": "Precision bearing for transmission internal service.",
-          "brand": "FAW",
-          "availability": "On request",
-          "image": "assets/img/categories/transmission-parts.svg",
-          "specs": ["Transmission internal", "Precision fit", "Bearing"]
-        },
-        {
-          "number": "NAE-TRA-004",
-          "name": "Gear Selector Fork",
-          "description": "Model-specific shift system component for gearbox repair.",
-          "brand": "DONGFENG",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/transmission-parts.svg",
-          "specs": ["Shift system", "Model specific", "Selector fork"]
-        },
-        {
-          "number": "NAE-TRA-005",
-          "name": "Input Shaft",
-          "description": "Prime mover transmission input shaft for power transfer.",
-          "brand": "FOTON",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/transmission-parts.svg",
-          "specs": ["Power transfer", "Prime mover", "Input shaft"]
-        },
-        {
-          "number": "NAE-TRA-006",
-          "name": "Transmission Seal Kit",
-          "description": "Complete gearbox sealing kit for workshop service.",
-          "brand": "JAC HEAVY",
-          "availability": "On request",
-          "image": "assets/img/categories/transmission-parts.svg",
-          "specs": ["Sealing", "Complete set", "Transmission"]
-        }
+      "items": [
+        "Synchronisers",
+        "Gear sets",
+        "Bearings",
+        "Shift components"
       ]
     },
     {
@@ -529,62 +121,11 @@
       "desc": "Load-bearing driveline and wheel-end parts.",
       "intro": "Differential, shaft and wheel-end components for heavy load-bearing drivetrains.",
       "thumbnail": "assets/img/categories/axle-parts.svg",
-      "items": ["Hub assemblies", "Differential gears", "Axle shafts", "Wheel bearings"],
-      "products": [
-        {
-          "number": "NAE-AXL-001",
-          "name": "Wheel Hub Assembly",
-          "description": "Front or rear wheel-end hub assembly for commercial axles.",
-          "brand": "SINOTRUK HOWO",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/axle-parts.svg",
-          "specs": ["Wheel end", "Front / rear", "Hub assembly"]
-        },
-        {
-          "number": "NAE-AXL-002",
-          "name": "Differential Gear Set",
-          "description": "Final drive gear set for heavy axle overhaul.",
-          "brand": "SHACMAN",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/axle-parts.svg",
-          "specs": ["Final drive", "Heavy axle", "Differential"]
-        },
-        {
-          "number": "NAE-AXL-003",
-          "name": "Rear Axle Shaft",
-          "description": "Model-specific axle shaft for power transfer.",
-          "brand": "FAW",
-          "availability": "On request",
-          "image": "assets/img/categories/axle-parts.svg",
-          "specs": ["Power transfer", "Model specific", "Axle shaft"]
-        },
-        {
-          "number": "NAE-AXL-004",
-          "name": "Hub Bearing Kit",
-          "description": "Commercial-duty bearing kit for wheel-end service.",
-          "brand": "DONGFENG",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/axle-parts.svg",
-          "specs": ["Wheel end", "Commercial duty", "Bearing kit"]
-        },
-        {
-          "number": "NAE-AXL-005",
-          "name": "Oil Seal Kit",
-          "description": "Axle sealing kit for multiple heavy-duty sizes.",
-          "brand": "FOTON",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/axle-parts.svg",
-          "specs": ["Axle sealing", "Multiple sizes", "Oil seal"]
-        },
-        {
-          "number": "NAE-AXL-006",
-          "name": "Crown Wheel & Pinion",
-          "description": "Matched final-drive gear set for axle repair.",
-          "brand": "JAC HEAVY",
-          "availability": "On request",
-          "image": "assets/img/categories/axle-parts.svg",
-          "specs": ["Final drive", "Matched set", "Crown wheel"]
-        }
+      "items": [
+        "Hub assemblies",
+        "Differential gears",
+        "Axle shafts",
+        "Wheel bearings"
       ]
     },
     {
@@ -594,62 +135,11 @@
       "desc": "Running gear for trailers and container haulers.",
       "intro": "Running gear, braking and coupling components for trailers and container haulage.",
       "thumbnail": "assets/img/categories/trailer-parts.svg",
-      "items": ["Landing gear", "Kingpins", "Slack adjusters", "Suspension parts"],
-      "products": [
-        {
-          "number": "NAE-TRL-001",
-          "name": "Landing Gear Set",
-          "description": "Two-speed trailer support gear set for heavy loads.",
-          "brand": "Trailer",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/trailer-parts.svg",
-          "specs": ["Trailer support", "Two-speed", "Landing gear"]
-        },
-        {
-          "number": "NAE-TRL-002",
-          "name": "Kingpin Assembly",
-          "description": "Fifth-wheel coupling kingpin assembly for container trailers.",
-          "brand": "Trailer",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/trailer-parts.svg",
-          "specs": ["Fifth-wheel coupling", "Container trailer", "Kingpin"]
-        },
-        {
-          "number": "NAE-TRL-003",
-          "name": "Slack Adjuster",
-          "description": "Manual or automatic brake actuation component for trailers.",
-          "brand": "Trailer",
-          "availability": "On request",
-          "image": "assets/img/categories/trailer-parts.svg",
-          "specs": ["Brake actuation", "Manual / automatic", "Slack adjuster"]
-        },
-        {
-          "number": "NAE-TRL-004",
-          "name": "Trailer Air Spring",
-          "description": "Heavy-load air suspension spring for trailer applications.",
-          "brand": "Trailer",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/trailer-parts.svg",
-          "specs": ["Suspension", "Heavy load", "Air spring"]
-        },
-        {
-          "number": "NAE-TRL-005",
-          "name": "Twist Lock Assembly",
-          "description": "Container securement assembly for trailer operation.",
-          "brand": "Trailer",
-          "availability": "Ready stock",
-          "image": "assets/img/categories/trailer-parts.svg",
-          "specs": ["Container securement", "Heavy-duty", "Twist lock"]
-        },
-        {
-          "number": "NAE-TRL-006",
-          "name": "Trailer Axle Bearing",
-          "description": "Commercial trailer wheel-end bearing replacement.",
-          "brand": "Trailer",
-          "availability": "On request",
-          "image": "assets/img/categories/trailer-parts.svg",
-          "specs": ["Wheel end", "Commercial trailer", "Bearing"]
-        }
+      "items": [
+        "Landing gear",
+        "Kingpins",
+        "Slack adjusters",
+        "Suspension parts"
       ]
     }
   ]

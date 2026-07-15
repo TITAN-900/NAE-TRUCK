@@ -55,15 +55,40 @@ function Get-ProductNameFromText {
 
   $nameRules = @(
     @{ Pattern = '\bFLY\s*WHEEL\b|\bFLYWHEEL\b'; Name = 'Flywheel'; Category = 'clutch-system' },
-    @{ Pattern = '\bCLUTCH\b'; Name = 'Clutch Part'; Category = 'clutch-system' },
-    @{ Pattern = '\bBRAKE\b'; Name = 'Brake Part'; Category = 'brake-system' },
-    @{ Pattern = '\bSPRING\b|\bSHOCK\b|\bSUSPENSION\b'; Name = 'Suspension Part'; Category = 'suspension-system' },
-    @{ Pattern = '\bRADIATOR\b|\bWATER\s*PUMP\b|\bFAN\b|\bTHERMOSTAT\b'; Name = 'Cooling Part'; Category = 'cooling-system' },
-    @{ Pattern = '\bSENSOR\b|\bSTARTER\b|\bALTERNATOR\b|\bSWITCH\b'; Name = 'Electrical Part'; Category = 'electrical-system' },
-    @{ Pattern = '\bSTEERING\b|\bTIE\s*ROD\b|\bKINGPIN\b'; Name = 'Steering Part'; Category = 'steering-system' },
-    @{ Pattern = '\bGEARBOX\b|\bTRANSMISSION\b|\bSYNCHRO\b'; Name = 'Transmission Part'; Category = 'transmission-parts' },
-    @{ Pattern = '\bAXLE\b|\bHUB\b|\bDIFFERENTIAL\b'; Name = 'Axle Part'; Category = 'axle-parts' },
-    @{ Pattern = '\bTRAILER\b|\bKING\s*PIN\b|\bLANDING\s*GEAR\b'; Name = 'Trailer Part'; Category = 'trailer-parts' }
+    @{ Pattern = '\bCLUTCH\s+DISC\b|\bCLUTCH\s+PLATE\b|\bCLUTCH\s+COVER\b'; Name = 'Clutch Disc Assembly'; Category = 'clutch-system' },
+    @{ Pattern = '\bPRESSURE\s+PLATE\b'; Name = 'Clutch Pressure Plate'; Category = 'clutch-system' },
+    @{ Pattern = '\bRELEASE\s+BEARING\b'; Name = 'Release Bearing'; Category = 'clutch-system' },
+    @{ Pattern = '\bCLUTCH\s+BOOSTER\b'; Name = 'Clutch Booster'; Category = 'clutch-system' },
+    @{ Pattern = '\bBRAKE\s+LINING\b'; Name = 'Brake Lining Set'; Category = 'brake-system' },
+    @{ Pattern = '\bBRAKE\s+CHAMBER\b|\bSPRING\s+BRAKE\b'; Name = 'Spring Brake Chamber'; Category = 'brake-system' },
+    @{ Pattern = '\bAIR\s+DRYER\b'; Name = 'Air Dryer Assembly'; Category = 'brake-system' },
+    @{ Pattern = '\bRELAY\s+VALVE\b|\bBRAKE\s+VALVE\b'; Name = 'Brake Valve'; Category = 'brake-system' },
+    @{ Pattern = '\bBRAKE\s+DRUM\b'; Name = 'Brake Drum'; Category = 'brake-system' },
+    @{ Pattern = '\bLEAF\s+SPRING\b'; Name = 'Leaf Spring'; Category = 'suspension-system' },
+    @{ Pattern = '\bTORQUE\s+ROD\b'; Name = 'Torque Rod Assembly'; Category = 'suspension-system' },
+    @{ Pattern = '\bSHOCK\s+ABSORBER\b|\bABSORBER\b'; Name = 'Shock Absorber'; Category = 'suspension-system' },
+    @{ Pattern = '\bAIR\s+SPRING\b|\bBELLOWS\b'; Name = 'Air Spring Bellows'; Category = 'suspension-system' },
+    @{ Pattern = '\bRADIATOR\b'; Name = 'Radiator Assembly'; Category = 'cooling-system' },
+    @{ Pattern = '\bWATER\s*PUMP\b'; Name = 'Engine Water Pump'; Category = 'cooling-system' },
+    @{ Pattern = '\bFAN\s+CLUTCH\b'; Name = 'Fan Clutch'; Category = 'cooling-system' },
+    @{ Pattern = '\bTHERMOSTAT\b'; Name = 'Thermostat Kit'; Category = 'cooling-system' },
+    @{ Pattern = '\bSTARTER\b|\bSTARTING\s+MOTOR\b'; Name = 'Starter Motor'; Category = 'electrical-system' },
+    @{ Pattern = '\bALTERNATOR\b'; Name = 'Alternator Assembly'; Category = 'electrical-system' },
+    @{ Pattern = '\bSENSOR\b'; Name = 'Sensor'; Category = 'electrical-system' },
+    @{ Pattern = '\bSWITCH\b'; Name = 'Switch'; Category = 'electrical-system' },
+    @{ Pattern = '\bSTEERING\s+PUMP\b'; Name = 'Power Steering Pump'; Category = 'steering-system' },
+    @{ Pattern = '\bDRAG\s+LINK\b'; Name = 'Drag Link Assembly'; Category = 'steering-system' },
+    @{ Pattern = '\bTIE\s*ROD\b'; Name = 'Tie Rod End'; Category = 'steering-system' },
+    @{ Pattern = '\bKINGPIN\s+REPAIR\b|\bKING\s*PIN\s+REPAIR\b'; Name = 'Kingpin Repair Kit'; Category = 'steering-system' },
+    @{ Pattern = '\bGEARBOX\b|\bTRANSMISSION\b'; Name = 'Transmission Part'; Category = 'transmission-parts' },
+    @{ Pattern = '\bSYNCHRO\b|\bSYNCHRONI[ZS]ER\b'; Name = 'Synchroniser Assembly'; Category = 'transmission-parts' },
+    @{ Pattern = '\bAXLE\s+SHAFT\b'; Name = 'Axle Shaft'; Category = 'axle-parts' },
+    @{ Pattern = '\bWHEEL\s+HUB\b|\bHUB\s+ASSEMBLY\b'; Name = 'Wheel Hub Assembly'; Category = 'axle-parts' },
+    @{ Pattern = '\bDIFFERENTIAL\b'; Name = 'Differential Gear Set'; Category = 'axle-parts' },
+    @{ Pattern = '\bLANDING\s+GEAR\b'; Name = 'Landing Gear Set'; Category = 'trailer-parts' },
+    @{ Pattern = '\bTWIST\s+LOCK\b'; Name = 'Twist Lock Assembly'; Category = 'trailer-parts' },
+    @{ Pattern = '\bSLACK\s+ADJUSTER\b'; Name = 'Slack Adjuster'; Category = 'trailer-parts' },
+    @{ Pattern = '\bKING\s*PIN\b|\bKINGPIN\b'; Name = 'Kingpin Assembly'; Category = 'trailer-parts' }
   )
 
   foreach ($rule in $nameRules) {
@@ -77,7 +102,36 @@ function Get-ProductNameFromText {
 
   return [ordered]@{
     Name = ''
-    Category = 'engine-parts'
+    Category = ''
+  }
+}
+
+function Get-VehicleBrandFromText {
+  param([Parameter(Mandatory)][string]$Text)
+
+  $brandRules = @(
+    @{ Pattern = '\bSINOTRUK\b|\bHOWO\b|\bCNHTC\b'; Brand = 'SINOTRUK HOWO' },
+    @{ Pattern = '\bSHACMAN\b|\bSHAANXI\b'; Brand = 'SHACMAN' },
+    @{ Pattern = '\bFAW\b|\bJIEFANG\b'; Brand = 'FAW' },
+    @{ Pattern = '\bDONG\s*FENG\b|\bDONGFENG\b|\bDFM\b'; Brand = 'DONGFENG' },
+    @{ Pattern = '\bFOTON\b|\bAUMAN\b'; Brand = 'FOTON' },
+    @{ Pattern = '\bJAC\b|\bJAC\s+HEAVY\b'; Brand = 'JAC HEAVY' },
+    @{ Pattern = '\bTRAILER\b|\bSEMI\s*TRAILER\b|\bCONTAINER\s+HAULER\b'; Brand = 'Trailer' }
+  )
+
+  foreach ($rule in $brandRules) {
+    $match = [regex]::Match($Text, $rule.Pattern)
+    if ($match.Success) {
+      return [ordered]@{
+        Brand = [string]$rule.Brand
+        Evidence = $match.Value
+      }
+    }
+  }
+
+  return [ordered]@{
+    Brand = ''
+    Evidence = ''
   }
 }
 
@@ -272,7 +326,7 @@ function Get-DescriptionFromProductLine {
   param(
     [Parameter(Mandatory)][string]$Line,
     [Parameter(Mandatory)][string]$Number,
-    [Parameter(Mandatory)][string]$Name
+    [AllowEmptyString()][string]$Name
   )
 
   $description = ConvertTo-CleanOcrText $Line
@@ -284,7 +338,7 @@ function Get-DescriptionFromProductLine {
   }
   $description = ($description -replace '\s+', ' ').Trim(' ', '-', ':')
   if ([string]::IsNullOrWhiteSpace($description)) {
-    $description = $Name
+    $description = if ([string]::IsNullOrWhiteSpace($Name)) { 'Needs manual review' } else { $Name }
   }
   return $description
 }
@@ -313,6 +367,11 @@ function Parse-ProductOcr {
     $warnings.Add('Product name could not be identified from OCR text.')
   }
 
+  $brandIdentity = Get-VehicleBrandFromText -Text $cleanText
+  if ([string]::IsNullOrWhiteSpace($brandIdentity.Brand)) {
+    $warnings.Add('Vehicle brand could not be reliably identified from OCR text.')
+  }
+
   $candidates = @(Get-ProductNumberCandidates -Text $cleanText -Lines $Lines)
   if ($candidates.Count -eq 0) {
     return [ordered]@{
@@ -333,6 +392,8 @@ function Parse-ProductOcr {
   $requiresReview = $false
   if ($confidence -lt 58) { $requiresReview = $true }
   if ([string]::IsNullOrWhiteSpace($identity.Name)) { $requiresReview = $true }
+  if ([string]::IsNullOrWhiteSpace($identity.Category)) { $requiresReview = $true }
+  if ([string]::IsNullOrWhiteSpace($brandIdentity.Brand)) { $requiresReview = $true }
   if ($best.Warnings.Count -gt 0 -and $confidence -lt 72) { $requiresReview = $true }
   foreach ($warning in $best.Warnings) {
     if ($warning -match 'OCR-ambiguous|extra descriptive|reference text') {
@@ -352,6 +413,8 @@ function Parse-ProductOcr {
     ProductNumber = $best.Number
     ProductName = $identity.Name
     Category = $identity.Category
+    Brand = $brandIdentity.Brand
+    BrandEvidence = $brandIdentity.Evidence
     Description = $description
     Specifications = $specs
     SpecLabels = $specLabels

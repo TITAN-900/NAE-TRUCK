@@ -17,6 +17,7 @@ if ([string]::IsNullOrWhiteSpace($ProjectRoot)) {
 . (Join-Path $PSScriptRoot 'importer\Sources.WhatsAppImages.ps1')
 . (Join-Path $PSScriptRoot 'importer\Sources.PdfCatalogues.ps1')
 . (Join-Path $PSScriptRoot 'importer\WindowsOcr.ps1')
+. (Join-Path $PSScriptRoot 'importer\CatalogueConfig.ps1')
 . (Join-Path $PSScriptRoot 'importer\ProductParser.ps1')
 . (Join-Path $PSScriptRoot 'importer\ProductStore.ps1')
 . (Join-Path $PSScriptRoot 'importer\Reports.ps1')
@@ -25,6 +26,7 @@ function New-RunSummary {
   return @{
     Scanned = 0
     Imported = 0
+    Updated = 0
     Duplicates = 0
     Review = 0
     OcrCached = 0
@@ -74,6 +76,8 @@ if ($RebuildGeneratedData) { Write-Host 'Mode:    rebuild generated product data
 
 $sourceRoot = Join-Path $ProjectRoot $WhatsAppFolder
 $cachePath = Join-Path $sourceRoot '.ocr-cache.json'
+$catalogueSlugs = @(Get-CatalogueCategorySlugs -ProjectRoot $ProjectRoot)
+Write-Host ("Catalogue categories: {0}" -f ($catalogueSlugs -join ', '))
 $ocrCache = Read-OcrCache -CachePath $cachePath
 $existingProducts = @()
 if (-not $RebuildGeneratedData) {
@@ -113,18 +117,50 @@ foreach ($item in $items) {
       continue
     }
 
+    if (-not (Test-CatalogueCategorySlug -ProjectRoot $ProjectRoot -Category ([string]$parsed.Category))) {
+      $summary.Review++
+      Add-ReviewRow `
+        -ReportRows $reportRows `
+        -ReviewRows $reviewRows `
+        -File $file `
+        -Parsed $parsed `
+        -Reason ("Recognized category '{0}' is not configured in assets/data/catalogue.json." -f ([string]$parsed.Category)) `
+        -OcrText ([string]$ocr.Text)
+      continue
+    }
+
     $number = Normalize-ProductNumber ([string]$parsed.ProductNumber)
     if ($productIndex.ContainsKey($number)) {
-      $summary.Duplicates++
-      $row = ConvertTo-ReportRow `
-        -Status 'Skipped duplicate' `
-        -File $file.Name `
-        -ProductNumber $number `
-        -ProductName ([string]$parsed.ProductName) `
-        -Reason 'Product number already exists in generated catalogue data.' `
-        -Warnings ((@($parsed.Warnings) -join ' | ')) `
-        -ImagePath '' `
-        -OcrText ([string]$ocr.Text)
+      $updateResult = Update-ExistingProductRecord `
+        -ExistingProduct $productIndex[$number] `
+        -Parsed $parsed `
+        -SourceFile $file `
+        -ProjectRoot $ProjectRoot `
+        -DryRun:$DryRun
+
+      if ($updateResult.Updated) {
+        $summary.Updated++
+        $row = ConvertTo-ReportRow `
+          -Status 'Updated existing' `
+          -File $file.Name `
+          -ProductNumber $number `
+          -ProductName ([string]$parsed.ProductName) `
+          -Reason ("Product number already exists; safely updated missing fields: {0}." -f ((@($updateResult.Fields) -join ', '))) `
+          -Warnings ((@($parsed.Warnings) -join ' | ')) `
+          -ImagePath ([string]$updateResult.Image) `
+          -OcrText ([string]$ocr.Text)
+      } else {
+        $summary.Duplicates++
+        $row = ConvertTo-ReportRow `
+          -Status 'Skipped duplicate' `
+          -File $file.Name `
+          -ProductNumber $number `
+          -ProductName ([string]$parsed.ProductName) `
+          -Reason 'Product number already exists in generated catalogue data and no safe missing-field update was needed.' `
+          -Warnings ((@($parsed.Warnings) -join ' | ')) `
+          -ImagePath '' `
+          -OcrText ([string]$ocr.Text)
+      }
       $reportRows.Add($row) | Out-Null
       continue
     }
@@ -180,6 +216,7 @@ Write-Host ''
 Write-Host 'Import complete.'
 Write-Host ("Scanned:           {0}" -f $summary.Scanned)
 Write-Host ("Imported:          {0}" -f $summary.Imported)
+Write-Host ("Updated existing:  {0}" -f $summary.Updated)
 Write-Host ("Skipped duplicate: {0}" -f $summary.Duplicates)
 Write-Host ("Needs review:      {0}" -f $summary.Review)
 Write-Host ("OCR fresh/cache:   {0}/{1}" -f $summary.OcrFresh, $summary.OcrCached)

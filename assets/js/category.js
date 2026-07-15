@@ -96,19 +96,6 @@ const fallbackCategories = [
   }
 ];
 
-const supportedBrands = ["SINOTRUK HOWO", "SHACMAN", "FAW", "DONGFENG", "FOTON", "JAC HEAVY"];
-const categoryPrefixes = {
-  "engine-parts": "ENG",
-  "clutch-system": "CLU",
-  "brake-system": "BRA",
-  "suspension-system": "SUS",
-  "cooling-system": "COO",
-  "electrical-system": "ELE",
-  "steering-system": "STE",
-  "transmission-parts": "TRA",
-  "axle-parts": "AXL",
-  "trailer-parts": "TRL"
-};
 const pageSize = 24;
 
 let data = fallbackCategories.find(category => category.slug === slug) || fallbackCategories[0];
@@ -186,30 +173,14 @@ function normalizeSpecs(product) {
   ].filter(Boolean)));
 }
 
-function categoryStarterProducts(category) {
-  return (category.items || []).map((item, index) => ({
-    number: `NAE-${categoryPrefixes[category.slug] || "CAT"}-${String(index + 1).padStart(3, "0")}`,
-    name: item,
-    category: category.slug,
-    description: category.desc || "Heavy-duty replacement part",
-    application: "Heavy commercial vehicles",
-    brand: supportedBrands[index % supportedBrands.length],
-    availability: index % 3 === 2 ? "On request" : "Ready stock",
-    specs: [category.title, "Catalogue preview"],
-    specifications: {},
-    image: category.thumbnail || "",
-    isStarter: true
-  }));
-}
-
 function normalizeProduct(product, category) {
   const categorySlug = product.category || category.slug;
   const productNumber = product.number || product.partNumber || product.id || "";
-  const vehicleBrand = product.vehicleBrand || product.brand || product.applicationBrand || "Multiple heavy trucks";
+  const vehicleBrand = product.vehicleBrand || product.brand || product.applicationBrand || "Brand not specified";
 
   return {
     id: product.id || productNumber,
-    number: productNumber || `NAE-${categoryPrefixes[categorySlug] || "CAT"}-000`,
+    number: productNumber,
     name: product.name || product.productName || "Catalogue Product",
     category: categorySlug,
     description: product.shortDescription || product.description || product.application || "Heavy-duty replacement part",
@@ -226,14 +197,12 @@ function normalizeProduct(product, category) {
 }
 
 function getCatalogueProducts(category, importedProducts) {
-  const jsonProducts = Array.isArray(category.products) ? category.products : categoryStarterProducts(category);
-  const starterProducts = jsonProducts.map(product => normalizeProduct({ ...product, isStarter: !product.isImported }, category));
   const importedForCategory = (Array.isArray(importedProducts) ? importedProducts : [])
     .filter(product => product && product.category === category.slug)
     .map(product => normalizeProduct({ ...product, isImported: true }, category));
 
   const seen = new Set();
-  return [...importedForCategory, ...starterProducts].filter(product => {
+  return importedForCategory.filter(product => {
     const key = normalizeSearchValue(product.number || product.id || product.name);
     if (!key || seen.has(key)) return false;
     seen.add(key);
