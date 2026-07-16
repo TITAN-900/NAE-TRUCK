@@ -35,9 +35,41 @@ function Normalize-ProductNumber {
   if ([string]::IsNullOrWhiteSpace($Number)) { return '' }
 
   $value = ConvertTo-CleanOcrText $Number
+  $value = $value -replace '\*', 'X'
+  $value = $value -replace '[\[\]\(\)"'':;,_/\\]+', ' '
   $value = $value -replace '\s*-\s*', '-'
+  $value = $value -replace '(?<=[A-Z0-9])\s+(?=[A-Z0-9])', '-'
   $value = $value -replace '[^A-Z0-9-]', ''
+  $value = $value -replace '-{2,}', '-'
   $value = $value.Trim('-')
+
+  $value = $value -replace '^(?:WC|WE|W6)-(?=\d{3})', 'WG-'
+  $value = $value -replace '^(?:WC|WE|W6)(?=\d{9,})', 'WG'
+  $value = $value -replace '^VC-(?=\d{3})', 'VG-'
+  $value = $value -replace '^VC(?=\d{9,})', 'VG'
+  $value = $value -replace '^(NXG\d{2})TRW', '${1}TFW'
+
+  if ($value -match '^263354(\d{4})$') {
+    return "26335-Z$($Matches[1])"
+  }
+  if ($value -match '^(26335-Z\d{4})\d$') {
+    return $Matches[1]
+  }
+  if ($value -match '^(WG|AZ|VG)(\d{3})(\d{3})(\d{4})([A-Z]{1,4})?$') {
+    $suffix = if (-not [string]::IsNullOrWhiteSpace($Matches[5])) { "-$($Matches[5])" } else { '' }
+    return "$($Matches[1])-$($Matches[2])-$($Matches[3])-$($Matches[4])$suffix"
+  }
+  if ($value -match '^(WG|AZ|VG)-(\d{3})-(\d{7})(-[A-Z]{1,4})?$') {
+    $middle = $Matches[3].Substring(0, 3)
+    $last = $Matches[3].Substring(3, 4)
+    $suffix = if (-not [string]::IsNullOrWhiteSpace($Matches[4])) { $Matches[4] } else { '' }
+    return "$($Matches[1])-$($Matches[2])-$middle-$last$suffix"
+  }
+  if ($value -match '^(WG|AZ|VG)-(\d{3})-(\d{3})(\d{4})(-[A-Z]{1,4})?$') {
+    $suffix = if (-not [string]::IsNullOrWhiteSpace($Matches[5])) { $Matches[5] } else { '' }
+    return "$($Matches[1])-$($Matches[2])-$($Matches[3])-$($Matches[4])$suffix"
+  }
+
   return $value
 }
 
@@ -54,6 +86,35 @@ function Get-ProductNameFromText {
   param([Parameter(Mandatory)][string]$Text)
 
   $nameRules = @(
+    @{ Pattern = '\bSPARE\s+TANK\s+ASSY\b|\bSPARE\s+TANK\b|\bEXPANSION\s+TANK\b|\bRESERVE\s+TANK\b'; Name = 'Spare Tank Assembly'; Category = 'cooling-system' },
+    @{ Pattern = '\bINTERCOOLER\s+HOSE\s+CLIP\b'; Name = 'Intercooler Hose Clip'; Category = 'cooling-system' },
+    @{ Pattern = '\bINTERCOOLER\s+HOSE\b|\bHOSE\s+INTERCOOLER\b'; Name = 'Intercooler Hose'; Category = 'cooling-system' },
+    @{ Pattern = '\bINTERCOOLER\s+ASSY\b|\bINTERCOOLER\b'; Name = 'Intercooler Assembly'; Category = 'cooling-system' },
+    @{ Pattern = '\bW\/?\s*PUMP\s+ASSY\b|\bWATER\s*PUMP\s+ASSY\b'; Name = 'Water Pump Assembly'; Category = 'cooling-system' },
+    @{ Pattern = '\bTURBO\s+ASSY\b|\bTURBOCHARGER\b'; Name = 'Turbo Assembly'; Category = 'engine-parts' },
+    @{ Pattern = '\bTORQUE\s+BUSH\b'; Name = 'Torque Bush'; Category = 'suspension-system' },
+    @{ Pattern = '\bGEAR\s*BOX\b.{0,50}\bSOLENOID\s+VALVE\b|\bSOLENOID\s+VALVE\b.{0,50}\bGEAR\s*BOX\b'; Name = 'Gearbox Solenoid Valve'; Category = 'transmission-parts' },
+    @{ Pattern = '\bMAGN(?:E|EC)TIC\s+VALVE\b|\bMAGNETIC\s+VALVE\b'; Name = 'Magnetic Valve'; Category = 'electrical-system' },
+    @{ Pattern = '\bSOLENOID\s+VALVE\b'; Name = 'Solenoid Valve'; Category = 'electrical-system' },
+    @{ Pattern = '\bFUEL\s+TANK\s+FLOAT\b'; Name = 'Fuel Tank Float'; Category = 'electrical-system' },
+    @{ Pattern = '\bSHIFTING\s+DEVICE\b'; Name = 'Shifting Device'; Category = 'transmission-parts' },
+    @{ Pattern = '\bCLUTCH\s+BRG\s+ASSY\b|\bCLUTCH\s+BEARING\s+ASSY\b'; Name = 'Clutch Bearing Assembly'; Category = 'clutch-system' },
+    @{ Pattern = '\bCLUTCH\s+BRG\b|\bCLUTCH\s+BEARING\b'; Name = 'Clutch Bearing'; Category = 'clutch-system' },
+    @{ Pattern = '\bCLUTCH\s+COVER\s+SPRING\s+KIT\b'; Name = 'Clutch Cover Spring Kit'; Category = 'clutch-system' },
+    @{ Pattern = '\bDOOR\s+HINGE\b'; Name = 'Door Hinge'; Category = '' },
+    @{ Pattern = '\bFRT\s+HUB\s+BEARING\b|\bFRONT\s+HUB\s+BEARING\b|\bHUB\s+BEARING\b'; Name = 'Front Hub Bearing'; Category = 'axle-parts' },
+    @{ Pattern = '\bHAND\s+BRAKE\s+SHAFT\s+BUSH\s+KIT\b|\bHB\s+SHAFT\s+KIT\b'; Name = 'Hand Brake Shaft Kit'; Category = 'brake-system' },
+    @{ Pattern = '\bTEMP\s+SWITCH\b|\bTEMPERATURE\s+SWITCH\b'; Name = 'Temperature Switch'; Category = 'electrical-system' },
+    @{ Pattern = '\bAIR\s+BEL(?:LOW|OW)\b|\bAIR\s+BELOW\b|\bBELLOWS\b'; Name = 'Air Bellow'; Category = 'suspension-system' },
+    @{ Pattern = '\bPRESSURE\s+PROTECTION\s+VALVE\b|\bGOVERNOR\b'; Name = 'Pressure Protection Valve'; Category = 'brake-system' },
+    @{ Pattern = '\b2\s*SPEED\s+ASSY\b|\bTWO\s*SPEED\s+ASSY\b'; Name = 'Two Speed Assembly'; Category = 'axle-parts' },
+    @{ Pattern = '\bSPG\s+SHACKLE\b|\bSPRING\s+SHACKLE\b|\bSHACKLE\s+FRT\b'; Name = 'Front Spring Shackle'; Category = 'suspension-system' },
+    @{ Pattern = '\bSLACK\s+ADJ\b|\bSLACK\s+ADJUSTER\b'; Name = 'Slack Adjuster'; Category = 'trailer-parts' },
+    @{ Pattern = '\bTIE\s+ROD\s+ARM\b'; Name = 'Tie Rod Arm'; Category = 'steering-system' },
+    @{ Pattern = '\bCOUPLING\b'; Name = 'Coupling'; Category = '' },
+    @{ Pattern = '\bKNUCKLE\s+FRT\b|\bFRONT\s+KNUCKLE\b|\bKNUCKLE\b'; Name = 'Front Knuckle'; Category = 'steering-system' },
+    @{ Pattern = '\bDIFFERENTIAL\s+ASSY\b|\bDIFFERENTIAL\b'; Name = 'Differential Assembly'; Category = 'axle-parts' },
+    @{ Pattern = '\bSUN\s+GEAR\s+WASHER\b'; Name = 'Sun Gear Washer'; Category = 'axle-parts' },
     @{ Pattern = '\bFLY\s*WHEEL\b|\bFLYWHEEL\b'; Name = 'Flywheel'; Category = 'clutch-system' },
     @{ Pattern = '\bCLUTCH\s+DISC\b|\bCLUTCH\s+PLATE\b|\bCLUTCH\s+COVER\b'; Name = 'Clutch Disc Assembly'; Category = 'clutch-system' },
     @{ Pattern = '\bPRESSURE\s+PLATE\b'; Name = 'Clutch Pressure Plate'; Category = 'clutch-system' },
@@ -110,7 +171,11 @@ function Get-VehicleBrandFromText {
   param([Parameter(Mandatory)][string]$Text)
 
   $brandRules = @(
-    @{ Pattern = '\bSINOTRUK\b|\bHOWO\b|\bCNHTC\b'; Brand = 'SINOTRUK HOWO' },
+    @{ Pattern = '\bSINOTRUK\b|\bHOWO\d*\b|\bHOW\d{3,4}\b|\bCNHTC\b'; Brand = 'SINOTRUK HOWO' },
+    @{ Pattern = '\bSITRAK\b'; Brand = 'SITRAK' },
+    @{ Pattern = '\bHANVAN\b|\bXCMG\b'; Brand = 'HANVAN' },
+    @{ Pattern = '\bHOHAN\b'; Brand = 'HOHAN' },
+    @{ Pattern = '\bHANDE\b'; Brand = 'HANDE' },
     @{ Pattern = '\bSHACMAN\b|\bSHAANXI\b'; Brand = 'SHACMAN' },
     @{ Pattern = '\bFAW\b|\bJIEFANG\b'; Brand = 'FAW' },
     @{ Pattern = '\bDONG\s*FENG\b|\bDONGFENG\b|\bDFM\b'; Brand = 'DONGFENG' },
@@ -142,6 +207,20 @@ function Get-ProductNumberCandidates {
   )
 
   $candidatePatterns = @(
+    '(?<![A-Z0-9])(?:WG|WC|WE|W6|VG|VC|AZ|DZ)[- ]?(?:\d{3,6}[- ]){1,3}\d{3,7}(?:[- ][A-Z]{1,4})?(?![A-Z0-9])',
+    '(?<![A-Z0-9])(?:WG|WC|WE|W6|VG|VC|AZ|DZ)\d{9,13}[A-Z]{0,4}(?![A-Z0-9])',
+    '(?<![A-Z0-9])XGA[A-Z0-9]{8,20}(?:-[A-Z0-9]{1,6}){1,3}(?![A-Z0-9])',
+    '(?<![A-Z0-9])N[*X]G\d{2}T[FR]W\d{3}-\d{4,6}(?![A-Z0-9])',
+    '(?<![A-Z0-9])NXG\d{2}T[FR]W\d{3}-\d{4,6}(?![A-Z0-9])',
+    '(?<![A-Z0-9])VN[- ]?\d{3}[- ]?HKT(?![A-Z0-9])',
+    '(?<![A-Z0-9])LLON[- ]?\d{4,5}[- ][A-Z0-9](?![A-Z0-9])',
+    '(?<![A-Z0-9])(?:STR|GWT|UP)[- ][A-Z0-9]{3,8}(?:[- ][A-Z0-9]{1,8}){0,2}(?![A-Z0-9])',
+    '(?<![A-Z0-9])HD\d{3}[- ]\d{5,6}(?![A-Z0-9])',
+    '(?<![A-Z0-9])(?:711W|712W|20W)[A-Z0-9]{5,8}-[A-Z0-9]{3,6}(?![A-Z0-9])',
+    '(?<![A-Z0-9])\d{3}[- ]\d{3}[- ]\d{4}(?:[- ][A-Z])?(?![A-Z0-9])',
+    '(?<![A-Z0-9])\d{4}[- ]\d{4}[- ]\d{4}(?![A-Z0-9])',
+    '(?<![A-Z0-9])\d{5}[- ][A-Z]{2}\d(?![A-Z0-9])',
+    '(?<![A-Z0-9])\d{5}[- ][A-Z]\d{4,5}(?![A-Z0-9])',
     '(?<![A-Z0-9])\d-[A-Z0-9]{4,6}-[A-Z0-9]{3,6}(?:-[A-Z0-9])?(?![A-Z0-9])',
     '(?<![A-Z0-9])\d{4,6}-[A-Z0-9]{3,6}(?:-[A-Z0-9]{1,12})?(?![A-Z0-9])',
     '(?<![A-Z0-9])ME\s*0?\d{5,6}(?![A-Z0-9])',
@@ -189,16 +268,50 @@ function Get-ProductNumberCandidates {
   }
 
   foreach ($key in @($candidates.Keys)) {
+    if (-not $candidates.ContainsKey($key)) { continue }
+    $compactKey = $key -replace '-', ''
+    foreach ($otherKey in @($candidates.Keys)) {
+      if ($key -eq $otherKey) { continue }
+      $compactOther = $otherKey -replace '-', ''
+      if ($compactOther.Length -gt $compactKey.Length -and $compactOther.Contains($compactKey)) {
+        $candidates.Remove($key)
+        break
+      }
+    }
+  }
+
+  foreach ($key in @($candidates.Keys)) {
     $candidate = $candidates[$key]
     $score = 0
+    $productKeywordPattern = '\b(FLY\s*WHEEL|FLYWHEEL|SPARE\s+TANK|INTERCOOLER|TORQUE\s+BUSH|MAGN(?:E|EC)TIC\s+VALVE|MAGNETIC\s+VALVE|SOLENOID\s+VALVE|FUEL\s+TANK\s+FLOAT|SHIFTING\s+DEVICE|CLUTCH\s+BRG|CLUTCH\s+BEARING|HUB\s+BEARING|HAND\s+BRAKE|HB\s+SHAFT|TEMP\s+SWITCH|AIR\s+BEL(?:LOW|OW)|AIR\s+BELOW|WATER\s*PUMP|W\/?\s*PUMP|2\s*SPEED|SPG\s+SHACKLE|SPRING\s+SHACKLE|SLACK\s+ADJ|TURBO\s+ASSY|TIE\s+ROD\s+ARM|COUPLING|KNUCKLE|DIFFERENTIAL|SUN\s+GEAR\s+WASHER|PRESSURE\s+PROTECTION\s+VALVE)\b'
 
+    if ($candidate.Number -match '^(WG|AZ|VG|DZ)-') { $score += 48 }
+    if ($candidate.Number -match '^XGA[A-Z0-9]+-') { $score += 48 }
+    if ($candidate.Number -match '^NXG\d{2}') { $score += 48 }
+    if ($candidate.Number -match '^VN-\d{3}-HKT$') { $score += 46 }
+    if ($candidate.Number -match '^LLON-\d{4,5}-[A-Z0-9]$') { $score += 44 }
+    if ($candidate.Number -match '^(STR|GWT|UP)-') { $score += 42 }
+    if ($candidate.Number -match '^HD\d{3}-\d{5,6}$') { $score += 42 }
+    if ($candidate.Number -match '^(711W|712W|20W)[A-Z0-9]{5,8}-[A-Z0-9]{3,6}$') { $score += 42 }
+    if ($candidate.Number -match '^\d{3}-\d{3}-\d{4}(-[A-Z])?$') { $score += 40 }
+    if ($candidate.Number -match '^\d{4}-\d{4}-\d{4}$') { $score += 40 }
+    if ($candidate.Number -match '^\d{5}-[A-Z]\d{4}$|^\d{5}-[A-Z]{2}\d$') { $score += 38 }
     if ($candidate.Number -match '^\d-[A-Z0-9]{4,6}-[A-Z0-9]{3,6}-?[A-Z0-9]?$') { $score += 45 }
     if ($candidate.Number -match '^\d{4,6}-[A-Z0-9]{3,6}(-[A-Z0-9]{1,12})?$') { $score += 40 }
     if ($candidate.Number -match '^ME0?\d{5,6}$') { $score += 28 }
     if ($candidate.Number -match '^EW-[A-Z0-9]{3,8}-[A-Z0-9]{1,4}$') { $score += 28 }
     if ($candidate.Number -match '^\d{9,12}$') { $score += 24 }
     if ($candidate.LineText -match '\bFLY\s*WHEEL\b|\bFLYWHEEL\b') { $score += 24 }
+    if ($candidate.LineText -match $productKeywordPattern) { $score += 28 }
     $escapedNumber = [regex]::Escape($candidate.Number)
+    $flexNumber = ($escapedNumber -replace '\\-', '[-\s]*')
+    $compactNumber = [regex]::Escape(($candidate.Number -replace '-', ''))
+    if ($Text -match "${flexNumber}.{0,90}${productKeywordPattern}" -or $Text -match "${productKeywordPattern}.{0,90}${flexNumber}") {
+      $score += 20
+    }
+    if ($compactNumber.Length -ge 6 -and ($Text -replace '[^A-Z0-9]', '') -match $compactNumber) {
+      $score += 8
+    }
     if ($Text -match "${escapedNumber}.{0,80}(\bFLY\s*WHEEL\b|\bFLYWHEEL\b)" -or $Text -match "(\bFLY\s*WHEEL\b|\bFLYWHEEL\b).{0,80}${escapedNumber}") {
       $score += 18
     }
@@ -222,7 +335,7 @@ function Get-ProductNumberCandidates {
       $candidate.Warnings.Add('Long alphabetic suffix may be OCR bleed from the description.')
       $score -= 20
     }
-    if ($candidate.Number -match '(?:EOL|ZOOD|O0|0O|O\d|D0D)') {
+    if ($candidate.Number -match '(?:EOL|ZOOD|O0|0O|O\d|D0D|OOZOO|OO|OZOO)') {
       $candidate.Warnings.Add('Product number contains OCR-ambiguous O/0 characters.')
       $score -= 18
     }
@@ -247,6 +360,18 @@ function Get-ProductLine {
     [Parameter(Mandatory)][string]$Number
   )
 
+  $compactNumber = $Number -replace '[^A-Z0-9]', ''
+  foreach ($line in $Lines) {
+    $lineText = ConvertTo-CleanOcrText ([string]$line.Text)
+    $compactLine = $lineText -replace '[^A-Z0-9]', ''
+    if (
+      $lineText.Contains($Number) -or
+      ($compactNumber.Length -ge 6 -and $compactLine.Contains($compactNumber))
+    ) {
+      return $lineText
+    }
+  }
+
   foreach ($line in $Lines) {
     $lineText = ConvertTo-CleanOcrText ([string]$line.Text)
     if ($lineText -match '\bFLY\s*WHEEL\b|\bFLYWHEEL\b') {
@@ -256,7 +381,7 @@ function Get-ProductLine {
 
   foreach ($line in $Lines) {
     $lineText = ConvertTo-CleanOcrText ([string]$line.Text)
-    if ($lineText.Contains($Number)) {
+    if ($lineText -match '\b(SPARE\s+TANK|INTERCOOLER|TORQUE\s+BUSH|MAGN(?:E|EC)TIC\s+VALVE|MAGNETIC\s+VALVE|SOLENOID\s+VALVE|FUEL\s+TANK\s+FLOAT|SHIFTING\s+DEVICE|CLUTCH\s+BRG|CLUTCH\s+BEARING|HUB\s+BEARING|HAND\s+BRAKE|HB\s+SHAFT|TEMP\s+SWITCH|AIR\s+BEL(?:LOW|OW)|AIR\s+BELOW|WATER\s*PUMP|W\/?\s*PUMP|2\s*SPEED|SPG\s+SHACKLE|SPRING\s+SHACKLE|SLACK\s+ADJ|TURBO\s+ASSY|TIE\s+ROD\s+ARM|COUPLING|KNUCKLE|DIFFERENTIAL|SUN\s+GEAR\s+WASHER|PRESSURE\s+PROTECTION\s+VALVE)\b') {
       return $lineText
     }
   }
@@ -332,6 +457,12 @@ function Get-DescriptionFromProductLine {
   $description = ConvertTo-CleanOcrText $Line
   if (-not [string]::IsNullOrWhiteSpace($Number)) {
     $description = $description.Replace($Number, '')
+    $flexNumber = ([regex]::Escape($Number) -replace '\\-', '[-\s]*')
+    $description = [regex]::Replace($description, $flexNumber, '', [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
+    $compactNumber = [regex]::Escape(($Number -replace '-', ''))
+    if (($Number -replace '-', '').Length -ge 6) {
+      $description = [regex]::Replace($description, $compactNumber, '', [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)
+    }
   }
   if ($Name -eq 'Flywheel') {
     $description = $description -replace '\bFLY\s*WHEEL\b|\bFLYWHEEL\b', ''
@@ -368,9 +499,6 @@ function Parse-ProductOcr {
   }
 
   $brandIdentity = Get-VehicleBrandFromText -Text $cleanText
-  if ([string]::IsNullOrWhiteSpace($brandIdentity.Brand)) {
-    $warnings.Add('Vehicle brand could not be reliably identified from OCR text.')
-  }
 
   $candidates = @(Get-ProductNumberCandidates -Text $cleanText -Lines $Lines)
   if ($candidates.Count -eq 0) {
@@ -388,12 +516,21 @@ function Parse-ProductOcr {
     $warnings.Add($candidateWarning)
   }
 
+  $alternateCandidates = @(
+    $candidates |
+      Where-Object { $_.Number -ne $best.Number -and [int]$_.Score -ge 58 -and [int]$_.Score -ge ([int]$best.Score - 12) } |
+      Select-Object -First 4
+  )
+
   $confidence = [math]::Max(0, [math]::Min(100, $best.Score))
   $requiresReview = $false
   if ($confidence -lt 58) { $requiresReview = $true }
   if ([string]::IsNullOrWhiteSpace($identity.Name)) { $requiresReview = $true }
   if ([string]::IsNullOrWhiteSpace($identity.Category)) { $requiresReview = $true }
-  if ([string]::IsNullOrWhiteSpace($brandIdentity.Brand)) { $requiresReview = $true }
+  if ($alternateCandidates.Count -gt 0) {
+    $warnings.Add(("Multiple reliable product numbers detected in one image: {0}. Manual selection required." -f ((@($alternateCandidates | ForEach-Object { $_.Number }) -join ', '))))
+    $requiresReview = $true
+  }
   if ($best.Warnings.Count -gt 0 -and $confidence -lt 72) { $requiresReview = $true }
   foreach ($warning in $best.Warnings) {
     if ($warning -match 'OCR-ambiguous|extra descriptive|reference text') {

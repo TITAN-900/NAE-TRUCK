@@ -37,7 +37,7 @@
                       "Teeth 140T",
                       "Holes 9H M17"
                   ],
-        "confidence":  92,
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-04-22 at 6.00.53 PM.jpeg",
@@ -79,7 +79,7 @@
                       "HI 20, 105",
                       "Teeth 140T"
                   ],
-        "confidence":  92,
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-04-04 at 3.35.08 PM.jpeg",
@@ -118,7 +118,7 @@
                       "Teeth 153T",
                       "Holes 12H M50.5"
                   ],
-        "confidence":  92,
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-04-17 at 11.38.33 AM.jpeg",
@@ -170,7 +170,7 @@
                       "Holes 8H M14, 8H M129",
                       "Sensor No sensor"
                   ],
-        "confidence":  92,
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-04-02 at 6.56.02 PM.jpeg",
@@ -216,7 +216,7 @@
                       "Holes 8H M14",
                       "Sensor Sensor hole"
                   ],
-        "confidence":  80,
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-04-02 at 6.58.08 PM.jpeg",
@@ -260,7 +260,7 @@
                       "HI 12, 36, 40",
                       "Teeth 121T"
                   ],
-        "confidence":  92,
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-04-02 at 6.59.00 PM.jpeg",
@@ -312,7 +312,7 @@
                       "Diameter 17\" / 432mm",
                       "Bearing 6206"
                   ],
-        "confidence":  92,
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-04-02 at 6.59.30 PM.jpeg",
@@ -359,7 +359,7 @@
                       "Teeth 145T",
                       "ABS Hole 56"
                   ],
-        "confidence":  78,
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-04-02 at 6.56.29 PM.jpeg",
@@ -413,7 +413,7 @@
                       "ABS Hole 56",
                       "Pin Pin reference detected"
                   ],
-        "confidence":  78,
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-04-02 at 6.57.08 PM.jpeg",
@@ -454,7 +454,7 @@
                       "HI 14, 38",
                       "Teeth 128T"
                   ],
-        "confidence":  97,
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-05-24 at 2.53.58 PM.jpeg",
@@ -500,7 +500,7 @@
                       "Teeth 140T",
                       "Holes 8H M140"
                   ],
-        "confidence":  97,
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-04-02 at 10.18.48 PM.jpeg",
@@ -550,13 +550,1078 @@
                       "Holes 56H M14",
                       "Diameter 14\" / 356mm"
                   ],
-        "confidence":  97,
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-04-02 at 6.59.59 PM.jpeg",
                        "originalPath":  "whatsapp-import/WhatsApp Image 2026-04-02 at 6.59.59 PM.jpeg",
                        "ocrText":  "56H 14\" / 356MM OD 434 ID 402 143T M16 ID 52 HI 15 HI 87 8-98056-355-2 FLYWHEEL 14\"81-1 143T 4HK1 FRR HI 65M",
                        "importedAt":  "2026-06-29T23:42:15"
+                   }
+    },
+    {
+        "id":  "WG-910-052-0034",
+        "number":  "WG-910-052-0034",
+        "name":  "Front Spring Shackle",
+        "category":  "suspension-system",
+        "description":  "Front Spring Shackle",
+        "application":  "",
+        "brand":  "SINOTRUK HOWO",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/WG-910-052-0034.jpeg",
+        "specifications":  {
+                               "ID":  [
+                                          "29.5"
+                                      ]
+                           },
+        "specs":  [
+                      "ID 29.5"
+                  ],
+        "confidence":  64,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-14 at 10.59.08 AM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-14 at 10.59.08 AM.jpeg",
+                       "ocrText":  "ID 29.5MM 90MM -WG9100520034 ID:OBK21AAA 91MM BUSH 87X30X39 WE-910 052 0034 SPG SHACKLE FRT HOWO SPG 90",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "HD469-251001",
+        "number":  "HD469-251001",
+        "name":  "Two Speed Assembly",
+        "category":  "axle-parts",
+        "description":  "Two Speed Assembly",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/HD469-251001.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "151"
+                                      ],
+                               "ID":  [
+                                          "68"
+                                      ],
+                               "HI":  [
+                                          "51",
+                                          "100"
+                                      ],
+                               "Teeth":  [
+                                             "34T"
+                                         ]
+                           },
+        "specs":  [
+                      "OD 151",
+                      "ID 68",
+                      "HI 51, 100",
+                      "Teeth 34T"
+                  ],
+        "confidence":  92,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-14 at 10.34.30 AM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-14 at 10.34.30 AM.jpeg",
+                       "ocrText":  "ID 68 34T INNER HI 51MM OD 151MM HI 100MM HD469-251001 2 SPEED ASSY",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "WG-910-034-0057",
+        "number":  "WG-910-034-0057",
+        "name":  "Slack Adjuster",
+        "category":  "trailer-parts",
+        "description":  "SLACK ADJ 19T REAR RH HOW0371",
+        "application":  "",
+        "brand":  "SINOTRUK HOWO",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/WG-910-034-0057.jpeg",
+        "specifications":  {
+                               "ID":  [
+                                          "35",
+                                          "15"
+                                      ],
+                               "HI":  [
+                                          "84"
+                                      ],
+                               "Teeth":  [
+                                             "19T"
+                                         ]
+                           },
+        "specs":  [
+                      "ID 35, 15",
+                      "HI 84",
+                      "Teeth 19T"
+                  ],
+        "confidence":  70,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-14 at 12.40.11 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-14 at 12.40.11 PM.jpeg",
+                       "ocrText":  "19T ) ID35MM WG9I00340057-E HB20260519 ID 15MM L 205MM YG9100340051 HB20260519 HI 84MM WC-910 034 0057 SLACK ADJ 19T REAR RH HOW0371",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "AZ-972-516-0065",
+        "number":  "AZ-972-516-0065",
+        "name":  "Clutch Cover Spring Kit",
+        "category":  "clutch-system",
+        "description":  "AZ-972 516 0065/\"",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/AZ-972-516-0065.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "137",
+                                          "135"
+                                      ],
+                               "ID":  [
+                                          "89",
+                                          "97"
+                                      ],
+                               "HI":  [
+                                          "22"
+                                      ]
+                           },
+        "specs":  [
+                      "OD 137, 135",
+                      "ID 89, 97",
+                      "HI 22"
+                  ],
+        "confidence":  78,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-14 at 11.19.01 AM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-14 at 11.19.01 AM.jpeg",
+                       "ocrText":  "OD 137MM ID 89MM ID 97MM HI 22MM AZ-972 516 0065/\" CLUTCH COVER SPRING KIT 6 LEG OD 135 ID 89/97 HI 22",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "LLON-78813-C",
+        "number":  "LLON-78813-C",
+        "name":  "Air Bellow",
+        "category":  "suspension-system",
+        "description":  "LLON 78813-C",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/LLON-78813-C.jpeg",
+        "specifications":  {
+                               "ID":  [
+                                          "143"
+                                      ],
+                               "HI":  [
+                                          "11"
+                                      ],
+                               "Diameter":  [
+                                                "11\" / 280mm"
+                                            ]
+                           },
+        "specs":  [
+                      "ID 143",
+                      "HI 11",
+                      "Diameter 11\" / 280mm"
+                  ],
+        "confidence":  74,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-10 at 9.56.07 AM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-10 at 9.56.07 AM.jpeg",
+                       "ocrText":  "41-1 M12 ID 143MM M12 HI 11\" 280MM LLON 78813-C AIR BELOW 813 BTM 4 SCREW ROR HIGH METAL PISTON BTM 4 SCREW",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "LLON-6345-1",
+        "number":  "LLON-6345-1",
+        "name":  "Air Bellow",
+        "category":  "suspension-system",
+        "description":  "LLON 6345-1",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/LLON-6345-1.jpeg",
+        "specifications":  {
+                               "ID":  [
+                                          "143"
+                                      ],
+                               "HI":  [
+                                          "10"
+                                      ]
+                           },
+        "specs":  [
+                      "ID 143",
+                      "HI 10"
+                  ],
+        "confidence":  74,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-10 at 10.24.03 AM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-10 at 10.24.03 AM.jpeg",
+                       "ocrText":  "41-1 M12 ID 143MM HI 10\" M12 254MM LLON 6345-1 AIR BELOW 1 BOLT ROR LOW",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "GWT-112A",
+        "number":  "GWT-112A",
+        "name":  "Engine Water Pump",
+        "category":  "cooling-system",
+        "description":  "_---GE",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/GWT-112A.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "45",
+                                          "16",
+                                          "78"
+                                      ],
+                               "ID":  [
+                                          "9",
+                                          "8"
+                                      ],
+                               "HI":  [
+                                          "12"
+                                      ]
+                           },
+        "specs":  [
+                      "OD 45, 16, 78",
+                      "ID 9, 8",
+                      "HI 12"
+                  ],
+        "confidence":  84,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-11 at 9.53.55 AM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-11 at 9.53.55 AM.jpeg",
+                       "ocrText":  "PIPE OD 45MM 31-1 ID 9MM HI 12MM OD 16MM M20 2H ID 8MM OD 78MM WATER PUMP _---GE GWT-112A WATER PUMP TOYOTA DYNA BU 15B",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "WG-407-545-0054-XLB",
+        "number":  "WG-407-545-0054-XLB",
+        "name":  "Hand Brake Shaft Kit",
+        "category":  "brake-system",
+        "description":  "WG-407 545 0054-XLB",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/WG-407-545-0054-XLB.jpeg",
+        "specifications":  {
+                               "ID":  [
+                                          "44"
+                                      ]
+                           },
+        "specs":  [
+                      "ID 44"
+                  ],
+        "confidence":  78,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-11 at 12.20.20 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-11 at 12.20.20 PM.jpeg",
+                       "ocrText":  "50X42X1 ID 44 WG-407 545 0054-XLB HB SHAFT KIT MCP16",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "1991-1241-0057",
+        "number":  "1991-1241-0057",
+        "name":  "Front Knuckle",
+        "category":  "steering-system",
+        "description":  "1991 1241 0057",
+        "application":  "",
+        "brand":  "SINOTRUK HOWO",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/1991-1241-0057.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "50",
+                                          "70"
+                                      ],
+                               "ID":  [
+                                          "30",
+                                          "18"
+                                      ]
+                           },
+        "specs":  [
+                      "OD 50, 70",
+                      "ID 30, 18"
+                  ],
+        "confidence":  96,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-15 at 4.26.05 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-15 at 4.26.05 PM.jpeg",
+                       "ocrText":  "C-C 76 ID 30 ID 30 OD 50 TAPPER 54 OD 70 M14 ID 18 M18 1991 1241 0057 KNUCKLE FRT HOWO 6X4 L/R .C-4185 C-C 112 M14 ID 18 M18",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "AZ-971-941-0040",
+        "number":  "AZ-971-941-0040",
+        "name":  "Tie Rod Arm",
+        "category":  "steering-system",
+        "description":  "AZ-971 941 0040",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/AZ-971-941-0040.jpeg",
+        "specifications":  {
+                               "ID":  [
+                                          "28",
+                                          "26.5"
+                                      ]
+                           },
+        "specs":  [
+                      "ID 28, 26.5"
+                  ],
+        "confidence":  78,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-15 at 2.40.23 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-15 at 2.40.23 PM.jpeg",
+                       "ocrText":  "21-1 ID 28MM C-C 75MM L 320MM ID 26.5/29.5 AZ-971 941 0040 TIE ROD ARM ( RH )",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "711W90714-0494",
+        "number":  "711W90714-0494",
+        "name":  "Sun Gear Washer",
+        "category":  "axle-parts",
+        "description":  "Sun Gear Washer",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/711W90714-0494.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "90"
+                                      ],
+                               "ID":  [
+                                          "58"
+                                      ],
+                               "HI":  [
+                                          "6"
+                                      ]
+                           },
+        "specs":  [
+                      "OD 90",
+                      "ID 58",
+                      "HI 6"
+                  ],
+        "confidence":  92,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-15 at 9.55.28 AM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-15 at 9.55.28 AM.jpeg",
+                       "ocrText":  "OD 90MM ID 58MM HI 6MM 711W90714-0494 SUN GEAR WASHER (INNER) MCP16 ID 58 OD 90 HI 6",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "DZ-901493-26023",
+        "number":  "DZ-901493-26023",
+        "name":  "Differential Assembly",
+        "category":  "axle-parts",
+        "description":  "DZ-901493 26023",
+        "application":  "",
+        "brand":  "HANDE",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/DZ-901493-26023.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "126"
+                                      ],
+                               "ID":  [
+                                          "56"
+                                      ],
+                               "HI":  [
+                                          "48",
+                                          "91"
+                                      ],
+                               "Teeth":  [
+                                             "28T"
+                                         ]
+                           },
+        "specs":  [
+                      "OD 126",
+                      "ID 56",
+                      "HI 48, 91",
+                      "Teeth 28T"
+                  ],
+        "confidence":  64,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-15 at 4.50.12 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-15 at 4.50.12 PM.jpeg",
+                       "ocrText":  "OD 126MM ID 56/60MM 28T INNER HI 48MM HI 91MM DZ-901493 26023 DIFFERENTIAL ASSY ( SMALL COMPLETE ) HANDE 425 ( NEW MODEL )",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "VG-106-206-0351",
+        "number":  "VG-106-206-0351",
+        "name":  "Water Pump Assembly",
+        "category":  "cooling-system",
+        "description":  "W/PUMP ASSY SWZIO",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/VG-106-206-0351.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "160",
+                                          "133"
+                                      ]
+                           },
+        "specs":  [
+                      "OD 160, 133"
+                  ],
+        "confidence":  70,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-14 at 4.41.20 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-14 at 4.41.20 PM.jpeg",
+                       "ocrText":  "6PK 8PK OD 160MM OD 133MM VC-106 206 0351 W/PUMP ASSY SWZIO I-IOHAN J7 SAME",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "WG-910-034-0056",
+        "number":  "WG-910-034-0056",
+        "name":  "Slack Adjuster",
+        "category":  "trailer-parts",
+        "description":  "T",
+        "application":  "",
+        "brand":  "SINOTRUK HOWO",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/WG-910-034-0056.jpeg",
+        "specifications":  {
+                               "ID":  [
+                                          "35",
+                                          "15"
+                                      ],
+                               "HI":  [
+                                          "84"
+                                      ],
+                               "Teeth":  [
+                                             "19T"
+                                         ]
+                           },
+        "specs":  [
+                      "ID 35, 15",
+                      "HI 84",
+                      "Teeth 19T"
+                  ],
+        "confidence":  64,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-14 at 2.08.43 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-14 at 2.08.43 PM.jpeg",
+                       "ocrText":  "19T ID 35MM TWG9100340056 HB202605I9 L 205MM ID 15MM WG9100340056 HB20260519 HI 84MM WG-910 034 0056 SLACK ADJ 19T REAR LH HOW0371",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "AZ-971-941-0041",
+        "number":  "AZ-971-941-0041",
+        "name":  "Tie Rod Arm",
+        "category":  "steering-system",
+        "description":  "AZ-971 9410041",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/AZ-971-941-0041.jpeg",
+        "specifications":  {
+                               "ID":  [
+                                          "28",
+                                          "26.5"
+                                      ]
+                           },
+        "specs":  [
+                      "ID 28, 26.5"
+                  ],
+        "confidence":  78,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-15 at 2.28.16 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-15 at 2.28.16 PM.jpeg",
+                       "ocrText":  "2H ID 28MM C-C 75MM L 320MM ID 26.5/29.5 AZ-971 9410041 TIE ROD ARM ( LH )",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "VG-103-411-0341",
+        "number":  "VG-103-411-0341",
+        "name":  "Turbo Assembly",
+        "category":  "engine-parts",
+        "description":  "VG-103 411 0341",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/VG-103-411-0341.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "113",
+                                          "74"
+                                      ],
+                               "ID":  [
+                                          "82",
+                                          "51"
+                                      ],
+                               "HI":  [
+                                          "290"
+                                      ]
+                           },
+        "specs":  [
+                      "OD 113, 74",
+                      "ID 82, 51",
+                      "HI 290"
+                  ],
+        "confidence":  78,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-15 at 11.45.14 AM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-15 at 11.45.14 AM.jpeg",
+                       "ocrText":  "BOC OD 113 ID 82MM OD 74 ID 51 41-1 ID ILMM HI 290 C-C 112 HOLSET C-C 70 VG-103 411 0341 TURBO ASSY J7 HX50",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "20W27421-0190",
+        "number":  "20W27421-0190",
+        "name":  "Temperature Switch",
+        "category":  "electrical-system",
+        "description":  "Temperature Switch",
+        "application":  "",
+        "brand":  "SITRAK",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/20W27421-0190.jpeg",
+        "specifications":  {
+                               "Pin":  [
+                                           "Pin reference detected"
+                                       ]
+                           },
+        "specs":  [
+                      "Pin Pin reference detected"
+                  ],
+        "confidence":  78,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-09 at 2.51.44 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-09 at 2.51.44 PM.jpeg",
+                       "ocrText":  "2 PIN 1-1 L 22MM 11 20W27421-0190 TEMP SWITCH M12 2 PIN SITRAK LONG 45 M12",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "WG-992-553-0022",
+        "number":  "WG-992-553-0022",
+        "name":  "Intercooler Hose Clip",
+        "category":  "cooling-system",
+        "description":  "INTERCOOLER HOSE CLIP",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/WG-992-553-0022.jpeg",
+        "specifications":  {
+                               "HI":  [
+                                          "19"
+                                      ]
+                           },
+        "specs":  [
+                      "HI 19"
+                  ],
+        "confidence":  70,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-02 at 10.34.43 AM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-02 at 10.34.43 AM.jpeg",
+                       "ocrText":  "HI 19 WC-992 553 0022 INTERCOOLER HOSE CLIP 4 1/2\" GOT 1 SLIDE",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "WG-992-553-0277",
+        "number":  "WG-992-553-0277",
+        "name":  "Intercooler Assembly",
+        "category":  "cooling-system",
+        "description":  "WG-992 553 0277",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/WG-992-553-0277.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "92"
+                                      ],
+                               "HI":  [
+                                          "768"
+                                      ]
+                           },
+        "specs":  [
+                      "OD 92",
+                      "HI 768"
+                  ],
+        "confidence":  78,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-01 at 12.50.38 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-01 at 12.50.38 PM.jpeg",
+                       "ocrText":  "OD 92 4 61-1 M8 HI 768 THK 44MM 1 1050 WG-992 553 0277 INTERCOOLER ASSY",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "26335-Z5007",
+        "number":  "26335-Z5007",
+        "name":  "Magnetic Valve",
+        "category":  "electrical-system",
+        "description":  "MAGNECTIC VALVE NISSAN",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/26335-Z5007.jpeg",
+        "specifications":  {
+
+                           },
+        "specs":  [
+
+                  ],
+        "confidence":  100,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-02 at 8.51.43 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-02 at 8.51.43 PM.jpeg",
+                       "ocrText":  "M12- H-H 70MM VALVE IN-195 IT CORPORATION ID ILMM -M12 VN 195-HKT [2633545007] MAGNECTIC VALVE NISSAN",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "712W96301-0009",
+        "number":  "712W96301-0009",
+        "name":  "Intercooler Hose",
+        "category":  "cooling-system",
+        "description":  "Intercooler Hose",
+        "application":  "",
+        "brand":  "SITRAK",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/712W96301-0009.jpeg",
+        "specifications":  {
+                               "ID":  [
+                                          "100",
+                                          "85"
+                                      ]
+                           },
+        "specs":  [
+                      "ID 100, 85"
+                  ],
+        "confidence":  92,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-02 at 12.54.00 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-02 at 12.54.00 PM.jpeg",
+                       "ocrText":  "ID 100 ID 85 400MM 712W96301-0009 HOSE INTERCOOLER SITRAK",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "EW-8DC9-H",
+        "number":  "EW-8DC9-H",
+        "name":  "Flywheel",
+        "category":  "clutch-system",
+        "description":  "Flywheel",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/EW-8DC9-H.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "510"
+                                      ],
+                               "ID":  [
+                                          "475",
+                                          "17"
+                                      ],
+                               "HI":  [
+                                          "34",
+                                          "25",
+                                          "121"
+                                      ],
+                               "Teeth":  [
+                                             "143T"
+                                         ],
+                               "Holes":  [
+                                             "16H M10"
+                                         ]
+                           },
+        "specs":  [
+                      "OD 510",
+                      "ID 475, 17",
+                      "HI 34, 25, 121",
+                      "Teeth 143T",
+                      "Holes 16H M10"
+                  ],
+        "confidence":  88,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-06-18 at 5.55.19 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-06-18 at 5.55.19 PM.jpeg",
+                       "ocrText":  "GEAR OD 510 ID 475 62 HI 34 HI 25MM 143T 814 ID 17MM 16H M 10 120MM 17\" 1431.8MM H-H 465MM EW-8DC9-H FLYWHEEL 17\" 143T HIGH 8 HOLE FUSO HI 121 8DC9",
+                       "importedAt":  "2026-07-15T23:44:58"
+                   }
+    },
+    {
+        "id":  "1231043026",
+        "number":  "1231043026",
+        "name":  "Flywheel",
+        "category":  "clutch-system",
+        "description":  "Flywheel",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/1231043026.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "392"
+                                      ],
+                               "ID":  [
+                                          "362",
+                                          "16",
+                                          "110",
+                                          "40",
+                                          "227"
+                                      ],
+                               "HI":  [
+                                          "18",
+                                          "50"
+                                      ],
+                               "Teeth":  [
+                                             "129T"
+                                         ],
+                               "Holes":  [
+                                             "6H M129"
+                                         ]
+                           },
+        "specs":  [
+                      "OD 392",
+                      "ID 362, 16, 110, 40, 227",
+                      "HI 18, 50",
+                      "Teeth 129T",
+                      "Holes 6H M129"
+                  ],
+        "confidence":  96,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-06-09 at 3.42.41 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-06-09 at 3.42.41 PM.jpeg",
+                       "ocrText":  "GEAR OD 392 ID 362 61-1 ID 16MM ID 110 ID 40 HI 18 129T ID 227MM 13\" 1330.2MM HI 50 1231043026 FLYWHEEL 13\"6H 129T NS FE6T LKA211 M17",
+                       "importedAt":  "2026-07-15T23:44:58"
+                   }
+    },
+    {
+        "id":  "49305-1110",
+        "number":  "49305-1110",
+        "name":  "Torque Bush",
+        "category":  "suspension-system",
+        "description":  "Torque Bush",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/49305-1110.jpeg",
+        "specifications":  {
+                               "ID":  [
+                                          "19"
+                                      ]
+                           },
+        "specs":  [
+                      "ID 19"
+                  ],
+        "confidence":  90,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-01 at 12.24.41 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-01 at 12.24.41 PM.jpeg",
+                       "ocrText":  "52 FL-HI IO .4Ä-1110. -ID 19 105 HINO 49305-1110 TORQUE BUSH UNIVERSAL 2.9KG SOLID TYPE HINO PACKING IBOX 12PCS",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "XGA1311WJLWAE1-010-A",
+        "number":  "XGA1311WJLWAE1-010-A",
+        "name":  "Spare Tank Assembly",
+        "category":  "cooling-system",
+        "description":  "Spare Tank Assembly",
+        "application":  "",
+        "brand":  "HANVAN",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/XGA1311WJLWAE1-010-A.jpeg",
+        "specifications":  {
+                               "Pin":  [
+                                           "Pin reference detected"
+                                       ]
+                           },
+        "specs":  [
+                      "Pin Pin reference detected"
+                  ],
+        "confidence":  98,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-01 at 11.55.37 AM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-01 at 11.55.37 AM.jpeg",
+                       "ocrText":  "2 PIN 1-1 XGA1311WJLWAE1-010-A SPARE TANK ASSY HANVAN G7",
+                       "importedAt":  "2026-07-15T23:44:58"
+                   }
+    },
+    {
+        "id":  "WG-972-516-0510-NRB",
+        "number":  "WG-972-516-0510-NRB",
+        "name":  "Clutch Bearing Assembly",
+        "category":  "clutch-system",
+        "description":  "CLUTCH BRG ASSY HOW0371",
+        "application":  "",
+        "brand":  "SINOTRUK HOWO",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/WG-972-516-0510-NRB.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "154",
+                                          "155"
+                                      ],
+                               "ID":  [
+                                          "65"
+                                      ],
+                               "HI":  [
+                                          "116",
+                                          "120"
+                                      ]
+                           },
+        "specs":  [
+                      "OD 154, 155",
+                      "ID 65",
+                      "HI 116, 120"
+                  ],
+        "confidence":  70,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-07 at 11.38.46 AM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-07 at 11.38.46 AM.jpeg",
+                       "ocrText":  "FORK 86MM HI 116MM ID 65MM OD 154MM 27MM WE-972 516 0510-NRB CLUTCH BRG ASSY HOW0371 OD 155 HI 120 D 63 NEW MODEL",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "AZ-952-524-0020",
+        "number":  "AZ-952-524-0020",
+        "name":  "Shifting Device",
+        "category":  "transmission-parts",
+        "description":  "AZ-952 524 0020",
+        "application":  "",
+        "brand":  "HOHAN",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/AZ-952-524-0020.jpeg",
+        "specifications":  {
+
+                           },
+        "specs":  [
+
+                  ],
+        "confidence":  64,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-07 at 11.20.21 AM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-07 at 11.20.21 AM.jpeg",
+                       "ocrText":  "*19525240020 2025.10.28 AZ-952 524 0020 SHIFTING DEVICE HOHAN W/ OUT GEAR LEVER ROD",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "STR-HBS-XLB",
+        "number":  "STR-HBS-XLB",
+        "name":  "Hand Brake Shaft Kit",
+        "category":  "brake-system",
+        "description":  "Hand Brake Shaft Kit",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/STR-HBS-XLB.jpeg",
+        "specifications":  {
+
+                           },
+        "specs":  [
+
+                  ],
+        "confidence":  92,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-09 at 10.48.49 AM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-09 at 10.48.49 AM.jpeg",
+                       "ocrText":  "0000 37X25.5X3 STR-HBS-XLB HAND BRAKE SHAFT BUSH KIT HIWO",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "30314-VB2",
+        "number":  "30314-VB2",
+        "name":  "Front Hub Bearing",
+        "category":  "axle-parts",
+        "description":  "30314 VB2",
+        "application":  "",
+        "brand":  "FAW",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/30314-VB2.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "150"
+                                      ],
+                               "ID":  [
+                                          "70"
+                                      ],
+                               "HI":  [
+                                          "40",
+                                          "30"
+                                      ]
+                           },
+        "specs":  [
+                      "OD 150",
+                      "ID 70",
+                      "HI 40, 30"
+                  ],
+        "confidence":  94,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-08 at 11.44.08 AM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-08 at 11.44.08 AM.jpeg",
+                       "ocrText":  "ID 70MM 111 R/ OD 150MM HI 40MM CONE HI 30MM 30314 VB2 FRT HUB BEARING ID 70 OD 150 HI 30/40 INNER SLANTING FAW FRT WHEEL",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "NXG16TFW111-02050",
+        "number":  "NXG16TFW111-02050",
+        "name":  "Clutch Bearing",
+        "category":  "clutch-system",
+        "description":  "CLUTCH BRG XCMG 5650 HANVAN",
+        "application":  "",
+        "brand":  "HANVAN",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/NXG16TFW111-02050.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "130"
+                                      ],
+                               "ID":  [
+                                          "65"
+                                      ],
+                               "HI":  [
+                                          "52",
+                                          "114",
+                                          "115"
+                                      ]
+                           },
+        "specs":  [
+                      "OD 130",
+                      "ID 65",
+                      "HI 52, 114, 115"
+                  ],
+        "confidence":  70,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-03 at 2.45.43 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-03 at 2.45.43 PM.jpeg",
+                       "ocrText":  "29 HI 52MM FORK 86MM HI 114MM N*G16TRW111-02050 CLUTCH BRG XCMG 5650 HANVAN OD 130 ID 65 HI 115 SHACMAN",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "26335-Z0003",
+        "number":  "26335-Z0003",
+        "name":  "Magnetic Valve",
+        "category":  "electrical-system",
+        "description":  "[1",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/26335-Z0003.jpeg",
+        "specifications":  {
+
+                           },
+        "specs":  [
+
+                  ],
+        "confidence":  100,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-03 at 10.10.21 AM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-03 at 10.10.21 AM.jpeg",
+                       "ocrText":  "M12 VALVE VN-188 CORPORATION IN JAPAN ID ILMM M12 HKT VN 188-HKT [26335-Z00031 MAGNETIC VALVE NISSAN",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "27610-4900",
+        "number":  "27610-4900",
+        "name":  "Gearbox Solenoid Valve",
+        "category":  "transmission-parts",
+        "description":  "Gearbox Solenoid Valve",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/27610-4900.jpeg",
+        "specifications":  {
+                               "Pin":  [
+                                           "Pin reference detected"
+                                       ]
+                           },
+        "specs":  [
+                      "Pin Pin reference detected"
+                  ],
+        "confidence":  90,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-07 at 10.52.26 AM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-07 at 10.52.26 AM.jpeg",
+                       "ocrText":  "4P1N 2-2 M12 \"O C-C 54MM 2HLD C-C 54MM 27610-4900 SOLENOID VALVE 2 PCS E13C 700 GEAR BOX FRT 2-2 PIN",
+                       "importedAt":  "2026-07-15T23:44:59"
+                   }
+    },
+    {
+        "id":  "83320-80374",
+        "number":  "83320-80374",
+        "name":  "Fuel Tank Float",
+        "category":  "electrical-system",
+        "description":  "Fuel Tank Float",
+        "application":  "",
+        "brand":  "",
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/83320-80374.jpeg",
+        "specifications":  {
+                               "OD":  [
+                                          "75"
+                                      ],
+                               "Pin":  [
+                                           "Pin reference detected"
+                                       ]
+                           },
+        "specs":  [
+                      "OD 75",
+                      "Pin Pin reference detected"
+                  ],
+        "confidence":  90,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-03 at 5.50.49 PM.jpeg",
+                       "originalPath":  "whatsapp-import/WhatsApp Image 2026-07-03 at 5.50.49 PM.jpeg",
+                       "ocrText":  "O 60 H- L 325MM O M O C 51-1 5MM 3 PIN OD 75M 83320-80374 FUEL TANK FLOAT L 13.5\" WU720 OD 75M SOCKET 3 PIN (2-1) DUTRO",
+                       "importedAt":  "2026-07-15T23:44:59"
                    }
     }
 ]

@@ -57,12 +57,23 @@ function Save-ImportReports {
     $ReportRows | Export-Csv -LiteralPath $reportCsv -NoTypeInformation -Encoding UTF8 -Force
     $payload | ConvertTo-Json -Depth 30 | Set-Content -LiteralPath $reportJson -Encoding UTF8
     $ReviewRows | Export-Csv -LiteralPath $reviewCsv -NoTypeInformation -Encoding UTF8 -Force
+
     try {
       $ReportRows | Export-Csv -LiteralPath $latestCsv -NoTypeInformation -Encoding UTF8 -Force
+    } catch {
+      Write-Warning "Could not update latest CSV report '$latestCsv', probably because OneDrive is holding a placeholder lock. Timestamped report was still written to '$reportCsv'. $($_.Exception.Message)"
+    }
+
+    try {
       $payload | ConvertTo-Json -Depth 30 | Set-Content -LiteralPath $latestJson -Encoding UTF8
+    } catch {
+      Write-Warning "Could not update latest JSON report '$latestJson', probably because OneDrive is holding a placeholder lock. Timestamped report was still written to '$reportJson'. $($_.Exception.Message)"
+    }
+
+    try {
       $ReviewRows | Export-Csv -LiteralPath $latestReviewCsv -NoTypeInformation -Encoding UTF8 -Force
     } catch {
-      Write-Warning "Could not update one of the fixed 'latest' report files, probably because OneDrive is holding a placeholder lock. Timestamped reports were still written. $($_.Exception.Message)"
+      Write-Warning "Could not update latest review report '$latestReviewCsv', probably because OneDrive is holding a placeholder lock. Timestamped review report was still written to '$reviewCsv'. $($_.Exception.Message)"
     }
   }
 
