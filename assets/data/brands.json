@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "updated": "2026-07-16",
+  "brands": [
+    {
+      "id": "brand-1",
+      "name": "Huatai",
+      "logo": "assets/img/brands/huatai.jpg",
+      "page": "brands/brand-1/index.html",
+      "aliases": ["Huatai"],
+      "categories": ["Engine", "Brake", "Cooling", "Electrical", "Transmission", "Axle", "Trailer"],
+      "products": [
+        {
+          "partNumber": "WG9100340056",
+          "name": "Flywheel Assembly",
+          "category": "Clutch"
+        },
+        {
+          "partNumber": "HT-ENG-001",
+          "name": "Engine Repair Kit",
+          "category": "Engine"
+        }
+      ]
+    },
+    {
+      "id": "brand-2",
+      "name": "Brand 2",
+      "logo": "",
+      "page": "brands/brand-2/index.html",
+      "aliases": [],
+      "categories": ["Engine", "Brake", "Cooling", "Electrical", "Transmission", "Axle", "Trailer"],
+      "products": [
+        {
+          "partNumber": "WG9100340056",
+          "name": "Flywheel Assembly",
+          "category": "Clutch"
+        },
+        {
+          "partNumber": "BRK-2002",
+          "name": "Brake Valve Assembly",
+          "category": "Brake"
+        }
+      ]
+    },
+    {
+      "id": "brand-3",
+      "name": "Brand 3",
+      "logo": "",
+      "page": "brands/brand-3/index.html",
+      "aliases": [],
+      "categories": ["Engine", "Brake", "Cooling", "Electrical", "Transmission", "Axle", "Trailer"],
+      "products": [
+        {
+          "partNumber": "CLG-3003",
+          "name": "Cooling Hose",
+          "category": "Cooling"
+        }
+      ]
+    },
+    {
+      "id": "brand-4",
+      "name": "Brand 4",
+      "logo": "",
+      "page": "brands/brand-4/index.html",
+      "aliases": [],
+      "categories": ["Engine", "Brake", "Cooling", "Electrical", "Transmission", "Axle", "Trailer"],
+      "products": [
+        {
+          "partNumber": "ELE-4004",
+          "name": "Electrical Sensor",
+          "category": "Electrical"
+        }
+      ]
+    },
+    {
+      "id": "brand-5",
+      "name": "Brand 5",
+      "logo": "",
+      "page": "brands/brand-5/index.html",
+      "aliases": [],
+      "categories": ["Engine", "Brake", "Cooling", "Electrical", "Transmission", "Axle", "Trailer"],
+      "products": [
+        {
+          "partNumber": "TRN-5005",
+          "name": "Transmission Gear Set",
+          "category": "Transmission"
+        }
+      ]
+    },
+    {
+      "id": "brand-6",
+      "name": "Brand 6",
+      "logo": "",
+      "page": "brands/brand-6/index.html",
+      "aliases": [],
+      "categories": ["Engine", "Brake", "Cooling", "Electrical", "Transmission", "Axle", "Trailer"],
+      "products": [
+        {
+          "partNumber": "AXL-6006",
+          "name": "Axle Repair Kit",
+          "category": "Axle"
+        }
+      ]
+    }
+  ]
+}

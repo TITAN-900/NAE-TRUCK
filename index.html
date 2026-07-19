@@ -69,10 +69,30 @@
     <section class="section products-section" id="products">
       <div class="container">
         <div class="section-head reveal">
-          <div><p class="eyebrow"><span></span> Parts catalogue</p><h2>Every system.<br><em>One reliable source.</em></h2></div>
-          <div class="section-intro"><p>Built as a scalable catalogue for the components that keep heavy trucks earning. Expand a category to preview its range.</p><span class="microcopy">10 dedicated product departments</span></div>
+          <div><p class="eyebrow"><span></span> Parts finder</p><h2>Search first.<br><em>Then choose brand.</em></h2></div>
+          <div class="section-intro"><p>Find heavy-duty truck parts by part number, product name or brand. Brand pages are prepared for category browsing as the catalogue grows.</p><span class="microcopy">Global search / placeholder brand framework</span></div>
         </div>
-        <div class="category-grid" id="categoryGrid"></div>
+
+        <div class="parts-finder reveal delay-1">
+          <div class="parts-finder-inner">
+            <p class="parts-finder-kicker">Parts finder</p>
+            <h3>Find Your Parts</h3>
+            <label class="parts-search" for="partsSearch">
+              <span class="parts-search-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M16 16l5 5"></path></svg></span>
+              <input id="partsSearch" type="search" autocomplete="off" spellcheck="false" placeholder="Search by Part Number, Product Name or Brand">
+            </label>
+            <div class="finder-examples" aria-label="Search examples"><span>WG9100340056</span><span>Flywheel</span><span>Huatai</span></div>
+            <div class="finder-results" id="finderResults" aria-live="polite"></div>
+          </div>
+        </div>
+
+        <div class="brand-showcase" aria-labelledby="brandShowcaseTitle">
+          <div class="brands-heading reveal">
+            <p class="eyebrow" id="brandShowcaseTitle"><span></span> Our brands</p>
+            <p>Placeholder brand cards. Real logo images can be added later without changing the layout.</p>
+          </div>
+          <div class="brand-card-grid reveal delay-2" id="brandCardGrid" aria-label="Placeholder brand pages"></div>
+        </div>
       </div>
     </section>
 

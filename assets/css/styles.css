@@ -458,6 +458,232 @@ h1 em,h2 em{
     letter-spacing:.16em;
     color:#999
 }
+.parts-finder{
+    background:#18191b;
+    color:#fff;
+    border-top:2px solid var(--orange);
+    padding:38px 34px 42px;
+    margin:0 auto 74px;
+    max-width:980px;
+    box-shadow:0 22px 60px rgba(0,0,0,.1)
+}
+.parts-finder-inner{
+    max-width:760px;
+    margin:0 auto;
+    text-align:center
+}
+.parts-finder-kicker{
+    margin:0 0 10px;
+    color:#8c8d90;
+    font-size:9px;
+    text-transform:uppercase;
+    letter-spacing:.18em
+}
+.parts-finder h3{
+    margin:0 0 24px;
+    color:#fff;
+    font-size:clamp(28px,3vw,42px);
+    font-family:"Arial Narrow",Impact,Arial,sans-serif;
+    font-weight:900;
+    letter-spacing:-.035em;
+    text-transform:uppercase
+}
+.parts-search{
+    position:relative;
+    display:flex;
+    align-items:center;
+    max-width:700px;
+    margin:0 auto;
+    border:1px solid #3f4043;
+    border-radius:999px;
+    background:#fff;
+    box-shadow:0 18px 45px rgba(0,0,0,.22);
+    transition:.25s var(--ease)
+}
+.parts-search:focus-within{
+    border-color:var(--orange);
+    box-shadow:0 18px 45px rgba(0,0,0,.26),0 0 0 4px rgba(243,107,33,.12)
+}
+.parts-search-icon{
+    width:20px;
+    height:20px;
+    margin-left:22px;
+    color:var(--orange);
+    flex:0 0 auto
+}
+.parts-search-icon svg{
+    width:100%;
+    height:100%;
+    display:block;
+    fill:none;
+    stroke:currentColor;
+    stroke-width:2;
+    stroke-linecap:round
+}
+.parts-search input{
+    width:100%;
+    border:0;
+    background:transparent;
+    color:#111;
+    outline:0;
+    padding:18px 24px 18px 14px;
+    font-size:15px;
+    font-weight:700;
+    letter-spacing:.01em;
+    font-family:Inter,Arial,Helvetica,sans-serif
+}
+.parts-search input::placeholder{
+    color:#777
+}
+.finder-examples{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:8px;
+    margin-top:22px
+}
+.finder-examples span{
+    border:1px solid #343537;
+    color:#9d9ea0;
+    padding:8px 10px;
+    font-size:8px;
+    letter-spacing:.13em;
+    text-transform:uppercase
+}
+.finder-results{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:1px;
+    background:#343537;
+    border:1px solid #343537;
+    margin-top:26px
+}
+.finder-results[hidden]{
+    display:none
+}
+.finder-result{
+    display:grid;
+    grid-template-columns:76px 1fr;
+    gap:18px;
+    align-items:center;
+    background:#202123;
+    padding:18px;
+    transition:.3s
+}
+.finder-result:hover{
+    background:#26272a
+}
+.finder-result>span:not(.brand-logo-block){
+    display:flex;
+    flex-direction:column;
+    gap:5px
+}
+.finder-result small{
+    color:var(--orange);
+    font-size:10px;
+    letter-spacing:.11em;
+    text-transform:uppercase
+}
+.finder-result strong{
+    color:#fff;
+    font-size:18px;
+    text-transform:uppercase
+}
+.finder-result em{
+    color:#8c8d90;
+    font-size:9px;
+    font-style:normal;
+    letter-spacing:.13em;
+    text-transform:uppercase
+}
+.finder-empty{
+    grid-column:1/-1;
+    background:#202123;
+    color:#8c8d90;
+    padding:28px;
+    display:flex;
+    flex-direction:column;
+    gap:7px;
+    text-align:center
+}
+.finder-empty strong{
+    color:#fff;
+    text-transform:uppercase
+}
+.brand-showcase{
+    margin-top:12px
+}
+.brand-card-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:1px;
+    background:#ccc;
+    border:1px solid #ccc
+}
+.brand-card{
+    min-height:248px;
+    background:#fff;
+    padding:24px;
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+    transition:.3s var(--ease)
+}
+.brand-card:hover{
+    background:#f8f7f4;
+    transform:translateY(-3px);
+    box-shadow:0 18px 45px rgba(0,0,0,.06)
+}
+.brand-card small{
+    color:#999;
+    font-size:10px;
+    letter-spacing:.15em
+}
+.brand-logo-block{
+    width:76px;
+    height:58px;
+    border:1px dashed #b9b5ae;
+    background:#f2f0ec;
+    display:grid;
+    place-items:center;
+    flex:0 0 auto
+}
+.brand-logo-block span{
+    color:#8d8e91;
+    font-size:9px;
+    letter-spacing:.15em
+}
+.brand-logo-block.has-logo{
+    border-style:solid;
+    background:#fff
+}
+.brand-card .brand-logo-block.has-logo{
+    width:68%;
+    height:auto;
+    aspect-ratio:1;
+    align-self:center;
+    border:0;
+    padding:10px;
+    background:#fff
+}
+.brand-logo-block img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    display:block
+}
+.brand-card strong{
+    margin-top:auto;
+    font-size:24px;
+    text-transform:uppercase;
+    letter-spacing:.02em
+}
+.brand-card>span:not(.brand-logo-block){
+    color:#777;
+    font-size:9px;
+    letter-spacing:.13em;
+    text-transform:uppercase
+}
 .category-grid{
     display:grid;
     grid-template-columns:repeat(2,1fr);
@@ -1147,7 +1373,8 @@ h1 em,h2 em{
     color:#777;
     margin-bottom:38px;
     display:flex;
-    gap:10px
+    gap:10px;
+    flex-wrap:wrap
 }
 .breadcrumb a{
     color:#aaa
@@ -1189,6 +1416,18 @@ h1 em,h2 em{
     height:100%;
     display:block;
     object-fit:cover
+}
+.brand-page .category-symbol i{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#fff
+}
+.brand-page .category-symbol i img.brand-page-logo{
+    width:60%;
+    height:auto;
+    max-height:72%;
+    object-fit:contain
 }
 .category-symbol-fallback{
     height:100%;
@@ -1417,6 +1656,12 @@ h1 em,h2 em{
         grid-template-columns:1fr;
         gap:55px
     }
+    .brand-card-grid{
+        grid-template-columns:repeat(2,1fr)
+    }
+    .finder-results{
+        grid-template-columns:1fr
+    }
     .logo-placeholders{
         grid-template-columns:repeat(3,1fr)
     }
@@ -1584,6 +1829,39 @@ h1 em,h2 em{
     }
     .logo-placeholders{
         grid-template-columns:repeat(2,1fr)
+    }
+    .parts-finder{
+        padding:30px 18px 34px;
+        margin-bottom:52px
+    }
+    .parts-finder h3{
+        margin-bottom:20px
+    }
+    .parts-search{
+        max-width:100%
+    }
+    .parts-search input{
+        padding:16px 18px 16px 10px;
+        font-size:13px
+    }
+    .parts-search-icon{
+        width:18px;
+        height:18px;
+        margin-left:18px
+    }
+    .brand-card-grid{
+        grid-template-columns:1fr
+    }
+    .brand-card{
+        min-height:210px
+    }
+    .finder-result{
+        grid-template-columns:62px 1fr;
+        gap:14px
+    }
+    .brand-logo-block{
+        width:62px;
+        height:50px
     }
     .reason-grid{
         grid-template-columns:1fr

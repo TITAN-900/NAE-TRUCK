@@ -5,6 +5,7 @@
 const siteScript = document.currentScript;
 const siteRoot = siteScript ? new URL("../../", siteScript.src) : new URL("./", window.location.href);
 const catalogueDataUrl = new URL("assets/data/catalogue.json", siteRoot);
+const brandsDataUrl = new URL("assets/data/brands.json", siteRoot);
 
 const fallbackCatalogue = {
   categories: [
@@ -121,6 +122,87 @@ async function loadCatalogueData() {
   }
 }
 
+async function loadBrandsData() {
+  const fallbackBrands = {
+    brands: [
+      {
+        id: "brand-1",
+        name: "Brand 1",
+        logo: "",
+        page: "brands/brand-1/index.html",
+        aliases: ["Huatai"],
+        products: [{ partNumber: "WG9100340056", name: "Flywheel Assembly", category: "Clutch" }]
+      },
+      {
+        id: "brand-2",
+        name: "Brand 2",
+        logo: "",
+        page: "brands/brand-2/index.html",
+        aliases: [],
+        products: [{ partNumber: "WG9100340056", name: "Flywheel Assembly", category: "Clutch" }]
+      },
+      {
+        id: "brand-3",
+        name: "Brand 3",
+        logo: "",
+        page: "brands/brand-3/index.html",
+        aliases: [],
+        products: [{ partNumber: "CLG-3003", name: "Cooling Hose", category: "Cooling" }]
+      },
+      {
+        id: "brand-4",
+        name: "Brand 4",
+        logo: "",
+        page: "brands/brand-4/index.html",
+        aliases: [],
+        products: [{ partNumber: "ELE-4004", name: "Electrical Sensor", category: "Electrical" }]
+      },
+      {
+        id: "brand-5",
+        name: "Brand 5",
+        logo: "",
+        page: "brands/brand-5/index.html",
+        aliases: [],
+        products: [{ partNumber: "TRN-5005", name: "Transmission Gear Set", category: "Transmission" }]
+      },
+      {
+        id: "brand-6",
+        name: "Brand 6",
+        logo: "",
+        page: "brands/brand-6/index.html",
+        aliases: [],
+        products: [{ partNumber: "AXL-6006", name: "Axle Repair Kit", category: "Axle" }]
+      }
+    ]
+  };
+
+  if (!window.fetch) return fallbackBrands;
+
+  try {
+    const response = await fetch(brandsDataUrl, { cache: "no-cache" });
+    if (!response.ok) throw new Error(`Brands request failed: ${response.status}`);
+    const text = await response.text();
+    const data = JSON.parse(text.replace(/^\uFEFF/, ""));
+    return Array.isArray(data?.brands) ? data : fallbackBrands;
+  } catch (error) {
+    return fallbackBrands;
+  }
+}
+
+function normalizeFinderValue(value) {
+  return String(value ?? "")
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function compactFinderValue(value) {
+  return normalizeFinderValue(value).replace(/\s+/g, "");
+}
+
 
 // ===========================
 // Category Cards
@@ -196,7 +278,113 @@ function initCategoryAccordion() {
 
 if (grid) {
   loadCatalogueData().then(renderCategoryCards);
+} else {
+  initCategoryAccordion();
 }
+
+
+// ===========================
+// Homepage Parts Finder
+// ===========================
+
+const brandCardGrid = document.querySelector("#brandCardGrid");
+const partsSearch = document.querySelector("#partsSearch");
+const finderResults = document.querySelector("#finderResults");
+let finderRecords = [];
+
+function renderBrandLogo(brand) {
+  if (brand.logo) {
+    return `<span class="brand-logo-block has-logo"><img loading="lazy" decoding="async" src="${escapeHtml(resolveSiteAsset(brand.logo))}" alt="${escapeHtml(brand.name)} logo"></span>`;
+  }
+
+  return `<span class="brand-logo-block"><span>LOGO</span></span>`;
+}
+
+function renderBrandCards(brands) {
+  if (!brandCardGrid) return;
+
+  brandCardGrid.innerHTML = brands
+    .map((brand, index) => `
+<a class="brand-card" href="${escapeHtml(resolveSiteAsset(brand.page))}">
+  <small>${String(index + 1).padStart(2, "0")}</small>
+  ${renderBrandLogo(brand)}
+  <strong>${escapeHtml(brand.name)}</strong>
+  <span>View brand categories &nearr;</span>
+</a>`)
+    .join("");
+
+  observeRevealElements();
+}
+
+function buildFinderRecords(brands) {
+  return brands.flatMap((brand) => {
+    const brandTerms = [brand.name, ...(brand.aliases || [])];
+    return (brand.products || []).map((product) => {
+      const fields = [
+        product.partNumber,
+        product.name,
+        product.category,
+        ...brandTerms
+      ].filter(Boolean);
+
+      return {
+        brand,
+        product,
+        text: normalizeFinderValue(fields.join(" ")),
+        compact: compactFinderValue(fields.join(" "))
+      };
+    });
+  });
+}
+
+function renderFinderResults(records, query) {
+  if (!finderResults) return;
+
+  const normalized = normalizeFinderValue(query);
+  const compact = compactFinderValue(query);
+  const tokens = normalized ? normalized.split(" ").filter(Boolean) : [];
+
+  if (!tokens.length) {
+    finderResults.innerHTML = "";
+    finderResults.hidden = true;
+    return;
+  }
+
+  const matches = records.filter((record) => {
+    const tokenMatch = tokens.every(token => record.text.includes(token));
+    const compactMatch = compact.length > 2 && record.compact.includes(compact);
+    return tokenMatch || compactMatch;
+  });
+
+  finderResults.hidden = false;
+  finderResults.innerHTML = matches.length
+    ? matches.map(({ brand, product }) => `
+<a class="finder-result" href="${escapeHtml(resolveSiteAsset(brand.page))}">
+  ${renderBrandLogo(brand)}
+  <span>
+    <small>${escapeHtml(product.partNumber)}</small>
+    <strong>${escapeHtml(product.name)}</strong>
+    <em>${escapeHtml(brand.name)}</em>
+  </span>
+</a>`).join("")
+    : `<div class="finder-empty"><strong>No matching placeholder products found</strong><span>Try a part number, product name or brand.</span></div>`;
+}
+
+async function initHomepageFinder() {
+  if (!brandCardGrid && !partsSearch) return;
+
+  const data = await loadBrandsData();
+  const brands = Array.isArray(data?.brands) ? data.brands : [];
+
+  renderBrandCards(brands);
+  finderRecords = buildFinderRecords(brands);
+
+  partsSearch?.addEventListener("input", () => {
+    renderFinderResults(finderRecords, partsSearch.value);
+  });
+}
+
+initHomepageFinder();
 
 
 // ===========================
