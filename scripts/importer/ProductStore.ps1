@@ -72,15 +72,22 @@ function New-ProductRecord {
   return [ordered]@{
     id = $number
     number = $number
+    productNumber = $number
+    partNumber = $number
     name = [string]$Parsed.ProductName
+    productName = [string]$Parsed.ProductName
     category = [string]$Parsed.Category
+    subcategory = ''
     description = [string]$Parsed.Description
     application = ''
     brand = [string]$Parsed.Brand
+    vehicleModel = ''
     availability = 'Ready stock'
     image = $ImageRelativePath
     specifications = $Parsed.Specifications
     specs = @($Parsed.SpecLabels)
+    specification = ((@($Parsed.SpecLabels) | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_) }) -join '; ')
+    searchableText = ''
     confidence = [int]$Parsed.Confidence
     source = [ordered]@{
       type = 'whatsapp-image'
@@ -125,6 +132,113 @@ function Set-ProductRecordValue {
   } else {
     $Product | Add-Member -NotePropertyName $Name -NotePropertyValue $Value -Force
   }
+}
+
+function ConvertTo-ProductSearchableText {
+  param([Parameter(Mandatory)]$Product)
+
+  $parts = New-Object System.Collections.Generic.List[string]
+  foreach ($field in @('id', 'number', 'productNumber', 'partNumber', 'name', 'productName', 'brand', 'category', 'subcategory', 'description', 'application', 'vehicleModel', 'specification', 'availability')) {
+    $value = [string](Get-ProductRecordValue -Product $Product -Name $field)
+    if (-not [string]::IsNullOrWhiteSpace($value)) {
+      $parts.Add($value) | Out-Null
+    }
+  }
+
+  $specs = Get-ProductRecordValue -Product $Product -Name 'specs'
+  foreach ($spec in @($specs)) {
+    $value = [string]$spec
+    if (-not [string]::IsNullOrWhiteSpace($value)) {
+      $parts.Add($value) | Out-Null
+    }
+  }
+
+  $specifications = Get-ProductRecordValue -Product $Product -Name 'specifications'
+  if ($null -ne $specifications) {
+    foreach ($property in $specifications.PSObject.Properties) {
+      foreach ($value in @($property.Value)) {
+        $text = [string]$value
+        if (-not [string]::IsNullOrWhiteSpace($text)) {
+          $parts.Add("$($property.Name) $text") | Out-Null
+        }
+      }
+    }
+  }
+
+  return (($parts | Select-Object -Unique) -join ' ').Trim()
+}
+
+function Update-ProductCompatibilityFields {
+  param([Parameter(Mandatory)]$Product)
+
+  $number = [string](Get-ProductRecordValue -Product $Product -Name 'number')
+  if ([string]::IsNullOrWhiteSpace($number)) {
+    $number = [string](Get-ProductRecordValue -Product $Product -Name 'productNumber')
+  }
+  if ([string]::IsNullOrWhiteSpace($number)) {
+    $number = [string](Get-ProductRecordValue -Product $Product -Name 'partNumber')
+  }
+  if ([string]::IsNullOrWhiteSpace($number)) {
+    $number = [string](Get-ProductRecordValue -Product $Product -Name 'id')
+  }
+
+  $name = [string](Get-ProductRecordValue -Product $Product -Name 'name')
+  if ([string]::IsNullOrWhiteSpace($name)) {
+    $name = [string](Get-ProductRecordValue -Product $Product -Name 'productName')
+  }
+
+  $category = [string](Get-ProductRecordValue -Product $Product -Name 'category')
+  if ([string]::IsNullOrWhiteSpace($category)) {
+    $category = 'other'
+  }
+
+  $source = Get-ProductRecordValue -Product $Product -Name 'source'
+  $ocrText = ''
+  if ($null -ne $source -and $null -ne $source.PSObject.Properties['ocrText']) {
+    $ocrText = [string]$source.ocrText
+  }
+
+  $brand = [string](Get-ProductRecordValue -Product $Product -Name 'brand')
+  $vehicleModel = [string](Get-ProductRecordValue -Product $Product -Name 'vehicleModel')
+  $isHuataiProduct = (
+    $number -match '-HT$' -or
+    $ocrText -match '\bHUATAI\b|\bHUATAU\b|HT\d{4,5}[A-Z]?\b'
+  )
+
+  if ($isHuataiProduct -and $brand -ne 'Huatai') {
+    if (-not [string]::IsNullOrWhiteSpace($brand) -and $brand -ne 'Imported catalogue' -and [string]::IsNullOrWhiteSpace($vehicleModel)) {
+      $vehicleModel = $brand
+    }
+    $brand = 'Huatai'
+  }
+  if ([string]::IsNullOrWhiteSpace($brand)) {
+    $brand = 'Brand not specified'
+  }
+
+  $specification = [string](Get-ProductRecordValue -Product $Product -Name 'specification')
+  if ([string]::IsNullOrWhiteSpace($specification)) {
+    $specs = @(@(Get-ProductRecordValue -Product $Product -Name 'specs') |
+      ForEach-Object { [string]$_ } |
+      Where-Object { -not [string]::IsNullOrWhiteSpace($_) })
+    if ($specs.Count -gt 0) {
+      $specification = ($specs -join '; ')
+    }
+  }
+
+  Set-ProductRecordValue -Product $Product -Name 'id' -Value $number
+  Set-ProductRecordValue -Product $Product -Name 'number' -Value $number
+  Set-ProductRecordValue -Product $Product -Name 'productNumber' -Value $number
+  Set-ProductRecordValue -Product $Product -Name 'partNumber' -Value $number
+  Set-ProductRecordValue -Product $Product -Name 'name' -Value $name
+  Set-ProductRecordValue -Product $Product -Name 'productName' -Value $name
+  Set-ProductRecordValue -Product $Product -Name 'category' -Value $category
+  Set-ProductRecordValue -Product $Product -Name 'subcategory' -Value ([string](Get-ProductRecordValue -Product $Product -Name 'subcategory'))
+  Set-ProductRecordValue -Product $Product -Name 'brand' -Value $brand
+  Set-ProductRecordValue -Product $Product -Name 'vehicleModel' -Value $vehicleModel
+  Set-ProductRecordValue -Product $Product -Name 'specification' -Value $specification
+  Set-ProductRecordValue -Product $Product -Name 'searchableText' -Value (ConvertTo-ProductSearchableText -Product $Product)
+
+  return $Product
 }
 
 function Test-ProductImageRelativePath {
@@ -258,7 +372,8 @@ function Save-ProductStore {
   )
 
   $paths = Get-ProductDataPaths -ProjectRoot $ProjectRoot
-  $sortedProducts = @($Products | Sort-Object -Property category, name, number)
+  $compatibleProducts = @($Products | ForEach-Object { Update-ProductCompatibilityFields -Product $_ })
+  $sortedProducts = @($compatibleProducts | Sort-Object -Property category, name, number)
   if ($sortedProducts.Count -eq 0) {
     $json = '[]'
   } else {

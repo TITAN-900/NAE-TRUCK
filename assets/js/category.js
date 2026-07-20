@@ -1,7 +1,36 @@
 const categoryScript = document.currentScript;
 const categorySiteRoot = categoryScript ? new URL("../../", categoryScript.src) : new URL("../../", window.location.href);
 const categoryDataRoot = new URL("assets/data/", categorySiteRoot);
-const slug = document.body.dataset.category;
+
+const pageSize = 24;
+const browseMode = document.body.dataset.browseMode || (document.body.classList.contains("brand-page") ? "brand" : (document.body.dataset.category ? "category" : "search"));
+const pageCategorySlug = document.body.dataset.category || "";
+const pageCategoryGroup = document.body.dataset.categoryGroup || "";
+const pageBrandId = document.body.dataset.brandId || "";
+const pageBrandName = document.body.dataset.brand || "";
+
+const categoryGroups = [
+  { key: "", label: "ALL PRODUCTS", shortLabel: "ALL" },
+  { key: "engine", label: "ENGINE", shortLabel: "ENGINE" },
+  { key: "brake", label: "BRAKE", shortLabel: "BRAKE" },
+  { key: "cooling", label: "COOLING", shortLabel: "COOLING" },
+  { key: "electrical", label: "ELECTRICAL", shortLabel: "ELECTRICAL" },
+  { key: "transmission", label: "TRANSMISSION", shortLabel: "TRANSMISSION" },
+  { key: "axle", label: "AXLE", shortLabel: "AXLE" },
+  { key: "trailer", label: "TRAILER", shortLabel: "TRAILER" },
+  { key: "other", label: "OTHER", shortLabel: "OTHER" }
+];
+
+const categoryGroupMap = {
+  "engine-parts": "engine",
+  "brake-system": "brake",
+  "cooling-system": "cooling",
+  "electrical-system": "electrical",
+  "transmission-parts": "transmission",
+  "axle-parts": "axle",
+  "trailer-parts": "trailer",
+  other: "other"
+};
 
 const fallbackCategories = [
   {
@@ -14,15 +43,6 @@ const fallbackCategories = [
     items: ["Pistons & liners", "Gasket sets", "Oil pumps", "Turbo components"]
   },
   {
-    slug: "clutch-system",
-    num: "02",
-    title: "Clutch System",
-    desc: "High-load engagement and driveline control.",
-    intro: "Engagement, release and actuation parts engineered for heavy commercial drivetrains.",
-    thumbnail: "assets/img/categories/clutch-system.svg",
-    items: ["Clutch discs", "Pressure plates", "Release bearings", "Clutch boosters"]
-  },
-  {
     slug: "brake-system",
     num: "03",
     title: "Brake System",
@@ -30,15 +50,6 @@ const fallbackCategories = [
     intro: "Pneumatic and friction components for confident heavy-truck and trailer braking.",
     thumbnail: "assets/img/categories/brake-system.svg",
     items: ["Brake linings", "Brake chambers", "Valves", "Air dryers"]
-  },
-  {
-    slug: "suspension-system",
-    num: "04",
-    title: "Suspension System",
-    desc: "Ride control for demanding roads and payloads.",
-    intro: "Load-control and ride components for prime movers, container haulers and trailers.",
-    thumbnail: "assets/img/categories/suspension-system.svg",
-    items: ["Leaf springs", "Torque rods", "Shock absorbers", "Air springs"]
   },
   {
     slug: "cooling-system",
@@ -57,15 +68,6 @@ const fallbackCategories = [
     intro: "Starting, charging, sensing and control components for modern heavy commercial vehicles.",
     thumbnail: "assets/img/categories/electrical-system.svg",
     items: ["Starters", "Alternators", "Sensors", "Switches"]
-  },
-  {
-    slug: "steering-system",
-    num: "07",
-    title: "Steering System",
-    desc: "Precise control for heavy commercial chassis.",
-    intro: "Hydraulic and mechanical steering components for accurate, dependable road control.",
-    thumbnail: "assets/img/categories/steering-system.svg",
-    items: ["Steering pumps", "Drag links", "Tie rods", "Repair kits"]
   },
   {
     slug: "transmission-parts",
@@ -96,21 +98,25 @@ const fallbackCategories = [
   }
 ];
 
-const pageSize = 24;
-
-let data = fallbackCategories.find(category => category.slug === slug) || fallbackCategories[0];
+let data = fallbackCategories.find(category => category.slug === pageCategorySlug) || fallbackCategories[0];
 let visibleCount = pageSize;
 let pendingRender = 0;
+let allCatalogueProducts = [];
+let allCatalogueRecords = [];
 let catalogueProducts = [];
 let catalogueRecords = [];
 let lastRenderKey = "";
+let allCategories = fallbackCategories;
+let allBrands = [];
+let activeBrand = null;
 
-const productGrid = document.querySelector("#productGrid");
-const search = document.querySelector("#productSearch");
-const brand = document.querySelector("#brandFilter");
-const stock = document.querySelector("#stockFilter");
-const count = document.querySelector("#resultCount");
-const catalogueNote = document.querySelector(".catalogue-note");
+let productGrid = document.querySelector("#productGrid");
+let search = document.querySelector("#productSearch");
+let brand = document.querySelector("#brandFilter");
+let stock = document.querySelector("#stockFilter");
+let count = document.querySelector("#resultCount");
+let catalogueNote = document.querySelector(".catalogue-note");
+let categoryFilter = document.querySelector("#categoryFilter");
 
 function escapeHtml(value) {
   return String(value ?? "").replace(/[&<>"']/g, char => ({
@@ -126,6 +132,10 @@ function assetPath(path) {
   if (!path) return "";
   if (/^(https?:)?\/\//.test(path) || path.startsWith("data:")) return path;
   return new URL(path.replace(/^\.?\//, ""), categorySiteRoot).href;
+}
+
+function contactPath() {
+  return new URL("index.html#contact", categorySiteRoot).href;
 }
 
 async function loadJson(fileName, validator) {
@@ -169,55 +179,107 @@ function normalizeSpecs(product) {
   const specs = Array.isArray(product.specs) ? product.specs : [];
   return Array.from(new Set([
     ...specs,
-    ...flattenSpecificationObject(product.specifications)
+    ...flattenSpecificationObject(product.specifications),
+    product.specification
   ].filter(Boolean)));
 }
 
-function normalizeProduct(product, category) {
-  const categorySlug = product.category || category.slug;
-  const productNumber = product.number || product.partNumber || product.id || "";
-  const vehicleBrand = product.vehicleBrand || product.brand || product.applicationBrand || "Brand not specified";
+function getCategoryGroup(categorySlug) {
+  if (!categorySlug) return "other";
+  return categoryGroupMap[categorySlug] || "other";
+}
 
+function getGroupLabel(groupKey) {
+  return categoryGroups.find(group => group.key === groupKey)?.shortLabel || "OTHER";
+}
+
+function getCategoryLabel(categorySlug) {
+  if (!categorySlug || categorySlug === "other") return "Other";
+  const category = allCategories.find(item => item.slug === categorySlug);
+  if (category?.title) return category.title.replace(/\s+Parts$/i, "");
+  return getGroupLabel(getCategoryGroup(categorySlug));
+}
+
+function getSyntheticCategoryForGroup(groupKey) {
+  const group = categoryGroups.find(item => item.key === groupKey) || categoryGroups[categoryGroups.length - 1];
   return {
-    id: product.id || productNumber,
-    number: productNumber,
-    name: product.name || product.productName || "Catalogue Product",
-    category: categorySlug,
-    description: product.shortDescription || product.description || product.application || "Heavy-duty replacement part",
-    application: product.application || "",
-    brand: vehicleBrand,
-    availability: product.availability || product.stockStatus || product.stock || "Ready stock",
-    specs: normalizeSpecs(product),
-    specifications: product.specifications || {},
-    image: product.image || category.thumbnail || "",
-    confidence: product.confidence || "",
-    isImported: Boolean(product.isImported),
-    isStarter: Boolean(product.isStarter)
+    slug: group.key || "all",
+    title: group.key ? `${group.shortLabel[0]}${group.shortLabel.slice(1).toLowerCase()} Parts` : "All Products",
+    intro: group.key === "other"
+      ? "Other heavy-duty truck parts from all brands, including clutch, suspension, steering and uncategorised products."
+      : `Browse ${group.shortLabel.toLowerCase()} products from every available brand.`,
+    desc: "Products from all brands.",
+    thumbnail: "",
+    items: []
   };
 }
 
-function getCatalogueProducts(category, importedProducts) {
-  const importedForCategory = (Array.isArray(importedProducts) ? importedProducts : [])
-    .filter(product => product && product.category === category.slug)
-    .map(product => normalizeProduct({ ...product, isImported: true }, category));
+function productMatchesBrand(product, brandInfo) {
+  if (!brandInfo) return true;
 
-  const seen = new Set();
-  return importedForCategory.filter(product => {
-    const key = normalizeSearchValue(product.number || product.id || product.name);
-    if (!key || seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
+  const brandTerms = [
+    brandInfo.name,
+    ...(brandInfo.aliases || [])
+  ].map(normalizeSearchValue).filter(Boolean);
+
+  const productBrand = normalizeSearchValue(product.brand);
+  return brandTerms.some(term => productBrand === term);
+}
+
+function normalizeProduct(product) {
+  const productNumber = product.productNumber || product.number || product.partNumber || product.id || "";
+  const productName = product.productName || product.name || "Catalogue Product";
+  const categorySlug = product.category || "other";
+  const categoryGroup = product.categoryGroup || getCategoryGroup(categorySlug);
+  const vehicleModel = product.vehicleModel || product.application || "";
+  const specification = product.specification || normalizeSpecs(product).join("; ");
+
+  return {
+    ...product,
+    id: product.id || productNumber,
+    number: productNumber,
+    productNumber,
+    partNumber: product.partNumber || productNumber,
+    name: productName,
+    productName,
+    category: categorySlug,
+    categoryGroup,
+    categoryLabel: getCategoryLabel(categorySlug),
+    subcategory: product.subcategory || "",
+    description: product.shortDescription || product.description || product.application || "Heavy-duty replacement part",
+    application: product.application || "",
+    vehicleModel,
+    brand: product.brand || "Brand not specified",
+    availability: product.availability || product.stockStatus || product.stock || "Ready stock",
+    specs: normalizeSpecs(product),
+    specifications: product.specifications || {},
+    specification,
+    image: product.image || "",
+    confidence: product.confidence || "",
+    searchableText: product.searchableText || "",
+    isImported: product.isImported !== false
+  };
 }
 
 function getProductSearchFields(product) {
   return [
     product.number,
+    product.productNumber,
+    product.partNumber,
     product.name,
+    product.productName,
     product.description,
-    product.application,
     product.brand,
+    product.category,
+    product.categoryLabel,
+    product.categoryGroup,
+    product.subcategory,
+    product.application,
+    product.vehicleModel,
     product.availability,
+    product.specification,
+    product.searchableText,
+    ...(product.keywords || []),
     ...(product.specs || []),
     ...flattenSpecificationObject(product.specifications)
   ].filter(Boolean);
@@ -272,6 +334,56 @@ function highlightText(value, terms) {
   return escaped.replace(new RegExp(`(${pattern})`, "gi"), "<mark class=\"search-highlight\">$1</mark>");
 }
 
+function highlightProductNumber(value, state) {
+  const escaped = escapeHtml(value);
+  if (state?.compact?.length > 2 && compactSearchValue(value).includes(state.compact)) {
+    return `<mark class="search-highlight">${escaped}</mark>`;
+  }
+
+  return highlightText(value, state?.highlightTerms || []);
+}
+
+function refreshCatalogueElements() {
+  productGrid = document.querySelector("#productGrid");
+  search = document.querySelector("#productSearch");
+  brand = document.querySelector("#brandFilter");
+  stock = document.querySelector("#stockFilter");
+  count = document.querySelector("#resultCount");
+  catalogueNote = document.querySelector(".catalogue-note");
+  categoryFilter = document.querySelector("#categoryFilter");
+}
+
+function ensureBrandProductScaffold() {
+  if (browseMode !== "brand" || document.querySelector("#productGrid")) return;
+
+  const hero = document.querySelector(".category-hero");
+  const main = document.querySelector("main");
+  const section = document.querySelector(".catalogue-section");
+  const container = section?.querySelector(".container");
+  if (!main || !hero || !section || !container) return;
+
+  if (!document.querySelector(".catalogue-bar")) {
+    hero.insertAdjacentHTML("afterend", `
+    <div class="catalogue-bar">
+      <div class="container catalogue-toolbar brand-product-toolbar">
+        <label><span>Global product search</span><input id="productSearch" type="search" placeholder="Product number, product name, brand, model or specification..."></label>
+        <label><span>Availability</span><select id="stockFilter"><option value="">All availability</option></select></label>
+      </div>
+    </div>`);
+  }
+
+  container.innerHTML = `
+    <div class="catalogue-head">
+      <div><p class="eyebrow"><span></span> Browse by brand</p><h2>All <em>products</em></h2></div>
+      <p id="resultCount"></p>
+    </div>
+    <div class="filter-pills" id="categoryFilter" aria-label="Filter products by category"></div>
+    <div class="product-grid" id="productGrid"></div>
+    <div class="catalogue-note"><p>Use the category filter or search by part number to identify the exact product faster.</p><a class="button button-orange" href="${escapeHtml(contactPath())}">Ask the parts team <span>&nearr;</span></a></div>`;
+
+  refreshCatalogueElements();
+}
+
 function updateSearchChrome() {
   const clear = document.querySelector("#clearProductSearch");
   if (clear) clear.hidden = !(search?.value || "").length;
@@ -284,10 +396,10 @@ function enhanceSearchBar() {
   if (!label || label.classList.contains("catalogue-search")) return;
 
   label.classList.add("catalogue-search");
-  search.placeholder = "Search part number, product name, brand, OD, ID, HI or PIN...";
+  search.placeholder = "Search product number, name, brand, category, model, OD, ID, HI or PIN...";
   search.setAttribute("autocomplete", "off");
   search.setAttribute("spellcheck", "false");
-  search.setAttribute("aria-label", "Search products by part number, name, vehicle brand, description or specifications");
+  search.setAttribute("aria-label", "Search products by part number, name, brand, category, vehicle model, description or specifications");
 
   const icon = document.createElement("span");
   icon.className = "search-icon";
@@ -310,24 +422,73 @@ function enhanceSearchBar() {
   label.append(icon, clear);
 }
 
-function hydrateFilterOptions(select, values) {
+function hydrateFilterOptions(select, values, firstLabel) {
   if (!select) return;
 
-  const existing = new Set(Array.from(select.options).map(option => option.value || option.textContent));
+  select.innerHTML = `<option value="">${escapeHtml(firstLabel)}</option>`;
   values
     .filter(Boolean)
     .sort((a, b) => a.localeCompare(b))
     .forEach(value => {
-      if (existing.has(value)) return;
-
       const option = document.createElement("option");
+      option.value = value;
       option.textContent = value;
       select.append(option);
-      existing.add(value);
     });
 }
 
-function updatePageChrome(category) {
+function getSelectedCategoryFilter() {
+  return categoryFilter?.querySelector("[aria-pressed='true']")?.dataset.categoryFilter || "";
+}
+
+function renderCategoryFilter() {
+  if (!categoryFilter) return;
+
+  categoryFilter.innerHTML = categoryGroups
+    .map(group => `<button class="filter-pill${group.key ? "" : " active"}" type="button" data-category-filter="${escapeHtml(group.key)}" aria-pressed="${group.key ? "false" : "true"}">${escapeHtml(group.label)}</button>`)
+    .join("");
+
+  if (categoryFilter.dataset.bound === "true") return;
+  categoryFilter.dataset.bound = "true";
+  categoryFilter.addEventListener("click", event => {
+    const button = event.target.closest("[data-category-filter]");
+    if (!button) return;
+
+    categoryFilter.querySelectorAll("[data-category-filter]").forEach(item => {
+      const isActive = item === button;
+      item.classList.toggle("active", isActive);
+      item.setAttribute("aria-pressed", String(isActive));
+    });
+
+    visibleCount = pageSize;
+    scheduleRender();
+  });
+}
+
+function updateBrandPageChrome(brandInfo) {
+  if (!brandInfo) return;
+
+  document.title = `${brandInfo.name} Products | NAE Enterprise Heavy Truck Parts`;
+  document.querySelector(".category-hero-copy h1")?.replaceChildren(document.createTextNode(brandInfo.name));
+
+  const intro = document.querySelector(".category-hero-copy p:last-child");
+  if (intro) {
+    intro.textContent = `Browse all ${brandInfo.name} products immediately. Use the category filters below only when you want to narrow the list.`;
+  }
+
+  const breadcrumbLast = document.querySelector(".breadcrumb span:last-child");
+  if (breadcrumbLast) breadcrumbLast.textContent = brandInfo.name;
+
+  const small = document.querySelector(".category-symbol small");
+  if (small) small.textContent = "All products / optional category filter";
+
+  const symbol = document.querySelector(".category-symbol i");
+  if (symbol && brandInfo.logo) {
+    symbol.innerHTML = `<img class="brand-page-logo" loading="lazy" decoding="async" src="${escapeHtml(assetPath(brandInfo.logo))}" alt="${escapeHtml(brandInfo.name)} logo">`;
+  }
+}
+
+function updateCategoryPageChrome(category) {
   document.title = `${category.title} | NAE Enterprise Heavy Truck Parts`;
 
   document.querySelectorAll("[data-category-title]").forEach(el => {
@@ -347,6 +508,11 @@ function updatePageChrome(category) {
   if (intro) intro.textContent = category.intro || category.desc || "";
 }
 
+function updateSearchPageChrome() {
+  if (browseMode !== "search") return;
+  document.title = "Global Product Search | NAE Enterprise Heavy Truck Parts";
+}
+
 function renderProductImage(product) {
   const imageSrc = assetPath(product.image || data.thumbnail);
   const alt = `${product.name} ${product.number}`.trim();
@@ -360,11 +526,15 @@ function renderProductImage(product) {
     </button>`;
 }
 
-function renderProductCard(product, highlightTerms) {
+function renderProductCard(product, searchState) {
+  const vehicleModel = product.vehicleModel || product.application;
   const meta = [
-    product.application,
-    ...(product.specs || [])
-  ].filter(Boolean).slice(0, 4);
+    `<span class="product-brand">Brand: ${highlightText(product.brand, searchState.highlightTerms)}</span>`,
+    `<span>Category: ${highlightText(product.categoryLabel, searchState.highlightTerms)}</span>`,
+    vehicleModel ? `<span class="product-vehicle">Vehicle Model: ${highlightText(vehicleModel, searchState.highlightTerms)}</span>` : "",
+    product.subcategory ? `<span>Subcategory: ${highlightText(product.subcategory, searchState.highlightTerms)}</span>` : "",
+    ...(product.specs || []).slice(0, 3).map(item => `<span>${highlightText(item, searchState.highlightTerms)}</span>`)
+  ].filter(Boolean);
 
   const badge = product.isImported ? "Imported product" : "Catalogue preview";
   const description = product.description || product.application || "Heavy-duty replacement part";
@@ -375,13 +545,11 @@ function renderProductCard(product, highlightTerms) {
       ${renderProductImage(product)}
     </div>
     <div class="product-body">
-      <span class="product-code">Part No. ${highlightText(product.number, highlightTerms)}</span>
-      <h3>${highlightText(product.name, highlightTerms)}</h3>
-      <p class="product-description">${highlightText(description, highlightTerms)}</p>
-      <div class="product-meta">
-        <span class="product-brand">Vehicle Brand: ${highlightText(product.brand, highlightTerms)}</span>
-        ${meta.map(item => `<span>${highlightText(item, highlightTerms)}</span>`).join("")}
-      </div>
+      <span class="product-code-label">Product Number</span>
+      <strong class="product-code">${highlightProductNumber(product.number, searchState)}</strong>
+      <h3>${highlightText(product.name, searchState.highlightTerms)}</h3>
+      <div class="product-meta">${meta.join("")}</div>
+      <p class="product-description">${highlightText(description, searchState.highlightTerms)}</p>
       <div class="product-action">
         <small class="stock-status">${escapeHtml(product.availability)}</small>
         <button data-enquire="${escapeHtml(`${product.number} ${product.name}`)}">Enquire &nearr;</button>
@@ -413,25 +581,31 @@ function render() {
   updateSearchChrome();
 
   const searchState = getSearchState();
-  const selectedBrand = brand?.selectedIndex ? brand.value : "";
-  const selectedStock = stock?.selectedIndex ? stock.value : "";
+  const selectedBrand = brand?.value || "";
+  const selectedStock = stock?.value || "";
+  const selectedCategory = getSelectedCategoryFilter();
   const renderKey = [
+    browseMode,
     searchState.normalized,
     selectedBrand,
     selectedStock,
+    selectedCategory,
     visibleCount,
-    catalogueRecords.length
+    catalogueRecords.length,
+    allCatalogueRecords.length
   ].join("|");
 
   if (renderKey === lastRenderKey) return;
   lastRenderKey = renderKey;
 
-  const filtered = catalogueRecords
+  const sourceRecords = searchState.tokens.length ? allCatalogueRecords : catalogueRecords;
+  const filtered = sourceRecords
     .filter(record => {
       const product = record.product;
       const brandMatches = !selectedBrand || product.brand === selectedBrand;
       const stockMatches = !selectedStock || product.availability === selectedStock;
-      return brandMatches && stockMatches && matchesSearch(record, searchState);
+      const categoryMatches = !selectedCategory || product.categoryGroup === selectedCategory;
+      return brandMatches && stockMatches && categoryMatches && matchesSearch(record, searchState);
     })
     .map(record => record.product);
 
@@ -445,8 +619,8 @@ function render() {
 
   if (productGrid) {
     productGrid.innerHTML = visible.length
-      ? visible.map(product => renderProductCard(product, searchState.highlightTerms)).join("")
-      : "<div class=\"no-results\"><strong>No products found</strong><span>Try another product number, product name, vehicle brand, OD, ID, HI, PIN or specification.</span></div>";
+      ? visible.map(product => renderProductCard(product, searchState)).join("")
+      : "<div class=\"no-results\"><strong>No products found</strong><span>Try another product number, product name, brand, category, vehicle model, OD, ID, HI, PIN or specification.</span></div>";
   }
 
   const loadMore = ensureLoadMoreButton();
@@ -520,8 +694,8 @@ function bindCatalogueEvents() {
 
     const enquiry = event.target.closest("[data-enquire]");
     if (enquiry) {
-      sessionStorage.setItem("naeEnquiry", `${data.title}: ${enquiry.dataset.enquire}`);
-      location.href = "../../index.html#contact";
+      sessionStorage.setItem("naeEnquiry", `${data.title || "Product"}: ${enquiry.dataset.enquire}`);
+      location.href = contactPath();
     }
   });
 
@@ -541,30 +715,102 @@ function bindCatalogueEvents() {
   });
 }
 
-async function initCataloguePage() {
-  if (!slug || !productGrid) return;
+function getBrandFromPage(brands) {
+  if (pageBrandId) {
+    const byId = brands.find(item => item.id === pageBrandId);
+    if (byId) return byId;
+  }
 
-  const [catalogue, importedJson] = await Promise.all([
+  const explicitName = pageBrandName || document.querySelector(".category-hero-copy h1")?.textContent?.trim() || "";
+  return brands.find(item => normalizeSearchValue(item.name) === normalizeSearchValue(explicitName)) || {
+    id: normalizeSearchValue(explicitName).replace(/\s+/g, "-"),
+    name: explicitName || "Brand",
+    aliases: explicitName ? [explicitName] : [],
+    logo: ""
+  };
+}
+
+function getBaseProducts(products) {
+  if (browseMode === "brand") {
+    return products.filter(product => productMatchesBrand(product, activeBrand));
+  }
+
+  if (browseMode === "category") {
+    if (pageCategoryGroup) {
+      return products.filter(product => product.categoryGroup === pageCategoryGroup);
+    }
+
+    return products.filter(product => product.category === pageCategorySlug);
+  }
+
+  return products;
+}
+
+function applyInitialSearchFromUrl() {
+  if (!search) return;
+
+  const params = new URLSearchParams(window.location.search);
+  const query = params.get("q");
+  if (query) {
+    search.value = query;
+  }
+}
+
+async function initCataloguePage() {
+  if (!document.querySelector("#productGrid") && browseMode !== "brand") return;
+
+  const [catalogue, importedJson, brandsJson] = await Promise.all([
     loadJson("catalogue.json", json => Array.isArray(json?.categories)),
-    loadJson("products.generated.json", json => Array.isArray(json))
+    loadJson("products.generated.json", json => Array.isArray(json)),
+    loadJson("brands.json", json => Array.isArray(json?.brands))
   ]);
 
-  const categories = Array.isArray(catalogue?.categories) ? catalogue.categories : fallbackCategories;
-  data = categories.find(category => category.slug === slug) || categories[0];
+  allCategories = Array.isArray(catalogue?.categories) ? catalogue.categories : fallbackCategories;
+  allBrands = Array.isArray(brandsJson?.brands) ? brandsJson.brands : [];
+
+  if (browseMode === "brand") {
+    activeBrand = getBrandFromPage(allBrands);
+    updateBrandPageChrome(activeBrand);
+    ensureBrandProductScaffold();
+  }
+
+  refreshCatalogueElements();
+
+  if (browseMode === "category") {
+    data = pageCategoryGroup
+      ? getSyntheticCategoryForGroup(pageCategoryGroup)
+      : (allCategories.find(category => category.slug === pageCategorySlug) || getSyntheticCategoryForGroup("other"));
+    updateCategoryPageChrome(data);
+  } else if (browseMode === "search") {
+    data = { title: "Global Product Search", thumbnail: "" };
+    updateSearchPageChrome();
+  } else if (activeBrand) {
+    data = { title: activeBrand.name, thumbnail: activeBrand.logo || "" };
+  }
+
   const importedProducts = Array.isArray(importedJson)
     ? importedJson
     : (Array.isArray(window.NAE_IMPORTED_PRODUCTS) ? window.NAE_IMPORTED_PRODUCTS : []);
 
-  updatePageChrome(data);
+  const seen = new Set();
+  allCatalogueProducts = importedProducts.map(product => normalizeProduct({ ...product, isImported: true })).filter(product => {
+    const key = `${normalizeSearchValue(product.brand)}|${normalizeSearchValue(product.number || product.id || product.name)}`;
+    if (!key.trim() || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+  allCatalogueRecords = allCatalogueProducts.map((product, index) => buildSearchRecord(product, index));
 
-  catalogueProducts = getCatalogueProducts(data, importedProducts);
+  catalogueProducts = getBaseProducts(allCatalogueProducts);
   catalogueRecords = catalogueProducts.map((product, index) => buildSearchRecord(product, index));
 
-  hydrateFilterOptions(brand, Array.from(new Set(catalogueProducts.map(product => product.brand))));
-  hydrateFilterOptions(stock, Array.from(new Set(catalogueProducts.map(product => product.availability))));
+  hydrateFilterOptions(brand, Array.from(new Set(allCatalogueProducts.map(product => product.brand))), "All brands");
+  hydrateFilterOptions(stock, Array.from(new Set(allCatalogueProducts.map(product => product.availability))), "All availability");
+  renderCategoryFilter();
   enhanceSearchBar();
   ensureImageLightbox();
   bindCatalogueEvents();
+  applyInitialSearchFromUrl();
   render();
 }
 

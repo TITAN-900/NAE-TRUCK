@@ -6,6 +6,7 @@ const siteScript = document.currentScript;
 const siteRoot = siteScript ? new URL("../../", siteScript.src) : new URL("./", window.location.href);
 const catalogueDataUrl = new URL("assets/data/catalogue.json", siteRoot);
 const brandsDataUrl = new URL("assets/data/brands.json", siteRoot);
+const productsDataUrl = new URL("assets/data/products.generated.json", siteRoot);
 
 const fallbackCatalogue = {
   categories: [
@@ -189,6 +190,20 @@ async function loadBrandsData() {
   }
 }
 
+async function loadProductData() {
+  if (!window.fetch) return Array.isArray(window.NAE_IMPORTED_PRODUCTS) ? window.NAE_IMPORTED_PRODUCTS : [];
+
+  try {
+    const response = await fetch(productsDataUrl, { cache: "no-cache" });
+    if (!response.ok) throw new Error(`Products request failed: ${response.status}`);
+    const text = await response.text();
+    const data = JSON.parse(text.replace(/^\uFEFF/, ""));
+    return Array.isArray(data) ? data : [];
+  } catch (error) {
+    return Array.isArray(window.NAE_IMPORTED_PRODUCTS) ? window.NAE_IMPORTED_PRODUCTS : [];
+  }
+}
+
 function normalizeFinderValue(value) {
   return String(value ?? "")
     .toLowerCase()
@@ -316,8 +331,21 @@ function renderBrandCards(brands) {
   observeRevealElements();
 }
 
-function buildFinderRecords(brands) {
-  return brands.flatMap((brand) => {
+function getProductNumber(product) {
+  return product.productNumber || product.number || product.partNumber || product.id || "";
+}
+
+function getProductName(product) {
+  return product.productName || product.name || "Catalogue Product";
+}
+
+function getProductSearchUrl(product, query) {
+  const value = query || getProductNumber(product) || getProductName(product);
+  return new URL(`search/index.html?q=${encodeURIComponent(value)}`, siteRoot).href;
+}
+
+function buildFinderRecords(brands, products) {
+  const brandRecords = brands.flatMap((brand) => {
     const brandTerms = [brand.name, ...(brand.aliases || [])];
     return (brand.products || []).map((product) => {
       const fields = [
@@ -328,13 +356,46 @@ function buildFinderRecords(brands) {
       ].filter(Boolean);
 
       return {
+        type: "placeholder",
         brand,
         product,
+        number: product.partNumber,
+        name: product.name,
+        brandName: brand.name,
         text: normalizeFinderValue(fields.join(" ")),
         compact: compactFinderValue(fields.join(" "))
       };
     });
   });
+
+  const productRecords = (Array.isArray(products) ? products : []).map((product) => {
+    const fields = [
+      getProductNumber(product),
+      product.partNumber,
+      getProductName(product),
+      product.description,
+      product.brand,
+      product.category,
+      product.subcategory,
+      product.vehicleModel,
+      product.application,
+      product.specification,
+      product.searchableText,
+      ...(product.specs || [])
+    ].filter(Boolean);
+
+    return {
+      type: "product",
+      product,
+      number: getProductNumber(product),
+      name: getProductName(product),
+      brandName: product.brand || "Brand not specified",
+      text: normalizeFinderValue(fields.join(" ")),
+      compact: compactFinderValue(fields.join(" "))
+    };
+  });
+
+  return [...productRecords, ...brandRecords];
 }
 
 function renderFinderResults(records, query) {
@@ -358,29 +419,38 @@ function renderFinderResults(records, query) {
 
   finderResults.hidden = false;
   finderResults.innerHTML = matches.length
-    ? matches.map(({ brand, product }) => `
-<a class="finder-result" href="${escapeHtml(resolveSiteAsset(brand.page))}">
-  ${renderBrandLogo(brand)}
+    ? matches.slice(0, 10).map((record) => `
+<a class="finder-result" href="${escapeHtml(getProductSearchUrl(record.product, query))}">
+  ${record.brand ? renderBrandLogo(record.brand) : `<span class="brand-logo-block"><span>${escapeHtml((record.brandName || "NAE").slice(0, 4))}</span></span>`}
   <span>
-    <small>${escapeHtml(product.partNumber)}</small>
-    <strong>${escapeHtml(product.name)}</strong>
-    <em>${escapeHtml(brand.name)}</em>
+    <small>${escapeHtml(record.number)}</small>
+    <strong>${escapeHtml(record.name)}</strong>
+    <em>${escapeHtml(record.brandName)}</em>
   </span>
 </a>`).join("")
-    : `<div class="finder-empty"><strong>No matching placeholder products found</strong><span>Try a part number, product name or brand.</span></div>`;
+    : `<div class="finder-empty"><strong>No products found</strong><span>Try a product number, product name, brand, model or specification.</span></div>`;
 }
 
 async function initHomepageFinder() {
   if (!brandCardGrid && !partsSearch) return;
 
-  const data = await loadBrandsData();
+  const [data, products] = await Promise.all([
+    loadBrandsData(),
+    loadProductData()
+  ]);
   const brands = Array.isArray(data?.brands) ? data.brands : [];
 
   renderBrandCards(brands);
-  finderRecords = buildFinderRecords(brands);
+  finderRecords = buildFinderRecords(brands, products);
 
   partsSearch?.addEventListener("input", () => {
     renderFinderResults(finderRecords, partsSearch.value);
+  });
+
+  partsSearch?.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" || !partsSearch.value.trim()) return;
+    event.preventDefault();
+    window.location.href = new URL(`search/index.html?q=${encodeURIComponent(partsSearch.value.trim())}`, siteRoot).href;
   });
 }
 

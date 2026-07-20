@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Search the full NAE Enterprise heavy-duty truck spare parts database by part number, brand, category, model or specification.">
+  <meta name="theme-color" content="#111111">
+  <title>Global Product Search | NAE Enterprise</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body class="category-page search-page" data-browse-mode="search">
+  <a class="skip-link" href="#catalogue">Skip to search results</a>
+  <div class="topline"><div class="container topline-inner"><span>Established 2011</span><span>Heavy-duty truck specialists</span><span>Malaysia-wide supply</span></div></div>
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-shell">
+      <a class="brand" href="../index.html" aria-label="NAE Enterprise home"><span class="brand-mark"><img src="../assets/img/nae-logo.jpg" alt="NAE official logo"></span><span class="brand-copy"><strong>NAE ENTERPRISE</strong><small>Heavy Truck Parts</small></span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open navigation"><span></span><span></span></button>
+      <nav class="nav-menu" id="navMenu" aria-label="Main navigation"><a href="../index.html#products">Browse by Brand</a><a href="../products/">Browse by Category</a><a href="../search/">Global Search</a><a href="../index.html#contact">Contact</a><a class="button button-small button-dark" href="../index.html#contact">Request a quote <span>&nearr;</span></a></nav>
+    </div>
+  </header>
+  <main id="catalogue">
+    <section class="category-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="../index.html">Home</a><span>/</span><span>Global Search</span></div>
+        <div class="category-hero-grid">
+          <div class="category-hero-copy"><p class="eyebrow eyebrow-light"><span></span> Global search</p><h1>Search Everything</h1><p>Search the full product database by product number, partial part number, product name, brand, category, vehicle model or specification.</p></div>
+          <div class="category-symbol"><i><span class="category-symbol-fallback">ALL</span></i><small>Entire product database</small></div>
+        </div>
+      </div>
+    </section>
+    <div class="catalogue-bar">
+      <div class="container catalogue-toolbar">
+        <label><span>Global product search</span><input id="productSearch" type="search" placeholder="Part number, product name, brand, model, OD, ID, HI or PIN&hellip;"></label>
+        <label><span>Brand</span><select id="brandFilter"><option value="">All brands</option></select></label>
+        <label><span>Availability</span><select id="stockFilter"><option value="">All availability</option></select></label>
+      </div>
+    </div>
+    <section class="catalogue-section">
+      <div class="container">
+        <div class="catalogue-head"><div><p class="eyebrow"><span></span> Product results</p><h2>Matching <em>products</em></h2></div><p id="resultCount"></p></div>
+        <div class="filter-pills" id="categoryFilter" aria-label="Filter products by category"></div>
+        <div class="product-grid" id="productGrid"></div>
+        <div class="catalogue-note"><p>Tip: You can search partial numbers without spaces or hyphens, for example WG976145 or 612630.</p><a class="button button-orange" href="../index.html#contact">Ask the parts team <span>&nearr;</span></a></div>
+      </div>
+    </section>
+    <section class="back-catalogue"><div class="container"><div><p class="eyebrow eyebrow-light"><span></span> Prefer browsing?</p><h2>Use brand or <em>category.</em></h2></div><a class="button button-dark" href="../products/">Browse by Category <span>&nearr;</span></a></div></section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-bottom" style="margin-top:0"><span>&copy; <span id="year"></span> NAE Enterprise Sdn. Bhd.</span><span>Chinese heavy-duty truck &amp; trailer parts &middot; Malaysia</span></div>
+  </footer>
+  <script src="../assets/js/site.js"></script>
+  <script src="../assets/data/products.generated.js"></script>
+  <script src="../assets/js/category.js"></script>
+</body>
+</html>
