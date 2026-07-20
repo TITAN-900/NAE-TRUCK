@@ -109,6 +109,7 @@ let lastRenderKey = "";
 let allCategories = fallbackCategories;
 let allBrands = [];
 let activeBrand = null;
+let brandLogoLookup = new Map();
 
 let productGrid = document.querySelector("#productGrid");
 let search = document.querySelector("#productSearch");
@@ -200,6 +201,32 @@ function getCategoryLabel(categorySlug) {
   return getGroupLabel(getCategoryGroup(categorySlug));
 }
 
+function buildBrandLogoLookup(brands) {
+  const lookup = new Map();
+
+  (brands || []).forEach(brandItem => {
+    const terms = [
+      brandItem.name,
+      brandItem.id,
+      ...(brandItem.aliases || [])
+    ];
+
+    terms.forEach(term => {
+      const normalized = normalizeSearchValue(term);
+      if (normalized && !lookup.has(normalized)) {
+        lookup.set(normalized, brandItem);
+      }
+    });
+  });
+
+  return lookup;
+}
+
+function resolveBrandLogo(brandName) {
+  const normalized = normalizeSearchValue(brandName);
+  return normalized ? brandLogoLookup.get(normalized) : null;
+}
+
 function getSyntheticCategoryForGroup(groupKey) {
   const group = categoryGroups.find(item => item.key === groupKey) || categoryGroups[categoryGroups.length - 1];
   return {
@@ -229,7 +256,8 @@ function productMatchesBrand(product, brandInfo) {
 function normalizeProduct(product) {
   const productNumber = product.productNumber || product.number || product.partNumber || product.id || "";
   const productName = product.productName || product.name || "Catalogue Product";
-  const categorySlug = product.category || "other";
+  const rawCategorySlug = product.category || "";
+  const categorySlug = rawCategorySlug || "other";
   const categoryGroup = product.categoryGroup || getCategoryGroup(categorySlug);
   const vehicleModel = product.vehicleModel || product.application || "";
   const specification = product.specification || normalizeSpecs(product).join("; ");
@@ -243,6 +271,7 @@ function normalizeProduct(product) {
     name: productName,
     productName,
     category: categorySlug,
+    hasCategory: Boolean(rawCategorySlug),
     categoryGroup,
     categoryLabel: getCategoryLabel(categorySlug),
     subcategory: product.subcategory || "",
@@ -526,7 +555,53 @@ function renderProductImage(product) {
     </button>`;
 }
 
+function getProductResultUrl(product) {
+  const categorySlug = allCategories.some(category => category.slug === product.category)
+    ? product.category
+    : "other";
+  const query = product.number || product.productNumber || product.partNumber || product.name || product.brand || "";
+  const path = `products/${categorySlug}/index.html${query ? `?q=${encodeURIComponent(query)}` : ""}`;
+  return new URL(path, categorySiteRoot).href;
+}
+
+function renderSearchBrandLogo(product) {
+  const brandName = product.brand || "Brand not specified";
+  const brandInfo = resolveBrandLogo(brandName);
+  const logo = brandInfo?.logo || "";
+  const label = logo ? `${brandInfo.name || brandName} logo` : "Brand logo placeholder";
+
+  return `<span class="search-result-logo${logo ? " has-logo" : ""}" aria-label="${escapeHtml(label)}">
+    ${logo ? `<img loading="lazy" decoding="async" src="${escapeHtml(assetPath(logo))}" alt="">` : ""}
+    <span class="search-result-logo-placeholder" aria-hidden="true">BRAND</span>
+  </span>`;
+}
+
+function renderSearchResultCard(product, searchState) {
+  const productNumber = product.number || product.productNumber || product.partNumber || "PART NUMBER UNAVAILABLE";
+  const productName = product.productName || product.name || product.description || "PRODUCT DESCRIPTION UNAVAILABLE";
+  const brandName = product.brand || "Brand not specified";
+  const categoryName = product.hasCategory ? product.categoryLabel : "";
+  const meta = [
+    brandName ? `<span>${highlightText(brandName, searchState.highlightTerms)}</span>` : "",
+    categoryName ? `<span>${highlightText(categoryName, searchState.highlightTerms)}</span>` : ""
+  ].filter(Boolean).join("<span class=\"search-result-separator\" aria-hidden=\"true\">&middot;</span>");
+  const label = `${productNumber} ${productName}`.trim();
+
+  return `<a class="product-card search-result-card" href="${escapeHtml(getProductResultUrl(product))}" aria-label="${escapeHtml(`View ${label}`)}">
+    ${renderSearchBrandLogo(product)}
+    <span class="search-result-content">
+      <strong class="search-result-code">${highlightProductNumber(productNumber, searchState)}</strong>
+      <span class="search-result-name">${highlightText(productName, searchState.highlightTerms)}</span>
+      ${meta ? `<span class="search-result-meta">${meta}</span>` : ""}
+    </span>
+  </a>`;
+}
+
 function renderProductCard(product, searchState) {
+  if (browseMode === "search") {
+    return renderSearchResultCard(product, searchState);
+  }
+
   const vehicleModel = product.vehicleModel || product.application;
   const meta = [
     `<span class="product-brand">Brand: ${highlightText(product.brand, searchState.highlightTerms)}</span>`,
@@ -699,6 +774,14 @@ function bindCatalogueEvents() {
     }
   });
 
+  productGrid?.addEventListener("error", event => {
+    const logo = event.target.closest?.(".search-result-logo");
+    if (!logo) return;
+
+    logo.classList.add("missing-logo");
+    event.target.remove();
+  }, true);
+
   document.addEventListener("click", event => {
     const lightbox = document.querySelector("#image-lightbox");
     if (!lightbox?.classList.contains("open")) return;
@@ -767,6 +850,7 @@ async function initCataloguePage() {
 
   allCategories = Array.isArray(catalogue?.categories) ? catalogue.categories : fallbackCategories;
   allBrands = Array.isArray(brandsJson?.brands) ? brandsJson.brands : [];
+  brandLogoLookup = buildBrandLogoLookup(allBrands);
 
   if (browseMode === "brand") {
     activeBrand = getBrandFromPage(allBrands);
