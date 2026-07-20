@@ -218,6 +218,39 @@ function compactFinderValue(value) {
   return normalizeFinderValue(value).replace(/\s+/g, "");
 }
 
+function buildFinderBrandLookup(brands) {
+  const lookup = new Map();
+
+  (brands || []).forEach((brand) => {
+    [
+      brand.id,
+      brand.name,
+      ...(brand.aliases || [])
+    ].forEach((term) => {
+      const key = normalizeFinderValue(term);
+      if (key && !lookup.has(key)) {
+        lookup.set(key, brand);
+      }
+    });
+  });
+
+  return lookup;
+}
+
+function bindBrandLogoWarnings() {
+  if (document.documentElement.dataset.brandLogoWarnings === "true") return;
+  document.documentElement.dataset.brandLogoWarnings = "true";
+
+  document.addEventListener("error", (event) => {
+    const image = event.target;
+    if (!(image instanceof HTMLImageElement) || !image.closest(".brand-logo-block")) return;
+
+    const failedUrl = image.currentSrc || image.src || image.getAttribute("src") || "";
+    console.warn(`NAE brand logo failed to load: ${failedUrl}`);
+    image.closest(".brand-logo-block")?.classList.add("missing-logo");
+  }, true);
+}
+
 
 // ===========================
 // Category Cards
@@ -345,6 +378,8 @@ function getProductSearchUrl(product, query) {
 }
 
 function buildFinderRecords(brands, products) {
+  const brandLookup = buildFinderBrandLookup(brands);
+
   const brandRecords = brands.flatMap((brand) => {
     const brandTerms = [brand.name, ...(brand.aliases || [])];
     return (brand.products || []).map((product) => {
@@ -369,6 +404,8 @@ function buildFinderRecords(brands, products) {
   });
 
   const productRecords = (Array.isArray(products) ? products : []).map((product) => {
+    const brandName = product.brand || "Brand not specified";
+    const brandInfo = brandLookup.get(normalizeFinderValue(brandName));
     const fields = [
       getProductNumber(product),
       product.partNumber,
@@ -386,10 +423,11 @@ function buildFinderRecords(brands, products) {
 
     return {
       type: "product",
+      brand: brandInfo || null,
       product,
       number: getProductNumber(product),
       name: getProductName(product),
-      brandName: product.brand || "Brand not specified",
+      brandName,
       text: normalizeFinderValue(fields.join(" ")),
       compact: compactFinderValue(fields.join(" "))
     };
@@ -441,6 +479,7 @@ async function initHomepageFinder() {
   const brands = Array.isArray(data?.brands) ? data.brands : [];
 
   renderBrandCards(brands);
+  bindBrandLogoWarnings();
   finderRecords = buildFinderRecords(brands, products);
 
   partsSearch?.addEventListener("input", () => {

@@ -775,11 +775,14 @@ function bindCatalogueEvents() {
   });
 
   productGrid?.addEventListener("error", event => {
+    const image = event.target;
     const logo = event.target.closest?.(".search-result-logo");
     if (!logo) return;
 
+    const failedUrl = image?.currentSrc || image?.src || image?.getAttribute?.("src") || "";
+    console.warn(`NAE brand logo failed to load: ${failedUrl}`);
     logo.classList.add("missing-logo");
-    event.target.remove();
+    image.remove();
   }, true);
 
   document.addEventListener("click", event => {
