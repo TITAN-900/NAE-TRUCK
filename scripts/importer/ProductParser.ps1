@@ -539,7 +539,7 @@ function Convert-SpecsToLabels {
 
 function Get-DescriptionFromProductLine {
   param(
-    [Parameter(Mandatory)][string]$Line,
+    [AllowNull()][string]$Line,
     [Parameter(Mandatory)][string]$Number,
     [AllowEmptyString()][string]$Name
   )
@@ -562,6 +562,154 @@ function Get-DescriptionFromProductLine {
     $description = if ([string]::IsNullOrWhiteSpace($Name)) { 'Needs manual review' } else { $Name }
   }
   return $description
+}
+
+function Get-OeNumbersFromText {
+  param([Parameter(Mandatory)][string]$Text)
+
+  $values = New-Object System.Collections.Generic.List[string]
+  $patterns = @(
+    '\b(?:OE|OEM|O\.E\.|PART\s*NO|P\/N|NO)\s*[:#-]?\s*([A-Z0-9][A-Z0-9\-\/\.]{4,24})',
+    '\b(?:SAME\s+AS|REPLACE(?:S|MENT)?|REF(?:ERENCE)?(?:\s*NO)?\.?)\s*[:#-]?\s*([A-Z0-9][A-Z0-9\-\/\.]{4,24})'
+  )
+
+  foreach ($pattern in $patterns) {
+    foreach ($match in [regex]::Matches($Text, $pattern)) {
+      $value = (Normalize-ProductNumber $match.Groups[1].Value)
+      if (-not [string]::IsNullOrWhiteSpace($value) -and $value.Length -ge 5) {
+        $values.Add($value) | Out-Null
+      }
+    }
+  }
+
+  return @($values | Select-Object -Unique)
+}
+
+function Get-EngineModelsFromText {
+  param([Parameter(Mandatory)][string]$Text)
+
+  $patterns = @(
+    '\bWD\s*615\b',
+    '\bWD\s*618\b',
+    '\bWD\s*10\b',
+    '\bWD\s*12\b',
+    '\bWP\s*10\b',
+    '\bWP\s*12\b',
+    '\bD\s*10\b',
+    '\bD\s*12\b',
+    '\bMC\s*05\b',
+    '\bMC\s*07\b',
+    '\bMC\s*11\b',
+    '\bMC\s*13\b',
+    '\b6D\s*16\b',
+    '\b4D\s*34\b',
+    '\b6M\s*60\b',
+    '\b6M\s*70\b',
+    '\bP\s*11C\b',
+    '\bJ08E\b',
+    '\bE13C\b',
+    '\bCA6D[A-Z0-9]*\b',
+    '\bYC6[A-Z0-9]*\b',
+    '\bISF\s*[0-9.]+\b',
+    '\bISG\s*[0-9.]+\b'
+  )
+
+  $values = New-Object System.Collections.Generic.List[string]
+  foreach ($pattern in $patterns) {
+    foreach ($match in [regex]::Matches($Text, $pattern)) {
+      $value = ($match.Value.ToUpperInvariant() -replace '\s+', '')
+      if ($value -match '^(WD|WP|MC|D|6D|4D|6M|P|ISF|ISG)' -and -not [string]::IsNullOrWhiteSpace($value)) {
+        $values.Add($value) | Out-Null
+      }
+    }
+  }
+
+  return @($values | Select-Object -Unique)
+}
+
+function Get-VehicleModelsFromText {
+  param([Parameter(Mandatory)][string]$Text)
+
+  $rules = @(
+    @{ Pattern = '\bSINOTRUK\b|\bHOWO\s*A7\b|\bHOWO\b|\bCNHTC\b'; Value = 'HOWO' },
+    @{ Pattern = '\bSITRAK\b|\bC7H\b|\bC9H\b'; Value = 'SITRAK' },
+    @{ Pattern = '\bSHACMAN\b|\bSHAANXI\b|\bF3000\b|\bX3000\b|M3000'; Value = 'SHACMAN' },
+    @{ Pattern = '\bFAW\b|\bJIEFANG\b|\bJ6P\b|\bJH6\b'; Value = 'FAW' },
+    @{ Pattern = '\bDONG\s*FENG\b|\bDONGFENG\b|\bDFM\b'; Value = 'DONGFENG' },
+    @{ Pattern = '\bFOTON\b|\bAUMAN\b'; Value = 'FOTON' },
+    @{ Pattern = '\bJAC\b'; Value = 'JAC' },
+    @{ Pattern = '\bXCMG\b|\bHANVAN\b'; Value = 'HANVAN' },
+    @{ Pattern = '\bHOHAN\b'; Value = 'HOHAN' },
+    @{ Pattern = '\bHINO\b|\b700\s*SERIES\b|\b500\s*SERIES\b'; Value = 'HINO' },
+    @{ Pattern = '\bMITSUBISHI\b|\bFUSO\b'; Value = 'MITSUBISHI FUSO' },
+    @{ Pattern = '\bISUZU\b'; Value = 'ISUZU' },
+    @{ Pattern = '\bTRAILER\b|\bSEMI\s*TRAILER\b|\bCONTAINER\s+HAULER\b'; Value = 'TRAILER' }
+  )
+
+  $values = New-Object System.Collections.Generic.List[string]
+  foreach ($rule in $rules) {
+    if ($Text -match $rule.Pattern) {
+      $values.Add([string]$rule.Value) | Out-Null
+    }
+  }
+
+  return @($values | Select-Object -Unique)
+}
+
+function Get-VisibleDescriptionFromText {
+  param(
+    [Parameter(Mandatory)][string]$Text,
+    [AllowNull()][AllowEmptyString()][string]$ProductLine
+  )
+
+  $candidates = New-Object System.Collections.Generic.List[string]
+  if (-not [string]::IsNullOrWhiteSpace($ProductLine)) {
+    $candidates.Add($ProductLine) | Out-Null
+  }
+
+  foreach ($sentence in ($Text -split '(?:\s{2,}|[\r\n]+| \| )')) {
+    $line = (ConvertTo-CleanOcrText $sentence).Trim()
+    if ([string]::IsNullOrWhiteSpace($line)) { continue }
+    if ($line -match '^\d+$') { continue }
+    if ($line -match '^\b(?:TEL|PHONE|WHATSAPP|HTTP|WWW)\b') { continue }
+    if ($line.Length -lt 4) { continue }
+    $candidates.Add($line) | Out-Null
+  }
+
+  return ((@($candidates | Select-Object -Unique | Select-Object -First 8) -join ' ') -replace '\s+', ' ').Trim()
+}
+
+function Get-SearchKeywordsFromParsedText {
+  param(
+    [Parameter(Mandatory)][string]$Text,
+    [AllowNull()][array]$EngineModels,
+    [AllowNull()][array]$VehicleModels,
+    [AllowNull()][array]$OeNumbers,
+    [AllowNull()][string]$ProductName,
+    [AllowNull()][array]$SpecLabels
+  )
+
+  $keywords = New-Object System.Collections.Generic.List[string]
+  foreach ($value in @($EngineModels) + @($VehicleModels) + @($OeNumbers) + @($SpecLabels) + @($ProductName)) {
+    $text = [string]$value
+    if (-not [string]::IsNullOrWhiteSpace($text)) {
+      $keywords.Add($text.Trim()) | Out-Null
+    }
+  }
+
+  $terms = @(
+    'TURBO', 'TURBOCHARGER', 'CLUTCH', 'SERVO', 'BOOSTER', 'WATER PUMP',
+    'OIL PUMP', 'BRAKE PUMP', 'BRAKE', 'VALVE', 'CYLINDER HEAD',
+    'INTERCOOLER', 'RADIATOR', 'SENSOR', 'SWITCH', 'FLYWHEEL', 'BEARING',
+    'AIR DRYER', 'SLACK ADJUSTER', 'SHOCK ABSORBER', 'LEAF SPRING'
+  )
+  foreach ($term in $terms) {
+    if ($Text -match ([regex]::Escape($term) -replace '\\ ', '\s+')) {
+      $keywords.Add($term) | Out-Null
+    }
+  }
+
+  return @($keywords | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_) } | Select-Object -Unique)
 }
 
 function Parse-ProductOcr {
@@ -589,6 +737,12 @@ function Parse-ProductOcr {
   }
 
   $brandIdentity = Get-VehicleBrandFromText -Text $cleanText
+  $preSpecs = Get-SpecificationsFromText -Text $cleanText
+  $preSpecLabels = Convert-SpecsToLabels -Specs $preSpecs
+  $engineModels = @(Get-EngineModelsFromText -Text $cleanText)
+  $vehicleModels = @(Get-VehicleModelsFromText -Text $cleanText)
+  $oeNumbers = @(Get-OeNumbersFromText -Text $cleanText)
+  $keywords = @(Get-SearchKeywordsFromParsedText -Text $cleanText -EngineModels $engineModels -VehicleModels $vehicleModels -OeNumbers $oeNumbers -ProductName $identity.Name -SpecLabels $preSpecLabels)
 
   $candidates = @(Get-ProductNumberCandidates -Text $cleanText -Lines $Lines)
   if ($candidates.Count -eq 0) {
@@ -597,6 +751,18 @@ function Parse-ProductOcr {
       Reason = 'No reliable product number candidate found.'
       Warnings = @($warnings)
       Confidence = 0
+      ProductNumber = ''
+      ProductName = $identity.Name
+      Category = $identity.Category
+      Brand = $brandIdentity.Brand
+      BrandEvidence = $brandIdentity.Evidence
+      Description = (Get-VisibleDescriptionFromText -Text $cleanText -ProductLine '')
+      Specifications = $preSpecs
+      SpecLabels = $preSpecLabels
+      OeNumbers = $oeNumbers
+      EngineModels = $engineModels
+      VehicleModels = $vehicleModels
+      Keywords = $keywords
       CleanText = $cleanText
     }
   }
@@ -629,9 +795,10 @@ function Parse-ProductOcr {
   }
 
   $productLine = Get-ProductLine -Lines $Lines -Number $best.Number
-  $specs = Get-SpecificationsFromText -Text $cleanText
-  $specLabels = Convert-SpecsToLabels -Specs $specs
+  $specs = $preSpecs
+  $specLabels = $preSpecLabels
   $description = Get-DescriptionFromProductLine -Line $productLine -Number $best.Number -Name $identity.Name
+  $visibleDescription = Get-VisibleDescriptionFromText -Text $cleanText -ProductLine $productLine
   $reason = if ($requiresReview) { 'OCR result needs manual review before import.' } else { 'Recognized' }
 
   return [ordered]@{
@@ -642,9 +809,14 @@ function Parse-ProductOcr {
     Category = $identity.Category
     Brand = $brandIdentity.Brand
     BrandEvidence = $brandIdentity.Evidence
-    Description = $description
+    Description = if (-not [string]::IsNullOrWhiteSpace($description)) { $description } else { $visibleDescription }
+    VisibleDescription = $visibleDescription
     Specifications = $specs
     SpecLabels = $specLabels
+    OeNumbers = $oeNumbers
+    EngineModels = $engineModels
+    VehicleModels = $vehicleModels
+    Keywords = $keywords
     ProductLine = $productLine
     CleanText = $cleanText
     Confidence = $confidence
