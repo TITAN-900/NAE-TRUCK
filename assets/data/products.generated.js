@@ -3021,22 +3021,30 @@ window.NAE_IMPORTED_PRODUCTS = [
         "oeNumber":  ""
     },
     {
-        "id":  "REVIEW-24F952EFF490",
-        "number":  "",
-        "productNumber":  "",
-        "partNumber":  "",
+        "id":  "60X152-HT",
+        "number":  "60X152-HT",
+        "productNumber":  "60X152-HT",
+        "partNumber":  "60X152-HT",
         "name":  "Coupling",
         "productName":  "Coupling",
-        "category":  "other",
+        "category":  "transmission-parts",
         "subcategory":  "",
-        "description":  "152 60 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 60X152-HT HT5425 COUPLING",
+        "description":  "Coupling",
+        "visibleDescription":  "60X152-HT 152 60 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 60X152-HT HT5425 COUPLING",
+        "longDescription":  "60X152-HT 152 60 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 60X152-HT HT5425 COUPLING",
         "application":  "",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/REVIEW-24F952EFF490.jpeg",
+        "alternateNumbers":  [
+                                 "HT5425"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT5425"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/60X152-HT.jpeg",
         "specifications":  {
 
                            },
@@ -3045,19 +3053,20 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-                         "Coupling"
+                         "Coupling",
+                         "COUPLING"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "No reliable product number candidate found.",
-        "searchableText":  "REVIEW-24F952EFF490 Coupling Huatai other 152 60 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 60X152-HT HT5425 COUPLING Manual review required No reliable product number candidate found. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False",
-        "confidence":  0,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "60X152-HT Coupling Huatai transmission-parts 60X152-HT 152 60 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 60X152-HT HT5425 COUPLING Ready stock COUPLING HT5425 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 152 60 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 60X152-HT HT5425 COUPLING",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.08 PM (2).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.08 PM (2).jpeg",
                        "hash":  "24f952eff490a8695bae20265bacc95696b34e39359bd3fac5f694373f25b6cd",
                        "ocrText":  "152 60 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 60X152-HT HT5425 COUPLING",
-                       "importedAt":  "2026-07-22T00:02:01"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
@@ -3065,18 +3074,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "612630020038-HT",
         "productNumber":  "612630020038-HT",
         "partNumber":  "612630020038-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Crankshaft",
+        "productName":  "Crankshaft",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
+        "description":  "Crankshaft",
+        "visibleDescription":  "612630020038-HT 100 L 44\" BAJI / 1128MM HI 64 OD 62 HUA TAI MADE \u0027N CHINA 612630020038/1006462897 CRANKSHAFT CASTING WEICHAI WP12 114KG HT1588H ILL LL I 1 111 11 1 I I I I I I I I I I I I 11 612630020038-HT HT1588 CRANKSHAFT WP12 \u0026 D12",
+        "longDescription":  "612630020038-HT 100 L 44\" BAJI / 1128MM HI 64 OD 62 HUA TAI MADE \u0027N CHINA 612630020038/1006462897 CRANKSHAFT CASTING WEICHAI WP12 114KG HT1588H ILL LL I 1 111 11 1 I I I I I I I I I I I I 11 612630020038-HT HT1588 CRANKSHAFT WP12 \u0026 D12",
         "application":  "WP12, D12",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WP12, D12",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/612630020038-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT1588H"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1588H"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/612630020038-HT-6D67E8E4CC18.jpeg",
         "specifications":  {
                                "OD":  [
                                           "62"
@@ -3094,11 +3111,13 @@ window.NAE_IMPORTED_PRODUCTS = [
                          "WP12",
                          "D12",
                          "OD 62",
-                         "HI 64"
+                         "HI 64",
+                         "Crankshaft",
+                         "CRANKSHAFT"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "612630020038-HT Manual review required Huatai other Needs manual review WP12, D12 OD 62; HI 64 OCR result needs manual review before import. OD 62 HI 64 WP12 D12 Count 2 IsReadOnly False Keys OD Keys HI Values 62 Values 64 IsFixedSize False SyncRoot System.Object IsSynchronized False 100 L 44\" BAJI / 1128MM HI 64 OD 62 HUA TAI MADE \u0027N CHINA 612630020038/1006462897 CRANKSHAFT CASTING WEICHAI WP12 114KG HT1588H ILL LL I 1 111 11 1 I I I I I I I I I I I I 11 612630020038-HT HT1588 CRANKSHAFT WP12 \u0026 D12",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "612630020038-HT Crankshaft Huatai engine-parts 612630020038-HT 100 L 44\" BAJI / 1128MM HI 64 OD 62 HUA TAI MADE \u0027N CHINA 612630020038/1006462897 CRANKSHAFT CASTING WEICHAI WP12 114KG HT1588H ILL LL I 1 111 11 1 I I I I I I I I I I I I 11 612630020038-HT HT1588 CRANKSHAFT WP12 \u0026 D12 WP12, D12 OD 62; HI 64 Ready stock OD 62 HI 64 WP12 D12 CRANKSHAFT HT1588H Count 2 IsReadOnly False Keys OD Keys HI Values 62 Values 64 IsFixedSize False SyncRoot System.Object IsSynchronized False 100 L 44\" BAJI / 1128MM HI 64 OD 62 HUA TAI MADE \u0027N CHINA 612630020038/1006462897 CRANKSHAFT CASTING WEICHAI WP12 114KG HT1588H ILL LL I 1 111 11 1 I I I I I I I I I I I I 11 612630020038-HT HT1588 CRANKSHAFT WP12 \u0026 D12",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -3106,7 +3125,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.08 PM.jpeg",
                        "hash":  "6d67e8e4cc180d6684133e267e233f56d3bd22dfdc4ebe88d41e10870bcdb148",
                        "ocrText":  "100 L 44\" BAJI / 1128MM HI 64 OD 62 HUA TAI MADE \u0027N CHINA 612630020038/1006462897 CRANKSHAFT CASTING WEICHAI WP12 114KG HT1588H ILL LL I 1 111 11 1 I I I I I I I I I I I I 11 612630020038-HT HT1588 CRANKSHAFT WP12 \u0026 D12",
-                       "importedAt":  "2026-07-22T00:02:02"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
@@ -3114,18 +3133,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "080V95800-7479-HT",
         "productNumber":  "080V95800-7479-HT",
         "partNumber":  "080V95800-7479-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Belt Tensioner",
+        "productName":  "Belt Tensioner",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
+        "description":  "Belt Tensioner",
+        "visibleDescription":  "080V95800-7479-HT OD 74 HI 34 HUATAI\u0027 GENUINE PARTS S ASIA ECONOV\u0027C MIO 080V95800-7479-HT HT2263 BELT TENSIONER MC07",
+        "longDescription":  "080V95800-7479-HT OD 74 HI 34 HUATAI\u0027 GENUINE PARTS S ASIA ECONOV\u0027C MIO 080V95800-7479-HT HT2263 BELT TENSIONER MC07",
         "application":  "MC07",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "MC07",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/080V95800-7479-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT2263"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2263"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/080V95800-7479-HT-7FE955C51950.jpeg",
         "specifications":  {
                                "OD":  [
                                           "74"
@@ -3142,11 +3169,13 @@ window.NAE_IMPORTED_PRODUCTS = [
         "keywords":  [
                          "MC07",
                          "OD 74",
-                         "HI 34"
+                         "HI 34",
+                         "Belt Tensioner",
+                         "BELT TENSIONER"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "080V95800-7479-HT Manual review required Huatai other Needs manual review MC07 OD 74; HI 34 OCR result needs manual review before import. OD 74 HI 34 Count 2 IsReadOnly False Keys OD Keys HI Values 74 Values 34 IsFixedSize False SyncRoot System.Object IsSynchronized False OD 74 HI 34 HUATAI\u0027 GENUINE PARTS S ASIA ECONOV\u0027C MIO 080V95800-7479-HT HT2263 BELT TENSIONER MC07",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "080V95800-7479-HT Belt Tensioner Huatai engine-parts 080V95800-7479-HT OD 74 HI 34 HUATAI\u0027 GENUINE PARTS S ASIA ECONOV\u0027C MIO 080V95800-7479-HT HT2263 BELT TENSIONER MC07 MC07 OD 74; HI 34 Ready stock OD 74 HI 34 BELT TENSIONER HT2263 Count 2 IsReadOnly False Keys OD Keys HI Values 74 Values 34 IsFixedSize False SyncRoot System.Object IsSynchronized False OD 74 HI 34 HUATAI\u0027 GENUINE PARTS S ASIA ECONOV\u0027C MIO 080V95800-7479-HT HT2263 BELT TENSIONER MC07",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -3154,26 +3183,34 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.08 PM (1).jpeg",
                        "hash":  "7fe955c5195093efb999c5b7859f8344f50edee4aab11a15752b190a9e6766ad",
                        "ocrText":  "OD 74 HI 34 HUATAI\u0027 GENUINE PARTS S ASIA ECONOV\u0027C MIO 080V95800-7479-HT HT2263 BELT TENSIONER MC07",
-                       "importedAt":  "2026-07-22T00:02:01"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
-        "id":  "REVIEW-4A80FC914637",
-        "number":  "",
-        "productNumber":  "",
-        "partNumber":  "",
+        "id":  "HT5427",
+        "number":  "HT5427",
+        "productNumber":  "HT5427",
+        "partNumber":  "HT5427",
         "name":  "Coupling",
         "productName":  "Coupling",
-        "category":  "other",
+        "category":  "transmission-parts",
         "subcategory":  "",
-        "description":  "140 47 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA HT5427 COUPLING KING LOONG BUS OUTER CLIP",
+        "description":  "COUPLING",
+        "visibleDescription":  "HT5427 COUPLING 140 47 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA HT5427 COUPLING KING LOONG BUS OUTER CLIP",
+        "longDescription":  "HT5427 COUPLING 140 47 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA HT5427 COUPLING KING LOONG BUS OUTER CLIP",
         "application":  "",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/REVIEW-4A80FC914637.jpeg",
+        "alternateNumbers":  [
+
+                             ],
+        "alternatePartNumbers":  [
+
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/HT5427.jpeg",
         "specifications":  {
 
                            },
@@ -3182,19 +3219,20 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-                         "Coupling"
+                         "Coupling",
+                         "COUPLING"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "No reliable product number candidate found.",
-        "searchableText":  "REVIEW-4A80FC914637 Coupling Huatai other 140 47 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA HT5427 COUPLING KING LOONG BUS OUTER CLIP Manual review required No reliable product number candidate found. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False",
-        "confidence":  0,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "HT5427 Coupling Huatai transmission-parts COUPLING HT5427 COUPLING 140 47 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA HT5427 COUPLING KING LOONG BUS OUTER CLIP Ready stock Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 140 47 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA HT5427 COUPLING KING LOONG BUS OUTER CLIP",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.07 PM (2).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.07 PM (2).jpeg",
                        "hash":  "4a80fc91463775e5d89147359577986bf31d38eb0ff3da722ed55bdd270c4b8d",
                        "ocrText":  "140 47 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA HT5427 COUPLING KING LOONG BUS OUTER CLIP",
-                       "importedAt":  "2026-07-22T00:02:01"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
@@ -3202,18 +3240,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "AZ-221-010-0026-HT",
         "productNumber":  "AZ-221-010-0026-HT",
         "partNumber":  "AZ-221-010-0026-HT",
-        "name":  "Kingpin Assembly",
-        "productName":  "Kingpin Assembly",
-        "category":  "trailer-parts",
+        "name":  "King Pin Kit",
+        "productName":  "King Pin Kit",
+        "category":  "steering-system",
         "subcategory":  "",
         "description":  "AZ-221 010 0026-HT",
-        "application":  "",
+        "visibleDescription":  "AZ-221 010 0026-HT HUATAI KING PIN KIT PEMKOMMEKT LUKBOPHEBOL7 AZ-221 010 0026-HT HT5186 KING PIN KIT SET HOW0371 43 / 45 / 47X206",
+        "longDescription":  "AZ-221 010 0026-HT HUATAI KING PIN KIT PEMKOMMEKT LUKBOPHEBOL7 AZ-221 010 0026-HT HT5186 KING PIN KIT SET HOW0371 43 / 45 / 47X206",
+        "application":  "HOWO",
         "brand":  "Huatai",
-        "vehicleModel":  "",
+        "vehicleModel":  "HOWO",
         "engineModel":  "",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "HT5186"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT5186"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/AZ-221-010-0026-HT.jpeg",
+        "image":  "assets/img/products/AZ-221-010-0026-HT-B0A86D909E9F.jpeg",
         "specifications":  {
                                "Pin":  [
                                            "Pin reference detected"
@@ -3224,12 +3270,14 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "Pin Pin reference detected",
         "keywords":  [
+                         "HOWO",
                          "Pin Pin reference detected",
-                         "Kingpin Assembly"
+                         "King Pin Kit",
+                         "KING PIN KIT"
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "AZ-221-010-0026-HT Kingpin Assembly Huatai trailer-parts AZ-221 010 0026-HT Pin Pin reference detected Ready stock Count 1 IsReadOnly False Keys Pin Values Pin reference detected IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI KING PIN KIT PEMKOMMEKT LUKBOPHEBOL7 AZ-221 010 0026-HT HT5186 KING PIN KIT SET HOW0371 43 / 45 / 47X206",
+        "searchableText":  "AZ-221-010-0026-HT King Pin Kit Huatai steering-system AZ-221 010 0026-HT AZ-221 010 0026-HT HUATAI KING PIN KIT PEMKOMMEKT LUKBOPHEBOL7 AZ-221 010 0026-HT HT5186 KING PIN KIT SET HOW0371 43 / 45 / 47X206 HOWO Pin Pin reference detected Ready stock KING PIN KIT HT5186 Count 1 IsReadOnly False Keys Pin Values Pin reference detected IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI KING PIN KIT PEMKOMMEKT LUKBOPHEBOL7 AZ-221 010 0026-HT HT5186 KING PIN KIT SET HOW0371 43 / 45 / 47X206",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -3237,7 +3285,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.07 PM.jpeg",
                        "hash":  "b0a86d909e9f8cd81acf569c5e818e1e6d1fc93d2d011d50c20e706948229564",
                        "ocrText":  "HUATAI KING PIN KIT PEMKOMMEKT LUKBOPHEBOL7 AZ-221 010 0026-HT HT5186 KING PIN KIT SET HOW0371 43 / 45 / 47X206",
-                       "importedAt":  "2026-07-22T00:02:01"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
@@ -3245,18 +3293,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "VG-156-004-0032",
         "productNumber":  "VG-156-004-0032",
         "partNumber":  "VG-156-004-0032",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Engine Overhaul Gasket Set",
+        "productName":  "Engine Overhaul Gasket Set",
+        "category":  "engine-parts",
         "subcategory":  "",
         "description":  "VG-156 004 0032 VALVE SEAL SMALL",
+        "visibleDescription":  "VG-156 004 0032 VALVE SEAL SMALL HUATAI\u0027 ENGINE REPAIR KIT NPOKF1AAKL,1 AJIA ABWATEJIR NTERNATNÆ. O 0 00 WG-156 OOI 0701-HT HT 1743B 0/1* GASKET SET WD615.47 VG-156 004 0032 VALVE SEAL SMALL",
+        "longDescription":  "VG-156 004 0032 VALVE SEAL SMALL HUATAI\u0027 ENGINE REPAIR KIT NPOKF1AAKL,1 AJIA ABWATEJIR NTERNATNÆ. O 0 00 WG-156 OOI 0701-HT HT 1743B 0/1* GASKET SET WD615.47 VG-156 004 0032 VALVE SEAL SMALL",
         "application":  "WD615",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD615",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/VG-156-004-0032.jpeg",
+        "alternateNumbers":  [
+                                 "HT1743B"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1743B"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/VG-156-004-0032-3D6CDF9EF13C.jpeg",
         "specifications":  {
 
                            },
@@ -3265,38 +3321,48 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-                         "WD615"
+                         "WD615",
+                         "Engine Overhaul Gasket Set",
+                         "GASKET SET"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "VG-156-004-0032 Manual review required Huatai other VG-156 004 0032 VALVE SEAL SMALL WD615 OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI\u0027 ENGINE REPAIR KIT NPOKF1AAKL,1 AJIA ABWATEJIR NTERNATNÆ. O 0 00 WG-156 OOI 0701-HT HT 1743B 0/1* GASKET SET WD615.47 VG-156 004 0032 VALVE SEAL SMALL",
-        "confidence":  78,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "VG-156-004-0032 Engine Overhaul Gasket Set Huatai engine-parts VG-156 004 0032 VALVE SEAL SMALL VG-156 004 0032 VALVE SEAL SMALL HUATAI\u0027 ENGINE REPAIR KIT NPOKF1AAKL,1 AJIA ABWATEJIR NTERNATNÆ. O 0 00 WG-156 OOI 0701-HT HT 1743B 0/1* GASKET SET WD615.47 VG-156 004 0032 VALVE SEAL SMALL WD615 Ready stock GASKET SET HT1743B Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI\u0027 ENGINE REPAIR KIT NPOKF1AAKL,1 AJIA ABWATEJIR NTERNATNÆ. O 0 00 WG-156 OOI 0701-HT HT 1743B 0/1* GASKET SET WD615.47 VG-156 004 0032 VALVE SEAL SMALL",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.09 PM (1).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.09 PM (1).jpeg",
                        "hash":  "3d6cdf9ef13cfb63087bcc71289eaf71c8b34cab80181674a7806b0f01ab24ff",
                        "ocrText":  "HUATAI\u0027 ENGINE REPAIR KIT NPOKF1AAKL,1 AJIA ABWATEJIR NTERNATNÆ. O 0 00 WG-156 OOI 0701-HT HT 1743B 0/1* GASKET SET WD615.47 VG-156 004 0032 VALVE SEAL SMALL",
-                       "importedAt":  "2026-07-22T00:02:02"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
-        "id":  "910-022-0027",
-        "number":  "910-022-0027",
-        "productNumber":  "910-022-0027",
-        "partNumber":  "910-022-0027",
+        "id":  "WG-910-022-0027-9-HT",
+        "number":  "WG-910-022-0027-9-HT",
+        "productNumber":  "WG-910-022-0027-9-HT",
+        "partNumber":  "WG-910-022-0027-9-HT",
         "name":  "Brake Lining Set",
         "productName":  "Brake Lining Set",
         "category":  "brake-system",
         "subcategory":  "",
-        "description":  "G-910 022 0027/9-HT",
-        "application":  "",
+        "description":  "BRAKE LINING",
+        "visibleDescription":  "BRAKE LINING 7 1/4\" / 186MM 6 1/4\" / 155MM HUATAI\u0027 BRAKE LINING HAKN4ARA TOPMOSHAR HUATAI\" MIO 5 1/2\" / 139MM MIO 6 1/4\" / 155MM G-910 022 0027/9-HT HOW0371 LONG 160 OD 140 (3-3) 1 SET 4 BIG 4 SMALL",
+        "longDescription":  "BRAKE LINING 7 1/4\" / 186MM 6 1/4\" / 155MM HUATAI\u0027 BRAKE LINING HAKN4ARA TOPMOSHAR HUATAI\" MIO 5 1/2\" / 139MM MIO 6 1/4\" / 155MM G-910 022 0027/9-HT HOW0371 LONG 160 OD 140 (3-3) 1 SET 4 BIG 4 SMALL",
+        "application":  "HOWO",
         "brand":  "Huatai",
-        "vehicleModel":  "",
+        "vehicleModel":  "HOWO",
         "engineModel":  "",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/910-022-0027.jpeg",
+        "alternateNumbers":  [
+
+                             ],
+        "alternatePartNumbers":  [
+
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/WG-910-022-0027-9-HT.jpeg",
         "specifications":  {
                                "OD":  [
                                           "140"
@@ -3313,22 +3379,23 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "OD 140; Diameter 7 1/4\" / 186mm, 6 1/4\" / 155mm, 5 1/2\" / 139mm",
         "keywords":  [
+                         "HOWO",
                          "OD 140",
                          "Diameter 7 1/4\" / 186mm, 6 1/4\" / 155mm, 5 1/2\" / 139mm",
                          "Brake Lining Set",
                          "BRAKE"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "910-022-0027 Brake Lining Set Huatai brake-system G-910 022 0027/9-HT OD 140; Diameter 7 1/4\" / 186mm, 6 1/4\" / 155mm, 5 1/2\" / 139mm Manual review required OCR result needs manual review before import. OD 140 Diameter 7 1/4\" / 186mm, 6 1/4\" / 155mm, 5 1/2\" / 139mm BRAKE Count 2 IsReadOnly False Keys OD Keys Diameter Values 140 Values 7 1/4\" / 186mm 6 1/4\" / 155mm 5 1/2\" / 139mm IsFixedSize False SyncRoot System.Object IsSynchronized False 7 1/4\" / 186MM 6 1/4\" / 155MM HUATAI\u0027 BRAKE LINING HAKN4ARA TOPMOSHAR HUATAI\" MIO 5 1/2\" / 139MM MIO 6 1/4\" / 155MM G-910 022 0027/9-HT HOW0371 LONG 160 OD 140 (3-3) 1 SET 4 BIG 4 SMALL",
-        "confidence":  56,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "WG-910-022-0027-9-HT Brake Lining Set Huatai brake-system BRAKE LINING BRAKE LINING 7 1/4\" / 186MM 6 1/4\" / 155MM HUATAI\u0027 BRAKE LINING HAKN4ARA TOPMOSHAR HUATAI\" MIO 5 1/2\" / 139MM MIO 6 1/4\" / 155MM G-910 022 0027/9-HT HOW0371 LONG 160 OD 140 (3-3) 1 SET 4 BIG 4 SMALL HOWO OD 140; Diameter 7 1/4\" / 186mm, 6 1/4\" / 155mm, 5 1/2\" / 139mm Ready stock OD 140 Diameter 7 1/4\" / 186mm, 6 1/4\" / 155mm, 5 1/2\" / 139mm BRAKE Count 2 IsReadOnly False Keys OD Keys Diameter Values 140 Values 7 1/4\" / 186mm 6 1/4\" / 155mm 5 1/2\" / 139mm IsFixedSize False SyncRoot System.Object IsSynchronized False 7 1/4\" / 186MM 6 1/4\" / 155MM HUATAI\u0027 BRAKE LINING HAKN4ARA TOPMOSHAR HUATAI\" MIO 5 1/2\" / 139MM MIO 6 1/4\" / 155MM G-910 022 0027/9-HT HOW0371 LONG 160 OD 140 (3-3) 1 SET 4 BIG 4 SMALL",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.10 PM.jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.10 PM.jpeg",
                        "hash":  "14e46cfae3982d5ff54381cbc722e1c853e65950ac6eeaffcde70c67d4fa1213",
                        "ocrText":  "7 1/4\" / 186MM 6 1/4\" / 155MM HUATAI\u0027 BRAKE LINING HAKN4ARA TOPMOSHAR HUATAI\" MIO 5 1/2\" / 139MM MIO 6 1/4\" / 155MM G-910 022 0027/9-HT HOW0371 LONG 160 OD 140 (3-3) 1 SET 4 BIG 4 SMALL",
-                       "importedAt":  "2026-07-22T00:02:02"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
@@ -3336,18 +3403,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "VG-156-004-0032-HT",
         "productNumber":  "VG-156-004-0032-HT",
         "partNumber":  "VG-156-004-0032-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Valve Seal",
+        "productName":  "Valve Seal",
+        "category":  "engine-parts",
         "subcategory":  "",
         "description":  "VG-156 004 0032-HT",
+        "visibleDescription":  "VG-156 004 0032-HT HUATAI MADE IN CHINA VGI 560040032 VALVE SEAL FLU ORORUBBER 68 60 PCS SINOTRUK WD615 EURO 11 HT1847H 1025 S 976046 29 ID 9.5 HI 10 OD 16 HUATAI\u0027 GENUINE PARTS VG-156 004 0032-HT HT1847 VALVE SEAL WD615.47 ID 9.5 OD 16 HI 10 (SMALL) HOWO",
+        "longDescription":  "VG-156 004 0032-HT HUATAI MADE IN CHINA VGI 560040032 VALVE SEAL FLU ORORUBBER 68 60 PCS SINOTRUK WD615 EURO 11 HT1847H 1025 S 976046 29 ID 9.5 HI 10 OD 16 HUATAI\u0027 GENUINE PARTS VG-156 004 0032-HT HT1847 VALVE SEAL WD615.47 ID 9.5 OD 16 HI 10 (SMALL) HOWO",
         "application":  "HOWO, WD615",
         "brand":  "Huatai",
         "vehicleModel":  "HOWO",
         "engineModel":  "WD615",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/VG-156-004-0032-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT1847H"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1847H"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/VG-156-004-0032-HT-25001EE6BB80.jpeg",
         "specifications":  {
                                "OD":  [
                                           "16"
@@ -3370,11 +3445,14 @@ window.NAE_IMPORTED_PRODUCTS = [
                          "HOWO",
                          "OD 16",
                          "ID 9.5",
-                         "HI 10"
+                         "HI 10",
+                         "Valve Seal",
+                         "VALVE",
+                         "VALVE SEAL"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "VG-156-004-0032-HT Manual review required Huatai other VG-156 004 0032-HT HOWO, WD615 HOWO WD615 OD 16; ID 9.5; HI 10 OCR result needs manual review before import. OD 16 ID 9.5 HI 10 Count 3 IsReadOnly False Keys OD Keys ID Keys HI Values 16 Values 9.5 Values 10 IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI MADE IN CHINA VGI 560040032 VALVE SEAL FLU ORORUBBER 68 60 PCS SINOTRUK WD615 EURO 11 HT1847H 1025 S 976046 29 ID 9.5 HI 10 OD 16 HUATAI\u0027 GENUINE PARTS VG-156 004 0032-HT HT1847 VALVE SEAL WD615.47 ID 9.5 OD 16 HI 10 (SMALL) HOWO",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "VG-156-004-0032-HT Valve Seal Huatai engine-parts VG-156 004 0032-HT VG-156 004 0032-HT HUATAI MADE IN CHINA VGI 560040032 VALVE SEAL FLU ORORUBBER 68 60 PCS SINOTRUK WD615 EURO 11 HT1847H 1025 S 976046 29 ID 9.5 HI 10 OD 16 HUATAI\u0027 GENUINE PARTS VG-156 004 0032-HT HT1847 VALVE SEAL WD615.47 ID 9.5 OD 16 HI 10 (SMALL) HOWO HOWO, WD615 HOWO WD615 OD 16; ID 9.5; HI 10 Ready stock OD 16 ID 9.5 HI 10 VALVE VALVE SEAL HT1847H Count 3 IsReadOnly False Keys OD Keys ID Keys HI Values 16 Values 9.5 Values 10 IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI MADE IN CHINA VGI 560040032 VALVE SEAL FLU ORORUBBER 68 60 PCS SINOTRUK WD615 EURO 11 HT1847H 1025 S 976046 29 ID 9.5 HI 10 OD 16 HUATAI\u0027 GENUINE PARTS VG-156 004 0032-HT HT1847 VALVE SEAL WD615.47 ID 9.5 OD 16 HI 10 (SMALL) HOWO",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -3382,26 +3460,34 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.11 PM (1).jpeg",
                        "hash":  "25001ee6bb80c4d11672c87b929fcbb7de8f05d5f6c10fd37439c56f9c6c0353",
                        "ocrText":  "HUATAI MADE IN CHINA VGI 560040032 VALVE SEAL FLU ORORUBBER 68 60 PCS SINOTRUK WD615 EURO 11 HT1847H 1025 S 976046 29 ID 9.5 HI 10 OD 16 HUATAI\u0027 GENUINE PARTS VG-156 004 0032-HT HT1847 VALVE SEAL WD615.47 ID 9.5 OD 16 HI 10 (SMALL) HOWO",
-                       "importedAt":  "2026-07-22T00:02:02"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
-        "id":  "612600130618",
-        "number":  "612600130618",
-        "productNumber":  "612600130618",
-        "partNumber":  "612600130618",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "id":  "612600130618-XLB-HT",
+        "number":  "612600130618-XLB-HT",
+        "productNumber":  "612600130618-XLB-HT",
+        "partNumber":  "612600130618-XLB-HT",
+        "name":  "Air Compressor Repair Kit",
+        "productName":  "Air Compressor Repair Kit",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "XLB-HT",
-        "application":  "",
+        "description":  "Air Compressor Repair Kit",
+        "visibleDescription":  "612600130618-XLB-HT HUATAI\u0027 HUATAI CANA AIR COMPRESSOR REPAIR KT VVD615 EURO SET HT3168H OOO ECO:OO 612600130618-XLB-HT HT3168H A/COMP REPAIR KIT DAYUN PA80TON 22T YUTONG",
+        "longDescription":  "612600130618-XLB-HT HUATAI\u0027 HUATAI CANA AIR COMPRESSOR REPAIR KT VVD615 EURO SET HT3168H OOO ECO:OO 612600130618-XLB-HT HT3168H A/COMP REPAIR KIT DAYUN PA80TON 22T YUTONG",
+        "application":  "DAYUN, YUTONG",
         "brand":  "Huatai",
-        "vehicleModel":  "",
+        "vehicleModel":  "DAYUN, YUTONG",
         "engineModel":  "",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/612600130618.jpeg",
+        "alternateNumbers":  [
+                                 "HT3168H"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT3168H"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/612600130618-XLB-HT.jpeg",
         "specifications":  {
                                "Teeth":  [
                                              "22T"
@@ -3412,38 +3498,51 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "Teeth 22T",
         "keywords":  [
-                         "Teeth 22T"
+                         "DAYUN",
+                         "YUTONG",
+                         "Teeth 22T",
+                         "Air Compressor Repair Kit",
+                         "AIR COMPRESSOR",
+                         "AIR COMPRESSOR REPAIR KIT"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "612600130618 Manual review required Huatai other XLB-HT Teeth 22T OCR result needs manual review before import. Count 1 IsReadOnly False Keys Teeth Values 22T IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI\u0027 HUATAI CANA AIR COMPRESSOR REPAIR KT VVD615 EURO SET HT3168H OOO ECO:OO 612600130618-XLB-HT HT3168H A/COMP REPAIR KIT DAYUN PA80TON 22T YUTONG",
-        "confidence":  32,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "612600130618-XLB-HT Air Compressor Repair Kit Huatai engine-parts 612600130618-XLB-HT HUATAI\u0027 HUATAI CANA AIR COMPRESSOR REPAIR KT VVD615 EURO SET HT3168H OOO ECO:OO 612600130618-XLB-HT HT3168H A/COMP REPAIR KIT DAYUN PA80TON 22T YUTONG DAYUN, YUTONG Teeth 22T Ready stock DAYUN YUTONG AIR COMPRESSOR AIR COMPRESSOR REPAIR KIT HT3168H Count 1 IsReadOnly False Keys Teeth Values 22T IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI\u0027 HUATAI CANA AIR COMPRESSOR REPAIR KT VVD615 EURO SET HT3168H OOO ECO:OO 612600130618-XLB-HT HT3168H A/COMP REPAIR KIT DAYUN PA80TON 22T YUTONG",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.10 PM (2).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.10 PM (2).jpeg",
                        "hash":  "523c5526fc38560caadae6047d47c1369aa5147d57d3c6ce60d2a1596dd434ff",
                        "ocrText":  "HUATAI\u0027 HUATAI CANA AIR COMPRESSOR REPAIR KT VVD615 EURO SET HT3168H OOO ECO:OO 612600130618-XLB-HT HT3168H A/COMP REPAIR KIT DAYUN PA80TON 22T YUTONG",
-                       "importedAt":  "2026-07-22T00:02:02"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
-        "id":  "920-034-0068",
-        "number":  "920-034-0068",
-        "productNumber":  "920-034-0068",
-        "partNumber":  "920-034-0068",
+        "id":  "HT8003",
+        "number":  "HT8003",
+        "productNumber":  "HT8003",
+        "partNumber":  "HT8003",
         "name":  "Brake Lining Set",
         "productName":  "Brake Lining Set",
         "category":  "brake-system",
         "subcategory":  "",
-        "description":  "WG?920 034 0068-HT",
-        "application":  "",
+        "description":  "REAR B/LINING 7 1/4\"",
+        "visibleDescription":  "HT8003 REAR B/LINING 7 1/4\" MIO HUATII• 7 1/2\" / 190MM 7 1/4\" / 185MM HUATAI\u0027 ORAKE LINING HAKNURA TOPMOSHAR HUATAI WG?920 034 0068-HT HT8003 REAR B/LINING 7 1/4\" HOW0371 LONG 185 OD 190 ( 4-4 )",
+        "longDescription":  "HT8003 REAR B/LINING 7 1/4\" MIO HUATII• 7 1/2\" / 190MM 7 1/4\" / 185MM HUATAI\u0027 ORAKE LINING HAKNURA TOPMOSHAR HUATAI WG?920 034 0068-HT HT8003 REAR B/LINING 7 1/4\" HOW0371 LONG 185 OD 190 ( 4-4 )",
+        "application":  "HOWO",
         "brand":  "Huatai",
-        "vehicleModel":  "",
+        "vehicleModel":  "HOWO",
         "engineModel":  "",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/920-034-0068.jpeg",
+        "alternateNumbers":  [
+                                 "WG-920-034-0068-HT"
+                             ],
+        "alternatePartNumbers":  [
+                                     "WG-920-034-0068-HT"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/HT8003.jpeg",
         "specifications":  {
                                "OD":  [
                                           "190"
@@ -3459,41 +3558,50 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "OD 190; Diameter 7 1/2\" / 190mm, 7 1/4\" / 185mm",
         "keywords":  [
+                         "HOWO",
                          "OD 190",
                          "Diameter 7 1/2\" / 190mm, 7 1/4\" / 185mm",
                          "Brake Lining Set",
                          "BRAKE"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "920-034-0068 Brake Lining Set Huatai brake-system WG?920 034 0068-HT OD 190; Diameter 7 1/2\" / 190mm, 7 1/4\" / 185mm Manual review required OCR result needs manual review before import. OD 190 Diameter 7 1/2\" / 190mm, 7 1/4\" / 185mm BRAKE Count 2 IsReadOnly False Keys OD Keys Diameter Values 190 Values 7 1/2\" / 190mm 7 1/4\" / 185mm IsFixedSize False SyncRoot System.Object IsSynchronized False MIO HUATII• 7 1/2\" / 190MM 7 1/4\" / 185MM HUATAI\u0027 ORAKE LINING HAKNURA TOPMOSHAR HUATAI WG?920 034 0068-HT HT8003 REAR B/LINING 7 1/4\" HOW0371 LONG 185 OD 190 ( 4-4 )",
-        "confidence":  56,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "HT8003 Brake Lining Set Huatai brake-system REAR B/LINING 7 1/4\" HT8003 REAR B/LINING 7 1/4\" MIO HUATII• 7 1/2\" / 190MM 7 1/4\" / 185MM HUATAI\u0027 ORAKE LINING HAKNURA TOPMOSHAR HUATAI WG?920 034 0068-HT HT8003 REAR B/LINING 7 1/4\" HOW0371 LONG 185 OD 190 ( 4-4 ) HOWO OD 190; Diameter 7 1/2\" / 190mm, 7 1/4\" / 185mm Ready stock OD 190 Diameter 7 1/2\" / 190mm, 7 1/4\" / 185mm BRAKE WG-920-034-0068-HT Count 2 IsReadOnly False Keys OD Keys Diameter Values 190 Values 7 1/2\" / 190mm 7 1/4\" / 185mm IsFixedSize False SyncRoot System.Object IsSynchronized False MIO HUATII• 7 1/2\" / 190MM 7 1/4\" / 185MM HUATAI\u0027 ORAKE LINING HAKNURA TOPMOSHAR HUATAI WG?920 034 0068-HT HT8003 REAR B/LINING 7 1/4\" HOW0371 LONG 185 OD 190 ( 4-4 )",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.09 PM (3).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.09 PM (3).jpeg",
                        "hash":  "17d4e61f7b02f16d1249fcbe93512450e6eebc0276670cba087a7caaaab4c902",
                        "ocrText":  "MIO HUATII• 7 1/2\" / 190MM 7 1/4\" / 185MM HUATAI\u0027 ORAKE LINING HAKNURA TOPMOSHAR HUATAI WG?920 034 0068-HT HT8003 REAR B/LINING 7 1/4\" HOW0371 LONG 185 OD 190 ( 4-4 )",
-                       "importedAt":  "2026-07-22T00:02:02"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
-        "id":  "REVIEW-623091AC7D9B",
-        "number":  "",
-        "productNumber":  "",
-        "partNumber":  "",
+        "id":  "62X149-HT",
+        "number":  "62X149-HT",
+        "productNumber":  "62X149-HT",
+        "partNumber":  "62X149-HT",
         "name":  "Coupling",
         "productName":  "Coupling",
-        "category":  "other",
+        "category":  "transmission-parts",
         "subcategory":  "",
-        "description":  "62 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 62X149-HT HT5412 COUPLING",
+        "description":  "Coupling",
+        "visibleDescription":  "62X149-HT 62 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 62X149-HT HT5412 COUPLING",
+        "longDescription":  "62X149-HT 62 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 62X149-HT HT5412 COUPLING",
         "application":  "",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/REVIEW-623091AC7D9B.jpeg",
+        "alternateNumbers":  [
+                                 "HT5412"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT5412"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/62X149-HT.jpeg",
         "specifications":  {
 
                            },
@@ -3502,38 +3610,47 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-                         "Coupling"
+                         "Coupling",
+                         "COUPLING"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "No reliable product number candidate found.",
-        "searchableText":  "REVIEW-623091AC7D9B Coupling Huatai other 62 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 62X149-HT HT5412 COUPLING Manual review required No reliable product number candidate found. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False",
-        "confidence":  0,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "62X149-HT Coupling Huatai transmission-parts 62X149-HT 62 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 62X149-HT HT5412 COUPLING Ready stock COUPLING HT5412 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 62 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 62X149-HT HT5412 COUPLING",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.10 PM (1).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.10 PM (1).jpeg",
                        "hash":  "623091ac7d9b0b44b7539c2c03626bb05e8bf00426639f476479cda26884a665",
                        "ocrText":  "62 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 62X149-HT HT5412 COUPLING",
-                       "importedAt":  "2026-07-22T00:02:02"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
-        "id":  "WG-923-134-2068-HT",
-        "number":  "WG-923-134-2068-HT",
-        "productNumber":  "WG-923-134-2068-HT",
-        "partNumber":  "WG-923-134-2068-HT",
+        "id":  "HT8007",
+        "number":  "HT8007",
+        "productNumber":  "HT8007",
+        "partNumber":  "HT8007",
         "name":  "Brake Lining Set",
         "productName":  "Brake Lining Set",
         "category":  "brake-system",
         "subcategory":  "",
-        "description":  "WG-923134 2068-HT",
+        "description":  "REAR B/LINING 8 3/4\"",
+        "visibleDescription":  "HT8007 REAR B/LINING 8 3/4\" 8 3/47 228MM MIO 7 3/8\" / 188MM MI OX24 WG-923134 2068-HT HT8007 REAR B/LINING 8 3/4\" HOWO 371 4-2-2-2-4 OD 210M",
+        "longDescription":  "HT8007 REAR B/LINING 8 3/4\" 8 3/47 228MM MIO 7 3/8\" / 188MM MI OX24 WG-923134 2068-HT HT8007 REAR B/LINING 8 3/4\" HOWO 371 4-2-2-2-4 OD 210M",
         "application":  "HOWO",
         "brand":  "Huatai",
         "vehicleModel":  "HOWO",
         "engineModel":  "",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "WG-923-134-2068-HT"
+                             ],
+        "alternatePartNumbers":  [
+                                     "WG-923-134-2068-HT"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/WG-923-134-2068-HT.jpeg",
+        "image":  "assets/img/products/HT8007.jpeg",
         "specifications":  {
                                "OD":  [
                                           "210"
@@ -3556,34 +3673,42 @@ window.NAE_IMPORTED_PRODUCTS = [
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "WG-923-134-2068-HT Brake Lining Set Huatai brake-system WG-923134 2068-HT HOWO OD 210; Diameter 7 3/8\" / 188mm Ready stock OD 210 Diameter 7 3/8\" / 188mm BRAKE Count 2 IsReadOnly False Keys OD Keys Diameter Values 210 Values 7 3/8\" / 188mm IsFixedSize False SyncRoot System.Object IsSynchronized False 8 3/47 228MM MIO 7 3/8\" / 188MM MI OX24 WG-923134 2068-HT HT8007 REAR B/LINING 8 3/4\" HOWO 371 4-2-2-2-4 OD 210M",
-        "confidence":  92,
+        "searchableText":  "HT8007 Brake Lining Set Huatai brake-system REAR B/LINING 8 3/4\" HT8007 REAR B/LINING 8 3/4\" 8 3/47 228MM MIO 7 3/8\" / 188MM MI OX24 WG-923134 2068-HT HT8007 REAR B/LINING 8 3/4\" HOWO 371 4-2-2-2-4 OD 210M HOWO OD 210; Diameter 7 3/8\" / 188mm Ready stock OD 210 Diameter 7 3/8\" / 188mm BRAKE WG-923-134-2068-HT Count 2 IsReadOnly False Keys OD Keys Diameter Values 210 Values 7 3/8\" / 188mm IsFixedSize False SyncRoot System.Object IsSynchronized False 8 3/47 228MM MIO 7 3/8\" / 188MM MI OX24 WG-923134 2068-HT HT8007 REAR B/LINING 8 3/4\" HOWO 371 4-2-2-2-4 OD 210M",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.07 PM (1).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.07 PM (1).jpeg",
                        "hash":  "a3f93ce3fbf8a4667e0e476d0cbcca16c1deedb08362d9b86202e622472d9eed",
                        "ocrText":  "8 3/47 228MM MIO 7 3/8\" / 188MM MI OX24 WG-923134 2068-HT HT8007 REAR B/LINING 8 3/4\" HOWO 371 4-2-2-2-4 OD 210M",
-                       "importedAt":  "2026-07-22T00:02:01"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
-        "id":  "REVIEW-C2632DC1D4BF",
-        "number":  "",
-        "productNumber":  "",
-        "partNumber":  "",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "id":  "KC1560037011-HT",
+        "number":  "KC1560037011-HT",
+        "productNumber":  "KC1560037011-HT",
+        "partNumber":  "KC1560037011-HT",
+        "name":  "Piston Liner Kit",
+        "productName":  "Piston Liner Kit",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "HUATAL• CYLINDER LINER KIT NOP1DHEBAR RPYNNA MNG PISTON KC1560037011-HT HT1216 PISTON LINER KIT 126M WD615.47",
+        "description":  "Piston Liner Kit",
+        "visibleDescription":  "KC1560037011-HT HUATAL• CYLINDER LINER KIT NOP1DHEBAR RPYNNA MNG PISTON KC1560037011-HT HT1216 PISTON LINER KIT 126M WD615.47",
+        "longDescription":  "KC1560037011-HT HUATAL• CYLINDER LINER KIT NOP1DHEBAR RPYNNA MNG PISTON KC1560037011-HT HT1216 PISTON LINER KIT 126M WD615.47",
         "application":  "WD615",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD615",
-        "oeNumber":  "P1DHEBAR",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/REVIEW-C2632DC1D4BF.jpeg",
+        "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "HT1216"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1216"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/KC1560037011-HT.jpeg",
         "specifications":  {
 
                            },
@@ -3593,38 +3718,47 @@ window.NAE_IMPORTED_PRODUCTS = [
         "specification":  "",
         "keywords":  [
                          "WD615",
-                         "P1DHEBAR"
+                         "Piston Liner Kit",
+                         "PISTON LINER KIT"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "No reliable product number candidate found.",
-        "searchableText":  "REVIEW-C2632DC1D4BF Manual review required Huatai other HUATAL• CYLINDER LINER KIT NOP1DHEBAR RPYNNA MNG PISTON KC1560037011-HT HT1216 PISTON LINER KIT 126M WD615.47 WD615 P1DHEBAR No reliable product number candidate found. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False",
-        "confidence":  0,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "KC1560037011-HT Piston Liner Kit Huatai engine-parts KC1560037011-HT HUATAL• CYLINDER LINER KIT NOP1DHEBAR RPYNNA MNG PISTON KC1560037011-HT HT1216 PISTON LINER KIT 126M WD615.47 WD615 Ready stock PISTON LINER KIT HT1216 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAL• CYLINDER LINER KIT NOP1DHEBAR RPYNNA MNG PISTON KC1560037011-HT HT1216 PISTON LINER KIT 126M WD615.47",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.04 PM.jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.04 PM.jpeg",
                        "hash":  "c2632dc1d4bfde25e2c0dd372b5a1e63014ef80bb2e48ded0597adf4609d17b8",
                        "ocrText":  "HUATAL• CYLINDER LINER KIT NOP1DHEBAR RPYNNA MNG PISTON KC1560037011-HT HT1216 PISTON LINER KIT 126M WD615.47",
-                       "importedAt":  "2026-07-22T00:02:00"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
-        "id":  "REVIEW-ABBE599FA5EC",
-        "number":  "",
-        "productNumber":  "",
-        "partNumber":  "",
+        "id":  "68X165-HT",
+        "number":  "68X165-HT",
+        "productNumber":  "68X165-HT",
+        "partNumber":  "68X165-HT",
         "name":  "Coupling",
         "productName":  "Coupling",
-        "category":  "other",
+        "category":  "transmission-parts",
         "subcategory":  "",
-        "description":  "165 68 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 68X165-HT HT5420 COUPLING INNER CLIP",
+        "description":  "Coupling",
+        "visibleDescription":  "68X165-HT 165 68 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 68X165-HT HT5420 COUPLING INNER CLIP",
+        "longDescription":  "68X165-HT 165 68 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 68X165-HT HT5420 COUPLING INNER CLIP",
         "application":  "",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/REVIEW-ABBE599FA5EC.jpeg",
+        "alternateNumbers":  [
+                                 "HT5420"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT5420"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/68X165-HT.jpeg",
         "specifications":  {
 
                            },
@@ -3633,38 +3767,49 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-                         "Coupling"
+                         "Coupling",
+                         "COUPLING"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "No reliable product number candidate found.",
-        "searchableText":  "REVIEW-ABBE599FA5EC Coupling Huatai other 165 68 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 68X165-HT HT5420 COUPLING INNER CLIP Manual review required No reliable product number candidate found. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False",
-        "confidence":  0,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "68X165-HT Coupling Huatai transmission-parts 68X165-HT 165 68 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 68X165-HT HT5420 COUPLING INNER CLIP Ready stock COUPLING HT5420 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 165 68 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 68X165-HT HT5420 COUPLING INNER CLIP",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.05 PM (1).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.05 PM (1).jpeg",
                        "hash":  "abbe599fa5ec1283f63f0d8691ac3415b4dd991fee15ba096ab09d0e1f8151e1",
                        "ocrText":  "165 68 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 68X165-HT HT5420 COUPLING INNER CLIP",
-                       "importedAt":  "2026-07-22T00:02:00"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
-        "id":  "612630040006",
-        "number":  "612630040006",
-        "productNumber":  "612630040006",
-        "partNumber":  "612630040006",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "id":  "WP12-OHG-SET-HT",
+        "number":  "WP12-OHG-SET-HT",
+        "productNumber":  "WP12-OHG-SET-HT",
+        "partNumber":  "WP12-OHG-SET-HT",
+        "name":  "Engine Overhaul Gasket Set",
+        "productName":  "Engine Overhaul Gasket Set",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "HEAD GASKET USE",
+        "description":  "Engine Overhaul Gasket Set",
+        "visibleDescription":  "WP12-OHG-SET-HT HUATAI L\u0027INNA AUTO PANS SPECIALIST 612630820005 ÆO\u0026S MADE IN CHINA ENGINE REPAIR KIT 1 SET WEICHAI WP12 HT1742AH 6 976046 225650 HUATAI\u0027 ENGINE REPAIR KIT ABTATEJ19 WP12-OHG-SET-HT HT1742A O/H GASKET HEAD GASKET USE 612630040006 24V",
+        "longDescription":  "WP12-OHG-SET-HT HUATAI L\u0027INNA AUTO PANS SPECIALIST 612630820005 ÆO\u0026S MADE IN CHINA ENGINE REPAIR KIT 1 SET WEICHAI WP12 HT1742AH 6 976046 225650 HUATAI\u0027 ENGINE REPAIR KIT ABTATEJ19 WP12-OHG-SET-HT HT1742A O/H GASKET HEAD GASKET USE 612630040006 24V",
         "application":  "WP12",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WP12",
-        "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/612630040006.jpeg",
+        "oeNumber":  "612630040006",
+        "alternateNumbers":  [
+                                 "HT1742A",
+                                 "612630040006"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1742A",
+                                     "612630040006"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/WP12-OHG-SET-HT.jpeg",
         "specifications":  {
 
                            },
@@ -3673,19 +3818,22 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-                         "WP12"
+                         "WP12",
+                         "612630040006",
+                         "Engine Overhaul Gasket Set",
+                         "GASKET SET"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "612630040006 Manual review required Huatai other HEAD GASKET USE WP12 OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI L\u0027INNA AUTO PANS SPECIALIST 612630820005 ÆO\u0026S MADE IN CHINA ENGINE REPAIR KIT 1 SET WEICHAI WP12 HT1742AH 6 976046 225650 HUATAI\u0027 ENGINE REPAIR KIT ABTATEJ19 WP12-OHG-SET-HT HT1742A O/H GASKET HEAD GASKET USE 612630040006 24V",
-        "confidence":  46,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "WP12-OHG-SET-HT Engine Overhaul Gasket Set Huatai engine-parts WP12-OHG-SET-HT HUATAI L\u0027INNA AUTO PANS SPECIALIST 612630820005 ÆO\u0026S MADE IN CHINA ENGINE REPAIR KIT 1 SET WEICHAI WP12 HT1742AH 6 976046 225650 HUATAI\u0027 ENGINE REPAIR KIT ABTATEJ19 WP12-OHG-SET-HT HT1742A O/H GASKET HEAD GASKET USE 612630040006 24V WP12 612630040006 Ready stock GASKET SET HT1742A Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI L\u0027INNA AUTO PANS SPECIALIST 612630820005 ÆO\u0026S MADE IN CHINA ENGINE REPAIR KIT 1 SET WEICHAI WP12 HT1742AH 6 976046 225650 HUATAI\u0027 ENGINE REPAIR KIT ABTATEJ19 WP12-OHG-SET-HT HT1742A O/H GASKET HEAD GASKET USE 612630040006 24V",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.04 PM (3).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.04 PM (3).jpeg",
                        "hash":  "f83b63d4e4ae967428f75429e88809f8c59ea5164d4c8dd0380a2da6f833759f",
                        "ocrText":  "HUATAI L\u0027INNA AUTO PANS SPECIALIST 612630820005 ÆO\u0026S MADE IN CHINA ENGINE REPAIR KIT 1 SET WEICHAI WP12 HT1742AH 6 976046 225650 HUATAI\u0027 ENGINE REPAIR KIT ABTATEJ19 WP12-OHG-SET-HT HT1742A O/H GASKET HEAD GASKET USE 612630040006 24V",
-                       "importedAt":  "2026-07-22T00:02:00"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
@@ -3693,18 +3841,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "080V95800-7477-HT",
         "productNumber":  "080V95800-7477-HT",
         "partNumber":  "080V95800-7477-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Belt Tensioner",
+        "productName":  "Belt Tensioner",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
-        "application":  "HOHAN, MC07",
+        "description":  "Belt Tensioner",
+        "visibleDescription":  "080V95800-7477-HT OD 74 H135 HUATAI\u0027 GENUINE PARTS LS CAN. 080V95800-7477-HT HT2264 BELT TENSIONER HOHAN MC07 MCII ENGINE MAN",
+        "longDescription":  "080V95800-7477-HT OD 74 H135 HUATAI\u0027 GENUINE PARTS LS CAN. 080V95800-7477-HT HT2264 BELT TENSIONER HOHAN MC07 MCII ENGINE MAN",
+        "application":  "HOHAN, MAN, MC07",
         "brand":  "Huatai",
-        "vehicleModel":  "HOHAN",
+        "vehicleModel":  "HOHAN, MAN",
         "engineModel":  "MC07",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/080V95800-7477-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT2264"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2264"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/080V95800-7477-HT-BD446F48925C.jpeg",
         "specifications":  {
                                "OD":  [
                                           "74"
@@ -3721,12 +3877,15 @@ window.NAE_IMPORTED_PRODUCTS = [
         "keywords":  [
                          "MC07",
                          "HOHAN",
+                         "MAN",
                          "OD 74",
-                         "Holes 74H M135"
+                         "Holes 74H M135",
+                         "Belt Tensioner",
+                         "BELT TENSIONER"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "080V95800-7477-HT Manual review required Huatai other Needs manual review HOHAN, MC07 HOHAN MC07 OD 74; Holes 74H M135 OCR result needs manual review before import. OD 74 Holes 74H M135 Count 2 IsReadOnly False Keys OD Keys Holes Values 74 Values 74H M135 IsFixedSize False SyncRoot System.Object IsSynchronized False OD 74 H135 HUATAI\u0027 GENUINE PARTS LS CAN. 080V95800-7477-HT HT2264 BELT TENSIONER HOHAN MC07 MCII ENGINE MAN",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "080V95800-7477-HT Belt Tensioner Huatai engine-parts 080V95800-7477-HT OD 74 H135 HUATAI\u0027 GENUINE PARTS LS CAN. 080V95800-7477-HT HT2264 BELT TENSIONER HOHAN MC07 MCII ENGINE MAN HOHAN, MAN, MC07 HOHAN, MAN MC07 OD 74; Holes 74H M135 Ready stock OD 74 Holes 74H M135 HOHAN MAN BELT TENSIONER HT2264 Count 2 IsReadOnly False Keys OD Keys Holes Values 74 Values 74H M135 IsFixedSize False SyncRoot System.Object IsSynchronized False OD 74 H135 HUATAI\u0027 GENUINE PARTS LS CAN. 080V95800-7477-HT HT2264 BELT TENSIONER HOHAN MC07 MCII ENGINE MAN",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -3734,7 +3893,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.04 PM (1).jpeg",
                        "hash":  "bd446f48925c4ffd4880f487f006953a6ee9984f87143e3d82604c20e766602a",
                        "ocrText":  "OD 74 H135 HUATAI\u0027 GENUINE PARTS LS CAN. 080V95800-7477-HT HT2264 BELT TENSIONER HOHAN MC07 MCII ENGINE MAN",
-                       "importedAt":  "2026-07-22T00:02:00"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
@@ -3742,18 +3901,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "13068736-HT",
         "productNumber":  "13068736-HT",
         "partNumber":  "13068736-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Connecting Rod Bearing Set",
+        "productName":  "Connecting Rod Bearing Set",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
-        "application":  "",
+        "description":  "Connecting Rod Bearing Set",
+        "visibleDescription":  "13068736-HT 64 27 HUAW ENGINE BEARING BKJIAABLU_] LIJATYHA 13068736-HT HT1121 C/R BRG STD WP6G",
+        "longDescription":  "13068736-HT 64 27 HUAW ENGINE BEARING BKJIAABLU_] LIJATYHA 13068736-HT HT1121 C/R BRG STD WP6G",
+        "application":  "WP6G",
         "brand":  "Huatai",
         "vehicleModel":  "",
-        "engineModel":  "",
+        "engineModel":  "WP6G",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/13068736-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT1121"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1121"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/13068736-HT-FEBBC2CBEFF5.jpeg",
         "specifications":  {
 
                            },
@@ -3762,11 +3929,14 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-
+                         "WP6G",
+                         "Connecting Rod Bearing Set",
+                         "BEARING",
+                         "CONNECTING ROD BEARING"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "13068736-HT Manual review required Huatai other Needs manual review OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 64 27 HUAW ENGINE BEARING BKJIAABLU_] LIJATYHA 13068736-HT HT1121 C/R BRG STD WP6G",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "13068736-HT Connecting Rod Bearing Set Huatai engine-parts 13068736-HT 64 27 HUAW ENGINE BEARING BKJIAABLU_] LIJATYHA 13068736-HT HT1121 C/R BRG STD WP6G WP6G Ready stock BEARING CONNECTING ROD BEARING HT1121 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 64 27 HUAW ENGINE BEARING BKJIAABLU_] LIJATYHA 13068736-HT HT1121 C/R BRG STD WP6G",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -3774,26 +3944,34 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.04 PM (2).jpeg",
                        "hash":  "febbc2cbeff5b38e3d19b9c74ade64abf66678a606e5fe297271e7f6102bb1b8",
                        "ocrText":  "64 27 HUAW ENGINE BEARING BKJIAABLU_] LIJATYHA 13068736-HT HT1121 C/R BRG STD WP6G",
-                       "importedAt":  "2026-07-22T00:02:00"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
-        "id":  "612600040282",
-        "number":  "612600040282",
-        "productNumber":  "612600040282",
-        "partNumber":  "612600040282",
+        "id":  "612600040282-ASSY-HT",
+        "number":  "612600040282-ASSY-HT",
+        "productNumber":  "612600040282-ASSY-HT",
+        "partNumber":  "612600040282-ASSY-HT",
         "name":  "Cylinder Head Assembly",
         "productName":  "Cylinder Head Assembly",
         "category":  "engine-parts",
         "subcategory":  "",
         "description":  "Cylinder Head Assembly",
+        "visibleDescription":  "612600040282-ASSY-HT HUATAI MADE IN CHINA 612600040282 CYLINDER HEAD ASSY WEICHAI EURO 11 EVE 1 SET 198KG H T 2214H 612600040282-ASSY-HT HT2214 CYL HEAD ASSY WD618 COMPLETE",
+        "longDescription":  "612600040282-ASSY-HT HUATAI MADE IN CHINA 612600040282 CYLINDER HEAD ASSY WEICHAI EURO 11 EVE 1 SET 198KG H T 2214H 612600040282-ASSY-HT HT2214 CYL HEAD ASSY WD618 COMPLETE",
         "application":  "WD618",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD618",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "HT2214"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2214"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/612600040282.jpeg",
+        "image":  "assets/img/products/612600040282-ASSY-HT.jpeg",
         "specifications":  {
 
                            },
@@ -3808,15 +3986,15 @@ window.NAE_IMPORTED_PRODUCTS = [
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "612600040282 Cylinder Head Assembly Huatai engine-parts WD618 Ready stock CYLINDER HEAD Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI MADE IN CHINA 612600040282 CYLINDER HEAD ASSY WEICHAI EURO 11 EVE 1 SET 198KG H T 2214H 612600040282-ASSY-HT HT2214 CYL HEAD ASSY WD618 COMPLETE",
-        "confidence":  84,
+        "searchableText":  "612600040282-ASSY-HT Cylinder Head Assembly Huatai engine-parts 612600040282-ASSY-HT HUATAI MADE IN CHINA 612600040282 CYLINDER HEAD ASSY WEICHAI EURO 11 EVE 1 SET 198KG H T 2214H 612600040282-ASSY-HT HT2214 CYL HEAD ASSY WD618 COMPLETE WD618 Ready stock CYLINDER HEAD HT2214 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI MADE IN CHINA 612600040282 CYLINDER HEAD ASSY WEICHAI EURO 11 EVE 1 SET 198KG H T 2214H 612600040282-ASSY-HT HT2214 CYL HEAD ASSY WD618 COMPLETE",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.05 PM (2).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.05 PM (2).jpeg",
                        "hash":  "41655abc4017c6b586b645d3b40add2ad4621bfd9c538ffb05756f3f46ced4c2",
                        "ocrText":  "HUATAI MADE IN CHINA 612600040282 CYLINDER HEAD ASSY WEICHAI EURO 11 EVE 1 SET 198KG H T 2214H 612600040282-ASSY-HT HT2214 CYL HEAD ASSY WD618 COMPLETE",
-                       "importedAt":  "2026-07-22T00:02:00"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
@@ -3824,18 +4002,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "VG-156-004-0057-HT",
         "productNumber":  "VG-156-004-0057-HT",
         "partNumber":  "VG-156-004-0057-HT",
-        "name":  "Intake Valve",
-        "productName":  "Intake Valve",
+        "name":  "Valve Seat",
+        "productName":  "Valve Seat",
         "category":  "engine-parts",
         "subcategory":  "",
         "description":  "VG-156 004 0057-HT",
+        "visibleDescription":  "VG-156 004 0057-HT 10 HUATAI GENUINE PARTS 45 56 HUATAI 61560040057 INTAKE VALVE SEAT WD615 EURO 11 HT2159H ILL MADE IN CHINA 6 PCS 6 2 9133 7 VG-156 004 0057-HT HT2159 VALVE INSEAT IN WD615.47 ID 45 OD 56 HI 10",
+        "longDescription":  "VG-156 004 0057-HT 10 HUATAI GENUINE PARTS 45 56 HUATAI 61560040057 INTAKE VALVE SEAT WD615 EURO 11 HT2159H ILL MADE IN CHINA 6 PCS 6 2 9133 7 VG-156 004 0057-HT HT2159 VALVE INSEAT IN WD615.47 ID 45 OD 56 HI 10",
         "application":  "WD615",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD615",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "HT2159H"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2159H"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/VG-156-004-0057-HT.jpeg",
+        "image":  "assets/img/products/VG-156-004-0057-HT-D4C58F6BF629.jpeg",
         "specifications":  {
                                "OD":  [
                                           "56"
@@ -3858,12 +4044,12 @@ window.NAE_IMPORTED_PRODUCTS = [
                          "OD 56",
                          "ID 45",
                          "HI 10",
-                         "Intake Valve",
+                         "Valve Seat",
                          "VALVE"
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "VG-156-004-0057-HT Intake Valve Huatai engine-parts VG-156 004 0057-HT WD615 OD 56; ID 45; HI 10 Ready stock OD 56 ID 45 HI 10 VALVE Count 3 IsReadOnly False Keys OD Keys ID Keys HI Values 56 Values 45 Values 10 IsFixedSize False SyncRoot System.Object IsSynchronized False 10 HUATAI GENUINE PARTS 45 56 HUATAI 61560040057 INTAKE VALVE SEAT WD615 EURO 11 HT2159H ILL MADE IN CHINA 6 PCS 6 2 9133 7 VG-156 004 0057-HT HT2159 VALVE INSEAT IN WD615.47 ID 45 OD 56 HI 10",
+        "searchableText":  "VG-156-004-0057-HT Valve Seat Huatai engine-parts VG-156 004 0057-HT VG-156 004 0057-HT 10 HUATAI GENUINE PARTS 45 56 HUATAI 61560040057 INTAKE VALVE SEAT WD615 EURO 11 HT2159H ILL MADE IN CHINA 6 PCS 6 2 9133 7 VG-156 004 0057-HT HT2159 VALVE INSEAT IN WD615.47 ID 45 OD 56 HI 10 WD615 OD 56; ID 45; HI 10 Ready stock OD 56 ID 45 HI 10 VALVE HT2159H Count 3 IsReadOnly False Keys OD Keys ID Keys HI Values 56 Values 45 Values 10 IsFixedSize False SyncRoot System.Object IsSynchronized False 10 HUATAI GENUINE PARTS 45 56 HUATAI 61560040057 INTAKE VALVE SEAT WD615 EURO 11 HT2159H ILL MADE IN CHINA 6 PCS 6 2 9133 7 VG-156 004 0057-HT HT2159 VALVE INSEAT IN WD615.47 ID 45 OD 56 HI 10",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -3871,7 +4057,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.06 PM (3).jpeg",
                        "hash":  "d4c58f6bf629c683507fd88323684af2de14ea77e5242a6e6826826b4bf11714",
                        "ocrText":  "10 HUATAI GENUINE PARTS 45 56 HUATAI 61560040057 INTAKE VALVE SEAT WD615 EURO 11 HT2159H ILL MADE IN CHINA 6 PCS 6 2 9133 7 VG-156 004 0057-HT HT2159 VALVE INSEAT IN WD615.47 ID 45 OD 56 HI 10",
-                       "importedAt":  "2026-07-22T00:02:01"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
@@ -3879,18 +4065,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "VG-124-608-0036-HT",
         "productNumber":  "VG-124-608-0036-HT",
         "partNumber":  "VG-124-608-0036-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Fuel Injector",
+        "productName":  "Fuel Injector",
+        "category":  "engine-parts",
         "subcategory":  "",
         "description":  "VG-124 608 0036-HT",
+        "visibleDescription":  "VG-124 608 0036-HT M 14 M14 HUATAIØ GENUINE PARTS VG-124 608 0036-HT HT3173H FUEL INJECTOR D12",
+        "longDescription":  "VG-124 608 0036-HT M 14 M14 HUATAIØ GENUINE PARTS VG-124 608 0036-HT HT3173H FUEL INJECTOR D12",
         "application":  "D12",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "D12",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/VG-124-608-0036-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT3173H"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT3173H"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/VG-124-608-0036-HT-CA6077FCEF73.jpeg",
         "specifications":  {
 
                            },
@@ -3899,11 +4093,13 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-                         "D12"
+                         "D12",
+                         "Fuel Injector",
+                         "FUEL INJECTOR"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "VG-124-608-0036-HT Manual review required Huatai other VG-124 608 0036-HT D12 OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False M 14 M14 HUATAIØ GENUINE PARTS VG-124 608 0036-HT HT3173H FUEL INJECTOR D12",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "VG-124-608-0036-HT Fuel Injector Huatai engine-parts VG-124 608 0036-HT VG-124 608 0036-HT M 14 M14 HUATAIØ GENUINE PARTS VG-124 608 0036-HT HT3173H FUEL INJECTOR D12 D12 Ready stock FUEL INJECTOR HT3173H Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False M 14 M14 HUATAIØ GENUINE PARTS VG-124 608 0036-HT HT3173H FUEL INJECTOR D12",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -3911,26 +4107,38 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.06 PM.jpeg",
                        "hash":  "ca6077fcef734ff3431edb9cb544168e6171890683780cbde8720a28bfe21170",
                        "ocrText":  "M 14 M14 HUATAIØ GENUINE PARTS VG-124 608 0036-HT HT3173H FUEL INJECTOR D12",
-                       "importedAt":  "2026-07-22T00:02:01"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
-        "id":  "AZ-124-604-0010-D",
-        "number":  "AZ-124-604-0010-D",
-        "productNumber":  "AZ-124-604-0010-D",
-        "partNumber":  "AZ-124-604-0010-D",
+        "id":  "AZ-124-604-0010-A-HT",
+        "number":  "AZ-124-604-0010-A-HT",
+        "productNumber":  "AZ-124-604-0010-A-HT",
+        "partNumber":  "AZ-124-604-0010-A-HT",
         "name":  "Cylinder Head Assembly",
         "productName":  "Cylinder Head Assembly",
         "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Cylinder Head Assembly",
+        "description":  "CYLINDER HEAD ASSY",
+        "visibleDescription":  "CYLINDER HEAD ASSY HUATAI MADE IN CHINA AZ1246040010D CYLINDER HEAD ASSY SINOTRUK 012 FOUR VALVES 21KG HT2223H 000.2602 0925 C O AZ-124 604 OOIO-A-HT HT2223 CYL HEAD ASSY D12.420 24V",
+        "longDescription":  "CYLINDER HEAD ASSY HUATAI MADE IN CHINA AZ1246040010D CYLINDER HEAD ASSY SINOTRUK 012 FOUR VALVES 21KG HT2223H 000.2602 0925 C O AZ-124 604 OOIO-A-HT HT2223 CYL HEAD ASSY D12.420 24V",
         "application":  "HOWO, D12",
         "brand":  "Huatai",
         "vehicleModel":  "HOWO",
         "engineModel":  "D12",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/AZ-124-604-0010-D.jpeg",
+        "alternateNumbers":  [
+                                 "HT2223H",
+                                 "AZ-124-604-0010-D",
+                                 "AZ-124-604-OOIO"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2223H",
+                                     "AZ-124-604-0010-D",
+                                     "AZ-124-604-OOIO"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/AZ-124-604-0010-A-HT.jpeg",
         "specifications":  {
 
                            },
@@ -3944,17 +4152,17 @@ window.NAE_IMPORTED_PRODUCTS = [
                          "Cylinder Head Assembly",
                          "CYLINDER HEAD"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "AZ-124-604-0010-D Cylinder Head Assembly Huatai engine-parts HOWO, D12 HOWO D12 Manual review required OCR result needs manual review before import. CYLINDER HEAD Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI MADE IN CHINA AZ1246040010D CYLINDER HEAD ASSY SINOTRUK 012 FOUR VALVES 21KG HT2223H 000.2602 0925 C O AZ-124 604 OOIO-A-HT HT2223 CYL HEAD ASSY D12.420 24V",
-        "confidence":  64,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "AZ-124-604-0010-A-HT Cylinder Head Assembly Huatai engine-parts CYLINDER HEAD ASSY CYLINDER HEAD ASSY HUATAI MADE IN CHINA AZ1246040010D CYLINDER HEAD ASSY SINOTRUK 012 FOUR VALVES 21KG HT2223H 000.2602 0925 C O AZ-124 604 OOIO-A-HT HT2223 CYL HEAD ASSY D12.420 24V HOWO, D12 HOWO D12 Ready stock CYLINDER HEAD HT2223H AZ-124-604-0010-D AZ-124-604-OOIO Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI MADE IN CHINA AZ1246040010D CYLINDER HEAD ASSY SINOTRUK 012 FOUR VALVES 21KG HT2223H 000.2602 0925 C O AZ-124 604 OOIO-A-HT HT2223 CYL HEAD ASSY D12.420 24V",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.06 PM (2).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.06 PM (2).jpeg",
                        "hash":  "9314a3fecc45ec71398fa6eec3de266e18f61d2359575db7d2caef61cb6a22cc",
                        "ocrText":  "HUATAI MADE IN CHINA AZ1246040010D CYLINDER HEAD ASSY SINOTRUK 012 FOUR VALVES 21KG HT2223H 000.2602 0925 C O AZ-124 604 OOIO-A-HT HT2223 CYL HEAD ASSY D12.420 24V",
-                       "importedAt":  "2026-07-22T00:02:01"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
@@ -3967,13 +4175,21 @@ window.NAE_IMPORTED_PRODUCTS = [
         "category":  "engine-parts",
         "subcategory":  "",
         "description":  "VG-154 004 0068-HT",
+        "visibleDescription":  "VG-154 004 0068-HT HUATAI\u0027 CYLINDER HEAD RONOAKA 6NOKA L4HJWHAPA HUATAI MADE IN CHINA 61560040068 CYLINDER HEAD SINOTRUK WD615 EURO 11 EVB 16.4KG H T 11 1 I I I I I I I I I I I I I I I I I I I I I I I I I 0925 VG-154 004 0068-HT HT2209 CYLINDER HEAD WD615 HOW060 GOT EVB HOLE",
+        "longDescription":  "VG-154 004 0068-HT HUATAI\u0027 CYLINDER HEAD RONOAKA 6NOKA L4HJWHAPA HUATAI MADE IN CHINA 61560040068 CYLINDER HEAD SINOTRUK WD615 EURO 11 EVB 16.4KG H T 11 1 I I I I I I I I I I I I I I I I I I I I I I I I I 0925 VG-154 004 0068-HT HT2209 CYLINDER HEAD WD615 HOW060 GOT EVB HOLE",
         "application":  "HOWO, WD615",
         "brand":  "Huatai",
         "vehicleModel":  "HOWO",
         "engineModel":  "WD615",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "HT2209"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2209"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/VG-154-004-0068-HT.jpeg",
+        "image":  "assets/img/products/VG-154-004-0068-HT-D1DA52E3E885.jpeg",
         "specifications":  {
 
                            },
@@ -3989,7 +4205,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "VG-154-004-0068-HT Cylinder Head Assembly Huatai engine-parts VG-154 004 0068-HT HOWO, WD615 HOWO WD615 Ready stock CYLINDER HEAD Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI\u0027 CYLINDER HEAD RONOAKA 6NOKA L4HJWHAPA HUATAI MADE IN CHINA 61560040068 CYLINDER HEAD SINOTRUK WD615 EURO 11 EVB 16.4KG H T 11 1 I I I I I I I I I I I I I I I I I I I I I I I I I 0925 VG-154 004 0068-HT HT2209 CYLINDER HEAD WD615 HOW060 GOT EVB HOLE",
+        "searchableText":  "VG-154-004-0068-HT Cylinder Head Assembly Huatai engine-parts VG-154 004 0068-HT VG-154 004 0068-HT HUATAI\u0027 CYLINDER HEAD RONOAKA 6NOKA L4HJWHAPA HUATAI MADE IN CHINA 61560040068 CYLINDER HEAD SINOTRUK WD615 EURO 11 EVB 16.4KG H T 11 1 I I I I I I I I I I I I I I I I I I I I I I I I I 0925 VG-154 004 0068-HT HT2209 CYLINDER HEAD WD615 HOW060 GOT EVB HOLE HOWO, WD615 HOWO WD615 Ready stock CYLINDER HEAD HT2209 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI\u0027 CYLINDER HEAD RONOAKA 6NOKA L4HJWHAPA HUATAI MADE IN CHINA 61560040068 CYLINDER HEAD SINOTRUK WD615 EURO 11 EVB 16.4KG H T 11 1 I I I I I I I I I I I I I I I I I I I I I I I I I 0925 VG-154 004 0068-HT HT2209 CYLINDER HEAD WD615 HOW060 GOT EVB HOLE",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -3997,26 +4213,36 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.05 PM.jpeg",
                        "hash":  "d1da52e3e885c77c54008764c9eef959e1f0574050e6596730c5d8eeee891227",
                        "ocrText":  "HUATAI\u0027 CYLINDER HEAD RONOAKA 6NOKA L4HJWHAPA HUATAI MADE IN CHINA 61560040068 CYLINDER HEAD SINOTRUK WD615 EURO 11 EVB 16.4KG H T 11 1 I I I I I I I I I I I I I I I I I I I I I I I I I 0925 VG-154 004 0068-HT HT2209 CYLINDER HEAD WD615 HOW060 GOT EVB HOLE",
-                       "importedAt":  "2026-07-22T00:02:00"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
-        "id":  "DZ-911-416-0023",
-        "number":  "DZ-911-416-0023",
-        "productNumber":  "DZ-911-416-0023",
-        "partNumber":  "DZ-911-416-0023",
+        "id":  "HT5094",
+        "number":  "HT5094",
+        "productNumber":  "HT5094",
+        "partNumber":  "HT5094",
         "name":  "Clutch Bearing",
         "productName":  "Clutch Bearing",
         "category":  "clutch-system",
         "subcategory":  "",
-        "description":  "ACTUALLY IS DZ-911 416 0023",
+        "description":  "Clutch Bearing",
+        "visibleDescription":  "HT5094 ID 63 FORK 86MM HI 122 HUATAI CHINA AUTO .J HI 34 L 29 OD 132 3) BERRING NONUJWIHHK OD 88 WG9725IS05\u0027O OSS6T9T09G HT5094 HT5094 CLUTCH BRG OD 132 HI 122 ID 63 NEW MODEL ACTUALLY IS DZ-911 416 0023",
+        "longDescription":  "HT5094 ID 63 FORK 86MM HI 122 HUATAI CHINA AUTO .J HI 34 L 29 OD 132 3) BERRING NONUJWIHHK OD 88 WG9725IS05\u0027O OSS6T9T09G HT5094 HT5094 CLUTCH BRG OD 132 HI 122 ID 63 NEW MODEL ACTUALLY IS DZ-911 416 0023",
         "application":  "",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "",
-        "oeNumber":  "NUJWIHHK",
+        "oeNumber":  "DZ-911",
+        "alternateNumbers":  [
+                                 "DZ-911-416-0023",
+                                 "DZ-911"
+                             ],
+        "alternatePartNumbers":  [
+                                     "DZ-911-416-0023",
+                                     "DZ-911"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/DZ-911-416-0023.jpeg",
+        "image":  "assets/img/products/HT5094.jpeg",
         "specifications":  {
                                "OD":  [
                                           "132",
@@ -4037,7 +4263,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "OD 132, 88; ID 63; HI 122, 34",
         "keywords":  [
-                         "NUJWIHHK",
+                         "DZ-911",
                          "OD 132, 88",
                          "ID 63",
                          "HI 122, 34",
@@ -4047,34 +4273,42 @@ window.NAE_IMPORTED_PRODUCTS = [
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "DZ-911-416-0023 Clutch Bearing Huatai clutch-system ACTUALLY IS DZ-911 416 0023 NUJWIHHK OD 132, 88; ID 63; HI 122, 34 Ready stock OD 132, 88 ID 63 HI 122, 34 CLUTCH BEARING Count 3 IsReadOnly False Keys OD Keys ID Keys HI Values 132 88 Values 63 Values 122 34 IsFixedSize False SyncRoot System.Object IsSynchronized False ID 63 FORK 86MM HI 122 HUATAI CHINA AUTO .J HI 34 L 29 OD 132 3) BERRING NONUJWIHHK OD 88 WG9725IS05\u0027O OSS6T9T09G HT5094 HT5094 CLUTCH BRG OD 132 HI 122 ID 63 NEW MODEL ACTUALLY IS DZ-911 416 0023",
-        "confidence":  78,
+        "searchableText":  "HT5094 Clutch Bearing Huatai clutch-system HT5094 ID 63 FORK 86MM HI 122 HUATAI CHINA AUTO .J HI 34 L 29 OD 132 3) BERRING NONUJWIHHK OD 88 WG9725IS05\u0027O OSS6T9T09G HT5094 HT5094 CLUTCH BRG OD 132 HI 122 ID 63 NEW MODEL ACTUALLY IS DZ-911 416 0023 DZ-911 OD 132, 88; ID 63; HI 122, 34 Ready stock OD 132, 88 ID 63 HI 122, 34 CLUTCH BEARING DZ-911-416-0023 Count 3 IsReadOnly False Keys OD Keys ID Keys HI Values 132 88 Values 63 Values 122 34 IsFixedSize False SyncRoot System.Object IsSynchronized False ID 63 FORK 86MM HI 122 HUATAI CHINA AUTO .J HI 34 L 29 OD 132 3) BERRING NONUJWIHHK OD 88 WG9725IS05\u0027O OSS6T9T09G HT5094 HT5094 CLUTCH BRG OD 132 HI 122 ID 63 NEW MODEL ACTUALLY IS DZ-911 416 0023",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.06 PM (1).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.06 PM (1).jpeg",
                        "hash":  "5692a1b709dfd27f150da361b8b4aebcd58f92d79f3a635429a3fcfbd9472a5b",
                        "ocrText":  "ID 63 FORK 86MM HI 122 HUATAI CHINA AUTO .J HI 34 L 29 OD 132 3) BERRING NONUJWIHHK OD 88 WG9725IS05\u0027O OSS6T9T09G HT5094 HT5094 CLUTCH BRG OD 132 HI 122 ID 63 NEW MODEL ACTUALLY IS DZ-911 416 0023",
-                       "importedAt":  "2026-07-22T00:02:01"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
-        "id":  "VG-156-002-0024-HT",
-        "number":  "VG-156-002-0024-HT",
-        "productNumber":  "VG-156-002-0024-HT",
-        "partNumber":  "VG-156-002-0024-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "id":  "HT1583H",
+        "number":  "HT1583H",
+        "productNumber":  "HT1583H",
+        "partNumber":  "HT1583H",
+        "name":  "Crankshaft",
+        "productName":  "Crankshaft",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "VG-156 002 0024-HT",
+        "description":  "CRANKSHAFT",
+        "visibleDescription":  "HT1583H CRANKSHAFT OD 46 OD 95 25T OD 1 00 HI 51 OD 115 L 43 1/2 \"/1105MM 7 VG-156 002 0024-HT HT1583H CRANKSHAFT WD615.47 GOT LINE",
+        "longDescription":  "HT1583H CRANKSHAFT OD 46 OD 95 25T OD 1 00 HI 51 OD 115 L 43 1/2 \"/1105MM 7 VG-156 002 0024-HT HT1583H CRANKSHAFT WD615.47 GOT LINE",
         "application":  "WD615",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD615",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/VG-156-002-0024-HT.jpeg",
+        "alternateNumbers":  [
+                                 "VG-156-002-0024-HT"
+                             ],
+        "alternatePartNumbers":  [
+                                     "VG-156-002-0024-HT"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/HT1583H.jpeg",
         "specifications":  {
                                "OD":  [
                                           "46",
@@ -4099,38 +4333,48 @@ window.NAE_IMPORTED_PRODUCTS = [
                          "WD615",
                          "OD 46, 95, 1, 115",
                          "HI 51",
-                         "Teeth 25T"
+                         "Teeth 25T",
+                         "Crankshaft",
+                         "CRANKSHAFT"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "VG-156-002-0024-HT Manual review required Huatai other VG-156 002 0024-HT WD615 OD 46, 95, 1, 115; HI 51; Teeth 25T OCR result needs manual review before import. OD 46, 95, 1, 115 HI 51 Teeth 25T Count 3 IsReadOnly False Keys OD Keys HI Keys Teeth Values 46 95 1 115 Values 51 Values 25T IsFixedSize False SyncRoot System.Object IsSynchronized False OD 46 OD 95 25T OD 1 00 HI 51 OD 115 L 43 1/2 \"/1105MM 7 VG-156 002 0024-HT HT1583H CRANKSHAFT WD615.47 GOT LINE",
-        "confidence":  92,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "HT1583H Crankshaft Huatai engine-parts CRANKSHAFT HT1583H CRANKSHAFT OD 46 OD 95 25T OD 1 00 HI 51 OD 115 L 43 1/2 \"/1105MM 7 VG-156 002 0024-HT HT1583H CRANKSHAFT WD615.47 GOT LINE WD615 OD 46, 95, 1, 115; HI 51; Teeth 25T Ready stock OD 46, 95, 1, 115 HI 51 Teeth 25T VG-156-002-0024-HT Count 3 IsReadOnly False Keys OD Keys HI Keys Teeth Values 46 95 1 115 Values 51 Values 25T IsFixedSize False SyncRoot System.Object IsSynchronized False OD 46 OD 95 25T OD 1 00 HI 51 OD 115 L 43 1/2 \"/1105MM 7 VG-156 002 0024-HT HT1583H CRANKSHAFT WD615.47 GOT LINE",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.11 PM (2).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.11 PM (2).jpeg",
                        "hash":  "ef0a1303f6d005e8109c67cff535a2dfeed5d566ba8d04431910e05f1b1f2c4b",
                        "ocrText":  "OD 46 OD 95 25T OD 1 00 HI 51 OD 115 L 43 1/2 \"/1105MM 7 VG-156 002 0024-HT HT1583H CRANKSHAFT WD615.47 GOT LINE",
-                       "importedAt":  "2026-07-22T00:02:02"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
-        "id":  "WG-711-745-0180-HT",
-        "number":  "WG-711-745-0180-HT",
-        "productNumber":  "WG-711-745-0180-HT",
-        "partNumber":  "WG-711-745-0180-HT",
+        "id":  "HT8178",
+        "number":  "HT8178",
+        "productNumber":  "HT8178",
+        "partNumber":  "HT8178",
         "name":  "Brake Lining Set",
         "productName":  "Brake Lining Set",
         "category":  "brake-system",
         "subcategory":  "",
-        "description":  "WG-711 745 0180-HT",
-        "application":  "",
+        "description":  "REAR B/LINING 7 \"",
+        "visibleDescription":  "HT8178 REAR B/LINING 7 \" HUATAI\u0027 BRAKE LINING HAKN4ARA TOPMOSHAR HUATAI MIO 7\" / 178MM MI 0X24 WG-711 745 0180-HT HT8178 REAR B/LINING 7 \" NJ17 \u0026 T7H 2-2-2-2 RIVET MIO",
+        "longDescription":  "HT8178 REAR B/LINING 7 \" HUATAI\u0027 BRAKE LINING HAKN4ARA TOPMOSHAR HUATAI MIO 7\" / 178MM MI 0X24 WG-711 745 0180-HT HT8178 REAR B/LINING 7 \" NJ17 \u0026 T7H 2-2-2-2 RIVET MIO",
+        "application":  "T7H",
         "brand":  "Huatai",
-        "vehicleModel":  "",
+        "vehicleModel":  "T7H",
         "engineModel":  "",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "WG-711-745-0180-HT"
+                             ],
+        "alternatePartNumbers":  [
+                                     "WG-711-745-0180-HT"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/WG-711-745-0180-HT.jpeg",
+        "image":  "assets/img/products/HT8178.jpeg",
         "specifications":  {
                                "Diameter":  [
                                                 "7\" / 178mm"
@@ -4141,40 +4385,49 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "Diameter 7\" / 178mm",
         "keywords":  [
+                         "T7H",
                          "Diameter 7\" / 178mm",
                          "Brake Lining Set",
                          "BRAKE"
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "WG-711-745-0180-HT Brake Lining Set Huatai brake-system WG-711 745 0180-HT Diameter 7\" / 178mm Ready stock BRAKE Count 1 IsReadOnly False Keys Diameter Values 7\" / 178mm IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI\u0027 BRAKE LINING HAKN4ARA TOPMOSHAR HUATAI MIO 7\" / 178MM MI 0X24 WG-711 745 0180-HT HT8178 REAR B/LINING 7 \" NJ17 \u0026 T7H 2-2-2-2 RIVET MIO",
-        "confidence":  92,
+        "searchableText":  "HT8178 Brake Lining Set Huatai brake-system REAR B/LINING 7 \" HT8178 REAR B/LINING 7 \" HUATAI\u0027 BRAKE LINING HAKN4ARA TOPMOSHAR HUATAI MIO 7\" / 178MM MI 0X24 WG-711 745 0180-HT HT8178 REAR B/LINING 7 \" NJ17 \u0026 T7H 2-2-2-2 RIVET MIO T7H Diameter 7\" / 178mm Ready stock BRAKE WG-711-745-0180-HT Count 1 IsReadOnly False Keys Diameter Values 7\" / 178mm IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI\u0027 BRAKE LINING HAKN4ARA TOPMOSHAR HUATAI MIO 7\" / 178MM MI 0X24 WG-711 745 0180-HT HT8178 REAR B/LINING 7 \" NJ17 \u0026 T7H 2-2-2-2 RIVET MIO",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.17 PM.jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.17 PM.jpeg",
                        "hash":  "b44e41509c82162894c6956ca71576fe932b4d72da664bbcadb3efc78b711c9f",
                        "ocrText":  "HUATAI\u0027 BRAKE LINING HAKN4ARA TOPMOSHAR HUATAI MIO 7\" / 178MM MI 0X24 WG-711 745 0180-HT HT8178 REAR B/LINING 7 \" NJ17 \u0026 T7H 2-2-2-2 RIVET MIO",
-                       "importedAt":  "2026-07-22T00:02:04"
+                       "importedAt":  "2026-07-22T22:55:26"
                    }
     },
     {
-        "id":  "REVIEW-92DE57E196E0",
-        "number":  "",
-        "productNumber":  "",
-        "partNumber":  "",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "id":  "HT2967",
+        "number":  "HT2967",
+        "productNumber":  "HT2967",
+        "partNumber":  "HT2967",
+        "name":  "Intake Manifold Gasket",
+        "productName":  "Intake Manifold Gasket",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "NAE-156 011 OOOO-HT HT2967 IN MANIFOLD GASKET WD615.47 SQUARE 2 HOLE WD12",
+        "description":  "IN MANIFOLD GASKET WD615.47",
+        "visibleDescription":  "HT2967 IN MANIFOLD GASKET WD615.47 NAE-156 011 OOOO-HT HT2967 IN MANIFOLD GASKET WD615.47 SQUARE 2 HOLE WD12",
+        "longDescription":  "HT2967 IN MANIFOLD GASKET WD615.47 NAE-156 011 OOOO-HT HT2967 IN MANIFOLD GASKET WD615.47 SQUARE 2 HOLE WD12",
         "application":  "WD615, WD12",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD615, WD12",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/REVIEW-92DE57E196E0.jpeg",
+        "alternateNumbers":  [
+
+                             ],
+        "alternatePartNumbers":  [
+
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/HT2967.jpeg",
         "specifications":  {
 
                            },
@@ -4184,38 +4437,47 @@ window.NAE_IMPORTED_PRODUCTS = [
         "specification":  "",
         "keywords":  [
                          "WD615",
-                         "WD12"
+                         "WD12",
+                         "Intake Manifold Gasket"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "No reliable product number candidate found.",
-        "searchableText":  "REVIEW-92DE57E196E0 Manual review required Huatai other NAE-156 011 OOOO-HT HT2967 IN MANIFOLD GASKET WD615.47 SQUARE 2 HOLE WD12 WD615, WD12 No reliable product number candidate found. WD615 WD12 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False",
-        "confidence":  0,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "HT2967 Intake Manifold Gasket Huatai engine-parts IN MANIFOLD GASKET WD615.47 HT2967 IN MANIFOLD GASKET WD615.47 NAE-156 011 OOOO-HT HT2967 IN MANIFOLD GASKET WD615.47 SQUARE 2 HOLE WD12 WD615, WD12 Ready stock WD615 WD12 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False NAE-156 011 OOOO-HT HT2967 IN MANIFOLD GASKET WD615.47 SQUARE 2 HOLE WD12",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.18 PM (1).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.18 PM (1).jpeg",
                        "hash":  "92de57e196e059c6a2f2598569dc77afc6426813e199abf7eee91c19e1c9a7ae",
                        "ocrText":  "NAE-156 011 OOOO-HT HT2967 IN MANIFOLD GASKET WD615.47 SQUARE 2 HOLE WD12",
-                       "importedAt":  "2026-07-22T00:02:04"
+                       "importedAt":  "2026-07-22T22:55:26"
                    }
     },
     {
-        "id":  "REVIEW-F9ED90A5D3D1",
-        "number":  "",
-        "productNumber":  "",
-        "partNumber":  "",
-        "name":  "Coupling",
-        "productName":  "Coupling",
-        "category":  "other",
+        "id":  "HT5434H",
+        "number":  "HT5434H",
+        "productNumber":  "HT5434H",
+        "partNumber":  "HT5434H",
+        "name":  "Coupling Use Plate",
+        "productName":  "Coupling Use Plate",
+        "category":  "transmission-parts",
         "subcategory":  "",
-        "description":  "HT5434H COUPLING USE PLATE",
+        "description":  "COUPLING USE PLATE",
+        "visibleDescription":  "HT5434H COUPLING USE PLATE",
+        "longDescription":  "HT5434H COUPLING USE PLATE",
         "application":  "",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "",
-        "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/REVIEW-F9ED90A5D3D1.jpeg",
+        "oeNumber":  "PLATE",
+        "alternateNumbers":  [
+                                 "PLATE"
+                             ],
+        "alternatePartNumbers":  [
+                                     "PLATE"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/HT5434H.jpeg",
         "specifications":  {
 
                            },
@@ -4224,19 +4486,21 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-                         "Coupling"
+                         "PLATE",
+                         "Coupling Use Plate",
+                         "COUPLING"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "No reliable product number candidate found.",
-        "searchableText":  "REVIEW-F9ED90A5D3D1 Coupling Huatai other HT5434H COUPLING USE PLATE Manual review required No reliable product number candidate found. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False",
-        "confidence":  0,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "HT5434H Coupling Use Plate Huatai transmission-parts COUPLING USE PLATE HT5434H COUPLING USE PLATE PLATE Ready stock COUPLING Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.17 PM (1).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.17 PM (1).jpeg",
                        "hash":  "f9ed90a5d3d1a200f123c7a5d063071d31b2d317d65618fed66539c4fbff2dbc",
                        "ocrText":  "HT5434H COUPLING USE PLATE",
-                       "importedAt":  "2026-07-22T00:02:04"
+                       "importedAt":  "2026-07-22T22:55:26"
                    }
     },
     {
@@ -4244,18 +4508,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "612600081334-HT",
         "productNumber":  "612600081334-HT",
         "partNumber":  "612600081334-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Fuel Filter",
+        "productName":  "Fuel Filter",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
+        "description":  "Fuel Filter",
+        "visibleDescription":  "612600081334-HT HUATAI FILTER ONNBTP HUATAI PRODUCT WEIGHT 650G MADE IN CHINA 612600081334/1000442956A FUEL FILTER 1 PC WEICHAI WD615 CX0815E HT2386 612600081334-HT HT2386 FUEL FILTER",
+        "longDescription":  "612600081334-HT HUATAI FILTER ONNBTP HUATAI PRODUCT WEIGHT 650G MADE IN CHINA 612600081334/1000442956A FUEL FILTER 1 PC WEICHAI WD615 CX0815E HT2386 612600081334-HT HT2386 FUEL FILTER",
         "application":  "WD615",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD615",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/612600081334-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT2386"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2386"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/612600081334-HT-5F32AA2A43AC.jpeg",
         "specifications":  {
 
                            },
@@ -4264,11 +4536,13 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-                         "WD615"
+                         "WD615",
+                         "Fuel Filter",
+                         "FUEL FILTER"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "612600081334-HT Manual review required Huatai other Needs manual review WD615 OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI FILTER ONNBTP HUATAI PRODUCT WEIGHT 650G MADE IN CHINA 612600081334/1000442956A FUEL FILTER 1 PC WEICHAI WD615 CX0815E HT2386 612600081334-HT HT2386 FUEL FILTER",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "612600081334-HT Fuel Filter Huatai engine-parts 612600081334-HT HUATAI FILTER ONNBTP HUATAI PRODUCT WEIGHT 650G MADE IN CHINA 612600081334/1000442956A FUEL FILTER 1 PC WEICHAI WD615 CX0815E HT2386 612600081334-HT HT2386 FUEL FILTER WD615 Ready stock FUEL FILTER HT2386 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI FILTER ONNBTP HUATAI PRODUCT WEIGHT 650G MADE IN CHINA 612600081334/1000442956A FUEL FILTER 1 PC WEICHAI WD615 CX0815E HT2386 612600081334-HT HT2386 FUEL FILTER",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -4276,54 +4550,58 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.16 PM (1).jpeg",
                        "hash":  "5f32aa2a43ac107cc738cc969b0795811478535de54dfe36c0eaa8477232e79c",
                        "ocrText":  "HUATAI FILTER ONNBTP HUATAI PRODUCT WEIGHT 650G MADE IN CHINA 612600081334/1000442956A FUEL FILTER 1 PC WEICHAI WD615 CX0815E HT2386 612600081334-HT HT2386 FUEL FILTER",
-                       "importedAt":  "2026-07-22T00:02:04"
+                       "importedAt":  "2026-07-22T22:55:26"
                    }
     },
     {
-        "id":  "REVIEW-1823A7476C43",
-        "number":  "",
-        "productNumber":  "",
-        "partNumber":  "",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "id":  "612630030405-XLB-HT",
+        "number":  "612630030405-XLB-HT",
+        "productNumber":  "612630030405-XLB-HT",
+        "partNumber":  "612630030405-XLB-HT",
+        "name":  "Piston",
+        "productName":  "Piston",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "47MM HI 22 80MM 38MM 38MM 73MM 56MM ID 47 35MM 98MM 57MM 44MM 206MM 73MM 56MM TIC MIO",
-        "application":  "",
+        "description":  "Piston",
+        "visibleDescription":  "612630030405-XLB-HT HUATA10 CYLINDER HEAD REPAIR KIT KOMIIJIEKT AJIR PEMOHTA RSU U S COUUR\"EE US OUAU ÖQ 612630030405-XLB-HT T 8 IR MPRE AIR KL TWIN PISTON WP12 WP12.420 SHACMAN , HANVAN",
+        "longDescription":  "612630030405-XLB-HT HUATA10 CYLINDER HEAD REPAIR KIT KOMIIJIEKT AJIR PEMOHTA RSU U S COUUR\"EE US OUAU ÖQ 612630030405-XLB-HT T 8 IR MPRE AIR KL TWIN PISTON WP12 WP12.420 SHACMAN , HANVAN",
+        "application":  "SHACMAN, HANVAN, WP12",
         "brand":  "Huatai",
-        "vehicleModel":  "",
-        "engineModel":  "",
+        "vehicleModel":  "SHACMAN, HANVAN",
+        "engineModel":  "WP12",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/REVIEW-1823A7476C43.jpeg",
+        "alternateNumbers":  [
+
+                             ],
+        "alternatePartNumbers":  [
+
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/612630030405-XLB-HT.jpeg",
         "specifications":  {
-                               "ID":  [
-                                          "47"
-                                      ],
-                               "HI":  [
-                                          "22"
-                                      ]
+
                            },
         "specs":  [
-                      "ID 47",
-                      "HI 22"
+
                   ],
-        "specification":  "ID 47; HI 22",
+        "specification":  "",
         "keywords":  [
-                         "ID 47",
-                         "HI 22"
+                         "WP12",
+                         "SHACMAN",
+                         "HANVAN",
+                         "Piston"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "No reliable product number candidate found.",
-        "searchableText":  "REVIEW-1823A7476C43 Manual review required Huatai other 47MM HI 22 80MM 38MM 38MM 73MM 56MM ID 47 35MM 98MM 57MM 44MM 206MM 73MM 56MM TIC MIO ID 47; HI 22 No reliable product number candidate found. ID 47 HI 22 Count 2 IsReadOnly False Keys ID Keys HI Values 47 Values 22 IsFixedSize False SyncRoot System.Object IsSynchronized False",
-        "confidence":  0,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "612630030405-XLB-HT Piston Huatai engine-parts 612630030405-XLB-HT HUATA10 CYLINDER HEAD REPAIR KIT KOMIIJIEKT AJIR PEMOHTA RSU U S COUUR\"EE US OUAU ÖQ 612630030405-XLB-HT T 8 IR MPRE AIR KL TWIN PISTON WP12 WP12.420 SHACMAN , HANVAN SHACMAN, HANVAN, WP12 SHACMAN, HANVAN WP12 Ready stock SHACMAN HANVAN Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATA10 CYLINDER HEAD REPAIR KIT KOMIIJIEKT AJIR PEMOHTA RSU U S COUUR\"EE US OUAU ÖQ 612630030405-XLB-HT T 8 IR MPRE AIR KL TWIN PISTON WP12 WP12.420 SHACMAN , HANVAN",
+        "confidence":  86,
         "source":  {
                        "type":  "whatsapp-image",
-                       "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.16 PM (2).jpeg",
-                       "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.16 PM (2).jpeg",
-                       "hash":  "1823a7476c43419f3cc383cfd478653b73410daa41061978bbca41a4d1603d71",
-                       "ocrText":  "47MM HI 22 80MM 38MM 38MM 73MM 56MM ID 47 35MM 98MM 57MM 44MM 206MM 73MM 56MM TIC MIO",
-                       "importedAt":  "2026-07-22T00:02:04"
+                       "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.16 PM.jpeg",
+                       "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.16 PM.jpeg",
+                       "hash":  "b9c744f8a23aa1b6d552eca2ff50d186a5c9206a730a979586649692df0d5867",
+                       "ocrText":  "HUATA10 CYLINDER HEAD REPAIR KIT KOMIIJIEKT AJIR PEMOHTA RSU U S COUUR\"EE US OUAU ÖQ 612630030405-XLB-HT T 8 IR MPRE AIR KL TWIN PISTON WP12 WP12.420 SHACMAN , HANVAN",
+                       "importedAt":  "2026-07-22T22:55:26"
                    }
     },
     {
@@ -4331,18 +4609,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "13034908-HT",
         "productNumber":  "13034908-HT",
         "partNumber":  "13034908-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Main Bearing Set",
+        "productName":  "Main Bearing Set",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
-        "application":  "",
+        "description":  "Main Bearing Set",
+        "visibleDescription":  "13034908-HT 28 71 HUATAL ENGINE BEARING BKJIAABLUJ UJATYHA U TRADE US C. 13034908-HT HT1119 MAIN BRG STD WP6G",
+        "longDescription":  "13034908-HT 28 71 HUATAL ENGINE BEARING BKJIAABLUJ UJATYHA U TRADE US C. 13034908-HT HT1119 MAIN BRG STD WP6G",
+        "application":  "WP6G",
         "brand":  "Huatai",
         "vehicleModel":  "",
-        "engineModel":  "",
+        "engineModel":  "WP6G",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/13034908-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT1119"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1119"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/13034908-HT-556FEE07EA19.jpeg",
         "specifications":  {
 
                            },
@@ -4351,11 +4637,14 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-
+                         "WP6G",
+                         "Main Bearing Set",
+                         "BEARING",
+                         "MAIN BEARING"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "13034908-HT Manual review required Huatai other Needs manual review OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 28 71 HUATAL ENGINE BEARING BKJIAABLUJ UJATYHA U TRADE US C. 13034908-HT HT1119 MAIN BRG STD WP6G",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "13034908-HT Main Bearing Set Huatai engine-parts 13034908-HT 28 71 HUATAL ENGINE BEARING BKJIAABLUJ UJATYHA U TRADE US C. 13034908-HT HT1119 MAIN BRG STD WP6G WP6G Ready stock BEARING MAIN BEARING HT1119 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 28 71 HUATAL ENGINE BEARING BKJIAABLUJ UJATYHA U TRADE US C. 13034908-HT HT1119 MAIN BRG STD WP6G",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -4363,26 +4652,34 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.18 PM (2).jpeg",
                        "hash":  "556fee07ea19d30d80dd816c963b080aaef45962d95ffe92f9a94aed19027168",
                        "ocrText":  "28 71 HUATAL ENGINE BEARING BKJIAABLUJ UJATYHA U TRADE US C. 13034908-HT HT1119 MAIN BRG STD WP6G",
-                       "importedAt":  "2026-07-22T00:02:04"
+                       "importedAt":  "2026-07-22T22:55:26"
                    }
     },
     {
-        "id":  "14050049-HT",
-        "number":  "14050049-HT",
-        "productNumber":  "14050049-HT",
-        "partNumber":  "14050049-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "id":  "VG-14050049-HT",
+        "number":  "VG-14050049-HT",
+        "productNumber":  "VG-14050049-HT",
+        "partNumber":  "VG-14050049-HT",
+        "name":  "Exhaust Valve Rocker Arm",
+        "productName":  "Exhaust Valve Rocker Arm",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "VG",
+        "description":  "Exhaust Valve Rocker Arm",
+        "visibleDescription":  "VG-14050049-HT 87 24 MIO HUATAI GENUINE PARTS VG-14050049-HT HT2633 VALVE ROCKER ARM EXHAUST WD615.47",
+        "longDescription":  "VG-14050049-HT 87 24 MIO HUATAI GENUINE PARTS VG-14050049-HT HT2633 VALVE ROCKER ARM EXHAUST WD615.47",
         "application":  "WD615",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD615",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/14050049-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT2633"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2633"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/VG-14050049-HT.jpeg",
         "specifications":  {
 
                            },
@@ -4391,11 +4688,13 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-                         "WD615"
+                         "WD615",
+                         "Exhaust Valve Rocker Arm",
+                         "VALVE"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "14050049-HT Manual review required Huatai other VG WD615 OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 87 24 MIO HUATAI GENUINE PARTS VG-14050049-HT HT2633 VALVE ROCKER ARM EXHAUST WD615.47",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "VG-14050049-HT Exhaust Valve Rocker Arm Huatai engine-parts VG-14050049-HT 87 24 MIO HUATAI GENUINE PARTS VG-14050049-HT HT2633 VALVE ROCKER ARM EXHAUST WD615.47 WD615 Ready stock VALVE HT2633 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 87 24 MIO HUATAI GENUINE PARTS VG-14050049-HT HT2633 VALVE ROCKER ARM EXHAUST WD615.47",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -4403,7 +4702,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.19 PM.jpeg",
                        "hash":  "ea19132a6ebcfcc740b7710a9b7592020345c32778961cbf7a6ceb4c17c4c36d",
                        "ocrText":  "87 24 MIO HUATAI GENUINE PARTS VG-14050049-HT HT2633 VALVE ROCKER ARM EXHAUST WD615.47",
-                       "importedAt":  "2026-07-22T00:02:05"
+                       "importedAt":  "2026-07-22T22:55:26"
                    }
     },
     {
@@ -4411,18 +4710,28 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "WG-992-555-0202-HT",
         "productNumber":  "WG-992-555-0202-HT",
         "partNumber":  "WG-992-555-0202-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Fuel Filter",
+        "productName":  "Fuel Filter",
+        "category":  "engine-parts",
         "subcategory":  "",
         "description":  "WG-992 555 0202-HT",
+        "visibleDescription":  "WG-992 555 0202-HT IDUATAI FILTER PRODUCT WEIGHT 1 IOOG HUA TAI MADE IN CHINA VG1092080052/WG9925550202/1 FUEL WATER SEPARATOR HOWO PL421 1 PC HT2392 WG-992 555 0202-HT HT2392 PRE FUEL FILTER M26",
+        "longDescription":  "WG-992 555 0202-HT IDUATAI FILTER PRODUCT WEIGHT 1 IOOG HUA TAI MADE IN CHINA VG1092080052/WG9925550202/1 FUEL WATER SEPARATOR HOWO PL421 1 PC HT2392 WG-992 555 0202-HT HT2392 PRE FUEL FILTER M26",
         "application":  "HOWO",
         "brand":  "Huatai",
         "vehicleModel":  "HOWO",
         "engineModel":  "",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/WG-992-555-0202-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT2392",
+                                 "VG-109-208-0052"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2392",
+                                     "VG-109-208-0052"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/WG-992-555-0202-HT-FDE338CBB128.jpeg",
         "specifications":  {
 
                            },
@@ -4431,11 +4740,13 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-                         "HOWO"
+                         "HOWO",
+                         "Fuel Filter",
+                         "FUEL FILTER"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "WG-992-555-0202-HT Manual review required Huatai other WG-992 555 0202-HT HOWO OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False IDUATAI FILTER PRODUCT WEIGHT 1 IOOG HUA TAI MADE IN CHINA VG1092080052/WG9925550202/1 FUEL WATER SEPARATOR HOWO PL421 1 PC HT2392 WG-992 555 0202-HT HT2392 PRE FUEL FILTER M26",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "WG-992-555-0202-HT Fuel Filter Huatai engine-parts WG-992 555 0202-HT WG-992 555 0202-HT IDUATAI FILTER PRODUCT WEIGHT 1 IOOG HUA TAI MADE IN CHINA VG1092080052/WG9925550202/1 FUEL WATER SEPARATOR HOWO PL421 1 PC HT2392 WG-992 555 0202-HT HT2392 PRE FUEL FILTER M26 HOWO Ready stock FUEL FILTER HT2392 VG-109-208-0052 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False IDUATAI FILTER PRODUCT WEIGHT 1 IOOG HUA TAI MADE IN CHINA VG1092080052/WG9925550202/1 FUEL WATER SEPARATOR HOWO PL421 1 PC HT2392 WG-992 555 0202-HT HT2392 PRE FUEL FILTER M26",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -4443,26 +4754,34 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.20 PM.jpeg",
                        "hash":  "fde338cbb12861b9ae7a66458acf7bfe0f1d6d607b29776b60cdfd158b1b2ab1",
                        "ocrText":  "IDUATAI FILTER PRODUCT WEIGHT 1 IOOG HUA TAI MADE IN CHINA VG1092080052/WG9925550202/1 FUEL WATER SEPARATOR HOWO PL421 1 PC HT2392 WG-992 555 0202-HT HT2392 PRE FUEL FILTER M26",
-                       "importedAt":  "2026-07-22T00:02:05"
+                       "importedAt":  "2026-07-22T22:55:26"
                    }
     },
     {
-        "id":  "REVIEW-E43DB330FF6F",
-        "number":  "",
-        "productNumber":  "",
-        "partNumber":  "",
+        "id":  "68X765-HT",
+        "number":  "68X765-HT",
+        "productNumber":  "68X765-HT",
+        "partNumber":  "68X765-HT",
         "name":  "Coupling",
         "productName":  "Coupling",
-        "category":  "other",
+        "category":  "transmission-parts",
         "subcategory":  "",
-        "description":  "165 68 HUATAJ UNIVERSAL JOINT KPECTOBHHA 68X765-HT HT5420 COUPLING INNER CLIP",
+        "description":  "Coupling",
+        "visibleDescription":  "68X765-HT 165 68 HUATAJ UNIVERSAL JOINT KPECTOBHHA 68X765-HT HT5420 COUPLING INNER CLIP",
+        "longDescription":  "68X765-HT 165 68 HUATAJ UNIVERSAL JOINT KPECTOBHHA 68X765-HT HT5420 COUPLING INNER CLIP",
         "application":  "",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/REVIEW-E43DB330FF6F.jpeg",
+        "alternateNumbers":  [
+                                 "HT5420"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT5420"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/68X765-HT.jpeg",
         "specifications":  {
 
                            },
@@ -4471,19 +4790,20 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-                         "Coupling"
+                         "Coupling",
+                         "COUPLING"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "No reliable product number candidate found.",
-        "searchableText":  "REVIEW-E43DB330FF6F Coupling Huatai other 165 68 HUATAJ UNIVERSAL JOINT KPECTOBHHA 68X765-HT HT5420 COUPLING INNER CLIP Manual review required No reliable product number candidate found. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False",
-        "confidence":  0,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "68X765-HT Coupling Huatai transmission-parts 68X765-HT 165 68 HUATAJ UNIVERSAL JOINT KPECTOBHHA 68X765-HT HT5420 COUPLING INNER CLIP Ready stock COUPLING HT5420 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 165 68 HUATAJ UNIVERSAL JOINT KPECTOBHHA 68X765-HT HT5420 COUPLING INNER CLIP",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.19 PM (2).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.19 PM (2).jpeg",
                        "hash":  "e43db330ff6feff895a4513aba12381703fac7897f39f324353275c6b504581b",
                        "ocrText":  "165 68 HUATAJ UNIVERSAL JOINT KPECTOBHHA 68X765-HT HT5420 COUPLING INNER CLIP",
-                       "importedAt":  "2026-07-22T00:02:05"
+                       "importedAt":  "2026-07-22T22:55:26"
                    }
     },
     {
@@ -4491,18 +4811,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "612600030068-HT",
         "productNumber":  "612600030068-HT",
         "partNumber":  "612600030068-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Piston Liner Kit",
+        "productName":  "Piston Liner Kit",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
-        "application":  "",
+        "description":  "Piston Liner Kit",
+        "visibleDescription":  "612600030068-HT HUATAI MAOE IN CHINA WEICHAI WPIO 0068 CYLINDER LINER KIT 612600030068 612630010015 612600030054 61560030013 81560030012 37KG HT1221H 1 SET HUATAI• PISTON PIN 612600030068-HT HT1221 PISTON LINER KIT WPIO 12V COMMAINRAIL COMP ID 70",
+        "longDescription":  "612600030068-HT HUATAI MAOE IN CHINA WEICHAI WPIO 0068 CYLINDER LINER KIT 612600030068 612630010015 612600030054 61560030013 81560030012 37KG HT1221H 1 SET HUATAI• PISTON PIN 612600030068-HT HT1221 PISTON LINER KIT WPIO 12V COMMAINRAIL COMP ID 70",
+        "application":  "WP10",
         "brand":  "Huatai",
         "vehicleModel":  "",
-        "engineModel":  "",
+        "engineModel":  "WP10",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/612600030068-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT1221H"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1221H"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/612600030068-HT-DCA3D848401D.jpeg",
         "specifications":  {
                                "ID":  [
                                           "70"
@@ -4517,12 +4845,15 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "ID 70; Pin Pin reference detected",
         "keywords":  [
+                         "WP10",
                          "ID 70",
-                         "Pin Pin reference detected"
+                         "Pin Pin reference detected",
+                         "Piston Liner Kit",
+                         "PISTON LINER KIT"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "612600030068-HT Manual review required Huatai other Needs manual review ID 70; Pin Pin reference detected OCR result needs manual review before import. ID 70 Pin Pin reference detected Count 2 IsReadOnly False Keys ID Keys Pin Values 70 Values Pin reference detected IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI MAOE IN CHINA WEICHAI WPIO 0068 CYLINDER LINER KIT 612600030068 612630010015 612600030054 61560030013 81560030012 37KG HT1221H 1 SET HUATAI• PISTON PIN 612600030068-HT HT1221 PISTON LINER KIT WPIO 12V COMMAINRAIL COMP ID 70",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "612600030068-HT Piston Liner Kit Huatai engine-parts 612600030068-HT HUATAI MAOE IN CHINA WEICHAI WPIO 0068 CYLINDER LINER KIT 612600030068 612630010015 612600030054 61560030013 81560030012 37KG HT1221H 1 SET HUATAI• PISTON PIN 612600030068-HT HT1221 PISTON LINER KIT WPIO 12V COMMAINRAIL COMP ID 70 WP10 ID 70; Pin Pin reference detected Ready stock ID 70 Pin Pin reference detected PISTON LINER KIT HT1221H Count 2 IsReadOnly False Keys ID Keys Pin Values 70 Values Pin reference detected IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI MAOE IN CHINA WEICHAI WPIO 0068 CYLINDER LINER KIT 612600030068 612630010015 612600030054 61560030013 81560030012 37KG HT1221H 1 SET HUATAI• PISTON PIN 612600030068-HT HT1221 PISTON LINER KIT WPIO 12V COMMAINRAIL COMP ID 70",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -4530,7 +4861,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.18 PM.jpeg",
                        "hash":  "dca3d848401dd013a5fa52f5a3c392c9c799ebf00b3f90edd6fd8756857b91c0",
                        "ocrText":  "HUATAI MAOE IN CHINA WEICHAI WPIO 0068 CYLINDER LINER KIT 612600030068 612630010015 612600030054 61560030013 81560030012 37KG HT1221H 1 SET HUATAI• PISTON PIN 612600030068-HT HT1221 PISTON LINER KIT WPIO 12V COMMAINRAIL COMP ID 70",
-                       "importedAt":  "2026-07-22T00:02:05"
+                       "importedAt":  "2026-07-22T22:55:26"
                    }
     },
     {
@@ -4538,18 +4869,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "61800050143-HT",
         "productNumber":  "61800050143-HT",
         "partNumber":  "61800050143-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Push Rod",
+        "productName":  "Push Rod",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
+        "description":  "Push Rod",
+        "visibleDescription":  "61800050143-HT OD 16 HUATAI\u0027 GENUINE PARTS OD 12 L 420 OD 16 61800050143-HT HT2774 PUSH ROD WD618 OD12 L 420 WD12",
+        "longDescription":  "61800050143-HT OD 16 HUATAI\u0027 GENUINE PARTS OD 12 L 420 OD 16 61800050143-HT HT2774 PUSH ROD WD618 OD12 L 420 WD12",
         "application":  "WD618, WD12",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD618, WD12",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/61800050143-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT2774"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2774"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/61800050143-HT-D1F95CCAD992.jpeg",
         "specifications":  {
                                "OD":  [
                                           "16",
@@ -4563,11 +4902,13 @@ window.NAE_IMPORTED_PRODUCTS = [
         "keywords":  [
                          "WD618",
                          "WD12",
-                         "OD 16, 12"
+                         "OD 16, 12",
+                         "Push Rod",
+                         "PUSH ROD"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "61800050143-HT Manual review required Huatai other Needs manual review WD618, WD12 OD 16, 12 OCR result needs manual review before import. WD618 WD12 Count 1 IsReadOnly False Keys OD Values 16 12 IsFixedSize False SyncRoot System.Object IsSynchronized False OD 16 HUATAI\u0027 GENUINE PARTS OD 12 L 420 OD 16 61800050143-HT HT2774 PUSH ROD WD618 OD12 L 420 WD12",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "61800050143-HT Push Rod Huatai engine-parts 61800050143-HT OD 16 HUATAI\u0027 GENUINE PARTS OD 12 L 420 OD 16 61800050143-HT HT2774 PUSH ROD WD618 OD12 L 420 WD12 WD618, WD12 OD 16, 12 Ready stock WD618 WD12 PUSH ROD HT2774 Count 1 IsReadOnly False Keys OD Values 16 12 IsFixedSize False SyncRoot System.Object IsSynchronized False OD 16 HUATAI\u0027 GENUINE PARTS OD 12 L 420 OD 16 61800050143-HT HT2774 PUSH ROD WD618 OD12 L 420 WD12",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -4575,7 +4916,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.19 PM (1).jpeg",
                        "hash":  "d1f95ccad992ba95d9356b9d728d289b4c5e20ce606ed998387d5bfe4209242a",
                        "ocrText":  "OD 16 HUATAI\u0027 GENUINE PARTS OD 12 L 420 OD 16 61800050143-HT HT2774 PUSH ROD WD618 OD12 L 420 WD12",
-                       "importedAt":  "2026-07-22T00:02:05"
+                       "importedAt":  "2026-07-22T22:55:26"
                    }
     },
     {
@@ -4583,18 +4924,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "VG-124-601-0034-HT",
         "productNumber":  "VG-124-601-0034-HT",
         "partNumber":  "VG-124-601-0034-HT",
-        "name":  "Connecting Rod Assembly",
-        "productName":  "Connecting Rod Assembly",
+        "name":  "Main Bearing Set",
+        "productName":  "Main Bearing Set",
         "category":  "engine-parts",
         "subcategory":  "",
         "description":  "VG-124 601 0034-HT",
+        "visibleDescription":  "VG-124 601 0034-HT OD 112 HUATAI HUATAI\u0027 CONNECTING ROD UJATYH ABV1RATENQ ASU ECCMCWC MADE IN CHINA VG1246010034/35 MAIN BEARING SINOTRUK D12 STD 1 SET HT1107H ILL 1125 6 976046 224615 VG-124 601 0034-HT HT1107 M/BRG STD D12 WP12",
+        "longDescription":  "VG-124 601 0034-HT OD 112 HUATAI HUATAI\u0027 CONNECTING ROD UJATYH ABV1RATENQ ASU ECCMCWC MADE IN CHINA VG1246010034/35 MAIN BEARING SINOTRUK D12 STD 1 SET HT1107H ILL 1125 6 976046 224615 VG-124 601 0034-HT HT1107 M/BRG STD D12 WP12",
         "application":  "HOWO, WP12, D12",
         "brand":  "Huatai",
         "vehicleModel":  "HOWO",
         "engineModel":  "WP12, D12",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "HT1107H"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1107H"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/VG-124-601-0034-HT.jpeg",
+        "image":  "assets/img/products/VG-124-601-0034-HT-C6D2383FAA2E.jpeg",
         "specifications":  {
                                "OD":  [
                                           "112"
@@ -4609,11 +4958,13 @@ window.NAE_IMPORTED_PRODUCTS = [
                          "D12",
                          "HOWO",
                          "OD 112",
-                         "Connecting Rod Assembly"
+                         "Main Bearing Set",
+                         "BEARING",
+                         "MAIN BEARING"
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "VG-124-601-0034-HT Connecting Rod Assembly Huatai engine-parts VG-124 601 0034-HT HOWO, WP12, D12 HOWO WP12, D12 OD 112 Ready stock WP12 D12 Count 1 IsReadOnly False Keys OD Values 112 IsFixedSize False SyncRoot System.Object IsSynchronized False OD 112 HUATAI HUATAI\u0027 CONNECTING ROD UJATYH ABV1RATENQ ASU ECCMCWC MADE IN CHINA VG1246010034/35 MAIN BEARING SINOTRUK D12 STD 1 SET HT1107H ILL 1125 6 976046 224615 VG-124 601 0034-HT HT1107 M/BRG STD D12 WP12",
+        "searchableText":  "VG-124-601-0034-HT Main Bearing Set Huatai engine-parts VG-124 601 0034-HT VG-124 601 0034-HT OD 112 HUATAI HUATAI\u0027 CONNECTING ROD UJATYH ABV1RATENQ ASU ECCMCWC MADE IN CHINA VG1246010034/35 MAIN BEARING SINOTRUK D12 STD 1 SET HT1107H ILL 1125 6 976046 224615 VG-124 601 0034-HT HT1107 M/BRG STD D12 WP12 HOWO, WP12, D12 HOWO WP12, D12 OD 112 Ready stock WP12 D12 BEARING MAIN BEARING HT1107H Count 1 IsReadOnly False Keys OD Values 112 IsFixedSize False SyncRoot System.Object IsSynchronized False OD 112 HUATAI HUATAI\u0027 CONNECTING ROD UJATYH ABV1RATENQ ASU ECCMCWC MADE IN CHINA VG1246010034/35 MAIN BEARING SINOTRUK D12 STD 1 SET HT1107H ILL 1125 6 976046 224615 VG-124 601 0034-HT HT1107 M/BRG STD D12 WP12",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -4621,7 +4972,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.15 PM.jpeg",
                        "hash":  "c6d2383faa2ef33c9e95ccee6eb088543138ea5914579c72e6aef19f154a328f",
                        "ocrText":  "OD 112 HUATAI HUATAI\u0027 CONNECTING ROD UJATYH ABV1RATENQ ASU ECCMCWC MADE IN CHINA VG1246010034/35 MAIN BEARING SINOTRUK D12 STD 1 SET HT1107H ILL 1125 6 976046 224615 VG-124 601 0034-HT HT1107 M/BRG STD D12 WP12",
-                       "importedAt":  "2026-07-22T00:02:04"
+                       "importedAt":  "2026-07-22T22:55:26"
                    }
     },
     {
@@ -4629,18 +4980,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "1000549569-HT",
         "productNumber":  "1000549569-HT",
         "partNumber":  "1000549569-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Valve Seal",
+        "productName":  "Valve Seal",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
+        "description":  "Valve Seal",
+        "visibleDescription":  "1000549569-HT 18 ID7 HUATAI• GENUINE PARTS M14 35 25 HUATAI MADE IN CHINA 1000549569 VALVE SEAL FLUORORUBBERUE 24 PCS WEICHAI WP12 HT3962H 0524 6 976046 2268 SS 1000549569-HT HT3962 VALVE SEAL WP12 OD 18 / 35 HI 25",
+        "longDescription":  "1000549569-HT 18 ID7 HUATAI• GENUINE PARTS M14 35 25 HUATAI MADE IN CHINA 1000549569 VALVE SEAL FLUORORUBBERUE 24 PCS WEICHAI WP12 HT3962H 0524 6 976046 2268 SS 1000549569-HT HT3962 VALVE SEAL WP12 OD 18 / 35 HI 25",
         "application":  "WP12",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WP12",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/1000549569-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT3962H"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT3962H"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/1000549569-HT-0B74DBE11192.jpeg",
         "specifications":  {
                                "OD":  [
                                           "18"
@@ -4662,11 +5021,14 @@ window.NAE_IMPORTED_PRODUCTS = [
                          "WP12",
                          "OD 18",
                          "ID 7",
-                         "HI 25"
+                         "HI 25",
+                         "Valve Seal",
+                         "VALVE",
+                         "VALVE SEAL"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "1000549569-HT Manual review required Huatai other Needs manual review WP12 OD 18; ID 7; HI 25 OCR result needs manual review before import. OD 18 ID 7 HI 25 Count 3 IsReadOnly False Keys OD Keys ID Keys HI Values 18 Values 7 Values 25 IsFixedSize False SyncRoot System.Object IsSynchronized False 18 ID7 HUATAI• GENUINE PARTS M14 35 25 HUATAI MADE IN CHINA 1000549569 VALVE SEAL FLUORORUBBERUE 24 PCS WEICHAI WP12 HT3962H 0524 6 976046 2268 SS 1000549569-HT HT3962 VALVE SEAL WP12 OD 18 / 35 HI 25",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "1000549569-HT Valve Seal Huatai engine-parts 1000549569-HT 18 ID7 HUATAI• GENUINE PARTS M14 35 25 HUATAI MADE IN CHINA 1000549569 VALVE SEAL FLUORORUBBERUE 24 PCS WEICHAI WP12 HT3962H 0524 6 976046 2268 SS 1000549569-HT HT3962 VALVE SEAL WP12 OD 18 / 35 HI 25 WP12 OD 18; ID 7; HI 25 Ready stock OD 18 ID 7 HI 25 VALVE VALVE SEAL HT3962H Count 3 IsReadOnly False Keys OD Keys ID Keys HI Values 18 Values 7 Values 25 IsFixedSize False SyncRoot System.Object IsSynchronized False 18 ID7 HUATAI• GENUINE PARTS M14 35 25 HUATAI MADE IN CHINA 1000549569 VALVE SEAL FLUORORUBBERUE 24 PCS WEICHAI WP12 HT3962H 0524 6 976046 2268 SS 1000549569-HT HT3962 VALVE SEAL WP12 OD 18 / 35 HI 25",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -4674,26 +5036,34 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.13 PM (1).jpeg",
                        "hash":  "0b74dbe1119222dfcad0cfc7c9afc283528e7995b76b3c28b430611ebe40fbc5",
                        "ocrText":  "18 ID7 HUATAI• GENUINE PARTS M14 35 25 HUATAI MADE IN CHINA 1000549569 VALVE SEAL FLUORORUBBERUE 24 PCS WEICHAI WP12 HT3962H 0524 6 976046 2268 SS 1000549569-HT HT3962 VALVE SEAL WP12 OD 18 / 35 HI 25",
-                       "importedAt":  "2026-07-22T00:02:03"
+                       "importedAt":  "2026-07-22T22:55:26"
                    }
     },
     {
-        "id":  "REVIEW-56E3DFA829E2",
-        "number":  "",
-        "productNumber":  "",
-        "partNumber":  "",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "id":  "13038398-KIT-HT",
+        "number":  "13038398-KIT-HT",
+        "productNumber":  "13038398-KIT-HT",
+        "partNumber":  "13038398-KIT-HT",
+        "name":  "Piston Liner Kit",
+        "productName":  "Piston Liner Kit",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "HUATAI CHINN AUTO PANS MADE IN CHINA TD226BL/WP6G 8398 CYLINDER LINER KIT 13032095 13056682/13024173 13022348/49/50 12152378 12151395 34KG HT1292H 1 SET 0825 13038398-KIT-HT HT1292 PISTON LINER KIT WP6G 125 DEUTZ",
-        "application":  "",
+        "description":  "Piston Liner Kit",
+        "visibleDescription":  "13038398-KIT-HT HUATAI CHINN AUTO PANS MADE IN CHINA TD226BL/WP6G 8398 CYLINDER LINER KIT 13032095 13056682/13024173 13022348/49/50 12152378 12151395 34KG HT1292H 1 SET 0825 13038398-KIT-HT HT1292 PISTON LINER KIT WP6G 125 DEUTZ",
+        "longDescription":  "13038398-KIT-HT HUATAI CHINN AUTO PANS MADE IN CHINA TD226BL/WP6G 8398 CYLINDER LINER KIT 13032095 13056682/13024173 13022348/49/50 12152378 12151395 34KG HT1292H 1 SET 0825 13038398-KIT-HT HT1292 PISTON LINER KIT WP6G 125 DEUTZ",
+        "application":  "WP6G, TD226BL",
         "brand":  "Huatai",
         "vehicleModel":  "",
-        "engineModel":  "",
+        "engineModel":  "WP6G, TD226BL",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/REVIEW-56E3DFA829E2.jpeg",
+        "alternateNumbers":  [
+                                 "HT1292H"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1292H"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/13038398-KIT-HT.jpeg",
         "specifications":  {
 
                            },
@@ -4702,19 +5072,22 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-
+                         "WP6G",
+                         "TD226BL",
+                         "Piston Liner Kit",
+                         "PISTON LINER KIT"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "No reliable product number candidate found.",
-        "searchableText":  "REVIEW-56E3DFA829E2 Manual review required Huatai other HUATAI CHINN AUTO PANS MADE IN CHINA TD226BL/WP6G 8398 CYLINDER LINER KIT 13032095 13056682/13024173 13022348/49/50 12152378 12151395 34KG HT1292H 1 SET 0825 13038398-KIT-HT HT1292 PISTON LINER KIT WP6G 125 DEUTZ No reliable product number candidate found. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False",
-        "confidence":  0,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "13038398-KIT-HT Piston Liner Kit Huatai engine-parts 13038398-KIT-HT HUATAI CHINN AUTO PANS MADE IN CHINA TD226BL/WP6G 8398 CYLINDER LINER KIT 13032095 13056682/13024173 13022348/49/50 12152378 12151395 34KG HT1292H 1 SET 0825 13038398-KIT-HT HT1292 PISTON LINER KIT WP6G 125 DEUTZ WP6G, TD226BL Ready stock WP6G TD226BL PISTON LINER KIT HT1292H Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI CHINN AUTO PANS MADE IN CHINA TD226BL/WP6G 8398 CYLINDER LINER KIT 13032095 13056682/13024173 13022348/49/50 12152378 12151395 34KG HT1292H 1 SET 0825 13038398-KIT-HT HT1292 PISTON LINER KIT WP6G 125 DEUTZ",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.13 PM (2).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.13 PM (2).jpeg",
                        "hash":  "56e3dfa829e2033ba251028b4be3442213bc0d35c822835decc1ded5c428444b",
                        "ocrText":  "HUATAI CHINN AUTO PANS MADE IN CHINA TD226BL/WP6G 8398 CYLINDER LINER KIT 13032095 13056682/13024173 13022348/49/50 12152378 12151395 34KG HT1292H 1 SET 0825 13038398-KIT-HT HT1292 PISTON LINER KIT WP6G 125 DEUTZ",
-                       "importedAt":  "2026-07-22T00:02:03"
+                       "importedAt":  "2026-07-22T22:55:26"
                    }
     },
     {
@@ -4722,18 +5095,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "VG-156-008-0276-HT",
         "productNumber":  "VG-156-008-0276-HT",
         "partNumber":  "VG-156-008-0276-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Fuel Injector",
+        "productName":  "Fuel Injector",
+        "category":  "engine-parts",
         "subcategory":  "",
         "description":  "VG-156 008 0276-HT",
+        "visibleDescription":  "VG-156 008 0276-HT HUATAI CHINA AUTO PARTS SPECIALIST VG1560080276 MADE IN CHINA FUEL INJECTOR SINOTRUK WD615 203PBA HT2741H 1125 HUATAI\u0027 FUEL INJECTOR QOPCYHKA U. S. ECOVOWC COOEERART0N M14 VG-156 008 0276-HT HT2741 FUEL INJECTOR",
+        "longDescription":  "VG-156 008 0276-HT HUATAI CHINA AUTO PARTS SPECIALIST VG1560080276 MADE IN CHINA FUEL INJECTOR SINOTRUK WD615 203PBA HT2741H 1125 HUATAI\u0027 FUEL INJECTOR QOPCYHKA U. S. ECOVOWC COOEERART0N M14 VG-156 008 0276-HT HT2741 FUEL INJECTOR",
         "application":  "HOWO, WD615",
         "brand":  "Huatai",
         "vehicleModel":  "HOWO",
         "engineModel":  "WD615",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/VG-156-008-0276-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT2741H"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2741H"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/VG-156-008-0276-HT-62C447681D18.jpeg",
         "specifications":  {
 
                            },
@@ -4743,11 +5124,13 @@ window.NAE_IMPORTED_PRODUCTS = [
         "specification":  "",
         "keywords":  [
                          "WD615",
-                         "HOWO"
+                         "HOWO",
+                         "Fuel Injector",
+                         "FUEL INJECTOR"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "VG-156-008-0276-HT Manual review required Huatai other VG-156 008 0276-HT HOWO, WD615 HOWO WD615 OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI CHINA AUTO PARTS SPECIALIST VG1560080276 MADE IN CHINA FUEL INJECTOR SINOTRUK WD615 203PBA HT2741H 1125 HUATAI\u0027 FUEL INJECTOR QOPCYHKA U. S. ECOVOWC COOEERART0N M14 VG-156 008 0276-HT HT2741 FUEL INJECTOR",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "VG-156-008-0276-HT Fuel Injector Huatai engine-parts VG-156 008 0276-HT VG-156 008 0276-HT HUATAI CHINA AUTO PARTS SPECIALIST VG1560080276 MADE IN CHINA FUEL INJECTOR SINOTRUK WD615 203PBA HT2741H 1125 HUATAI\u0027 FUEL INJECTOR QOPCYHKA U. S. ECOVOWC COOEERART0N M14 VG-156 008 0276-HT HT2741 FUEL INJECTOR HOWO, WD615 HOWO WD615 Ready stock FUEL INJECTOR HT2741H Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI CHINA AUTO PARTS SPECIALIST VG1560080276 MADE IN CHINA FUEL INJECTOR SINOTRUK WD615 203PBA HT2741H 1125 HUATAI\u0027 FUEL INJECTOR QOPCYHKA U. S. ECOVOWC COOEERART0N M14 VG-156 008 0276-HT HT2741 FUEL INJECTOR",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -4755,7 +5138,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.12 PM.jpeg",
                        "hash":  "62c447681d18650bfd1ab72f79b5fdbdc08c0ca10865f9bb31e21b52a97f1a8d",
                        "ocrText":  "HUATAI CHINA AUTO PARTS SPECIALIST VG1560080276 MADE IN CHINA FUEL INJECTOR SINOTRUK WD615 203PBA HT2741H 1125 HUATAI\u0027 FUEL INJECTOR QOPCYHKA U. S. ECOVOWC COOEERART0N M14 VG-156 008 0276-HT HT2741 FUEL INJECTOR",
-                       "importedAt":  "2026-07-22T00:02:03"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
@@ -4768,13 +5151,21 @@ window.NAE_IMPORTED_PRODUCTS = [
         "category":  "engine-parts",
         "subcategory":  "",
         "description":  "VG-124 605 0022-HT",
+        "visibleDescription":  "VG-124 605 0022-HT 41 173 VG-124 605 0022-HT HT2118 EX VALVE 3 KEY D12.420 \u0026 WP12 OD 41 L 173 STEM 9",
+        "longDescription":  "VG-124 605 0022-HT 41 173 VG-124 605 0022-HT HT2118 EX VALVE 3 KEY D12.420 \u0026 WP12 OD 41 L 173 STEM 9",
         "application":  "WP12, D12",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WP12, D12",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "HT2118"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2118"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/VG-124-605-0022-HT.jpeg",
+        "image":  "assets/img/products/VG-124-605-0022-HT-1A4191592570.jpeg",
         "specifications":  {
                                "OD":  [
                                           "41"
@@ -4793,7 +5184,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "VG-124-605-0022-HT Exhaust Valve Huatai engine-parts VG-124 605 0022-HT WP12, D12 OD 41 Ready stock WP12 D12 VALVE Count 1 IsReadOnly False Keys OD Values 41 IsFixedSize False SyncRoot System.Object IsSynchronized False 41 173 VG-124 605 0022-HT HT2118 EX VALVE 3 KEY D12.420 \u0026 WP12 OD 41 L 173 STEM 9",
+        "searchableText":  "VG-124-605-0022-HT Exhaust Valve Huatai engine-parts VG-124 605 0022-HT VG-124 605 0022-HT 41 173 VG-124 605 0022-HT HT2118 EX VALVE 3 KEY D12.420 \u0026 WP12 OD 41 L 173 STEM 9 WP12, D12 OD 41 Ready stock WP12 D12 VALVE HT2118 Count 1 IsReadOnly False Keys OD Values 41 IsFixedSize False SyncRoot System.Object IsSynchronized False 41 173 VG-124 605 0022-HT HT2118 EX VALVE 3 KEY D12.420 \u0026 WP12 OD 41 L 173 STEM 9",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -4801,7 +5192,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.11 PM.jpeg",
                        "hash":  "1a41915925708ef27eab821538e2e5621228b3f23f0627082fd18c8ec2217776",
                        "ocrText":  "41 173 VG-124 605 0022-HT HT2118 EX VALVE 3 KEY D12.420 \u0026 WP12 OD 41 L 173 STEM 9",
-                       "importedAt":  "2026-07-22T00:02:02"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
@@ -4809,18 +5200,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "VG-124-613-0008-HT",
         "productNumber":  "VG-124-613-0008-HT",
         "partNumber":  "VG-124-613-0008-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Air Compressor Assembly",
+        "productName":  "Air Compressor Assembly",
+        "category":  "engine-parts",
         "subcategory":  "",
         "description":  "VG-124 613 0008-HT",
+        "visibleDescription":  "VG-124 613 0008-HT AIR COMPRESSOR VG-124 613 0008-HT HT1913 AIR COMPRESSOR ASSY A7 D12.420",
+        "longDescription":  "VG-124 613 0008-HT AIR COMPRESSOR VG-124 613 0008-HT HT1913 AIR COMPRESSOR ASSY A7 D12.420",
         "application":  "D12",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "D12",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/VG-124-613-0008-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT1913"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1913"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/VG-124-613-0008-HT-FAEC1745D221.jpeg",
         "specifications":  {
 
                            },
@@ -4829,11 +5228,13 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-                         "D12"
+                         "D12",
+                         "Air Compressor Assembly",
+                         "AIR COMPRESSOR"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "VG-124-613-0008-HT Manual review required Huatai other VG-124 613 0008-HT D12 OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False AIR COMPRESSOR VG-124 613 0008-HT HT1913 AIR COMPRESSOR ASSY A7 D12.420",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "VG-124-613-0008-HT Air Compressor Assembly Huatai engine-parts VG-124 613 0008-HT VG-124 613 0008-HT AIR COMPRESSOR VG-124 613 0008-HT HT1913 AIR COMPRESSOR ASSY A7 D12.420 D12 Ready stock AIR COMPRESSOR HT1913 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False AIR COMPRESSOR VG-124 613 0008-HT HT1913 AIR COMPRESSOR ASSY A7 D12.420",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -4841,26 +5242,34 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.12 PM (1).jpeg",
                        "hash":  "faec1745d221536db7a48cb1b382bcaa6d6831e20b2dd9391bc73ee64f365755",
                        "ocrText":  "AIR COMPRESSOR VG-124 613 0008-HT HT1913 AIR COMPRESSOR ASSY A7 D12.420",
-                       "importedAt":  "2026-07-22T00:02:03"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
-        "id":  "WG-407-545-0160-HT",
-        "number":  "WG-407-545-0160-HT",
-        "productNumber":  "WG-407-545-0160-HT",
-        "partNumber":  "WG-407-545-0160-HT",
+        "id":  "HT8185",
+        "number":  "HT8185",
+        "productNumber":  "HT8185",
+        "partNumber":  "HT8185",
         "name":  "Brake Lining Set",
         "productName":  "Brake Lining Set",
         "category":  "brake-system",
         "subcategory":  "",
-        "description":  "WG-407 545 0160-HT",
-        "application":  "",
+        "description":  "FRT B LINING 61 4\"",
+        "visibleDescription":  "HT8185 FRT B LINING 61 4\" MIO HUATAI 7\" / 178MM 6 1/4\" HUATAI\u0027 ORAKE LINING HAKP.MRA TOPMOSHAR / 158MM HUATAI WG-407 545 0160-HT HT8185 FRT B LINING 61 4\" NJ17 \u0026 T7H 2-2-2-2 RIVENT MIO",
+        "longDescription":  "HT8185 FRT B LINING 61 4\" MIO HUATAI 7\" / 178MM 6 1/4\" HUATAI\u0027 ORAKE LINING HAKP.MRA TOPMOSHAR / 158MM HUATAI WG-407 545 0160-HT HT8185 FRT B LINING 61 4\" NJ17 \u0026 T7H 2-2-2-2 RIVENT MIO",
+        "application":  "T7H",
         "brand":  "Huatai",
-        "vehicleModel":  "",
+        "vehicleModel":  "T7H",
         "engineModel":  "",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "WG-407-545-0160-HT"
+                             ],
+        "alternatePartNumbers":  [
+                                     "WG-407-545-0160-HT"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/WG-407-545-0160-HT.jpeg",
+        "image":  "assets/img/products/HT8185.jpeg",
         "specifications":  {
                                "Diameter":  [
                                                 "7\" / 178mm"
@@ -4871,21 +5280,22 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "Diameter 7\" / 178mm",
         "keywords":  [
+                         "T7H",
                          "Diameter 7\" / 178mm",
                          "Brake Lining Set",
                          "BRAKE"
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "WG-407-545-0160-HT Brake Lining Set Huatai brake-system WG-407 545 0160-HT Diameter 7\" / 178mm Ready stock BRAKE Count 1 IsReadOnly False Keys Diameter Values 7\" / 178mm IsFixedSize False SyncRoot System.Object IsSynchronized False MIO HUATAI 7\" / 178MM 6 1/4\" HUATAI\u0027 ORAKE LINING HAKP.MRA TOPMOSHAR / 158MM HUATAI WG-407 545 0160-HT HT8185 FRT B LINING 61 4\" NJ17 \u0026 T7H 2-2-2-2 RIVENT MIO",
-        "confidence":  92,
+        "searchableText":  "HT8185 Brake Lining Set Huatai brake-system FRT B LINING 61 4\" HT8185 FRT B LINING 61 4\" MIO HUATAI 7\" / 178MM 6 1/4\" HUATAI\u0027 ORAKE LINING HAKP.MRA TOPMOSHAR / 158MM HUATAI WG-407 545 0160-HT HT8185 FRT B LINING 61 4\" NJ17 \u0026 T7H 2-2-2-2 RIVENT MIO T7H Diameter 7\" / 178mm Ready stock BRAKE WG-407-545-0160-HT Count 1 IsReadOnly False Keys Diameter Values 7\" / 178mm IsFixedSize False SyncRoot System.Object IsSynchronized False MIO HUATAI 7\" / 178MM 6 1/4\" HUATAI\u0027 ORAKE LINING HAKP.MRA TOPMOSHAR / 158MM HUATAI WG-407 545 0160-HT HT8185 FRT B LINING 61 4\" NJ17 \u0026 T7H 2-2-2-2 RIVENT MIO",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.13 PM.jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.13 PM.jpeg",
                        "hash":  "8d6b33bbaf4118a5776e23764e0b7cc58a732dbac1855f2c1f771a126c7c72fc",
                        "ocrText":  "MIO HUATAI 7\" / 178MM 6 1/4\" HUATAI\u0027 ORAKE LINING HAKP.MRA TOPMOSHAR / 158MM HUATAI WG-407 545 0160-HT HT8185 FRT B LINING 61 4\" NJ17 \u0026 T7H 2-2-2-2 RIVENT MIO",
-                       "importedAt":  "2026-07-22T00:02:03"
+                       "importedAt":  "2026-07-22T22:55:26"
                    }
     },
     {
@@ -4893,18 +5303,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "200V05504-0122-HT",
         "productNumber":  "200V05504-0122-HT",
         "partNumber":  "200V05504-0122-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Oil Filter",
+        "productName":  "Oil Filter",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
-        "application":  "MC07",
+        "description":  "Oil Filter",
+        "visibleDescription":  "200V05504-0122-HT FILTER 200V05504-0122-HT HT3781 OIL FILTER MAN-TGA MC07 ENGINE",
+        "longDescription":  "200V05504-0122-HT FILTER 200V05504-0122-HT HT3781 OIL FILTER MAN-TGA MC07 ENGINE",
+        "application":  "MAN, MC07",
         "brand":  "Huatai",
-        "vehicleModel":  "",
+        "vehicleModel":  "MAN",
         "engineModel":  "MC07",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/200V05504-0122-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT3781"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT3781"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/200V05504-0122-HT-F586B0DFB299.jpeg",
         "specifications":  {
 
                            },
@@ -4913,11 +5331,14 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-                         "MC07"
+                         "MC07",
+                         "MAN",
+                         "Oil Filter",
+                         "OIL FILTER"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "200V05504-0122-HT Manual review required Huatai other Needs manual review MC07 OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False FILTER 200V05504-0122-HT HT3781 OIL FILTER MAN-TGA MC07 ENGINE",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "200V05504-0122-HT Oil Filter Huatai engine-parts 200V05504-0122-HT FILTER 200V05504-0122-HT HT3781 OIL FILTER MAN-TGA MC07 ENGINE MAN, MC07 MAN MC07 Ready stock OIL FILTER HT3781 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False FILTER 200V05504-0122-HT HT3781 OIL FILTER MAN-TGA MC07 ENGINE",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -4925,26 +5346,34 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.15 PM (1).jpeg",
                        "hash":  "f586b0dfb299067953269195d2e8848ba71a1fcd009790ef5cf2e896402b3b66",
                        "ocrText":  "FILTER 200V05504-0122-HT HT3781 OIL FILTER MAN-TGA MC07 ENGINE",
-                       "importedAt":  "2026-07-22T00:02:03"
+                       "importedAt":  "2026-07-22T22:55:26"
                    }
     },
     {
-        "id":  "REVIEW-82D5E30E8217",
-        "number":  "",
-        "productNumber":  "",
-        "partNumber":  "",
+        "id":  "HT2430H",
+        "number":  "HT2430H",
+        "productNumber":  "HT2430H",
+        "partNumber":  "HT2430H",
         "name":  "Turbo Assembly",
         "productName":  "Turbo Assembly",
         "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "ID 95 OD 104 TURBOCHARGER TYP60KOMN ID 52 OD 74 285 112 70 83 VG-156 OIL 8229-HT HT2430H TURBO CHARGER WD615.47 BTM 92M HOLSET HOLE 103MM / HOLE 122MM",
+        "description":  "TURBO CHARGER WD615.47",
+        "visibleDescription":  "HT2430H TURBO CHARGER WD615.47 ID 95 OD 104 TURBOCHARGER TYP60KOMN ID 52 OD 74 285 112 70 83 VG-156 OIL 8229-HT HT2430H TURBO CHARGER WD615.47 BTM 92M HOLSET HOLE 103MM / HOLE 122MM",
+        "longDescription":  "HT2430H TURBO CHARGER WD615.47 ID 95 OD 104 TURBOCHARGER TYP60KOMN ID 52 OD 74 285 112 70 83 VG-156 OIL 8229-HT HT2430H TURBO CHARGER WD615.47 BTM 92M HOLSET HOLE 103MM / HOLE 122MM",
         "application":  "WD615",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD615",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/REVIEW-82D5E30E8217.jpeg",
+        "alternateNumbers":  [
+
+                             ],
+        "alternatePartNumbers":  [
+
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/HT2430H.jpeg",
         "specifications":  {
                                "OD":  [
                                           "104",
@@ -4967,17 +5396,17 @@ window.NAE_IMPORTED_PRODUCTS = [
                          "Turbo Assembly",
                          "TURBO"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "No reliable product number candidate found.",
-        "searchableText":  "REVIEW-82D5E30E8217 Turbo Assembly Huatai engine-parts ID 95 OD 104 TURBOCHARGER TYP60KOMN ID 52 OD 74 285 112 70 83 VG-156 OIL 8229-HT HT2430H TURBO CHARGER WD615.47 BTM 92M HOLSET HOLE 103MM / HOLE 122MM WD615 OD 104, 74; ID 95, 52 Manual review required No reliable product number candidate found. OD 104, 74 ID 95, 52 TURBO Count 2 IsReadOnly False Keys OD Keys ID Values 104 74 Values 95 52 IsFixedSize False SyncRoot System.Object IsSynchronized False",
-        "confidence":  0,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "HT2430H Turbo Assembly Huatai engine-parts TURBO CHARGER WD615.47 HT2430H TURBO CHARGER WD615.47 ID 95 OD 104 TURBOCHARGER TYP60KOMN ID 52 OD 74 285 112 70 83 VG-156 OIL 8229-HT HT2430H TURBO CHARGER WD615.47 BTM 92M HOLSET HOLE 103MM / HOLE 122MM WD615 OD 104, 74; ID 95, 52 Ready stock OD 104, 74 ID 95, 52 TURBO Count 2 IsReadOnly False Keys OD Keys ID Values 104 74 Values 95 52 IsFixedSize False SyncRoot System.Object IsSynchronized False ID 95 OD 104 TURBOCHARGER TYP60KOMN ID 52 OD 74 285 112 70 83 VG-156 OIL 8229-HT HT2430H TURBO CHARGER WD615.47 BTM 92M HOLSET HOLE 103MM / HOLE 122MM",
+        "confidence":  94,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.15 PM (2).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.15 PM (2).jpeg",
                        "hash":  "82d5e30e8217a6e3afb561537ce8e80b273c08fa6333bc51659280ae691d86d1",
                        "ocrText":  "ID 95 OD 104 TURBOCHARGER TYP60KOMN ID 52 OD 74 285 112 70 83 VG-156 OIL 8229-HT HT2430H TURBO CHARGER WD615.47 BTM 92M HOLSET HOLE 103MM / HOLE 122MM",
-                       "importedAt":  "2026-07-22T00:02:04"
+                       "importedAt":  "2026-07-22T22:55:26"
                    }
     },
     {
@@ -4985,18 +5414,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "612620010055-HT",
         "productNumber":  "612620010055-HT",
         "partNumber":  "612620010055-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Cylinder Liner",
+        "productName":  "Cylinder Liner",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
+        "description":  "Cylinder Liner",
+        "visibleDescription":  "612620010055-HT 612620010055-HT HT1389 LINER WD618.42 D12.420 OD 130 ID 126 L 275 STEM 5 OD 137",
+        "longDescription":  "612620010055-HT 612620010055-HT HT1389 LINER WD618.42 D12.420 OD 130 ID 126 L 275 STEM 5 OD 137",
         "application":  "WD618, D12",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD618, D12",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/612620010055-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT1389"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1389"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/612620010055-HT-241D34D1C2A4.jpeg",
         "specifications":  {
                                "OD":  [
                                           "130",
@@ -5015,11 +5452,13 @@ window.NAE_IMPORTED_PRODUCTS = [
                          "WD618",
                          "D12",
                          "OD 130, 137",
-                         "ID 126"
+                         "ID 126",
+                         "Cylinder Liner",
+                         "CYLINDER LINER"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "612620010055-HT Manual review required Huatai other Needs manual review WD618, D12 OD 130, 137; ID 126 OCR result needs manual review before import. OD 130, 137 ID 126 WD618 D12 Count 2 IsReadOnly False Keys OD Keys ID Values 130 137 Values 126 IsFixedSize False SyncRoot System.Object IsSynchronized False 612620010055-HT HT1389 LINER WD618.42 D12.420 OD 130 ID 126 L 275 STEM 5 OD 137",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "612620010055-HT Cylinder Liner Huatai engine-parts 612620010055-HT 612620010055-HT HT1389 LINER WD618.42 D12.420 OD 130 ID 126 L 275 STEM 5 OD 137 WD618, D12 OD 130, 137; ID 126 Ready stock OD 130, 137 ID 126 WD618 D12 CYLINDER LINER HT1389 Count 2 IsReadOnly False Keys OD Keys ID Values 130 137 Values 126 IsFixedSize False SyncRoot System.Object IsSynchronized False 612620010055-HT HT1389 LINER WD618.42 D12.420 OD 130 ID 126 L 275 STEM 5 OD 137",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -5027,7 +5466,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.14 PM.jpeg",
                        "hash":  "241d34d1c2a4aa61939146c9873592aabb76462c5e732284613bc0693b7f8e1b",
                        "ocrText":  "612620010055-HT HT1389 LINER WD618.42 D12.420 OD 130 ID 126 L 275 STEM 5 OD 137",
-                       "importedAt":  "2026-07-22T00:02:03"
+                       "importedAt":  "2026-07-22T22:55:26"
                    }
     },
     {
@@ -5035,18 +5474,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "612600040113-HT",
         "productNumber":  "612600040113-HT",
         "partNumber":  "612600040113-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Valve Guide",
+        "productName":  "Valve Guide",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
+        "description":  "Valve Guide",
+        "visibleDescription":  "612600040113-HT 16 GENUINEI\u0027ß,C,\", PARTS 612600040113-HT HT2161 VALVE GUIDE WD615.47 11 OD16 L 71 (NO TAPPER) WD12.375",
+        "longDescription":  "612600040113-HT 16 GENUINEI\u0027ß,C,\", PARTS 612600040113-HT HT2161 VALVE GUIDE WD615.47 11 OD16 L 71 (NO TAPPER) WD12.375",
         "application":  "WD615, WD12",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD615, WD12",
-        "oeNumber":  "TAPPER",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/612600040113-HT.jpeg",
+        "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "HT2161"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2161"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/612600040113-HT-9837BF69CBFC.jpeg",
         "specifications":  {
                                "OD":  [
                                           "16"
@@ -5059,12 +5506,14 @@ window.NAE_IMPORTED_PRODUCTS = [
         "keywords":  [
                          "WD615",
                          "WD12",
-                         "TAPPER",
-                         "OD 16"
+                         "OD 16",
+                         "Valve Guide",
+                         "VALVE",
+                         "VALVE GUIDE"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "612600040113-HT Manual review required Huatai other Needs manual review WD615, WD12 TAPPER OD 16 OCR result needs manual review before import. WD615 WD12 Count 1 IsReadOnly False Keys OD Values 16 IsFixedSize False SyncRoot System.Object IsSynchronized False 16 GENUINEI\u0027ß,C,\", PARTS 612600040113-HT HT2161 VALVE GUIDE WD615.47 11 OD16 L 71 (NO TAPPER) WD12.375",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "612600040113-HT Valve Guide Huatai engine-parts 612600040113-HT 16 GENUINEI\u0027ß,C,\", PARTS 612600040113-HT HT2161 VALVE GUIDE WD615.47 11 OD16 L 71 (NO TAPPER) WD12.375 WD615, WD12 OD 16 Ready stock WD615 WD12 VALVE VALVE GUIDE HT2161 Count 1 IsReadOnly False Keys OD Values 16 IsFixedSize False SyncRoot System.Object IsSynchronized False 16 GENUINEI\u0027ß,C,\", PARTS 612600040113-HT HT2161 VALVE GUIDE WD615.47 11 OD16 L 71 (NO TAPPER) WD12.375",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -5072,26 +5521,36 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.14 PM (1).jpeg",
                        "hash":  "9837bf69cbfc85ee2540521fdfba678cfa9cb2a599253d1225250419acd1b489",
                        "ocrText":  "16 GENUINEI\u0027ß,C,\", PARTS 612600040113-HT HT2161 VALVE GUIDE WD615.47 11 OD16 L 71 (NO TAPPER) WD12.375",
-                       "importedAt":  "2026-07-22T00:02:03"
+                       "importedAt":  "2026-07-22T22:55:26"
                    }
     },
     {
-        "id":  "VG-124-606-0006-HT",
-        "number":  "VG-124-606-0006-HT",
-        "productNumber":  "VG-124-606-0006-HT",
-        "partNumber":  "VG-124-606-0006-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "id":  "HT2269",
+        "number":  "HT2269",
+        "productNumber":  "HT2269",
+        "partNumber":  "HT2269",
+        "name":  "Belt Tensioner",
+        "productName":  "Belt Tensioner",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "VG-124 606 0006-HT",
+        "description":  "TENSIONER ROLLAR 6PK D12",
+        "visibleDescription":  "HT2269 TENSIONER ROLLAR 6PK D12 6PK MIO OD 76 HI 26 HUATAI\u0027 GENUINE PARTS VG-124 606 0006-HT HT2269 TENSIONER ROLLAR 6PK D12 OD 76 HI 26 BELT PULLY INSIDE BRG USE 6303RG",
+        "longDescription":  "HT2269 TENSIONER ROLLAR 6PK D12 6PK MIO OD 76 HI 26 HUATAI\u0027 GENUINE PARTS VG-124 606 0006-HT HT2269 TENSIONER ROLLAR 6PK D12 OD 76 HI 26 BELT PULLY INSIDE BRG USE 6303RG",
         "application":  "D12",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "D12",
-        "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/VG-124-606-0006-HT.jpeg",
+        "oeNumber":  "6303RG",
+        "alternateNumbers":  [
+                                 "VG-124-606-0006-HT",
+                                 "6303RG"
+                             ],
+        "alternatePartNumbers":  [
+                                     "VG-124-606-0006-HT",
+                                     "6303RG"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/HT2269.jpeg",
         "specifications":  {
                                "OD":  [
                                           "76"
@@ -5107,20 +5566,74 @@ window.NAE_IMPORTED_PRODUCTS = [
         "specification":  "OD 76; HI 26",
         "keywords":  [
                          "D12",
+                         "6303RG",
                          "OD 76",
-                         "HI 26"
+                         "HI 26",
+                         "Belt Tensioner",
+                         "BELT TENSIONER"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "VG-124-606-0006-HT Manual review required Huatai other VG-124 606 0006-HT D12 OD 76; HI 26 OCR result needs manual review before import. OD 76 HI 26 Count 2 IsReadOnly False Keys OD Keys HI Values 76 Values 26 IsFixedSize False SyncRoot System.Object IsSynchronized False 6PK MIO OD 76 HI 26 HUATAI\u0027 GENUINE PARTS VG-124 606 0006-HT HT2269 TENSIONER ROLLAR 6PK D12 OD 76 HI 26 BELT PULLY INSIDE BRG USE 6303RG",
-        "confidence":  92,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "HT2269 Belt Tensioner Huatai engine-parts TENSIONER ROLLAR 6PK D12 HT2269 TENSIONER ROLLAR 6PK D12 6PK MIO OD 76 HI 26 HUATAI\u0027 GENUINE PARTS VG-124 606 0006-HT HT2269 TENSIONER ROLLAR 6PK D12 OD 76 HI 26 BELT PULLY INSIDE BRG USE 6303RG D12 6303RG OD 76; HI 26 Ready stock OD 76 HI 26 BELT TENSIONER VG-124-606-0006-HT Count 2 IsReadOnly False Keys OD Keys HI Values 76 Values 26 IsFixedSize False SyncRoot System.Object IsSynchronized False 6PK MIO OD 76 HI 26 HUATAI\u0027 GENUINE PARTS VG-124 606 0006-HT HT2269 TENSIONER ROLLAR 6PK D12 OD 76 HI 26 BELT PULLY INSIDE BRG USE 6303RG",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.14 PM (2).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.14 PM (2).jpeg",
                        "hash":  "cbe22d57f9536f60f25b65de8fbe436ce58d60f6f574ed0e947b07502027121e",
                        "ocrText":  "6PK MIO OD 76 HI 26 HUATAI\u0027 GENUINE PARTS VG-124 606 0006-HT HT2269 TENSIONER ROLLAR 6PK D12 OD 76 HI 26 BELT PULLY INSIDE BRG USE 6303RG",
-                       "importedAt":  "2026-07-22T00:02:03"
+                       "importedAt":  "2026-07-22T22:55:26"
+                   }
+    },
+    {
+        "id":  "HT5956",
+        "number":  "HT5956",
+        "productNumber":  "HT5956",
+        "partNumber":  "HT5956",
+        "name":  "Rear Differential Assembly",
+        "productName":  "Rear Differential Assembly",
+        "category":  "axle-parts",
+        "subcategory":  "",
+        "description":  "REAR DIFF ASSY",
+        "visibleDescription":  "HT5956 REAR DIFF ASSY HUATAI MADE IN CHINA AZ9231320007 REAR AXLE REDUCER ASSY STR 33•26 (NEE4.42) 1 15KG HUATAI AXLE PEAYKTCP 8 AZ-923 132 0007-HT HT5956 REAR DIFF ASSY 26X33 CAMC HOWO STY AXLE RATIO 4.42 ( HOLE M12 )",
+        "longDescription":  "HT5956 REAR DIFF ASSY HUATAI MADE IN CHINA AZ9231320007 REAR AXLE REDUCER ASSY STR 33•26 (NEE4.42) 1 15KG HUATAI AXLE PEAYKTCP 8 AZ-923 132 0007-HT HT5956 REAR DIFF ASSY 26X33 CAMC HOWO STY AXLE RATIO 4.42 ( HOLE M12 )",
+        "application":  "HOWO, CAMC",
+        "brand":  "Huatai",
+        "vehicleModel":  "HOWO, CAMC",
+        "engineModel":  "",
+        "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "AZ-923-132-0007-HT"
+                             ],
+        "alternatePartNumbers":  [
+                                     "AZ-923-132-0007-HT"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/HT5956.jpeg",
+        "specifications":  {
+
+                           },
+        "specs":  [
+
+                  ],
+        "specification":  "",
+        "keywords":  [
+                         "HOWO",
+                         "CAMC",
+                         "Rear Differential Assembly",
+                         "REAR DIFF"
+                     ],
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "HT5956 Rear Differential Assembly Huatai axle-parts REAR DIFF ASSY HT5956 REAR DIFF ASSY HUATAI MADE IN CHINA AZ9231320007 REAR AXLE REDUCER ASSY STR 33•26 (NEE4.42) 1 15KG HUATAI AXLE PEAYKTCP 8 AZ-923 132 0007-HT HT5956 REAR DIFF ASSY 26X33 CAMC HOWO STY AXLE RATIO 4.42 ( HOLE M12 ) HOWO, CAMC Ready stock HOWO CAMC REAR DIFF AZ-923-132-0007-HT Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI MADE IN CHINA AZ9231320007 REAR AXLE REDUCER ASSY STR 33•26 (NEE4.42) 1 15KG HUATAI AXLE PEAYKTCP 8 AZ-923 132 0007-HT HT5956 REAR DIFF ASSY 26X33 CAMC HOWO STY AXLE RATIO 4.42 ( HOLE M12 )",
+        "confidence":  100,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.03 PM.jpeg",
+                       "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.03 PM.jpeg",
+                       "hash":  "2336c6655e65b17ba353ba8cafd2e3e2ca51f96b8395b26e11f56c03f291dae1",
+                       "ocrText":  "HUATAI MADE IN CHINA AZ9231320007 REAR AXLE REDUCER ASSY STR 33•26 (NEE4.42) 1 15KG HUATAI AXLE PEAYKTCP 8 AZ-923 132 0007-HT HT5956 REAR DIFF ASSY 26X33 CAMC HOWO STY AXLE RATIO 4.42 ( HOLE M12 )",
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
@@ -5128,18 +5641,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "612630040006-HT",
         "productNumber":  "612630040006-HT",
         "partNumber":  "612630040006-HT",
-        "name":  "Cylinder Head Assembly",
-        "productName":  "Cylinder Head Assembly",
+        "name":  "Engine Overhaul Gasket Set",
+        "productName":  "Engine Overhaul Gasket Set",
         "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Cylinder Head Assembly",
+        "description":  "Engine Overhaul Gasket Set",
+        "visibleDescription":  "612630040006-HT 0 HUATAI0 CYLINDER HEAD GASKET NPOKJIAAKA RSU 0000 612630040006-HT HT1780 HEAD GASKET WP12 1 SLIDE",
+        "longDescription":  "612630040006-HT 0 HUATAI0 CYLINDER HEAD GASKET NPOKJIAAKA RSU 0000 612630040006-HT HT1780 HEAD GASKET WP12 1 SLIDE",
         "application":  "WP12",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WP12",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "HT1780"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1780"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/612630040006-HT.jpeg",
+        "image":  "assets/img/products/612630040006-HT-91844C9FF079.jpeg",
         "specifications":  {
 
                            },
@@ -5149,12 +5670,12 @@ window.NAE_IMPORTED_PRODUCTS = [
         "specification":  "",
         "keywords":  [
                          "WP12",
-                         "Cylinder Head Assembly",
-                         "CYLINDER HEAD"
+                         "Engine Overhaul Gasket Set",
+                         "GASKET SET"
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "612630040006-HT Cylinder Head Assembly Huatai engine-parts WP12 Ready stock CYLINDER HEAD Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 0 HUATAI0 CYLINDER HEAD GASKET NPOKJIAAKA RSU 0000 612630040006-HT HT1780 HEAD GASKET WP12 1 SLIDE",
+        "searchableText":  "612630040006-HT Engine Overhaul Gasket Set Huatai engine-parts 612630040006-HT 0 HUATAI0 CYLINDER HEAD GASKET NPOKJIAAKA RSU 0000 612630040006-HT HT1780 HEAD GASKET WP12 1 SLIDE WP12 Ready stock GASKET SET HT1780 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 0 HUATAI0 CYLINDER HEAD GASKET NPOKJIAAKA RSU 0000 612630040006-HT HT1780 HEAD GASKET WP12 1 SLIDE",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -5162,7 +5683,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.54 PM (1).jpeg",
                        "hash":  "91844c9ff0799798a50b3684297e1634389a4091e8f9d9384fcf2dafb8764419",
                        "ocrText":  "0 HUATAI0 CYLINDER HEAD GASKET NPOKJIAAKA RSU 0000 612630040006-HT HT1780 HEAD GASKET WP12 1 SLIDE",
-                       "importedAt":  "2026-07-22T00:01:56"
+                       "importedAt":  "2026-07-22T22:55:23"
                    }
     },
     {
@@ -5175,13 +5696,21 @@ window.NAE_IMPORTED_PRODUCTS = [
         "category":  "cooling-system",
         "subcategory":  "",
         "description":  "VG-150 006 0051-HT",
+        "visibleDescription":  "VG-150 006 0051-HT HUATAI• WATER PUMP / OD 2070MM 6PK/ODM780MM / OD 141 OMM HUATAI MADE IN CHINA AUTO VGI 500060051 500060051 WATER PUMP SINOTRUK WD615 14.1 KG HT1873H VG-150 006 0051-HT HT1873 W/PUMP ASSY PK BELT HOW0371",
+        "longDescription":  "VG-150 006 0051-HT HUATAI• WATER PUMP / OD 2070MM 6PK/ODM780MM / OD 141 OMM HUATAI MADE IN CHINA AUTO VGI 500060051 500060051 WATER PUMP SINOTRUK WD615 14.1 KG HT1873H VG-150 006 0051-HT HT1873 W/PUMP ASSY PK BELT HOW0371",
         "application":  "HOWO, WD615",
         "brand":  "Huatai",
         "vehicleModel":  "HOWO",
         "engineModel":  "WD615",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "HT1873H"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1873H"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/VG-150-006-0051-HT.jpeg",
+        "image":  "assets/img/products/VG-150-006-0051-HT-3C765CBEACA4.jpeg",
         "specifications":  {
                                "OD":  [
                                           "2070",
@@ -5201,7 +5730,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "VG-150-006-0051-HT Water Pump Assembly Huatai cooling-system VG-150 006 0051-HT HOWO, WD615 HOWO WD615 OD 2070, 141 Ready stock WATER PUMP Count 1 IsReadOnly False Keys OD Values 2070 141 IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI• WATER PUMP / OD 2070MM 6PK/ODM780MM / OD 141 OMM HUATAI MADE IN CHINA AUTO VGI 500060051 500060051 WATER PUMP SINOTRUK WD615 14.1 KG HT1873H VG-150 006 0051-HT HT1873 W/PUMP ASSY PK BELT HOW0371",
+        "searchableText":  "VG-150-006-0051-HT Water Pump Assembly Huatai cooling-system VG-150 006 0051-HT VG-150 006 0051-HT HUATAI• WATER PUMP / OD 2070MM 6PK/ODM780MM / OD 141 OMM HUATAI MADE IN CHINA AUTO VGI 500060051 500060051 WATER PUMP SINOTRUK WD615 14.1 KG HT1873H VG-150 006 0051-HT HT1873 W/PUMP ASSY PK BELT HOW0371 HOWO, WD615 HOWO WD615 OD 2070, 141 Ready stock WATER PUMP HT1873H Count 1 IsReadOnly False Keys OD Values 2070 141 IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI• WATER PUMP / OD 2070MM 6PK/ODM780MM / OD 141 OMM HUATAI MADE IN CHINA AUTO VGI 500060051 500060051 WATER PUMP SINOTRUK WD615 14.1 KG HT1873H VG-150 006 0051-HT HT1873 W/PUMP ASSY PK BELT HOW0371",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -5209,26 +5738,34 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.54 PM (2).jpeg",
                        "hash":  "3c765cbeaca46f2b6a9d644db0a4ad38664636d3b510c3465cbbc48393d14bab",
                        "ocrText":  "HUATAI• WATER PUMP / OD 2070MM 6PK/ODM780MM / OD 141 OMM HUATAI MADE IN CHINA AUTO VGI 500060051 500060051 WATER PUMP SINOTRUK WD615 14.1 KG HT1873H VG-150 006 0051-HT HT1873 W/PUMP ASSY PK BELT HOW0371",
-                       "importedAt":  "2026-07-22T00:01:56"
+                       "importedAt":  "2026-07-22T22:55:23"
                    }
     },
     {
-        "id":  "612630030405",
-        "number":  "612630030405",
-        "productNumber":  "612630030405",
-        "partNumber":  "612630030405",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "id":  "HT4347",
+        "number":  "HT4347",
+        "productNumber":  "HT4347",
+        "partNumber":  "HT4347",
+        "name":  "Air Compressor Head",
+        "productName":  "Air Compressor Head",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "HEAD-HT",
+        "description":  "HT 4347 AIR COMP HEAD WP12.420",
+        "visibleDescription":  "HT 4347 AIR COMP HEAD WP12.420 HUATAI HUATAI\u0027 GENUINE PARTS 612630030405-HEAD-HT HT 4347 AIR COMP HEAD WP12.420 SHACMAN",
+        "longDescription":  "HT 4347 AIR COMP HEAD WP12.420 HUATAI HUATAI\u0027 GENUINE PARTS 612630030405-HEAD-HT HT 4347 AIR COMP HEAD WP12.420 SHACMAN",
         "application":  "SHACMAN, WP12",
         "brand":  "Huatai",
         "vehicleModel":  "SHACMAN",
         "engineModel":  "WP12",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/612630030405.jpeg",
+        "alternateNumbers":  [
+                                 "612630030405-HEAD-HT"
+                             ],
+        "alternatePartNumbers":  [
+                                     "612630030405-HEAD-HT"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/HT4347.jpeg",
         "specifications":  {
 
                            },
@@ -5238,19 +5775,21 @@ window.NAE_IMPORTED_PRODUCTS = [
         "specification":  "",
         "keywords":  [
                          "WP12",
-                         "SHACMAN"
+                         "SHACMAN",
+                         "Air Compressor Head",
+                         "AIR COMPRESSOR"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "612630030405 Manual review required Huatai other HEAD-HT SHACMAN, WP12 SHACMAN WP12 OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI HUATAI\u0027 GENUINE PARTS 612630030405-HEAD-HT HT 4347 AIR COMP HEAD WP12.420 SHACMAN",
-        "confidence":  46,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "HT4347 Air Compressor Head Huatai engine-parts HT 4347 AIR COMP HEAD WP12.420 HT 4347 AIR COMP HEAD WP12.420 HUATAI HUATAI\u0027 GENUINE PARTS 612630030405-HEAD-HT HT 4347 AIR COMP HEAD WP12.420 SHACMAN SHACMAN, WP12 SHACMAN WP12 Ready stock AIR COMPRESSOR 612630030405-HEAD-HT Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI HUATAI\u0027 GENUINE PARTS 612630030405-HEAD-HT HT 4347 AIR COMP HEAD WP12.420 SHACMAN",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.21.53 PM.jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.53 PM.jpeg",
                        "hash":  "d67eb24dabfe441b09f7141cba7c6540368dad71ba2d6405f732c389808a6f13",
                        "ocrText":  "HUATAI HUATAI\u0027 GENUINE PARTS 612630030405-HEAD-HT HT 4347 AIR COMP HEAD WP12.420 SHACMAN",
-                       "importedAt":  "2026-07-22T00:01:55"
+                       "importedAt":  "2026-07-22T22:55:23"
                    }
     },
     {
@@ -5263,13 +5802,23 @@ window.NAE_IMPORTED_PRODUCTS = [
         "category":  "cooling-system",
         "subcategory":  "",
         "description":  "/ 6150060229",
+        "visibleDescription":  "615600060050-HT / 6150060229 615600060050-HT / 6150060229 HT1875 W/PUMP ASSY B BELT 4 BELT AUMA",
+        "longDescription":  "615600060050-HT / 6150060229 615600060050-HT / 6150060229 HT1875 W/PUMP ASSY B BELT 4 BELT AUMA",
         "application":  "",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "HT1875",
+                                 "6150060229"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1875",
+                                     "6150060229"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/615600060050-HT.jpeg",
+        "image":  "assets/img/products/615600060050-HT-604C858A55A1.jpeg",
         "specifications":  {
 
                            },
@@ -5283,7 +5832,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "615600060050-HT Water Pump Assembly Huatai cooling-system / 6150060229 Ready stock WATER PUMP Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 615600060050-HT / 6150060229 HT1875 W/PUMP ASSY B BELT 4 BELT AUMA",
+        "searchableText":  "615600060050-HT Water Pump Assembly Huatai cooling-system / 6150060229 615600060050-HT / 6150060229 615600060050-HT / 6150060229 HT1875 W/PUMP ASSY B BELT 4 BELT AUMA Ready stock WATER PUMP HT1875 6150060229 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 615600060050-HT / 6150060229 HT1875 W/PUMP ASSY B BELT 4 BELT AUMA",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -5291,7 +5840,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.53 PM (1).jpeg",
                        "hash":  "604c858a55a12ff370491e68f2c7c6112fbb6be80fae2c44e028fe6c94517b89",
                        "ocrText":  "615600060050-HT / 6150060229 HT1875 W/PUMP ASSY B BELT 4 BELT AUMA",
-                       "importedAt":  "2026-07-22T00:01:55"
+                       "importedAt":  "2026-07-22T22:55:23"
                    }
     },
     {
@@ -5299,18 +5848,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "WG-971-923-0023-HT",
         "productNumber":  "WG-971-923-0023-HT",
         "partNumber":  "WG-971-923-0023-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Piston",
+        "productName":  "Piston",
+        "category":  "engine-parts",
         "subcategory":  "",
         "description":  "WG-971 923 0023-HT",
+        "visibleDescription":  "WG-971 923 0023-HT M14 137MM 30MM HUATAI\u0027 GENUINE PARTS 60MM 28MM 37MM WG-971 923 0023-HT HT5598 TOP PUMP ASSY HOWO WITH BRAKE TANK PISTON 27M",
+        "longDescription":  "WG-971 923 0023-HT M14 137MM 30MM HUATAI\u0027 GENUINE PARTS 60MM 28MM 37MM WG-971 923 0023-HT HT5598 TOP PUMP ASSY HOWO WITH BRAKE TANK PISTON 27M",
         "application":  "HOWO",
         "brand":  "Huatai",
         "vehicleModel":  "HOWO",
         "engineModel":  "",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/WG-971-923-0023-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT5598"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT5598"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/WG-971-923-0023-HT-68C1AC98DF8F.jpeg",
         "specifications":  {
 
                            },
@@ -5319,11 +5876,12 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-                         "HOWO"
+                         "HOWO",
+                         "Piston"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "WG-971-923-0023-HT Manual review required Huatai other WG-971 923 0023-HT HOWO OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False M14 137MM 30MM HUATAI\u0027 GENUINE PARTS 60MM 28MM 37MM WG-971 923 0023-HT HT5598 TOP PUMP ASSY HOWO WITH BRAKE TANK PISTON 27M",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "WG-971-923-0023-HT Piston Huatai engine-parts WG-971 923 0023-HT WG-971 923 0023-HT M14 137MM 30MM HUATAI\u0027 GENUINE PARTS 60MM 28MM 37MM WG-971 923 0023-HT HT5598 TOP PUMP ASSY HOWO WITH BRAKE TANK PISTON 27M HOWO Ready stock HT5598 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False M14 137MM 30MM HUATAI\u0027 GENUINE PARTS 60MM 28MM 37MM WG-971 923 0023-HT HT5598 TOP PUMP ASSY HOWO WITH BRAKE TANK PISTON 27M",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -5331,7 +5889,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.53 PM (2).jpeg",
                        "hash":  "68c1ac98df8f08840aea47556ac8c0ce1dd67d31a30d842174ab1a00dddecd3d",
                        "ocrText":  "M14 137MM 30MM HUATAI\u0027 GENUINE PARTS 60MM 28MM 37MM WG-971 923 0023-HT HT5598 TOP PUMP ASSY HOWO WITH BRAKE TANK PISTON 27M",
-                       "importedAt":  "2026-07-22T00:01:55"
+                       "importedAt":  "2026-07-22T22:55:23"
                    }
     },
     {
@@ -5339,18 +5897,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "VG-156-003-7011-HT",
         "productNumber":  "VG-156-003-7011-HT",
         "partNumber":  "VG-156-003-7011-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Piston",
+        "productName":  "Piston",
+        "category":  "engine-parts",
         "subcategory":  "",
         "description":  "VG-156 003 7011-HT",
+        "visibleDescription":  "VG-156 003 7011-HT HUATAI MADE IN CHINA 612600030011/VGI 560037011 PISTON WEICHAI/SINOTRUK WD615 6 PCS 13.6KG H T 1415H 1124 123 E2-3A. 612600020011 LLG2 24 09 MAOE \u0027N CHINA ISTON 126 VG-156 003 7011-HT HT1415 PISTON 126M 3R WD615.47 OIL GALLERY COMP 75 HI 123M E 976046225131",
+        "longDescription":  "VG-156 003 7011-HT HUATAI MADE IN CHINA 612600030011/VGI 560037011 PISTON WEICHAI/SINOTRUK WD615 6 PCS 13.6KG H T 1415H 1124 123 E2-3A. 612600020011 LLG2 24 09 MAOE \u0027N CHINA ISTON 126 VG-156 003 7011-HT HT1415 PISTON 126M 3R WD615.47 OIL GALLERY COMP 75 HI 123M E 976046225131",
         "application":  "HOWO, WD615",
         "brand":  "Huatai",
         "vehicleModel":  "HOWO",
         "engineModel":  "WD615",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/VG-156-003-7011-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT1415"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1415"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/VG-156-003-7011-HT-3F538CA0388F.jpeg",
         "specifications":  {
                                "HI":  [
                                           "123"
@@ -5363,38 +5929,47 @@ window.NAE_IMPORTED_PRODUCTS = [
         "keywords":  [
                          "WD615",
                          "HOWO",
-                         "HI 123"
+                         "HI 123",
+                         "Piston"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "VG-156-003-7011-HT Manual review required Huatai other VG-156 003 7011-HT HOWO, WD615 HOWO WD615 HI 123 OCR result needs manual review before import. Count 1 IsReadOnly False Keys HI Values 123 IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI MADE IN CHINA 612600030011/VGI 560037011 PISTON WEICHAI/SINOTRUK WD615 6 PCS 13.6KG H T 1415H 1124 123 E2-3A. 612600020011 LLG2 24 09 MAOE \u0027N CHINA ISTON 126 VG-156 003 7011-HT HT1415 PISTON 126M 3R WD615.47 OIL GALLERY COMP 75 HI 123M E 976046225131",
-        "confidence":  92,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "VG-156-003-7011-HT Piston Huatai engine-parts VG-156 003 7011-HT VG-156 003 7011-HT HUATAI MADE IN CHINA 612600030011/VGI 560037011 PISTON WEICHAI/SINOTRUK WD615 6 PCS 13.6KG H T 1415H 1124 123 E2-3A. 612600020011 LLG2 24 09 MAOE \u0027N CHINA ISTON 126 VG-156 003 7011-HT HT1415 PISTON 126M 3R WD615.47 OIL GALLERY COMP 75 HI 123M E 976046225131 HOWO, WD615 HOWO WD615 HI 123 Ready stock HT1415 Count 1 IsReadOnly False Keys HI Values 123 IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI MADE IN CHINA 612600030011/VGI 560037011 PISTON WEICHAI/SINOTRUK WD615 6 PCS 13.6KG H T 1415H 1124 123 E2-3A. 612600020011 LLG2 24 09 MAOE \u0027N CHINA ISTON 126 VG-156 003 7011-HT HT1415 PISTON 126M 3R WD615.47 OIL GALLERY COMP 75 HI 123M E 976046225131",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.21.54 PM (3).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.54 PM (3).jpeg",
                        "hash":  "3f538ca0388f7dc390efcca83fd7f227563047e675d3ea2d800078efc96f9d09",
                        "ocrText":  "HUATAI MADE IN CHINA 612600030011/VGI 560037011 PISTON WEICHAI/SINOTRUK WD615 6 PCS 13.6KG H T 1415H 1124 123 E2-3A. 612600020011 LLG2 24 09 MAOE \u0027N CHINA ISTON 126 VG-156 003 7011-HT HT1415 PISTON 126M 3R WD615.47 OIL GALLERY COMP 75 HI 123M E 976046225131",
-                       "importedAt":  "2026-07-22T00:01:56"
+                       "importedAt":  "2026-07-22T22:55:23"
                    }
     },
     {
-        "id":  "REVIEW-B0A49A2C66E2",
-        "number":  "",
-        "productNumber":  "",
-        "partNumber":  "",
+        "id":  "57X144-HT",
+        "number":  "57X144-HT",
+        "productNumber":  "57X144-HT",
+        "partNumber":  "57X144-HT",
         "name":  "Coupling",
         "productName":  "Coupling",
-        "category":  "other",
+        "category":  "transmission-parts",
         "subcategory":  "",
-        "description":  "144 57 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 57X144-HT HT5410H COUPLING OUTER CLIP",
+        "description":  "Coupling",
+        "visibleDescription":  "57X144-HT 144 57 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 57X144-HT HT5410H COUPLING OUTER CLIP",
+        "longDescription":  "57X144-HT 144 57 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 57X144-HT HT5410H COUPLING OUTER CLIP",
         "application":  "",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/REVIEW-B0A49A2C66E2.jpeg",
+        "alternateNumbers":  [
+                                 "HT5410H"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT5410H"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/57X144-HT.jpeg",
         "specifications":  {
 
                            },
@@ -5403,38 +5978,47 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-                         "Coupling"
+                         "Coupling",
+                         "COUPLING"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "No reliable product number candidate found.",
-        "searchableText":  "REVIEW-B0A49A2C66E2 Coupling Huatai other 144 57 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 57X144-HT HT5410H COUPLING OUTER CLIP Manual review required No reliable product number candidate found. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False",
-        "confidence":  0,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "57X144-HT Coupling Huatai transmission-parts 57X144-HT 144 57 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 57X144-HT HT5410H COUPLING OUTER CLIP Ready stock COUPLING HT5410H Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 144 57 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 57X144-HT HT5410H COUPLING OUTER CLIP",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.21.55 PM.jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.55 PM.jpeg",
                        "hash":  "b0a49a2c66e2276dd16fa2b72edc3c32a5d8557d11fedb14f30db6299ef1b8e9",
                        "ocrText":  "144 57 HUATAI\u0027 UNIVERSAL JOINT KPECTOBVIHA 57X144-HT HT5410H COUPLING OUTER CLIP",
-                       "importedAt":  "2026-07-22T00:01:56"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
-        "id":  "VG-150-004-0049-HT",
-        "number":  "VG-150-004-0049-HT",
-        "productNumber":  "VG-150-004-0049-HT",
-        "partNumber":  "VG-150-004-0049-HT",
-        "name":  "Cylinder Head Assembly",
-        "productName":  "Cylinder Head Assembly",
+        "id":  "HT1777",
+        "number":  "HT1777",
+        "productNumber":  "HT1777",
+        "partNumber":  "HT1777",
+        "name":  "Engine Overhaul Gasket Set",
+        "productName":  "Engine Overhaul Gasket Set",
         "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "VG-150 004 0049-HT",
+        "description":  "HEAD GASKET WD615",
+        "visibleDescription":  "HT1777 HEAD GASKET WD615 HUATAI0 CYLINDER HEAD GASKET NPOKF1AAKA RSU HUATAI MADE IN CHINA VGI 500040049 CYLINDER HEAD GASKET 6 PCS SINOTRUK WD615 HTI 777H 6 976046 224 E 68 VG-150 004 0049-HT HT1777 HEAD GASKET WD615 BLACK ( NO O-RING ) 4 LAYER",
+        "longDescription":  "HT1777 HEAD GASKET WD615 HUATAI0 CYLINDER HEAD GASKET NPOKF1AAKA RSU HUATAI MADE IN CHINA VGI 500040049 CYLINDER HEAD GASKET 6 PCS SINOTRUK WD615 HTI 777H 6 976046 224 E 68 VG-150 004 0049-HT HT1777 HEAD GASKET WD615 BLACK ( NO O-RING ) 4 LAYER",
         "application":  "HOWO, WD615",
         "brand":  "Huatai",
         "vehicleModel":  "HOWO",
         "engineModel":  "WD615",
-        "oeNumber":  "O-RING",
+        "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "VG-150-004-0049-HT"
+                             ],
+        "alternatePartNumbers":  [
+                                     "VG-150-004-0049-HT"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/VG-150-004-0049-HT.jpeg",
+        "image":  "assets/img/products/HT1777.jpeg",
         "specifications":  {
 
                            },
@@ -5445,21 +6029,20 @@ window.NAE_IMPORTED_PRODUCTS = [
         "keywords":  [
                          "WD615",
                          "HOWO",
-                         "O-RING",
-                         "Cylinder Head Assembly",
-                         "CYLINDER HEAD"
+                         "Engine Overhaul Gasket Set",
+                         "GASKET SET"
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "VG-150-004-0049-HT Cylinder Head Assembly Huatai engine-parts VG-150 004 0049-HT HOWO, WD615 HOWO WD615 O-RING Ready stock CYLINDER HEAD Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI0 CYLINDER HEAD GASKET NPOKF1AAKA RSU HUATAI MADE IN CHINA VGI 500040049 CYLINDER HEAD GASKET 6 PCS SINOTRUK WD615 HTI 777H 6 976046 224 E 68 VG-150 004 0049-HT HT1777 HEAD GASKET WD615 BLACK ( NO O-RING ) 4 LAYER",
-        "confidence":  92,
+        "searchableText":  "HT1777 Engine Overhaul Gasket Set Huatai engine-parts HEAD GASKET WD615 HT1777 HEAD GASKET WD615 HUATAI0 CYLINDER HEAD GASKET NPOKF1AAKA RSU HUATAI MADE IN CHINA VGI 500040049 CYLINDER HEAD GASKET 6 PCS SINOTRUK WD615 HTI 777H 6 976046 224 E 68 VG-150 004 0049-HT HT1777 HEAD GASKET WD615 BLACK ( NO O-RING ) 4 LAYER HOWO, WD615 HOWO WD615 Ready stock GASKET SET VG-150-004-0049-HT Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI0 CYLINDER HEAD GASKET NPOKF1AAKA RSU HUATAI MADE IN CHINA VGI 500040049 CYLINDER HEAD GASKET 6 PCS SINOTRUK WD615 HTI 777H 6 976046 224 E 68 VG-150 004 0049-HT HT1777 HEAD GASKET WD615 BLACK ( NO O-RING ) 4 LAYER",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.21.56 PM (1).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.56 PM (1).jpeg",
                        "hash":  "2fdb0b8f857a04efe8457f401f3c2514669851a65312f2f35611232e187f1fad",
                        "ocrText":  "HUATAI0 CYLINDER HEAD GASKET NPOKF1AAKA RSU HUATAI MADE IN CHINA VGI 500040049 CYLINDER HEAD GASKET 6 PCS SINOTRUK WD615 HTI 777H 6 976046 224 E 68 VG-150 004 0049-HT HT1777 HEAD GASKET WD615 BLACK ( NO O-RING ) 4 LAYER",
-                       "importedAt":  "2026-07-22T00:01:56"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
@@ -5467,18 +6050,28 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "VG-154-008-0110-HT",
         "productNumber":  "VG-154-008-0110-HT",
         "partNumber":  "VG-154-008-0110-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Fuel Filter",
+        "productName":  "Fuel Filter",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
+        "description":  "FUEL FILTER",
+        "visibleDescription":  "FUEL FILTER HUATAI FILTER OWISTP HUATAL PRODUCT WEIGHT 900G HUATAI CHINA AULO PANS VG1540080110 FUEL FILTER MADE IN CHINA SINOTRUK WD615 EURO CX1020/WDK999 I 11 1 1 1 1 ILL 11 11 11 1 11 1 1 1 HT2389 6 S 76955 297205 VG-154 008 OLIO-HT HT2389 FUEL FILTER",
+        "longDescription":  "FUEL FILTER HUATAI FILTER OWISTP HUATAL PRODUCT WEIGHT 900G HUATAI CHINA AULO PANS VG1540080110 FUEL FILTER MADE IN CHINA SINOTRUK WD615 EURO CX1020/WDK999 I 11 1 1 1 1 ILL 11 11 11 1 11 1 1 1 HT2389 6 S 76955 297205 VG-154 008 OLIO-HT HT2389 FUEL FILTER",
         "application":  "HOWO, WD615",
         "brand":  "Huatai",
         "vehicleModel":  "HOWO",
         "engineModel":  "WD615",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/VG-154-008-0110-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT2389",
+                                 "VG-154-008-OLIO"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2389",
+                                     "VG-154-008-OLIO"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/VG-154-008-0110-HT-F2B9D1CE876F.jpeg",
         "specifications":  {
 
                            },
@@ -5488,38 +6081,52 @@ window.NAE_IMPORTED_PRODUCTS = [
         "specification":  "",
         "keywords":  [
                          "WD615",
-                         "HOWO"
+                         "HOWO",
+                         "Fuel Filter",
+                         "FUEL FILTER"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "VG-154-008-0110-HT Manual review required Huatai other Needs manual review HOWO, WD615 HOWO WD615 OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI FILTER OWISTP HUATAL PRODUCT WEIGHT 900G HUATAI CHINA AULO PANS VG1540080110 FUEL FILTER MADE IN CHINA SINOTRUK WD615 EURO CX1020/WDK999 I | 11 1 1 1 1 ILL 11 11 11 1 11 1 1 1 HT2389 6 S 76955 297205 VG-154 008 OLIO-HT HT2389 FUEL FILTER",
-        "confidence":  98,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "VG-154-008-0110-HT Fuel Filter Huatai engine-parts FUEL FILTER FUEL FILTER HUATAI FILTER OWISTP HUATAL PRODUCT WEIGHT 900G HUATAI CHINA AULO PANS VG1540080110 FUEL FILTER MADE IN CHINA SINOTRUK WD615 EURO CX1020/WDK999 I 11 1 1 1 1 ILL 11 11 11 1 11 1 1 1 HT2389 6 S 76955 297205 VG-154 008 OLIO-HT HT2389 FUEL FILTER HOWO, WD615 HOWO WD615 Ready stock HT2389 VG-154-008-OLIO Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI FILTER OWISTP HUATAL PRODUCT WEIGHT 900G HUATAI CHINA AULO PANS VG1540080110 FUEL FILTER MADE IN CHINA SINOTRUK WD615 EURO CX1020/WDK999 I | 11 1 1 1 1 ILL 11 11 11 1 11 1 1 1 HT2389 6 S 76955 297205 VG-154 008 OLIO-HT HT2389 FUEL FILTER",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.21.55 PM (2).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.55 PM (2).jpeg",
                        "hash":  "f2b9d1ce876fdaeb7f4acfb4559ff31053663f8cd615ea4e51c4f99d4ae03d2b",
                        "ocrText":  "HUATAI FILTER OWISTP HUATAL PRODUCT WEIGHT 900G HUATAI CHINA AULO PANS VG1540080110 FUEL FILTER MADE IN CHINA SINOTRUK WD615 EURO CX1020/WDK999 I | 11 1 1 1 1 ILL 11 11 11 1 11 1 1 1 HT2389 6 S 76955 297205 VG-154 008 OLIO-HT HT2389 FUEL FILTER",
-                       "importedAt":  "2026-07-22T00:01:56"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
-        "id":  "614050048-HT",
-        "number":  "614050048-HT",
-        "productNumber":  "614050048-HT",
-        "partNumber":  "614050048-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "id":  "VG-14050048-HT",
+        "number":  "VG-14050048-HT",
+        "productNumber":  "VG-14050048-HT",
+        "partNumber":  "VG-14050048-HT",
+        "name":  "Intake Valve Rocker Arm",
+        "productName":  "Intake Valve Rocker Arm",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
+        "description":  "Intake Valve Rocker Arm",
+        "visibleDescription":  "VG-14050048-HT 117 24 MIO HUATAI\u0027 GENUINE PARTS VG-14050048-HT HT2632 VALVE ROCKER ARM INTAKE WD615.47 \u0026 XCMG 5470 ( 614050048 )",
+        "longDescription":  "VG-14050048-HT 117 24 MIO HUATAI\u0027 GENUINE PARTS VG-14050048-HT HT2632 VALVE ROCKER ARM INTAKE WD615.47 \u0026 XCMG 5470 ( 614050048 )",
         "application":  "HANVAN, WD615",
         "brand":  "Huatai",
         "vehicleModel":  "HANVAN",
         "engineModel":  "WD615",
-        "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/614050048-HT.jpeg",
+        "oeNumber":  "614050048",
+        "alternateNumbers":  [
+                                 "HT2632",
+                                 "614050048-HT",
+                                 "614050048"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2632",
+                                     "614050048-HT",
+                                     "614050048"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/VG-14050048-HT.jpeg",
         "specifications":  {
 
                            },
@@ -5529,19 +6136,22 @@ window.NAE_IMPORTED_PRODUCTS = [
         "specification":  "",
         "keywords":  [
                          "WD615",
-                         "HANVAN"
+                         "HANVAN",
+                         "614050048",
+                         "Intake Valve Rocker Arm",
+                         "VALVE"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "614050048-HT Manual review required Huatai other Needs manual review HANVAN, WD615 HANVAN WD615 OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 117 24 MIO HUATAI\u0027 GENUINE PARTS VG-14050048-HT HT2632 VALVE ROCKER ARM INTAKE WD615.47 \u0026 XCMG 5470 ( 614050048 )",
-        "confidence":  86,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "VG-14050048-HT Intake Valve Rocker Arm Huatai engine-parts VG-14050048-HT 117 24 MIO HUATAI\u0027 GENUINE PARTS VG-14050048-HT HT2632 VALVE ROCKER ARM INTAKE WD615.47 \u0026 XCMG 5470 ( 614050048 ) HANVAN, WD615 HANVAN WD615 614050048 Ready stock VALVE HT2632 614050048-HT Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 117 24 MIO HUATAI\u0027 GENUINE PARTS VG-14050048-HT HT2632 VALVE ROCKER ARM INTAKE WD615.47 \u0026 XCMG 5470 ( 614050048 )",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.21.54 PM.jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.54 PM.jpeg",
                        "hash":  "afee9445181b27f46cc7561fbfc1829b3c5c5645a6fb9fd8947ed93874de5aac",
                        "ocrText":  "117 24 MIO HUATAI\u0027 GENUINE PARTS VG-14050048-HT HT2632 VALVE ROCKER ARM INTAKE WD615.47 \u0026 XCMG 5470 ( 614050048 )",
-                       "importedAt":  "2026-07-22T00:01:56"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
@@ -5554,13 +6164,21 @@ window.NAE_IMPORTED_PRODUCTS = [
         "category":  "engine-parts",
         "subcategory":  "",
         "description":  "WG-156 005 0041-HT",
+        "visibleDescription":  "WG-156 005 0041-HT 11 50 159.5 WG-156 005 0041-HT HT2110 EX VALVE WD615.47 OD 50 STEM 11 L 159.5 WD12",
+        "longDescription":  "WG-156 005 0041-HT 11 50 159.5 WG-156 005 0041-HT HT2110 EX VALVE WD615.47 OD 50 STEM 11 L 159.5 WD12",
         "application":  "WD615, WD12",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD615, WD12",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "HT2110"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2110"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/WG-156-005-0041-HT.jpeg",
+        "image":  "assets/img/products/WG-156-005-0041-HT-EF59FD4BE87C.jpeg",
         "specifications":  {
                                "OD":  [
                                           "50"
@@ -5579,15 +6197,15 @@ window.NAE_IMPORTED_PRODUCTS = [
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "WG-156-005-0041-HT Exhaust Valve Huatai engine-parts WG-156 005 0041-HT WD615, WD12 OD 50 Ready stock WD615 WD12 VALVE Count 1 IsReadOnly False Keys OD Values 50 IsFixedSize False SyncRoot System.Object IsSynchronized False 11 50 159.5 WG-156 005 0041-HT HT2110 EX VALVE WD615.47 OD 50 STEM 11 L 159.5 WD12",
-        "confidence":  92,
+        "searchableText":  "WG-156-005-0041-HT Exhaust Valve Huatai engine-parts WG-156 005 0041-HT WG-156 005 0041-HT 11 50 159.5 WG-156 005 0041-HT HT2110 EX VALVE WD615.47 OD 50 STEM 11 L 159.5 WD12 WD615, WD12 OD 50 Ready stock WD615 WD12 VALVE HT2110 Count 1 IsReadOnly False Keys OD Values 50 IsFixedSize False SyncRoot System.Object IsSynchronized False 11 50 159.5 WG-156 005 0041-HT HT2110 EX VALVE WD615.47 OD 50 STEM 11 L 159.5 WD12",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.21.55 PM (1).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.55 PM (1).jpeg",
                        "hash":  "ef59fd4be87c21179292afd8c48d161d3094d56a097ea35cb83061a3431d1eb5",
                        "ocrText":  "11 50 159.5 WG-156 005 0041-HT HT2110 EX VALVE WD615.47 OD 50 STEM 11 L 159.5 WD12",
-                       "importedAt":  "2026-07-22T00:01:56"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
@@ -5600,13 +6218,21 @@ window.NAE_IMPORTED_PRODUCTS = [
         "category":  "engine-parts",
         "subcategory":  "",
         "description":  "Cylinder Head Assembly",
+        "visibleDescription":  "61260040282-HT HUATAI\u0027 CYLINDER 612600040282 RONOGGA CYLINDER HEAD WEICHAI WD615 EURO 11 EVE 61260040282-HT HT2202 CYL HEAD WD618 WD12.375 HUATAI MADE IN CHINA 17KG HT2202H \u0027025 6 976046 2236 0 \u0027",
+        "longDescription":  "61260040282-HT HUATAI\u0027 CYLINDER 612600040282 RONOGGA CYLINDER HEAD WEICHAI WD615 EURO 11 EVE 61260040282-HT HT2202 CYL HEAD WD618 WD12.375 HUATAI MADE IN CHINA 17KG HT2202H \u0027025 6 976046 2236 0 \u0027",
         "application":  "WD615, WD618, WD12",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD615, WD618, WD12",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "HT2202H"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2202H"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/61260040282-HT.jpeg",
+        "image":  "assets/img/products/61260040282-HT-75B4968BB0D2.jpeg",
         "specifications":  {
 
                            },
@@ -5623,7 +6249,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "61260040282-HT Cylinder Head Assembly Huatai engine-parts WD615, WD618, WD12 Ready stock WD615 WD618 WD12 CYLINDER HEAD Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI\u0027 CYLINDER 612600040282 RONOGGA CYLINDER HEAD WEICHAI WD615 EURO 11 EVE 61260040282-HT HT2202 CYL HEAD WD618 WD12.375 HUATAI MADE IN CHINA 17KG HT2202H \u0027025 6 976046 2236 0 \u0027",
+        "searchableText":  "61260040282-HT Cylinder Head Assembly Huatai engine-parts 61260040282-HT HUATAI\u0027 CYLINDER 612600040282 RONOGGA CYLINDER HEAD WEICHAI WD615 EURO 11 EVE 61260040282-HT HT2202 CYL HEAD WD618 WD12.375 HUATAI MADE IN CHINA 17KG HT2202H \u0027025 6 976046 2236 0 \u0027 WD615, WD618, WD12 Ready stock WD615 WD618 WD12 CYLINDER HEAD HT2202H Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI\u0027 CYLINDER 612600040282 RONOGGA CYLINDER HEAD WEICHAI WD615 EURO 11 EVE 61260040282-HT HT2202 CYL HEAD WD618 WD12.375 HUATAI MADE IN CHINA 17KG HT2202H \u0027025 6 976046 2236 0 \u0027",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -5631,7 +6257,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.52 PM.jpeg",
                        "hash":  "75b4968bb0d29c658b481f1498dd7f2583649b7e7c02ffde2593f0ea96070cf7",
                        "ocrText":  "HUATAI\u0027 CYLINDER 612600040282 RONOGGA CYLINDER HEAD WEICHAI WD615 EURO 11 EVE 61260040282-HT HT2202 CYL HEAD WD618 WD12.375 HUATAI MADE IN CHINA 17KG HT2202H \u0027025 6 976046 2236 0 \u0027",
-                       "importedAt":  "2026-07-22T00:01:55"
+                       "importedAt":  "2026-07-22T22:55:23"
                    }
     },
     {
@@ -5644,13 +6270,21 @@ window.NAE_IMPORTED_PRODUCTS = [
         "category":  "electrical-system",
         "subcategory":  "",
         "description":  "Starter Motor",
+        "visibleDescription":  "612600091077-HT STARTER CTAPTEP 612600091077-HT HT3443 STARTER 11T WP12 SHACMAN HANVAN",
+        "longDescription":  "612600091077-HT STARTER CTAPTEP 612600091077-HT HT3443 STARTER 11T WP12 SHACMAN HANVAN",
         "application":  "SHACMAN, HANVAN, WP12",
         "brand":  "Huatai",
         "vehicleModel":  "SHACMAN, HANVAN",
         "engineModel":  "WP12",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "HT3443"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT3443"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/612600091077-HT.jpeg",
+        "image":  "assets/img/products/612600091077-HT-C7D7A1B271C2.jpeg",
         "specifications":  {
                                "Teeth":  [
                                              "11T"
@@ -5669,7 +6303,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "612600091077-HT Starter Motor Huatai electrical-system SHACMAN, HANVAN, WP12 SHACMAN, HANVAN WP12 Teeth 11T Ready stock SHACMAN HANVAN Count 1 IsReadOnly False Keys Teeth Values 11T IsFixedSize False SyncRoot System.Object IsSynchronized False STARTER CTAPTEP 612600091077-HT HT3443 STARTER 11T WP12 SHACMAN HANVAN",
+        "searchableText":  "612600091077-HT Starter Motor Huatai electrical-system 612600091077-HT STARTER CTAPTEP 612600091077-HT HT3443 STARTER 11T WP12 SHACMAN HANVAN SHACMAN, HANVAN, WP12 SHACMAN, HANVAN WP12 Teeth 11T Ready stock SHACMAN HANVAN HT3443 Count 1 IsReadOnly False Keys Teeth Values 11T IsFixedSize False SyncRoot System.Object IsSynchronized False STARTER CTAPTEP 612600091077-HT HT3443 STARTER 11T WP12 SHACMAN HANVAN",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -5677,7 +6311,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.49 PM (1).jpeg",
                        "hash":  "c7d7a1b271c201184b06569a24b1a06c57968da41dbf51e8edbfdacf622d1294",
                        "ocrText":  "STARTER CTAPTEP 612600091077-HT HT3443 STARTER 11T WP12 SHACMAN HANVAN",
-                       "importedAt":  "2026-07-22T00:01:54"
+                       "importedAt":  "2026-07-22T22:55:23"
                    }
     },
     {
@@ -5685,18 +6319,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "VG-124-606-0002-HT",
         "productNumber":  "VG-124-606-0002-HT",
         "partNumber":  "VG-124-606-0002-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Belt Tensioner",
+        "productName":  "Belt Tensioner",
+        "category":  "engine-parts",
         "subcategory":  "",
         "description":  "VG-124 606 0002-HT",
+        "visibleDescription":  "VG-124 606 0002-HT HI 39 OD 70 HUATAI\u0027 GENUINE PARTS U, S. ASIA ECONOWC TRADE COOPERATION CC•AULTIEE US NJP-.ENA:.-GYX VG-124 606 0002-HT HT2265 BELT TENSIONE USE IOPK BELT",
+        "longDescription":  "VG-124 606 0002-HT HI 39 OD 70 HUATAI\u0027 GENUINE PARTS U, S. ASIA ECONOWC TRADE COOPERATION CC•AULTIEE US NJP-.ENA:.-GYX VG-124 606 0002-HT HT2265 BELT TENSIONE USE IOPK BELT",
         "application":  "",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/VG-124-606-0002-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT2265"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2265"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/VG-124-606-0002-HT-EE2C58A7945F.jpeg",
         "specifications":  {
                                "OD":  [
                                           "70"
@@ -5712,11 +6354,13 @@ window.NAE_IMPORTED_PRODUCTS = [
         "specification":  "OD 70; HI 39",
         "keywords":  [
                          "OD 70",
-                         "HI 39"
+                         "HI 39",
+                         "Belt Tensioner",
+                         "BELT TENSIONER"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "VG-124-606-0002-HT Manual review required Huatai other VG-124 606 0002-HT OD 70; HI 39 OCR result needs manual review before import. OD 70 HI 39 Count 2 IsReadOnly False Keys OD Keys HI Values 70 Values 39 IsFixedSize False SyncRoot System.Object IsSynchronized False HI 39 OD 70 HUATAI\u0027 GENUINE PARTS U, S. ASIA ECONOWC TRADE COOPERATION CC•AULTIEE US NJP-.ENA:.-GYX VG-124 606 0002-HT HT2265 BELT TENSIONE USE IOPK BELT",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "VG-124-606-0002-HT Belt Tensioner Huatai engine-parts VG-124 606 0002-HT VG-124 606 0002-HT HI 39 OD 70 HUATAI\u0027 GENUINE PARTS U, S. ASIA ECONOWC TRADE COOPERATION CC•AULTIEE US NJP-.ENA:.-GYX VG-124 606 0002-HT HT2265 BELT TENSIONE USE IOPK BELT OD 70; HI 39 Ready stock OD 70 HI 39 BELT TENSIONER HT2265 Count 2 IsReadOnly False Keys OD Keys HI Values 70 Values 39 IsFixedSize False SyncRoot System.Object IsSynchronized False HI 39 OD 70 HUATAI\u0027 GENUINE PARTS U, S. ASIA ECONOWC TRADE COOPERATION CC•AULTIEE US NJP-.ENA:.-GYX VG-124 606 0002-HT HT2265 BELT TENSIONE USE IOPK BELT",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -5724,7 +6368,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.49 PM.jpeg",
                        "hash":  "ee2c58a7945f14cdb9f45dbef31e89f685d2122fe0b4824be5ffe922fa170979",
                        "ocrText":  "HI 39 OD 70 HUATAI\u0027 GENUINE PARTS U, S. ASIA ECONOWC TRADE COOPERATION CC•AULTIEE US NJP-.ENA:.-GYX VG-124 606 0002-HT HT2265 BELT TENSIONE USE IOPK BELT",
-                       "importedAt":  "2026-07-22T00:01:54"
+                       "importedAt":  "2026-07-22T22:55:23"
                    }
     },
     {
@@ -5737,13 +6381,23 @@ window.NAE_IMPORTED_PRODUCTS = [
         "category":  "electrical-system",
         "subcategory":  "",
         "description":  "Starter Motor",
+        "visibleDescription":  "3K M12 HUATAI\u0027 STARTER CTARTEP OD 41 IOT HUATAI VG1560090001 STARTER SINOTRUK WD615 QD22810 10.8KG HT1990H MADE IN CHINA I PC VG-156 009 OOOI-HT HT1990 STARTER 3H IOT HOWO",
+        "longDescription":  "3K M12 HUATAI\u0027 STARTER CTARTEP OD 41 IOT HUATAI VG1560090001 STARTER SINOTRUK WD615 QD22810 10.8KG HT1990H MADE IN CHINA I PC VG-156 009 OOOI-HT HT1990 STARTER 3H IOT HOWO",
         "application":  "HOWO, WD615",
         "brand":  "Huatai",
         "vehicleModel":  "HOWO",
         "engineModel":  "WD615",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "VG-156-009-OOOI",
+                                 "HT1990H"
+                             ],
+        "alternatePartNumbers":  [
+                                     "VG-156-009-OOOI",
+                                     "HT1990H"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/VG-156-009-0001-HT.jpeg",
+        "image":  "assets/img/products/VG-156-009-0001-HT-8BB0B6C2D4A9.jpeg",
         "specifications":  {
                                "OD":  [
                                           "41"
@@ -5761,15 +6415,15 @@ window.NAE_IMPORTED_PRODUCTS = [
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "VG-156-009-0001-HT Starter Motor Huatai electrical-system HOWO, WD615 HOWO WD615 OD 41 Ready stock Count 1 IsReadOnly False Keys OD Values 41 IsFixedSize False SyncRoot System.Object IsSynchronized False 3K M12 HUATAI\u0027 STARTER CTARTEP OD 41 IOT HUATAI VG1560090001 STARTER SINOTRUK WD615 QD22810 10.8KG HT1990H MADE IN CHINA I PC VG-156 009 OOOI-HT HT1990 STARTER 3H IOT HOWO",
-        "confidence":  98,
+        "searchableText":  "VG-156-009-0001-HT Starter Motor Huatai electrical-system 3K M12 HUATAI\u0027 STARTER CTARTEP OD 41 IOT HUATAI VG1560090001 STARTER SINOTRUK WD615 QD22810 10.8KG HT1990H MADE IN CHINA I PC VG-156 009 OOOI-HT HT1990 STARTER 3H IOT HOWO HOWO, WD615 HOWO WD615 OD 41 Ready stock VG-156-009-OOOI HT1990H Count 1 IsReadOnly False Keys OD Values 41 IsFixedSize False SyncRoot System.Object IsSynchronized False",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-16 at 5.48.30 PM.jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-16 at 5.48.30 PM.jpeg",
                        "hash":  "8bb0b6c2d4a930785e5ec188c5ca3ac22373ac2b53d7f5820f4d7760512a668d",
                        "ocrText":  "3K M12 HUATAI\u0027 STARTER CTARTEP OD 41 IOT HUATAI VG1560090001 STARTER SINOTRUK WD615 QD22810 10.8KG HT1990H MADE IN CHINA I PC VG-156 009 OOOI-HT HT1990 STARTER 3H IOT HOWO",
-                       "importedAt":  "2026-07-22T00:01:54"
+                       "importedAt":  "2026-07-22T22:55:23"
                    }
     },
     {
@@ -5782,13 +6436,21 @@ window.NAE_IMPORTED_PRODUCTS = [
         "category":  "engine-parts",
         "subcategory":  "",
         "description":  "Cylinder Head Assembly",
+        "visibleDescription":  "612630040001-HT HUATAI HUATAI\u0027 612630040001 CYLINDER HEAD CYLINDER HEAD WEICHAI WP12 AEVUM 17.5KG 612630040001-HT HT2205 CYL HEAD WP12 24V MADE IN CHINA 1 SET 81 UATAI",
+        "longDescription":  "612630040001-HT HUATAI HUATAI\u0027 612630040001 CYLINDER HEAD CYLINDER HEAD WEICHAI WP12 AEVUM 17.5KG 612630040001-HT HT2205 CYL HEAD WP12 24V MADE IN CHINA 1 SET 81 UATAI",
         "application":  "WP12",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WP12",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "HT2205"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2205"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/612630040001-HT.jpeg",
+        "image":  "assets/img/products/612630040001-HT-F8359A10F7A0.jpeg",
         "specifications":  {
 
                            },
@@ -5803,7 +6465,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "612630040001-HT Cylinder Head Assembly Huatai engine-parts WP12 Ready stock CYLINDER HEAD Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI HUATAI\u0027 612630040001 CYLINDER HEAD CYLINDER HEAD WEICHAI WP12 AEVUM 17.5KG 612630040001-HT HT2205 CYL HEAD WP12 24V MADE IN CHINA 1 SET 81 UATAI",
+        "searchableText":  "612630040001-HT Cylinder Head Assembly Huatai engine-parts 612630040001-HT HUATAI HUATAI\u0027 612630040001 CYLINDER HEAD CYLINDER HEAD WEICHAI WP12 AEVUM 17.5KG 612630040001-HT HT2205 CYL HEAD WP12 24V MADE IN CHINA 1 SET 81 UATAI WP12 Ready stock CYLINDER HEAD HT2205 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI HUATAI\u0027 612630040001 CYLINDER HEAD CYLINDER HEAD WEICHAI WP12 AEVUM 17.5KG 612630040001-HT HT2205 CYL HEAD WP12 24V MADE IN CHINA 1 SET 81 UATAI",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -5811,7 +6473,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-16 at 5.00.13 PM.jpeg",
                        "hash":  "f8359a10f7a0d8c247108fcd24294a0497803e69c2fbef4698f856970fc0c1ca",
                        "ocrText":  "HUATAI HUATAI\u0027 612630040001 CYLINDER HEAD CYLINDER HEAD WEICHAI WP12 AEVUM 17.5KG 612630040001-HT HT2205 CYL HEAD WP12 24V MADE IN CHINA 1 SET 81 UATAI",
-                       "importedAt":  "2026-07-22T00:01:54"
+                       "importedAt":  "2026-07-22T22:55:23"
                    }
     },
     {
@@ -5824,13 +6486,21 @@ window.NAE_IMPORTED_PRODUCTS = [
         "category":  "clutch-system",
         "subcategory":  "",
         "description":  "AZ-124 202 0561-HT",
+        "visibleDescription":  "AZ-124 202 0561-HT 91-1 M16 HUATAI MAOE IN CHINA AZ1242020561 FLYWHEEL SINOTRUK DI 2 45.3KG HT4334H ID 62 HI 32 OD 504 561-1 239 17 1/4\" HI 74 AZ-124 202 0561-HT HT4334 FLYWHEEL A7 HOWO 9H 1-1174",
+        "longDescription":  "AZ-124 202 0561-HT 91-1 M16 HUATAI MAOE IN CHINA AZ1242020561 FLYWHEEL SINOTRUK DI 2 45.3KG HT4334H ID 62 HI 32 OD 504 561-1 239 17 1/4\" HI 74 AZ-124 202 0561-HT HT4334 FLYWHEEL A7 HOWO 9H 1-1174",
         "application":  "HOWO",
         "brand":  "Huatai",
         "vehicleModel":  "HOWO",
         "engineModel":  "",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "HT4334H"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT4334H"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/AZ-124-202-0561-HT.jpeg",
+        "image":  "assets/img/products/AZ-124-202-0561-HT-5AAA5EDFAC2F.jpeg",
         "specifications":  {
                                "OD":  [
                                           "504"
@@ -5864,7 +6534,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "AZ-124-202-0561-HT Flywheel Huatai clutch-system AZ-124 202 0561-HT HOWO OD 504; ID 62; HI 32, 74; Holes 9H M1 Ready stock OD 504 ID 62 HI 32, 74 Holes 9H M1 FLYWHEEL Count 4 IsReadOnly False Keys OD Keys ID Keys HI Keys Holes Values 504 Values 62 Values 32 74 Values 9H M1 IsFixedSize False SyncRoot System.Object IsSynchronized False 91-1 M16 HUATAI MAOE IN CHINA AZ1242020561 FLYWHEEL SINOTRUK DI 2 45.3KG HT4334H ID 62 HI 32 OD 504 561-1 239 17 1/4\" HI 74 AZ-124 202 0561-HT HT4334 FLYWHEEL A7 HOWO 9H 1-1174",
+        "searchableText":  "AZ-124-202-0561-HT Flywheel Huatai clutch-system AZ-124 202 0561-HT AZ-124 202 0561-HT 91-1 M16 HUATAI MAOE IN CHINA AZ1242020561 FLYWHEEL SINOTRUK DI 2 45.3KG HT4334H ID 62 HI 32 OD 504 561-1 239 17 1/4\" HI 74 AZ-124 202 0561-HT HT4334 FLYWHEEL A7 HOWO 9H 1-1174 HOWO OD 504; ID 62; HI 32, 74; Holes 9H M1 Ready stock OD 504 ID 62 HI 32, 74 Holes 9H M1 FLYWHEEL HT4334H Count 4 IsReadOnly False Keys OD Keys ID Keys HI Keys Holes Values 504 Values 62 Values 32 74 Values 9H M1 IsFixedSize False SyncRoot System.Object IsSynchronized False 91-1 M16 HUATAI MAOE IN CHINA AZ1242020561 FLYWHEEL SINOTRUK DI 2 45.3KG HT4334H ID 62 HI 32 OD 504 561-1 239 17 1/4\" HI 74 AZ-124 202 0561-HT HT4334 FLYWHEEL A7 HOWO 9H 1-1174",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -5872,7 +6542,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-16 at 5.02.11 PM.jpeg",
                        "hash":  "5aaa5edfac2f5059b983f12660bc16ae82b60f7df4dd8f0124e3c084653d4cae",
                        "ocrText":  "91-1 M16 HUATAI MAOE IN CHINA AZ1242020561 FLYWHEEL SINOTRUK DI 2 45.3KG HT4334H ID 62 HI 32 OD 504 561-1 239 17 1/4\" HI 74 AZ-124 202 0561-HT HT4334 FLYWHEEL A7 HOWO 9H 1-1174",
-                       "importedAt":  "2026-07-22T00:01:54"
+                       "importedAt":  "2026-07-22T22:55:23"
                    }
     },
     {
@@ -5885,13 +6555,21 @@ window.NAE_IMPORTED_PRODUCTS = [
         "category":  "engine-parts",
         "subcategory":  "",
         "description":  "VG-124 605 0021-HT",
+        "visibleDescription":  "VG-124 605 0021-HT 9 43 173 VG-124 605 0021-HT HT2117 IN VALVE 3 KEY D12.420 \u0026 WP12 OD 43 L 173 STEM 9",
+        "longDescription":  "VG-124 605 0021-HT 9 43 173 VG-124 605 0021-HT HT2117 IN VALVE 3 KEY D12.420 \u0026 WP12 OD 43 L 173 STEM 9",
         "application":  "WP12, D12",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WP12, D12",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "HT2117"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2117"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/VG-124-605-0021-HT.jpeg",
+        "image":  "assets/img/products/VG-124-605-0021-HT-49A72221ECD6.jpeg",
         "specifications":  {
                                "OD":  [
                                           "43"
@@ -5910,7 +6588,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "VG-124-605-0021-HT Intake Valve Huatai engine-parts VG-124 605 0021-HT WP12, D12 OD 43 Ready stock WP12 D12 VALVE Count 1 IsReadOnly False Keys OD Values 43 IsFixedSize False SyncRoot System.Object IsSynchronized False 9 43 173 VG-124 605 0021-HT HT2117 IN VALVE 3 KEY D12.420 \u0026 WP12 OD 43 L 173 STEM 9",
+        "searchableText":  "VG-124-605-0021-HT Intake Valve Huatai engine-parts VG-124 605 0021-HT VG-124 605 0021-HT 9 43 173 VG-124 605 0021-HT HT2117 IN VALVE 3 KEY D12.420 \u0026 WP12 OD 43 L 173 STEM 9 WP12, D12 OD 43 Ready stock WP12 D12 VALVE HT2117 Count 1 IsReadOnly False Keys OD Values 43 IsFixedSize False SyncRoot System.Object IsSynchronized False 9 43 173 VG-124 605 0021-HT HT2117 IN VALVE 3 KEY D12.420 \u0026 WP12 OD 43 L 173 STEM 9",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -5918,26 +6596,34 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.50 PM (1).jpeg",
                        "hash":  "49a72221ecd6ba0d77c326d866eb41c020f514bef698cbb1aaf9efb666e8b3b3",
                        "ocrText":  "9 43 173 VG-124 605 0021-HT HT2117 IN VALVE 3 KEY D12.420 \u0026 WP12 OD 43 L 173 STEM 9",
-                       "importedAt":  "2026-07-22T00:01:54"
+                       "importedAt":  "2026-07-22T22:55:23"
                    }
     },
     {
-        "id":  "REVIEW-2AC84389BABD",
-        "number":  "",
-        "productNumber":  "",
-        "partNumber":  "",
+        "id":  "HT1905",
+        "number":  "HT1905",
+        "productNumber":  "HT1905",
+        "partNumber":  "HT1905",
         "name":  "Water Pump Assembly",
         "productName":  "Water Pump Assembly",
         "category":  "cooling-system",
         "subcategory":  "",
-        "description":  "IOPK 192 HUATAI CHINA AUTO PARTS SPECIAL\u0027S\u0027 111 75 60 OD 67 ID 55 1307010CM50-02000-HT HT1905 W/PUMP ASSY FAW CAI 6DM-M50",
+        "description":  "W/PUMP ASSY FAW",
+        "visibleDescription":  "HT1905 W/PUMP ASSY FAW IOPK 192 HUATAI CHINA AUTO PARTS SPECIAL\u0027S\u0027 111 75 60 OD 67 ID 55 1307010CM50-02000-HT HT1905 W/PUMP ASSY FAW CAI 6DM-M50",
+        "longDescription":  "HT1905 W/PUMP ASSY FAW IOPK 192 HUATAI CHINA AUTO PARTS SPECIAL\u0027S\u0027 111 75 60 OD 67 ID 55 1307010CM50-02000-HT HT1905 W/PUMP ASSY FAW CAI 6DM-M50",
         "application":  "FAW",
         "brand":  "Huatai",
         "vehicleModel":  "FAW",
         "engineModel":  "",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/REVIEW-2AC84389BABD.jpeg",
+        "alternateNumbers":  [
+
+                             ],
+        "alternatePartNumbers":  [
+
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/HT1905.jpeg",
         "specifications":  {
                                "OD":  [
                                           "67"
@@ -5958,17 +6644,17 @@ window.NAE_IMPORTED_PRODUCTS = [
                          "Water Pump Assembly",
                          "WATER PUMP"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "No reliable product number candidate found.",
-        "searchableText":  "REVIEW-2AC84389BABD Water Pump Assembly Huatai cooling-system IOPK 192 HUATAI CHINA AUTO PARTS SPECIAL\u0027S\u0027 111 75 60 OD 67 ID 55 1307010CM50-02000-HT HT1905 W/PUMP ASSY FAW CAI 6DM-M50 FAW OD 67; ID 55 Manual review required No reliable product number candidate found. OD 67 ID 55 WATER PUMP Count 2 IsReadOnly False Keys OD Keys ID Values 67 Values 55 IsFixedSize False SyncRoot System.Object IsSynchronized False",
-        "confidence":  0,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "HT1905 Water Pump Assembly Huatai cooling-system W/PUMP ASSY FAW HT1905 W/PUMP ASSY FAW IOPK 192 HUATAI CHINA AUTO PARTS SPECIAL\u0027S\u0027 111 75 60 OD 67 ID 55 1307010CM50-02000-HT HT1905 W/PUMP ASSY FAW CAI 6DM-M50 FAW OD 67; ID 55 Ready stock OD 67 ID 55 WATER PUMP Count 2 IsReadOnly False Keys OD Keys ID Values 67 Values 55 IsFixedSize False SyncRoot System.Object IsSynchronized False IOPK 192 HUATAI CHINA AUTO PARTS SPECIAL\u0027S\u0027 111 75 60 OD 67 ID 55 1307010CM50-02000-HT HT1905 W/PUMP ASSY FAW CAI 6DM-M50",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.21.51 PM (2).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.51 PM (2).jpeg",
                        "hash":  "2ac84389babd7ecc255a7b383decd05b4d1943db641d9346bdef55ed71136dc0",
                        "ocrText":  "IOPK 192 HUATAI CHINA AUTO PARTS SPECIAL\u0027S\u0027 111 75 60 OD 67 ID 55 1307010CM50-02000-HT HT1905 W/PUMP ASSY FAW CAI 6DM-M50",
-                       "importedAt":  "2026-07-22T00:01:55"
+                       "importedAt":  "2026-07-22T22:55:23"
                    }
     },
     {
@@ -5976,18 +6662,28 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "VG-150-001-0006-HT",
         "productNumber":  "VG-150-001-0006-HT",
         "partNumber":  "VG-150-001-0006-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Cylinder Liner",
+        "productName":  "Cylinder Liner",
+        "category":  "engine-parts",
         "subcategory":  "",
         "description":  "VG-150 001 0006-HT",
+        "visibleDescription":  "VG-150 001 0006-HT Y 26 HUATAJ• CYLINDER LINER RUNB3A 130 241 135 HUATAI MADE IN CHINA 612630010015/VG1540010006 CYLINDER LINER WEICHAI/SINOTRUK WD615 126/130MM I 9.8KG HT1387H VG-150 001 0006-HT HT1387 LINER WD615.47 ID 126 OD 136/130 L 241 THICK 5M 6 PCS",
+        "longDescription":  "VG-150 001 0006-HT Y 26 HUATAJ• CYLINDER LINER RUNB3A 130 241 135 HUATAI MADE IN CHINA 612630010015/VG1540010006 CYLINDER LINER WEICHAI/SINOTRUK WD615 126/130MM I 9.8KG HT1387H VG-150 001 0006-HT HT1387 LINER WD615.47 ID 126 OD 136/130 L 241 THICK 5M 6 PCS",
         "application":  "HOWO, WD615",
         "brand":  "Huatai",
         "vehicleModel":  "HOWO",
         "engineModel":  "WD615",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/VG-150-001-0006-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT1387H",
+                                 "VG-154-001-0006"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1387H",
+                                     "VG-154-001-0006"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/VG-150-001-0006-HT-BEFD262F90AF.jpeg",
         "specifications":  {
                                "OD":  [
                                           "136"
@@ -6005,19 +6701,21 @@ window.NAE_IMPORTED_PRODUCTS = [
                          "WD615",
                          "HOWO",
                          "OD 136",
-                         "ID 126"
+                         "ID 126",
+                         "Cylinder Liner",
+                         "CYLINDER LINER"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "VG-150-001-0006-HT Manual review required Huatai other VG-150 001 0006-HT HOWO, WD615 HOWO WD615 OD 136; ID 126 OCR result needs manual review before import. OD 136 ID 126 Count 2 IsReadOnly False Keys OD Keys ID Values 136 Values 126 IsFixedSize False SyncRoot System.Object IsSynchronized False Y 26 HUATAJ• CYLINDER LINER RUNB3A 130 241 135 HUATAI MADE IN CHINA 612630010015/VG1540010006 CYLINDER LINER WEICHAI/SINOTRUK WD615 126/130MM I 9.8KG HT1387H VG-150 001 0006-HT HT1387 LINER WD615.47 ID 126 OD 136/130 L 241 THICK 5M 6 PCS",
-        "confidence":  92,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "VG-150-001-0006-HT Cylinder Liner Huatai engine-parts VG-150 001 0006-HT VG-150 001 0006-HT Y 26 HUATAJ• CYLINDER LINER RUNB3A 130 241 135 HUATAI MADE IN CHINA 612630010015/VG1540010006 CYLINDER LINER WEICHAI/SINOTRUK WD615 126/130MM I 9.8KG HT1387H VG-150 001 0006-HT HT1387 LINER WD615.47 ID 126 OD 136/130 L 241 THICK 5M 6 PCS HOWO, WD615 HOWO WD615 OD 136; ID 126 Ready stock OD 136 ID 126 CYLINDER LINER HT1387H VG-154-001-0006 Count 2 IsReadOnly False Keys OD Keys ID Values 136 Values 126 IsFixedSize False SyncRoot System.Object IsSynchronized False Y 26 HUATAJ• CYLINDER LINER RUNB3A 130 241 135 HUATAI MADE IN CHINA 612630010015/VG1540010006 CYLINDER LINER WEICHAI/SINOTRUK WD615 126/130MM I 9.8KG HT1387H VG-150 001 0006-HT HT1387 LINER WD615.47 ID 126 OD 136/130 L 241 THICK 5M 6 PCS",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.21.51 PM.jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.51 PM.jpeg",
                        "hash":  "befd262f90afc09627b5191573c77809143153f8049449527233472114e55ef4",
                        "ocrText":  "Y 26 HUATAJ• CYLINDER LINER RUNB3A 130 241 135 HUATAI MADE IN CHINA 612630010015/VG1540010006 CYLINDER LINER WEICHAI/SINOTRUK WD615 126/130MM I 9.8KG HT1387H VG-150 001 0006-HT HT1387 LINER WD615.47 ID 126 OD 136/130 L 241 THICK 5M 6 PCS",
-                       "importedAt":  "2026-07-22T00:01:55"
+                       "importedAt":  "2026-07-22T22:55:23"
                    }
     },
     {
@@ -6025,18 +6723,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "612600062371-HT",
         "productNumber":  "612600062371-HT",
         "partNumber":  "612600062371-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Belt Tensioner",
+        "productName":  "Belt Tensioner",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
-        "application":  "",
+        "description":  "Belt Tensioner",
+        "visibleDescription":  "612600062371-HT HI 40 OD 70 HUATAI\u0027 GENUINE PARTS US 612600062371-HT HT2284 BELT TANSIONER DAYUN 6X2 TONLY",
+        "longDescription":  "612600062371-HT HI 40 OD 70 HUATAI\u0027 GENUINE PARTS US 612600062371-HT HT2284 BELT TANSIONER DAYUN 6X2 TONLY",
+        "application":  "DAYUN",
         "brand":  "Huatai",
-        "vehicleModel":  "",
+        "vehicleModel":  "DAYUN",
         "engineModel":  "",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/612600062371-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT2284"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2284"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/612600062371-HT-2851BE9AA715.jpeg",
         "specifications":  {
                                "OD":  [
                                           "70"
@@ -6051,12 +6757,15 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "OD 70; HI 40",
         "keywords":  [
+                         "DAYUN",
                          "OD 70",
-                         "HI 40"
+                         "HI 40",
+                         "Belt Tensioner",
+                         "BELT TENSIONER"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "612600062371-HT Manual review required Huatai other Needs manual review OD 70; HI 40 OCR result needs manual review before import. OD 70 HI 40 Count 2 IsReadOnly False Keys OD Keys HI Values 70 Values 40 IsFixedSize False SyncRoot System.Object IsSynchronized False HI 40 OD 70 HUATAI\u0027 GENUINE PARTS US 612600062371-HT HT2284 BELT TANSIONER DAYUN 6X2 TONLY",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "612600062371-HT Belt Tensioner Huatai engine-parts 612600062371-HT HI 40 OD 70 HUATAI\u0027 GENUINE PARTS US 612600062371-HT HT2284 BELT TANSIONER DAYUN 6X2 TONLY DAYUN OD 70; HI 40 Ready stock OD 70 HI 40 BELT TENSIONER HT2284 Count 2 IsReadOnly False Keys OD Keys HI Values 70 Values 40 IsFixedSize False SyncRoot System.Object IsSynchronized False HI 40 OD 70 HUATAI\u0027 GENUINE PARTS US 612600062371-HT HT2284 BELT TANSIONER DAYUN 6X2 TONLY",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -6064,7 +6773,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.51 PM (1).jpeg",
                        "hash":  "2851be9aa715043902071dfefca1660d0c12cb1a3613b6dd7f1a3327790ac0b4",
                        "ocrText":  "HI 40 OD 70 HUATAI\u0027 GENUINE PARTS US 612600062371-HT HT2284 BELT TANSIONER DAYUN 6X2 TONLY",
-                       "importedAt":  "2026-07-22T00:01:55"
+                       "importedAt":  "2026-07-22T22:55:23"
                    }
     },
     {
@@ -6072,18 +6781,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "VG-156-003-7033-HT",
         "productNumber":  "VG-156-003-7033-HT",
         "partNumber":  "VG-156-003-7033-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Connecting Rod Bearing Set",
+        "productName":  "Connecting Rod Bearing Set",
+        "category":  "engine-parts",
         "subcategory":  "",
         "description":  "VG-156 003 7033-HT",
+        "visibleDescription":  "VG-156 003 7033-HT 35 HUATAI\u0027 ENGINE BEARING BKFLAABLLIJ UJATYHA U S COUVITE VG-156 003 7033-HT HT1103 C/R BRG STD WD615.47 36X89",
+        "longDescription":  "VG-156 003 7033-HT 35 HUATAI\u0027 ENGINE BEARING BKFLAABLLIJ UJATYHA U S COUVITE VG-156 003 7033-HT HT1103 C/R BRG STD WD615.47 36X89",
         "application":  "WD615",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD615",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/VG-156-003-7033-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT1103"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1103"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/VG-156-003-7033-HT-DCB4389C14FB.jpeg",
         "specifications":  {
 
                            },
@@ -6092,11 +6809,14 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-                         "WD615"
+                         "WD615",
+                         "Connecting Rod Bearing Set",
+                         "BEARING",
+                         "CONNECTING ROD BEARING"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "VG-156-003-7033-HT Manual review required Huatai other VG-156 003 7033-HT WD615 OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 35 HUATAI\u0027 ENGINE BEARING BKFLAABLLIJ UJATYHA U S COUVITE VG-156 003 7033-HT HT1103 C/R BRG STD WD615.47 36X89",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "VG-156-003-7033-HT Connecting Rod Bearing Set Huatai engine-parts VG-156 003 7033-HT VG-156 003 7033-HT 35 HUATAI\u0027 ENGINE BEARING BKFLAABLLIJ UJATYHA U S COUVITE VG-156 003 7033-HT HT1103 C/R BRG STD WD615.47 36X89 WD615 Ready stock BEARING CONNECTING ROD BEARING HT1103 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 35 HUATAI\u0027 ENGINE BEARING BKFLAABLLIJ UJATYHA U S COUVITE VG-156 003 7033-HT HT1103 C/R BRG STD WD615.47 36X89",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -6104,26 +6824,34 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.50 PM (2).jpeg",
                        "hash":  "dcb4389c14fbe11648e9b7bf9c29a6a6f9af784f59de3e4105ad3f4ce6d3258f",
                        "ocrText":  "35 HUATAI\u0027 ENGINE BEARING BKFLAABLLIJ UJATYHA U S COUVITE VG-156 003 7033-HT HT1103 C/R BRG STD WD615.47 36X89",
-                       "importedAt":  "2026-07-22T00:01:54"
+                       "importedAt":  "2026-07-22T22:55:23"
                    }
     },
     {
-        "id":  "1302395801",
-        "number":  "1302395801",
-        "productNumber":  "1302395801",
-        "partNumber":  "1302395801",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "id":  "HT1771H",
+        "number":  "HT1771H",
+        "productNumber":  "HT1771H",
+        "partNumber":  "HT1771H",
+        "name":  "Engine Overhaul Gasket Set",
+        "productName":  "Engine Overhaul Gasket Set",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "K",
-        "application":  "",
+        "description":  "Engine Overhaul Gasket Set",
+        "visibleDescription":  "HT1771H HUATAI MADE IN CHINA K 1302395801 ENGINE REPAIR KIT 1 SET TD226BL/WP6G HT1771H 6 976 SSS 295720 HUATAI\u0027 ENGINE REPAIR KIT NPOKFLAAKV1 AM ECONOMIC MWTTEE THE US 0000 00 E•EP WP6G-OHG-HT HT1771 0/H GASKET WP6G",
+        "longDescription":  "HT1771H HUATAI MADE IN CHINA K 1302395801 ENGINE REPAIR KIT 1 SET TD226BL/WP6G HT1771H 6 976 SSS 295720 HUATAI\u0027 ENGINE REPAIR KIT NPOKFLAAKV1 AM ECONOMIC MWTTEE THE US 0000 00 E•EP WP6G-OHG-HT HT1771 0/H GASKET WP6G",
+        "application":  "WP6G, TD226BL",
         "brand":  "Huatai",
         "vehicleModel":  "",
-        "engineModel":  "",
+        "engineModel":  "WP6G, TD226BL",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/1302395801.jpeg",
+        "alternateNumbers":  [
+
+                             ],
+        "alternatePartNumbers":  [
+
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/HT1771H.jpeg",
         "specifications":  {
 
                            },
@@ -6132,38 +6860,49 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-
+                         "WP6G",
+                         "TD226BL",
+                         "Engine Overhaul Gasket Set",
+                         "GASKET SET"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "1302395801 Manual review required Huatai other K OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI MADE IN CHINA K 1302395801 ENGINE REPAIR KIT 1 SET TD226BL/WP6G HT1771H 6 976 SSS 295720 HUATAI\u0027 ENGINE REPAIR KIT NPOKFLAAKV1 AM ECONOMIC MWTTEE THE US 0000 00 E•EP WP6G-OHG-HT HT1771 0/H GASKET WP6G",
-        "confidence":  32,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "HT1771H Engine Overhaul Gasket Set Huatai engine-parts HT1771H HUATAI MADE IN CHINA K 1302395801 ENGINE REPAIR KIT 1 SET TD226BL/WP6G HT1771H 6 976 SSS 295720 HUATAI\u0027 ENGINE REPAIR KIT NPOKFLAAKV1 AM ECONOMIC MWTTEE THE US 0000 00 E•EP WP6G-OHG-HT HT1771 0/H GASKET WP6G WP6G, TD226BL Ready stock WP6G TD226BL GASKET SET Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI MADE IN CHINA K 1302395801 ENGINE REPAIR KIT 1 SET TD226BL/WP6G HT1771H 6 976 SSS 295720 HUATAI\u0027 ENGINE REPAIR KIT NPOKFLAAKV1 AM ECONOMIC MWTTEE THE US 0000 00 E•EP WP6G-OHG-HT HT1771 0/H GASKET WP6G",
+        "confidence":  80,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.21.50 PM.jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.50 PM.jpeg",
                        "hash":  "23c774b9c54b0e3edcfd5d381554d6e3a46a5cc649d764003789a7d70c7ebac3",
                        "ocrText":  "HUATAI MADE IN CHINA K 1302395801 ENGINE REPAIR KIT 1 SET TD226BL/WP6G HT1771H 6 976 SSS 295720 HUATAI\u0027 ENGINE REPAIR KIT NPOKFLAAKV1 AM ECONOMIC MWTTEE THE US 0000 00 E•EP WP6G-OHG-HT HT1771 0/H GASKET WP6G",
-                       "importedAt":  "2026-07-22T00:01:55"
+                       "importedAt":  "2026-07-22T22:55:23"
                    }
     },
     {
-        "id":  "VG-260-001-0990-HT",
-        "number":  "VG-260-001-0990-HT",
-        "productNumber":  "VG-260-001-0990-HT",
-        "partNumber":  "VG-260-001-0990-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "id":  "HT1185",
+        "number":  "HT1185",
+        "productNumber":  "HT1185",
+        "partNumber":  "HT1185",
+        "name":  "Camshaft Bush Set",
+        "productName":  "Camshaft Bush Set",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "VG-260 001 0990-HT",
+        "description":  "CAM BUSH",
+        "visibleDescription":  "HT1185 CAM BUSH 60 65 ZAN SHA\" BOSH 60 33 65 HUATAI MADE IN CHINA 612600010990/61560010029 CAM SHAFT BUSH I SET WEICHAI WD615/WD618 •185 H VG-260 001 0990-HT HT1185 CAM BUSH WD615.47 WD618 1 SET = 6 SMALL 1 BIG HI 25M HI 33 X1",
+        "longDescription":  "HT1185 CAM BUSH 60 65 ZAN SHA\" BOSH 60 33 65 HUATAI MADE IN CHINA 612600010990/61560010029 CAM SHAFT BUSH I SET WEICHAI WD615/WD618 •185 H VG-260 001 0990-HT HT1185 CAM BUSH WD615.47 WD618 1 SET = 6 SMALL 1 BIG HI 25M HI 33 X1",
         "application":  "WD615, WD618",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD615, WD618",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/VG-260-001-0990-HT.jpeg",
+        "alternateNumbers":  [
+                                 "VG-260-001-0990-HT"
+                             ],
+        "alternatePartNumbers":  [
+                                     "VG-260-001-0990-HT"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/HT1185.jpeg",
         "specifications":  {
                                "HI":  [
                                           "25",
@@ -6177,19 +6916,20 @@ window.NAE_IMPORTED_PRODUCTS = [
         "keywords":  [
                          "WD615",
                          "WD618",
-                         "HI 25, 33"
+                         "HI 25, 33",
+                         "Camshaft Bush Set"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "VG-260-001-0990-HT Manual review required Huatai other VG-260 001 0990-HT WD615, WD618 HI 25, 33 OCR result needs manual review before import. WD615 WD618 Count 1 IsReadOnly False Keys HI Values 25 33 IsFixedSize False SyncRoot System.Object IsSynchronized False 60 65 ZAN SHA\" BOSH 60 33 65 HUATAI MADE IN CHINA 612600010990/61560010029 CAM SHAFT BUSH I SET WEICHAI WD615/WD618 •185 H VG-260 001 0990-HT HT1185 CAM BUSH WD615.47 WD618 1 SET = 6 SMALL 1 BIG HI 25M HI 33 X1",
-        "confidence":  92,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "HT1185 Camshaft Bush Set Huatai engine-parts CAM BUSH HT1185 CAM BUSH 60 65 ZAN SHA\" BOSH 60 33 65 HUATAI MADE IN CHINA 612600010990/61560010029 CAM SHAFT BUSH I SET WEICHAI WD615/WD618 •185 H VG-260 001 0990-HT HT1185 CAM BUSH WD615.47 WD618 1 SET = 6 SMALL 1 BIG HI 25M HI 33 X1 WD615, WD618 HI 25, 33 Ready stock WD615 WD618 VG-260-001-0990-HT Count 1 IsReadOnly False Keys HI Values 25 33 IsFixedSize False SyncRoot System.Object IsSynchronized False 60 65 ZAN SHA\" BOSH 60 33 65 HUATAI MADE IN CHINA 612600010990/61560010029 CAM SHAFT BUSH I SET WEICHAI WD615/WD618 •185 H VG-260 001 0990-HT HT1185 CAM BUSH WD615.47 WD618 1 SET = 6 SMALL 1 BIG HI 25M HI 33 X1",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.21.56 PM (2).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.56 PM (2).jpeg",
                        "hash":  "ee665bdbc26b41252d845a29f5bae2cc727c1537a5ddfd3b9c07d822a016f98f",
                        "ocrText":  "60 65 ZAN SHA\" BOSH 60 33 65 HUATAI MADE IN CHINA 612600010990/61560010029 CAM SHAFT BUSH I SET WEICHAI WD615/WD618 •185 H VG-260 001 0990-HT HT1185 CAM BUSH WD615.47 WD618 1 SET = 6 SMALL 1 BIG HI 25M HI 33 X1",
-                       "importedAt":  "2026-07-22T00:01:56"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
@@ -6197,18 +6937,30 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "VG-109-313-0001-HT",
         "productNumber":  "VG-109-313-0001-HT",
         "partNumber":  "VG-109-313-0001-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Piston",
+        "productName":  "Piston",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
+        "description":  "AIR COMPRESSOR",
+        "visibleDescription":  "AIR COMPRESSOR HUATAI• AIR COMPRESSOR KOMNPECCOP HUATAI VG1099130001/VG1093130001 AIR COMPRESSOR SINOTRUK WD615 21 2KG HT1915H VG-109 313 OOOI-HT HT1915 AIR COMP ASSY HOWO DB PISTON WABCO WD615.47",
+        "longDescription":  "AIR COMPRESSOR HUATAI• AIR COMPRESSOR KOMNPECCOP HUATAI VG1099130001/VG1093130001 AIR COMPRESSOR SINOTRUK WD615 21 2KG HT1915H VG-109 313 OOOI-HT HT1915 AIR COMP ASSY HOWO DB PISTON WABCO WD615.47",
         "application":  "HOWO, WD615",
         "brand":  "Huatai",
         "vehicleModel":  "HOWO",
         "engineModel":  "WD615",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/VG-109-313-0001-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT1915H",
+                                 "VG-109-913-0001",
+                                 "VG-109-313-OOOI"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1915H",
+                                     "VG-109-913-0001",
+                                     "VG-109-313-OOOI"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/VG-109-313-0001-HT-4F528A2E4384.jpeg",
         "specifications":  {
 
                            },
@@ -6218,38 +6970,47 @@ window.NAE_IMPORTED_PRODUCTS = [
         "specification":  "",
         "keywords":  [
                          "WD615",
-                         "HOWO"
+                         "HOWO",
+                         "Piston"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "VG-109-313-0001-HT Manual review required Huatai other Needs manual review HOWO, WD615 HOWO WD615 OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI• AIR COMPRESSOR KOMNPECCOP HUATAI VG1099130001/VG1093130001 AIR COMPRESSOR SINOTRUK WD615 21 2KG HT1915H VG-109 313 OOOI-HT HT1915 AIR COMP ASSY HOWO DB PISTON WABCO WD615.47",
-        "confidence":  98,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "VG-109-313-0001-HT Piston Huatai engine-parts AIR COMPRESSOR AIR COMPRESSOR HUATAI• AIR COMPRESSOR KOMNPECCOP HUATAI VG1099130001/VG1093130001 AIR COMPRESSOR SINOTRUK WD615 21 2KG HT1915H VG-109 313 OOOI-HT HT1915 AIR COMP ASSY HOWO DB PISTON WABCO WD615.47 HOWO, WD615 HOWO WD615 Ready stock HT1915H VG-109-913-0001 VG-109-313-OOOI Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI• AIR COMPRESSOR KOMNPECCOP HUATAI VG1099130001/VG1093130001 AIR COMPRESSOR SINOTRUK WD615 21 2KG HT1915H VG-109 313 OOOI-HT HT1915 AIR COMP ASSY HOWO DB PISTON WABCO WD615.47",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.01 PM (2).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.01 PM (2).jpeg",
                        "hash":  "4f528a2e4384fcd6e4d1aee427cfebaf0bc11c772feb43b580e402c0b3b3ccca",
                        "ocrText":  "HUATAI• AIR COMPRESSOR KOMNPECCOP HUATAI VG1099130001/VG1093130001 AIR COMPRESSOR SINOTRUK WD615 21 2KG HT1915H VG-109 313 OOOI-HT HT1915 AIR COMP ASSY HOWO DB PISTON WABCO WD615.47",
-                       "importedAt":  "2026-07-22T00:01:59"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
-        "id":  "REVIEW-24D608E7B0ED",
-        "number":  "",
-        "productNumber":  "",
-        "partNumber":  "",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "id":  "K3046-HT",
+        "number":  "K3046-HT",
+        "productNumber":  "K3046-HT",
+        "partNumber":  "K3046-HT",
+        "name":  "Air Filter Set",
+        "productName":  "Air Filter Set",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "HUATAI\u0027 AIR FILTER QL,1FLBTP B03AYUJHBLH K3046-HT HT2809 AIR FILTER SET HOW0371/ SXZIO OUTER OD 12\" ID 8\" L 18\" INNER OD 7\" ID 6\" L 17.5\"",
-        "application":  "",
+        "description":  "Air Filter Set",
+        "visibleDescription":  "K3046-HT HUATAI\u0027 AIR FILTER QL,1FLBTP B03AYUJHBLH K3046-HT HT2809 AIR FILTER SET HOW0371/ SXZIO OUTER OD 12\" ID 8\" L 18\" INNER OD 7\" ID 6\" L 17.5\"",
+        "longDescription":  "K3046-HT HUATAI\u0027 AIR FILTER QL,1FLBTP B03AYUJHBLH K3046-HT HT2809 AIR FILTER SET HOW0371/ SXZIO OUTER OD 12\" ID 8\" L 18\" INNER OD 7\" ID 6\" L 17.5\"",
+        "application":  "HOWO",
         "brand":  "Huatai",
-        "vehicleModel":  "",
+        "vehicleModel":  "HOWO",
         "engineModel":  "",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/REVIEW-24D608E7B0ED.jpeg",
+        "alternateNumbers":  [
+                                 "HT2809"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2809"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/K3046-HT.jpeg",
         "specifications":  {
                                "OD":  [
                                           "12",
@@ -6266,20 +7027,23 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "OD 12, 7; ID 8, 6",
         "keywords":  [
+                         "HOWO",
                          "OD 12, 7",
-                         "ID 8, 6"
+                         "ID 8, 6",
+                         "Air Filter Set",
+                         "AIR FILTER"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "No reliable product number candidate found.",
-        "searchableText":  "REVIEW-24D608E7B0ED Manual review required Huatai other HUATAI\u0027 AIR FILTER QL,1FLBTP B03AYUJHBLH K3046-HT HT2809 AIR FILTER SET HOW0371/ SXZIO OUTER OD 12\" ID 8\" L 18\" INNER OD 7\" ID 6\" L 17.5\" OD 12, 7; ID 8, 6 No reliable product number candidate found. OD 12, 7 ID 8, 6 Count 2 IsReadOnly False Keys OD Keys ID Values 12 7 Values 8 6 IsFixedSize False SyncRoot System.Object IsSynchronized False",
-        "confidence":  0,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "K3046-HT Air Filter Set Huatai engine-parts K3046-HT HUATAI\u0027 AIR FILTER QL,1FLBTP B03AYUJHBLH K3046-HT HT2809 AIR FILTER SET HOW0371/ SXZIO OUTER OD 12\" ID 8\" L 18\" INNER OD 7\" ID 6\" L 17.5\" HOWO OD 12, 7; ID 8, 6 Ready stock OD 12, 7 ID 8, 6 AIR FILTER HT2809 Count 2 IsReadOnly False Keys OD Keys ID Values 12 7 Values 8 6 IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI\u0027 AIR FILTER QL,1FLBTP B03AYUJHBLH K3046-HT HT2809 AIR FILTER SET HOW0371/ SXZIO OUTER OD 12\" ID 8\" L 18\" INNER OD 7\" ID 6\" L 17.5\"",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.01 PM (3).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.01 PM (3).jpeg",
                        "hash":  "24d608e7b0edd45b30a15a155946a5729ee05110179516237202c65ba107faca",
                        "ocrText":  "HUATAI\u0027 AIR FILTER QL,1FLBTP B03AYUJHBLH K3046-HT HT2809 AIR FILTER SET HOW0371/ SXZIO OUTER OD 12\" ID 8\" L 18\" INNER OD 7\" ID 6\" L 17.5\"",
-                       "importedAt":  "2026-07-22T00:01:59"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
@@ -6287,18 +7051,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "VG-260-001-0659-HT",
         "productNumber":  "VG-260-001-0659-HT",
         "partNumber":  "VG-260-001-0659-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Oil Jet",
+        "productName":  "Oil Jet",
+        "category":  "engine-parts",
         "subcategory":  "",
         "description":  "VG-260 001 0659-HT",
+        "visibleDescription":  "VG-260 001 0659-HT I D 14 OD 29 GENUINE PARTS VG-260 001 0659-HT HT4286 OIL JET WD615.47 14 OD 29",
+        "longDescription":  "VG-260 001 0659-HT I D 14 OD 29 GENUINE PARTS VG-260 001 0659-HT HT4286 OIL JET WD615.47 14 OD 29",
         "application":  "WD615",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD615",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/VG-260-001-0659-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT4286"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT4286"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/VG-260-001-0659-HT-D042068AA8FB.jpeg",
         "specifications":  {
                                "OD":  [
                                           "29"
@@ -6310,11 +7082,12 @@ window.NAE_IMPORTED_PRODUCTS = [
         "specification":  "OD 29",
         "keywords":  [
                          "WD615",
-                         "OD 29"
+                         "OD 29",
+                         "Oil Jet"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "VG-260-001-0659-HT Manual review required Huatai other VG-260 001 0659-HT WD615 OD 29 OCR result needs manual review before import. Count 1 IsReadOnly False Keys OD Values 29 IsFixedSize False SyncRoot System.Object IsSynchronized False I D 14 OD 29 GENUINE PARTS VG-260 001 0659-HT HT4286 OIL JET WD615.47 14 OD 29",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "VG-260-001-0659-HT Oil Jet Huatai engine-parts VG-260 001 0659-HT VG-260 001 0659-HT I D 14 OD 29 GENUINE PARTS VG-260 001 0659-HT HT4286 OIL JET WD615.47 14 OD 29 WD615 OD 29 Ready stock HT4286 Count 1 IsReadOnly False Keys OD Values 29 IsFixedSize False SyncRoot System.Object IsSynchronized False I D 14 OD 29 GENUINE PARTS VG-260 001 0659-HT HT4286 OIL JET WD615.47 14 OD 29",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -6322,26 +7095,34 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.01 PM (1).jpeg",
                        "hash":  "d042068aa8fb3ab52888fee9b10b633b1badffe86697547804eb5802c1268021",
                        "ocrText":  "I D 14 OD 29 GENUINE PARTS VG-260 001 0659-HT HT4286 OIL JET WD615.47 14 OD 29",
-                       "importedAt":  "2026-07-22T00:01:59"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
-        "id":  "VG-124-605-0027-HT",
-        "number":  "VG-124-605-0027-HT",
-        "productNumber":  "VG-124-605-0027-HT",
-        "partNumber":  "VG-124-605-0027-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "id":  "HT2830",
+        "number":  "HT2830",
+        "productNumber":  "HT2830",
+        "partNumber":  "HT2830",
+        "name":  "Valve Seal",
+        "productName":  "Valve Seal",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "VG 124 605 0027-HT",
+        "description":  "VALVE SEAL",
+        "visibleDescription":  "HT2830 VALVE SEAL ID8 10 14.5 GENUINE VG 124 605 0027-HT HT2830 VALVE SEAL D12 WP12 ID 8 OD 14.5 HI 10",
+        "longDescription":  "HT2830 VALVE SEAL ID8 10 14.5 GENUINE VG 124 605 0027-HT HT2830 VALVE SEAL D12 WP12 ID 8 OD 14.5 HI 10",
         "application":  "WP12, D12",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WP12, D12",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/VG-124-605-0027-HT.jpeg",
+        "alternateNumbers":  [
+                                 "VG-124-605-0027-HT"
+                             ],
+        "alternatePartNumbers":  [
+                                     "VG-124-605-0027-HT"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/HT2830.jpeg",
         "specifications":  {
                                "OD":  [
                                           "14.5"
@@ -6364,19 +7145,22 @@ window.NAE_IMPORTED_PRODUCTS = [
                          "D12",
                          "OD 14.5",
                          "ID 8",
-                         "HI 10"
+                         "HI 10",
+                         "Valve Seal",
+                         "VALVE",
+                         "VALVE SEAL"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "VG-124-605-0027-HT Manual review required Huatai other VG 124 605 0027-HT WP12, D12 OD 14.5; ID 8; HI 10 OCR result needs manual review before import. OD 14.5 ID 8 HI 10 WP12 D12 Count 3 IsReadOnly False Keys OD Keys ID Keys HI Values 14.5 Values 8 Values 10 IsFixedSize False SyncRoot System.Object IsSynchronized False ID8 10 14.5 GENUINE VG 124 605 0027-HT HT2830 VALVE SEAL D12 WP12 ID 8 OD 14.5 HI 10",
-        "confidence":  92,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "HT2830 Valve Seal Huatai engine-parts VALVE SEAL HT2830 VALVE SEAL ID8 10 14.5 GENUINE VG 124 605 0027-HT HT2830 VALVE SEAL D12 WP12 ID 8 OD 14.5 HI 10 WP12, D12 OD 14.5; ID 8; HI 10 Ready stock OD 14.5 ID 8 HI 10 WP12 D12 VALVE VG-124-605-0027-HT Count 3 IsReadOnly False Keys OD Keys ID Keys HI Values 14.5 Values 8 Values 10 IsFixedSize False SyncRoot System.Object IsSynchronized False ID8 10 14.5 GENUINE VG 124 605 0027-HT HT2830 VALVE SEAL D12 WP12 ID 8 OD 14.5 HI 10",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.00 PM (3).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.00 PM (3).jpeg",
                        "hash":  "a67aa655fe4035c2f24fc7e0887c912997de94e341855a9bddca88711be61760",
                        "ocrText":  "ID8 10 14.5 GENUINE VG 124 605 0027-HT HT2830 VALVE SEAL D12 WP12 ID 8 OD 14.5 HI 10",
-                       "importedAt":  "2026-07-22T00:01:58"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
@@ -6384,18 +7168,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "612600061256-HT",
         "productNumber":  "612600061256-HT",
         "partNumber":  "612600061256-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Belt Tensioner",
+        "productName":  "Belt Tensioner",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
-        "application":  "HANVAN",
+        "description":  "Belt Tensioner",
+        "visibleDescription":  "612600061256-HT HI 40 OD 74 HUATAI\u0027 GENUINE PARTS U S, ASIA ECONOMIC TRADE COOPERATION T\u0027-E US NTERNAT._WA ÄJAL-RRR 612600061256-HT HT2274 BELT TENSIONER WPIO/12 USE IOPK BELT PA80T YUTONG 5470 XCMG 40 TON ADV",
+        "longDescription":  "612600061256-HT HI 40 OD 74 HUATAI\u0027 GENUINE PARTS U S, ASIA ECONOMIC TRADE COOPERATION T\u0027-E US NTERNAT._WA ÄJAL-RRR 612600061256-HT HT2274 BELT TENSIONER WPIO/12 USE IOPK BELT PA80T YUTONG 5470 XCMG 40 TON ADV",
+        "application":  "HANVAN, YUTONG, WP10",
         "brand":  "Huatai",
-        "vehicleModel":  "HANVAN",
-        "engineModel":  "",
+        "vehicleModel":  "HANVAN, YUTONG",
+        "engineModel":  "WP10",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/612600061256-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT2274"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2274"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/612600061256-HT-227C660A2ECD.jpeg",
         "specifications":  {
                                "OD":  [
                                           "74"
@@ -6410,13 +7202,17 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "OD 74; HI 40",
         "keywords":  [
+                         "WP10",
                          "HANVAN",
+                         "YUTONG",
                          "OD 74",
-                         "HI 40"
+                         "HI 40",
+                         "Belt Tensioner",
+                         "BELT TENSIONER"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "612600061256-HT Manual review required Huatai other Needs manual review HANVAN OD 74; HI 40 OCR result needs manual review before import. OD 74 HI 40 Count 2 IsReadOnly False Keys OD Keys HI Values 74 Values 40 IsFixedSize False SyncRoot System.Object IsSynchronized False HI 40 OD 74 HUATAI\u0027 GENUINE PARTS U S, ASIA ECONOMIC TRADE COOPERATION T\u0027-E US NTERNAT._WA ÄJAL-RRR 612600061256-HT HT2274 BELT TENSIONER WPIO/12 USE IOPK BELT PA80T YUTONG 5470 XCMG 40 TON ADV",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "612600061256-HT Belt Tensioner Huatai engine-parts 612600061256-HT HI 40 OD 74 HUATAI\u0027 GENUINE PARTS U S, ASIA ECONOMIC TRADE COOPERATION T\u0027-E US NTERNAT._WA ÄJAL-RRR 612600061256-HT HT2274 BELT TENSIONER WPIO/12 USE IOPK BELT PA80T YUTONG 5470 XCMG 40 TON ADV HANVAN, YUTONG, WP10 HANVAN, YUTONG WP10 OD 74; HI 40 Ready stock OD 74 HI 40 HANVAN YUTONG BELT TENSIONER HT2274 Count 2 IsReadOnly False Keys OD Keys HI Values 74 Values 40 IsFixedSize False SyncRoot System.Object IsSynchronized False HI 40 OD 74 HUATAI\u0027 GENUINE PARTS U S, ASIA ECONOMIC TRADE COOPERATION T\u0027-E US NTERNAT._WA ÄJAL-RRR 612600061256-HT HT2274 BELT TENSIONER WPIO/12 USE IOPK BELT PA80T YUTONG 5470 XCMG 40 TON ADV",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -6424,7 +7220,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.00 PM.jpeg",
                        "hash":  "227c660a2ecd0886740ad6563b898191c2769cac9a78b3af54140e31f9b88990",
                        "ocrText":  "HI 40 OD 74 HUATAI\u0027 GENUINE PARTS U S, ASIA ECONOMIC TRADE COOPERATION T\u0027-E US NTERNAT._WA ÄJAL-RRR 612600061256-HT HT2274 BELT TENSIONER WPIO/12 USE IOPK BELT PA80T YUTONG 5470 XCMG 40 TON ADV",
-                       "importedAt":  "2026-07-22T00:01:58"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
@@ -6437,13 +7233,21 @@ window.NAE_IMPORTED_PRODUCTS = [
         "category":  "clutch-system",
         "subcategory":  "",
         "description":  "WG-972 516 0510-HT",
+        "visibleDescription":  "WG-972 516 0510-HT FORK 86MM HI 34 L 29 HI 122 BERRING OD 132 NOAUJMNHB-1K ID 63 OD 88 WG-972 516 0510-HT HT5094 CLUTCH BRG OD 155 HI 120 ID 63 NEW MODEL",
+        "longDescription":  "WG-972 516 0510-HT FORK 86MM HI 34 L 29 HI 122 BERRING OD 132 NOAUJMNHB-1K ID 63 OD 88 WG-972 516 0510-HT HT5094 CLUTCH BRG OD 155 HI 120 ID 63 NEW MODEL",
         "application":  "",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "",
-        "oeNumber":  "AUJMNHB-1K",
+        "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "HT5094"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT5094"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/WG-972-516-0510-HT.jpeg",
+        "image":  "assets/img/products/WG-972-516-0510-HT-5425BA08CD0C.jpeg",
         "specifications":  {
                                "OD":  [
                                           "132",
@@ -6466,7 +7270,6 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "OD 132, 88, 155; ID 63; HI 34, 122, 120",
         "keywords":  [
-                         "AUJMNHB-1K",
                          "OD 132, 88, 155",
                          "ID 63",
                          "HI 34, 122, 120",
@@ -6476,7 +7279,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "WG-972-516-0510-HT Clutch Bearing Huatai clutch-system WG-972 516 0510-HT AUJMNHB-1K OD 132, 88, 155; ID 63; HI 34, 122, 120 Ready stock OD 132, 88, 155 ID 63 HI 34, 122, 120 CLUTCH BEARING Count 3 IsReadOnly False Keys OD Keys ID Keys HI Values 132 88 155 Values 63 Values 34 122 120 IsFixedSize False SyncRoot System.Object IsSynchronized False FORK 86MM HI 34 L 29 HI 122 BERRING OD 132 NOAUJMNHB-1K ID 63 OD 88 WG-972 516 0510-HT HT5094 CLUTCH BRG OD 155 HI 120 ID 63 NEW MODEL",
+        "searchableText":  "WG-972-516-0510-HT Clutch Bearing Huatai clutch-system WG-972 516 0510-HT WG-972 516 0510-HT FORK 86MM HI 34 L 29 HI 122 BERRING OD 132 NOAUJMNHB-1K ID 63 OD 88 WG-972 516 0510-HT HT5094 CLUTCH BRG OD 155 HI 120 ID 63 NEW MODEL OD 132, 88, 155; ID 63; HI 34, 122, 120 Ready stock OD 132, 88, 155 ID 63 HI 34, 122, 120 CLUTCH BEARING HT5094 Count 3 IsReadOnly False Keys OD Keys ID Keys HI Values 132 88 155 Values 63 Values 34 122 120 IsFixedSize False SyncRoot System.Object IsSynchronized False FORK 86MM HI 34 L 29 HI 122 BERRING OD 132 NOAUJMNHB-1K ID 63 OD 88 WG-972 516 0510-HT HT5094 CLUTCH BRG OD 155 HI 120 ID 63 NEW MODEL",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -6484,7 +7287,58 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.01 PM.jpeg",
                        "hash":  "5425ba08cd0cb6ab27ceb97e260f2223f827b6cf916b539633c095a09c4b974e",
                        "ocrText":  "FORK 86MM HI 34 L 29 HI 122 BERRING OD 132 NOAUJMNHB-1K ID 63 OD 88 WG-972 516 0510-HT HT5094 CLUTCH BRG OD 155 HI 120 ID 63 NEW MODEL",
-                       "importedAt":  "2026-07-22T00:01:59"
+                       "importedAt":  "2026-07-22T22:55:24"
+                   }
+    },
+    {
+        "id":  "VG-610-0007-0005-HT",
+        "number":  "VG-610-0007-0005-HT",
+        "productNumber":  "VG-610-0007-0005-HT",
+        "partNumber":  "VG-610-0007-0005-HT",
+        "name":  "Oil Filter",
+        "productName":  "Oil Filter",
+        "category":  "engine-parts",
+        "subcategory":  "",
+        "description":  "VG-610 0007 0005-HT",
+        "visibleDescription":  "VG-610 0007 0005-HT FILTER GWNBRP PRODUCT WEIGHT 800G HUATAI MADE \u0027N CHINA 61000070005/1000424655/1000825170 OIL FILTER SINOTRUK/WEICHAI WD615 JX0818 HT2385 VG-610 0007 0005-HT HT2385 OIL FILTER ILL I ILL Q 11 11 11 11 1 1 1 976046 222 G B 7",
+        "longDescription":  "VG-610 0007 0005-HT FILTER GWNBRP PRODUCT WEIGHT 800G HUATAI MADE \u0027N CHINA 61000070005/1000424655/1000825170 OIL FILTER SINOTRUK/WEICHAI WD615 JX0818 HT2385 VG-610 0007 0005-HT HT2385 OIL FILTER ILL I ILL Q 11 11 11 11 1 1 1 976046 222 G B 7",
+        "application":  "HOWO, WD615",
+        "brand":  "Huatai",
+        "vehicleModel":  "HOWO",
+        "engineModel":  "WD615",
+        "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "HT2385"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2385"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/VG-610-0007-0005-HT-9156ECECC819.jpeg",
+        "specifications":  {
+
+                           },
+        "specs":  [
+
+                  ],
+        "specification":  "",
+        "keywords":  [
+                         "WD615",
+                         "HOWO",
+                         "Oil Filter",
+                         "OIL FILTER"
+                     ],
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "VG-610-0007-0005-HT Oil Filter Huatai engine-parts VG-610 0007 0005-HT VG-610 0007 0005-HT FILTER GWNBRP PRODUCT WEIGHT 800G HUATAI MADE \u0027N CHINA 61000070005/1000424655/1000825170 OIL FILTER SINOTRUK/WEICHAI WD615 JX0818 HT2385 VG-610 0007 0005-HT HT2385 OIL FILTER ILL I ILL Q 11 11 11 11 1 1 1 976046 222 G B 7 HOWO, WD615 HOWO WD615 Ready stock OIL FILTER HT2385 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False FILTER GWNBRP PRODUCT WEIGHT 800G HUATAI MADE \u0027N CHINA 61000070005/1000424655/1000825170 OIL FILTER SINOTRUK/WEICHAI WD615 JX0818 HT2385 VG-610 0007 0005-HT HT2385 OIL FILTER ILL I ILL Q 11 11 11 11 1 1 1 976046 222 G B 7",
+        "confidence":  100,
+        "source":  {
+                       "type":  "whatsapp-image",
+                       "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.03 PM (1).jpeg",
+                       "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.03 PM (1).jpeg",
+                       "hash":  "9156ececc819666e709dfedd447524a3b22a5af375d6c717659e702a89ae54be",
+                       "ocrText":  "FILTER GWNBRP PRODUCT WEIGHT 800G HUATAI MADE \u0027N CHINA 61000070005/1000424655/1000825170 OIL FILTER SINOTRUK/WEICHAI WD615 JX0818 HT2385 VG-610 0007 0005-HT HT2385 OIL FILTER ILL I ILL Q 11 11 11 11 1 1 1 976046 222 G B 7",
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
@@ -6492,18 +7346,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "612630040026-HT",
         "productNumber":  "612630040026-HT",
         "partNumber":  "612630040026-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Injector Sleeve",
+        "productName":  "Injector Sleeve",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
-        "application":  "WP12",
+        "description":  "Injector Sleeve",
+        "visibleDescription":  "612630040026-HT L 79 HUATAIE GENUINE PARTS ID6 ODII OD 21 OD 25 OD 30 ID 27 HUATAI MADE IN CHINA 612630040026 INJETOR SLEEVE WEICHAI WP12 6 PCS 032,: 6 976955 292217 612630040026-HT HT3977 NOZZLE TUBE WP12.420 BEIBEN ID 6/27 L 79 OD 11/21/25/30",
+        "longDescription":  "612630040026-HT L 79 HUATAIE GENUINE PARTS ID6 ODII OD 21 OD 25 OD 30 ID 27 HUATAI MADE IN CHINA 612630040026 INJETOR SLEEVE WEICHAI WP12 6 PCS 032,: 6 976955 292217 612630040026-HT HT3977 NOZZLE TUBE WP12.420 BEIBEN ID 6/27 L 79 OD 11/21/25/30",
+        "application":  "BEIBEN, WP12",
         "brand":  "Huatai",
-        "vehicleModel":  "",
+        "vehicleModel":  "BEIBEN",
         "engineModel":  "WP12",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/612630040026-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT3977"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT3977"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/612630040026-HT-14BF74F2D9E8.jpeg",
         "specifications":  {
                                "OD":  [
                                           "21",
@@ -6523,12 +7385,15 @@ window.NAE_IMPORTED_PRODUCTS = [
         "specification":  "OD 21, 25, 30, 11; ID 6, 27",
         "keywords":  [
                          "WP12",
+                         "BEIBEN",
                          "OD 21, 25, 30, 11",
-                         "ID 6, 27"
+                         "ID 6, 27",
+                         "Injector Sleeve",
+                         "INJECTOR SLEEVE"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "612630040026-HT Manual review required Huatai other Needs manual review WP12 OD 21, 25, 30, 11; ID 6, 27 OCR result needs manual review before import. OD 21, 25, 30, 11 ID 6, 27 Count 2 IsReadOnly False Keys OD Keys ID Values 21 25 30 11 Values 6 27 IsFixedSize False SyncRoot System.Object IsSynchronized False L 79 HUATAIE GENUINE PARTS ID6 ODII OD 21 OD 25 OD 30 ID 27 HUATAI MADE IN CHINA 612630040026 INJETOR SLEEVE WEICHAI WP12 6 PCS 032,: 6 976955 292217 612630040026-HT HT3977 NOZZLE TUBE WP12.420 BEIBEN ID 6/27 L 79 OD 11/21/25/30",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "612630040026-HT Injector Sleeve Huatai engine-parts 612630040026-HT L 79 HUATAIE GENUINE PARTS ID6 ODII OD 21 OD 25 OD 30 ID 27 HUATAI MADE IN CHINA 612630040026 INJETOR SLEEVE WEICHAI WP12 6 PCS 032,: 6 976955 292217 612630040026-HT HT3977 NOZZLE TUBE WP12.420 BEIBEN ID 6/27 L 79 OD 11/21/25/30 BEIBEN, WP12 BEIBEN WP12 OD 21, 25, 30, 11; ID 6, 27 Ready stock OD 21, 25, 30, 11 ID 6, 27 INJECTOR SLEEVE HT3977 Count 2 IsReadOnly False Keys OD Keys ID Values 21 25 30 11 Values 6 27 IsFixedSize False SyncRoot System.Object IsSynchronized False L 79 HUATAIE GENUINE PARTS ID6 ODII OD 21 OD 25 OD 30 ID 27 HUATAI MADE IN CHINA 612630040026 INJETOR SLEEVE WEICHAI WP12 6 PCS 032,: 6 976955 292217 612630040026-HT HT3977 NOZZLE TUBE WP12.420 BEIBEN ID 6/27 L 79 OD 11/21/25/30",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -6536,107 +7401,98 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.03 PM (2).jpeg",
                        "hash":  "14bf74f2d9e8c0c4c2f73ed5454d056f6d0313569004ba458deb4703229210da",
                        "ocrText":  "L 79 HUATAIE GENUINE PARTS ID6 ODII OD 21 OD 25 OD 30 ID 27 HUATAI MADE IN CHINA 612630040026 INJETOR SLEEVE WEICHAI WP12 6 PCS 032,: 6 976955 292217 612630040026-HT HT3977 NOZZLE TUBE WP12.420 BEIBEN ID 6/27 L 79 OD 11/21/25/30",
-                       "importedAt":  "2026-07-22T00:01:59"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
-        "id":  "AZ-923-132-0007-HT",
-        "number":  "AZ-923-132-0007-HT",
-        "productNumber":  "AZ-923-132-0007-HT",
-        "partNumber":  "AZ-923-132-0007-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "id":  "VG-156-003-7033-1-HT",
+        "number":  "VG-156-003-7033-1-HT",
+        "productNumber":  "VG-156-003-7033-1-HT",
+        "partNumber":  "VG-156-003-7033-1-HT",
+        "name":  "Connecting Rod Bearing Set",
+        "productName":  "Connecting Rod Bearing Set",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "AZ-923 132 0007-HT",
-        "application":  "HOWO",
+        "description":  "VG-156 003 7033-1-HT",
+        "visibleDescription":  "VG-156 003 7033-1-HT OD 90 35 ID 83 HUATAI ENGINE BEARING BKJIAABLUJ UJATYHA U S TRADE THK 0.25 VG-156 003 7033-1-HT HT1103 ( 0.25 ) C/R BRG 0.25 WD615.47 36X89",
+        "longDescription":  "VG-156 003 7033-1-HT OD 90 35 ID 83 HUATAI ENGINE BEARING BKJIAABLUJ UJATYHA U S TRADE THK 0.25 VG-156 003 7033-1-HT HT1103 ( 0.25 ) C/R BRG 0.25 WD615.47 36X89",
+        "application":  "WD615",
         "brand":  "Huatai",
-        "vehicleModel":  "HOWO",
-        "engineModel":  "",
-        "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/AZ-923-132-0007-HT.jpeg",
-        "specifications":  {
-
-                           },
-        "specs":  [
-
-                  ],
-        "specification":  "",
-        "keywords":  [
-                         "HOWO"
-                     ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "AZ-923-132-0007-HT Manual review required Huatai other AZ-923 132 0007-HT HOWO OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI MADE IN CHINA AZ9231320007 REAR AXLE REDUCER ASSY STR 33•26 (NEE4.42) 1 15KG HUATAI AXLE PEAYKTCP 8 AZ-923 132 0007-HT HT5956 REAR DIFF ASSY 26X33 CAMC HOWO STY AXLE RATIO 4.42 ( HOLE M12 )",
-        "confidence":  92,
-        "source":  {
-                       "type":  "whatsapp-image",
-                       "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.03 PM.jpeg",
-                       "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.03 PM.jpeg",
-                       "hash":  "2336c6655e65b17ba353ba8cafd2e3e2ca51f96b8395b26e11f56c03f291dae1",
-                       "ocrText":  "HUATAI MADE IN CHINA AZ9231320007 REAR AXLE REDUCER ASSY STR 33•26 (NEE4.42) 1 15KG HUATAI AXLE PEAYKTCP 8 AZ-923 132 0007-HT HT5956 REAR DIFF ASSY 26X33 CAMC HOWO STY AXLE RATIO 4.42 ( HOLE M12 )",
-                       "importedAt":  "2026-07-22T00:02:00"
-                   }
-    },
-    {
-        "id":  "VG-610-0007-0005-HT",
-        "number":  "VG-610-0007-0005-HT",
-        "productNumber":  "VG-610-0007-0005-HT",
-        "partNumber":  "VG-610-0007-0005-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
-        "subcategory":  "",
-        "description":  "VG-610 0007 0005-HT",
-        "application":  "HOWO, WD615",
-        "brand":  "Huatai",
-        "vehicleModel":  "HOWO",
+        "vehicleModel":  "",
         "engineModel":  "WD615",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/VG-610-0007-0005-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT1103"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1103"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/VG-156-003-7033-1-HT.jpeg",
         "specifications":  {
-
+                               "OD":  [
+                                          "90"
+                                      ],
+                               "ID":  [
+                                          "83"
+                                      ],
+                               "Bearing":  [
+                                               "0"
+                                           ]
                            },
         "specs":  [
-
+                      "OD 90",
+                      "ID 83",
+                      "Bearing 0"
                   ],
-        "specification":  "",
+        "specification":  "OD 90; ID 83; Bearing 0",
         "keywords":  [
                          "WD615",
-                         "HOWO"
+                         "OD 90",
+                         "ID 83",
+                         "Bearing 0",
+                         "Connecting Rod Bearing Set",
+                         "BEARING",
+                         "CONNECTING ROD BEARING"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "VG-610-0007-0005-HT Manual review required Huatai other VG-610 0007 0005-HT HOWO, WD615 HOWO WD615 OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False FILTER GWNBRP PRODUCT WEIGHT 800G HUATAI MADE \u0027N CHINA 61000070005/1000424655/1000825170 OIL FILTER SINOTRUK/WEICHAI WD615 JX0818 HT2385 VG-610 0007 0005-HT HT2385 OIL FILTER ILL I ILL Q 11 11 11 11 1 1 1 976046 222 G B 7",
-        "confidence":  92,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "VG-156-003-7033-1-HT Connecting Rod Bearing Set Huatai engine-parts VG-156 003 7033-1-HT VG-156 003 7033-1-HT OD 90 35 ID 83 HUATAI ENGINE BEARING BKJIAABLUJ UJATYHA U S TRADE THK 0.25 VG-156 003 7033-1-HT HT1103 ( 0.25 ) C/R BRG 0.25 WD615.47 36X89 WD615 OD 90; ID 83; Bearing 0 Ready stock OD 90 ID 83 Bearing 0 BEARING CONNECTING ROD BEARING HT1103 Count 3 IsReadOnly False Keys OD Keys ID Keys Bearing Values 90 Values 83 Values 0 IsFixedSize False SyncRoot System.Object IsSynchronized False OD 90 35 ID 83 HUATAI ENGINE BEARING BKJIAABLUJ UJATYHA U S TRADE THK 0.25 VG-156 003 7033-1-HT HT1103 ( 0.25 ) C/R BRG 0.25 WD615.47 36X89",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
-                       "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.03 PM (1).jpeg",
-                       "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.03 PM (1).jpeg",
-                       "hash":  "9156ececc819666e709dfedd447524a3b22a5af375d6c717659e702a89ae54be",
-                       "ocrText":  "FILTER GWNBRP PRODUCT WEIGHT 800G HUATAI MADE \u0027N CHINA 61000070005/1000424655/1000825170 OIL FILTER SINOTRUK/WEICHAI WD615 JX0818 HT2385 VG-610 0007 0005-HT HT2385 OIL FILTER ILL I ILL Q 11 11 11 11 1 1 1 976046 222 G B 7",
-                       "importedAt":  "2026-07-22T00:01:59"
+                       "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.02 PM.jpeg",
+                       "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.02 PM.jpeg",
+                       "hash":  "f0f2517082f592bac40f5f00d49ab7461d8d5d20ab6ccbcd081fe5d47e6a1cf3",
+                       "ocrText":  "OD 90 35 ID 83 HUATAI ENGINE BEARING BKJIAABLUJ UJATYHA U S TRADE THK 0.25 VG-156 003 7033-1-HT HT1103 ( 0.25 ) C/R BRG 0.25 WD615.47 36X89",
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
-        "id":  "WG-972-523-0041",
-        "number":  "WG-972-523-0041",
-        "productNumber":  "WG-972-523-0041",
-        "partNumber":  "WG-972-523-0041",
+        "id":  "HT5877",
+        "number":  "HT5877",
+        "productNumber":  "HT5877",
+        "partNumber":  "HT5877",
         "name":  "Clutch Servo",
         "productName":  "Clutch Servo",
         "category":  "clutch-system",
         "subcategory":  "",
-        "description":  "WG-972 523 0041/1-OLD-HT",
-        "application":  "HOWO",
+        "description":  "CLUTCH SERVO HOWO",
+        "visibleDescription":  "HT5877 CLUTCH SERVO HOWO 125 HUATAI• CLUTCH BOOSTER CYLINDER NRY CUEMEHHR NÉ-UEN• 92 M16 M14 WG-972 523 0041/1-OLD-HT HT5877 CLUTCH SERVO HOWO BTM CLUTCH PUMP DAYUN / BEIBEN BLACK COLOUR",
+        "longDescription":  "HT5877 CLUTCH SERVO HOWO 125 HUATAI• CLUTCH BOOSTER CYLINDER NRY CUEMEHHR NÉ-UEN• 92 M16 M14 WG-972 523 0041/1-OLD-HT HT5877 CLUTCH SERVO HOWO BTM CLUTCH PUMP DAYUN / BEIBEN BLACK COLOUR",
+        "application":  "HOWO, DAYUN, BEIBEN",
         "brand":  "Huatai",
-        "vehicleModel":  "HOWO",
+        "vehicleModel":  "HOWO, DAYUN, BEIBEN",
         "engineModel":  "",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "WG-972-523-0041"
+                             ],
+        "alternatePartNumbers":  [
+                                     "WG-972-523-0041"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/WG-972-523-0041.jpeg",
+        "image":  "assets/img/products/HT5877.jpeg",
         "specifications":  {
 
                            },
@@ -6646,21 +7502,23 @@ window.NAE_IMPORTED_PRODUCTS = [
         "specification":  "",
         "keywords":  [
                          "HOWO",
+                         "DAYUN",
+                         "BEIBEN",
                          "Clutch Servo",
                          "CLUTCH",
                          "SERVO"
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "WG-972-523-0041 Clutch Servo Huatai clutch-system WG-972 523 0041/1-OLD-HT HOWO Ready stock CLUTCH SERVO Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 125 HUATAI• CLUTCH BOOSTER CYLINDER NRY CUEMEHHR NÉ-UEN• 92 M16 M14 WG-972 523 0041/1-OLD-HT HT5877 CLUTCH SERVO HOWO BTM CLUTCH PUMP DAYUN / BEIBEN BLACK COLOUR",
-        "confidence":  64,
+        "searchableText":  "HT5877 Clutch Servo Huatai clutch-system CLUTCH SERVO HOWO HT5877 CLUTCH SERVO HOWO 125 HUATAI• CLUTCH BOOSTER CYLINDER NRY CUEMEHHR NÉ-UEN• 92 M16 M14 WG-972 523 0041/1-OLD-HT HT5877 CLUTCH SERVO HOWO BTM CLUTCH PUMP DAYUN / BEIBEN BLACK COLOUR HOWO, DAYUN, BEIBEN Ready stock HOWO DAYUN BEIBEN CLUTCH SERVO WG-972-523-0041 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False 125 HUATAI• CLUTCH BOOSTER CYLINDER NRY CUEMEHHR NÉ-UEN• 92 M16 M14 WG-972 523 0041/1-OLD-HT HT5877 CLUTCH SERVO HOWO BTM CLUTCH PUMP DAYUN / BEIBEN BLACK COLOUR",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.02 PM (1).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.02 PM (1).jpeg",
                        "hash":  "9f9b043518cafe2609d98e50abdd956065f2a43144606cf1198f2a4c776141b3",
                        "ocrText":  "125 HUATAI• CLUTCH BOOSTER CYLINDER NRY CUEMEHHR NÉ-UEN• 92 M16 M14 WG-972 523 0041/1-OLD-HT HT5877 CLUTCH SERVO HOWO BTM CLUTCH PUMP DAYUN / BEIBEN BLACK COLOUR",
-                       "importedAt":  "2026-07-22T00:01:59"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
@@ -6668,18 +7526,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "AZ-923-132-0014-HT",
         "productNumber":  "AZ-923-132-0014-HT",
         "partNumber":  "AZ-923-132-0014-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Two Speed Flange",
+        "productName":  "Two Speed Flange",
+        "category":  "axle-parts",
         "subcategory":  "",
         "description":  "AZ-923 132 0014-HT",
+        "visibleDescription":  "AZ-923 132 0014-HT HUATAIE GENUINE PARTS 90 1 M15 ID 60 46 T 180 60 HUATAI AZ-923 132 0014-HT HT6007 2 SPEED FLANGE 46T OD 180 4 HOLE HI 90",
+        "longDescription":  "AZ-923 132 0014-HT HUATAIE GENUINE PARTS 90 1 M15 ID 60 46 T 180 60 HUATAI AZ-923 132 0014-HT HT6007 2 SPEED FLANGE 46T OD 180 4 HOLE HI 90",
         "application":  "",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/AZ-923-132-0014-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT6007"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT6007"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/AZ-923-132-0014-HT-C55B92D30287.jpeg",
         "specifications":  {
                                "OD":  [
                                           "180"
@@ -6705,11 +7571,12 @@ window.NAE_IMPORTED_PRODUCTS = [
                          "OD 180",
                          "ID 60",
                          "HI 90",
-                         "Teeth 46T"
+                         "Teeth 46T",
+                         "Two Speed Flange"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "AZ-923-132-0014-HT Manual review required Huatai other AZ-923 132 0014-HT OD 180; ID 60; HI 90; Teeth 46T OCR result needs manual review before import. OD 180 ID 60 HI 90 Teeth 46T Count 4 IsReadOnly False Keys OD Keys ID Keys HI Keys Teeth Values 180 Values 60 Values 90 Values 46T IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAIE GENUINE PARTS 90 1 M15 ID 60 46 T 180 60 HUATAI AZ-923 132 0014-HT HT6007 2 SPEED FLANGE 46T OD 180 4 HOLE HI 90",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "AZ-923-132-0014-HT Two Speed Flange Huatai axle-parts AZ-923 132 0014-HT AZ-923 132 0014-HT HUATAIE GENUINE PARTS 90 1 M15 ID 60 46 T 180 60 HUATAI AZ-923 132 0014-HT HT6007 2 SPEED FLANGE 46T OD 180 4 HOLE HI 90 OD 180; ID 60; HI 90; Teeth 46T Ready stock OD 180 ID 60 HI 90 Teeth 46T HT6007 Count 4 IsReadOnly False Keys OD Keys ID Keys HI Keys Teeth Values 180 Values 60 Values 90 Values 46T IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAIE GENUINE PARTS 90 1 M15 ID 60 46 T 180 60 HUATAI AZ-923 132 0014-HT HT6007 2 SPEED FLANGE 46T OD 180 4 HOLE HI 90",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -6717,26 +7584,34 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.02 PM (2).jpeg",
                        "hash":  "c55b92d30287a39327b2e840019c6a29a861ed558be13b28ce3b8a08d36f4b08",
                        "ocrText":  "HUATAIE GENUINE PARTS 90 1 M15 ID 60 46 T 180 60 HUATAI AZ-923 132 0014-HT HT6007 2 SPEED FLANGE 46T OD 180 4 HOLE HI 90",
-                       "importedAt":  "2026-07-22T00:01:59"
+                       "importedAt":  "2026-07-22T22:55:25"
                    }
     },
     {
-        "id":  "612600030033",
-        "number":  "612600030033",
-        "productNumber":  "612600030033",
-        "partNumber":  "612600030033",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "id":  "612600030033-0-25-HT",
+        "number":  "612600030033-0-25-HT",
+        "productNumber":  "612600030033-0-25-HT",
+        "partNumber":  "612600030033-0-25-HT",
+        "name":  "Connecting Rod Bearing Set",
+        "productName":  "Connecting Rod Bearing Set",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "0.25-HT",
+        "description":  "612600030033-0.25-HT",
+        "visibleDescription":  "612600030033-0.25-HT OD 90 HK 0.25 35 ID 84 HUATAI\u0027 ENGINE BEARING BKF1AABLUJ UJATYHA U S ECONOMIC TRADE 612600030033-0.25-HT HTIIIO ( 0.25 ) C/R BRG 0.25 WD618 ID 84 OD 90 HI 35",
+        "longDescription":  "612600030033-0.25-HT OD 90 HK 0.25 35 ID 84 HUATAI\u0027 ENGINE BEARING BKF1AABLUJ UJATYHA U S ECONOMIC TRADE 612600030033-0.25-HT HTIIIO ( 0.25 ) C/R BRG 0.25 WD618 ID 84 OD 90 HI 35",
         "application":  "WD618",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD618",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/612600030033.jpeg",
+        "alternateNumbers":  [
+
+                             ],
+        "alternatePartNumbers":  [
+
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/612600030033-0-25-HT.jpeg",
         "specifications":  {
                                "OD":  [
                                           "90"
@@ -6763,38 +7638,49 @@ window.NAE_IMPORTED_PRODUCTS = [
                          "OD 90",
                          "ID 84",
                          "HI 35",
-                         "Bearing 0"
+                         "Bearing 0",
+                         "Connecting Rod Bearing Set",
+                         "BEARING",
+                         "CONNECTING ROD BEARING"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "612600030033 Manual review required Huatai other 0.25-HT WD618 OD 90; ID 84; HI 35; Bearing 0 OCR result needs manual review before import. OD 90 ID 84 HI 35 Bearing 0 Count 4 IsReadOnly False Keys OD Keys ID Keys HI Keys Bearing Values 90 Values 84 Values 35 Values 0 IsFixedSize False SyncRoot System.Object IsSynchronized False OD 90 HK 0.25 35 ID 84 HUATAI\u0027 ENGINE BEARING BKF1AABLUJ UJATYHA U S ECONOMIC TRADE 612600030033-0.25-HT HTIIIO ( 0.25 ) C/R BRG 0.25 WD618 ID 84 OD 90 HI 35",
-        "confidence":  46,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "612600030033-0-25-HT Connecting Rod Bearing Set Huatai engine-parts 612600030033-0.25-HT 612600030033-0.25-HT OD 90 HK 0.25 35 ID 84 HUATAI\u0027 ENGINE BEARING BKF1AABLUJ UJATYHA U S ECONOMIC TRADE 612600030033-0.25-HT HTIIIO ( 0.25 ) C/R BRG 0.25 WD618 ID 84 OD 90 HI 35 WD618 OD 90; ID 84; HI 35; Bearing 0 Ready stock OD 90 ID 84 HI 35 Bearing 0 BEARING CONNECTING ROD BEARING Count 4 IsReadOnly False Keys OD Keys ID Keys HI Keys Bearing Values 90 Values 84 Values 35 Values 0 IsFixedSize False SyncRoot System.Object IsSynchronized False OD 90 HK 0.25 35 ID 84 HUATAI\u0027 ENGINE BEARING BKF1AABLUJ UJATYHA U S ECONOMIC TRADE 612600030033-0.25-HT HTIIIO ( 0.25 ) C/R BRG 0.25 WD618 ID 84 OD 90 HI 35",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.22.00 PM (2).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.00 PM (2).jpeg",
                        "hash":  "e101ce303667e58a1d5c7687d38f2b0967e2d569b244cd75b62412d2175ba8a2",
                        "ocrText":  "OD 90 HK 0.25 35 ID 84 HUATAI\u0027 ENGINE BEARING BKF1AABLUJ UJATYHA U S ECONOMIC TRADE 612600030033-0.25-HT HTIIIO ( 0.25 ) C/R BRG 0.25 WD618 ID 84 OD 90 HI 35",
-                       "importedAt":  "2026-07-22T00:01:58"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
-        "id":  "612600030017",
-        "number":  "612600030017",
-        "productNumber":  "612600030017",
-        "partNumber":  "612600030017",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "id":  "KC612600030017-HT",
+        "number":  "KC612600030017-HT",
+        "productNumber":  "KC612600030017-HT",
+        "partNumber":  "KC612600030017-HT",
+        "name":  "Piston Liner Kit",
+        "productName":  "Piston Liner Kit",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
+        "description":  "Piston Liner Kit",
+        "visibleDescription":  "KC612600030017-HT HUATAI MADE IN CHINA WEICHAI WD618 001 7 CYLINDER LINER KIT 612600030017 612630010055 612600030054 61560030013 81560030012 37KG 1 SET FITI 223H 0375 6 9 \u002760407 MI 653 KC612600030017-HT HT1223 PISTON LINER KIT 126M WD618",
+        "longDescription":  "KC612600030017-HT HUATAI MADE IN CHINA WEICHAI WD618 001 7 CYLINDER LINER KIT 612600030017 612630010055 612600030054 61560030013 81560030012 37KG 1 SET FITI 223H 0375 6 9 \u002760407 MI 653 KC612600030017-HT HT1223 PISTON LINER KIT 126M WD618",
         "application":  "WD618",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD618",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/612600030017.jpeg",
+        "alternateNumbers":  [
+                                 "HT1223"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1223"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/KC612600030017-HT.jpeg",
         "specifications":  {
 
                            },
@@ -6803,19 +7689,21 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-                         "WD618"
+                         "WD618",
+                         "Piston Liner Kit",
+                         "PISTON LINER KIT"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "612600030017 Manual review required Huatai other Needs manual review WD618 OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI MADE IN CHINA WEICHAI WD618 001 7 CYLINDER LINER KIT 612600030017 612630010055 612600030054 61560030013 81560030012 37KG 1 SET FITI 223H 0375 6 9 \u002760407 MI 653 KC612600030017-HT HT1223 PISTON LINER KIT 126M WD618",
-        "confidence":  64,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "KC612600030017-HT Piston Liner Kit Huatai engine-parts KC612600030017-HT HUATAI MADE IN CHINA WEICHAI WD618 001 7 CYLINDER LINER KIT 612600030017 612630010055 612600030054 61560030013 81560030012 37KG 1 SET FITI 223H 0375 6 9 \u002760407 MI 653 KC612600030017-HT HT1223 PISTON LINER KIT 126M WD618 WD618 Ready stock PISTON LINER KIT HT1223 Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI MADE IN CHINA WEICHAI WD618 001 7 CYLINDER LINER KIT 612600030017 612630010055 612600030054 61560030013 81560030012 37KG 1 SET FITI 223H 0375 6 9 \u002760407 MI 653 KC612600030017-HT HT1223 PISTON LINER KIT 126M WD618",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.21.58 PM (1).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.58 PM (1).jpeg",
                        "hash":  "19f76722cb42df6042f49b47a4c59604db389bba3c9c59fde5a1e8c5d5aa16e4",
                        "ocrText":  "HUATAI MADE IN CHINA WEICHAI WD618 001 7 CYLINDER LINER KIT 612600030017 612630010055 612600030054 61560030013 81560030012 37KG 1 SET FITI 223H 0375 6 9 \u002760407 MI 653 KC612600030017-HT HT1223 PISTON LINER KIT 126M WD618",
-                       "importedAt":  "2026-07-22T00:01:57"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
@@ -6823,18 +7711,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "614080719-HT",
         "productNumber":  "614080719-HT",
         "partNumber":  "614080719-HT",
-        "name":  "Engine Oil Pump",
-        "productName":  "Engine Oil Pump",
+        "name":  "Hand Oil Pump",
+        "productName":  "Hand Oil Pump",
         "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Engine Oil Pump",
-        "application":  "WD615",
+        "description":  "Hand Oil Pump",
+        "visibleDescription":  "614080719-HT H-H 51 24 5 22 H-H 34 614080719-HT 2 SIDE M14 101 HUAT\" HAND OIL FLIMP HACX HUATAI 614080719 HAND OIL PUMP WEICHAI WD615 HT2483H MADE IN CHINA SPIKE-2205.5-305 11 11 1 1 11 1 11 1 I I I I I I I I I I HT2483 HAND AC PUMP WD615.47 HOW0371 4 VALVE ROLLER 24M KF2205.5J4",
+        "longDescription":  "614080719-HT H-H 51 24 5 22 H-H 34 614080719-HT 2 SIDE M14 101 HUAT\" HAND OIL FLIMP HACX HUATAI 614080719 HAND OIL PUMP WEICHAI WD615 HT2483H MADE IN CHINA SPIKE-2205.5-305 11 11 1 1 11 1 11 1 I I I I I I I I I I HT2483 HAND AC PUMP WD615.47 HOW0371 4 VALVE ROLLER 24M KF2205.5J4",
+        "application":  "HOWO, WD615",
         "brand":  "Huatai",
-        "vehicleModel":  "",
+        "vehicleModel":  "HOWO",
         "engineModel":  "WD615",
         "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "HT2483H"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2483H"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/614080719-HT.jpeg",
+        "image":  "assets/img/products/614080719-HT-BF332C0FD716.jpeg",
         "specifications":  {
 
                            },
@@ -6844,12 +7740,13 @@ window.NAE_IMPORTED_PRODUCTS = [
         "specification":  "",
         "keywords":  [
                          "WD615",
-                         "Engine Oil Pump",
+                         "HOWO",
+                         "Hand Oil Pump",
                          "OIL PUMP"
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "614080719-HT Engine Oil Pump Huatai engine-parts WD615 Ready stock OIL PUMP Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False H-H 51 24 5 22 H-H 34 614080719-HT 2 SIDE M14 101 HUAT\" HAND OIL FLIMP HACX HUATAI 614080719 HAND OIL PUMP WEICHAI WD615 HT2483H MADE IN CHINA SPIKE-2205.5-305 11 11 1 1 11 1 11 1 I I I I I I I I I I HT2483 HAND AC PUMP WD615.47 HOW0371 4 VALVE ROLLER 24M KF2205.5J4",
+        "searchableText":  "614080719-HT Hand Oil Pump Huatai engine-parts 614080719-HT H-H 51 24 5 22 H-H 34 614080719-HT 2 SIDE M14 101 HUAT\" HAND OIL FLIMP HACX HUATAI 614080719 HAND OIL PUMP WEICHAI WD615 HT2483H MADE IN CHINA SPIKE-2205.5-305 11 11 1 1 11 1 11 1 I I I I I I I I I I HT2483 HAND AC PUMP WD615.47 HOW0371 4 VALVE ROLLER 24M KF2205.5J4 HOWO, WD615 HOWO WD615 Ready stock OIL PUMP HT2483H Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False H-H 51 24 5 22 H-H 34 614080719-HT 2 SIDE M14 101 HUAT\" HAND OIL FLIMP HACX HUATAI 614080719 HAND OIL PUMP WEICHAI WD615 HT2483H MADE IN CHINA SPIKE-2205.5-305 11 11 1 1 11 1 11 1 I I I I I I I I I I HT2483 HAND AC PUMP WD615.47 HOW0371 4 VALVE ROLLER 24M KF2205.5J4",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -6857,26 +7754,34 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.58 PM (2).jpeg",
                        "hash":  "bf332c0fd7163b96ebb79a6c1908121817067cc8842f407da462dbfecb83c0a8",
                        "ocrText":  "H-H 51 24 5 22 H-H 34 614080719-HT 2 SIDE M14 101 HUAT\" HAND OIL FLIMP HACX HUATAI 614080719 HAND OIL PUMP WEICHAI WD615 HT2483H MADE IN CHINA SPIKE-2205.5-305 11 11 1 1 11 1 11 1 I I I I I I I I I I HT2483 HAND AC PUMP WD615.47 HOW0371 4 VALVE ROLLER 24M KF2205.5J4",
-                       "importedAt":  "2026-07-22T00:01:57"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
-        "id":  "WG-972-516-0510",
-        "number":  "WG-972-516-0510",
-        "productNumber":  "WG-972-516-0510",
-        "partNumber":  "WG-972-516-0510",
+        "id":  "HT5091",
+        "number":  "HT5091",
+        "productNumber":  "HT5091",
+        "partNumber":  "HT5091",
         "name":  "Clutch Bearing Assembly",
         "productName":  "Clutch Bearing Assembly",
         "category":  "clutch-system",
         "subcategory":  "",
-        "description":  "WG-972 516 0510",
-        "application":  "",
+        "description":  "Clutch Bearing Assembly",
+        "visibleDescription":  "HT5091 FORK85 HI 75 BERRING NONU.JKIRHK ID 63 31 OD 155 OD 89 HT5091 HT5091 CLUTCH BRG ASSY HOW0371 OD 155 HI 120 ID 63 NEW MODEL WG-972 516 0510",
+        "longDescription":  "HT5091 FORK85 HI 75 BERRING NONU.JKIRHK ID 63 31 OD 155 OD 89 HT5091 HT5091 CLUTCH BRG ASSY HOW0371 OD 155 HI 120 ID 63 NEW MODEL WG-972 516 0510",
+        "application":  "HOWO",
         "brand":  "Huatai",
-        "vehicleModel":  "",
+        "vehicleModel":  "HOWO",
         "engineModel":  "",
-        "oeNumber":  "NUJKIRHK",
+        "oeNumber":  "",
+        "alternateNumbers":  [
+                                 "WG-972-516-0510"
+                             ],
+        "alternatePartNumbers":  [
+                                     "WG-972-516-0510"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/WG-972-516-0510.jpeg",
+        "image":  "assets/img/products/HT5091.jpeg",
         "specifications":  {
                                "OD":  [
                                           "155",
@@ -6897,7 +7802,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "OD 155, 89; ID 63; HI 75, 120",
         "keywords":  [
-                         "NUJKIRHK",
+                         "HOWO",
                          "OD 155, 89",
                          "ID 63",
                          "HI 75, 120",
@@ -6907,34 +7812,42 @@ window.NAE_IMPORTED_PRODUCTS = [
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "WG-972-516-0510 Clutch Bearing Assembly Huatai clutch-system WG-972 516 0510 NUJKIRHK OD 155, 89; ID 63; HI 75, 120 Ready stock OD 155, 89 ID 63 HI 75, 120 CLUTCH BEARING Count 3 IsReadOnly False Keys OD Keys ID Keys HI Values 155 89 Values 63 Values 75 120 IsFixedSize False SyncRoot System.Object IsSynchronized False FORK85 HI 75 BERRING NONU.JKIRHK ID 63 31 OD 155 OD 89 HT5091 HT5091 CLUTCH BRG ASSY HOW0371 OD 155 HI 120 ID 63 NEW MODEL WG-972 516 0510",
-        "confidence":  78,
+        "searchableText":  "HT5091 Clutch Bearing Assembly Huatai clutch-system HT5091 FORK85 HI 75 BERRING NONU.JKIRHK ID 63 31 OD 155 OD 89 HT5091 HT5091 CLUTCH BRG ASSY HOW0371 OD 155 HI 120 ID 63 NEW MODEL WG-972 516 0510 HOWO OD 155, 89; ID 63; HI 75, 120 Ready stock OD 155, 89 ID 63 HI 75, 120 CLUTCH BEARING WG-972-516-0510 Count 3 IsReadOnly False Keys OD Keys ID Keys HI Values 155 89 Values 63 Values 75 120 IsFixedSize False SyncRoot System.Object IsSynchronized False FORK85 HI 75 BERRING NONU.JKIRHK ID 63 31 OD 155 OD 89 HT5091 HT5091 CLUTCH BRG ASSY HOW0371 OD 155 HI 120 ID 63 NEW MODEL WG-972 516 0510",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.21.57 PM (2).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.57 PM (2).jpeg",
                        "hash":  "be6f6a0c63b99cfab636478d0f7140d373ceed2df7b45f281da946d56897fb62",
                        "ocrText":  "FORK85 HI 75 BERRING NONU.JKIRHK ID 63 31 OD 155 OD 89 HT5091 HT5091 CLUTCH BRG ASSY HOW0371 OD 155 HI 120 ID 63 NEW MODEL WG-972 516 0510",
-                       "importedAt":  "2026-07-22T00:01:57"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
-        "id":  "VG-156-003-7033",
-        "number":  "VG-156-003-7033",
-        "productNumber":  "VG-156-003-7033",
-        "partNumber":  "VG-156-003-7033",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "id":  "VG-156-003-7033-2-HT",
+        "number":  "VG-156-003-7033-2-HT",
+        "productNumber":  "VG-156-003-7033-2-HT",
+        "partNumber":  "VG-156-003-7033-2-HT",
+        "name":  "Connecting Rod Bearing Set",
+        "productName":  "Connecting Rod Bearing Set",
+        "category":  "engine-parts",
         "subcategory":  "",
         "description":  "VG-156 003 7033-2-HT",
+        "visibleDescription":  "VG-156 003 7033-2-HT OD 90 35 ID 83 HUATAI ENGINE BEARING BKJIAABLUJ UJATYHA U S TRADE OOURRV THI\u003c 0.50 VG-156 003 7033-2-HT HT1103 ( 0.50 ) C/R BRG 0.50 WD615.47 36X89",
+        "longDescription":  "VG-156 003 7033-2-HT OD 90 35 ID 83 HUATAI ENGINE BEARING BKJIAABLUJ UJATYHA U S TRADE OOURRV THI\u003c 0.50 VG-156 003 7033-2-HT HT1103 ( 0.50 ) C/R BRG 0.50 WD615.47 36X89",
         "application":  "WD615",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD615",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/VG-156-003-7033.jpeg",
+        "alternateNumbers":  [
+                                 "HT1103"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1103"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/VG-156-003-7033-2-HT.jpeg",
         "specifications":  {
                                "OD":  [
                                           "90"
@@ -6956,19 +7869,22 @@ window.NAE_IMPORTED_PRODUCTS = [
                          "WD615",
                          "OD 90",
                          "ID 83",
-                         "Bearing 0"
+                         "Bearing 0",
+                         "Connecting Rod Bearing Set",
+                         "BEARING",
+                         "CONNECTING ROD BEARING"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "VG-156-003-7033 Manual review required Huatai other VG-156 003 7033-2-HT WD615 OD 90; ID 83; Bearing 0 OCR result needs manual review before import. OD 90 ID 83 Bearing 0 Count 3 IsReadOnly False Keys OD Keys ID Keys Bearing Values 90 Values 83 Values 0 IsFixedSize False SyncRoot System.Object IsSynchronized False OD 90 35 ID 83 HUATAI ENGINE BEARING BKJIAABLUJ UJATYHA U S TRADE OOURRV THI\u003c 0.50 VG-156 003 7033-2-HT HT1103 ( 0.50 ) C/R BRG 0.50 WD615.47 36X89",
-        "confidence":  78,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "VG-156-003-7033-2-HT Connecting Rod Bearing Set Huatai engine-parts VG-156 003 7033-2-HT VG-156 003 7033-2-HT OD 90 35 ID 83 HUATAI ENGINE BEARING BKJIAABLUJ UJATYHA U S TRADE OOURRV THI\u003c 0.50 VG-156 003 7033-2-HT HT1103 ( 0.50 ) C/R BRG 0.50 WD615.47 36X89 WD615 OD 90; ID 83; Bearing 0 Ready stock OD 90 ID 83 Bearing 0 BEARING CONNECTING ROD BEARING HT1103 Count 3 IsReadOnly False Keys OD Keys ID Keys Bearing Values 90 Values 83 Values 0 IsFixedSize False SyncRoot System.Object IsSynchronized False OD 90 35 ID 83 HUATAI ENGINE BEARING BKJIAABLUJ UJATYHA U S TRADE OOURRV THI\u003c 0.50 VG-156 003 7033-2-HT HT1103 ( 0.50 ) C/R BRG 0.50 WD615.47 36X89",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.21.56 PM (3).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.56 PM (3).jpeg",
                        "hash":  "af43651246dcbfa3fe7c980cf034b04142449166c2b14a000b2040c3bf308046",
                        "ocrText":  "OD 90 35 ID 83 HUATAI ENGINE BEARING BKJIAABLUJ UJATYHA U S TRADE OOURRV THI\u003c 0.50 VG-156 003 7033-2-HT HT1103 ( 0.50 ) C/R BRG 0.50 WD615.47 36X89",
-                       "importedAt":  "2026-07-22T00:01:57"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
@@ -6976,18 +7892,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "12159599-HT",
         "productNumber":  "12159599-HT",
         "partNumber":  "12159599-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Camshaft Bush Set",
+        "productName":  "Camshaft Bush Set",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
-        "application":  "",
+        "description":  "Camshaft Bush Set",
+        "visibleDescription":  "12159599-HT HI 22 HI 26 OD 50 CAN SHA\" BOSH OD 50 12159599-HT HT1186 CAM BUSH WP6G ID 47 OD 50 HUATAI AUTO MADE IN CHINA 12159599/13032911/13032912 CAM SHAFT BUSH 1 SET TD226B/WP6 1 SET: 1 BIG 1 MEDIUM 5 SMALL",
+        "longDescription":  "12159599-HT HI 22 HI 26 OD 50 CAN SHA\" BOSH OD 50 12159599-HT HT1186 CAM BUSH WP6G ID 47 OD 50 HUATAI AUTO MADE IN CHINA 12159599/13032911/13032912 CAM SHAFT BUSH 1 SET TD226B/WP6 1 SET: 1 BIG 1 MEDIUM 5 SMALL",
+        "application":  "WP6G, WP6, TD226B",
         "brand":  "Huatai",
         "vehicleModel":  "",
-        "engineModel":  "",
+        "engineModel":  "WP6G, WP6, TD226B",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/12159599-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT1186"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1186"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/12159599-HT-08EC467F2D92.jpeg",
         "specifications":  {
                                "OD":  [
                                           "50"
@@ -7007,13 +7931,17 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "OD 50; ID 47; HI 22, 26",
         "keywords":  [
+                         "WP6G",
+                         "WP6",
+                         "TD226B",
                          "OD 50",
                          "ID 47",
-                         "HI 22, 26"
+                         "HI 22, 26",
+                         "Camshaft Bush Set"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "12159599-HT Manual review required Huatai other Needs manual review OD 50; ID 47; HI 22, 26 OCR result needs manual review before import. OD 50 ID 47 HI 22, 26 Count 3 IsReadOnly False Keys OD Keys ID Keys HI Values 50 Values 47 Values 22 26 IsFixedSize False SyncRoot System.Object IsSynchronized False HI 22 HI 26 OD 50 CAN SHA\" BOSH OD 50 12159599-HT HT1186 CAM BUSH WP6G ID 47 OD 50 HUATAI AUTO MADE IN CHINA 12159599/13032911/13032912 CAM SHAFT BUSH 1 SET TD226B/WP6 1 SET: 1 BIG 1 MEDIUM 5 SMALL",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "12159599-HT Camshaft Bush Set Huatai engine-parts 12159599-HT HI 22 HI 26 OD 50 CAN SHA\" BOSH OD 50 12159599-HT HT1186 CAM BUSH WP6G ID 47 OD 50 HUATAI AUTO MADE IN CHINA 12159599/13032911/13032912 CAM SHAFT BUSH 1 SET TD226B/WP6 1 SET: 1 BIG 1 MEDIUM 5 SMALL WP6G, WP6, TD226B OD 50; ID 47; HI 22, 26 Ready stock OD 50 ID 47 HI 22, 26 WP6G WP6 TD226B HT1186 Count 3 IsReadOnly False Keys OD Keys ID Keys HI Values 50 Values 47 Values 22 26 IsFixedSize False SyncRoot System.Object IsSynchronized False HI 22 HI 26 OD 50 CAN SHA\" BOSH OD 50 12159599-HT HT1186 CAM BUSH WP6G ID 47 OD 50 HUATAI AUTO MADE IN CHINA 12159599/13032911/13032912 CAM SHAFT BUSH 1 SET TD226B/WP6 1 SET: 1 BIG 1 MEDIUM 5 SMALL",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -7021,7 +7949,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.56 PM.jpeg",
                        "hash":  "08ec467f2d9243edb8796d47797d38791c28e406e4b7d09c4cbfce85fcdee52a",
                        "ocrText":  "HI 22 HI 26 OD 50 CAN SHA\" BOSH OD 50 12159599-HT HT1186 CAM BUSH WP6G ID 47 OD 50 HUATAI AUTO MADE IN CHINA 12159599/13032911/13032912 CAM SHAFT BUSH 1 SET TD226B/WP6 1 SET: 1 BIG 1 MEDIUM 5 SMALL",
-                       "importedAt":  "2026-07-22T00:01:57"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
@@ -7029,18 +7957,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "12273934-HT",
         "productNumber":  "12273934-HT",
         "partNumber":  "12273934-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Thrust Washer",
+        "productName":  "Thrust Washer",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
-        "application":  "",
+        "description":  "Thrust Washer",
+        "visibleDescription":  "12273934-HT 85 95 12273934-HT HT1206 T/WASHER STD WP6 OD 95 ID 85 THICK 4",
+        "longDescription":  "12273934-HT 85 95 12273934-HT HT1206 T/WASHER STD WP6 OD 95 ID 85 THICK 4",
+        "application":  "WP6",
         "brand":  "Huatai",
         "vehicleModel":  "",
-        "engineModel":  "",
+        "engineModel":  "WP6",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/12273934-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT1206"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1206"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/12273934-HT-9101A842B31B.jpeg",
         "specifications":  {
                                "OD":  [
                                           "95"
@@ -7055,12 +7991,14 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "OD 95; ID 85",
         "keywords":  [
+                         "WP6",
                          "OD 95",
-                         "ID 85"
+                         "ID 85",
+                         "Thrust Washer"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "12273934-HT Manual review required Huatai other Needs manual review OD 95; ID 85 OCR result needs manual review before import. OD 95 ID 85 Count 2 IsReadOnly False Keys OD Keys ID Values 95 Values 85 IsFixedSize False SyncRoot System.Object IsSynchronized False 85 95 12273934-HT HT1206 T/WASHER STD WP6 OD 95 ID 85 THICK 4",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "12273934-HT Thrust Washer Huatai engine-parts 12273934-HT 85 95 12273934-HT HT1206 T/WASHER STD WP6 OD 95 ID 85 THICK 4 WP6 OD 95; ID 85 Ready stock OD 95 ID 85 HT1206 Count 2 IsReadOnly False Keys OD Keys ID Values 95 Values 85 IsFixedSize False SyncRoot System.Object IsSynchronized False 85 95 12273934-HT HT1206 T/WASHER STD WP6 OD 95 ID 85 THICK 4",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -7068,7 +8006,7 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.58 PM (3).jpeg",
                        "hash":  "9101a842b31bf8d157349860f5f220ad09b46a0a670c8dbbee71a63d70293fef",
                        "ocrText":  "85 95 12273934-HT HT1206 T/WASHER STD WP6 OD 95 ID 85 THICK 4",
-                       "importedAt":  "2026-07-22T00:01:57"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
@@ -7076,18 +8014,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "5257188-HT",
         "productNumber":  "5257188-HT",
         "partNumber":  "5257188-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Engine Overhaul Gasket Set",
+        "productName":  "Engine Overhaul Gasket Set",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
+        "description":  "Engine Overhaul Gasket Set",
+        "visibleDescription":  "5257188-HT HUATAI 5257188 ENGINE REPAIR KIT ISF2.8 HTI 773H HUATAI• ENGINF REPAIR KIT NPOKR1AÅK\"1 ANQ ABWATEJ19 MADE IN CHINA 1 SET 976046 00 5257188-HT 0/1-1 GASKET SET ISF 2.8 O O",
+        "longDescription":  "5257188-HT HUATAI 5257188 ENGINE REPAIR KIT ISF2.8 HTI 773H HUATAI• ENGINF REPAIR KIT NPOKR1AÅK\"1 ANQ ABWATEJ19 MADE IN CHINA 1 SET 976046 00 5257188-HT 0/1-1 GASKET SET ISF 2.8 O O",
         "application":  "ISF2.8",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "ISF2.8",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/5257188-HT.jpeg",
+        "alternateNumbers":  [
+
+                             ],
+        "alternatePartNumbers":  [
+
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/5257188-HT-2D5282410258.jpeg",
         "specifications":  {
 
                            },
@@ -7096,19 +8042,21 @@ window.NAE_IMPORTED_PRODUCTS = [
                   ],
         "specification":  "",
         "keywords":  [
-                         "ISF2.8"
+                         "ISF2.8",
+                         "Engine Overhaul Gasket Set",
+                         "GASKET SET"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "5257188-HT Manual review required Huatai other Needs manual review ISF2.8 OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI 5257188 ENGINE REPAIR KIT ISF2.8 HTI 773H HUATAI• ENGINF REPAIR KIT NPOKR1AÅK\"1 ANQ ABWATEJ19 MADE IN CHINA 1 SET 976046 00 5257188-HT 0/1-1 GASKET SET ISF 2.8 O O",
-        "confidence":  80,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "5257188-HT Engine Overhaul Gasket Set Huatai engine-parts 5257188-HT HUATAI 5257188 ENGINE REPAIR KIT ISF2.8 HTI 773H HUATAI• ENGINF REPAIR KIT NPOKR1AÅK\"1 ANQ ABWATEJ19 MADE IN CHINA 1 SET 976046 00 5257188-HT 0/1-1 GASKET SET ISF 2.8 O O ISF2.8 Ready stock GASKET SET Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI 5257188 ENGINE REPAIR KIT ISF2.8 HTI 773H HUATAI• ENGINF REPAIR KIT NPOKR1AÅK\"1 ANQ ABWATEJ19 MADE IN CHINA 1 SET 976046 00 5257188-HT 0/1-1 GASKET SET ISF 2.8 O O",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.21.59 PM.jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.59 PM.jpeg",
                        "hash":  "2d5282410258bae1fd685f4de270a0244a60d11c265f5061e34648bbaf9791f3",
                        "ocrText":  "HUATAI 5257188 ENGINE REPAIR KIT ISF2.8 HTI 773H HUATAI• ENGINF REPAIR KIT NPOKR1AÅK\"1 ANQ ABWATEJ19 MADE IN CHINA 1 SET 976046 00 5257188-HT 0/1-1 GASKET SET ISF 2.8 O O",
-                       "importedAt":  "2026-07-22T00:01:58"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
@@ -7116,18 +8064,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "612600130777-HT",
         "productNumber":  "612600130777-HT",
         "partNumber":  "612600130777-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Air Compressor Assembly",
+        "productName":  "Air Compressor Assembly",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "Needs manual review",
+        "description":  "Air Compressor Assembly",
+        "visibleDescription":  "612600130777-HT HUATAI0 AIR COMPRESSOR KOMNPECCOP B03AYUJHBLH 612600130777-HT HT1920 AIR COMPRESSOR ASSY XCMG 5470 HUATAI IN CHINA 61260013777//2660131109 AIR COMPROSSOR WEICHAI WD615 EURO 11 15KG MADE IN CHINA HT1920H",
+        "longDescription":  "612600130777-HT HUATAI0 AIR COMPRESSOR KOMNPECCOP B03AYUJHBLH 612600130777-HT HT1920 AIR COMPRESSOR ASSY XCMG 5470 HUATAI IN CHINA 61260013777//2660131109 AIR COMPROSSOR WEICHAI WD615 EURO 11 15KG MADE IN CHINA HT1920H",
         "application":  "HANVAN, WD615",
         "brand":  "Huatai",
         "vehicleModel":  "HANVAN",
         "engineModel":  "WD615",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/612600130777-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT1920H"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT1920H"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/612600130777-HT-F6A4BB78058C.jpeg",
         "specifications":  {
 
                            },
@@ -7137,11 +8093,13 @@ window.NAE_IMPORTED_PRODUCTS = [
         "specification":  "",
         "keywords":  [
                          "WD615",
-                         "HANVAN"
+                         "HANVAN",
+                         "Air Compressor Assembly",
+                         "AIR COMPRESSOR"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "612600130777-HT Manual review required Huatai other Needs manual review HANVAN, WD615 HANVAN WD615 OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI0 AIR COMPRESSOR KOMNPECCOP B03AYUJHBLH 612600130777-HT HT1920 AIR COMPRESSOR ASSY XCMG 5470 HUATAI IN CHINA 61260013777//2660131109 AIR COMPROSSOR WEICHAI WD615 EURO 11 15KG MADE IN CHINA HT1920H",
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "612600130777-HT Air Compressor Assembly Huatai engine-parts 612600130777-HT HUATAI0 AIR COMPRESSOR KOMNPECCOP B03AYUJHBLH 612600130777-HT HT1920 AIR COMPRESSOR ASSY XCMG 5470 HUATAI IN CHINA 61260013777//2660131109 AIR COMPROSSOR WEICHAI WD615 EURO 11 15KG MADE IN CHINA HT1920H HANVAN, WD615 HANVAN WD615 Ready stock AIR COMPRESSOR HT1920H Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI0 AIR COMPRESSOR KOMNPECCOP B03AYUJHBLH 612600130777-HT HT1920 AIR COMPRESSOR ASSY XCMG 5470 HUATAI IN CHINA 61260013777//2660131109 AIR COMPROSSOR WEICHAI WD615 EURO 11 15KG MADE IN CHINA HT1920H",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -7149,26 +8107,34 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.00 PM (1).jpeg",
                        "hash":  "f6a4bb78058c29b5555526e60b8b146db11e079ccbe3415418dbf580abf811f6",
                        "ocrText":  "HUATAI0 AIR COMPRESSOR KOMNPECCOP B03AYUJHBLH 612600130777-HT HT1920 AIR COMPRESSOR ASSY XCMG 5470 HUATAI IN CHINA 61260013777//2660131109 AIR COMPROSSOR WEICHAI WD615 EURO 11 15KG MADE IN CHINA HT1920H",
-                       "importedAt":  "2026-07-22T00:01:58"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
-        "id":  "5752508-HT",
-        "number":  "5752508-HT",
-        "productNumber":  "5752508-HT",
-        "partNumber":  "5752508-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "id":  "CM-5752508-HT",
+        "number":  "CM-5752508-HT",
+        "productNumber":  "CM-5752508-HT",
+        "partNumber":  "CM-5752508-HT",
+        "name":  "Engine Overhaul Gasket Set",
+        "productName":  "Engine Overhaul Gasket Set",
+        "category":  "engine-parts",
         "subcategory":  "",
-        "description":  "CM",
+        "description":  "Engine Overhaul Gasket Set",
+        "visibleDescription":  "CM-5752508-HT HUATAI AUTO PARTS ENGINE REPAIR KIT MADE IN CHINA HUATAI\u0027 ENGINE REPAIR KIT NPOYCNA4KY1 ABWATEJIA *NE-KYA ISF3.8 HTI 772H 1 SET 6 97695 S 29\u00272334.; CM-5752508-HT 0/1-1 GASKET ISF 3.8 JAC",
+        "longDescription":  "CM-5752508-HT HUATAI AUTO PARTS ENGINE REPAIR KIT MADE IN CHINA HUATAI\u0027 ENGINE REPAIR KIT NPOYCNA4KY1 ABWATEJIA *NE-KYA ISF3.8 HTI 772H 1 SET 6 97695 S 29\u00272334.; CM-5752508-HT 0/1-1 GASKET ISF 3.8 JAC",
         "application":  "JAC, ISF3.8",
         "brand":  "Huatai",
         "vehicleModel":  "JAC",
         "engineModel":  "ISF3.8",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/5752508-HT.jpeg",
+        "alternateNumbers":  [
+
+                             ],
+        "alternatePartNumbers":  [
+
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/CM-5752508-HT.jpeg",
         "specifications":  {
 
                            },
@@ -7178,19 +8144,21 @@ window.NAE_IMPORTED_PRODUCTS = [
         "specification":  "",
         "keywords":  [
                          "ISF3.8",
-                         "JAC"
+                         "JAC",
+                         "Engine Overhaul Gasket Set",
+                         "GASKET SET"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "5752508-HT Manual review required Huatai other CM JAC, ISF3.8 JAC ISF3.8 OCR result needs manual review before import. Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI AUTO PARTS ENGINE REPAIR KIT MADE IN CHINA HUATAI\u0027 ENGINE REPAIR KIT NPOYCNA4KY1 ABWATEJIA *NE-KYA ISF3.8 HTI 772H 1 SET 6 97695 S 29\u00272334.; CM-5752508-HT 0/1-1 GASKET ISF 3.8 JAC",
-        "confidence":  94,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "CM-5752508-HT Engine Overhaul Gasket Set Huatai engine-parts CM-5752508-HT HUATAI AUTO PARTS ENGINE REPAIR KIT MADE IN CHINA HUATAI\u0027 ENGINE REPAIR KIT NPOYCNA4KY1 ABWATEJIA *NE-KYA ISF3.8 HTI 772H 1 SET 6 97695 S 29\u00272334.; CM-5752508-HT 0/1-1 GASKET ISF 3.8 JAC JAC, ISF3.8 JAC ISF3.8 Ready stock GASKET SET Count 0 IsReadOnly False IsFixedSize False SyncRoot System.Object IsSynchronized False HUATAI AUTO PARTS ENGINE REPAIR KIT MADE IN CHINA HUATAI\u0027 ENGINE REPAIR KIT NPOYCNA4KY1 ABWATEJIA *NE-KYA ISF3.8 HTI 772H 1 SET 6 97695 S 29\u00272334.; CM-5752508-HT 0/1-1 GASKET ISF 3.8 JAC",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.21.59 PM (2).jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.59 PM (2).jpeg",
                        "hash":  "25c1d8ebdff3dc36e2904e0b037a34c2ffa84940a6ac32b7242bd32913781783",
                        "ocrText":  "HUATAI AUTO PARTS ENGINE REPAIR KIT MADE IN CHINA HUATAI\u0027 ENGINE REPAIR KIT NPOYCNA4KY1 ABWATEJIA *NE-KYA ISF3.8 HTI 772H 1 SET 6 97695 S 29\u00272334.; CM-5752508-HT 0/1-1 GASKET ISF 3.8 JAC",
-                       "importedAt":  "2026-07-22T00:01:58"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
@@ -7198,18 +8166,26 @@ window.NAE_IMPORTED_PRODUCTS = [
         "number":  "VG-150-005-0032-HT",
         "productNumber":  "VG-150-005-0032-HT",
         "partNumber":  "VG-150-005-0032-HT",
-        "name":  "Manual review required",
-        "productName":  "Manual review required",
-        "category":  "other",
+        "name":  "Valve Tappet",
+        "productName":  "Valve Tappet",
+        "category":  "engine-parts",
         "subcategory":  "",
         "description":  "VG-150 005 0032-HT",
+        "visibleDescription":  "VG-150 005 0032-HT ID 34 OD 38 HUATAI MADE IN CHINA 61500050032 VALVE TAPPET WD615 EURO 11 HT2604H 11 ILL 6 PCS 8 976956\u0027 292293 102B L 72 HUATAI\u0027 GENUINE PARTS VG-150 005 0032-HT HT2604 VALVE TAPPET WD615.47 OD 38 L 72 ID 34",
+        "longDescription":  "VG-150 005 0032-HT ID 34 OD 38 HUATAI MADE IN CHINA 61500050032 VALVE TAPPET WD615 EURO 11 HT2604H 11 ILL 6 PCS 8 976956\u0027 292293 102B L 72 HUATAI\u0027 GENUINE PARTS VG-150 005 0032-HT HT2604 VALVE TAPPET WD615.47 OD 38 L 72 ID 34",
         "application":  "WD615",
         "brand":  "Huatai",
         "vehicleModel":  "",
         "engineModel":  "WD615",
         "oeNumber":  "",
-        "availability":  "Manual review required",
-        "image":  "assets/img/products/VG-150-005-0032-HT.jpeg",
+        "alternateNumbers":  [
+                                 "HT2604H"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2604H"
+                                 ],
+        "availability":  "Ready stock",
+        "image":  "assets/img/products/VG-150-005-0032-HT-1423D88F2F56.jpeg",
         "specifications":  {
                                "OD":  [
                                           "38"
@@ -7226,19 +8202,22 @@ window.NAE_IMPORTED_PRODUCTS = [
         "keywords":  [
                          "WD615",
                          "OD 38",
-                         "ID 34"
+                         "ID 34",
+                         "Valve Tappet",
+                         "VALVE",
+                         "VALVE TAPPET"
                      ],
-        "needsManualReview":  true,
-        "reviewReason":  "OCR result needs manual review before import.",
-        "searchableText":  "VG-150-005-0032-HT Manual review required Huatai other VG-150 005 0032-HT WD615 OD 38; ID 34 OCR result needs manual review before import. OD 38 ID 34 Count 2 IsReadOnly False Keys OD Keys ID Values 38 Values 34 IsFixedSize False SyncRoot System.Object IsSynchronized False ID 34 OD 38 HUATAI MADE IN CHINA 61500050032 VALVE TAPPET WD615 EURO 11 HT2604H 11 ILL 6 PCS 8 976956\u0027 292293 102B L 72 HUATAI\u0027 GENUINE PARTS VG-150 005 0032-HT HT2604 VALVE TAPPET WD615.47 OD 38 L 72 ID 34",
-        "confidence":  92,
+        "needsManualReview":  false,
+        "reviewReason":  "",
+        "searchableText":  "VG-150-005-0032-HT Valve Tappet Huatai engine-parts VG-150 005 0032-HT VG-150 005 0032-HT ID 34 OD 38 HUATAI MADE IN CHINA 61500050032 VALVE TAPPET WD615 EURO 11 HT2604H 11 ILL 6 PCS 8 976956\u0027 292293 102B L 72 HUATAI\u0027 GENUINE PARTS VG-150 005 0032-HT HT2604 VALVE TAPPET WD615.47 OD 38 L 72 ID 34 WD615 OD 38; ID 34 Ready stock OD 38 ID 34 VALVE VALVE TAPPET HT2604H Count 2 IsReadOnly False Keys OD Keys ID Values 38 Values 34 IsFixedSize False SyncRoot System.Object IsSynchronized False ID 34 OD 38 HUATAI MADE IN CHINA 61500050032 VALVE TAPPET WD615 EURO 11 HT2604H 11 ILL 6 PCS 8 976956\u0027 292293 102B L 72 HUATAI\u0027 GENUINE PARTS VG-150 005 0032-HT HT2604 VALVE TAPPET WD615.47 OD 38 L 72 ID 34",
+        "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
                        "originalFile":  "WhatsApp Image 2026-07-21 at 11.21.58 PM.jpeg",
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.58 PM.jpeg",
                        "hash":  "1423d88f2f56d59c62957371ae5ba2d90542fd98f218648f3aed6534641162bd",
                        "ocrText":  "ID 34 OD 38 HUATAI MADE IN CHINA 61500050032 VALVE TAPPET WD615 EURO 11 HT2604H 11 ILL 6 PCS 8 976956\u0027 292293 102B L 72 HUATAI\u0027 GENUINE PARTS VG-150 005 0032-HT HT2604 VALVE TAPPET WD615.47 OD 38 L 72 ID 34",
-                       "importedAt":  "2026-07-22T00:01:58"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     },
     {
@@ -7251,13 +8230,23 @@ window.NAE_IMPORTED_PRODUCTS = [
         "category":  "steering-system",
         "subcategory":  "",
         "description":  "WG-961 947 0080-HT",
+        "visibleDescription":  "WG-961 947 0080-HT 0) HUATAI POWER STEERING PUMP HACOC RYPA C-C 120 17T 58 162 HUATAI MADE IN CHINA WG9619470080 STEERING PUMP SINOTRUK 012 ZYB-1816R/351 0524 WG-961 947 0080-HT HT2782 P/STG PUMP 17T HOWO ALUMINIUM ( 18MPA )",
+        "longDescription":  "WG-961 947 0080-HT 0) HUATAI POWER STEERING PUMP HACOC RYPA C-C 120 17T 58 162 HUATAI MADE IN CHINA WG9619470080 STEERING PUMP SINOTRUK 012 ZYB-1816R/351 0524 WG-961 947 0080-HT HT2782 P/STG PUMP 17T HOWO ALUMINIUM ( 18MPA )",
         "application":  "HOWO",
         "brand":  "Huatai",
         "vehicleModel":  "HOWO",
         "engineModel":  "",
-        "oeNumber":  "",
+        "oeNumber":  "18MPA",
+        "alternateNumbers":  [
+                                 "HT2782",
+                                 "18MPA"
+                             ],
+        "alternatePartNumbers":  [
+                                     "HT2782",
+                                     "18MPA"
+                                 ],
         "availability":  "Ready stock",
-        "image":  "assets/img/products/WG-961-947-0080-HT.jpeg",
+        "image":  "assets/img/products/WG-961-947-0080-HT-72ECB9EDD134.jpeg",
         "specifications":  {
                                "Teeth":  [
                                              "17T"
@@ -7269,12 +8258,13 @@ window.NAE_IMPORTED_PRODUCTS = [
         "specification":  "Teeth 17T",
         "keywords":  [
                          "HOWO",
+                         "18MPA",
                          "Teeth 17T",
                          "Power Steering Pump"
                      ],
         "needsManualReview":  false,
         "reviewReason":  "",
-        "searchableText":  "WG-961-947-0080-HT Power Steering Pump Huatai steering-system WG-961 947 0080-HT HOWO Teeth 17T Ready stock Count 1 IsReadOnly False Keys Teeth Values 17T IsFixedSize False SyncRoot System.Object IsSynchronized False 0) HUATAI POWER STEERING PUMP HACOC RYPA C-C 120 17T 58 162 HUATAI MADE IN CHINA WG9619470080 STEERING PUMP SINOTRUK 012 ZYB-1816R/351 0524 WG-961 947 0080-HT HT2782 P/STG PUMP 17T HOWO ALUMINIUM ( 18MPA )",
+        "searchableText":  "WG-961-947-0080-HT Power Steering Pump Huatai steering-system WG-961 947 0080-HT WG-961 947 0080-HT 0) HUATAI POWER STEERING PUMP HACOC RYPA C-C 120 17T 58 162 HUATAI MADE IN CHINA WG9619470080 STEERING PUMP SINOTRUK 012 ZYB-1816R/351 0524 WG-961 947 0080-HT HT2782 P/STG PUMP 17T HOWO ALUMINIUM ( 18MPA ) HOWO 18MPA Teeth 17T Ready stock HT2782 Count 1 IsReadOnly False Keys Teeth Values 17T IsFixedSize False SyncRoot System.Object IsSynchronized False 0) HUATAI POWER STEERING PUMP HACOC RYPA C-C 120 17T 58 162 HUATAI MADE IN CHINA WG9619470080 STEERING PUMP SINOTRUK 012 ZYB-1816R/351 0524 WG-961 947 0080-HT HT2782 P/STG PUMP 17T HOWO ALUMINIUM ( 18MPA )",
         "confidence":  100,
         "source":  {
                        "type":  "whatsapp-image",
@@ -7282,16 +8272,18 @@ window.NAE_IMPORTED_PRODUCTS = [
                        "originalPath":  "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.59 PM (1).jpeg",
                        "hash":  "72ecb9edd134d066816230e0dc00e07ad70323b09c8b62f0ffc2a8af4356d58e",
                        "ocrText":  "0) HUATAI POWER STEERING PUMP HACOC RYPA C-C 120 17T 58 162 HUATAI MADE IN CHINA WG9619470080 STEERING PUMP SINOTRUK 012 ZYB-1816R/351 0524 WG-961 947 0080-HT HT2782 P/STG PUMP 17T HOWO ALUMINIUM ( 18MPA )",
-                       "importedAt":  "2026-07-22T00:01:58"
+                       "importedAt":  "2026-07-22T22:55:24"
                    }
     }
 ];
 window.NAE_IMPORT_META = {
-    "generatedAt":  "2026-07-22T00:02:06",
-    "totalProducts":  164,
-    "importedThisRun":  94,
+    "generatedAt":  "2026-07-22T22:55:28",
+    "totalProducts":  165,
+    "importedThisRun":  95,
     "updatedThisRun":  0,
-    "skippedDuplicates":  7,
-    "needsReview":  68,
+    "skippedDuplicates":  5,
+    "skippedProducts":  1,
+    "needsReview":  0,
+    "cleanedSourceRecords":  94,
     "source":  "whatsapp-import"
 };

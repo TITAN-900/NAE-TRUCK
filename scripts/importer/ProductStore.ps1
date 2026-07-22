@@ -111,10 +111,12 @@ function New-ProductRecord {
   $engineModels = @(Get-ParsedArrayValue -Parsed $Parsed -Name 'EngineModels')
   $vehicleModels = @(Get-ParsedArrayValue -Parsed $Parsed -Name 'VehicleModels')
   $oeNumbers = @(Get-ParsedArrayValue -Parsed $Parsed -Name 'OeNumbers')
+  $alternateNumbers = @(Get-ParsedArrayValue -Parsed $Parsed -Name 'AlternateNumbers')
   $keywords = @(Get-ParsedArrayValue -Parsed $Parsed -Name 'Keywords')
   $vehicleModel = (@($vehicleModels) -join ', ')
   $engineModel = (@($engineModels) -join ', ')
   $oeNumber = (@($oeNumbers) -join ', ')
+  $visibleDescription = if ($Parsed.Contains('VisibleDescription')) { [string]$Parsed.VisibleDescription } else { '' }
 
   return [ordered]@{
     id = $number
@@ -126,11 +128,15 @@ function New-ProductRecord {
     category = [string]$Parsed.Category
     subcategory = ''
     description = [string]$Parsed.Description
+    visibleDescription = $visibleDescription
+    longDescription = if (-not [string]::IsNullOrWhiteSpace($visibleDescription)) { $visibleDescription } else { [string]$Parsed.Description }
     application = (@($vehicleModels + $engineModels) | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_) } | Select-Object -Unique) -join ', '
     brand = [string]$Parsed.Brand
     vehicleModel = $vehicleModel
     engineModel = $engineModel
     oeNumber = $oeNumber
+    alternateNumbers = @($alternateNumbers)
+    alternatePartNumbers = @($alternateNumbers)
     availability = 'Ready stock'
     image = $ImageRelativePath
     specifications = $Parsed.Specifications
@@ -175,8 +181,10 @@ function New-ReviewProductRecord {
   $engineModels = @(Get-ParsedArrayValue -Parsed $Parsed -Name 'EngineModels')
   $vehicleModels = @(Get-ParsedArrayValue -Parsed $Parsed -Name 'VehicleModels')
   $oeNumbers = @(Get-ParsedArrayValue -Parsed $Parsed -Name 'OeNumbers')
+  $alternateNumbers = @(Get-ParsedArrayValue -Parsed $Parsed -Name 'AlternateNumbers')
   $keywords = @(Get-ParsedArrayValue -Parsed $Parsed -Name 'Keywords')
   $specLabels = @(Get-ParsedArrayValue -Parsed $Parsed -Name 'SpecLabels')
+  $visibleDescription = if ($Parsed.Contains('VisibleDescription')) { [string]$Parsed.VisibleDescription } else { '' }
   $now = (Get-Date).ToString('s')
 
   return [ordered]@{
@@ -189,11 +197,15 @@ function New-ReviewProductRecord {
     category = $category
     subcategory = ''
     description = $description
+    visibleDescription = $visibleDescription
+    longDescription = if (-not [string]::IsNullOrWhiteSpace($visibleDescription)) { $visibleDescription } else { $description }
     application = (@($vehicleModels + $engineModels) | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_) } | Select-Object -Unique) -join ', '
     brand = $brand
     vehicleModel = (@($vehicleModels) -join ', ')
     engineModel = (@($engineModels) -join ', ')
     oeNumber = (@($oeNumbers) -join ', ')
+    alternateNumbers = @($alternateNumbers)
+    alternatePartNumbers = @($alternateNumbers)
     availability = 'Manual review required'
     image = $ImageRelativePath
     specifications = if ($Parsed.Contains('Specifications')) { $Parsed.Specifications } else { [ordered]@{} }
@@ -254,7 +266,7 @@ function ConvertTo-ProductSearchableText {
   param([Parameter(Mandatory)]$Product)
 
   $parts = New-Object System.Collections.Generic.List[string]
-  foreach ($field in @('id', 'number', 'productNumber', 'partNumber', 'name', 'productName', 'brand', 'category', 'subcategory', 'description', 'application', 'vehicleModel', 'engineModel', 'oeNumber', 'specification', 'availability', 'reviewReason')) {
+  foreach ($field in @('id', 'number', 'productNumber', 'partNumber', 'name', 'productName', 'brand', 'category', 'subcategory', 'description', 'visibleDescription', 'longDescription', 'application', 'vehicleModel', 'engineModel', 'oeNumber', 'specification', 'availability', 'reviewReason')) {
     $value = [string](Get-ProductRecordValue -Product $Product -Name $field)
     if (-not [string]::IsNullOrWhiteSpace($value)) {
       $parts.Add($value) | Out-Null
@@ -274,6 +286,16 @@ function ConvertTo-ProductSearchableText {
     $value = [string]$keyword
     if (-not [string]::IsNullOrWhiteSpace($value)) {
       $parts.Add($value) | Out-Null
+    }
+  }
+
+  foreach ($field in @('alternateNumbers', 'alternatePartNumbers')) {
+    $values = Get-ProductRecordValue -Product $Product -Name $field
+    foreach ($value in @($values)) {
+      $text = [string]$value
+      if (-not [string]::IsNullOrWhiteSpace($text)) {
+        $parts.Add($text) | Out-Null
+      }
     }
   }
 
@@ -344,15 +366,19 @@ function Update-ProductCompatibilityFields {
 
   $brand = [string](Get-ProductRecordValue -Product $Product -Name 'brand')
   $vehicleModel = [string](Get-ProductRecordValue -Product $Product -Name 'vehicleModel')
+  $brandUpper = $brand.ToUpperInvariant()
+  $brandIsHuataiAlias = ($brandUpper -eq 'HUATAI' -or $brandUpper -eq 'HUATAU')
   $isHuataiProduct = (
     $number -match '-HT$' -or
     $ocrText -match '\bHUATAI\b|\bHUATAU\b|HT\d{4,5}[A-Z]?\b'
   )
 
   if ($isHuataiProduct -and $brand -ne 'Huatai') {
-    if (-not [string]::IsNullOrWhiteSpace($brand) -and $brand -ne 'Imported catalogue' -and [string]::IsNullOrWhiteSpace($vehicleModel)) {
+    if (-not $brandIsHuataiAlias -and -not [string]::IsNullOrWhiteSpace($brand) -and $brand -ne 'Imported catalogue' -and [string]::IsNullOrWhiteSpace($vehicleModel)) {
       $vehicleModel = $brand
     }
+    $brand = 'Huatai'
+  } elseif ($brandIsHuataiAlias) {
     $brand = 'Huatai'
   }
   if ([string]::IsNullOrWhiteSpace($brand)) {
@@ -536,6 +562,24 @@ function Update-ExistingProductRecord {
   }
 }
 
+function Test-ProductPublishable {
+  param([Parameter(Mandatory)]$Product)
+
+  $needsManualReview = Get-ProductRecordValue -Product $Product -Name 'needsManualReview'
+  if ($needsManualReview -eq $true -or [string]$needsManualReview -eq 'true') {
+    return $false
+  }
+
+  foreach ($field in @('id', 'number', 'productNumber', 'partNumber')) {
+    $value = [string](Get-ProductRecordValue -Product $Product -Name $field)
+    if ($value -match '^REVIEW-') {
+      return $false
+    }
+  }
+
+  return $true
+}
+
 function Save-ProductStore {
   param(
     [Parameter(Mandatory)][string]$ProjectRoot,
@@ -545,7 +589,8 @@ function Save-ProductStore {
   )
 
   $paths = Get-ProductDataPaths -ProjectRoot $ProjectRoot
-  $compatibleProducts = @($Products | ForEach-Object { Update-ProductCompatibilityFields -Product $_ })
+  $publishableProducts = @($Products | Where-Object { Test-ProductPublishable -Product $_ })
+  $compatibleProducts = @($publishableProducts | ForEach-Object { Update-ProductCompatibilityFields -Product $_ })
   $sortedProducts = @($compatibleProducts | Sort-Object -Property category, name, number)
   if ($sortedProducts.Count -eq 0) {
     $json = '[]'
@@ -559,7 +604,9 @@ function Save-ProductStore {
     importedThisRun = [int]$RunSummary.Imported
     updatedThisRun = if ($RunSummary.ContainsKey('Updated')) { [int]$RunSummary.Updated } else { 0 }
     skippedDuplicates = [int]$RunSummary.Duplicates
+    skippedProducts = if ($RunSummary.ContainsKey('Skipped')) { [int]$RunSummary.Skipped } else { 0 }
     needsReview = [int]$RunSummary.Review
+    cleanedSourceRecords = if ($RunSummary.ContainsKey('Cleaned')) { [int]$RunSummary.Cleaned } else { 0 }
     source = 'whatsapp-import'
   }
 

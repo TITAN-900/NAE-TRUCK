@@ -7,7 +7,8 @@ param(
   [switch]$ForceOcr,
   [switch]$RebuildGeneratedData,
   [switch]$ImportUncertain,
-  [switch]$NoUpdateExisting
+  [switch]$NoUpdateExisting,
+  [switch]$CleanSourceBeforeImport
 )
 
 Set-StrictMode -Version Latest
@@ -32,9 +33,11 @@ function New-RunSummary {
     Updated = 0
     Duplicates = 0
     Review = 0
+    Skipped = 0
     Failed = 0
     OcrCached = 0
     OcrFresh = 0
+    Cleaned = 0
   }
 }
 
@@ -46,7 +49,8 @@ function Set-ParsedBrandOverride {
 
   if ([string]::IsNullOrWhiteSpace($Brand)) { return }
 
-  $Parsed['Brand'] = $Brand
+  $canonicalBrand = if ($Brand.ToUpperInvariant() -eq 'HUATAI' -or $Brand.ToUpperInvariant() -eq 'HUATAU') { 'Huatai' } else { $Brand }
+  $Parsed['Brand'] = $canonicalBrand
   $Parsed['BrandEvidence'] = 'Brand override parameter'
 }
 
@@ -176,23 +180,175 @@ function Add-ReviewRow {
   $ReviewRows.Add($row) | Out-Null
 }
 
+function Add-SkippedProductRow {
+  param(
+    [Parameter(Mandatory)][AllowEmptyCollection()][System.Collections.Generic.List[object]]$ReportRows,
+    [Parameter(Mandatory)][System.IO.FileInfo]$File,
+    [AllowNull()]$Parsed,
+    [Parameter(Mandatory)][string]$Reason,
+    [AllowNull()][string]$OcrText
+  )
+
+  $warnings = ''
+  $number = ''
+  $name = ''
+
+  if ($null -ne $Parsed) {
+    if ($Parsed.Contains('Warnings')) { $warnings = (@($Parsed.Warnings) -join ' | ') }
+    if ($Parsed.Contains('ProductNumber')) { $number = [string]$Parsed.ProductNumber }
+    if ($Parsed.Contains('ProductName')) { $name = [string]$Parsed.ProductName }
+  }
+
+  $row = ConvertTo-ReportRow `
+    -Status 'Skipped product' `
+    -File $File.Name `
+    -ProductNumber $number `
+    -ProductName $name `
+    -Reason $Reason `
+    -Warnings $warnings `
+    -ImagePath $File.FullName `
+    -OcrText $OcrText
+
+  $ReportRows.Add($row) | Out-Null
+}
+
+function Test-ParsedHasMinimumIdentity {
+  param([AllowNull()]$Parsed)
+
+  if ($null -eq $Parsed) { return $false }
+  if ($Parsed.Contains('ProductNumber') -and -not [string]::IsNullOrWhiteSpace([string]$Parsed.ProductNumber)) { return $true }
+  if ($Parsed.Contains('ProductName') -and -not [string]::IsNullOrWhiteSpace([string]$Parsed.ProductName)) { return $true }
+  if ($Parsed.Contains('OeNumbers')) {
+    $oeNumbers = @($Parsed.OeNumbers | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_) })
+    if ($oeNumbers.Count -gt 0) { return $true }
+  }
+  return $false
+}
+
+function Test-ParsedShouldSkip {
+  param([AllowNull()]$Parsed)
+
+  if ($null -eq $Parsed) { return $true }
+  if (-not (Test-ParsedHasMinimumIdentity -Parsed $Parsed)) { return $true }
+  if ($Parsed.Contains('Reason') -and [string]$Parsed.Reason -match '^Insufficient product information') { return $true }
+  return $false
+}
+
+function Get-SourceOriginalPath {
+  param([AllowNull()]$Product)
+
+  if ($null -eq $Product) { return '' }
+  $source = Get-ProductRecordValue -Product $Product -Name 'source'
+  if ($null -eq $source) { return '' }
+
+  if ($source -is [System.Collections.IDictionary]) {
+    if ($source.Contains('originalPath')) { return [string]$source['originalPath'] }
+    return ''
+  }
+
+  if ($null -ne $source.PSObject.Properties['originalPath']) {
+    return [string]$source.originalPath
+  }
+  return ''
+}
+
+function Remove-ExistingProductsFromSourceFolder {
+  param(
+    [Parameter(Mandatory)][AllowEmptyCollection()][array]$Products,
+    [Parameter(Mandatory)][string]$SourceFolder,
+    [Parameter(Mandatory)][string]$ProjectRoot,
+    [switch]$DryRun
+  )
+
+  $sourcePrefix = ($SourceFolder -replace '\\', '/').Trim('/')
+  if ([string]::IsNullOrWhiteSpace($sourcePrefix)) {
+    return [ordered]@{ Products = @($Products); Removed = @(); RemovedImages = @() }
+  }
+  $sourcePrefix = "$sourcePrefix/"
+
+  $kept = New-Object System.Collections.Generic.List[object]
+  $removed = New-Object System.Collections.Generic.List[object]
+
+  foreach ($product in @($Products)) {
+    $originalPath = (Get-SourceOriginalPath -Product $product) -replace '\\', '/'
+    $originalPath = $originalPath.TrimStart('/')
+    if ($originalPath.StartsWith($sourcePrefix, [System.StringComparison]::OrdinalIgnoreCase)) {
+      $removed.Add($product) | Out-Null
+    } else {
+      $kept.Add($product) | Out-Null
+    }
+  }
+
+  $keptImages = @{}
+  foreach ($product in $kept) {
+    $image = [string](Get-ProductRecordValue -Product $product -Name 'image')
+    if (-not [string]::IsNullOrWhiteSpace($image)) {
+      $keptImages[(($image -replace '\\', '/').ToLowerInvariant())] = $true
+    }
+  }
+
+  $removedImages = New-Object System.Collections.Generic.List[string]
+  $imageRoot = [System.IO.Path]::GetFullPath((Join-Path $ProjectRoot 'assets\img\products')).TrimEnd([char[]]@('\', '/'))
+  foreach ($product in $removed) {
+    $image = [string](Get-ProductRecordValue -Product $product -Name 'image')
+    if ([string]::IsNullOrWhiteSpace($image)) { continue }
+
+    $normalizedImage = ($image -replace '\\', '/').ToLowerInvariant()
+    if ($keptImages.ContainsKey($normalizedImage)) { continue }
+
+    $candidatePath = [System.IO.Path]::GetFullPath((Join-Path $ProjectRoot ($image -replace '/', '\')))
+    if (-not $candidatePath.StartsWith($imageRoot, [System.StringComparison]::OrdinalIgnoreCase)) { continue }
+    if (-not (Test-Path -LiteralPath $candidatePath -PathType Leaf)) { continue }
+
+    $removedImages.Add($candidatePath) | Out-Null
+    if (-not $DryRun) {
+      try {
+        Remove-Item -LiteralPath $candidatePath -Force
+      } catch {
+        Write-Warning "Could not remove old copied product image '$candidatePath'. It may be locked by OneDrive or marked read-only. Import will continue and use a unique destination filename if needed. $($_.Exception.Message)"
+      }
+    }
+  }
+
+  return [ordered]@{
+    Products = @($kept.ToArray())
+    Removed = @($removed.ToArray())
+    RemovedImages = @($removedImages.ToArray())
+  }
+}
+
 Write-Host "NAE product importer"
 Write-Host "Project: $ProjectRoot"
 Write-Host "Source:  $WhatsAppFolder"
 if ($DryRun) { Write-Host 'Mode:    dry run, no files will be written' }
 if ($RebuildGeneratedData) { Write-Host 'Mode:    rebuild generated product data from import sources' }
 if (-not [string]::IsNullOrWhiteSpace($BrandOverride)) { Write-Host "Brand override: $BrandOverride" }
-if ($ImportUncertain) { Write-Host 'Mode:    import uncertain OCR records as manual-review products' }
+if ($ImportUncertain) { Write-Warning 'ImportUncertain no longer publishes manual-review products. Uncertain items are written to the review report only.' }
 if ($NoUpdateExisting) { Write-Host 'Mode:    skip existing product numbers without updating existing records' }
+if ($CleanSourceBeforeImport) { Write-Host 'Mode:    clean existing generated records from this source folder before import' }
 
 $sourceRoot = Join-Path $ProjectRoot $WhatsAppFolder
 $cachePath = Join-Path $sourceRoot '.ocr-cache.json'
 $catalogueSlugs = @(Get-CatalogueCategorySlugs -ProjectRoot $ProjectRoot)
 Write-Host ("Catalogue categories: {0}" -f ($catalogueSlugs -join ', '))
 $ocrCache = Read-OcrCache -CachePath $cachePath
+$summary = New-RunSummary
 $existingProducts = @()
 if (-not $RebuildGeneratedData) {
   $existingProducts = @(Read-ProductStore -ProjectRoot $ProjectRoot)
+}
+
+if ($CleanSourceBeforeImport -and -not $RebuildGeneratedData) {
+  $cleanupResult = Remove-ExistingProductsFromSourceFolder `
+    -Products @($existingProducts) `
+    -SourceFolder $WhatsAppFolder `
+    -ProjectRoot $ProjectRoot `
+    -DryRun:$DryRun
+
+  $existingProducts = @($cleanupResult['Products'])
+  $summary.Cleaned = @($cleanupResult['Removed']).Count
+  Write-Host ("Cleaned source records: {0}" -f @($cleanupResult['Removed']).Count)
+  Write-Host ("Cleaned copied product images: {0}" -f @($cleanupResult['RemovedImages']).Count)
 }
 $productIndex = Get-ProductStoreIndex -Products @($existingProducts)
 $imageHashIndex = Get-ProductStoreImageHashIndex -Products @($existingProducts)
@@ -208,7 +364,6 @@ foreach ($existingProduct in $existingProducts) {
   }
 }
 
-$summary = New-RunSummary
 $reportRows = New-Object System.Collections.Generic.List[object]
 $reviewRows = New-Object System.Collections.Generic.List[object]
 $items = @(Get-WhatsAppImageItems -ProjectRoot $ProjectRoot -RelativeFolder $WhatsAppFolder)
@@ -238,44 +393,14 @@ foreach ($item in $items) {
     Set-ParsedBrandOverride -Parsed $parsed -Brand $BrandOverride
 
     if (-not $parsed.Recognized) {
-      if ($ImportUncertain) {
-        $number = ''
-        if ($parsed.Contains('ProductNumber')) {
-          $number = Normalize-ProductNumber ([string]$parsed.ProductNumber)
-        }
-        if (-not [string]::IsNullOrWhiteSpace($number) -and $productIndex.ContainsKey($number)) {
-          $summary.Duplicates++
-          Add-DuplicateRow `
-            -ReportRows $reportRows `
-            -File $file `
-            -ProductNumber $number `
-            -ProductName ([string]$parsed.ProductName) `
-            -Reason 'Product number already exists in generated catalogue data; source image preserved and skipped.' `
-            -OcrText ([string]$ocr.Text)
-          continue
-        }
-        if (
-          -not $parsed.Contains('Category') -or
-          [string]::IsNullOrWhiteSpace([string]$parsed.Category) -or
-          -not (Test-CatalogueCategorySlug -ProjectRoot $ProjectRoot -Category ([string]$parsed.Category))
-        ) {
-          $parsed['Category'] = 'other'
-        }
-
-        Add-ImportedReviewProduct `
-          -Products $products `
-          -ProductIndex $productIndex `
-          -ImageHashIndex $imageHashIndex `
-          -Summary $summary `
+      if (Test-ParsedShouldSkip -Parsed $parsed) {
+        $summary.Skipped++
+        Add-SkippedProductRow `
           -ReportRows $reportRows `
-          -ReviewRows $reviewRows `
           -File $file `
           -Parsed $parsed `
-          -ProjectRoot $ProjectRoot `
-          -SourceRelativePath ([string]$item.RelativePath) `
-          -FileHash $fileHash `
-          -Reason ([string]$parsed.Reason) `
-          -DryRun:$DryRun
+          -Reason 'Insufficient product information.' `
+          -OcrText ([string]$ocr.Text)
         continue
       }
 
@@ -285,25 +410,6 @@ foreach ($item in $items) {
     }
 
     if (-not (Test-CatalogueCategorySlug -ProjectRoot $ProjectRoot -Category ([string]$parsed.Category))) {
-      if ($ImportUncertain) {
-        $parsed['Category'] = 'other'
-        Add-ImportedReviewProduct `
-          -Products $products `
-          -ProductIndex $productIndex `
-          -ImageHashIndex $imageHashIndex `
-          -Summary $summary `
-          -ReportRows $reportRows `
-          -ReviewRows $reviewRows `
-          -File $file `
-          -Parsed $parsed `
-          -ProjectRoot $ProjectRoot `
-          -SourceRelativePath ([string]$item.RelativePath) `
-          -FileHash $fileHash `
-          -Reason ("Recognized category is not configured; imported under Other for manual review.") `
-          -DryRun:$DryRun
-        continue
-      }
-
       $summary.Review++
       Add-ReviewRow `
         -ReportRows $reportRows `
@@ -316,6 +422,18 @@ foreach ($item in $items) {
     }
 
     $number = Normalize-ProductNumber ([string]$parsed.ProductNumber)
+    if ([string]::IsNullOrWhiteSpace($number)) {
+      $summary.Review++
+      Add-ReviewRow `
+        -ReportRows $reportRows `
+        -ReviewRows $reviewRows `
+        -File $file `
+        -Parsed $parsed `
+        -Reason 'Product has a readable description but no reliable primary product number; kept for internal review.' `
+        -OcrText ([string]$ocr.Text)
+      continue
+    }
+
     if ($productIndex.ContainsKey($number)) {
       if ($NoUpdateExisting) {
         $summary.Duplicates++
@@ -420,8 +538,10 @@ Write-Host ("Scanned:           {0}" -f $summary.Scanned)
 Write-Host ("Imported:          {0}" -f $summary.Imported)
 Write-Host ("Updated existing:  {0}" -f $summary.Updated)
 Write-Host ("Skipped duplicate: {0}" -f $summary.Duplicates)
+Write-Host ("Skipped products:  {0}" -f $summary.Skipped)
 Write-Host ("Needs review:      {0}" -f $summary.Review)
 Write-Host ("Failed imports:    {0}" -f $summary.Failed)
+Write-Host ("Cleaned records:   {0}" -f $summary.Cleaned)
 Write-Host ("OCR fresh/cache:   {0}/{1}" -f $summary.OcrFresh, $summary.OcrCached)
 Write-Host ("Catalogue data:    {0}" -f $storeResult.Js)
 Write-Host ("Review report:     {0}" -f $reportResult.ReviewCsv)
