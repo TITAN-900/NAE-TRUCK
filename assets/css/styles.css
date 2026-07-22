@@ -613,6 +613,37 @@ h1 em,h2 em{
 .brand-showcase{
     margin-top:12px
 }
+.homepage-category-browse{
+    margin:0 0 74px
+}
+.homepage-category-browse .brands-heading{
+    margin-bottom:26px
+}
+.homepage-category-grid{
+    grid-template-columns:repeat(3,1fr)
+}
+.homepage-category-card{
+    display:grid;
+    grid-template-columns:54px minmax(0,1fr) 38px;
+    align-items:center;
+    gap:16px;
+    min-height:142px;
+    padding:28px 30px;
+    color:inherit;
+    text-decoration:none
+}
+.homepage-category-card:hover{
+    background:#fff;
+    transform:translateY(-4px);
+    box-shadow:0 20px 44px rgba(0,0,0,.08)
+}
+.homepage-category-card .category-toggle{
+    color:#111
+}
+.homepage-category-card:hover .category-toggle{
+    background:var(--ink);
+    color:#fff
+}
 .brand-card-grid{
     display:grid;
     grid-template-columns:repeat(3,1fr);
@@ -1799,6 +1830,9 @@ h1 em,h2 em{
     .brand-card-grid{
         grid-template-columns:repeat(2,1fr)
     }
+    .homepage-category-grid{
+        grid-template-columns:repeat(2,1fr)
+    }
     .finder-results{
         grid-template-columns:1fr
     }
@@ -1989,6 +2023,18 @@ h1 em,h2 em{
         height:18px;
         margin-left:18px
     }
+    .homepage-category-browse{
+        margin-bottom:52px
+    }
+    .homepage-category-grid{
+        grid-template-columns:1fr
+    }
+    .homepage-category-card{
+        grid-template-columns:38px 1fr 38px;
+        min-height:96px;
+        padding:24px 18px;
+        gap:10px
+    }
     .brand-card-grid{
         grid-template-columns:1fr
     }
@@ -2112,6 +2158,21 @@ h1 em,h2 em{
         flex-wrap:nowrap;
         margin-top:-4px;
         padding-bottom:4px
+    }
+    #image-lightbox .lightbox-panel{
+        width:min(100% - 28px,760px);
+        gap:10px
+    }
+    #image-lightbox.has-product-info .lightbox-panel>img{
+        max-height:calc(82vh - 190px)
+    }
+    .lightbox-product-info{
+        grid-template-columns:1fr;
+        gap:10px;
+        padding:13px
+    }
+    .lightbox-product-info .button{
+        width:100%
     }
     .filter-pill{
         flex:0 0 auto
@@ -2288,11 +2349,61 @@ Product Image Lightbox
 #image-lightbox.open{
     display:flex
 }
+#image-lightbox .lightbox-panel{
+    width:min(92vw,1080px);
+    max-height:92vh;
+    display:grid;
+    justify-items:center;
+    gap:14px
+}
 #image-lightbox img{
     max-width:90%;
     max-height:90%;
     border-radius:12px;
     box-shadow:0 20px 60px rgba(0,0,0,.6);
+}
+#image-lightbox .lightbox-panel>img{
+    max-width:100%;
+    max-height:90vh
+}
+#image-lightbox.has-product-info .lightbox-panel>img{
+    max-height:calc(90vh - 132px)
+}
+.lightbox-product-info{
+    width:min(100%,760px);
+    background:#fff;
+    border-top:3px solid var(--orange);
+    border-radius:10px;
+    box-shadow:0 18px 46px rgba(0,0,0,.35);
+    padding:15px;
+    display:grid;
+    grid-template-columns:1fr 1.5fr 1fr auto;
+    gap:12px;
+    align-items:center
+}
+.lightbox-product-info[hidden]{
+    display:none
+}
+.lightbox-product-info span{
+    display:block;
+    margin-bottom:5px;
+    color:#8a8b8d;
+    font-size:8px;
+    font-weight:900;
+    letter-spacing:.14em;
+    text-transform:uppercase
+}
+.lightbox-product-info strong{
+    display:block;
+    color:#111;
+    font-size:13px;
+    line-height:1.25;
+    text-transform:uppercase;
+    overflow-wrap:anywhere
+}
+.lightbox-product-info .button{
+    white-space:nowrap;
+    align-self:stretch
 }
 .close-lightbox{
     position:absolute;

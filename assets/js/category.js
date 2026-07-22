@@ -467,11 +467,12 @@ function hydrateFilterOptions(select, values, firstLabel) {
 }
 
 function getSelectedCategoryFilter() {
+  if (browseMode === "search") return "";
   return categoryFilter?.querySelector("[aria-pressed='true']")?.dataset.categoryFilter || "";
 }
 
 function renderCategoryFilter() {
-  if (!categoryFilter) return;
+  if (!categoryFilter || browseMode === "search") return;
 
   categoryFilter.innerHTML = categoryGroups
     .map(group => `<button class="filter-pill${group.key ? "" : " active"}" type="button" data-category-filter="${escapeHtml(group.key)}" aria-pressed="${group.key ? "false" : "true"}">${escapeHtml(group.label)}</button>`)
@@ -543,7 +544,7 @@ function updateSearchPageChrome() {
 }
 
 function renderProductImage(product) {
-  const imageSrc = assetPath(product.image || data.thumbnail);
+  const imageSrc = getProductImageSrc(product);
   const alt = `${product.name} ${product.number}`.trim();
 
   if (!imageSrc) {
@@ -555,13 +556,40 @@ function renderProductImage(product) {
     </button>`;
 }
 
-function getProductResultUrl(product) {
-  const categorySlug = allCategories.some(category => category.slug === product.category)
-    ? product.category
-    : "other";
-  const query = product.number || product.productNumber || product.partNumber || product.name || product.brand || "";
-  const path = `products/${categorySlug}/index.html${query ? `?q=${encodeURIComponent(query)}` : ""}`;
-  return new URL(path, categorySiteRoot).href;
+function getProductImageSrc(product) {
+  return assetPath(product.image || data.thumbnail);
+}
+
+function isInternalCustomerValue(value) {
+  const raw = String(value ?? "").trim();
+  const normalized = normalizeSearchValue(raw);
+
+  return !raw
+    || normalized.startsWith("review")
+    || normalized.includes("manual review")
+    || normalized.includes("needs review")
+    || normalized.includes("ocr")
+    || normalized.includes("confidence")
+    || normalized.includes("import status")
+    || normalized.includes("internal");
+}
+
+function cleanCustomerField(value, fallback = "") {
+  const text = String(value ?? "").trim();
+  return isInternalCustomerValue(text) ? fallback : text;
+}
+
+function getCustomerProductSummary(product) {
+  const number = cleanCustomerField(product.number || product.productNumber || product.partNumber || product.id, "Part number unavailable");
+  const name = cleanCustomerField(product.productName || product.name || product.description, "Product image");
+  const brandName = cleanCustomerField(product.brand, "Brand not specified");
+
+  return {
+    number,
+    name,
+    brand: brandName,
+    enquiry: [number, name, brandName].filter(Boolean).join(" / ")
+  };
 }
 
 function renderSearchBrandLogo(product) {
@@ -577,9 +605,11 @@ function renderSearchBrandLogo(product) {
 }
 
 function renderSearchResultCard(product, searchState) {
-  const productNumber = product.number || product.productNumber || product.partNumber || "PART NUMBER UNAVAILABLE";
-  const productName = product.productName || product.name || product.description || "PRODUCT DESCRIPTION UNAVAILABLE";
-  const brandName = product.brand || "Brand not specified";
+  const imageSrc = getProductImageSrc(product);
+  const summary = getCustomerProductSummary(product);
+  const productNumber = summary.number || "PART NUMBER UNAVAILABLE";
+  const productName = summary.name || "PRODUCT DESCRIPTION UNAVAILABLE";
+  const brandName = summary.brand || "Brand not specified";
   const categoryName = product.hasCategory ? product.categoryLabel : "";
   const meta = [
     brandName ? `<span>${highlightText(brandName, searchState.highlightTerms)}</span>` : "",
@@ -587,7 +617,7 @@ function renderSearchResultCard(product, searchState) {
   ].filter(Boolean).join("<span class=\"search-result-separator\" aria-hidden=\"true\">&middot;</span>");
   const label = `${productNumber} ${productName}`.trim();
 
-  return `<a class="product-card search-result-card" href="${escapeHtml(getProductResultUrl(product))}" aria-label="${escapeHtml(`View ${label}`)}">
+  return `<a class="product-card search-result-card" href="${escapeHtml(imageSrc || contactPath())}" data-result-lightbox="${imageSrc ? "true" : "false"}" data-lightbox-src="${escapeHtml(imageSrc)}" data-lightbox-alt="${escapeHtml(label)}" data-lightbox-number="${escapeHtml(productNumber)}" data-lightbox-name="${escapeHtml(productName)}" data-lightbox-brand="${escapeHtml(brandName)}" data-lightbox-enquiry="${escapeHtml(summary.enquiry)}" aria-label="${escapeHtml(`View product image for ${label}`)}">
     ${renderSearchBrandLogo(product)}
     <span class="search-result-content">
       <strong class="search-result-code">${highlightProductNumber(productNumber, searchState)}</strong>
@@ -714,15 +744,61 @@ function ensureImageLightbox() {
 
   const lightbox = document.createElement("div");
   lightbox.id = "image-lightbox";
+  lightbox.setAttribute("role", "dialog");
+  lightbox.setAttribute("aria-label", "Product image viewer");
+  lightbox.setAttribute("aria-modal", "true");
   lightbox.setAttribute("aria-hidden", "true");
   lightbox.innerHTML = `
     <button class="close-lightbox" type="button" aria-label="Close image preview">&times;</button>
-    <img alt="">
+    <div class="lightbox-panel">
+      <img alt="">
+      <div class="lightbox-product-info" hidden>
+        <div>
+          <span>Product Number</span>
+          <strong data-lightbox-product-number></strong>
+        </div>
+        <div>
+          <span>Product Name</span>
+          <strong data-lightbox-product-name></strong>
+        </div>
+        <div>
+          <span>Brand</span>
+          <strong data-lightbox-product-brand></strong>
+        </div>
+        <a class="button button-orange" href="${escapeHtml(contactPath())}" data-lightbox-enquire>Enquire <span>&nearr;</span></a>
+      </div>
+    </div>
   `;
   document.body.append(lightbox);
 }
 
-function openLightbox(src, alt) {
+function setLightboxProductInfo(lightbox, info) {
+  const panel = lightbox.querySelector(".lightbox-product-info");
+  const number = cleanCustomerField(info?.number, "");
+  const name = cleanCustomerField(info?.name, "");
+  const brandName = cleanCustomerField(info?.brand, "");
+  const hasInfo = Boolean(number || name || brandName);
+
+  lightbox.classList.toggle("has-product-info", hasInfo);
+  if (!panel) return;
+
+  panel.hidden = !hasInfo;
+
+  if (!hasInfo) {
+    panel.querySelector("[data-lightbox-product-number]").textContent = "";
+    panel.querySelector("[data-lightbox-product-name]").textContent = "";
+    panel.querySelector("[data-lightbox-product-brand]").textContent = "";
+    panel.querySelector("[data-lightbox-enquire]").dataset.lightboxEnquire = "";
+    return;
+  }
+
+  panel.querySelector("[data-lightbox-product-number]").textContent = number || "Part number unavailable";
+  panel.querySelector("[data-lightbox-product-name]").textContent = name || "Product image";
+  panel.querySelector("[data-lightbox-product-brand]").textContent = brandName || "Brand not specified";
+  panel.querySelector("[data-lightbox-enquire]").dataset.lightboxEnquire = [number, name, brandName].filter(Boolean).join(" / ");
+}
+
+function openLightbox(src, alt, productInfo = null) {
   ensureImageLightbox();
 
   const lightbox = document.querySelector("#image-lightbox");
@@ -731,6 +807,7 @@ function openLightbox(src, alt) {
 
   image.src = src;
   image.alt = alt || "Product image preview";
+  setLightboxProductInfo(lightbox, productInfo);
   lightbox.classList.add("open");
   lightbox.setAttribute("aria-hidden", "false");
   document.body.classList.add("lightbox-open");
@@ -742,10 +819,12 @@ function closeLightbox() {
   if (!lightbox) return;
 
   lightbox.classList.remove("open");
+  lightbox.classList.remove("has-product-info");
   lightbox.setAttribute("aria-hidden", "true");
   document.body.classList.remove("lightbox-open");
 
   if (image) image.removeAttribute("src");
+  setLightboxProductInfo(lightbox, null);
 }
 
 function bindCatalogueEvents() {
@@ -761,8 +840,19 @@ function bindCatalogueEvents() {
   });
 
   productGrid?.addEventListener("click", event => {
+    const resultCard = event.target.closest("[data-result-lightbox='true']");
+    if (resultCard) {
+      event.preventDefault();
+      openLightbox(resultCard.dataset.lightboxSrc, resultCard.dataset.lightboxAlt, {
+        number: resultCard.dataset.lightboxNumber,
+        name: resultCard.dataset.lightboxName,
+        brand: resultCard.dataset.lightboxBrand
+      });
+      return;
+    }
+
     const preview = event.target.closest("[data-lightbox-src]");
-    if (preview) {
+    if (preview?.dataset.lightboxSrc) {
       openLightbox(preview.dataset.lightboxSrc, preview.dataset.lightboxAlt);
       return;
     }
@@ -788,6 +878,16 @@ function bindCatalogueEvents() {
   document.addEventListener("click", event => {
     const lightbox = document.querySelector("#image-lightbox");
     if (!lightbox?.classList.contains("open")) return;
+
+    const lightboxEnquiry = event.target.closest("[data-lightbox-enquire]");
+    if (lightboxEnquiry) {
+      const enquiryText = lightboxEnquiry.dataset.lightboxEnquire || "";
+      if (enquiryText) {
+        sessionStorage.setItem("naeEnquiry", enquiryText);
+      }
+      closeLightbox();
+      return;
+    }
 
     if (event.target === lightbox || event.target.closest(".close-lightbox")) {
       closeLightbox();

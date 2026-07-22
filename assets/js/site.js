@@ -257,6 +257,25 @@ function bindBrandLogoWarnings() {
 // ===========================
 
 const grid = document.querySelector("#categoryGrid");
+const homeCategoryGrid = document.querySelector("#homepageCategoryGrid");
+
+const homepageCategoryShortcuts = [
+  { title: "Engine", slug: "engine-parts", query: "engine" },
+  { title: "Clutch", slug: "clutch-system", query: "clutch" },
+  { title: "Brake", slug: "brake-system", query: "brake" },
+  { title: "Cooling", slug: "cooling-system", query: "cooling" },
+  { title: "Electrical", slug: "electrical-system", query: "electrical" },
+  { title: "Transmission", slug: "transmission-parts", query: "transmission" },
+  { title: "Axle", slug: "axle-parts", query: "axle" },
+  { title: "Suspension", slug: "suspension-system", query: "suspension" },
+  { title: "Steering", slug: "steering-system", query: "steering" },
+  { title: "Fuel System", query: "fuel" },
+  { title: "Air System", query: "air" },
+  { title: "Cabin", query: "cabin" },
+  { title: "Body Parts", query: "body" },
+  { title: "Trailer", slug: "trailer-parts", query: "trailer" },
+  { title: "Other", slug: "other", query: "other" }
+];
 
 function renderCategoryCards(catalogue) {
   if (!grid) return;
@@ -302,6 +321,75 @@ function renderCategoryCards(catalogue) {
     .join("");
 
   initCategoryAccordion();
+  observeRevealElements();
+}
+
+function getHomepageCategoryHref(shortcut) {
+  if (shortcut.slug) {
+    return resolveSiteAsset(`products/${shortcut.slug}/index.html`);
+  }
+
+  return new URL(`search/index.html?q=${encodeURIComponent(shortcut.query || shortcut.title)}`, siteRoot).href;
+}
+
+function getHomepageCategoryDescription(shortcut, category) {
+  if (category?.desc) return category.desc;
+
+  const descriptions = {
+    "Fuel System": "Fuel delivery, filtration and injection-related parts.",
+    "Air System": "Air control, compressor and pneumatic service parts.",
+    Cabin: "Cabin fittings and driver-area replacement parts.",
+    "Body Parts": "Exterior, mounting and body-related heavy truck parts.",
+    Other: "Additional parts outside the main systems."
+  };
+
+  return descriptions[shortcut.title] || "Browse matching heavy-duty truck products.";
+}
+
+function getHomepageCategoryThumbnail(shortcut, category) {
+  const thumbnail = category?.thumbnail || "";
+
+  if (thumbnail) {
+    return `<img class="category-thumbnail" loading="lazy" decoding="async" src="${escapeHtml(resolveSiteAsset(thumbnail))}" alt="">`;
+  }
+
+  const initials = shortcut.title
+    .split(/\s+/)
+    .map(word => word[0])
+    .join("")
+    .slice(0, 3)
+    .toUpperCase();
+
+  return `<span class="category-thumbnail-fallback">${escapeHtml(initials || "NAE")}</span>`;
+}
+
+function renderHomepageCategoryCards(catalogue) {
+  if (!homeCategoryGrid) return;
+
+  const categories = Array.isArray(catalogue?.categories) ? catalogue.categories : [];
+  const bySlug = new Map(categories.map(category => [category.slug, category]));
+
+  homeCategoryGrid.innerHTML = homepageCategoryShortcuts.map((shortcut, index) => {
+    const category = shortcut.slug ? bySlug.get(shortcut.slug) : null;
+    const title = shortcut.title;
+    const desc = getHomepageCategoryDescription(shortcut, category);
+    const thumbnail = getHomepageCategoryThumbnail(shortcut, category);
+    const href = getHomepageCategoryHref(shortcut);
+
+    return `
+<a class="category-card homepage-category-card reveal" href="${escapeHtml(href)}">
+  <span class="category-number">${String(index + 1).padStart(2, "0")}</span>
+  <div class="category-title">
+    <i class="category-thumbnail-wrap" aria-hidden="true">${thumbnail}</i>
+    <div>
+      <h3>${escapeHtml(title)}</h3>
+      <p>${escapeHtml(desc)}</p>
+    </div>
+  </div>
+  <span class="category-toggle" aria-hidden="true">&nearr;</span>
+</a>`;
+  }).join("");
+
   observeRevealElements();
 }
 
@@ -470,15 +558,17 @@ function renderFinderResults(records, query) {
 }
 
 async function initHomepageFinder() {
-  if (!brandCardGrid && !partsSearch) return;
+  if (!brandCardGrid && !partsSearch && !homeCategoryGrid) return;
 
-  const [data, products] = await Promise.all([
+  const [data, products, catalogue] = await Promise.all([
     loadBrandsData(),
-    loadProductData()
+    loadProductData(),
+    loadCatalogueData()
   ]);
   const brands = Array.isArray(data?.brands) ? data.brands : [];
 
   renderBrandCards(brands);
+  renderHomepageCategoryCards(catalogue);
   bindBrandLogoWarnings();
   finderRecords = buildFinderRecords(brands, products);
 
