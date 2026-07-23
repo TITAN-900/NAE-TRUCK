@@ -610,6 +610,110 @@ h1 em,h2 em{
     color:#fff;
     text-transform:uppercase
 }
+.finder-toolbar{
+    margin:28px auto 18px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:18px;
+    text-align:left
+}
+.finder-toolbar[hidden]{
+    display:none
+}
+.finder-toolbar p{
+    margin:0;
+    color:#b8b9bb;
+    font-size:11px;
+    line-height:1.6
+}
+.finder-toolbar-actions{
+    display:flex;
+    align-items:end;
+    justify-content:flex-end;
+    gap:10px;
+    flex-wrap:wrap
+}
+.finder-brand-filter{
+    display:grid;
+    gap:6px;
+    text-align:left
+}
+.finder-brand-filter span{
+    color:#8c8d90;
+    font-size:8px;
+    font-weight:900;
+    letter-spacing:.14em;
+    text-transform:uppercase
+}
+.finder-brand-filter select{
+    min-width:170px;
+    height:40px;
+    border:1px solid #3f4043;
+    border-radius:2px;
+    background:#202123;
+    color:#fff;
+    padding:0 12px;
+    font-size:10px;
+    font-weight:800;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    outline:0
+}
+.finder-brand-filter select:focus{
+    border-color:var(--orange)
+}
+.finder-back-search{
+    height:40px;
+    border:1px solid #3f4043;
+    background:transparent;
+    color:#fff;
+    padding:0 13px;
+    font-size:8px;
+    font-weight:900;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    cursor:pointer;
+    transition:.22s var(--ease)
+}
+.finder-back-search:hover{
+    border-color:var(--orange);
+    color:var(--orange)
+}
+.homepage-result-grid{
+    grid-template-columns:repeat(3,1fr);
+    gap:16px;
+    background:transparent;
+    border:0;
+    margin-top:16px;
+    text-align:left
+}
+.homepage-result-grid[hidden]{
+    display:none
+}
+.homepage-result-card{
+    cursor:pointer
+}
+.homepage-result-card:focus-visible{
+    outline:3px solid var(--orange);
+    outline-offset:3px
+}
+.homepage-result-card .product-description{
+    display:-webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+    overflow:hidden
+}
+.homepage-view-image{
+    color:#111;
+    font-size:8px;
+    font-weight:800;
+    letter-spacing:.1em;
+    text-transform:uppercase
+}
+.finder-load-more{
+    margin-top:24px
+}
 .brand-showcase{
     margin-top:12px
 }
@@ -1836,6 +1940,9 @@ h1 em,h2 em{
     .finder-results{
         grid-template-columns:1fr
     }
+    .homepage-result-grid{
+        grid-template-columns:repeat(2,1fr)
+    }
     .logo-placeholders{
         grid-template-columns:repeat(3,1fr)
     }
@@ -2044,6 +2151,22 @@ h1 em,h2 em{
     .finder-result{
         grid-template-columns:62px 1fr;
         gap:14px
+    }
+    .finder-toolbar{
+        align-items:stretch;
+        flex-direction:column
+    }
+    .finder-toolbar-actions{
+        justify-content:stretch
+    }
+    .finder-brand-filter{
+        flex:1 1 190px
+    }
+    .finder-brand-filter select,.finder-back-search{
+        width:100%
+    }
+    .homepage-result-grid{
+        grid-template-columns:1fr
     }
     .brand-logo-block{
         width:62px;

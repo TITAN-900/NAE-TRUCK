@@ -337,7 +337,7 @@ function getHomepageCategoryHref(shortcut) {
     return resolveSiteAsset(`products/${shortcut.slug}/index.html`);
   }
 
-  return new URL(`search/index.html?q=${encodeURIComponent(shortcut.query || shortcut.title)}`, siteRoot).href;
+  return resolveSiteAsset("products/other/index.html");
 }
 
 function getHomepageCategoryDescription(shortcut, category) {
@@ -434,7 +434,17 @@ if (grid) {
 const brandCardGrid = document.querySelector("#brandCardGrid");
 const partsSearch = document.querySelector("#partsSearch");
 const finderResults = document.querySelector("#finderResults");
+const finderToolbar = document.querySelector("#finderToolbar");
+const finderStatus = document.querySelector("#finderStatus");
+const finderBrandFilter = document.querySelector("#finderBrandFilter");
+const finderBackToSearch = document.querySelector("#finderBackToSearch");
+const finderLoadMore = document.querySelector("#finderLoadMore");
+const finderPageSize = 12;
 let finderRecords = [];
+let finderVisibleCount = finderPageSize;
+let finderCurrentQuery = "";
+let finderCurrentMatches = [];
+let finderCategoryLabels = new Map();
 
 function renderBrandLogo(brand) {
   if (brand.logo) {
@@ -468,101 +478,450 @@ function getProductName(product) {
   return product.productName || product.name || "Catalogue Product";
 }
 
-function getProductSearchUrl(product, query) {
-  const value = query || getProductNumber(product) || getProductName(product);
-  return new URL(`search/index.html?q=${encodeURIComponent(value)}`, siteRoot).href;
+function isInternalCustomerValue(value) {
+  const raw = String(value ?? "").trim();
+  const normalized = normalizeFinderValue(raw);
+
+  return !raw
+    || normalized.startsWith("review")
+    || normalized.includes("manual review")
+    || normalized.includes("needs review")
+    || normalized.includes("ocr")
+    || normalized.includes("confidence")
+    || normalized.includes("import status")
+    || normalized.includes("internal");
+}
+
+function cleanCustomerField(value, fallback = "") {
+  const text = String(value ?? "").trim();
+  return isInternalCustomerValue(text) ? fallback : text;
+}
+
+function flattenFinderValue(value) {
+  if (Array.isArray(value)) {
+    return value.flatMap(item => flattenFinderValue(item));
+  }
+
+  if (value && typeof value === "object") {
+    return Object.entries(value).flatMap(([key, item]) => [
+      key,
+      ...flattenFinderValue(item)
+    ]);
+  }
+
+  return value ? [String(value)] : [];
+}
+
+function humanizeFinderSlug(value) {
+  return String(value || "")
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, char => char.toUpperCase())
+    .trim();
+}
+
+function getFinderCategoryLabel(product) {
+  const category = product.category || "";
+  return product.categoryLabel
+    || finderCategoryLabels.get(category)
+    || humanizeFinderSlug(category)
+    || "General";
+}
+
+function getFinderProductSummary(product) {
+  const number = cleanCustomerField(getProductNumber(product), "Part number unavailable");
+  const name = cleanCustomerField(getProductName(product) || product.description, "Product image");
+  const brandName = cleanCustomerField(product.brand, "Brand not specified");
+  const description = cleanCustomerField(
+    product.description || product.visibleDescription || product.longDescription || product.application,
+    "Heavy-duty replacement part"
+  );
+
+  return {
+    number,
+    name,
+    brand: brandName,
+    category: getFinderCategoryLabel(product),
+    availability: cleanCustomerField(product.availability, "Contact for stock"),
+    description,
+    image: resolveSiteAsset(product.image || product.thumbnail || ""),
+    enquiry: [number, name, brandName].filter(Boolean).join(" / ")
+  };
+}
+
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function getFinderSearchState(query) {
+  const normalized = normalizeFinderValue(query);
+  const tokens = normalized ? normalized.split(" ").filter(Boolean) : [];
+
+  return {
+    normalized,
+    compact: compactFinderValue(query),
+    tokens,
+    highlightTerms: tokens
+      .filter(term => term.length > 1)
+      .sort((a, b) => b.length - a.length)
+  };
+}
+
+function highlightFinderText(value, terms) {
+  const escaped = escapeHtml(value);
+  const meaningful = (terms || []).filter(Boolean);
+
+  if (!meaningful.length) return escaped;
+
+  const pattern = meaningful.map(escapeRegExp).join("|");
+  return escaped.replace(new RegExp(`(${pattern})`, "gi"), "<mark class=\"search-highlight\">$1</mark>");
+}
+
+function getFinderRecordFields(product, brandName) {
+  return [
+    getProductNumber(product),
+    product.partNumber,
+    getProductName(product),
+    product.description,
+    product.visibleDescription,
+    product.longDescription,
+    brandName,
+    product.category,
+    getFinderCategoryLabel(product),
+    product.subcategory,
+    product.vehicleModel,
+    product.engineModel,
+    product.application,
+    product.specification,
+    product.oeNumber,
+    product.searchableText,
+    product.availability,
+    ...flattenFinderValue(product.specifications),
+    ...flattenFinderValue(product.specs),
+    ...flattenFinderValue(product.keywords),
+    ...flattenFinderValue(product.alternateNumbers),
+    ...flattenFinderValue(product.alternatePartNumbers)
+  ].filter(Boolean);
+}
+
+function recordMatchesFinder(record, searchState) {
+  if (!searchState.tokens.length) return false;
+
+  const tokenMatch = searchState.tokens.every(token => (
+    record.text.includes(token) || record.compact.includes(token)
+  ));
+  const compactMatch = searchState.compact.length > 2 && record.compact.includes(searchState.compact);
+
+  return tokenMatch || compactMatch;
 }
 
 function buildFinderRecords(brands, products) {
   const brandLookup = buildFinderBrandLookup(brands);
 
-  const brandRecords = brands.flatMap((brand) => {
-    const brandTerms = [brand.name, ...(brand.aliases || [])];
-    return (brand.products || []).map((product) => {
-      const fields = [
-        product.partNumber,
-        product.name,
-        product.category,
-        ...brandTerms
-      ].filter(Boolean);
-
-      return {
-        type: "placeholder",
-        brand,
-        product,
-        number: product.partNumber,
-        name: product.name,
-        brandName: brand.name,
-        text: normalizeFinderValue(fields.join(" ")),
-        compact: compactFinderValue(fields.join(" "))
-      };
-    });
-  });
-
   const productRecords = (Array.isArray(products) ? products : []).map((product) => {
     const brandName = product.brand || "Brand not specified";
     const brandInfo = brandLookup.get(normalizeFinderValue(brandName));
-    const fields = [
-      getProductNumber(product),
-      product.partNumber,
-      getProductName(product),
-      product.description,
-      product.brand,
-      product.category,
-      product.subcategory,
-      product.vehicleModel,
-      product.application,
-      product.specification,
-      product.searchableText,
-      ...(product.specs || [])
-    ].filter(Boolean);
+    const fields = getFinderRecordFields(product, brandName);
+    const summary = getFinderProductSummary(product);
 
     return {
       type: "product",
       brand: brandInfo || null,
       product,
-      number: getProductNumber(product),
-      name: getProductName(product),
-      brandName,
+      number: summary.number,
+      name: summary.name,
+      brandName: summary.brand,
+      category: summary.category,
+      summary,
       text: normalizeFinderValue(fields.join(" ")),
       compact: compactFinderValue(fields.join(" "))
     };
   });
 
-  return [...productRecords, ...brandRecords];
+  return productRecords;
 }
 
-function renderFinderResults(records, query) {
+function populateFinderBrandFilter(records) {
+  if (!finderBrandFilter) return;
+
+  const current = finderBrandFilter.value;
+  const brands = Array.from(new Set(records.map(record => record.brandName).filter(Boolean))).sort((a, b) => a.localeCompare(b));
+
+  finderBrandFilter.innerHTML = [
+    "<option value=\"\">All brands</option>",
+    ...brands.map(brand => `<option value="${escapeHtml(brand)}">${escapeHtml(brand)}</option>`)
+  ].join("");
+
+  finderBrandFilter.value = brands.includes(current) ? current : "";
+}
+
+function getFilteredFinderMatches(records, query) {
+  const searchState = getFinderSearchState(query);
+  const selectedBrand = finderBrandFilter?.value || "";
+
+  if (!searchState.tokens.length) {
+    return { searchState, matches: [] };
+  }
+
+  const matches = records.filter(record => {
+    const brandMatches = !selectedBrand || record.brandName === selectedBrand;
+    return brandMatches && recordMatchesFinder(record, searchState);
+  });
+
+  return { searchState, matches };
+}
+
+function renderHomepageResultImage(summary) {
+  const alt = `${summary.name} ${summary.number}`.trim();
+
+  if (!summary.image) {
+    return "<span class=\"product-image-placeholder\">NAE</span>";
+  }
+
+  return `<img class="product-photo" loading="lazy" decoding="async" src="${escapeHtml(summary.image)}" alt="${escapeHtml(alt)}">`;
+}
+
+function renderHomepageResultCard(record, searchState) {
+  const summary = record.summary;
+  const label = `${summary.number} ${summary.name}`.trim();
+  const meta = [
+    `<span class="product-brand">Brand: ${highlightFinderText(summary.brand, searchState.highlightTerms)}</span>`,
+    `<span>Category: ${highlightFinderText(summary.category, searchState.highlightTerms)}</span>`
+  ].join("");
+
+  return `<article class="product-card homepage-result-card" role="button" tabindex="0" data-home-lightbox="${summary.image ? "true" : "false"}" data-lightbox-src="${escapeHtml(summary.image)}" data-lightbox-alt="${escapeHtml(label)}" data-lightbox-number="${escapeHtml(summary.number)}" data-lightbox-name="${escapeHtml(summary.name)}" data-lightbox-brand="${escapeHtml(summary.brand)}" aria-label="${escapeHtml(`View product image for ${label}`)}">
+    <div class="product-image has-photo">
+      <span class="product-badge">Search result</span>
+      ${renderHomepageResultImage(summary)}
+    </div>
+    <div class="product-body">
+      <span class="product-code-label">Product Number</span>
+      <strong class="product-code">${highlightFinderText(summary.number, searchState.highlightTerms)}</strong>
+      <h3>${highlightFinderText(summary.name, searchState.highlightTerms)}</h3>
+      <div class="product-meta">${meta}</div>
+      <p class="product-description">${highlightFinderText(summary.description, searchState.highlightTerms)}</p>
+      <div class="product-action">
+        <small class="stock-status">${escapeHtml(summary.availability)}</small>
+        <span class="homepage-view-image">View image &nearr;</span>
+      </div>
+    </div>
+  </article>`;
+}
+
+function updateFinderLoadMore() {
+  if (!finderLoadMore) return;
+
+  const button = finderLoadMore.querySelector("button");
+  finderLoadMore.hidden = finderCurrentMatches.length <= finderVisibleCount;
+
+  if (button) {
+    button.textContent = "";
+    button.append("Load more products ");
+    const arrow = document.createElement("span");
+    arrow.innerHTML = "&darr;";
+    button.append(arrow);
+  }
+}
+
+function scrollFinderResultsIntoView() {
+  const target = finderToolbar && !finderToolbar.hidden ? finderToolbar : finderResults;
+  target?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function renderFinderResults(records, query, options = {}) {
   if (!finderResults) return;
 
-  const normalized = normalizeFinderValue(query);
-  const compact = compactFinderValue(query);
-  const tokens = normalized ? normalized.split(" ").filter(Boolean) : [];
+  const trimmedQuery = String(query || "").trim();
+  finderCurrentQuery = trimmedQuery;
 
-  if (!tokens.length) {
+  if (!trimmedQuery) {
     finderResults.innerHTML = "";
     finderResults.hidden = true;
+    finderToolbar.hidden = true;
+    if (finderLoadMore) finderLoadMore.hidden = true;
     return;
   }
 
-  const matches = records.filter((record) => {
-    const tokenMatch = tokens.every(token => record.text.includes(token));
-    const compactMatch = compact.length > 2 && record.compact.includes(compact);
-    return tokenMatch || compactMatch;
-  });
+  const { searchState, matches } = getFilteredFinderMatches(records, trimmedQuery);
+  finderCurrentMatches = matches;
+  const visible = matches.slice(0, finderVisibleCount);
 
   finderResults.hidden = false;
-  finderResults.innerHTML = matches.length
-    ? matches.slice(0, 10).map((record) => `
-<a class="finder-result" href="${escapeHtml(getProductSearchUrl(record.product, query))}">
-  ${record.brand ? renderBrandLogo(record.brand) : `<span class="brand-logo-block"><span>${escapeHtml((record.brandName || "NAE").slice(0, 4))}</span></span>`}
-  <span>
-    <small>${escapeHtml(record.number)}</small>
-    <strong>${escapeHtml(record.name)}</strong>
-    <em>${escapeHtml(record.brandName)}</em>
-  </span>
-</a>`).join("")
-    : `<div class="finder-empty"><strong>No products found</strong><span>Try a product number, product name, brand, model or specification.</span></div>`;
+  finderToolbar.hidden = false;
+  finderResults.innerHTML = visible.length
+    ? visible.map(record => renderHomepageResultCard(record, searchState)).join("")
+    : `<div class="no-results"><strong>No products found</strong><span>Try a product number, product name, brand, engine model, vehicle model, category or keyword.</span></div>`;
+
+  if (finderStatus) {
+    finderStatus.textContent = matches.length
+      ? `Showing ${visible.length} of ${matches.length} matching products for "${trimmedQuery}".`
+      : `No products found for "${trimmedQuery}".`;
+  }
+
+  updateFinderLoadMore();
+
+  if (options.scroll) {
+    scrollFinderResultsIntoView();
+  }
+}
+
+function ensureHomepageImageLightbox() {
+  if (document.querySelector("#image-lightbox")) return;
+
+  const lightbox = document.createElement("div");
+  lightbox.id = "image-lightbox";
+  lightbox.setAttribute("role", "dialog");
+  lightbox.setAttribute("aria-label", "Product image viewer");
+  lightbox.setAttribute("aria-modal", "true");
+  lightbox.setAttribute("aria-hidden", "true");
+  lightbox.innerHTML = `
+    <button class="close-lightbox" type="button" aria-label="Close image preview">&times;</button>
+    <div class="lightbox-panel">
+      <img alt="">
+      <div class="lightbox-product-info" hidden>
+        <div>
+          <span>Product Number</span>
+          <strong data-lightbox-product-number></strong>
+        </div>
+        <div>
+          <span>Product Name</span>
+          <strong data-lightbox-product-name></strong>
+        </div>
+        <div>
+          <span>Brand</span>
+          <strong data-lightbox-product-brand></strong>
+        </div>
+        <a class="button button-orange" href="#contact" data-lightbox-enquire>Enquire <span>&nearr;</span></a>
+      </div>
+    </div>
+  `;
+  document.body.append(lightbox);
+}
+
+function setHomepageLightboxProductInfo(lightbox, info) {
+  const panel = lightbox.querySelector(".lightbox-product-info");
+  const number = cleanCustomerField(info?.number, "");
+  const name = cleanCustomerField(info?.name, "");
+  const brandName = cleanCustomerField(info?.brand, "");
+  const hasInfo = Boolean(number || name || brandName);
+
+  lightbox.classList.toggle("has-product-info", hasInfo);
+  if (!panel) return;
+
+  panel.hidden = !hasInfo;
+
+  if (!hasInfo) {
+    panel.querySelector("[data-lightbox-product-number]").textContent = "";
+    panel.querySelector("[data-lightbox-product-name]").textContent = "";
+    panel.querySelector("[data-lightbox-product-brand]").textContent = "";
+    panel.querySelector("[data-lightbox-enquire]").dataset.lightboxEnquire = "";
+    return;
+  }
+
+  panel.querySelector("[data-lightbox-product-number]").textContent = number || "Part number unavailable";
+  panel.querySelector("[data-lightbox-product-name]").textContent = name || "Product image";
+  panel.querySelector("[data-lightbox-product-brand]").textContent = brandName || "Brand not specified";
+  panel.querySelector("[data-lightbox-enquire]").dataset.lightboxEnquire = [number, name, brandName].filter(Boolean).join(" / ");
+}
+
+function openHomepageLightbox(src, alt, productInfo = null) {
+  if (!src) return;
+  ensureHomepageImageLightbox();
+
+  const lightbox = document.querySelector("#image-lightbox");
+  const image = lightbox?.querySelector("img");
+  if (!lightbox || !image) return;
+
+  image.src = src;
+  image.alt = alt || "Product image preview";
+  setHomepageLightboxProductInfo(lightbox, productInfo);
+  lightbox.classList.add("open");
+  lightbox.setAttribute("aria-hidden", "false");
+  document.body.classList.add("lightbox-open");
+}
+
+function closeHomepageLightbox() {
+  const lightbox = document.querySelector("#image-lightbox");
+  const image = lightbox?.querySelector("img");
+  if (!lightbox) return;
+
+  lightbox.classList.remove("open");
+  lightbox.classList.remove("has-product-info");
+  lightbox.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("lightbox-open");
+
+  if (image) image.removeAttribute("src");
+  setHomepageLightboxProductInfo(lightbox, null);
+}
+
+function bindHomepageFinderEvents() {
+  if (document.documentElement.dataset.homepageFinderEvents === "true") return;
+  document.documentElement.dataset.homepageFinderEvents = "true";
+
+  finderBrandFilter?.addEventListener("change", () => {
+    finderVisibleCount = finderPageSize;
+    renderFinderResults(finderRecords, finderCurrentQuery, { scroll: true });
+  });
+
+  finderBackToSearch?.addEventListener("click", () => {
+    partsSearch?.scrollIntoView({ behavior: "smooth", block: "center" });
+    partsSearch?.focus({ preventScroll: true });
+  });
+
+  finderLoadMore?.querySelector("button")?.addEventListener("click", () => {
+    finderVisibleCount += finderPageSize;
+    renderFinderResults(finderRecords, finderCurrentQuery, { scroll: false });
+  });
+
+  finderResults?.addEventListener("click", event => {
+    const card = event.target.closest("[data-home-lightbox='true']");
+    if (!card) return;
+
+    event.preventDefault();
+    openHomepageLightbox(card.dataset.lightboxSrc, card.dataset.lightboxAlt, {
+      number: card.dataset.lightboxNumber,
+      name: card.dataset.lightboxName,
+      brand: card.dataset.lightboxBrand
+    });
+  });
+
+  finderResults?.addEventListener("keydown", event => {
+    if (event.key !== "Enter" && event.key !== " ") return;
+
+    const card = event.target.closest("[data-home-lightbox='true']");
+    if (!card) return;
+
+    event.preventDefault();
+    openHomepageLightbox(card.dataset.lightboxSrc, card.dataset.lightboxAlt, {
+      number: card.dataset.lightboxNumber,
+      name: card.dataset.lightboxName,
+      brand: card.dataset.lightboxBrand
+    });
+  });
+
+  document.addEventListener("click", event => {
+    const lightbox = document.querySelector("#image-lightbox");
+    if (!lightbox?.classList.contains("open")) return;
+
+    const lightboxEnquiry = event.target.closest("[data-lightbox-enquire]");
+    if (lightboxEnquiry) {
+      const enquiryText = lightboxEnquiry.dataset.lightboxEnquire || "";
+      if (enquiryText) {
+        sessionStorage.setItem("naeEnquiry", enquiryText);
+      }
+      closeHomepageLightbox();
+      return;
+    }
+
+    if (event.target === lightbox || event.target.closest(".close-lightbox")) {
+      closeHomepageLightbox();
+    }
+  });
+
+  document.addEventListener("keydown", event => {
+    if (event.key === "Escape") {
+      closeHomepageLightbox();
+    }
+  });
 }
 
 async function initHomepageFinder() {
@@ -578,16 +937,21 @@ async function initHomepageFinder() {
   renderBrandCards(brands);
   renderHomepageCategoryCards(catalogue);
   bindBrandLogoWarnings();
+  finderCategoryLabels = new Map((catalogue?.categories || []).map(category => [category.slug, category.title]));
   finderRecords = buildFinderRecords(brands, products);
+  populateFinderBrandFilter(finderRecords);
+  bindHomepageFinderEvents();
 
   partsSearch?.addEventListener("input", () => {
+    finderVisibleCount = finderPageSize;
     renderFinderResults(finderRecords, partsSearch.value);
   });
 
   partsSearch?.addEventListener("keydown", (event) => {
     if (event.key !== "Enter" || !partsSearch.value.trim()) return;
     event.preventDefault();
-    window.location.href = new URL(`search/index.html?q=${encodeURIComponent(partsSearch.value.trim())}`, siteRoot).href;
+    finderVisibleCount = finderPageSize;
+    renderFinderResults(finderRecords, partsSearch.value, { scroll: true });
   });
 }
 
