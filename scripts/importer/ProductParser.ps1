@@ -278,7 +278,7 @@ function Get-VehicleBrandFromText {
     @{ Pattern = '\bFOTON\b|\bAUMAN\b'; Brand = 'FOTON' },
     @{ Pattern = '\bJAC\b|\bJAC\s+HEAVY\b'; Brand = 'JAC HEAVY' },
     @{ Pattern = '\bTRAILER\b|\bSEMI\s*TRAILER\b|\bCONTAINER\s+HAULER\b'; Brand = 'Trailer' },
-    @{ Pattern = '\bYU\s*SHENG\b|\bYUSHENG\b|\bYUSENG\b|\bYUSHEN\b'; Brand = 'Yusheng' },
+    @{ Pattern = '\bXIN\s*SENG\b|\bXINSENG\b'; Brand = 'XIN SENG' },
     @{ Pattern = '\bHUATAI\b|\bHUATAU\b|\bHT\d{4,5}[A-Z]?\b'; Brand = 'Huatai' }
   )
 
@@ -350,7 +350,7 @@ function Test-GenericProductNumberToken {
 
   if ($normalized -match '\b(?:ENGINE|REPAIR|GASKET|PISTON|LINER|CYLINDER|VALVE|FILTER|PUMP|TURBO|CLUTCH|BRAKE|BEARING|BRG|ASSY|ASSEMBLY|COMPLETE|SENSOR|SWITCH|ROD|HEAD|SHAFT|FLYWHEEL|COUPLING|MADE|CHINA|AUTO)\b') { return $false }
   if ($normalized -match '^(?:WD|WP|MC|D|6D|4D|6M|P|ISF|ISG|CA6D|YC6)[A-Z0-9.-]{1,8}$') { return $false }
-  if ($normalized -match '^(?:HOWO|HOWO371|SINOTRUK|SITRAK|SHACMAN|FAW|FOTON|DONGFENG|JAC|HUATAI|HUATAU|YUSHENG|YUSENG|YUSHEN|BRAND|TRAILER)$') { return $false }
+  if ($normalized -match '^(?:HOWO|HOWO371|SINOTRUK|SITRAK|SHACMAN|FAW|FOTON|DONGFENG|JAC|HUATAI|HUATAU|XINSENG|BRAND|TRAILER)$') { return $false }
 
   return $true
 }

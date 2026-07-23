@@ -175,11 +175,11 @@ async function loadBrandsData() {
         products: [{ partNumber: "AXL-6006", name: "Axle Repair Kit", category: "Axle" }]
       },
       {
-        id: "yusheng",
-        name: "Yusheng",
-        logo: "assets/img/brands/yusheng.png",
-        page: "brands/yusheng/index.html",
-        aliases: ["Yusheng", "Yu Sheng", "宇胜", "宇勝"],
+        id: "xin-seng",
+        name: "XIN SENG",
+        logo: "assets/img/brands/xin-seng.png",
+        page: "brands/xin-seng/index.html",
+        aliases: ["XIN SENG", "Xin Seng", "Xinseng"],
         products: []
       }
     ]

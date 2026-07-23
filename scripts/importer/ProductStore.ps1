@@ -102,11 +102,10 @@ function Get-CanonicalProductBrand {
   if ([string]::IsNullOrWhiteSpace($Brand)) { return '' }
 
   $trimmed = ([string]$Brand).Trim()
-  if ($trimmed -match '宇胜|宇勝') { return 'Yusheng' }
 
   $normalized = ($trimmed.ToUpperInvariant() -replace '[^A-Z0-9]', '')
   if ($normalized -match '^HUATA[IU]$|^HUATAU$') { return 'Huatai' }
-  if ($normalized -match '^YUSHENG$|^YUSENG$|^YUSHEN$') { return 'Yusheng' }
+  if ($normalized -match '^XINSENG$') { return 'XIN SENG' }
 
   return $trimmed
 }
