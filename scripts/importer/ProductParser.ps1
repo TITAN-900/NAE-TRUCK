@@ -63,6 +63,8 @@ function Normalize-ProductNumber {
   $value = $value -replace '^G-(?=9\d{2})', 'WG-'
   $value = $value -replace '^(NXG\d{2})TRW', '${1}TFW'
   $value = $value -replace '^([0-9]{7})-D(?:O|0)(?:I|1)A-HT$', '$1-D01A-HT'
+  $value = $value -replace '^XIN-SENG-(?=[A-Z0-9-]*\d)', ''
+  $value = $value -replace '^XINSENG-?(?=[A-Z0-9-]*\d)', ''
 
   if ($value -match '^([0-9]{3})-(\d{3})(\d{4})-HT$') {
     return "$($Matches[1])-$($Matches[2])-$($Matches[3])-HT"
@@ -188,6 +190,20 @@ function Get-ProductNameFromText {
     @{ Pattern = '\bINTERCOOLER\s+ASSY\b|\bINTERCOOLER\b'; Name = 'Intercooler Assembly'; Category = 'cooling-system' },
     @{ Pattern = '\bW\/?\s*PUMP\s+ASSY\b|\bWATER\s*PUMP\s+ASSY\b'; Name = 'Water Pump Assembly'; Category = 'cooling-system' },
     @{ Pattern = '\bTURBO\s+ASSY\b|\bTURBOCHARGER\b'; Name = 'Turbo Assembly'; Category = 'engine-parts' },
+    @{ Pattern = '\bDRI(?:VE|VER)\s+SHAFT\s+HANGER\s+ASSEMBLY\b|\bDRI(?:VE|VER)\s+SHAFT\s+HANGER\b'; Name = 'Drive Shaft Hanger Assembly'; Category = 'transmission-parts' },
+    @{ Pattern = '\bCABIN\s+BELLOW\b|\bCABIN\s+BELOW\b|\bCABIN\s+BELLOWS\b|\bAIR\s+BEL(?:LOW|OW)\b|\bAIR\s+BELOW\b|\bBELLOWS\b'; Name = 'Cabin Bellow'; Category = 'suspension-system' },
+    @{ Pattern = '\bCABIN\s+BUSH\s+KIT\b'; Name = 'Cabin Bush Kit'; Category = 'suspension-system' },
+    @{ Pattern = '\bCABIN\s+BUSH\b'; Name = 'Cabin Bush'; Category = 'suspension-system' },
+    @{ Pattern = '\bCABIN\s+MTG\b|\bCABIN\s+MOUNT(?:ING)?\b'; Name = 'Cabin Mounting'; Category = 'suspension-system' },
+    @{ Pattern = '\bREAR\s+ENG(?:INE)?\s+MTG\b|\bFRT\s+ENG(?:INE)?\s+MTG\b|\bENGINE\s+MTG\b|\bENG\s+MTG\b|\bENGINE\s+MOUNT(?:ING)?\b'; Name = 'Engine Mounting'; Category = 'engine-parts' },
+    @{ Pattern = '\bRUBBER\s+BASE\b'; Name = 'Rubber Base'; Category = 'suspension-system' },
+    @{ Pattern = '\bV\s*BAR\s+BUSH\b'; Name = 'V Bar Bush'; Category = 'suspension-system' },
+    @{ Pattern = '\bSTAB\s+BUSH\b|\bSTABILIZER\s+BUSH\b'; Name = 'Stabilizer Bush'; Category = 'suspension-system' },
+    @{ Pattern = '\bSUSPENSION\s+BUSH\b|\bSUS\s+BUSH\b'; Name = 'Suspension Bush'; Category = 'suspension-system' },
+    @{ Pattern = '\bTORSION\s+RUBBER\b|\bRUBBER\s+ASSY\b'; Name = 'Rubber Bush Assembly'; Category = 'suspension-system' },
+    @{ Pattern = '\bLIMIT(?:ED)?\s+BLOCK\b|\bSPG\s+LIMIT(?:ED)?\s+BLOCK\b|\bSUS\s+BLOCK\b|\bSPRING\s+BUMPER\b|\bSPG\s+BUMPER\b'; Name = 'Suspension Limit Block'; Category = 'suspension-system' },
+    @{ Pattern = '\bDIAPHRAGM\b|\bDIA\s*T24\b'; Name = 'Brake Diaphragm'; Category = 'brake-system' },
+    @{ Pattern = '\bFLOOR\s+MAT\b'; Name = 'Floor Mat'; Category = 'suspension-system' },
     @{ Pattern = '\bTORQUE\s+BUSH\b'; Name = 'Torque Bush'; Category = 'suspension-system' },
     @{ Pattern = '\bGEAR\s*BOX\b.{0,50}\bSOLENOID\s+VALVE\b|\bSOLENOID\s+VALVE\b.{0,50}\bGEAR\s*BOX\b'; Name = 'Gearbox Solenoid Valve'; Category = 'transmission-parts' },
     @{ Pattern = '\bMAGN(?:E|EC)TIC\s+VALVE\b|\bMAGNETIC\s+VALVE\b'; Name = 'Magnetic Valve'; Category = 'electrical-system' },
@@ -201,7 +217,6 @@ function Get-ProductNameFromText {
     @{ Pattern = '\bFRT\s+HUB\s+BEARING\b|\bFRONT\s+HUB\s+BEARING\b|\bHUB\s+BEARING\b'; Name = 'Front Hub Bearing'; Category = 'axle-parts' },
     @{ Pattern = '\bHAND\s+BRAKE\s+SHAFT\s+BUSH\s+KIT\b|\bHB\s+SHAFT\s+KIT\b'; Name = 'Hand Brake Shaft Kit'; Category = 'brake-system' },
     @{ Pattern = '\bTEMP\s+SWITCH\b|\bTEMPERATURE\s+SWITCH\b'; Name = 'Temperature Switch'; Category = 'electrical-system' },
-    @{ Pattern = '\bAIR\s+BEL(?:LOW|OW)\b|\bAIR\s+BELOW\b|\bBELLOWS\b'; Name = 'Air Bellow'; Category = 'suspension-system' },
     @{ Pattern = '\bPRESSURE\s+PROTECTION\s+VALVE\b|\bGOVERNOR\b'; Name = 'Pressure Protection Valve'; Category = 'brake-system' },
     @{ Pattern = '\b2\s*SPEED\s+ASSY\b|\bTWO\s*SPEED\s+ASSY\b'; Name = 'Two Speed Assembly'; Category = 'axle-parts' },
     @{ Pattern = '\bSPG\s+SHACKLE\b|\bSPRING\s+SHACKLE\b|\bSHACKLE\s+FRT\b'; Name = 'Front Spring Shackle'; Category = 'suspension-system' },
@@ -348,7 +363,18 @@ function Test-GenericProductNumberToken {
   if ($compact.Length -lt 5 -or $compact.Length -gt 28) { return $false }
   if ($compact -notmatch '[A-Z]' -or $compact -notmatch '\d') { return $false }
 
-  if ($normalized -match '\b(?:ENGINE|REPAIR|GASKET|PISTON|LINER|CYLINDER|VALVE|FILTER|PUMP|TURBO|CLUTCH|BRAKE|BEARING|BRG|ASSY|ASSEMBLY|COMPLETE|SENSOR|SWITCH|ROD|HEAD|SHAFT|FLYWHEEL|COUPLING|MADE|CHINA|AUTO)\b') { return $false }
+  if ($normalized -match '^(?:ID|OD|HI|L|C-C|H-H|HOLE|BRG)-?\d+(?:MM|M)?$') { return $false }
+  if ($normalized -match '^(?:INNER|OUTER)-?(?:ID|OD|HI)-?\d+(?:MM|M)?$') { return $false }
+  if ($normalized -match '^\d{1,4}MM$|^\d{1,4}M$') { return $false }
+  if ($normalized -match '^\d{2,3}X\d{2,3}(?:X\d{2,3}){0,2}$') { return $false }
+  if ($normalized -match '^\d{2,3}X\d{2,3}X\d{2,3}(?:X\d{1,3})?-XS$') { return $false }
+  if ($normalized -match '^HOWO(?:-[A-Z0-9]+)+$') { return $false }
+  if ($normalized -match '^HOWO?\d{2,4}$|^HOW\d{3,4}$') { return $false }
+  if ($normalized -match '^TOG-\d+[A-Z]$') { return $false }
+  if ($normalized -match '^\d{2,4}-SEAL-\d{2,3}X\d{2,3}X\d{1,3}$') { return $false }
+  if ($normalized -match '^SEAL-\d{2,3}X\d{2,3}X\d{1,3}$') { return $false }
+
+  if ($normalized -match '\b(?:ENGINE|REPAIR|GASKET|PISTON|LINER|CYLINDER|VALVE|FILTER|PUMP|TURBO|CLUTCH|BRAKE|BEARING|BRG|ASSY|ASSEMBLY|COMPLETE|SENSOR|SWITCH|ROD|HEAD|SHAFT|FLYWHEEL|COUPLING|MADE|CHINA|AUTO|TORQUE|BUSH|RUBBER|TORSION|CABIN|BELLOW|BELOW|HANGER|FLOOR|MAT|MOUNT|MTG|SUSPENSION|SUS|DIAPHRAGM|LIMIT|BLOCK|STAB)\b') { return $false }
   if ($normalized -match '^(?:WD|WP|MC|D|6D|4D|6M|P|ISF|ISG|CA6D|YC6)[A-Z0-9.-]{1,8}$') { return $false }
   if ($normalized -match '^(?:HOWO|HOWO371|SINOTRUK|SITRAK|SHACMAN|FAW|FOTON|DONGFENG|JAC|HUATAI|HUATAU|XINSENG|BRAND|TRAILER)$') { return $false }
 
@@ -400,6 +426,15 @@ function Get-ProductNumberCandidates {
 
   $candidatePatterns = @(
     '(?<![A-Z0-9])(?:WG|WC|WE|W6|VG|VC|AZ|DZ)[-? ]?\d{3}[- ]?\d{3,6}[- ]?[0-9IOL]{4}[A-Z]?[- ]?(?:[A-Z0-9]{1,6}[- ])?HT(?![A-Z0-9])',
+    '(?<![A-Z0-9])(?:WG|WC|WE|W6|VG|VC|AZ|DZ)[-? ]?\d{3}[- ]?\d{3}[- ]?\d{4,5}[- ]?XS(?![A-Z0-9])',
+    '(?<![A-Z0-9])(?:WG|WC|WE|W6|VG|VC|AZ|DZ)[-? ]?\d{6}[- ]?\d{4}(?:[/\\-]\d)?[- ]?XS(?![A-Z0-9])',
+    '(?<![A-Z0-9])\d{6,8}[- ][A-Z0-9]{3,5}(?:[- ][A-Z0-9])?[- ]?XS(?![A-Z0-9])',
+    '(?<![A-Z0-9])\d{2,3}[- ]\d{5}[- ]\d{4}[- ]?XS(?![A-Z0-9])',
+    '(?<![A-Z0-9])\d{5}[- ][A-Z0-9]{4,5}[- ]?XS(?![A-Z0-9])',
+    '(?<![A-Z0-9])\d{2}A[- ]\d{4}[- ]?XS(?![A-Z0-9])',
+    '(?<![A-Z0-9])DIA[- ]?T24[- ](?:LOW|H[I1L]GHT|HIGHT)[- ]?XS(?![A-Z0-9])',
+    '(?<![A-Z0-9])FM[- ]\d{4}[- ]?XS(?![A-Z0-9])',
+    '(?<![A-Z0-9])[A-Z][ -]\d{4}[- ]?XS(?![A-Z0-9])',
     '(?<![A-Z0-9])(?:VG|WG|AZ|DZ)[- ]?\d{7,9}[- ]?HT(?![A-Z0-9])',
     '(?<![A-Z0-9])(?:WG|G)[-? ]?\d{3}[- ]?\d{3}[- ]?\d{4}(?:[/\\-]\d)?[- ]?HT(?![A-Z0-9])',
     '(?<![A-Z0-9])(?:CM|KC|K|G)[- ]?[A-Z0-9]{4,12}(?:[- ][A-Z0-9]{1,8})?[- ]?HT(?![A-Z0-9])',
@@ -541,9 +576,12 @@ function Get-ProductNumberCandidates {
   foreach ($key in @($candidates.Keys)) {
     $candidate = $candidates[$key]
     $score = 0
-    $productKeywordPattern = '\b(ENGINE\s+REPAIR\s+KIT|O\/?\s*H\s+GASKET|GASKET\s+SET|HEAD\s+GASKET|PISTON\s+LINER\s+KIT|CYLINDER\s+LINER\s+KIT|CYLINDER\s+LINER|LINER|C\/?\s*R\s+BRG|M\/?\s*BRG|MAIN\s+BRG|VALVE\s+ROCKER\s+ARM|VALVE\s+SEAL|VALVE\s+TAPPET|VALVE\s+GUIDE|VALVE\s+INSEAT|CAM\s+SHAFT\s+BUSH|CAM\s+BUSH|T\/?\s*WASHER|CRANKSHAFT|AIR\s+COMP(?:RESSOR)?|HAND\s+OIL\s+PUMP|BELT\s+TENSION(?:ER|E)|BELT\s+TANSIONER|TENSIONER\s+ROLLAR|OIL\s+JET|INJ(?:E)?TOR\s+SLEEVE|NOZZLE\s+TUBE|FUEL\s+INJECTOR|PUSH\s+ROD|MANIFOLD\s+GASKET|FUEL\s+FILTER|OIL\s+FILTER|AIR\s+FILTER|FUEL\s+WATER\s+SEPARATOR|TOP\s+PUMP|2\s*SPEED\s+FLANGE|REAR\s+DIFF|KING\s+PIN\s+KIT|UNIVERSAL\s+JOINT|FLY\s*WHEEL|FLYWHEEL|CLUTCH\s+SERVO|CLUTCH\s+BOOSTER\s+CYLINDER|SPARE\s+TANK|OIL\s+COOLER|FILTER\s+HEAD|CYL(?:INDER)?\s+HEAD|IN\s+VALVE|INTAKE\s+VALVE|EXHAUST\s+VALVE|CONNECTING\s+ROD|CON\s+ROD|NOZZLE\s+PIPE|FUEL\s+INJECTION\s+PIPE|B\/?\s*LINING|BRAKE\s+LINING|BRAKE\s+SHOE|B\/?\s*SHOE|VALVE\s+CAP|CAMSHAFT|OIL\s+PUMP|INTERCOOLER|TORQUE\s+BUSH|MAGN(?:E|EC)TIC\s+VALVE|MAGNETIC\s+VALVE|SOLENOID\s+VALVE|FUEL\s+TANK\s+FLOAT|SHIFTING\s+DEVICE|CLUTCH\s+BRG|CLUTCH\s+BEARING|HUB\s+BEARING|HAND\s+BRAKE|HB\s+SHAFT|TEMP\s+SWITCH|AIR\s+BEL(?:LOW|OW)|AIR\s+BELOW|WATER\s*PUMP|W\/?\s*PUMP|2\s*SPEED|SPG\s+SHACKLE|SPRING\s+SHACKLE|SLACK\s+ADJ|TURBO\s+ASSY|TURBOCHARGER|TURBO\s+CHARG|TIE\s+ROD\s+ARM|COUPLING|KNUCKLE|DIFFERENTIAL|SUN\s+GEAR\s+WASHER|PRESSURE\s+PROTECTION\s+VALVE)\b'
+    $productKeywordPattern = '\b(ENGINE\s+REPAIR\s+KIT|O\/?\s*H\s+GASKET|GASKET\s+SET|HEAD\s+GASKET|PISTON\s+LINER\s+KIT|CYLINDER\s+LINER\s+KIT|CYLINDER\s+LINER|LINER|C\/?\s*R\s+BRG|M\/?\s*BRG|MAIN\s+BRG|VALVE\s+ROCKER\s+ARM|VALVE\s+SEAL|VALVE\s+TAPPET|VALVE\s+GUIDE|VALVE\s+INSEAT|CAM\s+SHAFT\s+BUSH|CAM\s+BUSH|T\/?\s*WASHER|CRANKSHAFT|AIR\s+COMP(?:RESSOR)?|HAND\s+OIL\s+PUMP|BELT\s+TENSION(?:ER|E)|BELT\s+TANSIONER|TENSIONER\s+ROLLAR|OIL\s+JET|INJ(?:E)?TOR\s+SLEEVE|NOZZLE\s+TUBE|FUEL\s+INJECTOR|PUSH\s+ROD|MANIFOLD\s+GASKET|FUEL\s+FILTER|OIL\s+FILTER|AIR\s+FILTER|FUEL\s+WATER\s+SEPARATOR|TOP\s+PUMP|2\s*SPEED\s+FLANGE|REAR\s+DIFF|KING\s+PIN\s+KIT|UNIVERSAL\s+JOINT|FLY\s*WHEEL|FLYWHEEL|CLUTCH\s+SERVO|CLUTCH\s+BOOSTER\s+CYLINDER|SPARE\s+TANK|OIL\s+COOLER|FILTER\s+HEAD|CYL(?:INDER)?\s+HEAD|IN\s+VALVE|INTAKE\s+VALVE|EXHAUST\s+VALVE|CONNECTING\s+ROD|CON\s+ROD|NOZZLE\s+PIPE|FUEL\s+INJECTION\s+PIPE|B\/?\s*LINING|BRAKE\s+LINING|BRAKE\s+SHOE|B\/?\s*SHOE|VALVE\s+CAP|CAMSHAFT|OIL\s+PUMP|INTERCOOLER|TORQUE\s+BUSH|MAGN(?:E|EC)TIC\s+VALVE|MAGNETIC\s+VALVE|SOLENOID\s+VALVE|FUEL\s+TANK\s+FLOAT|SHIFTING\s+DEVICE|CLUTCH\s+BRG|CLUTCH\s+BEARING|HUB\s+BEARING|HAND\s+BRAKE|HB\s+SHAFT|TEMP\s+SWITCH|AIR\s+BEL(?:LOW|OW)|AIR\s+BELOW|WATER\s*PUMP|W\/?\s*PUMP|2\s*SPEED|SPG\s+SHACKLE|SPRING\s+SHACKLE|SLACK\s+ADJ|TURBO\s+ASSY|TURBOCHARGER|TURBO\s+CHARG|TIE\s+ROD\s+ARM|COUPLING|KNUCKLE|DIFFERENTIAL|SUN\s+GEAR\s+WASHER|PRESSURE\s+PROTECTION\s+VALVE|CABIN\s+BELLOW|CABIN\s+BELOW|CABIN\s+BUSH|CABIN\s+MTG|DRI(?:VE|VER)\s+SHAFT\s+HANGER|ENGINE\s+MTG|ENG\s+MTG|RUBBER\s+BASE|V\s*BAR\s+BUSH|STAB\s+BUSH|SUSPENSION\s+BUSH|SUS\s+BUSH|TORSION\s+RUBBER|RUBBER\s+ASSY|LIMIT(?:ED)?\s+BLOCK|SPG\s+LIMIT(?:ED)?\s+BLOCK|SUS\s+BLOCK|DIAPHRAGM|FLOOR\s+MAT)\b'
 
     if ($candidate.Number -match '^(WG|AZ|VG|DZ)-') { $score += 48 }
+    if ($candidate.Number -match '-XS$') { $score += 62 }
+    if ($candidate.Number -match '^(WG|AZ|VG|DZ)-.+-XS$') { $score += 30 }
+    if ($candidate.Number -match '^(?:DIA-T24|FM-|[A-Z]-\d{4}|\d{2}A-\d{4}).+-XS$') { $score += 44 }
     if ($candidate.Number -match '^(WG|AZ|VG|DZ)-.+-HT$') { $score += 28 }
     if ($candidate.Number -match '-HT$') { $score += 22 }
     if ($candidate.Number -match '^(CM|KC|K|G)-?[A-Z0-9]+.+-HT$') { $score += 50 }
