@@ -278,6 +278,7 @@ function Get-VehicleBrandFromText {
     @{ Pattern = '\bFOTON\b|\bAUMAN\b'; Brand = 'FOTON' },
     @{ Pattern = '\bJAC\b|\bJAC\s+HEAVY\b'; Brand = 'JAC HEAVY' },
     @{ Pattern = '\bTRAILER\b|\bSEMI\s*TRAILER\b|\bCONTAINER\s+HAULER\b'; Brand = 'Trailer' },
+    @{ Pattern = '\bYU\s*SHENG\b|\bYUSHENG\b|\bYUSENG\b|\bYUSHEN\b'; Brand = 'Yusheng' },
     @{ Pattern = '\bHUATAI\b|\bHUATAU\b|\bHT\d{4,5}[A-Z]?\b'; Brand = 'Huatai' }
   )
 
@@ -294,6 +295,100 @@ function Get-VehicleBrandFromText {
   return [ordered]@{
     Brand = ''
     Evidence = ''
+  }
+}
+
+function Get-OcrObjectValue {
+  param(
+    [AllowNull()]$Object,
+    [Parameter(Mandatory)][string]$Name
+  )
+
+  if ($null -eq $Object) { return $null }
+  if ($Object -is [System.Collections.IDictionary]) {
+    if ($Object.Contains($Name)) { return $Object[$Name] }
+    return $null
+  }
+  if ($null -ne $Object.PSObject.Properties[$Name]) {
+    return $Object.PSObject.Properties[$Name].Value
+  }
+  return $null
+}
+
+function Get-OcrLineVisualMetric {
+  param([AllowNull()]$Line)
+
+  $maxHeight = 0.0
+  $area = 0.0
+  $words = @(Get-OcrObjectValue -Object $Line -Name 'Words')
+  foreach ($word in $words) {
+    $heightValue = Get-OcrObjectValue -Object $word -Name 'Height'
+    $widthValue = Get-OcrObjectValue -Object $word -Name 'Width'
+    $height = 0.0
+    $width = 0.0
+    if ($null -ne $heightValue) { [void][double]::TryParse(([string]$heightValue), [ref]$height) }
+    if ($null -ne $widthValue) { [void][double]::TryParse(([string]$widthValue), [ref]$width) }
+    if ($height -gt $maxHeight) { $maxHeight = $height }
+    if ($height -gt 0 -and $width -gt 0) { $area += ($height * $width) }
+  }
+
+  return [ordered]@{
+    MaxHeight = $maxHeight
+    Area = $area
+  }
+}
+
+function Test-GenericProductNumberToken {
+  param([AllowNull()][string]$Value)
+
+  $normalized = Normalize-ProductNumber $Value
+  if ([string]::IsNullOrWhiteSpace($normalized)) { return $false }
+
+  $compact = $normalized -replace '[^A-Z0-9]', ''
+  if ($compact.Length -lt 5 -or $compact.Length -gt 28) { return $false }
+  if ($compact -notmatch '[A-Z]' -or $compact -notmatch '\d') { return $false }
+
+  if ($normalized -match '\b(?:ENGINE|REPAIR|GASKET|PISTON|LINER|CYLINDER|VALVE|FILTER|PUMP|TURBO|CLUTCH|BRAKE|BEARING|BRG|ASSY|ASSEMBLY|COMPLETE|SENSOR|SWITCH|ROD|HEAD|SHAFT|FLYWHEEL|COUPLING|MADE|CHINA|AUTO)\b') { return $false }
+  if ($normalized -match '^(?:WD|WP|MC|D|6D|4D|6M|P|ISF|ISG|CA6D|YC6)[A-Z0-9.-]{1,8}$') { return $false }
+  if ($normalized -match '^(?:HOWO|HOWO371|SINOTRUK|SITRAK|SHACMAN|FAW|FOTON|DONGFENG|JAC|HUATAI|HUATAU|YUSHENG|YUSENG|YUSHEN|BRAND|TRAILER)$') { return $false }
+
+  return $true
+}
+
+function Add-ProductNumberCandidate {
+  param(
+    [Parameter(Mandatory)][hashtable]$Candidates,
+    [AllowNull()][string]$Value,
+    [Parameter(Mandatory)][int]$LineIndex,
+    [AllowNull()][string]$LineText,
+    [AllowNull()][double]$VisualHeight,
+    [AllowNull()][double]$VisualArea,
+    [AllowNull()][string]$Source
+  )
+
+  $normalized = Normalize-ProductNumber $Value
+  if ([string]::IsNullOrWhiteSpace($normalized)) { return }
+
+  if (-not $Candidates.ContainsKey($normalized)) {
+    $Candidates[$normalized] = [ordered]@{
+      Number = $normalized
+      LineIndex = $LineIndex
+      LineText = $LineText
+      Score = 0
+      VisualHeight = [double]$VisualHeight
+      VisualArea = [double]$VisualArea
+      Source = $Source
+      Warnings = New-Object System.Collections.Generic.List[string]
+    }
+    return
+  }
+
+  if ([double]$VisualHeight -gt [double]$Candidates[$normalized].VisualHeight) {
+    $Candidates[$normalized].LineIndex = $LineIndex
+    $Candidates[$normalized].LineText = $LineText
+    $Candidates[$normalized].VisualHeight = [double]$VisualHeight
+    $Candidates[$normalized].VisualArea = [double]$VisualArea
+    $Candidates[$normalized].Source = $Source
   }
 }
 
@@ -343,21 +438,45 @@ function Get-ProductNumberCandidates {
 
   $candidates = @{}
   for ($lineIndex = 0; $lineIndex -lt $Lines.Count; $lineIndex++) {
-    $lineText = ConvertTo-NumberSearchText ([string]$Lines[$lineIndex].Text)
+    $line = $Lines[$lineIndex]
+    $lineText = ConvertTo-NumberSearchText ([string](Get-OcrObjectValue -Object $line -Name 'Text'))
+    $metric = Get-OcrLineVisualMetric -Line $line
     foreach ($pattern in $candidatePatterns) {
       foreach ($match in [regex]::Matches($lineText, $pattern)) {
-        $normalized = Normalize-ProductNumber $match.Value
-        if ([string]::IsNullOrWhiteSpace($normalized)) { continue }
-        if (-not $candidates.ContainsKey($normalized)) {
-          $candidates[$normalized] = [ordered]@{
-            Number = $normalized
-            LineIndex = $lineIndex
-            LineText = $lineText
-            Score = 0
-            Warnings = New-Object System.Collections.Generic.List[string]
-          }
-        }
+        Add-ProductNumberCandidate -Candidates $candidates -Value $match.Value -LineIndex $lineIndex -LineText $lineText -VisualHeight ([double]$metric.MaxHeight) -VisualArea ([double]$metric.Area) -Source 'pattern'
       }
+    }
+
+    foreach ($word in @(Get-OcrObjectValue -Object $line -Name 'Words')) {
+      $wordText = ConvertTo-NumberSearchText ([string](Get-OcrObjectValue -Object $word -Name 'Text'))
+      if (-not (Test-GenericProductNumberToken -Value $wordText)) { continue }
+
+      $wordHeight = 0.0
+      $wordWidth = 0.0
+      [void][double]::TryParse(([string](Get-OcrObjectValue -Object $word -Name 'Height')), [ref]$wordHeight)
+      [void][double]::TryParse(([string](Get-OcrObjectValue -Object $word -Name 'Width')), [ref]$wordWidth)
+      Add-ProductNumberCandidate -Candidates $candidates -Value $wordText -LineIndex $lineIndex -LineText $lineText -VisualHeight $wordHeight -VisualArea ($wordWidth * $wordHeight) -Source 'generic-prominent-token'
+    }
+
+    foreach ($match in [regex]::Matches($lineText, '(?<![A-Z0-9])(?=[A-Z0-9 -]{5,32}(?![A-Z0-9]))(?=[A-Z0-9 -]*[A-Z])(?=[A-Z0-9 -]*\d)[A-Z0-9]{2,10}(?:[- ][A-Z0-9]{2,10}){0,3}(?![A-Z0-9])')) {
+      if (-not (Test-GenericProductNumberToken -Value $match.Value)) { continue }
+      Add-ProductNumberCandidate -Candidates $candidates -Value $match.Value -LineIndex $lineIndex -LineText $lineText -VisualHeight ([double]$metric.MaxHeight) -VisualArea ([double]$metric.Area) -Source 'generic-prominent-line'
+    }
+  }
+
+  if ($candidates.Count -gt 0) {
+    $maxVisualHeight = 0.0
+    foreach ($candidate in $candidates.Values) {
+      if ([double]$candidate.VisualHeight -gt $maxVisualHeight) {
+        $maxVisualHeight = [double]$candidate.VisualHeight
+      }
+    }
+
+    foreach ($candidate in $candidates.Values) {
+      $candidate.IsVisuallyProminent = (
+        $maxVisualHeight -gt 0 -and
+        [double]$candidate.VisualHeight -ge ($maxVisualHeight * 0.85)
+      )
     }
   }
 
@@ -373,6 +492,10 @@ function Get-ProductNumberCandidates {
             LineIndex = -1
             LineText = $searchText
             Score = 0
+            VisualHeight = 0
+            VisualArea = 0
+            Source = 'text-pattern'
+            IsVisuallyProminent = $false
             Warnings = New-Object System.Collections.Generic.List[string]
           }
         }
@@ -448,6 +571,8 @@ function Get-ProductNumberCandidates {
     if ($candidate.Number -match '^ME0?\d{5,6}$') { $score += 28 }
     if ($candidate.Number -match '^EW-[A-Z0-9]{3,8}-[A-Z0-9]{1,4}$') { $score += 28 }
     if ($candidate.Number -match '^\d{9,12}$') { $score += 24 }
+    if ([string]$candidate.Source -match '^generic-prominent' -and (Test-GenericProductNumberToken -Value ([string]$candidate.Number))) { $score += 8 }
+    if ($candidate.Contains('IsVisuallyProminent') -and $candidate.IsVisuallyProminent -eq $true) { $score += 72 }
     if ($candidate.LineText -match '\bFLY\s*WHEEL\b|\bFLYWHEEL\b') { $score += 24 }
     if ($candidate.LineText -match $productKeywordPattern) { $score += 28 }
     $escapedNumber = [regex]::Escape($candidate.Number)
@@ -496,6 +621,10 @@ function Get-ProductNumberCandidates {
     if ($candidate.Number -match '^ME0?\d{5,6}$|^EW-') {
       $candidate.Warnings.Add('Non-standard product number format needs manual confirmation.')
       $score -= 6
+    }
+    if ($candidate.Number -match '^(?:WD|WP|MC|6D|4D|6M|ISF|ISG)[0-9.]+(?:-)?(?:TURBO|PUMP|FILTER|KIT|ASSY|LINER|VALVE|BEARING|BRG|CLUTCH|BRAKE)$') {
+      $candidate.Warnings.Add('Candidate resembles an engine/model plus product description rather than a primary product number.')
+      $score -= 45
     }
 
     $candidate.Score = $score

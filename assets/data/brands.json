@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-16",
+  "updated": "2026-07-23",
   "brands": [
     {
       "id": "brand-1",
@@ -101,6 +101,15 @@
           "category": "Axle"
         }
       ]
+    },
+    {
+      "id": "yusheng",
+      "name": "Yusheng",
+      "logo": "assets/img/brands/yusheng.png",
+      "page": "brands/yusheng/index.html",
+      "aliases": ["Yusheng", "Yu Sheng", "宇胜", "宇勝"],
+      "categories": ["Engine", "Brake", "Cooling", "Electrical", "Transmission", "Axle", "Trailer"],
+      "products": []
     }
   ]
 }

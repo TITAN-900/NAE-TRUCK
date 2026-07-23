@@ -49,9 +49,40 @@ function Set-ParsedBrandOverride {
 
   if ([string]::IsNullOrWhiteSpace($Brand)) { return }
 
-  $canonicalBrand = if ($Brand.ToUpperInvariant() -eq 'HUATAI' -or $Brand.ToUpperInvariant() -eq 'HUATAU') { 'Huatai' } else { $Brand }
+  $canonicalBrand = Get-CanonicalImportBrand -Brand $Brand
   $Parsed['Brand'] = $canonicalBrand
   $Parsed['BrandEvidence'] = 'Brand override parameter'
+}
+
+function Get-CanonicalImportBrand {
+  param([AllowNull()][string]$Brand)
+
+  if ([string]::IsNullOrWhiteSpace($Brand)) { return '' }
+
+  $trimmed = ([string]$Brand).Trim()
+  if ($trimmed -match '宇胜|宇勝') { return 'Yusheng' }
+
+  $normalized = ($trimmed.ToUpperInvariant() -replace '[^A-Z0-9]', '')
+  if ($normalized -match '^HUATA[IU]$|^HUATAU$') { return 'Huatai' }
+  if ($normalized -match '^YUSHENG$|^YUSENG$|^YUSHEN$') { return 'Yusheng' }
+
+  return $trimmed
+}
+
+function Resolve-ImportBrandFromFolder {
+  param([AllowNull()][string]$RelativeFolder)
+
+  if ([string]::IsNullOrWhiteSpace($RelativeFolder)) { return '' }
+
+  $pathText = ([string]$RelativeFolder) -replace '\\', '/'
+  foreach ($segment in ($pathText -split '/')) {
+    $brand = Get-CanonicalImportBrand -Brand $segment
+    if ($brand -eq 'Huatai' -or $brand -eq 'Yusheng') {
+      return $brand
+    }
+  }
+
+  return ''
 }
 
 function Add-DuplicateRow {
@@ -320,9 +351,17 @@ function Remove-ExistingProductsFromSourceFolder {
 Write-Host "NAE product importer"
 Write-Host "Project: $ProjectRoot"
 Write-Host "Source:  $WhatsAppFolder"
+$effectiveBrandOverride = if (-not [string]::IsNullOrWhiteSpace($BrandOverride)) {
+  Get-CanonicalImportBrand -Brand $BrandOverride
+} else {
+  Resolve-ImportBrandFromFolder -RelativeFolder $WhatsAppFolder
+}
 if ($DryRun) { Write-Host 'Mode:    dry run, no files will be written' }
 if ($RebuildGeneratedData) { Write-Host 'Mode:    rebuild generated product data from import sources' }
-if (-not [string]::IsNullOrWhiteSpace($BrandOverride)) { Write-Host "Brand override: $BrandOverride" }
+if (-not [string]::IsNullOrWhiteSpace($effectiveBrandOverride)) {
+  $brandMode = if (-not [string]::IsNullOrWhiteSpace($BrandOverride)) { 'override' } else { 'detected from source folder' }
+  Write-Host "Brand:   $effectiveBrandOverride ($brandMode)"
+}
 if ($ImportUncertain) { Write-Warning 'ImportUncertain no longer publishes manual-review products. Uncertain items are written to the review report only.' }
 if ($NoUpdateExisting) { Write-Host 'Mode:    skip existing product numbers without updating existing records' }
 if ($CleanSourceBeforeImport) { Write-Host 'Mode:    clean existing generated records from this source folder before import' }
@@ -390,7 +429,7 @@ foreach ($item in $items) {
     $ocr = Get-CachedImageOcr -File $file -Cache $ocrCache -Force:$ForceOcr
     if ($ocr.FromCache) { $summary.OcrCached++ } else { $summary.OcrFresh++ }
     $parsed = Parse-ProductOcr -Text ([string]$ocr.Text) -Lines @($ocr.Lines) -SourceFile $file.Name
-    Set-ParsedBrandOverride -Parsed $parsed -Brand $BrandOverride
+    Set-ParsedBrandOverride -Parsed $parsed -Brand $effectiveBrandOverride
 
     if (-not $parsed.Recognized) {
       if (Test-ParsedShouldSkip -Parsed $parsed) {

@@ -96,6 +96,21 @@ function Get-ParsedArrayValue {
   return @($Parsed[$Name] | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_) })
 }
 
+function Get-CanonicalProductBrand {
+  param([AllowNull()][string]$Brand)
+
+  if ([string]::IsNullOrWhiteSpace($Brand)) { return '' }
+
+  $trimmed = ([string]$Brand).Trim()
+  if ($trimmed -match '宇胜|宇勝') { return 'Yusheng' }
+
+  $normalized = ($trimmed.ToUpperInvariant() -replace '[^A-Z0-9]', '')
+  if ($normalized -match '^HUATA[IU]$|^HUATAU$') { return 'Huatai' }
+  if ($normalized -match '^YUSHENG$|^YUSENG$|^YUSHEN$') { return 'Yusheng' }
+
+  return $trimmed
+}
+
 function New-ProductRecord {
   param(
     [Parameter(Mandatory)][System.Collections.IDictionary]$Parsed,
@@ -131,7 +146,7 @@ function New-ProductRecord {
     visibleDescription = $visibleDescription
     longDescription = if (-not [string]::IsNullOrWhiteSpace($visibleDescription)) { $visibleDescription } else { [string]$Parsed.Description }
     application = (@($vehicleModels + $engineModels) | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_) } | Select-Object -Unique) -join ', '
-    brand = [string]$Parsed.Brand
+    brand = Get-CanonicalProductBrand ([string]$Parsed.Brand)
     vehicleModel = $vehicleModel
     engineModel = $engineModel
     oeNumber = $oeNumber
@@ -139,6 +154,7 @@ function New-ProductRecord {
     alternatePartNumbers = @($alternateNumbers)
     availability = 'Ready stock'
     image = $ImageRelativePath
+    thumbnail = $ImageRelativePath
     specifications = $Parsed.Specifications
     specs = @($Parsed.SpecLabels)
     specification = ((@($Parsed.SpecLabels) | Where-Object { -not [string]::IsNullOrWhiteSpace([string]$_) }) -join '; ')
@@ -177,7 +193,7 @@ function New-ReviewProductRecord {
   $name = if ($Parsed.Contains('ProductName') -and -not [string]::IsNullOrWhiteSpace([string]$Parsed.ProductName)) { [string]$Parsed.ProductName } else { 'Manual review required' }
   $category = if ($Parsed.Contains('Category') -and -not [string]::IsNullOrWhiteSpace([string]$Parsed.Category)) { [string]$Parsed.Category } else { 'other' }
   $description = if ($Parsed.Contains('Description') -and -not [string]::IsNullOrWhiteSpace([string]$Parsed.Description)) { [string]$Parsed.Description } else { 'OCR result needs manual review before publishing product details.' }
-  $brand = if ($Parsed.Contains('Brand') -and -not [string]::IsNullOrWhiteSpace([string]$Parsed.Brand)) { [string]$Parsed.Brand } else { 'Huatai' }
+  $brand = if ($Parsed.Contains('Brand') -and -not [string]::IsNullOrWhiteSpace([string]$Parsed.Brand)) { Get-CanonicalProductBrand ([string]$Parsed.Brand) } else { 'Brand not specified' }
   $engineModels = @(Get-ParsedArrayValue -Parsed $Parsed -Name 'EngineModels')
   $vehicleModels = @(Get-ParsedArrayValue -Parsed $Parsed -Name 'VehicleModels')
   $oeNumbers = @(Get-ParsedArrayValue -Parsed $Parsed -Name 'OeNumbers')
@@ -208,6 +224,7 @@ function New-ReviewProductRecord {
     alternatePartNumbers = @($alternateNumbers)
     availability = 'Manual review required'
     image = $ImageRelativePath
+    thumbnail = $ImageRelativePath
     specifications = if ($Parsed.Contains('Specifications')) { $Parsed.Specifications } else { [ordered]@{} }
     specs = @($specLabels)
     specification = (@($specLabels) -join '; ')
@@ -364,7 +381,7 @@ function Update-ProductCompatibilityFields {
     $ocrText = [string]$source.ocrText
   }
 
-  $brand = [string](Get-ProductRecordValue -Product $Product -Name 'brand')
+  $brand = Get-CanonicalProductBrand ([string](Get-ProductRecordValue -Product $Product -Name 'brand'))
   $vehicleModel = [string](Get-ProductRecordValue -Product $Product -Name 'vehicleModel')
   $brandUpper = $brand.ToUpperInvariant()
   $brandIsHuataiAlias = ($brandUpper -eq 'HUATAI' -or $brandUpper -eq 'HUATAU')
@@ -501,7 +518,7 @@ function Update-ExistingProductRecord {
     ([string]::IsNullOrWhiteSpace($existingBrand) -or $existingBrand -eq 'Imported catalogue')
   ) {
     if (-not $DryRun) {
-      Set-ProductRecordValue -Product $ExistingProduct -Name 'brand' -Value ([string]$Parsed.Brand)
+      Set-ProductRecordValue -Product $ExistingProduct -Name 'brand' -Value (Get-CanonicalProductBrand ([string]$Parsed.Brand))
     }
     $updates.Add('brand') | Out-Null
   }
