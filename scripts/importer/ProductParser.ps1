@@ -66,6 +66,11 @@ function Normalize-ProductNumber {
   $value = $value -replace '^XIN-SENG-(?=[A-Z0-9-]*\d)', ''
   $value = $value -replace '^XINSENG-?(?=[A-Z0-9-]*\d)', ''
 
+  if ($value -match '^(\d{2,3})-?X-?(\d{2,3})-?X-?(\d{2,3})(?:-?X-?(\d{1,3}))?-XS$') {
+    $tail = if (-not [string]::IsNullOrWhiteSpace($Matches[4])) { "X$($Matches[4])" } else { '' }
+    return "$($Matches[1])X$($Matches[2])X$($Matches[3])$tail-XS"
+  }
+
   if ($value -match '^([A-Z]{2,8})-([0-9IOL]{3,8})(-[A-Z0-9]{1,12})?$') {
     $suffix = if (-not [string]::IsNullOrWhiteSpace($Matches[3])) { $Matches[3] } else { '' }
     $value = "$($Matches[1])-$(Convert-OcrDigitRun $Matches[2])$suffix"
