@@ -14,7 +14,8 @@ function Get-WhatsAppImageItems {
   $imageExtensions = @('.jpg', '.jpeg', '.png', '.webp', '.bmp', '.tif', '.tiff')
   $excludedFolders = @(
     (Join-Path $sourceRoot 'review').ToLowerInvariant(),
-    (Join-Path $sourceRoot 'reports').ToLowerInvariant()
+    (Join-Path $sourceRoot 'reports').ToLowerInvariant(),
+    (Join-Path $sourceRoot '.ocr-cache').ToLowerInvariant()
   )
 
   Get-ChildItem -LiteralPath $sourceRoot -File -Recurse |
@@ -34,6 +35,42 @@ function Get-WhatsAppImageItems {
       [ordered]@{
         SourceType = 'whatsapp-image'
         File = $_
+        RelativePath = Get-RelativeProjectPath -ProjectRoot $ProjectRoot -Path $_.FullName
+      }
+    }
+}
+
+function Test-CatalogSyncBrandFolderName {
+  param([AllowNull()][string]$Name)
+
+  if ([string]::IsNullOrWhiteSpace($Name)) { return $false }
+
+  $trimmed = ([string]$Name).Trim()
+  if ($trimmed.StartsWith('.')) { return $false }
+  if ($trimmed -match '^(?i:review|reports)$') { return $false }
+  if ($trimmed -notmatch '[A-Za-z]') { return $false }
+
+  return $true
+}
+
+function Get-CatalogSyncBrandFolders {
+  param(
+    [Parameter(Mandatory)][string]$ProjectRoot,
+    [string]$RelativeFolder = 'whatsapp-import'
+  )
+
+  $sourceRoot = Join-Path $ProjectRoot $RelativeFolder
+  if (-not (Test-Path -LiteralPath $sourceRoot)) {
+    throw "WhatsApp import folder not found: $sourceRoot"
+  }
+
+  Get-ChildItem -LiteralPath $sourceRoot -Directory |
+    Where-Object { Test-CatalogSyncBrandFolderName -Name $_.Name } |
+    Sort-Object Name |
+    ForEach-Object {
+      [ordered]@{
+        FolderName = $_.Name
+        FullPath = $_.FullName
         RelativePath = Get-RelativeProjectPath -ProjectRoot $ProjectRoot -Path $_.FullName
       }
     }

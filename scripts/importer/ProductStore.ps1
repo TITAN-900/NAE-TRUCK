@@ -11,6 +11,7 @@ function Get-ProductDataPaths {
   return [ordered]@{
     Json = Join-Path $dataDir 'products.generated.json'
     Js = Join-Path $dataDir 'products.generated.js'
+    ArchiveJson = Join-Path $dataDir 'products.archive.json'
   }
 }
 
@@ -32,6 +33,27 @@ function Read-ProductStore {
     }
   } catch {
     throw "Could not read product data store: $($paths.Json). $($_.Exception.Message)"
+  }
+}
+
+function Read-ProductArchiveStore {
+  param([Parameter(Mandatory)][string]$ProjectRoot)
+
+  $paths = Get-ProductDataPaths -ProjectRoot $ProjectRoot
+  if (-not (Test-Path -LiteralPath $paths.ArchiveJson)) {
+    return @()
+  }
+
+  try {
+    $raw = Get-Content -LiteralPath $paths.ArchiveJson -Raw
+    if ([string]::IsNullOrWhiteSpace($raw)) { return @() }
+    $items = $raw | ConvertFrom-Json
+    if ($null -eq $items) { return @() }
+    foreach ($item in @($items)) {
+      if ($null -ne $item) { Write-Output $item }
+    }
+  } catch {
+    throw "Could not read product archive store: $($paths.ArchiveJson). $($_.Exception.Message)"
   }
 }
 
@@ -104,8 +126,8 @@ function Get-CanonicalProductBrand {
   $trimmed = ([string]$Brand).Trim()
 
   $normalized = ($trimmed.ToUpperInvariant() -replace '[^A-Z0-9]', '')
-  if ($normalized -match '^HUATA[IU]$|^HUATAU$') { return 'Huatai' }
-  if ($normalized -match '^XINSENG$') { return 'XIN SENG' }
+  if ($normalized -match 'HUATA[IU]|HUATAU') { return 'Huatai' }
+  if ($normalized -match 'XINSENG') { return 'XIN SENG' }
 
   return $trimmed
 }
@@ -411,14 +433,18 @@ function Update-ProductCompatibilityFields {
     }
   }
 
-  Set-ProductRecordValue -Product $Product -Name 'id' -Value $number
+  $preservedId = [string](Get-ProductRecordValue -Product $Product -Name 'id')
+  if ([string]::IsNullOrWhiteSpace($preservedId) -or $preservedId -match '^REVIEW-') {
+    $preservedId = if (-not [string]::IsNullOrWhiteSpace($number)) { $number } else { $id }
+  }
+
   if ([string]::IsNullOrWhiteSpace($number)) {
-    Set-ProductRecordValue -Product $Product -Name 'id' -Value $id
+    Set-ProductRecordValue -Product $Product -Name 'id' -Value $preservedId
     Set-ProductRecordValue -Product $Product -Name 'number' -Value ''
     Set-ProductRecordValue -Product $Product -Name 'productNumber' -Value ''
     Set-ProductRecordValue -Product $Product -Name 'partNumber' -Value ''
   } else {
-    Set-ProductRecordValue -Product $Product -Name 'id' -Value $number
+    Set-ProductRecordValue -Product $Product -Name 'id' -Value $preservedId
     Set-ProductRecordValue -Product $Product -Name 'number' -Value $number
     Set-ProductRecordValue -Product $Product -Name 'productNumber' -Value $number
     Set-ProductRecordValue -Product $Product -Name 'partNumber' -Value $number
@@ -456,6 +482,7 @@ function Copy-ProductImage {
     [Parameter(Mandatory)][string]$ProjectRoot,
     [Parameter(Mandatory)][string]$ProductNumber,
     [AllowNull()][string]$UniqueSuffix,
+    [switch]$ReuseExisting,
     [switch]$DryRun
   )
 
@@ -481,6 +508,13 @@ function Copy-ProductImage {
     if ($suffix.Length -gt 12) { $suffix = $suffix.Substring(0, 12) }
     $candidateStem = "$stem-$suffix"
     $target = Join-Path $imageDir "$candidateStem$extension"
+
+    if ($ReuseExisting -and (Test-Path -LiteralPath $target -PathType Leaf)) {
+      return [ordered]@{
+        FullPath = $target
+        RelativePath = (Get-RelativeProjectPath -ProjectRoot $ProjectRoot -Path $target)
+      }
+    }
 
     $counter = 2
     while (Test-Path -LiteralPath $target) {
@@ -593,6 +627,12 @@ function Test-ProductPublishable {
     }
   }
 
+  $status = [string](Get-ProductRecordValue -Product $Product -Name 'status')
+  $archived = Get-ProductRecordValue -Product $Product -Name 'archived'
+  if ($status -match '^Archived$' -or $archived -eq $true -or [string]$archived -eq 'true') {
+    return $false
+  }
+
   return $true
 }
 
@@ -623,6 +663,9 @@ function Save-ProductStore {
     skippedProducts = if ($RunSummary.ContainsKey('Skipped')) { [int]$RunSummary.Skipped } else { 0 }
     needsReview = [int]$RunSummary.Review
     cleanedSourceRecords = if ($RunSummary.ContainsKey('Cleaned')) { [int]$RunSummary.Cleaned } else { 0 }
+    archivedThisRun = if ($RunSummary.ContainsKey('Archived')) { [int]$RunSummary.Archived } else { 0 }
+    duplicateProductsMerged = if ($RunSummary.ContainsKey('DuplicatesMerged')) { [int]$RunSummary.DuplicatesMerged } else { 0 }
+    searchIndexRebuilt = if ($RunSummary.ContainsKey('SearchIndexRebuilt')) { [bool]$RunSummary.SearchIndexRebuilt } else { $true }
     source = 'whatsapp-import'
   }
 
@@ -640,6 +683,31 @@ function Save-ProductStore {
   return [ordered]@{
     Json = $paths.Json
     Js = $paths.Js
+    Count = $sortedProducts.Count
+  }
+}
+
+function Save-ProductArchiveStore {
+  param(
+    [Parameter(Mandatory)][string]$ProjectRoot,
+    [Parameter(Mandatory)][AllowEmptyCollection()][array]$Products,
+    [switch]$DryRun
+  )
+
+  $paths = Get-ProductDataPaths -ProjectRoot $ProjectRoot
+  $sortedProducts = @($Products | Sort-Object -Property brand, category, name, number)
+  if ($sortedProducts.Count -eq 0) {
+    $json = '[]'
+  } else {
+    $json = ConvertTo-Json -InputObject @($sortedProducts) -Depth 30
+  }
+
+  if (-not $DryRun) {
+    $json | Set-Content -LiteralPath $paths.ArchiveJson -Encoding UTF8
+  }
+
+  return [ordered]@{
+    Json = $paths.ArchiveJson
     Count = $sortedProducts.Count
   }
 }

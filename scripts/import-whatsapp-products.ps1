@@ -6,9 +6,11 @@ param(
   [switch]$DryRun,
   [switch]$ForceOcr,
   [switch]$RebuildGeneratedData,
+  [switch]$SyncCatalog,
   [switch]$ImportUncertain,
   [switch]$NoUpdateExisting,
-  [switch]$CleanSourceBeforeImport
+  [switch]$CleanSourceBeforeImport,
+  [switch]$SkipArchiveMissing
 )
 
 Set-StrictMode -Version Latest
@@ -25,6 +27,7 @@ if ([string]::IsNullOrWhiteSpace($ProjectRoot)) {
 . (Join-Path $PSScriptRoot 'importer\ProductParser.ps1')
 . (Join-Path $PSScriptRoot 'importer\ProductStore.ps1')
 . (Join-Path $PSScriptRoot 'importer\Reports.ps1')
+. (Join-Path $PSScriptRoot 'importer\CatalogSync.ps1')
 
 function New-RunSummary {
   return @{
@@ -62,8 +65,8 @@ function Get-CanonicalImportBrand {
   $trimmed = ([string]$Brand).Trim()
 
   $normalized = ($trimmed.ToUpperInvariant() -replace '[^A-Z0-9]', '')
-  if ($normalized -match '^HUATA[IU]$|^HUATAU$') { return 'Huatai' }
-  if ($normalized -match '^XINSENG$') { return 'XIN SENG' }
+  if ($normalized -match 'HUATA[IU]|HUATAU') { return 'Huatai' }
+  if ($normalized -match 'XINSENG') { return 'XIN SENG' }
 
   return $trimmed
 }
@@ -82,6 +85,16 @@ function Resolve-ImportBrandFromFolder {
   }
 
   return ''
+}
+
+if ($SyncCatalog) {
+  Invoke-CatalogSync `
+    -ProjectRoot $ProjectRoot `
+    -WhatsAppFolder $WhatsAppFolder `
+    -DryRun:$DryRun `
+    -ForceOcr:$ForceOcr `
+    -SkipArchiveMissing:$SkipArchiveMissing | Out-Null
+  return
 }
 
 function Add-DuplicateRow {
