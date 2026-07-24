@@ -266,6 +266,121 @@ function Add-CatalogSyncProductToIndexes {
   if (-not [string]::IsNullOrWhiteSpace($hash)) { $Indexes.ByHash[$hash.ToLowerInvariant()] = $Product }
 }
 
+function Add-CatalogSyncRecognitionNumber {
+  param(
+    [Parameter(Mandatory)][System.Collections.IDictionary]$Context,
+    [AllowNull()][string]$Brand,
+    [AllowNull()][string]$Number
+  )
+
+  $numberKey = Normalize-CatalogSyncKey (Normalize-ProductNumber $Number)
+  if ([string]::IsNullOrWhiteSpace($numberKey)) { return }
+
+  $Context['KnownNumbers'][$numberKey] = $true
+  if (-not $Context['NumberFrequency'].ContainsKey($numberKey)) {
+    $Context['NumberFrequency'][$numberKey] = 0
+  }
+  $Context['NumberFrequency'][$numberKey] = [int]$Context['NumberFrequency'][$numberKey] + 1
+
+  $brandKey = Normalize-CatalogSyncKey $Brand
+  if ([string]::IsNullOrWhiteSpace($brandKey)) { return }
+  if (-not $Context['BrandNumbers'].ContainsKey($brandKey)) {
+    $Context['BrandNumbers'][$brandKey] = @{}
+  }
+  $Context['BrandNumbers'][$brandKey][$numberKey] = $true
+}
+
+function Add-CatalogSyncRecognitionTemplate {
+  param(
+    [Parameter(Mandatory)][System.Collections.IDictionary]$Context,
+    [AllowNull()][string]$Brand,
+    [AllowNull()]$Parsed
+  )
+
+  if ($null -eq $Parsed -or -not $Parsed.Contains('CandidateNumbers')) { return }
+  $candidate = @($Parsed.CandidateNumbers | Select-Object -First 1)
+  if ($candidate.Count -eq 0) { return }
+
+  $lineIndex = -1
+  [void][int]::TryParse(([string]$candidate[0].LineIndex), [ref]$lineIndex)
+  if ($lineIndex -lt 0) { return }
+
+  $lineCount = 0
+  if ($Parsed.Contains('OcrLineCount')) {
+    [void][int]::TryParse(([string]$Parsed.OcrLineCount), [ref]$lineCount)
+  }
+  if ($lineCount -le 1) { return }
+
+  $lineRatio = [double]$lineIndex / [double]([math]::Max(1, $lineCount - 1))
+  $brandKey = Normalize-CatalogSyncKey $Brand
+  if ([string]::IsNullOrWhiteSpace($brandKey)) { return }
+
+  if (-not $Context['BrandTemplates'].ContainsKey($brandKey)) {
+    $Context['BrandTemplates'][$brandKey] = @{
+      Count = 0
+      AverageLineRatio = 0.0
+    }
+  }
+
+  $template = $Context['BrandTemplates'][$brandKey]
+  $count = [int]$template['Count']
+  $average = [double]$template['AverageLineRatio']
+  $newCount = $count + 1
+  $template['AverageLineRatio'] = (($average * $count) + $lineRatio) / $newCount
+  $template['Count'] = $newCount
+}
+
+function Add-CatalogSyncRecognitionProduct {
+  param(
+    [Parameter(Mandatory)][System.Collections.IDictionary]$Context,
+    [AllowNull()]$Product
+  )
+
+  if ($null -eq $Product) { return }
+  $brand = [string](Get-ProductRecordValue -Product $Product -Name 'brand')
+  foreach ($field in @('number', 'productNumber', 'partNumber')) {
+    Add-CatalogSyncRecognitionNumber -Context $Context -Brand $brand -Number ([string](Get-ProductRecordValue -Product $Product -Name $field))
+  }
+}
+
+function Add-CatalogSyncRecognitionParsed {
+  param(
+    [Parameter(Mandatory)][System.Collections.IDictionary]$Context,
+    [AllowNull()][string]$Brand,
+    [AllowNull()]$Parsed
+  )
+
+  if ($null -eq $Parsed -or -not $Parsed.Contains('ProductNumber')) { return }
+  $number = [string]$Parsed.ProductNumber
+  if ([string]::IsNullOrWhiteSpace($number)) { return }
+
+  $confidence = 0
+  if ($Parsed.Contains('Confidence')) {
+    [void][int]::TryParse(([string]$Parsed.Confidence), [ref]$confidence)
+  }
+  if ($confidence -lt 70) { return }
+
+  Add-CatalogSyncRecognitionNumber -Context $Context -Brand $Brand -Number $number
+  Add-CatalogSyncRecognitionTemplate -Context $Context -Brand $Brand -Parsed $Parsed
+}
+
+function New-CatalogSyncRecognitionContext {
+  param([Parameter(Mandatory)][AllowEmptyCollection()][array]$Products)
+
+  $context = @{
+    KnownNumbers = @{}
+    BrandNumbers = @{}
+    NumberFrequency = @{}
+    BrandTemplates = @{}
+  }
+
+  foreach ($product in @($Products)) {
+    Add-CatalogSyncRecognitionProduct -Context $context -Product $product
+  }
+
+  return $context
+}
+
 function Find-CatalogSyncExistingProduct {
   param(
     [Parameter(Mandatory)][System.Collections.IDictionary]$Indexes,
@@ -553,6 +668,7 @@ function Invoke-CatalogSync {
   }
 
   $indexes = Get-CatalogSyncIndexes -Products @($allProducts.ToArray())
+  $recognitionContext = New-CatalogSyncRecognitionContext -Products @($allProducts.ToArray())
   $currentSourcePaths = @{}
   $reportRows = New-Object System.Collections.Generic.List[object]
   $reviewRows = New-Object System.Collections.Generic.List[object]
@@ -586,8 +702,9 @@ function Invoke-CatalogSync {
           continue
         }
 
-        $parsed = Parse-ProductOcr -Text ([string]$ocr.Text) -Lines @($ocr.Lines) -SourceFile $file.Name
+        $parsed = Parse-ProductOcr -Text ([string]$ocr.Text) -Lines @($ocr.Lines) -SourceFile $file.Name -BrandHint $folderBrand -RecognitionContext $recognitionContext
         Set-ParsedBrandOverride -Parsed $parsed -Brand $folderBrand
+        Add-CatalogSyncRecognitionParsed -Context $recognitionContext -Brand $folderBrand -Parsed $parsed
 
         $hashMatch = if ($indexes.ByHash.ContainsKey($fileHash)) { $indexes.ByHash[$fileHash] } else { $null }
 
