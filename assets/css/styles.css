@@ -2530,6 +2530,33 @@ h1 em,h2 em{
 .product-card:hover .product-image.has-photo img{
     transform:scale(1.035)
 }
+.homepage-result-card .homepage-product-image-button{
+    overflow:hidden
+}
+.homepage-result-card .homepage-product-image-button .product-photo{
+    pointer-events:none;
+    transform:scale(1);
+    transition:transform .3s ease-out
+}
+.product-card.homepage-result-card:hover .product-image.has-photo.homepage-product-image-button:not(:hover):not(.is-image-hovered) .product-photo{
+    transform:scale(1)
+}
+@media(hover:hover) and (pointer:fine){
+    .product-card.homepage-result-card:hover .product-image.has-photo.homepage-product-image-button:hover .product-photo,
+    .product-card.homepage-result-card .product-image.has-photo.homepage-product-image-button:focus-visible .product-photo{
+        transform:scale(1.045)
+    }
+}
+@media(hover:none){
+    .homepage-result-card .homepage-product-image-button .product-photo,
+    .homepage-result-card:hover .homepage-product-image-button .product-photo{
+        transform:scale(1)!important
+    }
+}
+.product-card.homepage-result-card:hover .product-image.has-photo.homepage-product-image-button.is-image-hovered .product-photo,
+.product-card.homepage-result-card .product-image.has-photo.homepage-product-image-button.is-image-hovered .product-photo{
+    transform:scale(1.045)
+}
 .load-more-products{
     display:flex;
     justify-content:center;

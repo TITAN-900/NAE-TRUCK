@@ -862,6 +862,16 @@ function openHomepageDetailFromCard(card) {
   });
 }
 
+function toggleHomepageImageHover(event, active) {
+  if (event.pointerType && event.pointerType !== "mouse") return;
+
+  const preview = event.target.closest("[data-home-preview='true']");
+  if (!preview) return;
+  if (preview.contains(event.relatedTarget)) return;
+
+  preview.classList.toggle("is-image-hovered", active);
+}
+
 function ensureHomepageImageLightbox() {
   if (document.querySelector("#image-lightbox")) return;
 
@@ -1135,6 +1145,9 @@ function bindHomepageFinderEvents() {
   finderTrackPrev?.addEventListener("click", () => scrollFinderTrackBy(-1));
   finderTrackNext?.addEventListener("click", () => scrollFinderTrackBy(1));
 
+  finderResults?.addEventListener("pointerover", event => toggleHomepageImageHover(event, true));
+  finderResults?.addEventListener("pointerout", event => toggleHomepageImageHover(event, false));
+
   finderResults?.addEventListener("scroll", () => {
     maybeLoadMoreFinderProducts();
     updateFinderTrackArrows();
@@ -1159,7 +1172,6 @@ function bindHomepageFinderEvents() {
       moved: false
     };
     finderResults.classList.add("is-dragging");
-    finderResults.setPointerCapture?.(event.pointerId);
   });
 
   finderResults?.addEventListener("pointermove", (event) => {
@@ -1193,13 +1205,19 @@ function bindHomepageFinderEvents() {
     }
 
     const preview = event.target.closest("[data-home-preview='true']");
-    if (preview) {
-      const card = preview.closest("[data-home-product-card='true'][data-home-lightbox='true']");
-      if (!card) return;
+    if (!preview) return;
 
+    const card = preview.closest("[data-home-product-card='true'][data-home-lightbox='true']");
+    if (!card) return;
+
+    event.preventDefault();
+    event.stopPropagation();
+    openHomepagePreviewFromCard(card);
+  }, true);
+
+  finderResults?.addEventListener("click", event => {
+    if (finderSuppressClick) {
       event.preventDefault();
-      event.stopPropagation();
-      openHomepagePreviewFromCard(card);
       return;
     }
 
