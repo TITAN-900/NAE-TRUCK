@@ -364,6 +364,20 @@ let finderCurrentSearchState = getFinderSearchState("");
 let finderSearchDebounce = 0;
 let finderDragState = null;
 let finderSuppressClick = false;
+const lightboxZoomStep = 0.25;
+const lightboxMinZoom = 1;
+const lightboxMaxZoom = 4;
+let homepageLightboxState = {
+  images: [],
+  index: 0,
+  scale: 1,
+  lastFocus: null,
+  scrollY: 0,
+  touchStartX: 0,
+  touchStartY: 0,
+  touchStartDistance: 0,
+  touchStartScale: 1
+};
 
 function renderBrandLogo(brand) {
   if (brand.logo) {
@@ -446,6 +460,30 @@ function getFinderCategoryLabel(product) {
     || "General";
 }
 
+function getProductGalleryImages(product) {
+  const imageValues = [
+    product.image,
+    product.thumbnail,
+    ...flattenFinderValue(product.images),
+    ...flattenFinderValue(product.gallery),
+    ...flattenFinderValue(product.photos),
+    ...flattenFinderValue(product.productImages),
+    ...flattenFinderValue(product.imageList),
+    ...flattenFinderValue(product.additionalImages)
+  ];
+  const seen = new Set();
+
+  return imageValues
+    .map(value => String(value || "").trim())
+    .filter(Boolean)
+    .map(value => resolveSiteAsset(value))
+    .filter((value) => {
+      if (!value || seen.has(value)) return false;
+      seen.add(value);
+      return true;
+    });
+}
+
 function getFinderProductSummary(product) {
   const number = cleanCustomerField(getProductNumber(product), "Part number unavailable");
   const name = cleanCustomerField(getProductName(product) || product.description, "Product image");
@@ -454,6 +492,7 @@ function getFinderProductSummary(product) {
     product.description || product.visibleDescription || product.longDescription || product.application,
     "Heavy-duty replacement part"
   );
+  const images = getProductGalleryImages(product);
 
   return {
     number,
@@ -462,7 +501,8 @@ function getFinderProductSummary(product) {
     category: getFinderCategoryLabel(product),
     availability: cleanCustomerField(product.availability, "Contact for stock"),
     description,
-    image: resolveSiteAsset(product.image || product.thumbnail || ""),
+    image: resolveSiteAsset(product.thumbnail || product.image || ""),
+    images,
     enquiry: [number, name, brandName].filter(Boolean).join(" / ")
   };
 }
@@ -669,15 +709,17 @@ function renderHomepageResultImage(summary) {
 function renderHomepageResultCard(record, searchState) {
   const summary = record.summary;
   const label = `${summary.number} ${summary.name}`.trim();
+  const images = summary.images.length ? summary.images : (summary.image ? [summary.image] : []);
+  const encodedImages = escapeHtml(JSON.stringify(images));
   const brand = summary.brand
     ? `<span class="product-brand">${highlightFinderText(summary.brand, searchState.highlightTerms)}</span>`
     : "";
 
-  return `<article class="product-card homepage-result-card" role="button" tabindex="0" data-home-lightbox="${summary.image ? "true" : "false"}" data-lightbox-src="${escapeHtml(summary.image)}" data-lightbox-alt="${escapeHtml(label)}" data-lightbox-number="${escapeHtml(summary.number)}" data-lightbox-name="${escapeHtml(summary.name)}" data-lightbox-brand="${escapeHtml(summary.brand)}" aria-label="${escapeHtml(`View product details for ${label}`)}">
-    <div class="product-image has-photo">
+  return `<article class="product-card homepage-result-card" data-home-product-card="true" data-home-lightbox="${images.length ? "true" : "false"}" data-lightbox-src="${escapeHtml(images[0] || "")}" data-lightbox-images="${encodedImages}" data-lightbox-alt="${escapeHtml(label)}" data-lightbox-number="${escapeHtml(summary.number)}" data-lightbox-name="${escapeHtml(summary.name)}" data-lightbox-brand="${escapeHtml(summary.brand)}">
+    <button class="product-image has-photo homepage-product-image-button" type="button" data-home-preview="true" aria-label="${escapeHtml(`Enlarge product image for ${label}`)}">
       ${renderHomepageResultImage(summary)}
-    </div>
-    <div class="product-body">
+    </button>
+    <div class="product-body" role="button" tabindex="0" data-home-detail="true" aria-label="${escapeHtml(`View product details for ${label}`)}">
       <span class="product-code-label">Part Number</span>
       <strong class="product-code">${highlightFinderText(summary.number, searchState.highlightTerms)}</strong>
       <h3>${highlightFinderText(summary.name, searchState.highlightTerms)}</h3>
@@ -806,6 +848,20 @@ function scrollFinderTrackBy(direction) {
   });
 }
 
+function openHomepagePreviewFromCard(card) {
+  const data = getHomepageCardLightboxData(card);
+  openHomepageLightbox(data.images, data.alt, null);
+}
+
+function openHomepageDetailFromCard(card) {
+  const data = getHomepageCardLightboxData(card);
+  openHomepageLightbox(data.images, data.alt, {
+    number: data.number,
+    name: data.name,
+    brand: data.brand
+  });
+}
+
 function ensureHomepageImageLightbox() {
   if (document.querySelector("#image-lightbox")) return;
 
@@ -818,7 +874,19 @@ function ensureHomepageImageLightbox() {
   lightbox.innerHTML = `
     <button class="close-lightbox" type="button" aria-label="Close image preview">&times;</button>
     <div class="lightbox-panel">
-      <img alt="">
+      <div class="lightbox-stage" data-lightbox-stage>
+        <button class="lightbox-nav lightbox-prev" type="button" data-lightbox-prev aria-label="Previous product image">&larr;</button>
+        <img class="lightbox-image" alt="">
+        <button class="lightbox-nav lightbox-next" type="button" data-lightbox-next aria-label="Next product image">&rarr;</button>
+      </div>
+      <div class="lightbox-tools" aria-label="Image preview controls">
+        <span class="lightbox-counter" data-lightbox-count hidden></span>
+        <div class="lightbox-zoom-controls">
+          <button type="button" data-lightbox-zoom-out aria-label="Zoom out">Zoom Out</button>
+          <button type="button" data-lightbox-zoom-reset aria-label="Reset zoom">Reset</button>
+          <button type="button" data-lightbox-zoom-in aria-label="Zoom in">Zoom In</button>
+        </div>
+      </div>
       <div class="lightbox-product-info" hidden>
         <div>
           <span>Product Number</span>
@@ -837,6 +905,16 @@ function ensureHomepageImageLightbox() {
     </div>
   `;
   document.body.append(lightbox);
+}
+
+function getHomepageLightbox() {
+  ensureHomepageImageLightbox();
+  return document.querySelector("#image-lightbox");
+}
+
+function getHomepageLightboxImage() {
+  return document.querySelector("#image-lightbox .lightbox-image")
+    || document.querySelector("#image-lightbox .lightbox-panel>img");
 }
 
 function setHomepageLightboxProductInfo(lightbox, info) {
@@ -865,34 +943,173 @@ function setHomepageLightboxProductInfo(lightbox, info) {
   panel.querySelector("[data-lightbox-enquire]").dataset.lightboxEnquire = [number, name, brandName].filter(Boolean).join(" / ");
 }
 
-function openHomepageLightbox(src, alt, productInfo = null) {
-  if (!src) return;
-  ensureHomepageImageLightbox();
+function clampLightboxZoom(value) {
+  return Math.min(lightboxMaxZoom, Math.max(lightboxMinZoom, Number(value) || 1));
+}
 
+function updateHomepageLightboxZoom() {
+  const image = getHomepageLightboxImage();
   const lightbox = document.querySelector("#image-lightbox");
-  const image = lightbox?.querySelector("img");
+  if (!image || !lightbox) return;
+
+  const scale = clampLightboxZoom(homepageLightboxState.scale);
+  homepageLightboxState.scale = scale;
+  image.style.transform = `scale(${scale})`;
+  lightbox.classList.toggle("is-zoomed", scale > 1.01);
+}
+
+function setHomepageLightboxZoom(value) {
+  homepageLightboxState.scale = clampLightboxZoom(value);
+  updateHomepageLightboxZoom();
+}
+
+function resetHomepageLightboxZoom() {
+  setHomepageLightboxZoom(1);
+}
+
+function updateHomepageLightboxControls(lightbox) {
+  const hasMultiple = homepageLightboxState.images.length > 1;
+  const counter = lightbox.querySelector("[data-lightbox-count]");
+  const prev = lightbox.querySelector("[data-lightbox-prev]");
+  const next = lightbox.querySelector("[data-lightbox-next]");
+
+  lightbox.classList.toggle("has-multiple-images", hasMultiple);
+
+  [prev, next].forEach(button => {
+    if (button) button.hidden = !hasMultiple;
+  });
+
+  if (counter) {
+    counter.hidden = !hasMultiple;
+    counter.textContent = hasMultiple
+      ? `${homepageLightboxState.index + 1} / ${homepageLightboxState.images.length}`
+      : "";
+  }
+}
+
+function setHomepageLightboxImage(index) {
+  const lightbox = document.querySelector("#image-lightbox");
+  const image = getHomepageLightboxImage();
+  if (!lightbox || !image || !homepageLightboxState.images.length) return;
+
+  const length = homepageLightboxState.images.length;
+  homepageLightboxState.index = ((index % length) + length) % length;
+  image.src = homepageLightboxState.images[homepageLightboxState.index];
+  image.alt = lightbox.dataset.lightboxAlt || "Product image preview";
+  resetHomepageLightboxZoom();
+  updateHomepageLightboxControls(lightbox);
+}
+
+function moveHomepageLightboxImage(direction) {
+  if (homepageLightboxState.images.length <= 1) return;
+  setHomepageLightboxImage(homepageLightboxState.index + direction);
+}
+
+function parseHomepageLightboxImages(value) {
+  if (!value) return [];
+
+  try {
+    const parsed = JSON.parse(value);
+    return Array.isArray(parsed) ? parsed.filter(Boolean) : [];
+  } catch (error) {
+    return String(value).trim() ? [String(value).trim()] : [];
+  }
+}
+
+function getHomepageCardLightboxData(card) {
+  const images = parseHomepageLightboxImages(card?.dataset.lightboxImages)
+    .concat(card?.dataset.lightboxSrc || "")
+    .filter(Boolean);
+  const uniqueImages = Array.from(new Set(images));
+
+  return {
+    images: uniqueImages,
+    alt: card?.dataset.lightboxAlt || "Product image preview",
+    number: card?.dataset.lightboxNumber || "",
+    name: card?.dataset.lightboxName || "",
+    brand: card?.dataset.lightboxBrand || ""
+  };
+}
+
+function lockHomepageLightboxScroll() {
+  homepageLightboxState.scrollY = window.scrollY || window.pageYOffset || 0;
+  document.body.style.top = `-${homepageLightboxState.scrollY}px`;
+  document.body.classList.add("lightbox-open");
+}
+
+function unlockHomepageLightboxScroll() {
+  const scrollY = homepageLightboxState.scrollY || 0;
+  document.body.classList.remove("lightbox-open");
+  document.body.style.top = "";
+  window.scrollTo(0, scrollY);
+}
+
+function getHomepageLightboxFocusable(lightbox) {
+  return Array.from(lightbox.querySelectorAll("button:not([hidden]):not(:disabled), a[href]:not([hidden])"))
+    .filter(element => element.offsetParent !== null || element === document.activeElement);
+}
+
+function focusHomepageLightbox() {
+  const lightbox = document.querySelector("#image-lightbox");
+  const closeButton = lightbox?.querySelector(".close-lightbox");
+  closeButton?.focus({ preventScroll: true });
+}
+
+function openHomepageLightbox(imagesOrSrc, alt, productInfo = null, options = {}) {
+  const images = Array.isArray(imagesOrSrc)
+    ? imagesOrSrc.filter(Boolean)
+    : [imagesOrSrc].filter(Boolean);
+  if (!images.length) return;
+
+  const lightbox = getHomepageLightbox();
+  const image = getHomepageLightboxImage();
   if (!lightbox || !image) return;
 
-  image.src = src;
-  image.alt = alt || "Product image preview";
+  const wasOpen = lightbox.classList.contains("open");
+  homepageLightboxState.images = Array.from(new Set(images));
+  homepageLightboxState.index = Math.min(Math.max(Number(options.startIndex) || 0, 0), homepageLightboxState.images.length - 1);
+  homepageLightboxState.scale = 1;
+  homepageLightboxState.lastFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+  lightbox.dataset.lightboxAlt = alt || "Product image preview";
+
+  setHomepageLightboxImage(homepageLightboxState.index);
   setHomepageLightboxProductInfo(lightbox, productInfo);
   lightbox.classList.add("open");
   lightbox.setAttribute("aria-hidden", "false");
-  document.body.classList.add("lightbox-open");
+
+  if (!wasOpen) {
+    lockHomepageLightboxScroll();
+  }
+
+  requestAnimationFrame(focusHomepageLightbox);
 }
 
 function closeHomepageLightbox() {
   const lightbox = document.querySelector("#image-lightbox");
-  const image = lightbox?.querySelector("img");
-  if (!lightbox) return;
+  const image = getHomepageLightboxImage();
+  if (!lightbox || !lightbox.classList.contains("open")) return;
+  const focusTarget = homepageLightboxState.lastFocus;
 
   lightbox.classList.remove("open");
   lightbox.classList.remove("has-product-info");
+  lightbox.classList.remove("has-multiple-images");
+  lightbox.classList.remove("is-zoomed");
   lightbox.setAttribute("aria-hidden", "true");
-  document.body.classList.remove("lightbox-open");
 
-  if (image) image.removeAttribute("src");
+  if (image) {
+    image.removeAttribute("src");
+    image.style.transform = "";
+  }
+
+  homepageLightboxState.images = [];
+  homepageLightboxState.index = 0;
+  homepageLightboxState.scale = 1;
   setHomepageLightboxProductInfo(lightbox, null);
+  unlockHomepageLightboxScroll();
+
+  if (focusTarget?.focus) {
+    focusTarget.focus({ preventScroll: true });
+  }
 }
 
 function bindHomepageFinderEvents() {
@@ -975,34 +1192,82 @@ function bindHomepageFinderEvents() {
       return;
     }
 
-    const card = event.target.closest("[data-home-lightbox='true']");
+    const preview = event.target.closest("[data-home-preview='true']");
+    if (preview) {
+      const card = preview.closest("[data-home-product-card='true'][data-home-lightbox='true']");
+      if (!card) return;
+
+      event.preventDefault();
+      event.stopPropagation();
+      openHomepagePreviewFromCard(card);
+      return;
+    }
+
+    const detail = event.target.closest("[data-home-detail='true']");
+    const card = detail?.closest("[data-home-product-card='true'][data-home-lightbox='true']");
     if (!card) return;
 
     event.preventDefault();
-    openHomepageLightbox(card.dataset.lightboxSrc, card.dataset.lightboxAlt, {
-      number: card.dataset.lightboxNumber,
-      name: card.dataset.lightboxName,
-      brand: card.dataset.lightboxBrand
-    });
+    openHomepageDetailFromCard(card);
   });
 
   finderResults?.addEventListener("keydown", event => {
     if (event.key !== "Enter" && event.key !== " ") return;
 
-    const card = event.target.closest("[data-home-lightbox='true']");
+    const preview = event.target.closest("[data-home-preview='true']");
+    if (preview) {
+      const card = preview.closest("[data-home-product-card='true'][data-home-lightbox='true']");
+      if (!card) return;
+
+      event.preventDefault();
+      openHomepagePreviewFromCard(card);
+      return;
+    }
+
+    const detail = event.target.closest("[data-home-detail='true']");
+    const card = detail?.closest("[data-home-product-card='true'][data-home-lightbox='true']");
     if (!card) return;
 
     event.preventDefault();
-    openHomepageLightbox(card.dataset.lightboxSrc, card.dataset.lightboxAlt, {
-      number: card.dataset.lightboxNumber,
-      name: card.dataset.lightboxName,
-      brand: card.dataset.lightboxBrand
-    });
+    openHomepageDetailFromCard(card);
   });
 
   document.addEventListener("click", event => {
     const lightbox = document.querySelector("#image-lightbox");
     if (!lightbox?.classList.contains("open")) return;
+
+    const zoomIn = event.target.closest("[data-lightbox-zoom-in]");
+    if (zoomIn) {
+      event.preventDefault();
+      setHomepageLightboxZoom(homepageLightboxState.scale + lightboxZoomStep);
+      return;
+    }
+
+    const zoomOut = event.target.closest("[data-lightbox-zoom-out]");
+    if (zoomOut) {
+      event.preventDefault();
+      setHomepageLightboxZoom(homepageLightboxState.scale - lightboxZoomStep);
+      return;
+    }
+
+    const zoomReset = event.target.closest("[data-lightbox-zoom-reset]");
+    if (zoomReset) {
+      event.preventDefault();
+      resetHomepageLightboxZoom();
+      return;
+    }
+
+    if (event.target.closest("[data-lightbox-prev]")) {
+      event.preventDefault();
+      moveHomepageLightboxImage(-1);
+      return;
+    }
+
+    if (event.target.closest("[data-lightbox-next]")) {
+      event.preventDefault();
+      moveHomepageLightboxImage(1);
+      return;
+    }
 
     const lightboxEnquiry = event.target.closest("[data-lightbox-enquire]");
     if (lightboxEnquiry) {
@@ -1019,9 +1284,100 @@ function bindHomepageFinderEvents() {
     }
   });
 
+  document.addEventListener("wheel", event => {
+    const lightbox = document.querySelector("#image-lightbox");
+    if (!lightbox?.classList.contains("open")) return;
+    if (!event.target.closest("#image-lightbox")) return;
+
+    event.preventDefault();
+    const direction = event.deltaY < 0 ? 1 : -1;
+    setHomepageLightboxZoom(homepageLightboxState.scale + direction * lightboxZoomStep);
+  }, { passive: false });
+
+  document.addEventListener("touchstart", event => {
+    const lightbox = document.querySelector("#image-lightbox");
+    if (!lightbox?.classList.contains("open") || !event.target.closest("[data-lightbox-stage]")) return;
+
+    if (event.touches.length === 2) {
+      const [first, second] = event.touches;
+      homepageLightboxState.touchStartDistance = Math.hypot(second.clientX - first.clientX, second.clientY - first.clientY);
+      homepageLightboxState.touchStartScale = homepageLightboxState.scale;
+      return;
+    }
+
+    if (event.touches.length === 1) {
+      homepageLightboxState.touchStartX = event.touches[0].clientX;
+      homepageLightboxState.touchStartY = event.touches[0].clientY;
+    }
+  }, { passive: true });
+
+  document.addEventListener("touchmove", event => {
+    const lightbox = document.querySelector("#image-lightbox");
+    if (!lightbox?.classList.contains("open") || !event.target.closest("[data-lightbox-stage]")) return;
+
+    if (event.touches.length === 2 && homepageLightboxState.touchStartDistance) {
+      event.preventDefault();
+      const [first, second] = event.touches;
+      const distance = Math.hypot(second.clientX - first.clientX, second.clientY - first.clientY);
+      const ratio = distance / homepageLightboxState.touchStartDistance;
+      setHomepageLightboxZoom(homepageLightboxState.touchStartScale * ratio);
+    }
+  }, { passive: false });
+
+  document.addEventListener("touchend", event => {
+    const lightbox = document.querySelector("#image-lightbox");
+    if (!lightbox?.classList.contains("open")) return;
+
+    if (event.changedTouches.length !== 1 || homepageLightboxState.scale > 1.05) return;
+    const touch = event.changedTouches[0];
+    const deltaX = touch.clientX - homepageLightboxState.touchStartX;
+    const deltaY = touch.clientY - homepageLightboxState.touchStartY;
+
+    if (Math.abs(deltaX) > 60 && Math.abs(deltaX) > Math.abs(deltaY) * 1.25 && homepageLightboxState.images.length > 1) {
+      moveHomepageLightboxImage(deltaX > 0 ? -1 : 1);
+      return;
+    }
+
+    if (deltaY > 90 && Math.abs(deltaY) > Math.abs(deltaX) * 1.5) {
+      closeHomepageLightbox();
+    }
+  }, { passive: true });
+
   document.addEventListener("keydown", event => {
+    const lightbox = document.querySelector("#image-lightbox");
+    if (!lightbox?.classList.contains("open")) return;
+
     if (event.key === "Escape") {
       closeHomepageLightbox();
+      return;
+    }
+
+    if (event.key === "ArrowLeft") {
+      event.preventDefault();
+      moveHomepageLightboxImage(-1);
+      return;
+    }
+
+    if (event.key === "ArrowRight") {
+      event.preventDefault();
+      moveHomepageLightboxImage(1);
+      return;
+    }
+
+    if (event.key !== "Tab") return;
+
+    const focusable = getHomepageLightboxFocusable(lightbox);
+    if (!focusable.length) return;
+
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
     }
   });
 }
