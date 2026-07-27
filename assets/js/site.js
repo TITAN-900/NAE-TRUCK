@@ -265,25 +265,6 @@ function bindBrandLogoWarnings() {
 // ===========================
 
 const grid = document.querySelector("#categoryGrid");
-const homeCategoryGrid = document.querySelector("#homepageCategoryGrid");
-
-const homepageCategoryShortcuts = [
-  { title: "Engine", slug: "engine-parts", query: "engine" },
-  { title: "Clutch", slug: "clutch-system", query: "clutch" },
-  { title: "Brake", slug: "brake-system", query: "brake" },
-  { title: "Cooling", slug: "cooling-system", query: "cooling" },
-  { title: "Electrical", slug: "electrical-system", query: "electrical" },
-  { title: "Transmission", slug: "transmission-parts", query: "transmission" },
-  { title: "Axle", slug: "axle-parts", query: "axle" },
-  { title: "Suspension", slug: "suspension-system", query: "suspension" },
-  { title: "Steering", slug: "steering-system", query: "steering" },
-  { title: "Fuel System", query: "fuel" },
-  { title: "Air System", query: "air" },
-  { title: "Cabin", query: "cabin" },
-  { title: "Body Parts", query: "body" },
-  { title: "Trailer", slug: "trailer-parts", query: "trailer" },
-  { title: "Other", slug: "other", query: "other" }
-];
 
 function renderCategoryCards(catalogue) {
   if (!grid) return;
@@ -332,75 +313,6 @@ function renderCategoryCards(catalogue) {
   observeRevealElements();
 }
 
-function getHomepageCategoryHref(shortcut) {
-  if (shortcut.slug) {
-    return resolveSiteAsset(`products/${shortcut.slug}/index.html`);
-  }
-
-  return resolveSiteAsset("products/other/index.html");
-}
-
-function getHomepageCategoryDescription(shortcut, category) {
-  if (category?.desc) return category.desc;
-
-  const descriptions = {
-    "Fuel System": "Fuel delivery, filtration and injection-related parts.",
-    "Air System": "Air control, compressor and pneumatic service parts.",
-    Cabin: "Cabin fittings and driver-area replacement parts.",
-    "Body Parts": "Exterior, mounting and body-related heavy truck parts.",
-    Other: "Additional parts outside the main systems."
-  };
-
-  return descriptions[shortcut.title] || "Browse matching heavy-duty truck products.";
-}
-
-function getHomepageCategoryThumbnail(shortcut, category) {
-  const thumbnail = category?.thumbnail || "";
-
-  if (thumbnail) {
-    return `<img class="category-thumbnail" loading="lazy" decoding="async" src="${escapeHtml(resolveSiteAsset(thumbnail))}" alt="">`;
-  }
-
-  const initials = shortcut.title
-    .split(/\s+/)
-    .map(word => word[0])
-    .join("")
-    .slice(0, 3)
-    .toUpperCase();
-
-  return `<span class="category-thumbnail-fallback">${escapeHtml(initials || "NAE")}</span>`;
-}
-
-function renderHomepageCategoryCards(catalogue) {
-  if (!homeCategoryGrid) return;
-
-  const categories = Array.isArray(catalogue?.categories) ? catalogue.categories : [];
-  const bySlug = new Map(categories.map(category => [category.slug, category]));
-
-  homeCategoryGrid.innerHTML = homepageCategoryShortcuts.map((shortcut, index) => {
-    const category = shortcut.slug ? bySlug.get(shortcut.slug) : null;
-    const title = shortcut.title;
-    const desc = getHomepageCategoryDescription(shortcut, category);
-    const thumbnail = getHomepageCategoryThumbnail(shortcut, category);
-    const href = getHomepageCategoryHref(shortcut);
-
-    return `
-<a class="category-card homepage-category-card reveal" href="${escapeHtml(href)}">
-  <span class="category-number">${String(index + 1).padStart(2, "0")}</span>
-  <div class="category-title">
-    <i class="category-thumbnail-wrap" aria-hidden="true">${thumbnail}</i>
-    <div>
-      <h3>${escapeHtml(title)}</h3>
-      <p>${escapeHtml(desc)}</p>
-    </div>
-  </div>
-  <span class="category-toggle" aria-hidden="true">&nearr;</span>
-</a>`;
-  }).join("");
-
-  observeRevealElements();
-}
-
 function initCategoryAccordion() {
   document.querySelectorAll(".category-card").forEach((card) => {
     if (card.dataset.accordionReady === "true") return;
@@ -437,14 +349,21 @@ const finderResults = document.querySelector("#finderResults");
 const finderToolbar = document.querySelector("#finderToolbar");
 const finderStatus = document.querySelector("#finderStatus");
 const finderBrandFilter = document.querySelector("#finderBrandFilter");
+const finderClearSearch = document.querySelector("#finderClearSearch");
 const finderBackToSearch = document.querySelector("#finderBackToSearch");
 const finderLoadMore = document.querySelector("#finderLoadMore");
-const finderPageSize = 12;
+const finderTrackPrev = document.querySelector("#finderTrackPrev");
+const finderTrackNext = document.querySelector("#finderTrackNext");
+const finderPageSize = 32;
 let finderRecords = [];
 let finderVisibleCount = finderPageSize;
 let finderCurrentQuery = "";
 let finderCurrentMatches = [];
 let finderCategoryLabels = new Map();
+let finderCurrentSearchState = getFinderSearchState("");
+let finderSearchDebounce = 0;
+let finderDragState = null;
+let finderSuppressClick = false;
 
 function renderBrandLogo(brand) {
   if (brand.logo) {
@@ -530,7 +449,7 @@ function getFinderCategoryLabel(product) {
 function getFinderProductSummary(product) {
   const number = cleanCustomerField(getProductNumber(product), "Part number unavailable");
   const name = cleanCustomerField(getProductName(product) || product.description, "Product image");
-  const brandName = cleanCustomerField(product.brand, "Brand not specified");
+  const brandName = cleanCustomerField(product.brand, "");
   const description = cleanCustomerField(
     product.description || product.visibleDescription || product.longDescription || product.application,
     "Heavy-duty replacement part"
@@ -593,8 +512,12 @@ function getFinderRecordFields(product, brandName) {
     product.application,
     product.specification,
     product.oeNumber,
+    product.oeNumbers,
     product.searchableText,
     product.availability,
+    product.engineModels,
+    product.vehicleModels,
+    product.tags,
     ...flattenFinderValue(product.specifications),
     ...flattenFinderValue(product.specs),
     ...flattenFinderValue(product.keywords),
@@ -614,11 +537,69 @@ function recordMatchesFinder(record, searchState) {
   return tokenMatch || compactMatch;
 }
 
+function getFinderScoringFields(product, summary) {
+  const description = [
+    summary.description,
+    product.visibleDescription,
+    product.longDescription,
+    product.application,
+    product.searchableText
+  ].join(" ");
+  const engineVehicle = [
+    product.engineModel,
+    product.engineModels,
+    product.vehicleModel,
+    product.vehicleModels,
+    product.application
+  ].flatMap(item => flattenFinderValue(item)).join(" ");
+  const brandTags = [
+    summary.brand,
+    product.category,
+    getFinderCategoryLabel(product),
+    product.subcategory,
+    product.keywords,
+    product.tags
+  ].flatMap(item => flattenFinderValue(item)).join(" ");
+
+  return {
+    number: normalizeFinderValue(summary.number),
+    numberCompact: compactFinderValue(summary.number),
+    name: normalizeFinderValue(summary.name),
+    description: normalizeFinderValue(description),
+    engineVehicle: normalizeFinderValue(engineVehicle),
+    brandTags: normalizeFinderValue(brandTags)
+  };
+}
+
+function scoreFinderRecord(record, searchState) {
+  if (!searchState.tokens.length) return 0;
+
+  let score = 0;
+  const fields = record.scoreFields || {};
+  const query = searchState.normalized;
+  const compactQuery = searchState.compact;
+
+  if (query && fields.number === query) score += 1000;
+  if (compactQuery && fields.numberCompact === compactQuery) score += 1000;
+  if (query && fields.number.startsWith(query)) score += 760;
+  if (compactQuery && fields.numberCompact.startsWith(compactQuery)) score += 760;
+
+  searchState.tokens.forEach((token) => {
+    if (fields.number?.includes(token) || fields.numberCompact?.includes(token)) score += 120;
+    if (fields.name?.includes(token)) score += 80;
+    if (fields.engineVehicle?.includes(token)) score += 55;
+    if (fields.description?.includes(token)) score += 38;
+    if (fields.brandTags?.includes(token)) score += 20;
+  });
+
+  return score;
+}
+
 function buildFinderRecords(brands, products) {
   const brandLookup = buildFinderBrandLookup(brands);
 
-  const productRecords = (Array.isArray(products) ? products : []).map((product) => {
-    const brandName = product.brand || "Brand not specified";
+  const productRecords = (Array.isArray(products) ? products : []).map((product, index) => {
+    const brandName = product.brand || "";
     const brandInfo = brandLookup.get(normalizeFinderValue(brandName));
     const fields = getFinderRecordFields(product, brandName);
     const summary = getFinderProductSummary(product);
@@ -632,8 +613,10 @@ function buildFinderRecords(brands, products) {
       brandName: summary.brand,
       category: summary.category,
       summary,
+      scoreFields: getFinderScoringFields(product, summary),
       text: normalizeFinderValue(fields.join(" ")),
-      compact: compactFinderValue(fields.join(" "))
+      compact: compactFinderValue(fields.join(" ")),
+      index
     };
   });
 
@@ -659,12 +642,15 @@ function getFilteredFinderMatches(records, query) {
   const selectedBrand = finderBrandFilter?.value || "";
 
   if (!searchState.tokens.length) {
-    return { searchState, matches: [] };
+    return { searchState, matches: records.slice() };
   }
 
   const matches = records.filter(record => {
     const brandMatches = !selectedBrand || record.brandName === selectedBrand;
     return brandMatches && recordMatchesFinder(record, searchState);
+  }).sort((a, b) => {
+    const scoreDiff = scoreFinderRecord(b, searchState) - scoreFinderRecord(a, searchState);
+    return scoreDiff || a.index - b.index;
   });
 
   return { searchState, matches };
@@ -683,48 +669,66 @@ function renderHomepageResultImage(summary) {
 function renderHomepageResultCard(record, searchState) {
   const summary = record.summary;
   const label = `${summary.number} ${summary.name}`.trim();
-  const meta = [
-    `<span class="product-brand">Brand: ${highlightFinderText(summary.brand, searchState.highlightTerms)}</span>`,
-    `<span>Category: ${highlightFinderText(summary.category, searchState.highlightTerms)}</span>`
-  ].join("");
+  const brand = summary.brand
+    ? `<span class="product-brand">${highlightFinderText(summary.brand, searchState.highlightTerms)}</span>`
+    : "";
 
-  return `<article class="product-card homepage-result-card" role="button" tabindex="0" data-home-lightbox="${summary.image ? "true" : "false"}" data-lightbox-src="${escapeHtml(summary.image)}" data-lightbox-alt="${escapeHtml(label)}" data-lightbox-number="${escapeHtml(summary.number)}" data-lightbox-name="${escapeHtml(summary.name)}" data-lightbox-brand="${escapeHtml(summary.brand)}" aria-label="${escapeHtml(`View product image for ${label}`)}">
+  return `<article class="product-card homepage-result-card" role="button" tabindex="0" data-home-lightbox="${summary.image ? "true" : "false"}" data-lightbox-src="${escapeHtml(summary.image)}" data-lightbox-alt="${escapeHtml(label)}" data-lightbox-number="${escapeHtml(summary.number)}" data-lightbox-name="${escapeHtml(summary.name)}" data-lightbox-brand="${escapeHtml(summary.brand)}" aria-label="${escapeHtml(`View product details for ${label}`)}">
     <div class="product-image has-photo">
-      <span class="product-badge">Search result</span>
       ${renderHomepageResultImage(summary)}
     </div>
     <div class="product-body">
-      <span class="product-code-label">Product Number</span>
+      <span class="product-code-label">Part Number</span>
       <strong class="product-code">${highlightFinderText(summary.number, searchState.highlightTerms)}</strong>
       <h3>${highlightFinderText(summary.name, searchState.highlightTerms)}</h3>
-      <div class="product-meta">${meta}</div>
       <p class="product-description">${highlightFinderText(summary.description, searchState.highlightTerms)}</p>
-      <div class="product-action">
-        <small class="stock-status">${escapeHtml(summary.availability)}</small>
-        <span class="homepage-view-image">View image &nearr;</span>
-      </div>
+      ${brand ? `<div class="product-meta">${brand}</div>` : ""}
     </div>
   </article>`;
 }
 
-function updateFinderLoadMore() {
-  if (!finderLoadMore) return;
-
-  const button = finderLoadMore.querySelector("button");
-  finderLoadMore.hidden = finderCurrentMatches.length <= finderVisibleCount;
-
-  if (button) {
-    button.textContent = "";
-    button.append("Load more products ");
-    const arrow = document.createElement("span");
-    arrow.innerHTML = "&darr;";
-    button.append(arrow);
-  }
+function scrollFinderResultsIntoView() {
+  const target = finderResults?.closest(".homepage-product-browser") || finderToolbar || finderResults;
+  target?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
-function scrollFinderResultsIntoView() {
-  const target = finderToolbar && !finderToolbar.hidden ? finderToolbar : finderResults;
-  target?.scrollIntoView({ behavior: "smooth", block: "start" });
+function updateFinderTrackArrows() {
+  if (!finderResults) return;
+
+  const canScroll = finderResults.scrollWidth > finderResults.clientWidth + 2;
+  const atStart = finderResults.scrollLeft <= 2;
+  const atEnd = finderResults.scrollLeft + finderResults.clientWidth >= finderResults.scrollWidth - 2;
+
+  if (finderTrackPrev) finderTrackPrev.disabled = !canScroll || atStart;
+  if (finderTrackNext) finderTrackNext.disabled = !canScroll || atEnd;
+}
+
+function updateFinderStatus() {
+  if (!finderStatus) return;
+
+  const total = finderCurrentMatches.length;
+  const shown = Math.min(finderVisibleCount, total);
+  const query = finderCurrentQuery;
+
+  if (!total) {
+    finderStatus.textContent = query ? "No matching products found." : "No products are available yet.";
+    return;
+  }
+
+  finderStatus.textContent = query
+    ? `${total} ${total === 1 ? "product" : "products"} found. Showing ${shown}.`
+    : `${total} ${total === 1 ? "product" : "products"} available. Showing ${shown}.`;
+}
+
+function appendFinderCards(records, searchState, startIndex, endIndex) {
+  if (!finderResults || startIndex >= endIndex) return;
+
+  const html = records
+    .slice(startIndex, endIndex)
+    .map(record => renderHomepageResultCard(record, searchState))
+    .join("");
+
+  finderResults.insertAdjacentHTML("beforeend", html);
 }
 
 function renderFinderResults(records, query, options = {}) {
@@ -732,36 +736,74 @@ function renderFinderResults(records, query, options = {}) {
 
   const trimmedQuery = String(query || "").trim();
   finderCurrentQuery = trimmedQuery;
-
-  if (!trimmedQuery) {
-    finderResults.innerHTML = "";
-    finderResults.hidden = true;
-    finderToolbar.hidden = true;
-    if (finderLoadMore) finderLoadMore.hidden = true;
-    return;
-  }
-
   const { searchState, matches } = getFilteredFinderMatches(records, trimmedQuery);
+  finderCurrentSearchState = searchState;
   finderCurrentMatches = matches;
-  const visible = matches.slice(0, finderVisibleCount);
-
+  finderVisibleCount = Math.min(Math.max(finderVisibleCount, finderPageSize), matches.length || finderPageSize);
   finderResults.hidden = false;
-  finderToolbar.hidden = false;
-  finderResults.innerHTML = visible.length
-    ? visible.map(record => renderHomepageResultCard(record, searchState)).join("")
-    : `<div class="no-results"><strong>No products found</strong><span>Try a product number, product name, brand, engine model, vehicle model, category or keyword.</span></div>`;
+  if (finderToolbar) finderToolbar.hidden = false;
+  if (finderLoadMore) finderLoadMore.hidden = true;
+  if (finderClearSearch) finderClearSearch.hidden = !trimmedQuery;
 
-  if (finderStatus) {
-    finderStatus.textContent = matches.length
-      ? `Showing ${visible.length} of ${matches.length} matching products for "${trimmedQuery}".`
-      : `No products found for "${trimmedQuery}".`;
+  finderResults.innerHTML = "";
+  if (matches.length) {
+    appendFinderCards(matches, searchState, 0, Math.min(finderVisibleCount, matches.length));
+  } else {
+    finderResults.innerHTML = `<div class="no-results homepage-products-empty"><strong>No matching products found.</strong><span>Clear the search or try another product number, name, brand, engine model, vehicle model or keyword.</span></div>`;
   }
 
-  updateFinderLoadMore();
+  updateFinderStatus();
+
+  if (options.resetScroll !== false) {
+    finderResults.scrollLeft = 0;
+  }
+
+  requestAnimationFrame(updateFinderTrackArrows);
 
   if (options.scroll) {
     scrollFinderResultsIntoView();
   }
+}
+
+function loadNextFinderBatch() {
+  if (!finderResults || finderVisibleCount >= finderCurrentMatches.length) return;
+
+  const start = finderVisibleCount;
+  finderVisibleCount = Math.min(finderVisibleCount + finderPageSize, finderCurrentMatches.length);
+  appendFinderCards(finderCurrentMatches, finderCurrentSearchState, start, finderVisibleCount);
+  updateFinderStatus();
+  requestAnimationFrame(updateFinderTrackArrows);
+}
+
+function maybeLoadMoreFinderProducts() {
+  if (!finderResults || !finderCurrentMatches.length) return;
+
+  const remainingScroll = finderResults.scrollWidth - finderResults.clientWidth - finderResults.scrollLeft;
+  if (remainingScroll < 520) {
+    loadNextFinderBatch();
+  }
+}
+
+function runFinderSearch(options = {}) {
+  finderVisibleCount = finderPageSize;
+  renderFinderResults(finderRecords, partsSearch?.value || "", {
+    resetScroll: true,
+    scroll: Boolean(options.scroll)
+  });
+}
+
+function scheduleFinderSearch() {
+  window.clearTimeout(finderSearchDebounce);
+  finderSearchDebounce = window.setTimeout(() => runFinderSearch(), 150);
+}
+
+function scrollFinderTrackBy(direction) {
+  if (!finderResults) return;
+
+  finderResults.scrollBy({
+    left: direction * Math.max(260, Math.round(finderResults.clientWidth * 0.82)),
+    behavior: "smooth"
+  });
 }
 
 function ensureHomepageImageLightbox() {
@@ -867,12 +909,72 @@ function bindHomepageFinderEvents() {
     partsSearch?.focus({ preventScroll: true });
   });
 
-  finderLoadMore?.querySelector("button")?.addEventListener("click", () => {
-    finderVisibleCount += finderPageSize;
-    renderFinderResults(finderRecords, finderCurrentQuery, { scroll: false });
+  finderClearSearch?.addEventListener("click", () => {
+    if (partsSearch) partsSearch.value = "";
+    runFinderSearch({ scroll: true });
+    partsSearch?.focus({ preventScroll: true });
+  });
+
+  finderTrackPrev?.addEventListener("click", () => scrollFinderTrackBy(-1));
+  finderTrackNext?.addEventListener("click", () => scrollFinderTrackBy(1));
+
+  finderResults?.addEventListener("scroll", () => {
+    maybeLoadMoreFinderProducts();
+    updateFinderTrackArrows();
+  }, { passive: true });
+
+  finderResults?.addEventListener("wheel", (event) => {
+    if (Math.abs(event.deltaY) <= Math.abs(event.deltaX)) return;
+    if (finderResults.scrollWidth <= finderResults.clientWidth + 2) return;
+
+    event.preventDefault();
+    finderResults.scrollLeft += event.deltaY;
+    maybeLoadMoreFinderProducts();
+    updateFinderTrackArrows();
+  }, { passive: false });
+
+  finderResults?.addEventListener("pointerdown", (event) => {
+    if (event.button !== 0 || event.pointerType === "touch") return;
+
+    finderDragState = {
+      startX: event.clientX,
+      scrollLeft: finderResults.scrollLeft,
+      moved: false
+    };
+    finderResults.classList.add("is-dragging");
+    finderResults.setPointerCapture?.(event.pointerId);
+  });
+
+  finderResults?.addEventListener("pointermove", (event) => {
+    if (!finderDragState) return;
+
+    const delta = event.clientX - finderDragState.startX;
+    if (Math.abs(delta) > 4) {
+      finderDragState.moved = true;
+      finderSuppressClick = true;
+    }
+    finderResults.scrollLeft = finderDragState.scrollLeft - delta;
+    maybeLoadMoreFinderProducts();
+    updateFinderTrackArrows();
+  });
+
+  ["pointerup", "pointercancel", "pointerleave"].forEach(eventName => {
+    finderResults?.addEventListener(eventName, () => {
+      if (!finderDragState) return;
+      finderResults.classList.remove("is-dragging");
+      finderDragState = null;
+      window.setTimeout(() => {
+        finderSuppressClick = false;
+      }, 0);
+    });
   });
 
   finderResults?.addEventListener("click", event => {
+    if (finderSuppressClick) {
+      event.preventDefault();
+      return;
+    }
+
     const card = event.target.closest("[data-home-lightbox='true']");
     if (!card) return;
 
@@ -925,7 +1027,7 @@ function bindHomepageFinderEvents() {
 }
 
 async function initHomepageFinder() {
-  if (!brandCardGrid && !partsSearch && !homeCategoryGrid) return;
+  if (!brandCardGrid && !partsSearch && !finderResults) return;
 
   const [data, products, catalogue] = await Promise.all([
     loadBrandsData(),
@@ -935,23 +1037,22 @@ async function initHomepageFinder() {
   const brands = Array.isArray(data?.brands) ? data.brands : [];
 
   renderBrandCards(brands);
-  renderHomepageCategoryCards(catalogue);
   bindBrandLogoWarnings();
   finderCategoryLabels = new Map((catalogue?.categories || []).map(category => [category.slug, category.title]));
   finderRecords = buildFinderRecords(brands, products);
   populateFinderBrandFilter(finderRecords);
   bindHomepageFinderEvents();
+  renderFinderResults(finderRecords, "", { resetScroll: false });
 
   partsSearch?.addEventListener("input", () => {
-    finderVisibleCount = finderPageSize;
-    renderFinderResults(finderRecords, partsSearch.value);
+    scheduleFinderSearch();
   });
 
   partsSearch?.addEventListener("keydown", (event) => {
-    if (event.key !== "Enter" || !partsSearch.value.trim()) return;
+    if (event.key !== "Enter") return;
     event.preventDefault();
-    finderVisibleCount = finderPageSize;
-    renderFinderResults(finderRecords, partsSearch.value, { scroll: true });
+    window.clearTimeout(finderSearchDebounce);
+    runFinderSearch({ scroll: true });
   });
 }
 

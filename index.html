@@ -82,31 +82,28 @@
               <input id="partsSearch" type="search" autocomplete="off" spellcheck="false" placeholder="Search by Part Number, Product Name or Brand">
             </label>
             <div class="finder-examples" aria-label="Search examples"><span>WG9100340056</span><span>Flywheel</span><span>Huatai</span></div>
-            <div class="finder-toolbar" id="finderToolbar" hidden>
-              <p id="finderStatus">Start typing to search the catalogue.</p>
-              <div class="finder-toolbar-actions">
-                <label class="finder-brand-filter" for="finderBrandFilter">
-                  <span>Brand</span>
-                  <select id="finderBrandFilter">
-                    <option value="">All brands</option>
-                  </select>
-                </label>
-                <button class="finder-back-search" id="finderBackToSearch" type="button">Back to search</button>
-              </div>
-            </div>
-            <div class="finder-results homepage-result-grid product-grid" id="finderResults" aria-live="polite" hidden></div>
-            <div class="load-more-products finder-load-more" id="finderLoadMore" hidden>
-              <button class="button button-dark" type="button">Load more products <span>&darr;</span></button>
-            </div>
           </div>
         </div>
 
-        <div class="homepage-category-browse" aria-labelledby="homepageCategoryTitle">
-          <div class="brands-heading reveal">
-            <p class="eyebrow" id="homepageCategoryTitle"><span></span> Browse by Category</p>
-            <p>Select a parts system and go straight to matching heavy-duty truck products.</p>
+        <div class="homepage-product-browser reveal delay-2" aria-labelledby="homepageProductTitle">
+          <div class="homepage-product-head">
+            <div>
+              <p class="eyebrow" id="homepageProductTitle"><span></span> All Products</p>
+              <p>Browse all available heavy-duty truck parts or use the search above to narrow the results.</p>
+            </div>
+            <div class="finder-toolbar" id="finderToolbar">
+              <p id="finderStatus">Loading catalogue products...</p>
+              <div class="finder-toolbar-actions">
+                <button class="finder-clear-search" id="finderClearSearch" type="button" hidden>Clear search</button>
+                <button class="finder-back-search" id="finderBackToSearch" type="button">Back to search</button>
+              </div>
+            </div>
           </div>
-          <div class="category-grid homepage-category-grid reveal delay-2" id="homepageCategoryGrid" aria-label="Browse product categories from the homepage"></div>
+          <div class="homepage-product-carousel">
+            <button class="product-track-arrow product-track-prev" id="finderTrackPrev" type="button" aria-label="Show previous products" disabled>&larr;</button>
+            <div class="finder-results homepage-product-track" id="finderResults" aria-live="polite" tabindex="0"></div>
+            <button class="product-track-arrow product-track-next" id="finderTrackNext" type="button" aria-label="Show next products">&rarr;</button>
+          </div>
         </div>
 
         <div class="brand-showcase" aria-labelledby="brandShowcaseTitle">
