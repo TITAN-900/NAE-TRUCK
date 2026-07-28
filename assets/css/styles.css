@@ -1564,8 +1564,8 @@ h1 em,h2 em{
 }
 .footer-grid{
     display:grid;
-    grid-template-columns:1.5fr .7fr .7fr 1.1fr;
-    gap:80px
+    grid-template-columns:1fr;
+    gap:0
 }
 .brand-footer{
     align-self:start
@@ -1793,12 +1793,14 @@ h1 em,h2 em{
 }
 .product-grid{
     display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:16px
+    grid-template-columns:repeat(5,1fr);
+    gap:18px
 }
 .product-card{
     background:#fff;
     border:1px solid #e0ddd7;
+    border-radius:14px;
+    overflow:hidden;
     transition:.3s var(--ease)
 }
 .product-card:hover{
@@ -2122,7 +2124,8 @@ h1 em,h2 em{
         max-width:360px
     }
     .product-grid{
-        grid-template-columns:repeat(2,1fr)
+        grid-template-columns:repeat(4,1fr);
+        gap:16px
     }
 }
 @media(max-width:720px){
@@ -2439,9 +2442,11 @@ h1 em,h2 em{
         display:block
     }
     .product-grid{
-        grid-template-columns:1fr
+        grid-template-columns:repeat(2,1fr);
+        gap:12px
     }
     .search-page .product-grid{
+        grid-template-columns:1fr;
         gap:10px
     }
     .search-result-card{

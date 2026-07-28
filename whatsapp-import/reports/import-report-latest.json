@@ -2,14 +2,14 @@
     "summary":  {
                     "Failed":  0,
                     "Duplicates":  0,
-                    "OcrCached":  258,
+                    "OcrCached":  0,
                     "Archived":  0,
                     "OcrFailures":  0,
                     "Cleaned":  0,
                     "SearchIndexRebuilt":  true,
                     "Review":  1,
                     "DuplicatesMerged":  0,
-                    "OcrFresh":  0,
+                    "OcrFresh":  258,
                     "Scanned":  258,
                     "Imported":  0,
                     "Skipped":  2,
@@ -712,7 +712,7 @@
                      "File":  "WhatsApp Image 2026-07-21 at 11.22.09 PM (2).jpeg",
                      "ProductNumber":  "AZ-221-010-0026-HT",
                      "ProductName":  "King Pin Kit",
-                     "Reason":  "Matched existing product by Brand + Product Number; updated fields: visibleDescription, longDescription, alternateNumbers, alternatePartNumbers, image, thumbnail, source.originalFile, source.originalPath, source.hash, source.ocrText, searchableText.",
+                     "Reason":  "Matched existing product by Brand + Product Number; updated fields: visibleDescription, longDescription, alternateNumbers, alternatePartNumbers, image, thumbnail, source.originalFile, source.originalPath, source.hash, source.ocrText, source.syncedAt, searchableText.",
                      "Warnings":  "Alternate product/OE numbers detected and stored for search: HT5186-KING-PIN-KIT, SET-HOW0371, IDK80PHEBOL7.",
                      "ImagePath":  "assets/img/products/AZ-221-010-0026-HT-5203FAA327BF.jpeg",
                      "OcrText":  "Huatai\nKING PIN KIT\nPEMKOMMEKT IDK80PHEBOL7\nAZ-221 010 0026-HT\nHT5186 KING PIN KIT SET HOW0371\n43 / 45 / 47X206"
@@ -2322,7 +2322,7 @@
                      "File":  "WhatsApp Image 2026-07-23 at 11.20.52 PM.jpeg",
                      "ProductNumber":  "108X72X152X21-XS",
                      "ProductName":  "Torque Bush",
-                     "Reason":  "Matched existing product by Brand + Product Number; updated fields: number, productNumber, partNumber, name, productName, description, visibleDescription, longDescription, specifications, keywords, image, thumbnail, source.originalFile, source.originalPath, source.hash, source.ocrText, source.syncedAt, searchableText.",
+                     "Reason":  "Matched existing product by Brand + Product Number; updated fields: name, productName, description, visibleDescription, longDescription, specifications, keywords, image, thumbnail, source.originalFile, source.originalPath, source.hash, source.ocrText, source.syncedAt, searchableText.",
                      "Warnings":  "",
                      "ImagePath":  "assets/img/products/108X72X152X21-XS-4E1899C4CDD4.jpeg",
                      "OcrText":  "72mm\n\u0027108mm\n152mm\n21 mm\nTOß510NR\noe@o\n108X72X152X21-xs\nTORQUE BUSH"
@@ -2372,7 +2372,7 @@
                      "File":  "WhatsApp Image 2026-07-23 at 11.20.54 PM (1).jpeg",
                      "ProductNumber":  "108X72X152X21-XS",
                      "ProductName":  "Rubber Bush Assembly",
-                     "Reason":  "Matched existing product by Brand + Product Number; updated fields: name, productName, description, visibleDescription, longDescription, keywords, image, thumbnail, source.originalFile, source.originalPath, source.hash, source.ocrText, searchableText.",
+                     "Reason":  "Matched existing product by Brand + Product Number; updated fields: name, productName, description, visibleDescription, longDescription, keywords, image, thumbnail, source.originalFile, source.originalPath, source.hash, source.ocrText, source.syncedAt, searchableText.",
                      "Warnings":  "",
                      "ImagePath":  "assets/img/products/108X72X152X21-XS-5A004AAC3676.jpeg",
                      "OcrText":  "108\nTORSION RUBBER CURE\noe@0Å\n72\n152\n21\n108 x 72 x 152 x 21-xs\nTORQUE BUSH"
@@ -2412,7 +2412,7 @@
                      "File":  "WhatsApp Image 2026-07-23 at 11.20.55 PM (1).jpeg",
                      "ProductNumber":  "95X69X152X21-XS",
                      "ProductName":  "Rubber Bush Assembly",
-                     "Reason":  "Matched existing product by Brand + Product Number; updated fields: number, productNumber, partNumber, specifications, source.syncedAt, searchableText.",
+                     "Reason":  "Matched existing product by Brand + Product Number; updated fields: specifications, source.syncedAt, searchableText.",
                      "Warnings":  "",
                      "ImagePath":  "assets/img/products/95-X-69-X-152-X-21-XS.jpeg",
                      "OcrText":  "95\nTORSION RUBBER CORE\n0000\n69\n152\n21\n95 x 69 x 152 x 21-xs\nTORQUE BUS DF\nRUBBER TYPE"
@@ -2422,7 +2422,7 @@
                      "File":  "WhatsApp Image 2026-07-23 at 11.20.55 PM (2).jpeg",
                      "ProductNumber":  "88X53X110X19-XS",
                      "ProductName":  "Rubber Bush Assembly",
-                     "Reason":  "Matched existing product by Brand + Product Number; updated fields: number, productNumber, partNumber, specifications, source.syncedAt, searchableText.",
+                     "Reason":  "Matched existing product by Brand + Product Number; updated fields: specifications, source.syncedAt, searchableText.",
                      "Warnings":  "",
                      "ImagePath":  "assets/img/products/88-X-53-X-110-X-19-XS.jpeg",
                      "OcrText":  "88\nTORSION RUBBER CORE\n0090\n53\n110\n19\n88 x 53 x 110 x 19-xs\nTORQUE BUSH\nMAN"
@@ -2442,7 +2442,7 @@
                      "File":  "WhatsApp Image 2026-07-23 at 11.20.55 PM.jpeg",
                      "ProductNumber":  "95X57X152X21-XS",
                      "ProductName":  "Torque Bush",
-                     "Reason":  "Matched existing product by Brand + Product Number; updated fields: number, productNumber, partNumber, specifications, source.syncedAt, searchableText.",
+                     "Reason":  "Matched existing product by Brand + Product Number; updated fields: specifications, source.syncedAt, searchableText.",
                      "Warnings":  "",
                      "ImagePath":  "assets/img/products/95-X-57-X-152-X-21-XS.jpeg",
                      "OcrText":  "57\n95\n152\ng ugBER CORE\n0000\n95 x 57 x 152 x 21-xs\nTORQUE BUSH 95X57\n21"
@@ -2452,7 +2452,7 @@
                      "File":  "WhatsApp Image 2026-07-23 at 11.20.56 PM (1).jpeg",
                      "ProductNumber":  "90X73X152X21-XS",
                      "ProductName":  "Torque Bush",
-                     "Reason":  "Matched existing product by Brand + Product Number; updated fields: number, productNumber, partNumber, specifications, source.syncedAt, searchableText.",
+                     "Reason":  "Matched existing product by Brand + Product Number; updated fields: specifications, source.syncedAt, searchableText.",
                      "Warnings":  "",
                      "ImagePath":  "assets/img/products/90-X-73-X-152-X-21-XS.jpeg",
                      "OcrText":  "90\nTORSION guBßER\n73\n152\n90 x 73 x 152 x 21-xs\nTORQUE BUSH HOWO\nRUBBER\n21"

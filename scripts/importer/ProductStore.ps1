@@ -300,6 +300,84 @@ function Set-ProductRecordValue {
   }
 }
 
+function ConvertTo-ProductSearchTextValues {
+  param([AllowNull()]$Value)
+
+  if ($null -eq $Value) { return @() }
+
+  if ($Value -is [string]) {
+    if ([string]::IsNullOrWhiteSpace($Value)) { return @() }
+    return @($Value)
+  }
+
+  if ($Value -is [System.Collections.IDictionary]) {
+    $items = New-Object System.Collections.Generic.List[string]
+    foreach ($entry in $Value.GetEnumerator()) {
+      foreach ($text in @(ConvertTo-ProductSearchTextValues -Value $entry.Value)) {
+        if (-not [string]::IsNullOrWhiteSpace([string]$text)) {
+          $items.Add(([string]$text)) | Out-Null
+        }
+      }
+    }
+    return @($items.ToArray())
+  }
+
+  if ($Value -is [System.Collections.IEnumerable] -and -not ($Value -is [string])) {
+    $items = New-Object System.Collections.Generic.List[string]
+    foreach ($item in @($Value)) {
+      foreach ($text in @(ConvertTo-ProductSearchTextValues -Value $item)) {
+        if (-not [string]::IsNullOrWhiteSpace([string]$text)) {
+          $items.Add(([string]$text)) | Out-Null
+        }
+      }
+    }
+    return @($items.ToArray())
+  }
+
+  $textValue = [string]$Value
+  if ([string]::IsNullOrWhiteSpace($textValue)) { return @() }
+  return @($textValue)
+}
+
+function Get-ProductSpecificationSearchParts {
+  param([AllowNull()]$Specifications)
+
+  if ($null -eq $Specifications) { return @() }
+
+  $internalHashtableProperties = @(
+    'Count',
+    'IsReadOnly',
+    'IsFixedSize',
+    'Keys',
+    'Values',
+    'SyncRoot',
+    'IsSynchronized'
+  )
+  $parts = New-Object System.Collections.Generic.List[string]
+
+  if ($Specifications -is [System.Collections.IDictionary]) {
+    foreach ($entry in $Specifications.GetEnumerator()) {
+      foreach ($value in @(ConvertTo-ProductSearchTextValues -Value $entry.Value)) {
+        if (-not [string]::IsNullOrWhiteSpace([string]$value)) {
+          $parts.Add("$($entry.Key) $value") | Out-Null
+        }
+      }
+    }
+    return @($parts.ToArray())
+  }
+
+  foreach ($property in $Specifications.PSObject.Properties) {
+    if ($internalHashtableProperties -contains $property.Name) { continue }
+    foreach ($value in @(ConvertTo-ProductSearchTextValues -Value $property.Value)) {
+      if (-not [string]::IsNullOrWhiteSpace([string]$value)) {
+        $parts.Add("$($property.Name) $value") | Out-Null
+      }
+    }
+  }
+
+  return @($parts.ToArray())
+}
+
 function ConvertTo-ProductSearchableText {
   param([Parameter(Mandatory)]$Product)
 
@@ -337,15 +415,10 @@ function ConvertTo-ProductSearchableText {
     }
   }
 
-  $specifications = Get-ProductRecordValue -Product $Product -Name 'specifications'
-  if ($null -ne $specifications) {
-    foreach ($property in $specifications.PSObject.Properties) {
-      foreach ($value in @($property.Value)) {
-        $text = [string]$value
-        if (-not [string]::IsNullOrWhiteSpace($text)) {
-          $parts.Add("$($property.Name) $text") | Out-Null
-        }
-      }
+  foreach ($specificationPart in @(Get-ProductSpecificationSearchParts -Specifications (Get-ProductRecordValue -Product $Product -Name 'specifications'))) {
+    $text = [string]$specificationPart
+    if (-not [string]::IsNullOrWhiteSpace($text)) {
+      $parts.Add($text) | Out-Null
     }
   }
 

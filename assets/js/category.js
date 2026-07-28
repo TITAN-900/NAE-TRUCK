@@ -2,7 +2,13 @@ const categoryScript = document.currentScript;
 const categorySiteRoot = categoryScript ? new URL("../../", categoryScript.src) : new URL("../../", window.location.href);
 const categoryDataRoot = new URL("assets/data/", categorySiteRoot);
 
-const pageSize = 24;
+function getCataloguePageSize() {
+  if (window.matchMedia("(max-width: 720px)").matches) return 12;
+  if (window.matchMedia("(max-width: 980px)").matches) return 8;
+  return 10;
+}
+
+const pageSize = getCataloguePageSize();
 const browseMode = document.body.dataset.browseMode || (document.body.classList.contains("brand-page") ? "brand" : (document.body.dataset.category ? "category" : "search"));
 const pageCategorySlug = document.body.dataset.category || "";
 const pageCategoryGroup = document.body.dataset.categoryGroup || "";
@@ -110,6 +116,7 @@ let allCategories = fallbackCategories;
 let allBrands = [];
 let activeBrand = null;
 let brandLogoLookup = new Map();
+let catalogueLightboxScrollY = 0;
 
 let productGrid = document.querySelector("#productGrid");
 let search = document.querySelector("#productSearch");
@@ -174,6 +181,19 @@ function flattenSpecificationObject(specifications) {
     const values = Array.isArray(value) ? value : [value];
     return values.filter(Boolean).map(item => `${key} ${item}`);
   });
+}
+
+function getProductSourceValue(product, name) {
+  const source = product?.source;
+  if (!source || typeof source !== "object") return "";
+  return source[name] || "";
+}
+
+function getProductSourceOcrText(product) {
+  return getProductSourceValue(product, "ocrText")
+    || getProductSourceValue(product, "rawOcrText")
+    || getProductSourceValue(product, "cleanText")
+    || "";
 }
 
 function normalizeSpecs(product) {
@@ -308,10 +328,57 @@ function getProductSearchFields(product) {
     product.availability,
     product.specification,
     product.searchableText,
+    getProductSourceOcrText(product),
+    getProductSourceValue(product, "originalFile"),
+    getProductSourceValue(product, "originalPath"),
+    product.engineModel,
+    product.engineModels,
+    product.vehicleModels,
+    product.oeNumbers,
     ...(product.keywords || []),
     ...(product.specs || []),
+    ...(product.alternateNumbers || []),
+    ...(product.alternatePartNumbers || []),
     ...flattenSpecificationObject(product.specifications)
   ].filter(Boolean);
+}
+
+function getProductScoringFields(product) {
+  const description = [
+    product.description,
+    product.visibleDescription,
+    product.longDescription,
+    product.application,
+    product.searchableText
+  ].filter(Boolean).join(" ");
+  const engineVehicle = [
+    product.engineModel,
+    product.engineModels,
+    product.vehicleModel,
+    product.vehicleModels,
+    product.application
+  ].flat().filter(Boolean).join(" ");
+  const brandTags = [
+    product.brand,
+    product.category,
+    product.categoryLabel,
+    product.categoryGroup,
+    product.subcategory,
+    product.keywords,
+    product.tags,
+    getProductSourceValue(product, "originalFile"),
+    getProductSourceValue(product, "originalPath")
+  ].flatMap(item => Array.isArray(item) ? item : [item]).filter(Boolean).join(" ");
+
+  return {
+    number: normalizeSearchValue(product.number || product.productNumber || product.partNumber || product.id),
+    numberCompact: compactSearchValue(product.number || product.productNumber || product.partNumber || product.id),
+    name: normalizeSearchValue(product.name || product.productName),
+    description: normalizeSearchValue(description),
+    ocr: normalizeSearchValue(getProductSourceOcrText(product)),
+    engineVehicle: normalizeSearchValue(engineVehicle),
+    brandTags: normalizeSearchValue(brandTags)
+  };
 }
 
 function buildSearchRecord(product, index) {
@@ -320,6 +387,7 @@ function buildSearchRecord(product, index) {
   return {
     product,
     index,
+    scoreFields: getProductScoringFields(product),
     text: normalizeSearchValue(joined),
     compact: compactSearchValue(joined)
   };
@@ -347,6 +415,33 @@ function matchesSearch(record, state) {
   const tokenMatch = state.tokens.every(token => record.text.includes(token));
   const compactMatch = state.compact.length > 2 && record.compact.includes(state.compact);
   return tokenMatch || compactMatch;
+}
+
+function scoreSearchRecord(record, state) {
+  if (!state.tokens.length) return 0;
+
+  const fields = record.scoreFields || {};
+  const query = state.normalized;
+  const compactQuery = state.compact;
+  let score = 0;
+
+  if (query && fields.number === query) score += 1200;
+  if (compactQuery && fields.numberCompact === compactQuery) score += 1200;
+  if (query && fields.number?.startsWith(query)) score += 900;
+  if (compactQuery && fields.numberCompact?.startsWith(compactQuery)) score += 900;
+  if (query && fields.number?.includes(query)) score += 700;
+  if (compactQuery && fields.numberCompact?.includes(compactQuery)) score += 700;
+
+  state.tokens.forEach(token => {
+    if (fields.number?.includes(token) || fields.numberCompact?.includes(token)) score += 180;
+    if (fields.name?.includes(token)) score += 120;
+    if (fields.description?.includes(token)) score += 80;
+    if (fields.ocr?.includes(token)) score += 60;
+    if (fields.engineVehicle?.includes(token)) score += 45;
+    if (fields.brandTags?.includes(token)) score += 25;
+  });
+
+  return score;
 }
 
 function escapeRegExp(value) {
@@ -704,15 +799,23 @@ function render() {
   lastRenderKey = renderKey;
 
   const sourceRecords = searchState.tokens.length ? allCatalogueRecords : catalogueRecords;
-  const filtered = sourceRecords
+  const filteredRecords = sourceRecords
     .filter(record => {
       const product = record.product;
       const brandMatches = !selectedBrand || product.brand === selectedBrand;
       const stockMatches = !selectedStock || product.availability === selectedStock;
       const categoryMatches = !selectedCategory || product.categoryGroup === selectedCategory;
       return brandMatches && stockMatches && categoryMatches && matchesSearch(record, searchState);
-    })
-    .map(record => record.product);
+    });
+
+  if (searchState.tokens.length) {
+    filteredRecords.sort((a, b) => {
+      const scoreDiff = scoreSearchRecord(b, searchState) - scoreSearchRecord(a, searchState);
+      return scoreDiff || a.index - b.index;
+    });
+  }
+
+  const filtered = filteredRecords.map(record => record.product);
 
   const visible = filtered.slice(0, visibleCount);
 
@@ -798,6 +901,25 @@ function setLightboxProductInfo(lightbox, info) {
   panel.querySelector("[data-lightbox-enquire]").dataset.lightboxEnquire = [number, name, brandName].filter(Boolean).join(" / ");
 }
 
+function lockCatalogueLightboxScroll() {
+  catalogueLightboxScrollY = window.scrollY || window.pageYOffset || 0;
+  document.body.style.top = `-${catalogueLightboxScrollY}px`;
+  document.body.classList.add("lightbox-open");
+}
+
+function unlockCatalogueLightboxScroll() {
+  const scrollY = catalogueLightboxScrollY || 0;
+  const previousScrollBehavior = document.documentElement.style.scrollBehavior;
+  document.body.classList.remove("lightbox-open");
+  document.body.style.top = "";
+  document.documentElement.style.scrollBehavior = "auto";
+  window.scrollTo(0, scrollY);
+  requestAnimationFrame(() => {
+    document.documentElement.style.scrollBehavior = previousScrollBehavior;
+  });
+  catalogueLightboxScrollY = 0;
+}
+
 function openLightbox(src, alt, productInfo = null) {
   ensureImageLightbox();
 
@@ -810,18 +932,19 @@ function openLightbox(src, alt, productInfo = null) {
   setLightboxProductInfo(lightbox, productInfo);
   lightbox.classList.add("open");
   lightbox.setAttribute("aria-hidden", "false");
-  document.body.classList.add("lightbox-open");
+  lockCatalogueLightboxScroll();
 }
 
 function closeLightbox() {
   const lightbox = document.querySelector("#image-lightbox");
   const image = lightbox?.querySelector("img");
   if (!lightbox) return;
+  if (!lightbox.classList.contains("open")) return;
 
   lightbox.classList.remove("open");
   lightbox.classList.remove("has-product-info");
   lightbox.setAttribute("aria-hidden", "true");
-  document.body.classList.remove("lightbox-open");
+  unlockCatalogueLightboxScroll();
 
   if (image) image.removeAttribute("src");
   setLightboxProductInfo(lightbox, null);

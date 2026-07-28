@@ -445,6 +445,19 @@ function flattenFinderValue(value) {
   return value ? [String(value)] : [];
 }
 
+function getFinderSourceValue(product, name) {
+  const source = product?.source;
+  if (!source || typeof source !== "object") return "";
+  return source[name] || "";
+}
+
+function getFinderSourceOcrText(product) {
+  return getFinderSourceValue(product, "ocrText")
+    || getFinderSourceValue(product, "rawOcrText")
+    || getFinderSourceValue(product, "cleanText")
+    || "";
+}
+
 function humanizeFinderSlug(value) {
   return String(value || "")
     .replace(/-/g, " ")
@@ -554,6 +567,9 @@ function getFinderRecordFields(product, brandName) {
     product.oeNumber,
     product.oeNumbers,
     product.searchableText,
+    getFinderSourceOcrText(product),
+    getFinderSourceValue(product, "originalFile"),
+    getFinderSourceValue(product, "originalPath"),
     product.availability,
     product.engineModels,
     product.vehicleModels,
@@ -585,6 +601,7 @@ function getFinderScoringFields(product, summary) {
     product.application,
     product.searchableText
   ].join(" ");
+  const ocr = getFinderSourceOcrText(product);
   const engineVehicle = [
     product.engineModel,
     product.engineModels,
@@ -598,7 +615,9 @@ function getFinderScoringFields(product, summary) {
     getFinderCategoryLabel(product),
     product.subcategory,
     product.keywords,
-    product.tags
+    product.tags,
+    getFinderSourceValue(product, "originalFile"),
+    getFinderSourceValue(product, "originalPath")
   ].flatMap(item => flattenFinderValue(item)).join(" ");
 
   return {
@@ -606,6 +625,7 @@ function getFinderScoringFields(product, summary) {
     numberCompact: compactFinderValue(summary.number),
     name: normalizeFinderValue(summary.name),
     description: normalizeFinderValue(description),
+    ocr: normalizeFinderValue(ocr),
     engineVehicle: normalizeFinderValue(engineVehicle),
     brandTags: normalizeFinderValue(brandTags)
   };
@@ -627,8 +647,9 @@ function scoreFinderRecord(record, searchState) {
   searchState.tokens.forEach((token) => {
     if (fields.number?.includes(token) || fields.numberCompact?.includes(token)) score += 120;
     if (fields.name?.includes(token)) score += 80;
-    if (fields.engineVehicle?.includes(token)) score += 55;
     if (fields.description?.includes(token)) score += 38;
+    if (fields.ocr?.includes(token)) score += 34;
+    if (fields.engineVehicle?.includes(token)) score += 30;
     if (fields.brandTags?.includes(token)) score += 20;
   });
 
