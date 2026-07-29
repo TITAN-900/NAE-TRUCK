@@ -132,7 +132,7 @@ async function loadBrandsData() {
         logo: "",
         page: "brands/brand-1/index.html",
         aliases: ["Huatai"],
-        products: [{ partNumber: "WG9100340056", name: "Flywheel Assembly", category: "Clutch" }]
+        products: []
       },
       {
         id: "brand-2",
@@ -140,7 +140,7 @@ async function loadBrandsData() {
         logo: "",
         page: "brands/brand-2/index.html",
         aliases: [],
-        products: [{ partNumber: "WG9100340056", name: "Flywheel Assembly", category: "Clutch" }]
+        products: []
       },
       {
         id: "brand-3",
@@ -148,7 +148,7 @@ async function loadBrandsData() {
         logo: "",
         page: "brands/brand-3/index.html",
         aliases: [],
-        products: [{ partNumber: "CLG-3003", name: "Cooling Hose", category: "Cooling" }]
+        products: []
       },
       {
         id: "brand-4",
@@ -156,7 +156,7 @@ async function loadBrandsData() {
         logo: "",
         page: "brands/brand-4/index.html",
         aliases: [],
-        products: [{ partNumber: "ELE-4004", name: "Electrical Sensor", category: "Electrical" }]
+        products: []
       },
       {
         id: "brand-5",
@@ -164,7 +164,7 @@ async function loadBrandsData() {
         logo: "",
         page: "brands/brand-5/index.html",
         aliases: [],
-        products: [{ partNumber: "TRN-5005", name: "Transmission Gear Set", category: "Transmission" }]
+        products: []
       },
       {
         id: "brand-6",
@@ -172,7 +172,7 @@ async function loadBrandsData() {
         logo: "",
         page: "brands/brand-6/index.html",
         aliases: [],
-        products: [{ partNumber: "AXL-6006", name: "Axle Repair Kit", category: "Axle" }]
+        products: []
       },
       {
         id: "xin-seng",
@@ -812,7 +812,11 @@ function renderFinderResults(records, query, options = {}) {
   if (matches.length) {
     appendFinderCards(matches, searchState, 0, Math.min(finderVisibleCount, matches.length));
   } else {
-    finderResults.innerHTML = `<div class="no-results homepage-products-empty"><strong>No matching products found.</strong><span>Clear the search or try another product number, name, brand, engine model, vehicle model or keyword.</span></div>`;
+    const emptyTitle = records.length ? "No matching products found." : "No products available.";
+    const emptyCopy = records.length
+      ? "Clear the search or try another product number, name, brand, engine model, vehicle model or keyword."
+      : "The catalog framework is ready. Import the first product batch to publish searchable products.";
+    finderResults.innerHTML = `<div class="no-results homepage-products-empty"><strong>${emptyTitle}</strong><span>${emptyCopy}</span></div>`;
   }
 
   updateFinderStatus();

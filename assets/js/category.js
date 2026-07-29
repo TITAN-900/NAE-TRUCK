@@ -820,15 +820,21 @@ function render() {
   const visible = filtered.slice(0, visibleCount);
 
   if (count) {
-    count.textContent = searchState.tokens.length
-      ? `${visible.length} of ${filtered.length} matching products shown`
-      : `${visible.length} of ${filtered.length} catalogue items shown`;
+    count.textContent = allCatalogueProducts.length
+      ? (searchState.tokens.length
+        ? `${visible.length} of ${filtered.length} matching products shown`
+        : `${visible.length} of ${filtered.length} catalogue items shown`)
+      : "No products available.";
   }
 
   if (productGrid) {
+    const emptyTitle = allCatalogueProducts.length ? "No products found" : "No products available.";
+    const emptyCopy = allCatalogueProducts.length
+      ? "Try another product number, product name, brand, category, vehicle model, OD, ID, HI, PIN or specification."
+      : "The catalog framework is ready. Import the first product batch to publish searchable products.";
     productGrid.innerHTML = visible.length
       ? visible.map(product => renderProductCard(product, searchState)).join("")
-      : "<div class=\"no-results\"><strong>No products found</strong><span>Try another product number, product name, brand, category, vehicle model, OD, ID, HI, PIN or specification.</span></div>";
+      : `<div class="no-results"><strong>${emptyTitle}</strong><span>${emptyCopy}</span></div>`;
   }
 
   const loadMore = ensureLoadMoreButton();
