@@ -7,43 +7,33 @@
 </url>
 
 <url>
-<loc>https://titan-900.github.io/NAE-TRUCK/products/axle-parts/</loc>
+<loc>https://titan-900.github.io/NAE-TRUCK/products.html</loc>
+<priority>0.9</priority>
 </url>
 
 <url>
-<loc>https://titan-900.github.io/NAE-TRUCK/products/brake-system/</loc>
+<loc>https://titan-900.github.io/NAE-TRUCK/brands.html</loc>
+<priority>0.8</priority>
 </url>
 
 <url>
-<loc>https://titan-900.github.io/NAE-TRUCK/products/clutch-system/</loc>
+<loc>https://titan-900.github.io/NAE-TRUCK/about.html</loc>
+<priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://titan-900.github.io/NAE-TRUCK/products/cooling-system/</loc>
+<loc>https://titan-900.github.io/NAE-TRUCK/contact.html</loc>
+<priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://titan-900.github.io/NAE-TRUCK/products/electrical-system/</loc>
+<loc>https://titan-900.github.io/NAE-TRUCK/brands/brand-1/</loc>
+<priority>0.7</priority>
 </url>
 
 <url>
-<loc>https://titan-900.github.io/NAE-TRUCK/products/engine-parts/</loc>
-</url>
-
-<url>
-<loc>https://titan-900.github.io/NAE-TRUCK/products/steering-system/</loc>
-</url>
-
-<url>
-<loc>https://titan-900.github.io/NAE-TRUCK/products/suspension-system/</loc>
-</url>
-
-<url>
-<loc>https://titan-900.github.io/NAE-TRUCK/products/trailer-parts/</loc>
-</url>
-
-<url>
-<loc>https://titan-900.github.io/NAE-TRUCK/products/transmission-parts/</loc>
+<loc>https://titan-900.github.io/NAE-TRUCK/brands/xin-seng/</loc>
+<priority>0.7</priority>
 </url>
 
 </urlset>

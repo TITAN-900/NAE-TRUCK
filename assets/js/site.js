@@ -354,6 +354,7 @@ const finderBackToSearch = document.querySelector("#finderBackToSearch");
 const finderLoadMore = document.querySelector("#finderLoadMore");
 const finderTrackPrev = document.querySelector("#finderTrackPrev");
 const finderTrackNext = document.querySelector("#finderTrackNext");
+const finderViewAllResults = document.querySelector("#finderViewAllResults");
 const finderPageSize = 32;
 let finderRecords = [];
 let finderVisibleCount = finderPageSize;
@@ -396,7 +397,7 @@ function renderBrandCards(brands) {
   <small>${String(index + 1).padStart(2, "0")}</small>
   ${renderBrandLogo(brand)}
   <strong>${escapeHtml(brand.name)}</strong>
-  <span>View brand categories &nearr;</span>
+  <span>View brand products &nearr;</span>
 </a>`)
     .join("");
 
@@ -755,6 +756,20 @@ function scrollFinderResultsIntoView() {
   target?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
+function getProductsPageUrl(query = "") {
+  const url = new URL("products.html", siteRoot);
+  const trimmed = String(query || "").trim().replace(/\s+/g, " ");
+  if (trimmed) {
+    url.searchParams.set("q", trimmed);
+  }
+  return url.href;
+}
+
+function updateFinderViewAllResultsHref(query = finderCurrentQuery) {
+  if (!finderViewAllResults) return;
+  finderViewAllResults.href = getProductsPageUrl(query);
+}
+
 function updateFinderTrackArrows() {
   if (!finderResults) return;
 
@@ -774,7 +789,7 @@ function updateFinderStatus() {
   const query = finderCurrentQuery;
 
   if (!total) {
-    finderStatus.textContent = query ? "No matching products found." : "No products are available yet.";
+    finderStatus.textContent = query ? "No matching products found." : "No products available yet.";
     return;
   }
 
@@ -807,15 +822,16 @@ function renderFinderResults(records, query, options = {}) {
   if (finderToolbar) finderToolbar.hidden = false;
   if (finderLoadMore) finderLoadMore.hidden = true;
   if (finderClearSearch) finderClearSearch.hidden = !trimmedQuery;
+  updateFinderViewAllResultsHref(trimmedQuery);
 
   finderResults.innerHTML = "";
   if (matches.length) {
     appendFinderCards(matches, searchState, 0, Math.min(finderVisibleCount, matches.length));
   } else {
-    const emptyTitle = records.length ? "No matching products found." : "No products available.";
+    const emptyTitle = records.length ? "No matching products found." : "No products available yet.";
     const emptyCopy = records.length
       ? "Clear the search or try another product number, name, brand, engine model, vehicle model or keyword."
-      : "The catalog framework is ready. Import the first product batch to publish searchable products.";
+      : "New catalog items will appear here after import.";
     finderResults.innerHTML = `<div class="no-results homepage-products-empty"><strong>${emptyTitle}</strong><span>${emptyCopy}</span></div>`;
   }
 
@@ -935,7 +951,7 @@ function ensureHomepageImageLightbox() {
           <span>Brand</span>
           <strong data-lightbox-product-brand></strong>
         </div>
-        <a class="button button-orange" href="#contact" data-lightbox-enquire>Enquire <span>&nearr;</span></a>
+        <a class="button button-orange" href="${escapeHtml(resolveSiteAsset("contact.html"))}" data-lightbox-enquire>Enquire <span>&nearr;</span></a>
       </div>
     </div>
   `;
@@ -1451,7 +1467,8 @@ async function initHomepageFinder() {
     if (event.key !== "Enter") return;
     event.preventDefault();
     window.clearTimeout(finderSearchDebounce);
-    runFinderSearch({ scroll: true });
+    updateFinderViewAllResultsHref(partsSearch.value);
+    window.location.href = getProductsPageUrl(partsSearch.value);
   });
 }
 

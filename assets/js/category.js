@@ -117,6 +117,19 @@ let allBrands = [];
 let activeBrand = null;
 let brandLogoLookup = new Map();
 let catalogueLightboxScrollY = 0;
+const catalogueLightboxZoomStep = 0.25;
+const catalogueLightboxMinZoom = 1;
+const catalogueLightboxMaxZoom = 4;
+let catalogueLightboxState = {
+  images: [],
+  index: 0,
+  scale: 1,
+  lastFocus: null,
+  touchStartX: 0,
+  touchStartY: 0,
+  touchStartDistance: 0,
+  touchStartScale: 1
+};
 
 let productGrid = document.querySelector("#productGrid");
 let search = document.querySelector("#productSearch");
@@ -143,7 +156,7 @@ function assetPath(path) {
 }
 
 function contactPath() {
-  return new URL("index.html#contact", categorySiteRoot).href;
+  return new URL("contact.html", categorySiteRoot).href;
 }
 
 async function loadJson(fileName, validator) {
@@ -562,12 +575,20 @@ function hydrateFilterOptions(select, values, firstLabel) {
 }
 
 function getSelectedCategoryFilter() {
-  if (browseMode === "search") return "";
+  if (browseMode === "search" || browseMode === "products") return "";
   return categoryFilter?.querySelector("[aria-pressed='true']")?.dataset.categoryFilter || "";
 }
 
 function renderCategoryFilter() {
-  if (!categoryFilter || browseMode === "search") return;
+  if (!categoryFilter || browseMode === "search" || browseMode === "products") return;
+
+  if (!catalogueProducts.length) {
+    categoryFilter.hidden = true;
+    categoryFilter.innerHTML = "";
+    return;
+  }
+
+  categoryFilter.hidden = false;
 
   categoryFilter.innerHTML = categoryGroups
     .map(group => `<button class="filter-pill${group.key ? "" : " active"}" type="button" data-category-filter="${escapeHtml(group.key)}" aria-pressed="${group.key ? "false" : "true"}">${escapeHtml(group.label)}</button>`)
@@ -638,21 +659,64 @@ function updateSearchPageChrome() {
   document.title = "Global Product Search | NAE Enterprise Heavy Truck Parts";
 }
 
+function updateProductsPageChrome() {
+  if (browseMode !== "products") return;
+  data = { title: "Products", thumbnail: "" };
+}
+
+function flattenCatalogueValue(value) {
+  if (Array.isArray(value)) {
+    return value.flatMap(item => flattenCatalogueValue(item));
+  }
+
+  if (value && typeof value === "object") {
+    return Object.values(value).flatMap(item => flattenCatalogueValue(item));
+  }
+
+  return value ? [String(value)] : [];
+}
+
+function getProductGalleryImages(product) {
+  const imageValues = [
+    product.image,
+    product.thumbnail,
+    ...flattenCatalogueValue(product.images),
+    ...flattenCatalogueValue(product.gallery),
+    ...flattenCatalogueValue(product.photos),
+    ...flattenCatalogueValue(product.productImages),
+    ...flattenCatalogueValue(product.imageList),
+    ...flattenCatalogueValue(product.additionalImages)
+  ];
+  const seen = new Set();
+
+  return imageValues
+    .map(value => String(value || "").trim())
+    .filter(Boolean)
+    .map(value => assetPath(value))
+    .filter(value => {
+      if (!value || seen.has(value)) return false;
+      seen.add(value);
+      return true;
+    });
+}
+
 function renderProductImage(product) {
-  const imageSrc = getProductImageSrc(product);
+  const images = getProductGalleryImages(product);
+  const imageSrc = images[0] || getProductImageSrc(product);
+  const encodedImages = escapeHtml(JSON.stringify(images.length ? images : (imageSrc ? [imageSrc] : [])));
   const alt = `${product.name} ${product.number}`.trim();
 
   if (!imageSrc) {
     return "<span class=\"product-image-placeholder\">NAE</span>";
   }
 
-  return `<button class="product-photo-button" type="button" data-lightbox-src="${escapeHtml(imageSrc)}" data-lightbox-alt="${escapeHtml(alt)}">
+  return `<button class="product-photo-button" type="button" data-lightbox-src="${escapeHtml(imageSrc)}" data-lightbox-images="${encodedImages}" data-lightbox-alt="${escapeHtml(alt)}">
       <img class="product-photo" loading="lazy" decoding="async" src="${escapeHtml(imageSrc)}" alt="${escapeHtml(alt)}">
     </button>`;
 }
 
 function getProductImageSrc(product) {
-  return assetPath(product.image || data.thumbnail);
+  return assetPath(product.image || product.thumbnail || data.thumbnail);
 }
 
 function isInternalCustomerValue(value) {
@@ -700,7 +764,9 @@ function renderSearchBrandLogo(product) {
 }
 
 function renderSearchResultCard(product, searchState) {
-  const imageSrc = getProductImageSrc(product);
+  const images = getProductGalleryImages(product);
+  const imageSrc = images[0] || getProductImageSrc(product);
+  const encodedImages = escapeHtml(JSON.stringify(images.length ? images : (imageSrc ? [imageSrc] : [])));
   const summary = getCustomerProductSummary(product);
   const productNumber = summary.number || "PART NUMBER UNAVAILABLE";
   const productName = summary.name || "PRODUCT DESCRIPTION UNAVAILABLE";
@@ -712,7 +778,7 @@ function renderSearchResultCard(product, searchState) {
   ].filter(Boolean).join("<span class=\"search-result-separator\" aria-hidden=\"true\">&middot;</span>");
   const label = `${productNumber} ${productName}`.trim();
 
-  return `<a class="product-card search-result-card" href="${escapeHtml(imageSrc || contactPath())}" data-result-lightbox="${imageSrc ? "true" : "false"}" data-lightbox-src="${escapeHtml(imageSrc)}" data-lightbox-alt="${escapeHtml(label)}" data-lightbox-number="${escapeHtml(productNumber)}" data-lightbox-name="${escapeHtml(productName)}" data-lightbox-brand="${escapeHtml(brandName)}" data-lightbox-enquiry="${escapeHtml(summary.enquiry)}" aria-label="${escapeHtml(`View product image for ${label}`)}">
+  return `<a class="product-card search-result-card" href="${escapeHtml(imageSrc || contactPath())}" data-result-lightbox="${imageSrc ? "true" : "false"}" data-lightbox-src="${escapeHtml(imageSrc)}" data-lightbox-images="${encodedImages}" data-lightbox-alt="${escapeHtml(label)}" data-lightbox-number="${escapeHtml(productNumber)}" data-lightbox-name="${escapeHtml(productName)}" data-lightbox-brand="${escapeHtml(brandName)}" data-lightbox-enquiry="${escapeHtml(summary.enquiry)}" aria-label="${escapeHtml(`View product image for ${label}`)}">
     ${renderSearchBrandLogo(product)}
     <span class="search-result-content">
       <strong class="search-result-code">${highlightProductNumber(productNumber, searchState)}</strong>
@@ -727,33 +793,21 @@ function renderProductCard(product, searchState) {
     return renderSearchResultCard(product, searchState);
   }
 
-  const vehicleModel = product.vehicleModel || product.application;
-  const meta = [
-    `<span class="product-brand">Brand: ${highlightText(product.brand, searchState.highlightTerms)}</span>`,
-    `<span>Category: ${highlightText(product.categoryLabel, searchState.highlightTerms)}</span>`,
-    vehicleModel ? `<span class="product-vehicle">Vehicle Model: ${highlightText(vehicleModel, searchState.highlightTerms)}</span>` : "",
-    product.subcategory ? `<span>Subcategory: ${highlightText(product.subcategory, searchState.highlightTerms)}</span>` : "",
-    ...(product.specs || []).slice(0, 3).map(item => `<span>${highlightText(item, searchState.highlightTerms)}</span>`)
-  ].filter(Boolean);
-
-  const badge = product.isImported ? "Imported product" : "Catalogue preview";
   const description = product.description || product.application || "Heavy-duty replacement part";
+  const brandMeta = product.brand && normalizeSearchValue(product.brand) !== "brand not specified"
+    ? `<div class="product-meta"><span class="product-brand">${highlightText(product.brand, searchState.highlightTerms)}</span></div>`
+    : "";
 
   return `<article class="product-card">
     <div class="product-image has-photo">
-      <span class="product-badge">${escapeHtml(badge)}</span>
       ${renderProductImage(product)}
     </div>
     <div class="product-body">
-      <span class="product-code-label">Product Number</span>
+      <span class="product-code-label">Product Code</span>
       <strong class="product-code">${highlightProductNumber(product.number, searchState)}</strong>
       <h3>${highlightText(product.name, searchState.highlightTerms)}</h3>
-      <div class="product-meta">${meta.join("")}</div>
       <p class="product-description">${highlightText(description, searchState.highlightTerms)}</p>
-      <div class="product-action">
-        <small class="stock-status">${escapeHtml(product.availability)}</small>
-        <button data-enquire="${escapeHtml(`${product.number} ${product.name}`)}">Enquire &nearr;</button>
-      </div>
+      ${brandMeta}
     </div>
   </article>`;
 }
@@ -819,28 +873,63 @@ function render() {
 
   const visible = filtered.slice(0, visibleCount);
 
+  const hasAnyProducts = allCatalogueProducts.length > 0;
+  const hasBaseProducts = catalogueProducts.length > 0;
+  const hasSearch = searchState.tokens.length > 0;
+
   if (count) {
-    count.textContent = allCatalogueProducts.length
+    count.textContent = browseMode === "brand" && !hasBaseProducts
+      ? "No products available for this brand yet."
+      : hasAnyProducts
       ? (searchState.tokens.length
         ? `${visible.length} of ${filtered.length} matching products shown`
         : `${visible.length} of ${filtered.length} catalogue items shown`)
-      : "No products available.";
+      : "No products available yet.";
   }
 
   if (productGrid) {
-    const emptyTitle = allCatalogueProducts.length ? "No products found" : "No products available.";
-    const emptyCopy = allCatalogueProducts.length
-      ? "Try another product number, product name, brand, category, vehicle model, OD, ID, HI, PIN or specification."
-      : "The catalog framework is ready. Import the first product batch to publish searchable products.";
+    const emptyState = getCatalogueEmptyState({
+      hasAnyProducts,
+      hasBaseProducts,
+      hasSearch
+    });
     productGrid.innerHTML = visible.length
       ? visible.map(product => renderProductCard(product, searchState)).join("")
-      : `<div class="no-results"><strong>${emptyTitle}</strong><span>${emptyCopy}</span></div>`;
+      : `<div class="no-results"><strong>${emptyState.title}</strong><span>${emptyState.copy}</span></div>`;
   }
 
   const loadMore = ensureLoadMoreButton();
   if (loadMore) {
     loadMore.hidden = filtered.length <= visibleCount;
   }
+}
+
+function getCatalogueEmptyState(state) {
+  if (state.hasSearch && state.hasAnyProducts) {
+    return {
+      title: "No matching products found.",
+      copy: "Try another product code, description, engine model, vehicle model, brand, OCR keyword or file name."
+    };
+  }
+
+  if (browseMode === "brand" && !state.hasBaseProducts) {
+    return {
+      title: "No products available for this brand yet.",
+      copy: "Imported products assigned to this brand will appear here after the next catalog sync."
+    };
+  }
+
+  if (browseMode === "products") {
+    return {
+      title: "No products available yet.",
+      copy: "New catalog items will appear here after import."
+    };
+  }
+
+  return {
+    title: "No products available yet.",
+    copy: "New catalog items will appear here after import."
+  };
 }
 
 function scheduleRender() {
@@ -860,7 +949,19 @@ function ensureImageLightbox() {
   lightbox.innerHTML = `
     <button class="close-lightbox" type="button" aria-label="Close image preview">&times;</button>
     <div class="lightbox-panel">
-      <img alt="">
+      <div class="lightbox-stage" data-lightbox-stage>
+        <button class="lightbox-nav lightbox-prev" type="button" data-lightbox-prev aria-label="Previous product image">&larr;</button>
+        <img class="lightbox-image" alt="">
+        <button class="lightbox-nav lightbox-next" type="button" data-lightbox-next aria-label="Next product image">&rarr;</button>
+      </div>
+      <div class="lightbox-tools" aria-label="Image preview controls">
+        <span class="lightbox-counter" data-lightbox-count hidden></span>
+        <div class="lightbox-zoom-controls">
+          <button type="button" data-lightbox-zoom-out aria-label="Zoom out">Zoom Out</button>
+          <button type="button" data-lightbox-zoom-reset aria-label="Reset zoom">Reset</button>
+          <button type="button" data-lightbox-zoom-in aria-label="Zoom in">Zoom In</button>
+        </div>
+      </div>
       <div class="lightbox-product-info" hidden>
         <div>
           <span>Product Number</span>
@@ -879,6 +980,11 @@ function ensureImageLightbox() {
     </div>
   `;
   document.body.append(lightbox);
+}
+
+function getCatalogueLightboxImage() {
+  return document.querySelector("#image-lightbox .lightbox-image")
+    || document.querySelector("#image-lightbox .lightbox-panel>img");
 }
 
 function setLightboxProductInfo(lightbox, info) {
@@ -926,34 +1032,141 @@ function unlockCatalogueLightboxScroll() {
   catalogueLightboxScrollY = 0;
 }
 
-function openLightbox(src, alt, productInfo = null) {
+function clampCatalogueLightboxZoom(value) {
+  return Math.min(catalogueLightboxMaxZoom, Math.max(catalogueLightboxMinZoom, Number(value) || 1));
+}
+
+function updateCatalogueLightboxZoom() {
+  const image = getCatalogueLightboxImage();
+  const lightbox = document.querySelector("#image-lightbox");
+  if (!image || !lightbox) return;
+
+  const scale = clampCatalogueLightboxZoom(catalogueLightboxState.scale);
+  catalogueLightboxState.scale = scale;
+  image.style.transform = `scale(${scale})`;
+  lightbox.classList.toggle("is-zoomed", scale > 1.01);
+}
+
+function setCatalogueLightboxZoom(value) {
+  catalogueLightboxState.scale = clampCatalogueLightboxZoom(value);
+  updateCatalogueLightboxZoom();
+}
+
+function resetCatalogueLightboxZoom() {
+  setCatalogueLightboxZoom(1);
+}
+
+function updateCatalogueLightboxControls(lightbox) {
+  const hasMultiple = catalogueLightboxState.images.length > 1;
+  const counter = lightbox.querySelector("[data-lightbox-count]");
+  const prev = lightbox.querySelector("[data-lightbox-prev]");
+  const next = lightbox.querySelector("[data-lightbox-next]");
+
+  lightbox.classList.toggle("has-multiple-images", hasMultiple);
+  [prev, next].forEach(button => {
+    if (button) button.hidden = !hasMultiple;
+  });
+
+  if (counter) {
+    counter.hidden = !hasMultiple;
+    counter.textContent = hasMultiple
+      ? `${catalogueLightboxState.index + 1} / ${catalogueLightboxState.images.length}`
+      : "";
+  }
+}
+
+function setCatalogueLightboxImage(index) {
+  const lightbox = document.querySelector("#image-lightbox");
+  const image = getCatalogueLightboxImage();
+  if (!lightbox || !image || !catalogueLightboxState.images.length) return;
+
+  const length = catalogueLightboxState.images.length;
+  catalogueLightboxState.index = ((index % length) + length) % length;
+  image.src = catalogueLightboxState.images[catalogueLightboxState.index];
+  image.alt = lightbox.dataset.lightboxAlt || "Product image preview";
+  resetCatalogueLightboxZoom();
+  updateCatalogueLightboxControls(lightbox);
+}
+
+function moveCatalogueLightboxImage(direction) {
+  if (catalogueLightboxState.images.length <= 1) return;
+  setCatalogueLightboxImage(catalogueLightboxState.index + direction);
+}
+
+function parseCatalogueLightboxImages(value) {
+  if (!value) return [];
+
+  try {
+    const parsed = JSON.parse(value);
+    return Array.isArray(parsed) ? parsed.filter(Boolean) : [];
+  } catch (error) {
+    return String(value).trim() ? [String(value).trim()] : [];
+  }
+}
+
+function getCatalogueLightboxFocusable(lightbox) {
+  return Array.from(lightbox.querySelectorAll("button:not([hidden]):not(:disabled), a[href]:not([hidden])"))
+    .filter(element => element.offsetParent !== null || element === document.activeElement);
+}
+
+function openLightbox(imagesOrSrc, alt, productInfo = null, options = {}) {
   ensureImageLightbox();
 
   const lightbox = document.querySelector("#image-lightbox");
-  const image = lightbox?.querySelector("img");
+  const image = getCatalogueLightboxImage();
   if (!lightbox || !image) return;
+  const images = Array.isArray(imagesOrSrc)
+    ? imagesOrSrc.filter(Boolean)
+    : [imagesOrSrc].filter(Boolean);
+  if (!images.length) return;
 
-  image.src = src;
-  image.alt = alt || "Product image preview";
+  const wasOpen = lightbox.classList.contains("open");
+  catalogueLightboxState.images = Array.from(new Set(images));
+  catalogueLightboxState.index = Math.min(Math.max(Number(options.startIndex) || 0, 0), catalogueLightboxState.images.length - 1);
+  catalogueLightboxState.scale = 1;
+  catalogueLightboxState.lastFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+  lightbox.dataset.lightboxAlt = alt || "Product image preview";
+
+  setCatalogueLightboxImage(catalogueLightboxState.index);
   setLightboxProductInfo(lightbox, productInfo);
   lightbox.classList.add("open");
   lightbox.setAttribute("aria-hidden", "false");
-  lockCatalogueLightboxScroll();
+
+  if (!wasOpen) {
+    lockCatalogueLightboxScroll();
+  }
+
+  requestAnimationFrame(() => {
+    lightbox.querySelector(".close-lightbox")?.focus({ preventScroll: true });
+  });
 }
 
 function closeLightbox() {
   const lightbox = document.querySelector("#image-lightbox");
-  const image = lightbox?.querySelector("img");
+  const image = getCatalogueLightboxImage();
   if (!lightbox) return;
   if (!lightbox.classList.contains("open")) return;
+  const focusTarget = catalogueLightboxState.lastFocus;
 
   lightbox.classList.remove("open");
   lightbox.classList.remove("has-product-info");
+  lightbox.classList.remove("has-multiple-images");
+  lightbox.classList.remove("is-zoomed");
   lightbox.setAttribute("aria-hidden", "true");
   unlockCatalogueLightboxScroll();
 
-  if (image) image.removeAttribute("src");
+  if (image) {
+    image.removeAttribute("src");
+    image.style.transform = "";
+  }
+  catalogueLightboxState.images = [];
+  catalogueLightboxState.index = 0;
+  catalogueLightboxState.scale = 1;
   setLightboxProductInfo(lightbox, null);
+
+  if (focusTarget?.focus) {
+    focusTarget.focus({ preventScroll: true });
+  }
 }
 
 function bindCatalogueEvents() {
@@ -972,7 +1185,10 @@ function bindCatalogueEvents() {
     const resultCard = event.target.closest("[data-result-lightbox='true']");
     if (resultCard) {
       event.preventDefault();
-      openLightbox(resultCard.dataset.lightboxSrc, resultCard.dataset.lightboxAlt, {
+      const images = parseCatalogueLightboxImages(resultCard.dataset.lightboxImages)
+        .concat(resultCard.dataset.lightboxSrc || "")
+        .filter(Boolean);
+      openLightbox(Array.from(new Set(images)), resultCard.dataset.lightboxAlt, {
         number: resultCard.dataset.lightboxNumber,
         name: resultCard.dataset.lightboxName,
         brand: resultCard.dataset.lightboxBrand
@@ -982,7 +1198,10 @@ function bindCatalogueEvents() {
 
     const preview = event.target.closest("[data-lightbox-src]");
     if (preview?.dataset.lightboxSrc) {
-      openLightbox(preview.dataset.lightboxSrc, preview.dataset.lightboxAlt);
+      const images = parseCatalogueLightboxImages(preview.dataset.lightboxImages)
+        .concat(preview.dataset.lightboxSrc || "")
+        .filter(Boolean);
+      openLightbox(Array.from(new Set(images)), preview.dataset.lightboxAlt);
       return;
     }
 
@@ -1008,6 +1227,39 @@ function bindCatalogueEvents() {
     const lightbox = document.querySelector("#image-lightbox");
     if (!lightbox?.classList.contains("open")) return;
 
+    const zoomIn = event.target.closest("[data-lightbox-zoom-in]");
+    if (zoomIn) {
+      event.preventDefault();
+      setCatalogueLightboxZoom(catalogueLightboxState.scale + catalogueLightboxZoomStep);
+      return;
+    }
+
+    const zoomOut = event.target.closest("[data-lightbox-zoom-out]");
+    if (zoomOut) {
+      event.preventDefault();
+      setCatalogueLightboxZoom(catalogueLightboxState.scale - catalogueLightboxZoomStep);
+      return;
+    }
+
+    const zoomReset = event.target.closest("[data-lightbox-zoom-reset]");
+    if (zoomReset) {
+      event.preventDefault();
+      resetCatalogueLightboxZoom();
+      return;
+    }
+
+    if (event.target.closest("[data-lightbox-prev]")) {
+      event.preventDefault();
+      moveCatalogueLightboxImage(-1);
+      return;
+    }
+
+    if (event.target.closest("[data-lightbox-next]")) {
+      event.preventDefault();
+      moveCatalogueLightboxImage(1);
+      return;
+    }
+
     const lightboxEnquiry = event.target.closest("[data-lightbox-enquire]");
     if (lightboxEnquiry) {
       const enquiryText = lightboxEnquiry.dataset.lightboxEnquire || "";
@@ -1024,10 +1276,101 @@ function bindCatalogueEvents() {
   });
 
   document.addEventListener("keydown", event => {
+    const lightbox = document.querySelector("#image-lightbox");
+    if (!lightbox?.classList.contains("open")) return;
+
     if (event.key === "Escape") {
       closeLightbox();
+      return;
+    }
+
+    if (event.key === "ArrowLeft") {
+      event.preventDefault();
+      moveCatalogueLightboxImage(-1);
+      return;
+    }
+
+    if (event.key === "ArrowRight") {
+      event.preventDefault();
+      moveCatalogueLightboxImage(1);
+      return;
+    }
+
+    if (event.key !== "Tab") return;
+
+    const focusable = getCatalogueLightboxFocusable(lightbox);
+    if (!focusable.length) return;
+
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
     }
   });
+
+  document.addEventListener("wheel", event => {
+    const lightbox = document.querySelector("#image-lightbox");
+    if (!lightbox?.classList.contains("open")) return;
+    if (!event.target.closest("#image-lightbox")) return;
+
+    event.preventDefault();
+    const direction = event.deltaY < 0 ? 1 : -1;
+    setCatalogueLightboxZoom(catalogueLightboxState.scale + direction * catalogueLightboxZoomStep);
+  }, { passive: false });
+
+  document.addEventListener("touchstart", event => {
+    const lightbox = document.querySelector("#image-lightbox");
+    if (!lightbox?.classList.contains("open") || !event.target.closest("[data-lightbox-stage]")) return;
+
+    if (event.touches.length === 2) {
+      const [first, second] = event.touches;
+      catalogueLightboxState.touchStartDistance = Math.hypot(second.clientX - first.clientX, second.clientY - first.clientY);
+      catalogueLightboxState.touchStartScale = catalogueLightboxState.scale;
+      return;
+    }
+
+    if (event.touches.length === 1) {
+      catalogueLightboxState.touchStartX = event.touches[0].clientX;
+      catalogueLightboxState.touchStartY = event.touches[0].clientY;
+    }
+  }, { passive: true });
+
+  document.addEventListener("touchmove", event => {
+    const lightbox = document.querySelector("#image-lightbox");
+    if (!lightbox?.classList.contains("open") || !event.target.closest("[data-lightbox-stage]")) return;
+
+    if (event.touches.length === 2 && catalogueLightboxState.touchStartDistance) {
+      event.preventDefault();
+      const [first, second] = event.touches;
+      const distance = Math.hypot(second.clientX - first.clientX, second.clientY - first.clientY);
+      const ratio = distance / catalogueLightboxState.touchStartDistance;
+      setCatalogueLightboxZoom(catalogueLightboxState.touchStartScale * ratio);
+    }
+  }, { passive: false });
+
+  document.addEventListener("touchend", event => {
+    const lightbox = document.querySelector("#image-lightbox");
+    if (!lightbox?.classList.contains("open")) return;
+
+    if (event.changedTouches.length !== 1 || catalogueLightboxState.scale > 1.05) return;
+    const touch = event.changedTouches[0];
+    const deltaX = touch.clientX - catalogueLightboxState.touchStartX;
+    const deltaY = touch.clientY - catalogueLightboxState.touchStartY;
+
+    if (Math.abs(deltaX) > 60 && Math.abs(deltaX) > Math.abs(deltaY) * 1.25 && catalogueLightboxState.images.length > 1) {
+      moveCatalogueLightboxImage(deltaX > 0 ? -1 : 1);
+      return;
+    }
+
+    if (deltaY > 90 && Math.abs(deltaY) > Math.abs(deltaX) * 1.5) {
+      closeLightbox();
+    }
+  }, { passive: true });
 }
 
 function getBrandFromPage(brands) {
@@ -1100,6 +1443,8 @@ async function initCataloguePage() {
   } else if (browseMode === "search") {
     data = { title: "Global Product Search", thumbnail: "" };
     updateSearchPageChrome();
+  } else if (browseMode === "products") {
+    updateProductsPageChrome();
   } else if (activeBrand) {
     data = { title: activeBrand.name, thumbnail: activeBrand.logo || "" };
   }
