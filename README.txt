@@ -1,10 +1,10 @@
-NAE ENTERPRISE SDN. BHD. — WEBSITE HANDOFF
+NIHON ASIA ENTERPRISE SDN. BHD. — WEBSITE HANDOFF
 
 Open index.html to preview the website.
 
 WHAT IS INCLUDED
 - Premium responsive homepage
-- Official supplied NAE logo
+- Official supplied NIHON ASIA logo
 - Original sunset heavy-truck hero artwork
 - Expandable parts catalogue on the homepage
 - 10 dedicated product-category pages

@@ -254,7 +254,7 @@ function bindBrandLogoWarnings() {
     if (!(image instanceof HTMLImageElement) || !image.closest(".brand-logo-block")) return;
 
     const failedUrl = image.currentSrc || image.src || image.getAttribute("src") || "";
-    console.warn(`NAE brand logo failed to load: ${failedUrl}`);
+    console.warn(`Brand logo failed to load: ${failedUrl}`);
     image.closest(".brand-logo-block")?.classList.add("missing-logo");
   }, true);
 }
@@ -275,7 +275,7 @@ function renderCategoryCards(catalogue) {
     .map((category) => {
       const thumbnail = category.thumbnail
         ? `<img class="category-thumbnail" loading="lazy" decoding="async" src="${escapeHtml(resolveSiteAsset(category.thumbnail))}" alt="">`
-        : `<span class="category-thumbnail-fallback">NAE</span>`;
+        : `<span class="category-thumbnail-fallback">PARTS</span>`;
 
       return `
 <details class="category-card reveal">
@@ -751,7 +751,7 @@ function renderHomepageResultImage(summary) {
   const alt = `${summary.name} ${summary.number}`.trim();
 
   if (!summary.image) {
-    return "<span class=\"product-image-placeholder\">NAE</span>";
+    return "<span class=\"product-image-placeholder\">PART</span>";
   }
 
   return `<img class="product-photo" loading="lazy" decoding="async" src="${escapeHtml(summary.image)}" alt="${escapeHtml(alt)}">`;
@@ -770,7 +770,7 @@ function renderHomepageResultCard(record, searchState) {
     <button class="product-image has-photo homepage-product-image-button" type="button" data-home-preview="true" aria-label="${escapeHtml(`Enlarge product image for ${label}`)}">
       ${renderHomepageResultImage(summary)}
     </button>
-    <div class="product-body" role="button" tabindex="0" data-home-detail="true" aria-label="${escapeHtml(`View product details for ${label}`)}">
+    <div class="product-body" role="button" tabindex="0" data-home-detail="true" aria-label="${escapeHtml(`Open product image viewer for ${label}`)}">
       <span class="product-code-label">Part Number</span>
       <strong class="product-code">${highlightFinderText(summary.number, searchState.highlightTerms)}</strong>
       <h3>${highlightFinderText(summary.name, searchState.highlightTerms)}</h3>
@@ -922,16 +922,15 @@ function scrollFinderTrackBy(direction) {
 
 function openHomepagePreviewFromCard(card) {
   const data = getHomepageCardLightboxData(card);
-  openHomepageLightbox(data.images, data.alt, null);
-}
-
-function openHomepageDetailFromCard(card) {
-  const data = getHomepageCardLightboxData(card);
   openHomepageLightbox(data.images, data.alt, {
     number: data.number,
     name: data.name,
     brand: data.brand
   });
+}
+
+function openHomepageDetailFromCard(card) {
+  openHomepagePreviewFromCard(card);
 }
 
 function toggleHomepageImageHover(event, active) {
@@ -1363,7 +1362,7 @@ function bindHomepageFinderEvents() {
     if (lightboxEnquiry) {
       const enquiryText = lightboxEnquiry.dataset.lightboxEnquire || "";
       if (enquiryText) {
-        sessionStorage.setItem("naeEnquiry", enquiryText);
+        sessionStorage.setItem("nihonAsiaEnquiry", enquiryText);
       }
       closeHomepageLightbox();
       return;
@@ -1660,13 +1659,13 @@ const toast = document.querySelector("#toast");
 
 if (form) {
   const stored =
-    sessionStorage.getItem("naeEnquiry");
+    sessionStorage.getItem("nihonAsiaEnquiry");
 
   if (stored) {
     form.elements.message.value =
       `I would like to enquire about ${stored}.`;
 
-    sessionStorage.removeItem("naeEnquiry");
+    sessionStorage.removeItem("nihonAsiaEnquiry");
   }
 
   form.addEventListener("submit", (e) => {
@@ -1675,7 +1674,7 @@ if (form) {
     const data = new FormData(form);
 
     const msg =
-      `Enquiry prepared for ${data.get("name")}. Add NAE's final WhatsApp number to connect direct sending.`;
+      `Enquiry prepared for ${data.get("name")}. The sales team can use these details to identify the correct part faster.`;
 
     if (toast) {
       toast.textContent = msg;

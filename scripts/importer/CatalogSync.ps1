@@ -641,7 +641,7 @@ function Invoke-CatalogSync {
     [switch]$SkipArchiveMissing
   )
 
-  Write-Host 'NAE catalog synchronization'
+  Write-Host 'NIHON ASIA ENTERPRISE catalog synchronization'
   Write-Host "Project: $ProjectRoot"
   Write-Host "Source:  $WhatsAppFolder"
   if ($DryRun) { Write-Host 'Mode:    dry run, no files will be written' }

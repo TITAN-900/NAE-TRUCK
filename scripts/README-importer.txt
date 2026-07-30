@@ -1,4 +1,4 @@
-NAE PRODUCT IMPORTER
+NIHON ASIA ENTERPRISE PRODUCT IMPORTER
 
 Main command:
   powershell -NoProfile -ExecutionPolicy Bypass -File scripts/import-whatsapp-products.ps1

@@ -360,7 +360,7 @@ function Remove-ExistingProductsFromSourceFolder {
   }
 }
 
-Write-Host "NAE product importer"
+Write-Host "NIHON ASIA ENTERPRISE product importer"
 Write-Host "Project: $ProjectRoot"
 Write-Host "Source:  $WhatsAppFolder"
 $effectiveBrandOverride = if (-not [string]::IsNullOrWhiteSpace($BrandOverride)) {

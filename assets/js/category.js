@@ -614,7 +614,7 @@ function renderCategoryFilter() {
 function updateBrandPageChrome(brandInfo) {
   if (!brandInfo) return;
 
-  document.title = `${brandInfo.name} Products | NAE Enterprise Heavy Truck Parts`;
+  document.title = `${brandInfo.name} Products | NIHON ASIA ENTERPRISE Heavy Duty Truck Parts`;
   document.querySelector(".category-hero-copy h1")?.replaceChildren(document.createTextNode(brandInfo.name));
 
   const intro = document.querySelector(".category-hero-copy p:last-child");
@@ -635,7 +635,7 @@ function updateBrandPageChrome(brandInfo) {
 }
 
 function updateCategoryPageChrome(category) {
-  document.title = `${category.title} | NAE Enterprise Heavy Truck Parts`;
+  document.title = `${category.title} | NIHON ASIA ENTERPRISE Heavy Duty Truck Parts`;
 
   document.querySelectorAll("[data-category-title]").forEach(el => {
     el.textContent = category.title;
@@ -644,7 +644,7 @@ function updateCategoryPageChrome(category) {
   document.querySelectorAll("[data-category-icon]").forEach(el => {
     const image = category.thumbnail
       ? `<img class="category-symbol-image" loading="lazy" decoding="async" src="${escapeHtml(assetPath(category.thumbnail))}" alt="">`
-      : "<span class=\"category-symbol-fallback\">NAE</span>";
+      : "<span class=\"category-symbol-fallback\">NIHON ASIA</span>";
 
     el.innerHTML = image;
     el.setAttribute("aria-hidden", "true");
@@ -656,7 +656,7 @@ function updateCategoryPageChrome(category) {
 
 function updateSearchPageChrome() {
   if (browseMode !== "search") return;
-  document.title = "Global Product Search | NAE Enterprise Heavy Truck Parts";
+  document.title = "Global Product Search | NIHON ASIA ENTERPRISE Heavy Duty Truck Parts";
 }
 
 function updateProductsPageChrome() {
@@ -707,7 +707,7 @@ function renderProductImage(product) {
   const alt = `${product.name} ${product.number}`.trim();
 
   if (!imageSrc) {
-    return "<span class=\"product-image-placeholder\">NAE</span>";
+    return "<span class=\"product-image-placeholder\">PART</span>";
   }
 
   return `<button class="product-photo-button" type="button" data-lightbox-src="${escapeHtml(imageSrc)}" data-lightbox-images="${encodedImages}" data-lightbox-alt="${escapeHtml(alt)}">
@@ -1207,7 +1207,7 @@ function bindCatalogueEvents() {
 
     const enquiry = event.target.closest("[data-enquire]");
     if (enquiry) {
-      sessionStorage.setItem("naeEnquiry", `${data.title || "Product"}: ${enquiry.dataset.enquire}`);
+      sessionStorage.setItem("nihonAsiaEnquiry", `${data.title || "Product"}: ${enquiry.dataset.enquire}`);
       location.href = contactPath();
     }
   });
@@ -1218,7 +1218,7 @@ function bindCatalogueEvents() {
     if (!logo) return;
 
     const failedUrl = image?.currentSrc || image?.src || image?.getAttribute?.("src") || "";
-    console.warn(`NAE brand logo failed to load: ${failedUrl}`);
+    console.warn(`Brand logo failed to load: ${failedUrl}`);
     logo.classList.add("missing-logo");
     image.remove();
   }, true);
@@ -1264,7 +1264,7 @@ function bindCatalogueEvents() {
     if (lightboxEnquiry) {
       const enquiryText = lightboxEnquiry.dataset.lightboxEnquire || "";
       if (enquiryText) {
-        sessionStorage.setItem("naeEnquiry", enquiryText);
+        sessionStorage.setItem("nihonAsiaEnquiry", enquiryText);
       }
       closeLightbox();
       return;
