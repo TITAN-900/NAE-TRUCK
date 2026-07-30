@@ -4,23 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="2Sczhp_kKlaAX-W4U_ulHtZZsHcmSEXMWDddzBkByIU">
-  <meta name="description" content="Search NAE heavy-duty truck parts by part number, product description, engine model or brand.">
+  <meta name="description" content="NAE Enterprise supplies OEM-quality heavy-duty truck parts for commercial vehicles across Malaysia and international markets.">
   <meta name="theme-color" content="#111111">
-  <meta property="og:title" content="Heavy Duty Truck Parts | NAE">
-  <meta property="og:description" content="Find heavy-duty truck parts faster by product code, description, engine model or brand.">
+  <meta property="og:title" content="OEM Heavy Duty Truck Parts | NAE Enterprise">
+  <meta property="og:description" content="Premium heavy-duty truck parts catalog for commercial vehicles, engines, drivetrains, braking, suspension and more.">
   <link rel="canonical" href="https://titan-900.github.io/NAE-TRUCK/">
-  <title>Heavy Duty Truck Parts | NAE</title>
+  <title>OEM Heavy Duty Truck Parts | NAE Enterprise</title>
   <link rel="preload" href="assets/img/hero-sunset-truck.png" as="image">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="icon" href="assets/img/nae-logo.jpg">
 </head>
-<body class="home-page">
+<body class="home-page premium-home">
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="topline">
-    <div class="container topline-inner">
-      <span>Heavy-duty truck parts catalog</span><span>Search by code, model or brand</span><span>Malaysia</span>
-    </div>
-  </div>
+
   <header class="site-header" id="siteHeader">
     <div class="container nav-shell">
       <a class="brand" href="index.html" aria-label="NAE Enterprise home">
@@ -39,86 +35,102 @@
   </header>
 
   <main id="main">
-    <section class="hero" aria-labelledby="heroTitle">
+    <section class="hero premium-hero" aria-labelledby="heroTitle">
       <div class="hero-media" aria-hidden="true"></div>
       <div class="hero-shade" aria-hidden="true"></div>
-      <div class="container hero-grid hero-grid-simple">
+      <div class="container hero-inner">
         <div class="hero-content reveal">
-          <p class="eyebrow eyebrow-light"><span></span> Heavy-duty truck parts</p>
-          <h1 id="heroTitle">Find the right<br><em>part faster.</em></h1>
-          <p class="hero-lead">Search by part number, product description, engine model or brand. Built as a clean catalog for heavy truck parts browsing and sales support.</p>
+          <p class="eyebrow eyebrow-light"><span></span> OEM-quality heavy-duty truck parts</p>
+          <h1 id="heroTitle">OEM Heavy Duty<br><em>Truck Parts</em></h1>
+          <p class="hero-statement">Built for Reliability. Trusted Worldwide.</p>
+          <p class="hero-lead">Search over thousands of truck parts by part number, description, engine model or brand.</p>
           <div class="hero-actions">
             <a class="button button-orange" href="products.html">Browse Products <span>&nearr;</span></a>
-            <a class="text-link text-link-light" href="#products">Search Catalog <span>&darr;</span></a>
-          </div>
-          <div class="vehicle-tags" aria-label="Supported search focus">
-            <span>Product Code</span><span>Description</span><span>Engine Model</span><span>Brand</span><span>OCR Text</span>
+            <a class="button button-light" href="#catalogSearch">Search Catalog <span>&darr;</span></a>
           </div>
         </div>
       </div>
-      <div class="hero-scroll"><span></span> Scroll to search</div>
     </section>
 
-    <section class="section products-section" id="products">
+    <section class="section premium-search-section" id="catalogSearch" aria-labelledby="catalogSearchTitle">
       <div class="container">
-        <div class="section-head reveal">
+        <div class="premium-search-panel reveal">
+          <div class="premium-search-copy">
+            <p class="eyebrow"><span></span> Catalog search</p>
+            <h2 id="catalogSearchTitle">Find the exact part.</h2>
+          </div>
+          <div class="premium-search-control">
+            <label class="parts-search premium-search-bar" for="partsSearch">
+              <span class="parts-search-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M16 16l5 5"></path></svg></span>
+              <input id="partsSearch" type="search" autocomplete="off" spellcheck="false" placeholder="Search Part Number, Product Description, Engine Model or Brand">
+            </label>
+            <div class="premium-search-meta">
+              <p id="finderStatus">Loading catalogue products...</p>
+              <button class="finder-clear-search" id="finderClearSearch" type="button" hidden>Clear search</button>
+              <a class="text-link" id="finderViewAllResults" href="products.html">Open full catalog <span>&nearr;</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section featured-products-section homepage-product-browser" id="products" aria-labelledby="featuredProductsTitle">
+      <div class="container">
+        <div class="section-head premium-section-head reveal">
           <div>
-            <p class="eyebrow"><span></span> Parts finder</p>
-            <h2>Search the<br><em>catalog.</em></h2>
+            <p class="eyebrow"><span></span> Newest Products</p>
+            <h2 id="featuredProductsTitle">Recently added<br><em>catalog parts.</em></h2>
           </div>
           <div class="section-intro">
-            <p>Use the search bar first. Results update instantly below, and the full catalog page can receive the same search keyword.</p>
-            <span class="microcopy">Product code / description / engine model / brand / OCR text</span>
+            <p>Large product photography, part numbers and brand references only. Use the search above to narrow this preview.</p>
           </div>
         </div>
 
-        <div class="parts-finder reveal delay-1">
-          <div class="parts-finder-inner">
-            <p class="parts-finder-kicker">Parts finder</p>
-            <h3>Find Your Parts</h3>
-            <label class="parts-search" for="partsSearch">
-              <span class="parts-search-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M16 16l5 5"></path></svg></span>
-              <input id="partsSearch" type="search" autocomplete="off" spellcheck="false" placeholder="Search by Part Number, Product Name or Brand">
-            </label>
-            <div class="parts-finder-actions">
-              <a class="button button-orange" id="finderViewAllResults" href="products.html">View All Results <span>&nearr;</span></a>
-            </div>
-          </div>
-        </div>
+        <div class="finder-results homepage-featured-grid" id="finderResults" aria-live="polite" tabindex="0"></div>
 
-        <div class="homepage-product-browser reveal delay-2" aria-labelledby="homepageProductTitle">
-          <div class="homepage-product-head">
-            <div>
-              <p class="eyebrow" id="homepageProductTitle"><span></span> Products</p>
-              <p>Explore available heavy-duty truck parts or use the search above to narrow the preview.</p>
-            </div>
-            <div class="finder-toolbar" id="finderToolbar">
-              <p id="finderStatus">Loading catalogue products...</p>
-              <div class="finder-toolbar-actions">
-                <button class="finder-clear-search" id="finderClearSearch" type="button" hidden>Clear search</button>
-                <button class="finder-back-search" id="finderBackToSearch" type="button">Back to search</button>
-              </div>
-            </div>
-          </div>
-          <div class="homepage-product-carousel">
-            <button class="product-track-arrow product-track-prev" id="finderTrackPrev" type="button" aria-label="Show previous products" disabled>&larr;</button>
-            <div class="finder-results homepage-product-track" id="finderResults" aria-live="polite" tabindex="0"></div>
-            <button class="product-track-arrow product-track-next" id="finderTrackNext" type="button" aria-label="Show next products">&rarr;</button>
-          </div>
-          <div class="homepage-section-action">
-            <a class="text-link" href="products.html">View All Products <span>&nearr;</span></a>
-          </div>
+        <div class="homepage-section-action reveal">
+          <a class="button button-outline-dark" href="products.html">Browse All Products <span>&nearr;</span></a>
         </div>
+      </div>
+    </section>
 
-        <div class="brand-showcase" aria-labelledby="brandShowcaseTitle">
-          <div class="brands-heading reveal">
-            <div>
-              <p class="eyebrow" id="brandShowcaseTitle"><span></span> Brands</p>
-              <p>Browse by brand logo when the product code is unknown.</p>
-            </div>
-            <a class="text-link" href="brands.html">View All Brands <span>&nearr;</span></a>
+    <section class="section premium-brands-section" id="brands" aria-labelledby="brandShowcaseTitle">
+      <div class="container">
+        <div class="brands-heading reveal">
+          <div>
+            <p class="eyebrow" id="brandShowcaseTitle"><span></span> Brands</p>
+            <h2>Browse by brand.</h2>
           </div>
-          <div class="brand-card-grid reveal delay-2" id="brandCardGrid" aria-label="Truck parts brands"></div>
+          <a class="text-link" href="brands.html">View All Brands <span>&nearr;</span></a>
+        </div>
+        <div class="brand-card-grid reveal delay-2" id="brandCardGrid" aria-label="Truck parts brands"></div>
+      </div>
+    </section>
+
+    <section class="section company-intro-section" id="aboutPreview" aria-labelledby="companyIntroTitle">
+      <div class="container company-intro-grid">
+        <div class="company-intro-copy reveal">
+          <p class="eyebrow"><span></span> NAE Enterprise Sdn. Bhd.</p>
+          <h2 id="companyIntroTitle">Industrial parts supply with catalog discipline.</h2>
+          <p>NAE Enterprise specializes in supplying OEM-quality heavy-duty truck parts for commercial vehicles across Malaysia and international markets. Our catalog includes thousands of replacement components covering engine, drivetrain, suspension, steering, braking and more.</p>
+          <a class="text-link" href="about.html">About NAE <span>&nearr;</span></a>
+        </div>
+        <figure class="company-intro-photo reveal delay-1">
+          <img src="assets/img/hero-sunset-truck.png" alt="Heavy-duty truck on highway at sunset" loading="lazy" decoding="async">
+        </figure>
+      </div>
+    </section>
+
+    <section class="section homepage-cta-section" id="contactPreview" aria-labelledby="homepageCtaTitle">
+      <div class="container">
+        <div class="homepage-cta-card reveal">
+          <p class="eyebrow eyebrow-light"><span></span> Parts assistance</p>
+          <h2 id="homepageCtaTitle">Need assistance finding a part?</h2>
+          <p>Request a quotation today.</p>
+          <div class="homepage-cta-actions">
+            <a class="button button-orange" href="contact.html">WhatsApp <span>&nearr;</span></a>
+            <a class="button button-light" href="contact.html">Contact Us</a>
+          </div>
         </div>
       </div>
     </section>

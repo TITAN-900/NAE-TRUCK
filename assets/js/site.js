@@ -355,7 +355,7 @@ const finderLoadMore = document.querySelector("#finderLoadMore");
 const finderTrackPrev = document.querySelector("#finderTrackPrev");
 const finderTrackNext = document.querySelector("#finderTrackNext");
 const finderViewAllResults = document.querySelector("#finderViewAllResults");
-const finderPageSize = 32;
+const finderPageSize = 8;
 let finderRecords = [];
 let finderVisibleCount = finderPageSize;
 let finderCurrentQuery = "";
@@ -632,6 +632,28 @@ function getFinderScoringFields(product, summary) {
   };
 }
 
+function getFinderRecentTimestamp(product) {
+  const source = product?.source && typeof product.source === "object" ? product.source : {};
+  const values = [
+    product?.createdAt,
+    product?.dateAdded,
+    product?.importedAt,
+    product?.updatedAt,
+    source.createdAt,
+    source.dateAdded,
+    source.importedAt,
+    source.syncedAt,
+    source.updatedAt
+  ];
+
+  for (const value of values) {
+    const timestamp = Date.parse(value);
+    if (Number.isFinite(timestamp)) return timestamp;
+  }
+
+  return 0;
+}
+
 function scoreFinderRecord(record, searchState) {
   if (!searchState.tokens.length) return 0;
 
@@ -676,6 +698,7 @@ function buildFinderRecords(brands, products) {
       category: summary.category,
       summary,
       scoreFields: getFinderScoringFields(product, summary),
+      recentTimestamp: getFinderRecentTimestamp(product),
       text: normalizeFinderValue(fields.join(" ")),
       compact: compactFinderValue(fields.join(" ")),
       index
@@ -704,7 +727,13 @@ function getFilteredFinderMatches(records, query) {
   const selectedBrand = finderBrandFilter?.value || "";
 
   if (!searchState.tokens.length) {
-    return { searchState, matches: records.slice() };
+    return {
+      searchState,
+      matches: records.slice().sort((a, b) => {
+        const recentDiff = (b.recentTimestamp || 0) - (a.recentTimestamp || 0);
+        return recentDiff || a.index - b.index;
+      })
+    };
   }
 
   const matches = records.filter(record => {
@@ -842,6 +871,7 @@ function renderFinderResults(records, query, options = {}) {
   }
 
   requestAnimationFrame(updateFinderTrackArrows);
+  requestAnimationFrame(() => finderResults.classList.remove("is-filtering"));
 
   if (options.scroll) {
     scrollFinderResultsIntoView();
@@ -877,6 +907,7 @@ function runFinderSearch(options = {}) {
 
 function scheduleFinderSearch() {
   window.clearTimeout(finderSearchDebounce);
+  finderResults?.classList.add("is-filtering");
   finderSearchDebounce = window.setTimeout(() => runFinderSearch(), 150);
 }
 
@@ -1467,8 +1498,7 @@ async function initHomepageFinder() {
     if (event.key !== "Enter") return;
     event.preventDefault();
     window.clearTimeout(finderSearchDebounce);
-    updateFinderViewAllResultsHref(partsSearch.value);
-    window.location.href = getProductsPageUrl(partsSearch.value);
+    runFinderSearch({ scroll: true });
   });
 }
 
