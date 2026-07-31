@@ -4011,7 +4011,7 @@ Product Image Lightbox
 }
 .premium-home .premium-hero{
     min-height:640px;
-    height:clamp(640px,52vw,780px);
+    height:100svh;
     max-height:none
 }
 .premium-home .hero-media{
@@ -4023,7 +4023,8 @@ Product Image Lightbox
     animation:none
 }
 .premium-home .hero-shade{
-    background:linear-gradient(90deg,rgba(5,6,8,.50) 0%,rgba(5,6,8,.48) 42%,rgba(5,6,8,.22) 58%,rgba(5,6,8,.06) 76%,rgba(5,6,8,0) 100%),linear-gradient(0deg,rgba(5,6,8,.26),rgba(5,6,8,0) 34%)
+    display:none;
+    background:none
 }
 .premium-home .hero-inner{
     padding-top:76px
@@ -4070,7 +4071,7 @@ Product Image Lightbox
 @media(max-width:1100px){
     .premium-home .premium-hero{
         min-height:630px;
-        height:clamp(630px,62vw,740px)
+        height:100svh
     }
     .premium-home .hero-content{
         max-width:500px
