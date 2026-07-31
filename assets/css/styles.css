@@ -112,12 +112,13 @@ button,input,select,textarea{
 .brand{
     display:inline-flex;
     align-items:center;
-    gap:30px
+    gap:18px
 }
 .brand-mark{
-    width:60px;
-    height:auto;
-    border-radius:3px;
+    width:100px;
+    height:58px;
+    flex:0 0 auto;
+    border-radius:0;
     background:transparent;
     overflow:visible;
     display:flex;
@@ -127,8 +128,10 @@ button,input,select,textarea{
 .brand-mark img{
     width:100%;
     height:100%;
-    object-fit:cover;
-    transform:scale(1.75)
+    display:block;
+    object-fit:contain;
+    object-position:center;
+    transform:none
 }
 .brand-copy{
     display:flex;
@@ -3130,16 +3133,17 @@ Product Image Lightbox
     backdrop-filter:blur(16px)
 }
 .premium-home .brand-mark{
-    width:76px;
-    height:50px;
-    overflow:hidden;
-    background:#fff;
+    width:100px;
+    height:58px;
+    overflow:visible;
+    background:transparent;
     animation:premiumFadeIn .58s var(--ease) both
 }
 .premium-home .brand-mark img{
     width:100%;
     height:100%;
     object-fit:contain;
+    object-position:center;
     transform:none
 }
 .premium-home .brand{
@@ -3780,8 +3784,9 @@ Product Image Lightbox
     gap:18px
 }
 .brand-mark{
-    width:72px;
-    height:48px;
+    width:100px;
+    height:58px;
+    flex:0 0 auto;
     border-radius:0;
     background:transparent;
     overflow:visible
@@ -3789,7 +3794,9 @@ Product Image Lightbox
 .brand-mark img{
     width:100%;
     height:100%;
+    display:block;
     object-fit:contain;
+    object-position:center;
     transform:none
 }
 .brand-copy strong{
@@ -3812,8 +3819,8 @@ Product Image Lightbox
     height:66px
 }
 .premium-home .brand-mark{
-    width:84px;
-    height:56px;
+    width:100px;
+    height:58px;
     background:transparent
 }
 .premium-home .premium-hero h1{
@@ -3911,8 +3918,8 @@ Product Image Lightbox
         gap:24px
     }
     .brand-mark{
-        width:66px;
-        height:44px
+        width:92px;
+        height:54px
     }
     .brand-copy strong{
         font-size:10px;
@@ -3935,12 +3942,12 @@ Product Image Lightbox
         height:64px
     }
     .brand{
-        gap:10px
+        gap:16px
     }
     .brand-mark,
     .premium-home .brand-mark{
-        width:62px;
-        height:42px
+        width:82px;
+        height:46px
     }
     .brand-copy strong,
     .premium-home .brand-copy strong{
