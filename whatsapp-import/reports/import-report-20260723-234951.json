@@ -1,0 +1,576 @@
+﻿{
+    "summary":  {
+                    "Updated":  0,
+                    "Cleaned":  34,
+                    "Review":  20,
+                    "Scanned":  56,
+                    "Imported":  34,
+                    "Skipped":  0,
+                    "OcrFresh":  0,
+                    "OcrCached":  56,
+                    "Failed":  0,
+                    "Duplicates":  2
+                },
+    "rows":  [
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.44 PM.jpeg",
+                     "ProductNumber":  "DZ-132-414-30085-XS",
+                     "ProductName":  "Cabin Bush",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/DZ-132-414-30085-XS-630DA68AE54C-2.jpeg",
+                     "OcrText":  "71 oeø ID:M16 DZ-132 414 30085-XS CABIN BUSH SHACMAN ID:22"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.45 PM (1).jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "Torque Bush",
+                     "Reason":  "No reliable product number candidate found.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\XIN-SENG\\WhatsApp Image 2026-07-23 at 11.20.45 PM (1).jpeg",
+                     "OcrText":  "21 9 63 152 TORQUE BUSH STEEL TYPE"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.45 PM.jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "Torque Bush",
+                     "Reason":  "No reliable product number candidate found.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\XIN-SENG\\WhatsApp Image 2026-07-23 at 11.20.45 PM.jpeg",
+                     "OcrText":  "TORQUE BUSH"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.46 PM (1).jpeg",
+                     "ProductNumber":  "712W41722-6032-XS",
+                     "ProductName":  "Cabin Bellow",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "Alternate product/OE numbers detected and stored for search: 380MM-15.",
+                     "ImagePath":  "assets/img/products/712W41722-6032-XS-4279D02837F6-2.jpeg",
+                     "OcrText":  "ID:14 OD•.45 380mm(15\" 712W41722-6032 xs CABIN BELLOW HOWO T5 T7 ID:14"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.46 PM (2).jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "Torque Bush",
+                     "Reason":  "No reliable product number candidate found.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\XIN-SENG\\WhatsApp Image 2026-07-23 at 11.20.46 PM (2).jpeg",
+                     "OcrText":  "50 80 152 80X50X152X21-xs TORQUE BUSH DF KINLAND \u0026 AJMAN"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.46 PM (3).jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "Torque Bush",
+                     "Reason":  "No reliable product number candidate found.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\XIN-SENG\\WhatsApp Image 2026-07-23 at 11.20.46 PM (3).jpeg",
+                     "OcrText":  "80X50X152X21-XS TORQUE BUSH DF KINLAND \u0026 AUMAN"
+                 },
+                 {
+                     "Status":  "Skipped duplicate",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.46 PM.jpeg",
+                     "ProductNumber":  "712W41722-6032-XS",
+                     "ProductName":  "Cabin Bellow",
+                     "Reason":  "Product number already exists in generated catalogue data; existing record was not modified.",
+                     "Warnings":  "",
+                     "ImagePath":  "",
+                     "OcrText":  "712W41722-6032 xs CABIN BELLOW HOWO T5 T7"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.47 PM (1).jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "V Bar Bush",
+                     "Reason":  "No reliable product number candidate found.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\XIN-SENG\\WhatsApp Image 2026-07-23 at 11.20.47 PM (1).jpeg",
+                     "OcrText":  "85 53 25 130 V BAR BUSH 2 HOLE HO\\/VO"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.47 PM (2).jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "V Bar Bush",
+                     "Reason":  "No reliable product number candidate found.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\XIN-SENG\\WhatsApp Image 2026-07-23 at 11.20.47 PM (2).jpeg",
+                     "OcrText":  "V BAR BUSH 2 HOLE"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.47 PM (3).jpeg",
+                     "ProductNumber":  "AZ-972-552-0278-XS",
+                     "ProductName":  "Rubber Base",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/AZ-972-552-0278-XS-C0B24673246F-2.jpeg",
+                     "OcrText":  "L 220mm L 239mm HI 16mm HI 21 mm HI 155mm AZ -972 552 0278-XS RUBBER BASE REAR 6H HOWO (16.7KG) 6 HOLE M17 4 HOLE M24"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.47 PM.jpeg",
+                     "ProductNumber":  "2905010-D160-C-XS",
+                     "ProductName":  "Shock Absorber",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/2905010-D160-C-XS-7E4F32A6EC7E-3.jpeg",
+                     "OcrText":  "HI 50mm il ID 16mm MADE \u0027N CHINA HI IOOmm 2905010-D160/C-XS FRT CHASIS ABSORBER FAW J6"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.48 PM (1).jpeg",
+                     "ProductNumber":  "DZ-152-214-43020-XS",
+                     "ProductName":  "Shock Absorber",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/DZ-152-214-43020-XS-7CE6696677FA-3.jpeg",
+                     "OcrText":  "DZ-152 214 43020-XS REAR CABIN ABSORBER SHACMAN"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.48 PM (2).jpeg",
+                     "ProductNumber":  "OD-85-HOLE-12M",
+                     "ProductName":  "",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "Product name could not be identified from OCR text. | Alternate product/OE numbers detected and stored for search: 120-HI-53.",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\XIN-SENG\\WhatsApp Image 2026-07-23 at 11.20.48 PM (2).jpeg",
+                     "OcrText":  "Tog 510M R OO@O 53mm M12 120mm SKSB-IOOI TORQUE BUS 4 HOLE CPII SKS OD 85 HOLE 12M C-C 120 HI 53"
+                 },
+                 {
+                     "Status":  "Skipped duplicate",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.48 PM.jpeg",
+                     "ProductNumber":  "DZ-152-214-43020-XS",
+                     "ProductName":  "Shock Absorber",
+                     "Reason":  "Product number already exists in generated catalogue data; existing record was not modified.",
+                     "Warnings":  "",
+                     "ImagePath":  "",
+                     "OcrText":  "ID:20 245mm(9 518 275mm(10 718\") OD:45 ID:20 DZ-152 214 43020-XS REAR CABIN ABSORBER SHACMAN"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.49 PM (1).jpeg",
+                     "ProductNumber":  "WG-164-243-0283-XS",
+                     "ProductName":  "Shock Absorber",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/WG-164-243-0283-XS-4196E8454A53-3.jpeg",
+                     "OcrText":  "400mm 361 mm 40mm ID 14mm WG-164 243 0283-XS CABIN ABSORBER FRT HOW0371 SWZIO GOT SPG LONG 15 3/4\" ID 14 LONG 400M"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.49 PM (2).jpeg",
+                     "ProductNumber":  "DZ-142-514-30020-XS",
+                     "ProductName":  "Cabin Bellow",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "Alternate product/OE numbers detected and stored for search: X3000.",
+                     "ImagePath":  "assets/img/products/DZ-142-514-30020-XS-388C5230BDB8-2.jpeg",
+                     "OcrText":  "394mm 45mm ID 14mm M14 DZ-142 514 30020-XS CABIN BELLOW FRT X3000 SHACMAN 1 BUSH 1 TING L 15.5\" 14 BTM M14"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.49 PM (3).jpeg",
+                     "ProductNumber":  "WG-166-444-0400-XS",
+                     "ProductName":  "Shock Absorber",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/WG-166-444-0400-XS-5B2EC7A53FA6-3.jpeg",
+                     "OcrText":  "482mm 434mm 45mm ID 14mm WG-166 444 0400-XS REAR CABIN ABSORBER A7 GOT SPRING L 19\""
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.49 PM.jpeg",
+                     "ProductNumber":  "WG-164-244-0021-XS",
+                     "ProductName":  "Shock Absorber",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/WG-164-244-0021-XS-CA1D3DBF9C97-3.jpeg",
+                     "OcrText":  "292mm 242mm 45mm ID 20mm WG-164 244 0021-XS CABIN ABSORBER REAR HOWO ID 20M L 11 1/2\""
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.50 PM (1).jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "Drive Shaft Hanger Assembly",
+                     "Reason":  "No reliable product number candidate found.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\XIN-SENG\\WhatsApp Image 2026-07-23 at 11.20.50 PM (1).jpeg",
+                     "OcrText":  "ID 70mm DRIVER SHAFT HANGER ASSEMBLY oee@ HI 36mm C-C 200mm xs LIS RUBBER ASSY CAMC ID 70M L 215 SEAL 85X115X12 C-C 200 BRG HI 36"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.50 PM (2).jpeg",
+                     "ProductNumber":  "WG-167143-0114-1-XS",
+                     "ProductName":  "Shock Absorber",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/WG-167143-0114-1-XS-78B448116774.jpeg",
+                     "OcrText":  "406mm 362mm 50mm ID 14mm WG-167143 0114/1-XS FRT CABIN ABSORBER NJ7 ID14 L 16\""
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.50 PM (3).jpeg",
+                     "ProductNumber":  "WG-923-352-0010",
+                     "ProductName":  "Suspension Limit Block",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/WG-923-352-0010-E21D6745FCCB-2.jpeg",
+                     "OcrText":  "H-H 130mm NASTIC smxs-A202S M13 HI 33 65mm WG-923 352 0010 REAR SPG LIMITED BLOCK HOWO 2H - M13 H-H 130 SQ SPG BUMPER"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.50 PM.jpeg",
+                     "ProductNumber":  "ID-75M-HOLE",
+                     "ProductName":  "Drive Shaft Hanger Assembly",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "Product-number candidate appears to include extra descriptive text.",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\XIN-SENG\\WhatsApp Image 2026-07-23 at 11.20.50 PM.jpeg",
+                     "OcrText":  "ID 75mm DRIVER SHAFT HANGER ASSEMBLY HI 30 C-C 250mm xs LIS RUBBER ASSY HOWO ID 75M HOLE C-C 250MM BRG H130"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.51 PM (1).jpeg",
+                     "ProductNumber":  "50A-05034-BQ-XS",
+                     "ProductName":  "Cabin Bellow",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/50A-05034-BQ-XS-3CBDA8909D1D-2.jpeg",
+                     "OcrText":  "438mm 55mm ID umm M14\u0027 50A-05034-BQ-XS REAR CABIN BELOW CAMC"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.51 PM (2).jpeg",
+                     "ProductNumber":  "WI11511RMANR",
+                     "ProductName":  "Drive Shaft Hanger Assembly",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "Long alphabetic suffix may be OCR bleed from the description. | Alternate product/OE numbers detected and stored for search: ID-70M-HOLE.",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\XIN-SENG\\WhatsApp Image 2026-07-23 at 11.20.51 PM (2).jpeg",
+                     "OcrText":  "ID 70mm Wiä115å11üRmanr DRIVER SHAFT HANGER ASSEMBLY HI 20mm C-C 220mm L/s RUBBER ASSY HOWO ID 70M HOLE C-C 220MM O/SEAL 85X115X12 BRG HI 20"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.51 PM (3).jpeg",
+                     "ProductNumber":  "IOWLAM511-01020-XS",
+                     "ProductName":  "Engine Mounting",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/IOWLAM511-01020-XS-B44039CB8FFC-2.jpeg",
+                     "OcrText":  "C-C 96mm MIO M12 L 138mm HI 41 mm IOWLAM511-01020-XS ENG MTG FRT HANVAN G7"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.51 PM.jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "Torque Bush",
+                     "Reason":  "No reliable product number candidate found.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\XIN-SENG\\WhatsApp Image 2026-07-23 at 11.20.51 PM.jpeg",
+                     "OcrText":  "65mm 112mm 170mm 28mm fifi Tog 510N ooeo 112X65X170X28-xs TORQUE BUSH HOW070 ( NEW MODEL )"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.52 PM (1).jpeg",
+                     "ProductNumber":  "ID-70M-HOLE",
+                     "ProductName":  "Drive Shaft Hanger Assembly",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "Product-number candidate appears to include extra descriptive text.",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\XIN-SENG\\WhatsApp Image 2026-07-23 at 11.20.52 PM (1).jpeg",
+                     "OcrText":  "ID 70mm DRIVER SHAFT HANGER ASSEMBLY ooe@ HI 36mm C-C 220mm xs L/s RUBBER ASSY HOWO ID 70M HOLE C-C 220MM O/SEAL BRG HI 36"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.52 PM (2).jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "Torque Bush",
+                     "Reason":  "No reliable product number candidate found.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\XIN-SENG\\WhatsApp Image 2026-07-23 at 11.20.52 PM (2).jpeg",
+                     "OcrText":  "77mm - 85mm 152mm Tog 510M R OO@O 85X77X152X21-xs TORQUE BUSH RUBBER TYPE M21"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.52 PM.jpeg",
+                     "ProductNumber":  "TO510NR",
+                     "ProductName":  "Torque Bush",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "Product number contains OCR-ambiguous O/0 characters.",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\XIN-SENG\\WhatsApp Image 2026-07-23 at 11.20.52 PM.jpeg",
+                     "OcrText":  "72mm \u0027108mm 152mm 21 mm TOß510NR oe@o 108X72X152X21-xs TORQUE BUSH"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.53 PM (1).jpeg",
+                     "ProductNumber":  "WG-164-243-0285-XS",
+                     "ProductName":  "Shock Absorber",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/WG-164-243-0285-XS-2007CB7C91D7-3.jpeg",
+                     "OcrText":  "12\" / 304mm 13 3/4\" / 348mm 40mm ID 14mm WG-164 243 0285-XS CABIN ABSORBER FRT HOW0371 SWZIO GOT SPG LONG 13 3/4\" ID 14 LONG 350M ( WG-167144 0263 same use)"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.53 PM (2).jpeg",
+                     "ProductNumber":  "1001060-71A-XS",
+                     "ProductName":  "Engine Mounting",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/1001060-71A-XS-ECF91F08F773-2.jpeg",
+                     "OcrText":  "M14 M18 c-c 100 1001060-71A-XS REAR ENGINE MTG J6"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.53 PM (3).jpeg",
+                     "ProductNumber":  "DZ-152-214-40400-XS",
+                     "ProductName":  "Cabin Bellow",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "Alternate product/OE numbers detected and stored for search: M3000.",
+                     "ImagePath":  "assets/img/products/DZ-152-214-40400-XS-0C4B74E6802B-2.jpeg",
+                     "OcrText":  "12\" / 307mm 14 3/4 \"/ 347mm 40 M14 DZ-152 214 40400-XS CABIN BELLOW REAR 2 BUSH M3000 SHACMAN"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.53 PM.jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "Torque Bush",
+                     "Reason":  "No reliable product number candidate found.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\XIN-SENG\\WhatsApp Image 2026-07-23 at 11.20.53 PM.jpeg",
+                     "OcrText":  "64mm 90m 152mm Tog 510M R 00@0 , TORQUE BUSH SHACMAN RUBBER TYPE"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.54 PM (1).jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "Rubber Bush Assembly",
+                     "Reason":  "No reliable product number candidate found.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\XIN-SENG\\WhatsApp Image 2026-07-23 at 11.20.54 PM (1).jpeg",
+                     "OcrText":  "108 TORSION RUBBER CURE oe@0Å 72 152 21 108 x 72 x 152 x 21-xs TORQUE BUSH"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.54 PM (2).jpeg",
+                     "ProductNumber":  "AZ-166-443-0103-XS",
+                     "ProductName":  "Cabin Bellow",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/AZ-166-443-0103-XS-83038FE0473D-2.jpeg",
+                     "OcrText":  "16 1/2\" / 418mm 46 ID 20mm M16 AZ-166 443 0103-XS CABIN BELLOW FRONT HOWO A7 1 BUSH / 1 BOLT CONTINENTAL ID 20M"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.54 PM (3).jpeg",
+                     "ProductNumber":  "1991-0068-0066-XS",
+                     "ProductName":  "Stabilizer Bush",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/1991-0068-0066-XS-86A9845F7A2C-2.jpeg",
+                     "OcrText":  "OD 51 ID 35 OD 62 HI 28 1991 0068 0066-xs REAR STAB BUSH BLUE HOWO ROUND ID 35 OD 51/62 HI 28 1-IOHAN J7 BUSH CABIN REAR ( BLUE COLOUR )"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.54 PM.jpeg",
+                     "ProductNumber":  "WG-168-059-0095-XS",
+                     "ProductName":  "Engine Mounting",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/WG-168-059-0095-XS-25E452521B60-2.jpeg",
+                     "OcrText":  "78 M12 ooeo 68 2H 9mm HI 48 L 121 I-I-I-1 95 M12 WG-168 059 0095-XS FRT ENGINE MTG M12 HOWO SQUARE SHAPE 121 X 78 X 48"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.55 PM (1).jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "Rubber Bush Assembly",
+                     "Reason":  "No reliable product number candidate found.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\XIN-SENG\\WhatsApp Image 2026-07-23 at 11.20.55 PM (1).jpeg",
+                     "OcrText":  "95 TORSION RUBBER CORE 0000 69 152 21 95 x 69 x 152 x 21-xs TORQUE BUS DF RUBBER TYPE"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.55 PM (2).jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "Rubber Bush Assembly",
+                     "Reason":  "No reliable product number candidate found.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\XIN-SENG\\WhatsApp Image 2026-07-23 at 11.20.55 PM (2).jpeg",
+                     "OcrText":  "88 TORSION RUBBER CORE 0090 53 110 19 88 x 53 x 110 x 19-xs TORQUE BUSH MAN"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.55 PM (3).jpeg",
+                     "ProductNumber":  "AZ-972-552-9213-XS",
+                     "ProductName":  "V Bar Bush",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/AZ-972-552-9213-XS-7983B51C85E6-2.jpeg",
+                     "OcrText":  "90 *BTJggfi TORSION guBøER CORE 57 130 25 AZ-972 552 9213-XS V BAR BUSH 2 HOLE HOWO OD 90 HI 57 C-C 130 HOLE 25"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.55 PM.jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "Torque Bush",
+                     "Reason":  "No reliable product number candidate found.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\XIN-SENG\\WhatsApp Image 2026-07-23 at 11.20.55 PM.jpeg",
+                     "OcrText":  "57 95 152 g ugBER CORE 0000 95 x 57 x 152 x 21-xs TORQUE BUSH 95X57 21"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.56 PM (1).jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "Torque Bush",
+                     "Reason":  "No reliable product number candidate found.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\XIN-SENG\\WhatsApp Image 2026-07-23 at 11.20.56 PM (1).jpeg",
+                     "OcrText":  "90 TORSION guBßER 73 152 90 x 73 x 152 x 21-xs TORQUE BUSH HOWO RUBBER 21"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.56 PM (2).jpeg",
+                     "ProductNumber":  "14A-2800-XS",
+                     "ProductName":  "Suspension Bush",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/14A-2800-XS-51001AD9ACA7-2.jpeg",
+                     "OcrText":  "ID 42 HI 112 14A 2800-XS OD 85 OD 70 SUSPENSION BUSH BIG TRAILER ROR"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.56 PM (3).jpeg",
+                     "ProductNumber":  "14A-2760-XS",
+                     "ProductName":  "Suspension Bush",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/14A-2760-XS-59836BEFEE7F-2.jpeg",
+                     "OcrText":  "ID 32 HI 59 OD 56 46 14A 2760-XS SUSPENSION BUSH SMALL TRAILLER ROR"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.56 PM.jpeg",
+                     "ProductNumber":  "DZ-912-595-25274-XS",
+                     "ProductName":  "Torque Rod Assembly",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/DZ-912-595-25274-XS-51F50E59B52B-3.jpeg",
+                     "OcrText":  "152 3 3 M21 DZ-912 595 25274-XS TORQUE ROD ASSY UPPER F3000 SHACMAN PA80 PA46 ( 430MM/720MM = 17\"/28 1/2\" ) BUSH 85x57x152x21"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.57 PM (1).jpeg",
+                     "ProductNumber":  "WG-992-552-2111-XS",
+                     "ProductName":  "Suspension Limit Block",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/WG-992-552-2111-XS-63E27A76CF86-2.jpeg",
+                     "OcrText":  "OD8 M12 HI 82 OD 97 WG-992 552 2111-xs FRT LIMIT BLOCK HOWO T7H FRT SUS BLOCK"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.57 PM (2).jpeg",
+                     "ProductNumber":  "81-43704-0074-XS",
+                     "ProductName":  "Stabilizer Bush",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/81-43704-0074-XS-02E35C8B1138-2.jpeg",
+                     "OcrText":  "ID 45 OD 65 HI 50 81.43704.0074-xs STAB BUSH SHACMAN ID45 OD65 H150"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.57 PM (3).jpeg",
+                     "ProductNumber":  "DIA-T24-LOW-XS",
+                     "ProductName":  "Brake Diaphragm",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/DIA-T24-LOW-XS-27AA1549969A-2.jpeg",
+                     "OcrText":  "OD 180 35 OD 130 DIA-T24-LOW XS DIAPHRAGM T24 LOW"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.57 PM.jpeg",
+                     "ProductNumber":  "DIA-T24-HLGHT-XS",
+                     "ProductName":  "Brake Diaphragm",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/DIA-T24-HLGHT-XS-84A38292F8DB-2.jpeg",
+                     "OcrText":  "OD 181 OD 127 HI 47 DIA-T24-HlGHT XS DIAPHRAGM T24 HIGHT"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.58 PM (1).jpeg",
+                     "ProductNumber":  "FM-1721-XS",
+                     "ProductName":  "Floor Mat",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/FM-1721-XS-9E86AF23D03A-2.jpeg",
+                     "OcrText":  "17\" FM-1721 XS FLOOR MAT"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.58 PM (2).jpeg",
+                     "ProductNumber":  "52202-1260-XS",
+                     "ProductName":  "Cabin Mounting",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/52202-1260-XS-8E350A14CD00-2.jpeg",
+                     "OcrText":  "M8X1.25 52202-1260-xs CABIN MTG HINO 700 E13C"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.58 PM (3).jpeg",
+                     "ProductNumber":  "INNER-ID-70",
+                     "ProductName":  "Drive Shaft Hanger Assembly",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "Alternate product/OE numbers detected and stored for search: ID-70M-HOLE.",
+                     "ImagePath":  "assets/img/products/INNER-ID-70.jpeg",
+                     "OcrText":  "HI 20 INNER ID 70 HI 36 DRIVER SHAFT HANGER ASSEMBLY c-c 220 70X36X220 xs L/s RUBBER ASSY HOWO ID 70M HOLE C-C 220MM O/SEAL 85X115X12 BRG HI 36"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.58 PM.jpeg",
+                     "ProductNumber":  "IOA52D-01C60-XS",
+                     "ProductName":  "Engine Mounting",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/IOA52D-01C60-XS-C337E6094055-2.jpeg",
+                     "OcrText":  "H-H 225mm 110mm H-H 50mm 414 ID 17mm 214 ID 21mm IOA52D-01C60-XS REAR ENG MTG CAMC 1--108"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.59 PM (1).jpeg",
+                     "ProductNumber":  "A-3299-XS",
+                     "ProductName":  "Suspension Bush",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/A-3299-XS-B2CCE5D941C6-2.jpeg",
+                     "OcrText":  "OD 65 ID 28 A-3299-XS SUS BUSH 65M 28X65 ROUND FUWA H158"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.59 PM (2).jpeg",
+                     "ProductNumber":  "52201-E0030-XS",
+                     "ProductName":  "Cabin Bush Kit",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "Alternate product/OE numbers detected and stored for search: SERIES-E13C.",
+                     "ImagePath":  "assets/img/products/52201-E0030-XS-45E22FE2A3A4-2.jpeg",
+                     "OcrText":  "PIPE LONG 73mm OD 26 OD 66 ID 16 52201 —E0030 52201-E0030-xs CABIN BUSH KIT 700 SERIES E13C BUSH ID 26 OD 66 HI 50 PIPE ID 16 OD 26 L/3"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-07-23 at 11.20.59 PM.jpeg",
+                     "ProductNumber":  "WG-167-144-0312-XS",
+                     "ProductName":  "Cabin Bellow",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/WG-167-144-0312-XS-EF0D69AD39B5-2.jpeg",
+                     "OcrText":  "C-C 14 1/2\" 1368mm L 407mm OD 45 ID 14mm iiiBAG wc-167 144 0312-xs REAR CABIN BELLOW HOHA NJ17 2 BUS ID 14 LONG 16\""
+                 }
+             ]
+}

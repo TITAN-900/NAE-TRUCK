@@ -1,0 +1,222 @@
+﻿{
+    "summary":  {
+                    "Scanned":  21,
+                    "OcrCached":  0,
+                    "OcrFresh":  21,
+                    "Review":  21,
+                    "Duplicates":  0,
+                    "Imported":  0
+                },
+    "rows":  [
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-02 at 10.18.48 PM.jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "",
+                     "Reason":  "Importer error: Access to the path \u0027C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\assets\\img\\products\\8-94395-519-0.jpeg\u0027 is denied.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-02 at 10.18.48 PM.jpeg",
+                     "OcrText":  ""
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-02 at 6.56.02 PM.jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "",
+                     "Reason":  "Importer error: Access to the path \u0027C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\assets\\img\\products\\113450-E0281.jpeg\u0027 is denied.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-02 at 6.56.02 PM.jpeg",
+                     "OcrText":  ""
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-02 at 6.56.29 PM.jpeg",
+                     "ProductNumber":  "13450-3980",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-02 at 6.56.29 PM.jpeg",
+                     "OcrText":  "GEAR OD 442 ID 396 81-1 M14 ID 100 ID 47 HI 28 145T 561-1 ID 248mm 17\" 1432mm HI 110 13450-3980 FLYWHEEL 17\" 145T J08E ABS HOLE 56"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-02 at 6.57.08 PM.jpeg",
+                     "ProductNumber":  "13450-E0444",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-02 at 6.57.08 PM.jpeg",
+                     "OcrText":  "GEAR OD 487 ID 440 121-1 M12 2H MIO H M16 ID 62 HI 23 ID 116 561-1 248mm 17\" / 432mm HI 95 13450-E0444 FLYWHEEL 17\" ID62 PIIC 137T 9H ( GOT ABS HOLE 56HOLE ) GOT LEG 4 PART LEG"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-02 at 6.58.08 PM.jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "",
+                     "Reason":  "Importer error: Access to the path \u0027C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\assets\\img\\products\\13450-1912-SENSOR.jpeg\u0027 is denied.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-02 at 6.58.08 PM.jpeg",
+                     "OcrText":  ""
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-02 at 6.59.00 PM.jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "",
+                     "Reason":  "Importer error: Access to the path \u0027C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\assets\\img\\products\\13450-3591.jpeg\u0027 is denied.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-02 at 6.59.00 PM.jpeg",
+                     "OcrText":  ""
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-02 at 6.59.10 PM.jpeg",
+                     "ProductNumber":  "13450-EOL60",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "Product number contains OCR-ambiguous O/0 characters.",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-02 at 6.59.10 PM.jpeg",
+                     "OcrText":  "ID 40 HI 12 ID 357 OD 393 129T ID 187 12\" 42 13450-EOL60 FLYWHEEL 12\" 81-1 129T ID 40 N04CT DUTRO W04 S05 GEAR BIGGER THAN FLIWHEEL HI 42"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-02 at 6.59.30 PM.jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "",
+                     "Reason":  "Importer error: Access to the path \u0027C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\assets\\img\\products\\13450-3701.jpeg\u0027 is denied.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-02 at 6.59.30 PM.jpeg",
+                     "OcrText":  ""
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-02 at 6.59.59 PM.jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "",
+                     "Reason":  "Importer error: Access to the path \u0027C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\assets\\img\\products\\8-98056-355-2.jpeg\u0027 is denied.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-02 at 6.59.59 PM.jpeg",
+                     "OcrText":  ""
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-03 at 9.39.39 AM.jpeg",
+                     "ProductNumber":  "ME012551",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "Non-standard product number format needs manual confirmation.",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-03 at 9.39.39 AM.jpeg",
+                     "OcrText":  "GEAR OD 348 ID 315 C) ID 40 HI 15 114T 6H M14 ID 100 ID 173mm 117/8 \"1300mm HI 37 ME 012551 FLYWHEEL ASSY 11\" 114T 61-4 MIT CANTER 4D34 FE639 M14"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-04 at 3.35.08 PM.jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "",
+                     "Reason":  "Importer error: Access to the path \u0027C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\assets\\img\\products\\12310-97773.jpeg\u0027 is denied.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-04 at 3.35.08 PM.jpeg",
+                     "OcrText":  ""
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-17 at 10.37.35 AM.jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "",
+                     "Reason":  "No reliable product number candidate found.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-17 at 10.37.35 AM.jpeg",
+                     "OcrText":  "GEAR OD 485 ID 439 91-116mm ID 116 (7 c ID 62 HI 21 137T ABS HOLE 45 ID 245mm 17\" 1432mm HI 98 HINO-rw-pnc-45H FLYWHEEL 17\" ABS 45 ID 62 PIIC COMMAINRAIL 137T 91-1 (GOT ABS HOLE 45 HOLE ) GOT LEG"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-17 at 11.38.33 AM.jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "",
+                     "Reason":  "Importer error: Access to the path \u0027C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\assets\\img\\products\\12310-9Z00E.jpeg\u0027 is denied.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-17 at 11.38.33 AM.jpeg",
+                     "OcrText":  ""
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-17 at 6.04.37 PM.jpeg",
+                     "ProductNumber":  "12310-9ZOOD",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "Product number contains OCR-ambiguous O/0 characters.",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-17 at 6.04.37 PM.jpeg",
+                     "OcrText":  "GEAR OD 440 ID 402 IOH 16mm ID 125 ID 46 HI 22 137T ABS HOLE 58 o ID 235mm 17 314\" / 500mm HI 62 12310-9ZOOD FLYWHEEL 17\" IOH 137T NS QUESTER GI-IB 21499565"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-21 at 10.27.46 AM.jpeg",
+                     "ProductNumber":  "12310-96450-MIVAKE",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "Product-number candidate appears to include extra descriptive text. | Long alphabetic suffix may be OCR bleed from the description.",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-21 at 10.27.46 AM.jpeg",
+                     "OcrText":  "GEAR OD 465 ID 427 153T 12H MIO 17 118\" 1435m m HI 105 12310-96450-MIVAKE FLYWHEEL 17\" 153T IOH PE6 PF6 DIAPHRAGM COVER"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-22 at 6.00.53 PM.jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "",
+                     "Reason":  "Importer error: Access to the path \u0027C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\assets\\img\\products\\12310-96006.jpeg\u0027 is denied.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-22 at 6.00.53 PM.jpeg",
+                     "OcrText":  ""
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-30 at 4.23.05 PM.jpeg",
+                     "ProductNumber":  "ME072584",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "Non-standard product number format needs manual confirmation.",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-30 at 4.23.05 PM.jpeg",
+                     "OcrText":  "GEAR OD 394 ID 353 91-1 MIO 61-117mm ID 100 -l ID 47 HI 14 129T ABS HOLE— 45 ID 215 143/8\" / 650mm ME 072584 FLYWHEEL 14\" 61--1 129T 6D16 6M60"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-30 at 5.41.42 PM.jpeg",
+                     "ProductNumber":  "ME072448",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "Non-standard product number format needs manual confirmation.",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-30 at 5.41.42 PM.jpeg",
+                     "OcrText":  "GEAR OD 394 ID 353 12H MIO 6H 16mm ID 100 21-1 M14 IH 14mm 9 ID 47 HI 14 129T X ABS HOLE ID 215 14\" / 357mm J HI 79 ME 072448 FLYWHEEL 14\" 6H 129T 6D16 6D14 2AT 350M 17M FM658 FWA658 6D17 SAME"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-05-24 at 2.53.58 PM.jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "",
+                     "Reason":  "Importer error: Access to the path \u0027C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\assets\\img\\products\\8-94127-250-0.jpeg\u0027 is denied.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-05-24 at 2.53.58 PM.jpeg",
+                     "OcrText":  ""
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-06-09 at 3.42.41 PM.jpeg",
+                     "ProductNumber":  "1330-2MM",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-06-09 at 3.42.41 PM.jpeg",
+                     "OcrText":  "GEAR OD 392 ID 362 61-1 ID 16mm ID 110 ID 40 HI 18 129T ID 227mm 13\" 1330.2mm HI 50 1231043026 FLYWHEEL 13\"6H 129T NS FE6T LKA211 M17"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-06-18 at 5.55.19 PM.jpeg",
+                     "ProductNumber":  "1431-8MM",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-06-18 at 5.55.19 PM.jpeg",
+                     "OcrText":  "GEAR OD 510 ID 475 62 HI 34 HI 25mm 143T 814 ID 17mm 16H M 10 120mm 17\" 1431.8mm H-H 465mm EW-8DC9-H FLYWHEEL 17\" 143T HIGH 8 HOLE FUSO HI 121 8DC9"
+                 }
+             ]
+}

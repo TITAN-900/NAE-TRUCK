@@ -1,0 +1,222 @@
+﻿{
+    "summary":  {
+                    "Scanned":  21,
+                    "OcrCached":  21,
+                    "OcrFresh":  0,
+                    "Review":  7,
+                    "Duplicates":  0,
+                    "Imported":  14
+                },
+    "rows":  [
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-04-02 at 10.18.48 PM.jpeg",
+                     "ProductNumber":  "8-94395-519-0",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/8-94395-519-0.jpeg",
+                     "OcrText":  "GEAR OD 426 ID 393 ID 52 HI 12 140T ID 215mm 14\" 1355mm HI 84 8-94395-519-0 FLYWHEEL 14\" 8H 140T IZ 6HH1"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-04-02 at 6.56.02 PM.jpeg",
+                     "ProductNumber":  "13450-1912",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/13450-1912.jpeg",
+                     "OcrText":  "GEAR OD 392 ID 355 8H M14 ID 100 ID 47 HI 14 129T NO SENSOR—4 ID 218mm 14\" 1355mm HI 86 13450-1912 FLYWHEEL 14\" 8H 129T ID47 J08C J07C J05C SAME 561-113450-E0281"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-04-02 at 6.56.29 PM.jpeg",
+                     "ProductNumber":  "13450-3980",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/13450-3980.jpeg",
+                     "OcrText":  "GEAR OD 442 ID 396 81-1 M14 ID 100 ID 47 HI 28 145T 561-1 ID 248mm 17\" 1432mm HI 110 13450-3980 FLYWHEEL 17\" 145T J08E ABS HOLE 56"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-04-02 at 6.57.08 PM.jpeg",
+                     "ProductNumber":  "13450-E0444",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/13450-E0444.jpeg",
+                     "OcrText":  "GEAR OD 487 ID 440 121-1 M12 2H MIO H M16 ID 62 HI 23 ID 116 561-1 248mm 17\" / 432mm HI 95 13450-E0444 FLYWHEEL 17\" ID62 PIIC 137T 9H ( GOT ABS HOLE 56HOLE ) GOT LEG 4 PART LEG"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-04-02 at 6.58.08 PM.jpeg",
+                     "ProductNumber":  "13450-1912-SENSOR",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/13450-1912-SENSOR.jpeg",
+                     "OcrText":  "8H M14 O o \u0027D 47 HI 14 ID 100 5614 ID 217 14\" 1356mm ii HI 87 FLYWHEEL 14\" 13450-1912-SENSOR 81-1 129T ID47 J07E J07 56 ABS SENSOR HOLE 4 LEG ALL COMPLETE ABS HOLE. J08C"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-04-02 at 6.59.00 PM.jpeg",
+                     "ProductNumber":  "13450-3591",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/13450-3591.jpeg",
+                     "OcrText":  "GEAR OD 370 ID 331 ID 40 HI 12 ID 100 121T HI 36 221-1 MIO 5K M14 IH M18/M14 ID 188 12\" HI 40 13450-3591 FLYWHEEL 12\"61-1 121T W04D DUTRO ID 40 2 IN 1 HOLE"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-04-02 at 6.59.10 PM.jpeg",
+                     "ProductNumber":  "13450-EOL60",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "Product number contains OCR-ambiguous O/0 characters.",
+                     "ImagePath":  "assets/img/products/13450-EOL60.jpeg",
+                     "OcrText":  "ID 40 HI 12 ID 357 OD 393 129T ID 187 12\" 42 13450-EOL60 FLYWHEEL 12\" 81-1 129T ID 40 N04CT DUTRO W04 S05 GEAR BIGGER THAN FLIWHEEL HI 42"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-04-02 at 6.59.30 PM.jpeg",
+                     "ProductNumber":  "13450-3701",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/13450-3701.jpeg",
+                     "OcrText":  "ID 62 HI 24 242 17\" / 432mm 561-1 8H M18 OD 487 ID 438 137T 92 13450-3701 FLYWHEEL 17\" 137T 8H E13C BRG 6206"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-04-02 at 6.59.59 PM.jpeg",
+                     "ProductNumber":  "8-98056-355-2",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/8-98056-355-2.jpeg",
+                     "OcrText":  "56H 14\" / 356mm OD 434 ID 402 143T M16 ID 52 HI 15 HI 87 8-98056-355-2 FLYWHEEL 14\"81-1 143T 4HK1 FRR HI 65M"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-03 at 9.39.39 AM.jpeg",
+                     "ProductNumber":  "ME012551",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "Non-standard product number format needs manual confirmation.",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-03 at 9.39.39 AM.jpeg",
+                     "OcrText":  "GEAR OD 348 ID 315 C) ID 40 HI 15 114T 6H M14 ID 100 ID 173mm 117/8 \"1300mm HI 37 ME 012551 FLYWHEEL ASSY 11\" 114T 61-4 MIT CANTER 4D34 FE639 M14"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-04-04 at 3.35.08 PM.jpeg",
+                     "ProductNumber":  "12310-97773",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/12310-97773.jpeg",
+                     "OcrText":  "GEAT OD 498 ID 460 IOH ID 17mm ID 58 HI 20 140T 121-1 220mm 17\" 1432mm HI 105 12310-97773 FLYWHEEL 17\" IOH 140T RF8 NS 16.5MM"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-17 at 10.37.35 AM.jpeg",
+                     "ProductNumber":  "",
+                     "ProductName":  "",
+                     "Reason":  "No reliable product number candidate found.",
+                     "Warnings":  "",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-17 at 10.37.35 AM.jpeg",
+                     "OcrText":  "GEAR OD 485 ID 439 91-116mm ID 116 (7 c ID 62 HI 21 137T ABS HOLE 45 ID 245mm 17\" 1432mm HI 98 HINO-rw-pnc-45H FLYWHEEL 17\" ABS 45 ID 62 PIIC COMMAINRAIL 137T 91-1 (GOT ABS HOLE 45 HOLE ) GOT LEG"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-04-17 at 11.38.33 AM.jpeg",
+                     "ProductNumber":  "12310-9Z00E",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/12310-9Z00E.jpeg",
+                     "OcrText":  "GEAR OD 494 HI 21 17 3/4\" 1450mm 153T 12310-9Z00E FLYWHEEL 17\" 153T 12H 50.5 QUESTER GHII"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-04-17 at 6.04.37 PM.jpeg",
+                     "ProductNumber":  "12310-9ZOOD",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "Product number contains OCR-ambiguous O/0 characters.",
+                     "ImagePath":  "assets/img/products/12310-9ZOOD.jpeg",
+                     "OcrText":  "GEAR OD 440 ID 402 IOH 16mm ID 125 ID 46 HI 22 137T ABS HOLE 58 o ID 235mm 17 314\" / 500mm HI 62 12310-9ZOOD FLYWHEEL 17\" IOH 137T NS QUESTER GI-IB 21499565"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-21 at 10.27.46 AM.jpeg",
+                     "ProductNumber":  "12310-96450-MIVAKE",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "Product-number candidate appears to include extra descriptive text. | Long alphabetic suffix may be OCR bleed from the description.",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-21 at 10.27.46 AM.jpeg",
+                     "OcrText":  "GEAR OD 465 ID 427 153T 12H MIO 17 118\" 1435m m HI 105 12310-96450-MIVAKE FLYWHEEL 17\" 153T IOH PE6 PF6 DIAPHRAGM COVER"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-04-22 at 6.00.53 PM.jpeg",
+                     "ProductNumber":  "12310-96006",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/12310-96006.jpeg",
+                     "OcrText":  "GEAR OD 498 ID 460 9H 17mm ID 125 ID 46/49 HI 31 12H MIO ID 203mm 16 112\" 1418mm 140T 1214 15mm HI 110 12310-96006 FLYWHEEL 16\" 140T NS RD8"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-30 at 4.23.05 PM.jpeg",
+                     "ProductNumber":  "ME072584",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "Non-standard product number format needs manual confirmation.",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-30 at 4.23.05 PM.jpeg",
+                     "OcrText":  "GEAR OD 394 ID 353 91-1 MIO 61-117mm ID 100 -l ID 47 HI 14 129T ABS HOLE— 45 ID 215 143/8\" / 650mm ME 072584 FLYWHEEL 14\" 61--1 129T 6D16 6M60"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-04-30 at 5.41.42 PM.jpeg",
+                     "ProductNumber":  "ME072448",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "Non-standard product number format needs manual confirmation.",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-04-30 at 5.41.42 PM.jpeg",
+                     "OcrText":  "GEAR OD 394 ID 353 12H MIO 6H 16mm ID 100 21-1 M14 IH 14mm 9 ID 47 HI 14 129T X ABS HOLE ID 215 14\" / 357mm J HI 79 ME 072448 FLYWHEEL 14\" 6H 129T 6D16 6D14 2AT 350M 17M FM658 FWA658 6D17 SAME"
+                 },
+                 {
+                     "Status":  "Imported",
+                     "File":  "WhatsApp Image 2026-05-24 at 2.53.58 PM.jpeg",
+                     "ProductNumber":  "8-94127-250-0",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "Recognized and added to generated catalogue data.",
+                     "Warnings":  "",
+                     "ImagePath":  "assets/img/products/8-94127-250-0.jpeg",
+                     "OcrText":  "GEAR OD 390 ID 355 HI 14 128T ID 180 13 3/8\" 1340mm HI 38 8-94127-250-0 FLYWHEEL 12\" 128T6H 48D1 NPR 14.5M"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-06-09 at 3.42.41 PM.jpeg",
+                     "ProductNumber":  "1231043026",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "Unhyphenated product number needs manual confirmation.",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-06-09 at 3.42.41 PM.jpeg",
+                     "OcrText":  "GEAR OD 392 ID 362 61-1 ID 16mm ID 110 ID 40 HI 18 129T ID 227mm 13\" 1330.2mm HI 50 1231043026 FLYWHEEL 13\"6H 129T NS FE6T LKA211 M17"
+                 },
+                 {
+                     "Status":  "Needs review",
+                     "File":  "WhatsApp Image 2026-06-18 at 5.55.19 PM.jpeg",
+                     "ProductNumber":  "EW-8DC9-H",
+                     "ProductName":  "Flywheel",
+                     "Reason":  "OCR result needs manual review before import.",
+                     "Warnings":  "Non-standard product number format needs manual confirmation.",
+                     "ImagePath":  "C:\\Users\\helon\\OneDrive\\Desktop\\NAE-TRUCK\\whatsapp-import\\WhatsApp Image 2026-06-18 at 5.55.19 PM.jpeg",
+                     "OcrText":  "GEAR OD 510 ID 475 62 HI 34 HI 25mm 143T 814 ID 17mm 16H M 10 120mm 17\" 1431.8mm H-H 465mm EW-8DC9-H FLYWHEEL 17\" 143T HIGH 8 HOLE FUSO HI 121 8DC9"
+                 }
+             ]
+}
