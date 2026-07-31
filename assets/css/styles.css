@@ -238,7 +238,7 @@ button,input,select,textarea{
 .hero-media{
     position:absolute;
     inset:0;
-    background:url('../img/hero-howo-warehouse.png') center center/cover no-repeat;
+    background:url('../img/hero-truck-mountain-banner.png') center center/cover no-repeat;
     animation:heroIn 1.6s var(--ease) both
 }
 .hero-shade{
@@ -3194,7 +3194,7 @@ Product Image Lightbox
     isolation:isolate
 }
 .premium-home .hero-media{
-    background:url('../img/hero-howo-warehouse.png') center center/cover no-repeat;
+    background:url('../img/hero-truck-mountain-banner.png') 36% center/cover no-repeat;
     transform:scale(1.035);
     opacity:1;
     animation:premiumHeroImageIn .8s var(--ease) both
@@ -3981,5 +3981,146 @@ Product Image Lightbox
         padding:24px 0;
         border-bottom:1px solid rgba(17,18,20,.1);
         gap:16px
+    }
+}
+
+/* ==========================================================
+   Hero banner update: OEM catalog photography
+   ========================================================== */
+.premium-home .site-header{
+    top:0;
+    height:76px;
+    background:rgba(8,9,11,.18);
+    border-bottom:1px solid rgba(255,255,255,.16);
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px)
+}
+.premium-home .site-header.fixed{
+    height:66px;
+    background:rgba(8,9,11,.62);
+    border-bottom-color:rgba(255,255,255,.14);
+    backdrop-filter:blur(14px);
+    -webkit-backdrop-filter:blur(14px)
+}
+.premium-home .nav-menu>a:not(.button){
+    color:#fff
+}
+.premium-home .nav-menu>a:not(.button):hover,
+.premium-home .nav-menu>a[aria-current="page"]:not(.button){
+    color:var(--orange)
+}
+.premium-home .premium-hero{
+    min-height:640px;
+    height:clamp(640px,52vw,780px);
+    max-height:none
+}
+.premium-home .hero-media{
+    background-image:url('../img/hero-truck-mountain-banner.png');
+    background-size:cover;
+    background-position:24% center;
+    background-repeat:no-repeat;
+    transform:none;
+    animation:none
+}
+.premium-home .hero-shade{
+    background:linear-gradient(90deg,rgba(5,6,8,.50) 0%,rgba(5,6,8,.48) 42%,rgba(5,6,8,.22) 58%,rgba(5,6,8,.06) 76%,rgba(5,6,8,0) 100%),linear-gradient(0deg,rgba(5,6,8,.26),rgba(5,6,8,0) 34%)
+}
+.premium-home .hero-inner{
+    padding-top:76px
+}
+.premium-home .hero-content{
+    width:min(470px,100%);
+    max-width:470px
+}
+.premium-home .premium-hero h1{
+    max-width:470px;
+    margin:20px 0 22px;
+    font-size:clamp(48px,5.4vw,82px);
+    line-height:.9;
+    letter-spacing:-.055em;
+    text-transform:uppercase
+}
+.premium-home .premium-hero h1 em{
+    color:#fff
+}
+.premium-home .hero-statement{
+    max-width:440px;
+    margin:0 0 18px;
+    color:rgba(255,255,255,.92);
+    font-size:clamp(17px,1.35vw,21px);
+    line-height:1.5;
+    font-weight:650;
+    letter-spacing:-.01em
+}
+.premium-home .hero-lead{
+    width:min(430px,100%);
+    margin:0;
+    color:rgba(255,255,255,.76);
+    font-size:clamp(15px,1.05vw,17px);
+    line-height:1.65
+}
+.premium-home .hero-actions{
+    margin-top:34px;
+    gap:14px
+}
+.premium-home .hero-actions .button{
+    min-width:178px;
+    justify-content:center
+}
+@media(max-width:1100px){
+    .premium-home .premium-hero{
+        min-height:630px;
+        height:clamp(630px,62vw,740px)
+    }
+    .premium-home .hero-content{
+        max-width:500px
+    }
+    .premium-home .premium-hero h1{
+        max-width:500px;
+        font-size:clamp(46px,6.8vw,72px)
+    }
+}
+@media(max-width:720px){
+    .premium-home .site-header{
+        height:68px;
+        background:rgba(8,9,11,.28)
+    }
+    .premium-home .site-header.fixed{
+        height:64px
+    }
+    .premium-home .premium-hero{
+        min-height:680px;
+        height:100svh
+    }
+    .premium-home .hero-media{
+        background-position:30% center
+    }
+    .premium-home .hero-shade{
+        background:linear-gradient(90deg,rgba(5,6,8,.66) 0%,rgba(5,6,8,.52) 54%,rgba(5,6,8,.18) 100%),linear-gradient(0deg,rgba(5,6,8,.52),rgba(5,6,8,.06) 48%,rgba(5,6,8,.34))
+    }
+    .premium-home .hero-inner{
+        padding-top:76px
+    }
+    .premium-home .hero-content{
+        width:min(100%,360px)
+    }
+    .premium-home .premium-hero h1{
+        width:min(100%,350px);
+        font-size:clamp(42px,12.4vw,56px);
+        line-height:.94
+    }
+    .premium-home .hero-statement{
+        max-width:350px;
+        font-size:16px
+    }
+    .premium-home .hero-lead{
+        width:min(100%,340px)
+    }
+    .premium-home .hero-actions{
+        flex-direction:column;
+        align-items:flex-start
+    }
+    .premium-home .hero-actions .button{
+        width:min(100%,340px)
     }
 }
