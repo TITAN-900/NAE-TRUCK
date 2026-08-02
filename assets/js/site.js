@@ -137,6 +137,7 @@ async function loadBrandsData() {
       {
         id: "brand-2",
         name: "Brand 2",
+        hidden: true,
         logo: "",
         page: "brands/brand-2/index.html",
         aliases: [],
@@ -145,6 +146,7 @@ async function loadBrandsData() {
       {
         id: "brand-3",
         name: "Brand 3",
+        hidden: true,
         logo: "",
         page: "brands/brand-3/index.html",
         aliases: [],
@@ -153,6 +155,7 @@ async function loadBrandsData() {
       {
         id: "brand-4",
         name: "Brand 4",
+        hidden: true,
         logo: "",
         page: "brands/brand-4/index.html",
         aliases: [],
@@ -161,6 +164,7 @@ async function loadBrandsData() {
       {
         id: "brand-5",
         name: "Brand 5",
+        hidden: true,
         logo: "",
         page: "brands/brand-5/index.html",
         aliases: [],
@@ -169,6 +173,7 @@ async function loadBrandsData() {
       {
         id: "brand-6",
         name: "Brand 6",
+        hidden: true,
         logo: "",
         page: "brands/brand-6/index.html",
         aliases: [],
@@ -382,16 +387,24 @@ let homepageLightboxState = {
 
 function renderBrandLogo(brand) {
   if (brand.logo) {
-    return `<span class="brand-logo-block has-logo"><img loading="lazy" decoding="async" src="${escapeHtml(resolveSiteAsset(brand.logo))}" alt="${escapeHtml(brand.name)} logo"></span>`;
+    return `<span class="brand-logo-block has-logo"><img loading="eager" decoding="async" src="${escapeHtml(resolveSiteAsset(brand.logo))}" alt="${escapeHtml(brand.name)} logo"></span>`;
   }
 
   return `<span class="brand-logo-block"><span>LOGO</span></span>`;
 }
 
+function isPublicBrand(brand) {
+  const name = String(brand?.name || "").trim();
+  const isGenericPlaceholder = /^brand\s+\d+$/i.test(name) && !brand?.logo;
+  return Boolean(brand) && !brand.hidden && !isGenericPlaceholder;
+}
+
 function renderBrandCards(brands) {
   if (!brandCardGrid) return;
 
-  brandCardGrid.innerHTML = brands
+  const visibleBrands = (Array.isArray(brands) ? brands : []).filter(isPublicBrand);
+
+  brandCardGrid.innerHTML = visibleBrands
     .map((brand, index) => `
 <a class="brand-card" href="${escapeHtml(resolveSiteAsset(brand.page))}">
   <small>${String(index + 1).padStart(2, "0")}</small>

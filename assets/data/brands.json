@@ -26,6 +26,7 @@
                    {
                        "id":  "brand-2",
                        "name":  "Brand 2",
+                       "hidden":  true,
                        "logo":  "",
                        "page":  "brands/brand-2/index.html",
                        "aliases":  [
@@ -47,6 +48,7 @@
                    {
                        "id":  "brand-3",
                        "name":  "Brand 3",
+                       "hidden":  true,
                        "logo":  "",
                        "page":  "brands/brand-3/index.html",
                        "aliases":  [
@@ -68,6 +70,7 @@
                    {
                        "id":  "brand-4",
                        "name":  "Brand 4",
+                       "hidden":  true,
                        "logo":  "",
                        "page":  "brands/brand-4/index.html",
                        "aliases":  [
@@ -89,6 +92,7 @@
                    {
                        "id":  "brand-5",
                        "name":  "Brand 5",
+                       "hidden":  true,
                        "logo":  "",
                        "page":  "brands/brand-5/index.html",
                        "aliases":  [
@@ -110,6 +114,7 @@
                    {
                        "id":  "brand-6",
                        "name":  "Brand 6",
+                       "hidden":  true,
                        "logo":  "",
                        "page":  "brands/brand-6/index.html",
                        "aliases":  [

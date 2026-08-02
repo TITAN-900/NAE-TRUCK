@@ -4137,3 +4137,293 @@ Product Image Lightbox
         width:min(100%,340px)
     }
 }
+
+/* ==========================================================
+   Mobile responsive refinement: header, hero and brands
+   ========================================================== */
+@media (max-width:767px){
+    html,
+    body{
+        max-width:100%;
+        overflow-x:hidden
+    }
+    .topline{
+        display:none
+    }
+    .container{
+        width:min(100% - 40px,var(--max))
+    }
+    .site-header,
+    .premium-home .site-header{
+        top:0;
+        height:100px;
+        background:rgba(8,9,11,.42);
+        border-bottom:1px solid rgba(255,255,255,.14);
+        backdrop-filter:blur(12px);
+        -webkit-backdrop-filter:blur(12px)
+    }
+    .site-header.fixed,
+    .premium-home .site-header.fixed{
+        height:92px;
+        background:rgba(8,9,11,.76)
+    }
+    .nav-shell{
+        gap:12px
+    }
+    .brand,
+    .premium-home .brand{
+        gap:16px;
+        min-width:0
+    }
+    .brand-mark,
+    .premium-home .brand-mark{
+        width:110px;
+        height:64px;
+        flex:0 0 110px;
+        overflow:visible;
+        background:transparent
+    }
+    .brand-mark img,
+    .premium-home .brand-mark img{
+        width:100%;
+        height:100%;
+        object-fit:contain;
+        object-position:center;
+        transform:none
+    }
+    .brand-copy{
+        min-width:0
+    }
+    .brand-copy strong,
+    .premium-home .brand-copy strong{
+        max-width:176px;
+        font-size:16px;
+        line-height:1.05;
+        letter-spacing:.045em;
+        white-space:normal
+    }
+    .brand-copy small,
+    .premium-home .brand-copy small{
+        margin-top:7px;
+        font-size:10.5px;
+        line-height:1.1;
+        letter-spacing:.13em
+    }
+    .nav-toggle{
+        width:42px;
+        height:42px;
+        flex:0 0 42px
+    }
+    .nav-toggle span{
+        width:24px
+    }
+    .premium-home .premium-hero{
+        min-height:760px;
+        height:auto;
+        max-height:none
+    }
+    .premium-home .hero-media{
+        background-size:cover;
+        background-position:62% center;
+        background-repeat:no-repeat
+    }
+    .premium-home .hero-shade{
+        display:block;
+        background:linear-gradient(90deg,rgba(10,12,14,.78) 0%,rgba(10,12,14,.55) 48%,rgba(10,12,14,.22) 100%)
+    }
+    .premium-home .hero-inner{
+        min-height:760px;
+        height:auto;
+        align-items:flex-end;
+        padding:132px 8px 58px
+    }
+    .premium-home .hero-content{
+        width:min(calc(100vw - 56px),350px);
+        max-width:350px;
+        padding:0
+    }
+    .premium-home .premium-hero h1{
+        width:min(75vw,310px);
+        max-width:310px;
+        margin:0 0 30px;
+        font-size:clamp(52px,13.2vw,60px);
+        line-height:.94;
+        letter-spacing:-.055em
+    }
+    .premium-home .hero-lead{
+        width:min(100%,310px);
+        max-width:310px;
+        margin:0;
+        color:rgba(255,255,255,.86);
+        font-size:clamp(18px,4.8vw,21px);
+        line-height:1.46
+    }
+    .premium-home .hero-actions{
+        margin-top:42px;
+        flex-direction:column;
+        align-items:flex-start;
+        gap:16px
+    }
+    .premium-home .hero-actions .button{
+        width:100%;
+        min-width:0;
+        max-width:520px;
+        min-height:60px;
+        height:60px;
+        justify-content:center;
+        border-radius:16px;
+        padding:0 22px
+    }
+    .premium-home .hero-actions .button-light{
+        background:rgba(10,12,14,.36);
+        border:1px solid rgba(255,255,255,.36);
+        color:#fff
+    }
+    .premium-brands-section{
+        padding:80px 0 86px
+    }
+    .premium-home .brands-heading{
+        display:block;
+        margin-bottom:28px
+    }
+    .premium-home .brands-heading h2{
+        font-size:clamp(36px,11.5vw,48px);
+        line-height:1
+    }
+    .premium-home .brands-heading .text-link{
+        margin-top:18px
+    }
+    .brand-card-grid,
+    .premium-home .brand-card-grid,
+    .brands-index-page .brand-card-grid{
+        width:100%;
+        display:grid;
+        grid-template-columns:1fr;
+        gap:26px;
+        border:0;
+        background:transparent
+    }
+    .brand-card,
+    .premium-home .brand-card,
+    .brands-index-page .brand-card{
+        width:100%;
+        min-height:0;
+        height:340px;
+        max-height:340px;
+        padding:28px 24px;
+        gap:24px;
+        border-radius:28px;
+        align-items:center;
+        justify-content:flex-start;
+        text-align:center
+    }
+    .brand-card .brand-logo-block,
+    .premium-home .brand-card .brand-logo-block,
+    .brands-index-page .brand-card .brand-logo-block{
+        width:min(230px,78%);
+        height:96px;
+        aspect-ratio:auto;
+        margin:12px auto 30px;
+        border:0;
+        background:#f5f3ef
+    }
+    .brand-card .brand-logo-block.has-logo,
+    .premium-home .brand-card .brand-logo-block.has-logo,
+    .brands-index-page .brand-card .brand-logo-block.has-logo{
+        width:min(240px,82%);
+        height:96px;
+        aspect-ratio:auto;
+        padding:0;
+        background:#fff
+    }
+    .brand-card .brand-logo-block img,
+    .premium-home .brand-card .brand-logo-block img,
+    .brands-index-page .brand-card .brand-logo-block img{
+        width:100%;
+        height:100%;
+        object-fit:contain;
+        object-position:center
+    }
+    .brand-card strong,
+    .premium-home .brand-card strong,
+    .brands-index-page .brand-card strong{
+        margin-top:20px!important;
+        font-size:22px;
+        line-height:1.1;
+        letter-spacing:.055em
+    }
+    .brand-card>span:not(.brand-logo-block),
+    .premium-home .brand-card>span:not(.brand-logo-block),
+    .brands-index-page .brand-card>span:not(.brand-logo-block){
+        margin-top:auto;
+        color:#6f7073;
+        font-size:10px;
+        letter-spacing:.13em
+    }
+    .brands-index-page .category-hero{
+        padding:150px 0 58px
+    }
+    .brands-index-page .category-hero:after{
+        display:none
+    }
+    .brands-index-page .category-hero-grid{
+        gap:0
+    }
+    .brands-index-page .category-hero h1{
+        font-size:clamp(44px,13vw,58px)
+    }
+    .brands-index-page .category-hero-copy>p{
+        max-width:330px;
+        line-height:1.6
+    }
+    .brands-index-page .catalogue-section{
+        padding:62px 0 86px
+    }
+    .brands-index-page .catalogue-head{
+        display:block;
+        margin-bottom:30px
+    }
+    .brands-index-page .catalogue-head h2{
+        font-size:clamp(36px,11vw,48px);
+        line-height:1
+    }
+}
+
+@media (max-width:374px){
+    .brand-mark,
+    .premium-home .brand-mark{
+        width:98px;
+        height:58px;
+        flex-basis:98px
+    }
+    .brand-copy strong,
+    .premium-home .brand-copy strong{
+        max-width:150px;
+        font-size:14px
+    }
+    .brand-copy small,
+    .premium-home .brand-copy small{
+        font-size:9.5px
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px){
+    .premium-home .premium-hero{
+        min-height:760px;
+        height:82svh
+    }
+    .premium-home .hero-media{
+        background-position:42% center
+    }
+    .premium-home .hero-content{
+        width:min(38vw,380px);
+        max-width:380px
+    }
+    .premium-home .premium-hero h1{
+        max-width:380px;
+        font-size:clamp(50px,6.4vw,66px)
+    }
+    .brands-index-page .category-hero{
+        padding-top:170px
+    }
+}
