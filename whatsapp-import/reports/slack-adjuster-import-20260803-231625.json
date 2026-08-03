@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-08-03T23:16:25",
+  "sourceFolder": "whatsapp-import",
+  "supportedImagesScanned": 345,
+  "requestedSlackAdjusterImages": 22,
+  "confirmedSlackAdjusterImagesDetected": 2,
+  "productsImported": 2,
+  "productsSkippedAsDuplicates": 0,
+  "imagesExcludedAsNonSlackAdjuster": 343,
+  "ocrFailures": 0,
+  "recordsNeedingReview": 0,
+  "requestedImagesNotDetected": 20,
+  "note": "Only two images in the current whatsapp-import tree could be reliably identified as Slack Adjuster products. No non-Slack images were imported.",
+  "importedProducts": [
+    {
+      "sourceFile": "whatsapp-import/WhatsApp Image 2026-07-14 at 2.08.43 PM.jpeg",
+      "productCode": "WG-910-034-0056",
+      "productName": "Rear Left Slack Adjuster",
+      "category": "slack-adjuster",
+      "brand": "Huatai",
+      "image": "assets/img/products/WG-910-034-0056.jpeg",
+      "ocrText": "19T ID 35mm TWG9100340056 HB202605i9 L 205mm ID 15mm WG9100340056 HB20260519 HI 84mm SLACK ADJ 19T REAR LH HOWO371"
+    },
+    {
+      "sourceFile": "whatsapp-import/WhatsApp Image 2026-07-14 at 12.40.11 PM.jpeg",
+      "productCode": "WG-910-034-0057",
+      "productName": "Rear Right Slack Adjuster",
+      "category": "slack-adjuster",
+      "brand": "Huatai",
+      "image": "assets/img/products/WG-910-034-0057.jpeg",
+      "ocrText": "19T ) ID35mm WG9i00340057—e HB20260519 ID 15mm L 205mm YG9100340051 HI 84mm wc-910 034 0057 SLACK ADJ 19T REAR RH HOWO371"
+    }
+  ]
+}

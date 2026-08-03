@@ -14,6 +14,13 @@ const pageCategorySlug = document.body.dataset.category || "";
 const pageCategoryGroup = document.body.dataset.categoryGroup || "";
 const pageBrandId = document.body.dataset.brandId || "";
 const pageBrandName = document.body.dataset.brand || "";
+const pageProductsCategorySlug = (new URLSearchParams(window.location.search).get("category") || "")
+  .toLowerCase()
+  .trim()
+  .replace(/_/g, "-")
+  .replace(/[^a-z0-9-]+/g, "-")
+  .replace(/-+/g, "-")
+  .replace(/^-|-$/g, "");
 
 const categoryGroups = [
   { key: "", label: "ALL PRODUCTS", shortLabel: "ALL" },
@@ -35,6 +42,7 @@ const categoryGroupMap = {
   "transmission-parts": "transmission",
   "axle-parts": "axle",
   "trailer-parts": "trailer",
+  "slack-adjuster": "trailer",
   other: "other"
 };
 
@@ -101,6 +109,17 @@ const fallbackCategories = [
     intro: "Running gear, braking and coupling components for trailers and container haulage.",
     thumbnail: "assets/img/categories/trailer-parts.svg",
     items: ["Landing gear", "Kingpins", "Slack adjusters", "Suspension parts"]
+  },
+  {
+    slug: "slack-adjuster",
+    num: "11",
+    title: "Slack Adjuster",
+    desc: "Heavy-duty truck air brake slack adjuster components.",
+    intro: "Heavy-duty truck air brake slack adjuster components for commercial vehicle braking systems.",
+    thumbnail: "",
+    categoryImage: "",
+    futureCategoryImage: "assets/img/categories/slack-adjuster-cover.jpg",
+    items: ["Slack Adjuster"]
   }
 ];
 
@@ -157,6 +176,40 @@ function assetPath(path) {
 
 function contactPath() {
   return new URL("contact.html", categorySiteRoot).href;
+}
+
+function productsPath(query = "") {
+  const url = new URL("products.html", categorySiteRoot);
+  if (query) {
+    url.search = query.startsWith("?") ? query : `?${query}`;
+  }
+  return url.href;
+}
+
+function hasProductsCategoryScope() {
+  return browseMode === "products" && Boolean(pageProductsCategorySlug);
+}
+
+function getProductsCategoryInfo() {
+  if (!hasProductsCategoryScope()) return null;
+  return allCategories.find(category => category.slug === pageProductsCategorySlug) || null;
+}
+
+function hydrateProductCategoryCards(categories) {
+  document.querySelectorAll("[data-product-category-card]").forEach(card => {
+    const href = card.getAttribute("href") || "";
+    const params = new URLSearchParams((href.split("?")[1] || "").split("#")[0]);
+    const slug = params.get("category") || card.dataset.category || "";
+    const category = (categories || []).find(item => item.slug === slug);
+    const imagePath = card.dataset.categoryImage || category?.categoryImage || "";
+    const media = card.querySelector(".product-category-media");
+    if (!media) return;
+
+    media.innerHTML = imagePath
+      ? `<img loading="lazy" decoding="async" src="${escapeHtml(assetPath(imagePath))}" alt="">`
+      : "";
+    media.classList.toggle("has-category-image", Boolean(imagePath));
+  });
 }
 
 async function loadJson(fileName, validator) {
@@ -661,7 +714,39 @@ function updateSearchPageChrome() {
 
 function updateProductsPageChrome() {
   if (browseMode !== "products") return;
-  data = { title: "Products", thumbnail: "" };
+  const category = getProductsCategoryInfo();
+  if (!category) {
+    data = { title: "Products", thumbnail: "" };
+    return;
+  }
+
+  data = category;
+  document.title = `${category.title} Products | NIHON ASIA ENTERPRISE Heavy Duty Truck Parts`;
+
+  document.querySelector(".category-hero-copy h1")?.replaceChildren(document.createTextNode(category.title));
+
+  const intro = document.querySelector(".category-hero-copy p:last-child");
+  if (intro) {
+    intro.textContent = `Browse ${category.title} products. Use search and filters to narrow the catalog.`;
+  }
+
+  const breadcrumbLast = document.querySelector(".breadcrumb span:last-child");
+  if (breadcrumbLast) breadcrumbLast.textContent = category.title;
+
+  const headEyebrow = document.querySelector(".catalogue-head .eyebrow");
+  if (headEyebrow) headEyebrow.innerHTML = "<span></span> Product category";
+
+  const headTitle = document.querySelector(".catalogue-head h2");
+  if (headTitle) headTitle.innerHTML = `${escapeHtml(category.title)} <em>products</em>`;
+
+  const noteCopy = document.querySelector(".catalogue-note p");
+  if (noteCopy) noteCopy.textContent = "Return to all products at any time or contact the parts team for model confirmation.";
+
+  const noteAction = document.querySelector(".catalogue-note .button");
+  if (noteAction) {
+    noteAction.href = productsPath();
+    noteAction.innerHTML = "Back to products <span>&nearr;</span>";
+  }
 }
 
 function flattenCatalogueValue(value) {
@@ -705,12 +790,13 @@ function renderProductImage(product) {
   const imageSrc = images[0] || getProductImageSrc(product);
   const encodedImages = escapeHtml(JSON.stringify(images.length ? images : (imageSrc ? [imageSrc] : [])));
   const alt = `${product.name} ${product.number}`.trim();
+  const summary = getCustomerProductSummary(product);
 
   if (!imageSrc) {
     return "<span class=\"product-image-placeholder\">PART</span>";
   }
 
-  return `<button class="product-photo-button" type="button" data-lightbox-src="${escapeHtml(imageSrc)}" data-lightbox-images="${encodedImages}" data-lightbox-alt="${escapeHtml(alt)}">
+  return `<button class="product-photo-button" type="button" data-lightbox-src="${escapeHtml(imageSrc)}" data-lightbox-images="${encodedImages}" data-lightbox-alt="${escapeHtml(alt)}" data-lightbox-number="${escapeHtml(summary.number)}" data-lightbox-name="${escapeHtml(summary.name)}" data-lightbox-brand="${escapeHtml(summary.brand)}">
       <img class="product-photo" loading="lazy" decoding="async" src="${escapeHtml(imageSrc)}" alt="${escapeHtml(alt)}">
     </button>`;
 }
@@ -797,18 +883,25 @@ function renderProductCard(product, searchState) {
   const brandMeta = product.brand && normalizeSearchValue(product.brand) !== "brand not specified"
     ? `<div class="product-meta"><span class="product-brand">${highlightText(product.brand, searchState.highlightTerms)}</span></div>`
     : "";
+  const detailHref = product.url
+    ? assetPath(product.url)
+    : (product.slug ? assetPath(`products/${product.slug}.html`) : "");
+  const bodyOpen = detailHref
+    ? `<a class="product-body product-detail-link" href="${escapeHtml(detailHref)}" aria-label="${escapeHtml(`View details for ${product.number || product.name}`)}">`
+    : "<div class=\"product-body\">";
+  const bodyClose = detailHref ? "</a>" : "</div>";
 
   return `<article class="product-card">
     <div class="product-image has-photo">
       ${renderProductImage(product)}
     </div>
-    <div class="product-body">
+    ${bodyOpen}
       <span class="product-code-label">Product Code</span>
       <strong class="product-code">${highlightProductNumber(product.number, searchState)}</strong>
       <h3>${highlightText(product.name, searchState.highlightTerms)}</h3>
       <p class="product-description">${highlightText(description, searchState.highlightTerms)}</p>
       ${brandMeta}
-    </div>
+    ${bodyClose}
   </article>`;
 }
 
@@ -840,6 +933,7 @@ function render() {
   const selectedCategory = getSelectedCategoryFilter();
   const renderKey = [
     browseMode,
+    pageProductsCategorySlug,
     searchState.normalized,
     selectedBrand,
     selectedStock,
@@ -852,7 +946,9 @@ function render() {
   if (renderKey === lastRenderKey) return;
   lastRenderKey = renderKey;
 
-  const sourceRecords = searchState.tokens.length ? allCatalogueRecords : catalogueRecords;
+  const sourceRecords = searchState.tokens.length && !hasProductsCategoryScope()
+    ? allCatalogueRecords
+    : catalogueRecords;
   const filteredRecords = sourceRecords
     .filter(record => {
       const product = record.product;
@@ -1201,7 +1297,11 @@ function bindCatalogueEvents() {
       const images = parseCatalogueLightboxImages(preview.dataset.lightboxImages)
         .concat(preview.dataset.lightboxSrc || "")
         .filter(Boolean);
-      openLightbox(Array.from(new Set(images)), preview.dataset.lightboxAlt);
+      openLightbox(Array.from(new Set(images)), preview.dataset.lightboxAlt, {
+        number: preview.dataset.lightboxNumber,
+        name: preview.dataset.lightboxName,
+        brand: preview.dataset.lightboxBrand
+      });
       return;
     }
 
@@ -1401,6 +1501,10 @@ function getBaseProducts(products) {
     return products.filter(product => product.category === pageCategorySlug);
   }
 
+  if (hasProductsCategoryScope()) {
+    return products.filter(product => product.category === pageProductsCategorySlug);
+  }
+
   return products;
 }
 
@@ -1426,6 +1530,7 @@ async function initCataloguePage() {
   allCategories = Array.isArray(catalogue?.categories) ? catalogue.categories : fallbackCategories;
   allBrands = Array.isArray(brandsJson?.brands) ? brandsJson.brands : [];
   brandLogoLookup = buildBrandLogoLookup(allBrands);
+  hydrateProductCategoryCards(allCategories);
 
   if (browseMode === "brand") {
     activeBrand = getBrandFromPage(allBrands);

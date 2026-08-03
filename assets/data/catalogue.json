@@ -141,6 +141,19 @@
         "Slack adjusters",
         "Suspension parts"
       ]
+    },
+    {
+      "slug": "slack-adjuster",
+      "num": "11",
+      "title": "Slack Adjuster",
+      "desc": "Heavy-duty truck air brake slack adjuster components.",
+      "intro": "Heavy-duty truck air brake slack adjuster components for commercial vehicle braking systems.",
+      "thumbnail": "",
+      "categoryImage": "",
+      "futureCategoryImage": "assets/img/categories/slack-adjuster-cover.jpg",
+      "items": [
+        "Slack Adjuster"
+      ]
     }
   ]
 }

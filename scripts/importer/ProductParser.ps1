@@ -230,7 +230,7 @@ function Get-ProductNameFromText {
     @{ Pattern = '\bPRESSURE\s+PROTECTION\s+VALVE\b|\bGOVERNOR\b'; Name = 'Pressure Protection Valve'; Category = 'brake-system' },
     @{ Pattern = '\b2\s*SPEED\s+ASSY\b|\bTWO\s*SPEED\s+ASSY\b'; Name = 'Two Speed Assembly'; Category = 'axle-parts' },
     @{ Pattern = '\bSPG\s+SHACKLE\b|\bSPRING\s+SHACKLE\b|\bSHACKLE\s+FRT\b'; Name = 'Front Spring Shackle'; Category = 'suspension-system' },
-    @{ Pattern = '\bSLACK\s+ADJ\b|\bSLACK\s+ADJUSTER\b'; Name = 'Slack Adjuster'; Category = 'trailer-parts' },
+    @{ Pattern = '\bSLACK\s+ADJ\b|\bSLACK\s+ADJUSTER\b'; Name = 'Slack Adjuster'; Category = 'slack-adjuster' },
     @{ Pattern = '\bTIE\s+ROD\s+ARM\b'; Name = 'Tie Rod Arm'; Category = 'steering-system' },
     @{ Pattern = '\bCOUPLING\b'; Name = 'Coupling'; Category = '' },
     @{ Pattern = '\bKNUCKLE\s+FRT\b|\bFRONT\s+KNUCKLE\b|\bKNUCKLE\b'; Name = 'Front Knuckle'; Category = 'steering-system' },
@@ -269,7 +269,7 @@ function Get-ProductNameFromText {
     @{ Pattern = '\bDIFFERENTIAL\b'; Name = 'Differential Gear Set'; Category = 'axle-parts' },
     @{ Pattern = '\bLANDING\s+GEAR\b'; Name = 'Landing Gear Set'; Category = 'trailer-parts' },
     @{ Pattern = '\bTWIST\s+LOCK\b'; Name = 'Twist Lock Assembly'; Category = 'trailer-parts' },
-    @{ Pattern = '\bSLACK\s+ADJUSTER\b'; Name = 'Slack Adjuster'; Category = 'trailer-parts' },
+    @{ Pattern = '\bSLACK\s+ADJUSTER\b'; Name = 'Slack Adjuster'; Category = 'slack-adjuster' },
     @{ Pattern = '\bKING\s*PIN\b|\bKINGPIN\b'; Name = 'Kingpin Assembly'; Category = 'trailer-parts' }
   )
 
