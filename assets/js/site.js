@@ -128,8 +128,8 @@ async function loadBrandsData() {
     brands: [
       {
         id: "brand-1",
-        name: "Brand 1",
-        logo: "",
+        name: "Huatai",
+        logo: "assets/img/brands/huatai-logo.png",
         page: "brands/brand-1/index.html",
         aliases: ["Huatai"],
         products: []
@@ -182,7 +182,7 @@ async function loadBrandsData() {
       {
         id: "xin-seng",
         name: "XIN SENG",
-        logo: "assets/img/brands/xin-seng.png",
+        logo: "assets/img/brands/xin-seng-logo.png",
         page: "brands/xin-seng/index.html",
         aliases: ["XIN SENG", "Xin Seng", "Xinseng"],
         products: []

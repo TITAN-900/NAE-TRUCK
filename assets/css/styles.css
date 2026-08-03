@@ -3528,6 +3528,84 @@ Product Image Lightbox
     color:#7b7c7f;
     font-size:9px
 }
+.brands-index-page .brand-card-grid{
+    grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));
+    gap:22px;
+    border:0;
+    background:transparent
+}
+.brand-card,
+.premium-home .brand-card,
+.brands-index-page .brand-card{
+    min-height:340px;
+    height:340px;
+    padding:34px 28px 30px;
+    gap:12px;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    border-radius:26px;
+    transition:transform .32s var(--ease),box-shadow .32s var(--ease),border-color .32s var(--ease),background-color .32s var(--ease)
+}
+.brand-card small,
+.premium-home .brand-card small,
+.brands-index-page .brand-card small{
+    display:none
+}
+.brand-card:hover,
+.premium-home .brand-card:hover,
+.brands-index-page .brand-card:hover{
+    transform:translateY(-8px);
+    border-color:rgba(243,107,33,.24);
+    box-shadow:0 34px 86px rgba(17,18,20,.12)
+}
+.brand-card .brand-logo-block,
+.premium-home .brand-card .brand-logo-block,
+.brands-index-page .brand-card .brand-logo-block,
+.brand-card .brand-logo-block.has-logo,
+.premium-home .brand-card .brand-logo-block.has-logo,
+.brands-index-page .brand-card .brand-logo-block.has-logo{
+    width:min(220px,82%);
+    height:180px;
+    max-width:220px;
+    margin:0 auto 4px;
+    padding:0;
+    border:0;
+    aspect-ratio:auto;
+    background:transparent;
+    box-shadow:none
+}
+.brand-card .brand-logo-block img,
+.premium-home .brand-card .brand-logo-block img,
+.brands-index-page .brand-card .brand-logo-block img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    object-position:center;
+    transition:transform .34s var(--ease);
+    transform-origin:center
+}
+.brand-card:hover .brand-logo-block img,
+.premium-home .brand-card:hover .brand-logo-block img,
+.brands-index-page .brand-card:hover .brand-logo-block img{
+    transform:scale(1.05)
+}
+.brand-card strong,
+.premium-home .brand-card strong,
+.brands-index-page .brand-card strong{
+    margin-top:0!important;
+    font-size:24px;
+    line-height:1.08;
+    letter-spacing:.055em
+}
+.brand-card>span:not(.brand-logo-block),
+.premium-home .brand-card>span:not(.brand-logo-block),
+.brands-index-page .brand-card>span:not(.brand-logo-block){
+    margin-top:0;
+    color:#6f7073;
+    font-size:10px;
+    letter-spacing:.13em
+}
 .premium-home .company-intro-section{
     padding:118px 0;
     background:#fff
@@ -4308,33 +4386,41 @@ Product Image Lightbox
     .brands-index-page .brand-card{
         width:100%;
         min-height:0;
-        height:340px;
-        max-height:340px;
-        padding:28px 24px;
-        gap:24px;
+        height:290px;
+        max-height:300px;
+        padding:24px 22px;
+        gap:10px;
         border-radius:28px;
         align-items:center;
-        justify-content:flex-start;
+        justify-content:center;
         text-align:center
+    }
+    .brand-card:active,
+    .premium-home .brand-card:active,
+    .brands-index-page .brand-card:active{
+        transform:scale(.985)
     }
     .brand-card .brand-logo-block,
     .premium-home .brand-card .brand-logo-block,
     .brands-index-page .brand-card .brand-logo-block{
-        width:min(230px,78%);
-        height:96px;
+        width:min(190px,84%);
+        height:150px;
+        max-width:190px;
         aspect-ratio:auto;
-        margin:12px auto 30px;
+        margin:0 auto 4px;
+        padding:0;
         border:0;
-        background:#f5f3ef
+        background:transparent
     }
     .brand-card .brand-logo-block.has-logo,
     .premium-home .brand-card .brand-logo-block.has-logo,
     .brands-index-page .brand-card .brand-logo-block.has-logo{
-        width:min(240px,82%);
-        height:96px;
+        width:min(190px,84%);
+        height:150px;
+        max-width:190px;
         aspect-ratio:auto;
         padding:0;
-        background:#fff
+        background:transparent
     }
     .brand-card .brand-logo-block img,
     .premium-home .brand-card .brand-logo-block img,
@@ -4347,7 +4433,7 @@ Product Image Lightbox
     .brand-card strong,
     .premium-home .brand-card strong,
     .brands-index-page .brand-card strong{
-        margin-top:20px!important;
+        margin-top:0!important;
         font-size:22px;
         line-height:1.1;
         letter-spacing:.055em
@@ -4355,7 +4441,7 @@ Product Image Lightbox
     .brand-card>span:not(.brand-logo-block),
     .premium-home .brand-card>span:not(.brand-logo-block),
     .brands-index-page .brand-card>span:not(.brand-logo-block){
-        margin-top:auto;
+        margin-top:0;
         color:#6f7073;
         font-size:10px;
         letter-spacing:.13em

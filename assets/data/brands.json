@@ -5,7 +5,7 @@
                    {
                        "id":  "brand-1",
                        "name":  "Huatai",
-                       "logo":  "assets/img/brands/huatai.jpg",
+                       "logo":  "assets/img/brands/huatai-logo.png",
                        "page":  "brands/brand-1/index.html",
                        "aliases":  [
                                        "Huatai"
@@ -136,7 +136,7 @@
                    {
                        "id":  "xin-seng",
                        "name":  "XIN SENG",
-                       "logo":  "assets/img/brands/xin-seng.png",
+                       "logo":  "assets/img/brands/xin-seng-logo.png",
                        "page":  "brands/xin-seng/index.html",
                        "aliases":  [
                                        "XIN SENG",
