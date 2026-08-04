@@ -3103,56 +3103,76 @@ Product Image Lightbox
     background:rgba(0,0,0,.88);
     display:none;
     justify-content:center;
-    align-items:center;
-    padding:26px;
+    align-items:flex-start;
+    padding:72px 32px 32px;
+    overflow-x:hidden;
+    overflow-y:auto;
     z-index:99999;
     opacity:0;
-    transform:scale(.985);
-    transition:opacity .18s var(--ease),transform .18s var(--ease)
+    transform:none;
+    transition:opacity .18s var(--ease)
 }
 #image-lightbox.open{
     display:flex;
     opacity:1;
-    transform:scale(1)
+    transform:none
 }
 #image-lightbox .lightbox-panel{
     width:min(100%,1180px);
-    max-height:100%;
+    max-width:100%;
+    box-sizing:border-box;
     display:grid;
     justify-items:center;
-    gap:12px
+    gap:14px;
+    overflow:visible
 }
 .lightbox-stage{
     position:relative;
     width:100%;
-    max-height:calc(100vh - 154px);
-    min-height:min(62vh,620px);
+    max-width:100%;
+    box-sizing:border-box;
+    max-height:none;
+    min-height:0;
+    padding:0;
     display:flex;
     align-items:center;
     justify-content:center;
-    overflow:hidden;
+    overflow:visible;
     touch-action:none
 }
 #image-lightbox img,
 #image-lightbox .lightbox-image{
     display:block;
-    max-width:100%;
-    max-height:calc(100vh - 174px);
+    width:auto;
+    height:auto;
+    max-width:calc(100vw - 64px);
+    max-height:calc(100vh - 210px);
+    max-height:calc(100dvh - 210px);
     object-fit:contain;
+    object-position:center;
+    flex:0 1 auto;
     border-radius:0;
     box-shadow:none;
     transform-origin:center center;
     transition:transform .16s var(--ease)
 }
 #image-lightbox .lightbox-panel>img{
-    max-width:100%;
-    max-height:90vh
+    width:auto;
+    height:auto;
+    max-width:calc(100vw - 64px);
+    max-height:calc(100vh - 210px);
+    max-height:calc(100dvh - 210px);
+    object-fit:contain;
+    object-position:center
 }
 #image-lightbox.has-product-info .lightbox-stage,
 #image-lightbox.has-product-info .lightbox-panel>img{
-    max-height:calc(90vh - 132px)
+    max-height:none
 }
 .lightbox-tools{
+    width:min(100%,760px);
+    max-width:calc(100vw - 64px);
+    box-sizing:border-box;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -3172,6 +3192,7 @@ Product Image Lightbox
 .lightbox-zoom-controls{
     display:flex;
     align-items:center;
+    max-width:100%;
     gap:1px;
     border:1px solid rgba(255,255,255,.22);
     background:rgba(17,18,20,.72)
@@ -3225,6 +3246,8 @@ Product Image Lightbox
 }
 .lightbox-product-info{
     width:min(100%,760px);
+    max-width:calc(100vw - 64px);
+    box-sizing:border-box;
     background:#fff;
     border-top:3px solid var(--orange);
     border-radius:0;
@@ -3282,19 +3305,30 @@ Product Image Lightbox
 }
 @media(max-width:720px){
     #image-lightbox{
-        padding:14px
+        padding:62px 16px 18px
     }
     #image-lightbox .lightbox-panel{
         width:100%;
+        max-width:100%;
         gap:10px
     }
     .lightbox-stage{
-        min-height:52vh;
-        max-height:calc(100vh - 188px)
+        width:100%;
+        max-width:100%;
+        min-height:0;
+        max-height:none;
+        padding:0
     }
     #image-lightbox img,
     #image-lightbox .lightbox-image{
-        max-height:calc(100vh - 208px)
+        width:auto;
+        height:auto;
+        max-width:100%;
+        max-height:calc(100vh - 210px);
+        max-height:calc(100dvh - 210px);
+        object-fit:contain;
+        object-position:center;
+        flex:0 1 auto
     }
     .lightbox-nav{
         width:40px;
@@ -3303,6 +3337,8 @@ Product Image Lightbox
     }
     .lightbox-tools{
         width:100%;
+        max-width:100%;
+        box-sizing:border-box;
         align-items:stretch;
         flex-direction:column;
         gap:8px
@@ -3311,12 +3347,22 @@ Product Image Lightbox
         text-align:center
     }
     .lightbox-zoom-controls{
-        width:100%
+        width:100%;
+        min-width:0
     }
     .lightbox-zoom-controls button{
         flex:1 1 0;
         min-width:0;
         padding:0 6px
+    }
+    .lightbox-product-info{
+        width:100%;
+        max-width:100%;
+        box-sizing:border-box;
+        overflow:hidden
+    }
+    .lightbox-product-info .button{
+        min-width:0
     }
     .close-lightbox{
         top:12px;
