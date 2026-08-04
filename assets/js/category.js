@@ -212,6 +212,15 @@ function hydrateProductCategoryCards(categories) {
   });
 }
 
+function updateProductsCategoryBrowserVisibility(category) {
+  const categoryBrowser = document.querySelector(".product-categories-section");
+  if (!categoryBrowser) return;
+
+  const shouldShowCategoryBrowser = browseMode === "products" && !category;
+  categoryBrowser.hidden = !shouldShowCategoryBrowser;
+  categoryBrowser.setAttribute("aria-hidden", String(!shouldShowCategoryBrowser));
+}
+
 async function loadJson(fileName, validator) {
   if (!window.fetch) return null;
 
@@ -715,6 +724,8 @@ function updateSearchPageChrome() {
 function updateProductsPageChrome() {
   if (browseMode !== "products") return;
   const category = getProductsCategoryInfo();
+  updateProductsCategoryBrowserVisibility(category);
+
   if (!category) {
     data = { title: "Products", thumbnail: "" };
     return;
@@ -880,9 +891,8 @@ function renderProductCard(product, searchState) {
   }
 
   const description = product.description || product.application || "Heavy-duty replacement part";
-  const brandMeta = product.brand && normalizeSearchValue(product.brand) !== "brand not specified"
-    ? `<div class="product-meta"><span class="product-brand">${highlightText(product.brand, searchState.highlightTerms)}</span></div>`
-    : "";
+  const brandLabel = product.brand || "Brand not specified";
+  const brandMeta = `<div class="product-meta"><span class="product-brand">${highlightText(brandLabel, searchState.highlightTerms)}</span></div>`;
   const detailHref = product.url
     ? assetPath(product.url)
     : (product.slug ? assetPath(`products/${product.slug}.html`) : "");
@@ -967,7 +977,8 @@ function render() {
 
   const filtered = filteredRecords.map(record => record.product);
 
-  const visible = filtered.slice(0, visibleCount);
+  const renderLimit = hasProductsCategoryScope() ? filtered.length : visibleCount;
+  const visible = filtered.slice(0, renderLimit);
 
   const hasAnyProducts = allCatalogueProducts.length > 0;
   const hasBaseProducts = catalogueProducts.length > 0;
@@ -996,7 +1007,7 @@ function render() {
 
   const loadMore = ensureLoadMoreButton();
   if (loadMore) {
-    loadMore.hidden = filtered.length <= visibleCount;
+    loadMore.hidden = hasProductsCategoryScope() || filtered.length <= visibleCount;
   }
 }
 
