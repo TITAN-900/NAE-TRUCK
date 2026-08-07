@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="icon" href="assets/img/nihon-asia-logo.png">
 </head>
-<body class="category-page info-page">
+<body class="about-page info-page">
   <a class="skip-link" href="#aboutMain">Skip to about page</a>
   <div class="topline"><div class="container topline-inner"><span>Heavy-duty truck parts catalog</span><span>Search by code, model or brand</span><span>Malaysia</span></div></div>
   <header class="site-header" id="siteHeader">
@@ -24,27 +24,33 @@
   </header>
 
   <main id="aboutMain">
-    <section class="category-hero">
-      <div class="container">
-        <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>About Us</span></div>
-        <div class="category-hero-grid">
-          <div class="category-hero-copy"><p class="eyebrow eyebrow-light"><span></span> About NIHON ASIA</p><h1>About Us</h1><p>NIHON ASIA ENTERPRISE Sdn. Bhd. supports heavy-duty truck spare parts browsing, identification and supply enquiries.</p></div>
-          
-        </div>
-      </div>
+    <section class="about-photo-hero is-photo-missing" aria-label="NIHON ASIA ENTERPRISE working environment photo" data-photo-source="assets/img/about/company.jpg">
+      <img class="about-company-photo" alt="NIHON ASIA ENTERPRISE warehouse, shop or truck parts working environment" loading="eager" decoding="async" hidden>
+      <div class="about-photo-fade" aria-hidden="true"></div>
     </section>
 
-    <section class="section info-section">
-      <div class="container info-grid">
-        <div class="info-copy reveal">
-          <p class="eyebrow"><span></span> Focus</p>
-          <h2>Built around<br><em>parts search.</em></h2>
-          <p>The website is structured as a heavy-duty truck parts catalog for customers and sales teams. The website is prepared for searchable product photos, brand browsing, OCR text and future catalog growth.</p>
-          <p>The catalog focuses on helping users identify parts by product code, description, engine model, vehicle model, brand and visible product-image text.</p>
-          <a class="button button-orange" href="products.html">Browse Products <span>&nearr;</span></a>
+    <section class="about-content-section" aria-labelledby="aboutPageTitle">
+      <div class="about-content-shell reveal">
+        <div class="about-content-main">
+          <p class="eyebrow"><span></span> About NIHON ASIA</p>
+          <h1 id="aboutPageTitle">Heavy-Duty Truck Parts,<br>Built Around Real Industry Needs.</h1>
+          <div class="about-copy">
+            <p>NIHON ASIA ENTERPRISE supplies heavy-duty truck spare parts for commercial vehicles, supporting customers and sales teams with product identification, catalog browsing and supply enquiries.</p>
+            <p>Our catalog covers a growing range of truck components, with searchable product codes, descriptions, vehicle applications and product imagery designed to make parts identification faster and easier.</p>
+          </div>
         </div>
-        <div class="info-visual reveal delay-1">
-          <img src="assets/img/hero-sunset-truck.png" alt="Heavy-duty truck on highway">
+
+        <div class="about-work-grid">
+          <div class="about-work-title">
+            <p class="eyebrow"><span></span> What We Do</p>
+          </div>
+          <ul class="about-work-list" aria-label="What NIHON ASIA does">
+            <li>Heavy-duty truck spare parts supply</li>
+            <li>Product identification</li>
+            <li>Parts catalog browsing</li>
+            <li>Sales enquiries</li>
+            <li>Growing product database</li>
+          </ul>
         </div>
       </div>
     </section>
@@ -56,6 +62,27 @@
     </div>
     <div class="container footer-bottom"><span>&copy; <span id="year"></span> NIHON ASIA ENTERPRISE Sdn. Bhd.</span><span>Heavy-duty truck parts catalog</span></div>
   </footer>
+  <script>
+    (() => {
+      const photoFrame = document.querySelector(".about-photo-hero");
+      const photo = photoFrame?.querySelector(".about-company-photo");
+      const source = photoFrame?.dataset.photoSource;
+
+      if (!photoFrame || !photo || !source) return;
+
+      const probe = new Image();
+      probe.onload = () => {
+        photo.src = source;
+        photo.hidden = false;
+        photoFrame.classList.remove("is-photo-missing");
+      };
+      probe.onerror = () => {
+        photo.hidden = true;
+        photoFrame.classList.add("is-photo-missing");
+      };
+      probe.src = source;
+    })();
+  </script>
   <script src="assets/js/site.js"></script>
 </body>
 </html>

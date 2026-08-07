@@ -2807,6 +2807,125 @@ h1 em,h2 em{
     display:block;
     object-fit:cover
 }
+.about-page{
+    background:#fff
+}
+.about-photo-hero{
+    position:relative;
+    width:100%;
+    height:62vh;
+    min-height:480px;
+    max-height:740px;
+    overflow:hidden;
+    isolation:isolate;
+    background:linear-gradient(135deg,#cfcac1 0%,#e7e3dc 48%,#fff 100%)
+}
+.about-photo-hero:before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    height:42%;
+    z-index:1;
+    pointer-events:none;
+    background:linear-gradient(to bottom,rgba(8,9,10,.58),rgba(8,9,10,.2) 48%,rgba(8,9,10,0) 100%)
+}
+.about-company-photo{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:cover;
+    object-position:center;
+    transform:scale(1.001)
+}
+.about-company-photo[hidden]{
+    display:none
+}
+.about-photo-fade{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:-1px;
+    z-index:2;
+    height:42%;
+    pointer-events:none;
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+    -webkit-mask-image:linear-gradient(to bottom,transparent 0%,#000 28%,#000 100%);
+    mask-image:linear-gradient(to bottom,transparent 0%,#000 28%,#000 100%);
+    background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,.15) 42%,rgba(255,255,255,.68) 74%,#fff 100%)
+}
+.about-content-section{
+    position:relative;
+    background:#fff;
+    padding:92px 0 136px
+}
+.about-content-shell{
+    width:min(1140px,calc(100% - 48px));
+    margin-inline:auto
+}
+.about-content-main{
+    max-width:1040px
+}
+.about-content-main h1{
+    margin:18px 0 0;
+    max-width:980px;
+    color:#111214;
+    font-size:clamp(42px,5vw,72px);
+    line-height:1.02;
+    letter-spacing:-.055em
+}
+.about-copy{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:48px;
+    margin-top:34px;
+    max-width:1030px
+}
+.about-copy p{
+    margin:0;
+    color:#56585b;
+    font-size:16px;
+    line-height:1.85
+}
+.about-work-grid{
+    display:grid;
+    grid-template-columns:.42fr 1fr;
+    gap:88px;
+    align-items:start;
+    margin-top:92px;
+    padding-top:38px;
+    border-top:1px solid rgba(17,18,20,.12)
+}
+.about-work-list{
+    list-style:none;
+    margin:0;
+    padding:0
+}
+.about-work-list li{
+    position:relative;
+    margin:0;
+    padding:0 0 18px 38px;
+    color:#17181a;
+    border-bottom:1px solid rgba(17,18,20,.1);
+    font-size:20px;
+    line-height:1.35;
+    font-weight:800;
+    letter-spacing:-.015em
+}
+.about-work-list li+li{
+    margin-top:18px
+}
+.about-work-list li:before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:.68em;
+    width:18px;
+    height:2px;
+    background:var(--orange)
+}
 .contact-detail-section{
     background:#101113;
     color:#fff;
@@ -2863,6 +2982,17 @@ h1 em,h2 em{
     .info-grid{
         grid-template-columns:1fr;
         gap:50px
+    }
+    .about-photo-hero{
+        height:56vh;
+        min-height:420px
+    }
+    .about-copy,
+    .about-work-grid{
+        grid-template-columns:1fr
+    }
+    .about-work-grid{
+        gap:26px
     }
 }
 @media(max-width:720px){
@@ -2928,6 +3058,46 @@ h1 em,h2 em{
     .info-visual,
     .info-visual img{
         min-height:300px
+    }
+    .about-photo-hero{
+        height:46vh;
+        min-height:330px;
+        max-height:430px
+    }
+    .about-photo-hero:before{
+        height:48%
+    }
+    .about-photo-fade{
+        height:46%;
+        backdrop-filter:blur(7px);
+        -webkit-backdrop-filter:blur(7px)
+    }
+    .about-content-section{
+        padding:68px 0 88px
+    }
+    .about-content-shell{
+        width:min(1140px,calc(100% - 48px))
+    }
+    .about-content-main h1{
+        font-size:clamp(34px,10.4vw,46px);
+        line-height:1.05;
+        letter-spacing:-.045em
+    }
+    .about-copy{
+        gap:22px;
+        margin-top:26px
+    }
+    .about-copy p{
+        font-size:15px;
+        line-height:1.78
+    }
+    .about-work-grid{
+        margin-top:62px;
+        padding-top:30px
+    }
+    .about-work-list li{
+        padding-left:30px;
+        font-size:17px
     }
     .contact-detail-section{
         padding-bottom:60px
