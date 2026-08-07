@@ -4225,5 +4225,1488 @@
       "importedAt": "2026-08-06T23:55:30",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest red product code visible in the source image."
     }
+  },
+  {
+    "id": "1-48270-044-1-UNI",
+    "code": "1-48270-044-1-UNI",
+    "number": "1-48270-044-1-UNI",
+    "productNumber": "1-48270-044-1-UNI",
+    "partNumber": "1-48270-044-1-UNI",
+    "name": "REAR ADJUSTER AUTO ADJ RH=LH 25T GIGA CXZ 10PE1",
+    "productName": "REAR ADJUSTER AUTO ADJ RH=LH 25T GIGA CXZ 10PE1",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "REAR ADJUSTER AUTO ADJ RH=LH 25T GIGA CXZ 10PE1. 25T, C-C 139 mm, ID 16 mm, ID 37/40 mm.",
+    "visibleDescription": "REAR ADJUSTER AUTO ADJ RH=LH 25T GIGA CXZ 10PE1",
+    "longDescription": "REAR ADJUSTER AUTO ADJ RH=LH 25T GIGA CXZ 10PE1. 25T, C-C 139 mm, ID 16 mm, ID 37/40 mm. OCR/source text preserved for search.",
+    "application": "GIGA CXZ, CXZ, 10PE1",
+    "brand": "UNIEURO",
+    "vehicleModel": "GIGA CXZ, CXZ, 10PE1",
+    "vehicleModels": [
+      "GIGA CXZ",
+      "CXZ",
+      "10PE1"
+    ],
+    "engineModel": "10PE1",
+    "engineModels": [
+      "10PE1"
+    ],
+    "oeNumber": "1-48270-044-1",
+    "oeNumbers": [
+      "1-48270-044-1"
+    ],
+    "alternateNumbers": [
+      "1482700441UNI",
+      "1 48270 044 1 UNI",
+      "1-48270-044-1",
+      "1482700441",
+      "1 48270 044 1",
+      "1-48270-044-1 UNI"
+    ],
+    "alternatePartNumbers": [
+      "1482700441UNI",
+      "1 48270 044 1 UNI",
+      "1-48270-044-1",
+      "1482700441",
+      "1 48270 044 1",
+      "1-48270-044-1 UNI"
+    ],
+    "availability": "Ready stock",
+    "image": "assets/img/products/1-48270-044-1-UNI.jpeg",
+    "thumbnail": "assets/img/products/1-48270-044-1-UNI.jpeg",
+    "images": [
+      "assets/img/products/1-48270-044-1-UNI.jpeg"
+    ],
+    "alt": "1-48270-044-1-uni rear adjuster auto adj rh=lh 25t giga cxz 10pe1 product image",
+    "slug": "1-48270-044-1-uni-slack-adjuster",
+    "url": "products/1-48270-044-1-uni-slack-adjuster.html",
+    "specifications": {
+      "visibleText": "REAR ADJUSTER AUTO ADJ RH=LH 25T GIGA CXZ 10PE1",
+      "measurements": [
+        "25T",
+        "C-C 139 mm",
+        "ID 16 mm",
+        "ID 37/40 mm"
+      ],
+      "teethSpline": [
+        "25T"
+      ],
+      "side": "RH=LH",
+      "position": "Rear",
+      "vehicleModels": [
+        "GIGA CXZ",
+        "CXZ",
+        "10PE1"
+      ],
+      "engineModels": [
+        "10PE1"
+      ],
+      "oemNumbers": [
+        "1-48270-044-1"
+      ],
+      "alternateNumbers": [
+        "1482700441UNI",
+        "1 48270 044 1 UNI",
+        "1-48270-044-1",
+        "1482700441",
+        "1 48270 044 1",
+        "1-48270-044-1 UNI"
+      ]
+    },
+    "specs": [
+      "25T",
+      "C-C 139 mm",
+      "ID 16 mm",
+      "ID 37/40 mm"
+    ],
+    "specification": "25T; C-C 139 mm; ID 16 mm; ID 37/40 mm",
+    "keywords": [
+      "slack adjuster",
+      "slack adj",
+      "auto slack adjuster",
+      "air brake slack adjuster",
+      "REAR ADJUSTER AUTO ADJ RH=LH 25T GIGA CXZ 10PE1",
+      "UNIEURO",
+      "WhatsApp Image 2026-08-07 at 2.24.36 PM",
+      "RH=LH",
+      "Rear",
+      "GIGA CXZ",
+      "CXZ",
+      "10PE1",
+      "25T",
+      "C-C 139 mm",
+      "ID 16 mm",
+      "ID 37/40 mm",
+      "1-48270-044-1",
+      "1482700441UNI",
+      "1 48270 044 1 UNI",
+      "1482700441",
+      "1 48270 044 1",
+      "1-48270-044-1 UNI",
+      "1-48270-044-1-UNI",
+      "EURO",
+      "GENUINE",
+      "C-C",
+      "139mm",
+      "ID",
+      "16mm",
+      "UNI",
+      "37/40mm",
+      "ADJUSTER",
+      "AUTO",
+      "ADJ",
+      "GIGA"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "1-48270-044-1-UNI 1482700441UNI 1 48270 044 1 UNI REAR ADJUSTER AUTO ADJ RH=LH 25T GIGA CXZ 10PE1 UNIEURO slack-adjuster REAR ADJUSTER AUTO ADJ RH=LH 25T GIGA CXZ 10PE1. 25T, C-C 139 mm, ID 16 mm, ID 37/40 mm. REAR ADJUSTER AUTO ADJ RH=LH 25T GIGA CXZ 10PE1. 25T, C-C 139 mm, ID 16 mm, ID 37/40 mm. OCR/source text preserved for search. GIGA CXZ, CXZ, 10PE1 10PE1 25T; C-C 139 mm; ID 16 mm; ID 37/40 mm Ready stock WhatsApp Image 2026-08-07 at 2.24.36 PM EURO GENUINE\nC-C 139mm\n1-48270-044-1\nID 16mm\n1-48270-044-1 UNI\n25T\nID 37/40mm\nREAR ADJUSTER AUTO ADJ RH=LH 25T GIGA CXZ 10PE1 visibleText measurements 25T C-C 139 mm ID 16 mm ID 37/40 mm teethSpline side RH=LH position Rear vehicleModels GIGA CXZ CXZ engineModels oemNumbers 1-48270-044-1 alternateNumbers 1482700441 1 48270 044 1 1-48270-044-1 UNI slack adjuster slack adj auto slack adjuster air brake slack adjuster EURO GENUINE C-C 139mm ID 16mm UNI 37/40mm ADJUSTER AUTO ADJ GIGA",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-07 at 2.24.36 PM.jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-07 at 2.24.36 PM.jpeg",
+      "hash": "6998bafc21f4491d0c50157aae15d5de9fbebdc293b2261600f4de92e84e57c1",
+      "ocrText": "EURO GENUINE\nC-C 139mm\n1-48270-044-1\nID 16mm\n1-48270-044-1 UNI\n25T\nID 37/40mm\nREAR ADJUSTER AUTO ADJ RH=LH 25T GIGA CXZ 10PE1",
+      "importedAt": "2026-08-07T22:46:39",
+      "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image."
+    }
+  },
+  {
+    "id": "1-48270-043-0-UNI",
+    "code": "1-48270-043-0-UNI",
+    "number": "1-48270-043-0-UNI",
+    "productNumber": "1-48270-043-0-UNI",
+    "partNumber": "1-48270-043-0-UNI",
+    "name": "AUTO ADJ ADJUSTER 25T RH CXZ 10PE1 GIGA",
+    "productName": "AUTO ADJ ADJUSTER 25T RH CXZ 10PE1 GIGA",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "AUTO ADJ ADJUSTER 25T RH CXZ 10PE1 GIGA. 25T, C-C 160 mm, HI 131 mm, ID 16 mm, ID 37/40 mm.",
+    "visibleDescription": "AUTO ADJ ADJUSTER 25T RH CXZ 10PE1 GIGA",
+    "longDescription": "AUTO ADJ ADJUSTER 25T RH CXZ 10PE1 GIGA. 25T, C-C 160 mm, HI 131 mm, ID 16 mm, ID 37/40 mm. OCR/source text preserved for search.",
+    "application": "CXZ, 10PE1, GIGA",
+    "brand": "UNIEURO",
+    "vehicleModel": "CXZ, 10PE1, GIGA",
+    "vehicleModels": [
+      "CXZ",
+      "10PE1",
+      "GIGA"
+    ],
+    "engineModel": "10PE1",
+    "engineModels": [
+      "10PE1"
+    ],
+    "oeNumber": "1-48270-043-0",
+    "oeNumbers": [
+      "1-48270-043-0"
+    ],
+    "alternateNumbers": [
+      "1482700430UNI",
+      "1 48270 043 0 UNI",
+      "1-48270-043-0",
+      "1482700430",
+      "1 48270 043 0",
+      "1-48270-043-0 UNI"
+    ],
+    "alternatePartNumbers": [
+      "1482700430UNI",
+      "1 48270 043 0 UNI",
+      "1-48270-043-0",
+      "1482700430",
+      "1 48270 043 0",
+      "1-48270-043-0 UNI"
+    ],
+    "availability": "Ready stock",
+    "image": "assets/img/products/1-48270-043-0-UNI.jpeg",
+    "thumbnail": "assets/img/products/1-48270-043-0-UNI.jpeg",
+    "images": [
+      "assets/img/products/1-48270-043-0-UNI.jpeg"
+    ],
+    "alt": "1-48270-043-0-uni auto adj adjuster 25t rh cxz 10pe1 giga product image",
+    "slug": "1-48270-043-0-uni-slack-adjuster",
+    "url": "products/1-48270-043-0-uni-slack-adjuster.html",
+    "specifications": {
+      "visibleText": "AUTO ADJ ADJUSTER 25T RH CXZ 10PE1 GIGA",
+      "measurements": [
+        "25T",
+        "C-C 160 mm",
+        "HI 131 mm",
+        "ID 16 mm",
+        "ID 37/40 mm"
+      ],
+      "teethSpline": [
+        "25T"
+      ],
+      "side": "RH",
+      "position": "",
+      "vehicleModels": [
+        "CXZ",
+        "10PE1",
+        "GIGA"
+      ],
+      "engineModels": [
+        "10PE1"
+      ],
+      "oemNumbers": [
+        "1-48270-043-0"
+      ],
+      "alternateNumbers": [
+        "1482700430UNI",
+        "1 48270 043 0 UNI",
+        "1-48270-043-0",
+        "1482700430",
+        "1 48270 043 0",
+        "1-48270-043-0 UNI"
+      ]
+    },
+    "specs": [
+      "25T",
+      "C-C 160 mm",
+      "HI 131 mm",
+      "ID 16 mm",
+      "ID 37/40 mm"
+    ],
+    "specification": "25T; C-C 160 mm; HI 131 mm; ID 16 mm; ID 37/40 mm",
+    "keywords": [
+      "slack adjuster",
+      "slack adj",
+      "auto slack adjuster",
+      "air brake slack adjuster",
+      "AUTO ADJ ADJUSTER 25T RH CXZ 10PE1 GIGA",
+      "UNIEURO",
+      "WhatsApp Image 2026-08-07 at 3.19.49 PM",
+      "RH",
+      "CXZ",
+      "10PE1",
+      "GIGA",
+      "25T",
+      "C-C 160 mm",
+      "HI 131 mm",
+      "ID 16 mm",
+      "ID 37/40 mm",
+      "1-48270-043-0",
+      "1482700430UNI",
+      "1 48270 043 0 UNI",
+      "1482700430",
+      "1 48270 043 0",
+      "1-48270-043-0 UNI",
+      "1-48270-043-0-UNI",
+      "EURO",
+      "GENUINE",
+      "C-C",
+      "160mm",
+      "HI",
+      "131mm",
+      "ID",
+      "16mm",
+      "37/40mm",
+      "UNI",
+      "AUTO",
+      "ADJ",
+      "ADJUSTER"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "1-48270-043-0-UNI 1482700430UNI 1 48270 043 0 UNI AUTO ADJ ADJUSTER 25T RH CXZ 10PE1 GIGA UNIEURO slack-adjuster AUTO ADJ ADJUSTER 25T RH CXZ 10PE1 GIGA. 25T, C-C 160 mm, HI 131 mm, ID 16 mm, ID 37/40 mm. AUTO ADJ ADJUSTER 25T RH CXZ 10PE1 GIGA. 25T, C-C 160 mm, HI 131 mm, ID 16 mm, ID 37/40 mm. OCR/source text preserved for search. CXZ, 10PE1, GIGA 10PE1 25T; C-C 160 mm; HI 131 mm; ID 16 mm; ID 37/40 mm Ready stock WhatsApp Image 2026-08-07 at 3.19.49 PM EURO GENUINE\nC-C 160mm\n1-48270-043-0\nHI 131mm\nID 16mm\n25T\nID 37/40mm\n1-48270-043-0 UNI\nAUTO ADJ ADJUSTER 25T RH CXZ 10PE1 GIGA visibleText measurements 25T C-C 160 mm HI 131 mm ID 16 mm ID 37/40 mm teethSpline side RH position vehicleModels CXZ GIGA engineModels oemNumbers 1-48270-043-0 alternateNumbers 1482700430 1 48270 043 0 1-48270-043-0 UNI slack adjuster slack adj auto slack adjuster air brake slack adjuster EURO GENUINE C-C 160mm HI 131mm ID 16mm 37/40mm UNI AUTO ADJ ADJUSTER",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-07 at 3.19.49 PM.jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-07 at 3.19.49 PM.jpeg",
+      "hash": "4a030619e6ef63c20e1b6cb129072f0bd6d161ba2dcf25f33e04525cfc307914",
+      "ocrText": "EURO GENUINE\nC-C 160mm\n1-48270-043-0\nHI 131mm\nID 16mm\n25T\nID 37/40mm\n1-48270-043-0 UNI\nAUTO ADJ ADJUSTER 25T RH CXZ 10PE1 GIGA",
+      "importedAt": "2026-08-07T22:46:39",
+      "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image."
+    }
+  },
+  {
+    "id": "1-48270-044-0-UNI",
+    "code": "1-48270-044-0-UNI",
+    "number": "1-48270-044-0-UNI",
+    "productNumber": "1-48270-044-0-UNI",
+    "partNumber": "1-48270-044-0-UNI",
+    "name": "AUTO ADJ ADJUSTER 25T LH CXZ 10PE1 GIGA",
+    "productName": "AUTO ADJ ADJUSTER 25T LH CXZ 10PE1 GIGA",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "AUTO ADJ ADJUSTER 25T LH CXZ 10PE1 GIGA. 25T, C-C 160 mm, HI 131 mm, ID 16 mm, ID 37/40 mm.",
+    "visibleDescription": "AUTO ADJ ADJUSTER 25T LH CXZ 10PE1 GIGA",
+    "longDescription": "AUTO ADJ ADJUSTER 25T LH CXZ 10PE1 GIGA. 25T, C-C 160 mm, HI 131 mm, ID 16 mm, ID 37/40 mm. OCR/source text preserved for search.",
+    "application": "CXZ, 10PE1, GIGA",
+    "brand": "UNIEURO",
+    "vehicleModel": "CXZ, 10PE1, GIGA",
+    "vehicleModels": [
+      "CXZ",
+      "10PE1",
+      "GIGA"
+    ],
+    "engineModel": "10PE1",
+    "engineModels": [
+      "10PE1"
+    ],
+    "oeNumber": "1-48270-044-0",
+    "oeNumbers": [
+      "1-48270-044-0"
+    ],
+    "alternateNumbers": [
+      "1482700440UNI",
+      "1 48270 044 0 UNI",
+      "1-48270-044-0",
+      "1482700440",
+      "1 48270 044 0",
+      "1-48270-044-0 UNI"
+    ],
+    "alternatePartNumbers": [
+      "1482700440UNI",
+      "1 48270 044 0 UNI",
+      "1-48270-044-0",
+      "1482700440",
+      "1 48270 044 0",
+      "1-48270-044-0 UNI"
+    ],
+    "availability": "Ready stock",
+    "image": "assets/img/products/1-48270-044-0-UNI.jpeg",
+    "thumbnail": "assets/img/products/1-48270-044-0-UNI.jpeg",
+    "images": [
+      "assets/img/products/1-48270-044-0-UNI.jpeg"
+    ],
+    "alt": "1-48270-044-0-uni auto adj adjuster 25t lh cxz 10pe1 giga product image",
+    "slug": "1-48270-044-0-uni-slack-adjuster",
+    "url": "products/1-48270-044-0-uni-slack-adjuster.html",
+    "specifications": {
+      "visibleText": "AUTO ADJ ADJUSTER 25T LH CXZ 10PE1 GIGA",
+      "measurements": [
+        "25T",
+        "C-C 160 mm",
+        "HI 131 mm",
+        "ID 16 mm",
+        "ID 37/40 mm"
+      ],
+      "teethSpline": [
+        "25T"
+      ],
+      "side": "LH",
+      "position": "",
+      "vehicleModels": [
+        "CXZ",
+        "10PE1",
+        "GIGA"
+      ],
+      "engineModels": [
+        "10PE1"
+      ],
+      "oemNumbers": [
+        "1-48270-044-0"
+      ],
+      "alternateNumbers": [
+        "1482700440UNI",
+        "1 48270 044 0 UNI",
+        "1-48270-044-0",
+        "1482700440",
+        "1 48270 044 0",
+        "1-48270-044-0 UNI"
+      ]
+    },
+    "specs": [
+      "25T",
+      "C-C 160 mm",
+      "HI 131 mm",
+      "ID 16 mm",
+      "ID 37/40 mm"
+    ],
+    "specification": "25T; C-C 160 mm; HI 131 mm; ID 16 mm; ID 37/40 mm",
+    "keywords": [
+      "slack adjuster",
+      "slack adj",
+      "auto slack adjuster",
+      "air brake slack adjuster",
+      "AUTO ADJ ADJUSTER 25T LH CXZ 10PE1 GIGA",
+      "UNIEURO",
+      "WhatsApp Image 2026-08-07 at 3.22.24 PM",
+      "LH",
+      "CXZ",
+      "10PE1",
+      "GIGA",
+      "25T",
+      "C-C 160 mm",
+      "HI 131 mm",
+      "ID 16 mm",
+      "ID 37/40 mm",
+      "1-48270-044-0",
+      "1482700440UNI",
+      "1 48270 044 0 UNI",
+      "1482700440",
+      "1 48270 044 0",
+      "1-48270-044-0 UNI",
+      "1-48270-044-0-UNI",
+      "EURO",
+      "GENUINE",
+      "C-C",
+      "160mm",
+      "HI",
+      "131mm",
+      "ID",
+      "16mm",
+      "37/40mm",
+      "UNI",
+      "AUTO",
+      "ADJ",
+      "ADJUSTER"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "1-48270-044-0-UNI 1482700440UNI 1 48270 044 0 UNI AUTO ADJ ADJUSTER 25T LH CXZ 10PE1 GIGA UNIEURO slack-adjuster AUTO ADJ ADJUSTER 25T LH CXZ 10PE1 GIGA. 25T, C-C 160 mm, HI 131 mm, ID 16 mm, ID 37/40 mm. AUTO ADJ ADJUSTER 25T LH CXZ 10PE1 GIGA. 25T, C-C 160 mm, HI 131 mm, ID 16 mm, ID 37/40 mm. OCR/source text preserved for search. CXZ, 10PE1, GIGA 10PE1 25T; C-C 160 mm; HI 131 mm; ID 16 mm; ID 37/40 mm Ready stock WhatsApp Image 2026-08-07 at 3.22.24 PM EURO GENUINE\nC-C 160mm\n1-48270-044-0\nHI 131mm\nID 16mm\n25T\nID 37/40mm\n1-48270-044-0 UNI\nAUTO ADJ ADJUSTER 25T LH CXZ 10PE1 GIGA visibleText measurements 25T C-C 160 mm HI 131 mm ID 16 mm ID 37/40 mm teethSpline side LH position vehicleModels CXZ GIGA engineModels oemNumbers 1-48270-044-0 alternateNumbers 1482700440 1 48270 044 0 1-48270-044-0 UNI slack adjuster slack adj auto slack adjuster air brake slack adjuster EURO GENUINE C-C 160mm HI 131mm ID 16mm 37/40mm UNI AUTO ADJ ADJUSTER",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-07 at 3.22.24 PM.jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-07 at 3.22.24 PM.jpeg",
+      "hash": "2ea911940a6439cbe8a71cddb000218d4e385c3434b1993767710b0675ab1899",
+      "ocrText": "EURO GENUINE\nC-C 160mm\n1-48270-044-0\nHI 131mm\nID 16mm\n25T\nID 37/40mm\n1-48270-044-0 UNI\nAUTO ADJ ADJUSTER 25T LH CXZ 10PE1 GIGA",
+      "importedAt": "2026-08-07T22:46:39",
+      "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image."
+    }
+  },
+  {
+    "id": "3551020-ZB100",
+    "code": "3551020-ZB100",
+    "number": "3551020-ZB100",
+    "productNumber": "3551020-ZB100",
+    "partNumber": "3551020-ZB100",
+    "name": "ADJUSTER 14T REAR LH DF KINDLAND ID 40M LONG 200M",
+    "productName": "ADJUSTER 14T REAR LH DF KINDLAND ID 40M LONG 200M",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "ADJUSTER 14T REAR LH DF KINDLAND ID 40M LONG 200M. 14T, ID 35/40 mm, M16.",
+    "visibleDescription": "ADJUSTER 14T REAR LH DF KINDLAND ID 40M LONG 200M",
+    "longDescription": "ADJUSTER 14T REAR LH DF KINDLAND ID 40M LONG 200M. 14T, ID 35/40 mm, M16. OCR/source text preserved for search.",
+    "application": "DF KINDLAND, KINDLAND",
+    "brand": "XIN SENG",
+    "vehicleModel": "DF KINDLAND, KINDLAND",
+    "vehicleModels": [
+      "DF KINDLAND",
+      "KINDLAND"
+    ],
+    "engineModel": "",
+    "engineModels": [],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [
+      "3551020ZB100",
+      "3551020 ZB100"
+    ],
+    "alternatePartNumbers": [
+      "3551020ZB100",
+      "3551020 ZB100"
+    ],
+    "availability": "Ready stock",
+    "image": "assets/img/products/3551020-ZB100.jpeg",
+    "thumbnail": "assets/img/products/3551020-ZB100.jpeg",
+    "images": [
+      "assets/img/products/3551020-ZB100.jpeg"
+    ],
+    "alt": "3551020-zb100 adjuster 14t rear lh df kindland id 40m long 200m product image",
+    "slug": "3551020-zb100-slack-adjuster",
+    "url": "products/3551020-zb100-slack-adjuster.html",
+    "specifications": {
+      "visibleText": "ADJUSTER 14T REAR LH DF KINDLAND ID 40M LONG 200M",
+      "measurements": [
+        "14T",
+        "ID 35/40 mm",
+        "M16",
+        "ID 40M",
+        "LONG 200M"
+      ],
+      "teethSpline": [
+        "14T"
+      ],
+      "side": "LH",
+      "position": "Rear",
+      "vehicleModels": [
+        "DF KINDLAND",
+        "KINDLAND"
+      ],
+      "engineModels": [],
+      "oemNumbers": [],
+      "alternateNumbers": [
+        "3551020ZB100",
+        "3551020 ZB100"
+      ]
+    },
+    "specs": [
+      "14T",
+      "ID 35/40 mm",
+      "M16",
+      "ID 40M",
+      "LONG 200M"
+    ],
+    "specification": "14T; ID 35/40 mm; M16; ID 40M; LONG 200M",
+    "keywords": [
+      "slack adjuster",
+      "slack adj",
+      "auto slack adjuster",
+      "air brake slack adjuster",
+      "ADJUSTER 14T REAR LH DF KINDLAND ID 40M LONG 200M",
+      "XIN SENG",
+      "WhatsApp Image 2026-08-07 at 3.45.34 PM",
+      "LH",
+      "Rear",
+      "DF KINDLAND",
+      "KINDLAND",
+      "14T",
+      "ID 35/40 mm",
+      "M16",
+      "ID 40M",
+      "LONG 200M",
+      "3551020ZB100",
+      "3551020 ZB100",
+      "3551020-ZB100",
+      "XIN",
+      "SENG",
+      "ID",
+      "35/40mm",
+      "ADJUSTER",
+      "DF",
+      "40M",
+      "LONG",
+      "200M"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 96,
+    "searchableText": "3551020-ZB100 3551020ZB100 3551020 ZB 100 ADJUSTER 14T REAR LH DF KINDLAND ID 40M LONG 200M XIN SENG slack-adjuster ADJUSTER 14T REAR LH DF KINDLAND ID 40M LONG 200M. 14T, ID 35/40 mm, M16. ADJUSTER 14T REAR LH DF KINDLAND ID 40M LONG 200M. 14T, ID 35/40 mm, M16. OCR/source text preserved for search. DF KINDLAND, KINDLAND 14T; ID 35/40 mm; M16; ID 40M; LONG 200M Ready stock WhatsApp Image 2026-08-07 at 3.45.34 PM XIN SENG\nID 35/40mm\nM16\n14T\n3551020-ZB100\nADJUSTER 14T REAR LH DF KINDLAND ID 40M LONG 200M visibleText measurements 14T ID 35/40 mm M16 ID 40M LONG 200M teethSpline side LH position Rear vehicleModels DF KINDLAND KINDLAND engineModels oemNumbers alternateNumbers 3551020 ZB100 slack adjuster slack adj auto slack adjuster air brake slack adjuster XIN SENG ID 35/40mm ADJUSTER DF 40M LONG 200M",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-07 at 3.45.34 PM.jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-07 at 3.45.34 PM.jpeg",
+      "hash": "f96b9291e6af5429cd94e755644916034ba845177f8f91737ba38ab5f5adf839",
+      "ocrText": "XIN SENG\nID 35/40mm\nM16\n14T\n3551020-ZB100\nADJUSTER 14T REAR LH DF KINDLAND ID 40M LONG 200M",
+      "importedAt": "2026-08-07T22:46:39",
+      "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image.",
+      "ocrWarning": "OCR read the final three characters as ZBIOO; product code corrected from the clearly visible large code 3551020-ZB100."
+    }
+  },
+  {
+    "id": "3551025-ZB100",
+    "code": "3551025-ZB100",
+    "number": "3551025-ZB100",
+    "productNumber": "3551025-ZB100",
+    "partNumber": "3551025-ZB100",
+    "name": "ADJUSTER 14T REAR RH DF KINDLAND ID 40M LONG 200M",
+    "productName": "ADJUSTER 14T REAR RH DF KINDLAND ID 40M LONG 200M",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "ADJUSTER 14T REAR RH DF KINDLAND ID 40M LONG 200M. 14T, ID 35/40 mm, M16.",
+    "visibleDescription": "ADJUSTER 14T REAR RH DF KINDLAND ID 40M LONG 200M",
+    "longDescription": "ADJUSTER 14T REAR RH DF KINDLAND ID 40M LONG 200M. 14T, ID 35/40 mm, M16. OCR/source text preserved for search.",
+    "application": "DF KINDLAND, KINDLAND",
+    "brand": "XIN SENG",
+    "vehicleModel": "DF KINDLAND, KINDLAND",
+    "vehicleModels": [
+      "DF KINDLAND",
+      "KINDLAND"
+    ],
+    "engineModel": "",
+    "engineModels": [],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [
+      "3551025ZB100",
+      "3551025 ZB100"
+    ],
+    "alternatePartNumbers": [
+      "3551025ZB100",
+      "3551025 ZB100"
+    ],
+    "availability": "Ready stock",
+    "image": "assets/img/products/3551025-ZB100.jpeg",
+    "thumbnail": "assets/img/products/3551025-ZB100.jpeg",
+    "images": [
+      "assets/img/products/3551025-ZB100.jpeg"
+    ],
+    "alt": "3551025-zb100 adjuster 14t rear rh df kindland id 40m long 200m product image",
+    "slug": "3551025-zb100-slack-adjuster",
+    "url": "products/3551025-zb100-slack-adjuster.html",
+    "specifications": {
+      "visibleText": "ADJUSTER 14T REAR RH DF KINDLAND ID 40M LONG 200M",
+      "measurements": [
+        "14T",
+        "ID 35/40 mm",
+        "M16",
+        "ID 40M",
+        "LONG 200M"
+      ],
+      "teethSpline": [
+        "14T"
+      ],
+      "side": "RH",
+      "position": "Rear",
+      "vehicleModels": [
+        "DF KINDLAND",
+        "KINDLAND"
+      ],
+      "engineModels": [],
+      "oemNumbers": [],
+      "alternateNumbers": [
+        "3551025ZB100",
+        "3551025 ZB100"
+      ]
+    },
+    "specs": [
+      "14T",
+      "ID 35/40 mm",
+      "M16",
+      "ID 40M",
+      "LONG 200M"
+    ],
+    "specification": "14T; ID 35/40 mm; M16; ID 40M; LONG 200M",
+    "keywords": [
+      "slack adjuster",
+      "slack adj",
+      "auto slack adjuster",
+      "air brake slack adjuster",
+      "ADJUSTER 14T REAR RH DF KINDLAND ID 40M LONG 200M",
+      "XIN SENG",
+      "WhatsApp Image 2026-08-07 at 3.47.19 PM",
+      "RH",
+      "Rear",
+      "DF KINDLAND",
+      "KINDLAND",
+      "14T",
+      "ID 35/40 mm",
+      "M16",
+      "ID 40M",
+      "LONG 200M",
+      "3551025ZB100",
+      "3551025 ZB100",
+      "3551025-ZB100",
+      "XIN",
+      "SENG",
+      "ID",
+      "35/40mm",
+      "ADJUSTER",
+      "DF",
+      "40M",
+      "LONG",
+      "200M"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 96,
+    "searchableText": "3551025-ZB100 3551025ZB100 3551025 ZB 100 ADJUSTER 14T REAR RH DF KINDLAND ID 40M LONG 200M XIN SENG slack-adjuster ADJUSTER 14T REAR RH DF KINDLAND ID 40M LONG 200M. 14T, ID 35/40 mm, M16. ADJUSTER 14T REAR RH DF KINDLAND ID 40M LONG 200M. 14T, ID 35/40 mm, M16. OCR/source text preserved for search. DF KINDLAND, KINDLAND 14T; ID 35/40 mm; M16; ID 40M; LONG 200M Ready stock WhatsApp Image 2026-08-07 at 3.47.19 PM XIN SENG\nID 35/40mm\nM16\n14T\n3551025-ZB100\nADJUSTER 14T REAR RH DF KINDLAND ID 40M LONG 200M visibleText measurements 14T ID 35/40 mm M16 ID 40M LONG 200M teethSpline side RH position Rear vehicleModels DF KINDLAND KINDLAND engineModels oemNumbers alternateNumbers 3551025 ZB100 slack adjuster slack adj auto slack adjuster air brake slack adjuster XIN SENG ID 35/40mm ADJUSTER DF 40M LONG 200M",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-07 at 3.47.19 PM.jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-07 at 3.47.19 PM.jpeg",
+      "hash": "d52274899a64f8bf1ec1394f976140d8a1862bc107cdb977eea46007fc932794",
+      "ocrText": "XIN SENG\nID 35/40mm\nM16\n14T\n3551025-ZB100\nADJUSTER 14T REAR RH DF KINDLAND ID 40M LONG 200M",
+      "importedAt": "2026-08-07T22:46:39",
+      "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image.",
+      "ocrWarning": "OCR read the final three characters as ZBIOO; product code corrected from the clearly visible large code 3551025-ZB100."
+    }
+  },
+  {
+    "id": "3551ZB6-001",
+    "code": "3551ZB6-001",
+    "number": "3551ZB6-001",
+    "productNumber": "3551ZB6-001",
+    "partNumber": "3551ZB6-001",
+    "name": "FRT ADJUSTER LH 14T DF DONG FENG",
+    "productName": "FRT ADJUSTER LH 14T DF DONG FENG",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "FRT ADJUSTER LH 14T DF DONG FENG. 14T, ID 36/40 mm, M16.",
+    "visibleDescription": "FRT ADJUSTER LH 14T DF DONG FENG",
+    "longDescription": "FRT ADJUSTER LH 14T DF DONG FENG. 14T, ID 36/40 mm, M16. OCR/source text preserved for search.",
+    "application": "DF, DONG FENG",
+    "brand": "XIN SENG",
+    "vehicleModel": "DF, DONG FENG",
+    "vehicleModels": [
+      "DF",
+      "DONG FENG"
+    ],
+    "engineModel": "",
+    "engineModels": [],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [
+      "3551ZB6001",
+      "3551ZB6 001"
+    ],
+    "alternatePartNumbers": [
+      "3551ZB6001",
+      "3551ZB6 001"
+    ],
+    "availability": "Ready stock",
+    "image": "assets/img/products/3551ZB6-001.jpeg",
+    "thumbnail": "assets/img/products/3551ZB6-001.jpeg",
+    "images": [
+      "assets/img/products/3551ZB6-001.jpeg"
+    ],
+    "alt": "3551zb6-001 frt adjuster lh 14t df dong feng product image",
+    "slug": "3551zb6-001-slack-adjuster",
+    "url": "products/3551zb6-001-slack-adjuster.html",
+    "specifications": {
+      "visibleText": "FRT ADJUSTER LH 14T DF DONG FENG",
+      "measurements": [
+        "14T",
+        "ID 36/40 mm",
+        "M16"
+      ],
+      "teethSpline": [
+        "14T"
+      ],
+      "side": "LH",
+      "position": "Front",
+      "vehicleModels": [
+        "DF",
+        "DONG FENG"
+      ],
+      "engineModels": [],
+      "oemNumbers": [],
+      "alternateNumbers": [
+        "3551ZB6001",
+        "3551ZB6 001"
+      ]
+    },
+    "specs": [
+      "14T",
+      "ID 36/40 mm",
+      "M16"
+    ],
+    "specification": "14T; ID 36/40 mm; M16",
+    "keywords": [
+      "slack adjuster",
+      "slack adj",
+      "auto slack adjuster",
+      "air brake slack adjuster",
+      "FRT ADJUSTER LH 14T DF DONG FENG",
+      "XIN SENG",
+      "WhatsApp Image 2026-08-07 at 4.00.32 PM",
+      "LH",
+      "Front",
+      "DF",
+      "DONG FENG",
+      "14T",
+      "ID 36/40 mm",
+      "M16",
+      "3551ZB6001",
+      "3551ZB6 001",
+      "3551ZB6-001",
+      "XIN",
+      "SENG",
+      "ID",
+      "36/40mm",
+      "FRT",
+      "ADJUSTER",
+      "DONG",
+      "FENG"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 96,
+    "searchableText": "3551ZB6-001 3551ZB6001 3551 ZB 6 001 FRT ADJUSTER LH 14T DF DONG FENG XIN SENG slack-adjuster FRT ADJUSTER LH 14T DF DONG FENG. 14T, ID 36/40 mm, M16. FRT ADJUSTER LH 14T DF DONG FENG. 14T, ID 36/40 mm, M16. OCR/source text preserved for search. DF, DONG FENG 14T; ID 36/40 mm; M16 Ready stock WhatsApp Image 2026-08-07 at 4.00.32 PM XIN SENG\nID 36/40mm\nM16\n14T\n3551ZB6-001\nFRT ADJUSTER LH 14T DF DONG FENG visibleText measurements 14T ID 36/40 mm M16 teethSpline side LH position Front vehicleModels DF DONG FENG engineModels oemNumbers alternateNumbers 3551ZB6 001 slack adjuster slack adj auto slack adjuster air brake slack adjuster XIN SENG ID 36/40mm FRT ADJUSTER DONG FENG",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-07 at 4.00.32 PM.jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-07 at 4.00.32 PM.jpeg",
+      "hash": "1576f8a57d4670a75d2fbe457aa7d1f0262f290a1806c5222b1e06bc2192e591",
+      "ocrText": "XIN SENG\nID 36/40mm\nM16\n14T\n3551ZB6-001\nFRT ADJUSTER LH 14T DF DONG FENG",
+      "importedAt": "2026-08-07T22:46:39",
+      "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image.",
+      "ocrWarning": "OCR recognized DONGFENG as a vehicle/model term; brand kept as XIN SENG from the visible blue/yellow logo."
+    }
+  },
+  {
+    "id": "3551ZB6-002",
+    "code": "3551ZB6-002",
+    "number": "3551ZB6-002",
+    "productNumber": "3551ZB6-002",
+    "partNumber": "3551ZB6-002",
+    "name": "FRT ADJUSTER RH 14T DF DONG FENG",
+    "productName": "FRT ADJUSTER RH 14T DF DONG FENG",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "FRT ADJUSTER RH 14T DF DONG FENG. 14T, ID 36/40 mm, M16.",
+    "visibleDescription": "FRT ADJUSTER RH 14T DF DONG FENG",
+    "longDescription": "FRT ADJUSTER RH 14T DF DONG FENG. 14T, ID 36/40 mm, M16. OCR/source text preserved for search.",
+    "application": "DF, DONG FENG",
+    "brand": "XIN SENG",
+    "vehicleModel": "DF, DONG FENG",
+    "vehicleModels": [
+      "DF",
+      "DONG FENG"
+    ],
+    "engineModel": "",
+    "engineModels": [],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [
+      "3551ZB6002",
+      "3551ZB6 002"
+    ],
+    "alternatePartNumbers": [
+      "3551ZB6002",
+      "3551ZB6 002"
+    ],
+    "availability": "Ready stock",
+    "image": "assets/img/products/3551ZB6-002.jpeg",
+    "thumbnail": "assets/img/products/3551ZB6-002.jpeg",
+    "images": [
+      "assets/img/products/3551ZB6-002.jpeg"
+    ],
+    "alt": "3551zb6-002 frt adjuster rh 14t df dong feng product image",
+    "slug": "3551zb6-002-slack-adjuster",
+    "url": "products/3551zb6-002-slack-adjuster.html",
+    "specifications": {
+      "visibleText": "FRT ADJUSTER RH 14T DF DONG FENG",
+      "measurements": [
+        "14T",
+        "ID 36/40 mm",
+        "M16"
+      ],
+      "teethSpline": [
+        "14T"
+      ],
+      "side": "RH",
+      "position": "Front",
+      "vehicleModels": [
+        "DF",
+        "DONG FENG"
+      ],
+      "engineModels": [],
+      "oemNumbers": [],
+      "alternateNumbers": [
+        "3551ZB6002",
+        "3551ZB6 002"
+      ]
+    },
+    "specs": [
+      "14T",
+      "ID 36/40 mm",
+      "M16"
+    ],
+    "specification": "14T; ID 36/40 mm; M16",
+    "keywords": [
+      "slack adjuster",
+      "slack adj",
+      "auto slack adjuster",
+      "air brake slack adjuster",
+      "FRT ADJUSTER RH 14T DF DONG FENG",
+      "XIN SENG",
+      "WhatsApp Image 2026-08-07 at 4.06.39 PM",
+      "RH",
+      "Front",
+      "DF",
+      "DONG FENG",
+      "14T",
+      "ID 36/40 mm",
+      "M16",
+      "3551ZB6002",
+      "3551ZB6 002",
+      "3551ZB6-002",
+      "XIN",
+      "SENG",
+      "ID",
+      "36/40mm",
+      "FRT",
+      "ADJUSTER",
+      "DONG",
+      "FENG"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 96,
+    "searchableText": "3551ZB6-002 3551ZB6002 3551 ZB 6 002 FRT ADJUSTER RH 14T DF DONG FENG XIN SENG slack-adjuster FRT ADJUSTER RH 14T DF DONG FENG. 14T, ID 36/40 mm, M16. FRT ADJUSTER RH 14T DF DONG FENG. 14T, ID 36/40 mm, M16. OCR/source text preserved for search. DF, DONG FENG 14T; ID 36/40 mm; M16 Ready stock WhatsApp Image 2026-08-07 at 4.06.39 PM XIN SENG\nID 36/40mm\nM16\n14T\n3551ZB6-002\nFRT ADJUSTER RH 14T DF DONG FENG visibleText measurements 14T ID 36/40 mm M16 teethSpline side RH position Front vehicleModels DF DONG FENG engineModels oemNumbers alternateNumbers 3551ZB6 002 slack adjuster slack adj auto slack adjuster air brake slack adjuster XIN SENG ID 36/40mm FRT ADJUSTER DONG FENG",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-07 at 4.06.39 PM.jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-07 at 4.06.39 PM.jpeg",
+      "hash": "d34fb010101d4d9a5ac430acf132b07f40a3cec7124db1897adb81ddb25cdcf0",
+      "ocrText": "XIN SENG\nID 36/40mm\nM16\n14T\n3551ZB6-002\nFRT ADJUSTER RH 14T DF DONG FENG",
+      "importedAt": "2026-08-07T22:46:39",
+      "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image.",
+      "ocrWarning": "OCR recognized DONGFENG as a vehicle/model term; brand kept as XIN SENG from the visible blue/yellow logo."
+    }
+  },
+  {
+    "id": "44341-90178",
+    "code": "44341-90178",
+    "number": "44341-90178",
+    "productNumber": "44341-90178",
+    "partNumber": "44341-90178",
+    "name": "FRT RH ADJUSTER 25T HI 125 GE13",
+    "productName": "FRT RH ADJUSTER 25T HI 125 GE13",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "FRT RH ADJUSTER 25T HI 125 GE13. 25T, C-C 175 mm, HI 122 mm, ID 36/39 mm, ID 13 mm.",
+    "visibleDescription": "FRT RH ADJUSTER 25T HI 125 GE13",
+    "longDescription": "FRT RH ADJUSTER 25T HI 125 GE13. 25T, C-C 175 mm, HI 122 mm, ID 36/39 mm, ID 13 mm. OCR/source text preserved for search.",
+    "application": "GE13",
+    "brand": "FUTZSU",
+    "vehicleModel": "GE13",
+    "vehicleModels": [
+      "GE13"
+    ],
+    "engineModel": "GE13",
+    "engineModels": [
+      "GE13"
+    ],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [
+      "4434190178",
+      "44341 90178"
+    ],
+    "alternatePartNumbers": [
+      "4434190178",
+      "44341 90178"
+    ],
+    "availability": "Ready stock",
+    "image": "assets/img/products/44341-90178.jpeg",
+    "thumbnail": "assets/img/products/44341-90178.jpeg",
+    "images": [
+      "assets/img/products/44341-90178.jpeg"
+    ],
+    "alt": "44341-90178 frt rh adjuster 25t hi 125 ge13 product image",
+    "slug": "44341-90178-slack-adjuster",
+    "url": "products/44341-90178-slack-adjuster.html",
+    "specifications": {
+      "visibleText": "FRT RH ADJUSTER 25T HI 125 GE13",
+      "measurements": [
+        "25T",
+        "HI 125",
+        "C-C 175 mm",
+        "HI 122 mm",
+        "ID 36/39 mm",
+        "ID 13 mm"
+      ],
+      "teethSpline": [
+        "25T"
+      ],
+      "side": "RH",
+      "position": "Front",
+      "vehicleModels": [
+        "GE13"
+      ],
+      "engineModels": [
+        "GE13"
+      ],
+      "oemNumbers": [],
+      "alternateNumbers": [
+        "4434190178",
+        "44341 90178"
+      ]
+    },
+    "specs": [
+      "25T",
+      "HI 125",
+      "C-C 175 mm",
+      "HI 122 mm",
+      "ID 36/39 mm",
+      "ID 13 mm"
+    ],
+    "specification": "25T; HI 125; C-C 175 mm; HI 122 mm; ID 36/39 mm; ID 13 mm",
+    "keywords": [
+      "slack adjuster",
+      "slack adj",
+      "auto slack adjuster",
+      "air brake slack adjuster",
+      "FRT RH ADJUSTER 25T HI 125 GE13",
+      "FUTZSU",
+      "WhatsApp Image 2026-08-07 at 6.31.51 PM",
+      "RH",
+      "Front",
+      "GE13",
+      "25T",
+      "HI 125",
+      "C-C 175 mm",
+      "HI 122 mm",
+      "ID 36/39 mm",
+      "ID 13 mm",
+      "4434190178",
+      "44341 90178",
+      "44341-90178",
+      "C-C",
+      "175mm",
+      "HI",
+      "122mm",
+      "ID",
+      "36/39mm",
+      "13mm",
+      "FRT",
+      "ADJUSTER",
+      "125"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "44341-90178 4434190178 44341 90178 FRT RH ADJUSTER 25T HI 125 GE13 FUTZSU slack-adjuster FRT RH ADJUSTER 25T HI 125 GE13. 25T, C-C 175 mm, HI 122 mm, ID 36/39 mm, ID 13 mm. FRT RH ADJUSTER 25T HI 125 GE13. 25T, C-C 175 mm, HI 122 mm, ID 36/39 mm, ID 13 mm. OCR/source text preserved for search. GE13 25T; HI 125; C-C 175 mm; HI 122 mm; ID 36/39 mm; ID 13 mm Ready stock WhatsApp Image 2026-08-07 at 6.31.51 PM FUTZSU\nC-C 175mm\nHI 122mm\n25T\nID 36/39mm\nID 13mm\n44341-90178\nFRT RH ADJUSTER 25T HI 125 GE13 visibleText measurements 25T HI 125 C-C 175 mm HI 122 mm ID 36/39 mm ID 13 mm teethSpline side RH position Front vehicleModels engineModels oemNumbers alternateNumbers slack adjuster slack adj auto slack adjuster air brake slack adjuster C-C 175mm HI 122mm ID 36/39mm 13mm FRT ADJUSTER 125",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-07 at 6.31.51 PM.jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-07 at 6.31.51 PM.jpeg",
+      "hash": "6a511a98f8aa7b6e5c0ead16861ffeb7f43a9c9394809e69894c795030b5916e",
+      "ocrText": "FUTZSU\nC-C 175mm\nHI 122mm\n25T\nID 36/39mm\nID 13mm\n44341-90178\nFRT RH ADJUSTER 25T HI 125 GE13",
+      "importedAt": "2026-08-07T22:46:39",
+      "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image."
+    }
+  },
+  {
+    "id": "44341-90179",
+    "code": "44341-90179",
+    "number": "44341-90179",
+    "productNumber": "44341-90179",
+    "partNumber": "44341-90179",
+    "name": "FRT LH ADJUSTER 25T HI 125 GE13",
+    "productName": "FRT LH ADJUSTER 25T HI 125 GE13",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "FRT LH ADJUSTER 25T HI 125 GE13. 25T, C-C 185 mm, HI 176 mm, ID 36/39 mm, ID 12 mm.",
+    "visibleDescription": "FRT LH ADJUSTER 25T HI 125 GE13",
+    "longDescription": "FRT LH ADJUSTER 25T HI 125 GE13. 25T, C-C 185 mm, HI 176 mm, ID 36/39 mm, ID 12 mm. OCR/source text preserved for search.",
+    "application": "GE13",
+    "brand": "FUTZSU",
+    "vehicleModel": "GE13",
+    "vehicleModels": [
+      "GE13"
+    ],
+    "engineModel": "GE13",
+    "engineModels": [
+      "GE13"
+    ],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [
+      "4434190179",
+      "44341 90179"
+    ],
+    "alternatePartNumbers": [
+      "4434190179",
+      "44341 90179"
+    ],
+    "availability": "Ready stock",
+    "image": "assets/img/products/44341-90179.jpeg",
+    "thumbnail": "assets/img/products/44341-90179.jpeg",
+    "images": [
+      "assets/img/products/44341-90179.jpeg"
+    ],
+    "alt": "44341-90179 frt lh adjuster 25t hi 125 ge13 product image",
+    "slug": "44341-90179-slack-adjuster",
+    "url": "products/44341-90179-slack-adjuster.html",
+    "specifications": {
+      "visibleText": "FRT LH ADJUSTER 25T HI 125 GE13",
+      "measurements": [
+        "25T",
+        "HI 125",
+        "C-C 185 mm",
+        "HI 176 mm",
+        "ID 36/39 mm",
+        "ID 12 mm"
+      ],
+      "teethSpline": [
+        "25T"
+      ],
+      "side": "LH",
+      "position": "Front",
+      "vehicleModels": [
+        "GE13"
+      ],
+      "engineModels": [
+        "GE13"
+      ],
+      "oemNumbers": [],
+      "alternateNumbers": [
+        "4434190179",
+        "44341 90179"
+      ]
+    },
+    "specs": [
+      "25T",
+      "HI 125",
+      "C-C 185 mm",
+      "HI 176 mm",
+      "ID 36/39 mm",
+      "ID 12 mm"
+    ],
+    "specification": "25T; HI 125; C-C 185 mm; HI 176 mm; ID 36/39 mm; ID 12 mm",
+    "keywords": [
+      "slack adjuster",
+      "slack adj",
+      "auto slack adjuster",
+      "air brake slack adjuster",
+      "FRT LH ADJUSTER 25T HI 125 GE13",
+      "FUTZSU",
+      "WhatsApp Image 2026-08-07 at 6.52.24 PM",
+      "LH",
+      "Front",
+      "GE13",
+      "25T",
+      "HI 125",
+      "C-C 185 mm",
+      "HI 176 mm",
+      "ID 36/39 mm",
+      "ID 12 mm",
+      "4434190179",
+      "44341 90179",
+      "44341-90179",
+      "C-C",
+      "185mm",
+      "HI",
+      "176mm",
+      "ID",
+      "36/39mm",
+      "12mm",
+      "FRT",
+      "ADJUSTER",
+      "125"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 96,
+    "searchableText": "44341-90179 4434190179 44341 90179 FRT LH ADJUSTER 25T HI 125 GE13 FUTZSU slack-adjuster FRT LH ADJUSTER 25T HI 125 GE13. 25T, C-C 185 mm, HI 176 mm, ID 36/39 mm, ID 12 mm. FRT LH ADJUSTER 25T HI 125 GE13. 25T, C-C 185 mm, HI 176 mm, ID 36/39 mm, ID 12 mm. OCR/source text preserved for search. GE13 25T; HI 125; C-C 185 mm; HI 176 mm; ID 36/39 mm; ID 12 mm Ready stock WhatsApp Image 2026-08-07 at 6.52.24 PM FUTZSU\nC-C 185mm\nHI 176mm\n25T\nID 36/39mm\nID 12mm\n44341-90179\nFRT LH ADJUSTER 25T HI 125 GE13 visibleText measurements 25T HI 125 C-C 185 mm HI 176 mm ID 36/39 mm ID 12 mm teethSpline side LH position Front vehicleModels engineModels oemNumbers alternateNumbers slack adjuster slack adj auto slack adjuster air brake slack adjuster C-C 185mm HI 176mm ID 36/39mm 12mm FRT ADJUSTER 125",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-07 at 6.52.24 PM.jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-07 at 6.52.24 PM.jpeg",
+      "hash": "4d19685d0305f821b43de05e22948fca600988692a92106ecd304d6f9b10cca2",
+      "ocrText": "FUTZSU\nC-C 185mm\nHI 176mm\n25T\nID 36/39mm\nID 12mm\n44341-90179\nFRT LH ADJUSTER 25T HI 125 GE13",
+      "importedAt": "2026-08-07T22:46:39",
+      "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image.",
+      "ocrWarning": "Parser originally selected a generic description-derived code; primary product code corrected from the clearly visible product code 44341-90179."
+    }
+  },
+  {
+    "id": "47480-1590-FUTZSU",
+    "code": "47480-1590-FUTZSU",
+    "number": "47480-1590-FUTZSU",
+    "productNumber": "47480-1590-FUTZSU",
+    "partNumber": "47480-1590-FUTZSU",
+    "name": "SLACK ADJ 14T L/R ZM",
+    "productName": "SLACK ADJ 14T L/R ZM",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "SLACK ADJ 14T L/R ZM. 14T, C-C 135 mm, ID 35/40 mm, ID 12 mm.",
+    "visibleDescription": "SLACK ADJ 14T L/R ZM",
+    "longDescription": "SLACK ADJ 14T L/R ZM. 14T, C-C 135 mm, ID 35/40 mm, ID 12 mm. OCR/source text preserved for search.",
+    "application": "ZM",
+    "brand": "FUTZSU",
+    "vehicleModel": "ZM",
+    "vehicleModels": [
+      "ZM"
+    ],
+    "engineModel": "",
+    "engineModels": [],
+    "oeNumber": "47480-1590",
+    "oeNumbers": [
+      "47480-1590"
+    ],
+    "alternateNumbers": [
+      "474801590FUTZSU",
+      "47480 1590 FUTZSU",
+      "47480-1590",
+      "474801590",
+      "47480 1590",
+      "47480-1590 FUTZSU"
+    ],
+    "alternatePartNumbers": [
+      "474801590FUTZSU",
+      "47480 1590 FUTZSU",
+      "47480-1590",
+      "474801590",
+      "47480 1590",
+      "47480-1590 FUTZSU"
+    ],
+    "availability": "Ready stock",
+    "image": "assets/img/products/47480-1590-FUTZSU.jpeg",
+    "thumbnail": "assets/img/products/47480-1590-FUTZSU.jpeg",
+    "images": [
+      "assets/img/products/47480-1590-FUTZSU.jpeg"
+    ],
+    "alt": "47480-1590-futzsu slack adj 14t l/r zm product image",
+    "slug": "47480-1590-futzsu-slack-adjuster",
+    "url": "products/47480-1590-futzsu-slack-adjuster.html",
+    "specifications": {
+      "visibleText": "SLACK ADJ 14T L/R ZM",
+      "measurements": [
+        "14T",
+        "C-C 135 mm",
+        "ID 35/40 mm",
+        "ID 12 mm"
+      ],
+      "teethSpline": [
+        "14T"
+      ],
+      "side": "L/R",
+      "position": "",
+      "vehicleModels": [
+        "ZM"
+      ],
+      "engineModels": [],
+      "oemNumbers": [
+        "47480-1590"
+      ],
+      "alternateNumbers": [
+        "474801590FUTZSU",
+        "47480 1590 FUTZSU",
+        "47480-1590",
+        "474801590",
+        "47480 1590",
+        "47480-1590 FUTZSU"
+      ]
+    },
+    "specs": [
+      "14T",
+      "C-C 135 mm",
+      "ID 35/40 mm",
+      "ID 12 mm"
+    ],
+    "specification": "14T; C-C 135 mm; ID 35/40 mm; ID 12 mm",
+    "keywords": [
+      "slack adjuster",
+      "slack adj",
+      "auto slack adjuster",
+      "air brake slack adjuster",
+      "SLACK ADJ 14T L/R ZM",
+      "FUTZSU",
+      "WhatsApp Image 2026-08-07 at 7.37.35 PM",
+      "L/R",
+      "ZM",
+      "14T",
+      "C-C 135 mm",
+      "ID 35/40 mm",
+      "ID 12 mm",
+      "47480-1590",
+      "474801590FUTZSU",
+      "47480 1590 FUTZSU",
+      "474801590",
+      "47480 1590",
+      "47480-1590 FUTZSU",
+      "47480-1590-FUTZSU",
+      "C-C",
+      "135mm",
+      "ID",
+      "35/40mm",
+      "12mm",
+      "SLACK",
+      "ADJ"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 96,
+    "searchableText": "47480-1590-FUTZSU 474801590FUTZSU 47480 1590 FUTZSU SLACK ADJ 14T L/R ZM FUTZSU slack-adjuster SLACK ADJ 14T L/R ZM. 14T, C-C 135 mm, ID 35/40 mm, ID 12 mm. SLACK ADJ 14T L/R ZM. 14T, C-C 135 mm, ID 35/40 mm, ID 12 mm. OCR/source text preserved for search. ZM 14T; C-C 135 mm; ID 35/40 mm; ID 12 mm Ready stock WhatsApp Image 2026-08-07 at 7.37.35 PM FUTZSU\nC-C 135mm\n47480-1590\n14T\nID 35/40mm\nID 12mm\n47480-1590-FUTZSU\nSLACK ADJ 14T L/R ZM visibleText measurements 14T C-C 135 mm ID 35/40 mm ID 12 mm teethSpline side L/R position vehicleModels engineModels oemNumbers 47480-1590 alternateNumbers 474801590 47480 1590 47480-1590 FUTZSU slack adjuster slack adj auto slack adjuster air brake slack adjuster C-C 135mm ID 35/40mm 12mm SLACK ADJ",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-07 at 7.37.35 PM.jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-07 at 7.37.35 PM.jpeg",
+      "hash": "dd71858fc26c11c080d3f8b3c6b14ac46c4e93b49afdefcee9c39e8a15309060",
+      "ocrText": "FUTZSU\nC-C 135mm\n47480-1590\n14T\nID 35/40mm\nID 12mm\n47480-1590-FUTZSU\nSLACK ADJ 14T L/R ZM",
+      "importedAt": "2026-08-07T22:46:39",
+      "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image.",
+      "ocrWarning": "OCR read FUTZSU suffix incorrectly as RURZSU; suffix corrected from the visible product label and brand mark."
+    }
+  },
+  {
+    "id": "41028-90163",
+    "code": "41028-90163",
+    "number": "41028-90163",
+    "productNumber": "41028-90163",
+    "partNumber": "41028-90163",
+    "name": "FRT ADJUSTER LH 25T CW520",
+    "productName": "FRT ADJUSTER LH 25T CW520",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "FRT ADJUSTER LH 25T CW520. 25T, HI 96 mm, C-C 180 mm, ID 37/39 mm, ID 11 mm.",
+    "visibleDescription": "FRT ADJUSTER LH 25T CW520",
+    "longDescription": "FRT ADJUSTER LH 25T CW520. 25T, HI 96 mm, C-C 180 mm, ID 37/39 mm, ID 11 mm. OCR/source text preserved for search.",
+    "application": "CW520",
+    "brand": "FUTZSU",
+    "vehicleModel": "CW520",
+    "vehicleModels": [
+      "CW520"
+    ],
+    "engineModel": "",
+    "engineModels": [],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [
+      "4102890163",
+      "41028 90163"
+    ],
+    "alternatePartNumbers": [
+      "4102890163",
+      "41028 90163"
+    ],
+    "availability": "Ready stock",
+    "image": "assets/img/products/41028-90163.jpeg",
+    "thumbnail": "assets/img/products/41028-90163.jpeg",
+    "images": [
+      "assets/img/products/41028-90163.jpeg"
+    ],
+    "alt": "41028-90163 frt adjuster lh 25t cw520 product image",
+    "slug": "41028-90163-slack-adjuster",
+    "url": "products/41028-90163-slack-adjuster.html",
+    "specifications": {
+      "visibleText": "FRT ADJUSTER LH 25T CW520",
+      "measurements": [
+        "25T",
+        "HI 96 mm",
+        "C-C 180 mm",
+        "ID 37/39 mm",
+        "ID 11 mm"
+      ],
+      "teethSpline": [
+        "25T"
+      ],
+      "side": "LH",
+      "position": "Front",
+      "vehicleModels": [
+        "CW520"
+      ],
+      "engineModels": [],
+      "oemNumbers": [],
+      "alternateNumbers": [
+        "4102890163",
+        "41028 90163"
+      ]
+    },
+    "specs": [
+      "25T",
+      "HI 96 mm",
+      "C-C 180 mm",
+      "ID 37/39 mm",
+      "ID 11 mm"
+    ],
+    "specification": "25T; HI 96 mm; C-C 180 mm; ID 37/39 mm; ID 11 mm",
+    "keywords": [
+      "slack adjuster",
+      "slack adj",
+      "auto slack adjuster",
+      "air brake slack adjuster",
+      "FRT ADJUSTER LH 25T CW520",
+      "FUTZSU",
+      "WhatsApp Image 2026-08-07 at 7.49.53 PM",
+      "LH",
+      "Front",
+      "CW520",
+      "25T",
+      "HI 96 mm",
+      "C-C 180 mm",
+      "ID 37/39 mm",
+      "ID 11 mm",
+      "4102890163",
+      "41028 90163",
+      "41028-90163",
+      "HI",
+      "96mm",
+      "C-C",
+      "180mm",
+      "ID",
+      "37/39mm",
+      "11mm",
+      "FRT",
+      "ADJUSTER"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "41028-90163 4102890163 41028 90163 FRT ADJUSTER LH 25T CW520 FUTZSU slack-adjuster FRT ADJUSTER LH 25T CW520. 25T, HI 96 mm, C-C 180 mm, ID 37/39 mm, ID 11 mm. FRT ADJUSTER LH 25T CW520. 25T, HI 96 mm, C-C 180 mm, ID 37/39 mm, ID 11 mm. OCR/source text preserved for search. CW520 25T; HI 96 mm; C-C 180 mm; ID 37/39 mm; ID 11 mm Ready stock WhatsApp Image 2026-08-07 at 7.49.53 PM FUTZSU\nHI 96mm\nC-C 180mm\n25T\nID 37/39mm\nID 11mm\n41028-90163\nFRT ADJUSTER LH 25T CW520 visibleText measurements 25T HI 96 mm C-C 180 mm ID 37/39 mm ID 11 mm teethSpline side LH position Front vehicleModels engineModels oemNumbers alternateNumbers slack adjuster slack adj auto slack adjuster air brake slack adjuster HI 96mm C-C 180mm ID 37/39mm 11mm FRT ADJUSTER",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-07 at 7.49.53 PM.jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-07 at 7.49.53 PM.jpeg",
+      "hash": "d3f530c31b6b3f531545f40e6f82e21ad423d1c11d25e13177b3cb101ca0ca41",
+      "ocrText": "FUTZSU\nHI 96mm\nC-C 180mm\n25T\nID 37/39mm\nID 11mm\n41028-90163\nFRT ADJUSTER LH 25T CW520",
+      "importedAt": "2026-08-07T22:46:39",
+      "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image."
+    }
   }
 ]
