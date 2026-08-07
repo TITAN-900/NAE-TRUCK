@@ -3622,6 +3622,9 @@ Product Image Lightbox
 .premium-home .premium-section-head{
     margin-bottom:36px
 }
+.premium-home .featured-products-head{
+    display:block
+}
 .premium-home .premium-section-head h2,
 .premium-brands-section h2,
 .company-intro-copy h2,
