@@ -1807,15 +1807,21 @@ h1 em,h2 em{
     height:52%;
     display:block;
     overflow:hidden;
-    background:#f8f6f1;
+    background:#fff;
     border:1px solid #ece5dc;
     border-radius:18px
+}
+.product-category-media.has-category-image{
+    box-shadow:0 14px 34px rgba(17,18,20,.055)
 }
 .product-category-media img{
     width:100%;
     height:100%;
-    object-fit:cover;
+    object-fit:contain;
+    object-position:center;
     display:block;
+    padding:18px;
+    box-sizing:border-box;
     transition:transform .35s var(--ease)
 }
 .product-category-card:hover .product-category-media img{
