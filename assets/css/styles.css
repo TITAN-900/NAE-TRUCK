@@ -1807,7 +1807,7 @@ h1 em,h2 em{
     height:52%;
     display:block;
     overflow:hidden;
-    background:#fff;
+    background:transparent;
     border:1px solid #ece5dc;
     border-radius:18px
 }
