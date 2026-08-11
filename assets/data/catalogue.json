@@ -151,8 +151,23 @@
       "thumbnail": "",
       "categoryImage": "assets/img/categories/slack-adjuster-cover.png",
       "futureCategoryImage": "assets/img/categories/slack-adjuster-cover.png",
+      "productCategory": true,
       "items": [
         "Slack Adjuster"
+      ]
+    },
+    {
+      "slug": "rubber-hose",
+      "num": "12",
+      "title": "RUBBER HOSE",
+      "desc": "Heavy-duty truck rubber hoses and hose components.",
+      "intro": "Heavy-duty truck rubber hoses and hose components.",
+      "thumbnail": "",
+      "categoryImage": "",
+      "futureCategoryImage": "",
+      "productCategory": true,
+      "items": [
+        "Rubber Hose"
       ]
     }
   ]

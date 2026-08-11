@@ -43,6 +43,7 @@ const categoryGroupMap = {
   "axle-parts": "axle",
   "trailer-parts": "trailer",
   "slack-adjuster": "trailer",
+  "rubber-hose": "other",
   other: "other"
 };
 
@@ -119,7 +120,20 @@ const fallbackCategories = [
     thumbnail: "",
     categoryImage: "assets/img/categories/slack-adjuster-cover.png",
     futureCategoryImage: "assets/img/categories/slack-adjuster-cover.png",
+    productCategory: true,
     items: ["Slack Adjuster"]
+  },
+  {
+    slug: "rubber-hose",
+    num: "12",
+    title: "RUBBER HOSE",
+    desc: "Heavy-duty truck rubber hoses and hose components.",
+    intro: "Heavy-duty truck rubber hoses and hose components.",
+    thumbnail: "",
+    categoryImage: "",
+    futureCategoryImage: "",
+    productCategory: true,
+    items: ["Rubber Hose"]
   }
 ];
 
@@ -193,6 +207,36 @@ function hasProductsCategoryScope() {
 function getProductsCategoryInfo() {
   if (!hasProductsCategoryScope()) return null;
   return allCategories.find(category => category.slug === pageProductsCategorySlug) || null;
+}
+
+function getProductsPageCategories(categories) {
+  const visibleCategories = (categories || []).filter(category => category.productCategory === true);
+  return visibleCategories.length
+    ? visibleCategories
+    : (categories || []).filter(category => category.slug === "slack-adjuster");
+}
+
+function renderProductsCategoryCards(categories) {
+  const grid = document.querySelector("[data-product-category-grid]");
+  if (!grid) return;
+
+  const productCategories = getProductsPageCategories(categories);
+  grid.innerHTML = productCategories.map(category => {
+    const slug = String(category.slug || "").trim();
+    const title = String(category.title || slug || "Product Category").trim();
+    const description = String(category.desc || category.intro || "Browse products in this category.").trim();
+    const imagePath = category.categoryImage || category.futureCategoryImage || "";
+    const imageAttribute = imagePath ? ` data-category-image="${escapeHtml(imagePath)}"` : "";
+
+    return `<a class="product-category-card" href="${escapeHtml(productsPath(`category=${encodeURIComponent(slug)}`))}" data-product-category-card data-category="${escapeHtml(slug)}"${imageAttribute}>
+      <span class="product-category-media" aria-hidden="true"></span>
+      <span class="product-category-content">
+        <strong>${escapeHtml(title.toUpperCase())}</strong>
+        <span>${escapeHtml(description)}</span>
+        <em>VIEW PRODUCTS <span>&nearr;</span></em>
+      </span>
+    </a>`;
+  }).join("");
 }
 
 function hydrateProductCategoryCards(categories) {
@@ -1541,6 +1585,7 @@ async function initCataloguePage() {
   allCategories = Array.isArray(catalogue?.categories) ? catalogue.categories : fallbackCategories;
   allBrands = Array.isArray(brandsJson?.brands) ? brandsJson.brands : [];
   brandLogoLookup = buildBrandLogoLookup(allBrands);
+  renderProductsCategoryCards(allCategories);
   hydrateProductCategoryCards(allCategories);
 
   if (browseMode === "brand") {
