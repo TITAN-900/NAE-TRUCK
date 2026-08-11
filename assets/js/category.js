@@ -840,7 +840,13 @@ function getProductGalleryImages(product) {
     });
 }
 
-function renderProductImage(product) {
+function getProductDetailHref(product) {
+  return product.url
+    ? assetPath(product.url)
+    : (product.slug ? assetPath(`products/${product.slug}.html`) : "");
+}
+
+function renderProductImage(product, detailHref = "", options = {}) {
   const images = getProductGalleryImages(product);
   const imageSrc = images[0] || getProductImageSrc(product);
   const encodedImages = escapeHtml(JSON.stringify(images.length ? images : (imageSrc ? [imageSrc] : [])));
@@ -849,6 +855,18 @@ function renderProductImage(product) {
 
   if (!imageSrc) {
     return "<span class=\"product-image-placeholder\">PART</span>";
+  }
+
+  if (options.staticOnly) {
+    return `<span class="product-photo-button" aria-hidden="true">
+      <img class="product-photo" loading="lazy" decoding="async" src="${escapeHtml(imageSrc)}" alt="">
+    </span>`;
+  }
+
+  if (detailHref) {
+    return `<a class="product-photo-button" href="${escapeHtml(detailHref)}" aria-label="${escapeHtml(`View details for ${summary.number || alt}`)}">
+      <img class="product-photo" loading="lazy" decoding="async" src="${escapeHtml(imageSrc)}" alt="${escapeHtml(alt)}">
+    </a>`;
   }
 
   return `<button class="product-photo-button" type="button" data-lightbox-src="${escapeHtml(imageSrc)}" data-lightbox-images="${encodedImages}" data-lightbox-alt="${escapeHtml(alt)}" data-lightbox-number="${escapeHtml(summary.number)}" data-lightbox-name="${escapeHtml(summary.name)}" data-lightbox-brand="${escapeHtml(summary.brand)}">
@@ -909,6 +927,7 @@ function renderSearchResultCard(product, searchState) {
   const imageSrc = images[0] || getProductImageSrc(product);
   const encodedImages = escapeHtml(JSON.stringify(images.length ? images : (imageSrc ? [imageSrc] : [])));
   const summary = getCustomerProductSummary(product);
+  const detailHref = getProductDetailHref(product);
   const productNumber = summary.number || "PART NUMBER UNAVAILABLE";
   const productName = summary.name || "PRODUCT DESCRIPTION UNAVAILABLE";
   const brandName = summary.brand || "Brand not specified";
@@ -918,8 +937,10 @@ function renderSearchResultCard(product, searchState) {
     categoryName ? `<span>${highlightText(categoryName, searchState.highlightTerms)}</span>` : ""
   ].filter(Boolean).join("<span class=\"search-result-separator\" aria-hidden=\"true\">&middot;</span>");
   const label = `${productNumber} ${productName}`.trim();
+  const href = detailHref || imageSrc || contactPath();
+  const opensLightbox = !detailHref && Boolean(imageSrc);
 
-  return `<a class="product-card search-result-card" href="${escapeHtml(imageSrc || contactPath())}" data-result-lightbox="${imageSrc ? "true" : "false"}" data-lightbox-src="${escapeHtml(imageSrc)}" data-lightbox-images="${encodedImages}" data-lightbox-alt="${escapeHtml(label)}" data-lightbox-number="${escapeHtml(productNumber)}" data-lightbox-name="${escapeHtml(productName)}" data-lightbox-brand="${escapeHtml(brandName)}" data-lightbox-enquiry="${escapeHtml(summary.enquiry)}" aria-label="${escapeHtml(`View product image for ${label}`)}">
+  return `<a class="product-card search-result-card" href="${escapeHtml(href)}" data-result-lightbox="${opensLightbox ? "true" : "false"}" data-lightbox-src="${escapeHtml(imageSrc)}" data-lightbox-images="${encodedImages}" data-lightbox-alt="${escapeHtml(label)}" data-lightbox-number="${escapeHtml(productNumber)}" data-lightbox-name="${escapeHtml(productName)}" data-lightbox-brand="${escapeHtml(brandName)}" data-lightbox-enquiry="${escapeHtml(summary.enquiry)}" aria-label="${escapeHtml(detailHref ? `View details for ${label}` : `View product image for ${label}`)}">
     ${renderSearchBrandLogo(product)}
     <span class="search-result-content">
       <strong class="search-result-code">${highlightProductNumber(productNumber, searchState)}</strong>
@@ -937,26 +958,22 @@ function renderProductCard(product, searchState) {
   const description = product.description || product.application || "Heavy-duty replacement part";
   const brandLabel = product.brand || "Brand not specified";
   const brandMeta = `<div class="product-meta"><span class="product-brand">${highlightText(brandLabel, searchState.highlightTerms)}</span></div>`;
-  const detailHref = product.url
-    ? assetPath(product.url)
-    : (product.slug ? assetPath(`products/${product.slug}.html`) : "");
-  const bodyOpen = detailHref
-    ? `<a class="product-body product-detail-link" href="${escapeHtml(detailHref)}" aria-label="${escapeHtml(`View details for ${product.number || product.name}`)}">`
-    : "<div class=\"product-body\">";
-  const bodyClose = detailHref ? "</a>" : "</div>";
-
-  return `<article class="product-card">
+  const detailHref = getProductDetailHref(product);
+  const content = `
     <div class="product-image has-photo">
-      ${renderProductImage(product)}
+      ${renderProductImage(product, "", { staticOnly: Boolean(detailHref) })}
     </div>
-    ${bodyOpen}
+    <div class="product-body${detailHref ? " product-detail-link" : ""}">
       <span class="product-code-label">Product Code</span>
       <strong class="product-code">${highlightProductNumber(product.number, searchState)}</strong>
       <h3>${highlightText(product.name, searchState.highlightTerms)}</h3>
       <p class="product-description">${highlightText(description, searchState.highlightTerms)}</p>
       ${brandMeta}
-    ${bodyClose}
-  </article>`;
+    </div>`;
+
+  return detailHref
+    ? `<a class="product-card product-card-link" href="${escapeHtml(detailHref)}" aria-label="${escapeHtml(`View details for ${product.number || product.name}`)}">${content}</a>`
+    : `<article class="product-card">${content}</article>`;
 }
 
 function ensureLoadMoreButton() {

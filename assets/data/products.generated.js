@@ -92,7 +92,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "3551020-T37E4 3551020-T37E4 3551020T37E4 3551020 T37E4 Slack Adjuster RH 14T Df SLACK ADJUSTER RH 14T DF SLACK ADJUSTER RH 14T DF. 14T, ID 12MM, C-C 140 mm, L 228 mm, ID 12 mm, ID 35 mm.  Slack Adjuster DF 14T ID 12MM C-C 140 mm L 228 mm ID 12 mm ID 35 mm 3551020T37E4 3551020 T37E4 ID 12mm\nc-c 140\nL 228\n3551020-T37E4\nA020260417\nSLACK ADJUSTER RH 14T DF\nID 35\n14T WhatsApp Image 2026-08-04 at 10.35.05 PM.jpeg SLACK ADJUSTER RH 14T DF",
+    "searchableText": "3551020-T37E4 SLACK ADJUSTER RH 14T DF SLACK ADJUSTER RH 14T DF. 14T, ID 12MM, C-C 140 mm, L 228 mm, ID 12 mm, ID 35 mm. SLACK ADJUSTER RH 14T DF. 14T, ID 12MM, C-C 140 mm, L 228 mm, ID 12 mm, ID 35 mm. OCR/source text preserved for search. DF slack-adjuster Slack Adjuster trailer 14T; ID 12MM; C-C 140 mm; L 228 mm; ID 12 mm; ID 35 mm 14T ID 12MM C-C 140 mm L 228 mm ID 12 mm ID 35 mm [object Object] 3551020T37E4 3551020 T37E4 slack adj air brake slack adjuster WhatsApp Image 2026-08-04 at 10.35.05 PM ID 12mm\nc-c 140\nL 228\n3551020-T37E4\nA020260417\nSLACK ADJUSTER RH 14T DF\nID 35\n14T air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.05 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.05 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.05 PM.jpeg",
@@ -205,7 +205,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "S4460-EW020-UNI S4460-EW020-UNI S4460 EW020 UNI S4460EW020UNI Slack Adj 14T FRT LH Validus Gh8J J08E SLACK ADJ 14T FRT LH VALIDUS GH8J J08E SLACK ADJ 14T FRT LH VALIDUS GH8J J08E. 14T, ID 13MM, ID 35MM, C-C 135MM, C-C 135 mm, ID 13 mm, ID 35 mm, BODY 79884. UNIEURO Slack Adjuster VALIDUS GH8J J08E 14T ID 13MM ID 35MM C-C 135MM C-C 135 mm ID 13 mm ID 35 mm BODY 79884 S4460 EW020 UNI S4460EW020UNI EURO\nGENUINE\nID 13mm\nC-C 135mm\nUNIEURO\nsa4E0-EWC20 6251.\n14T\nID 35mm\nS4460-EW020 UNI\nSLACK ADJ 14T FRTLH VALIDUS GH8J\nJ08E\n79884 NUMBER WhatsApp Image 2026-08-04 at 10.35.06 PM (1).jpeg SLACK ADJUSTER 14T FRT LH VALIDUS GH8J J08E",
+    "searchableText": "S4460-EW020-UNI SLACK ADJUSTER 14T FRT LH VALIDUS GH8J J08E SLACK ADJ 14T FRT LH VALIDUS GH8J J08E. 14T, ID 13MM, ID 35MM, C-C 135MM, C-C 135 mm, ID 13 mm, ID 35 mm, BODY 79884. SLACK ADJ 14T FRT LH VALIDUS GH8J J08E SLACK ADJ 14T FRT LH VALIDUS GH8J J08E. 14T, ID 13MM, ID 35MM, C-C 135MM, C-C 135 mm, ID 13 mm, ID 35 mm, BODY 79884. OCR/source text preserved for search. VALIDUS GH8J, J08E UNIEURO slack-adjuster Slack Adjuster trailer 14T; ID 13MM; ID 35MM; C-C 135MM; C-C 135 mm; ID 13 mm; ID 35 mm; BODY 79884 14T ID 13MM ID 35MM C-C 135MM C-C 135 mm ID 13 mm ID 35 mm BODY 79884 [object Object] VALIDUS GH8J J08E S4460 EW020 UNI S4460EW020UNI slack adj air brake slack adjuster WhatsApp Image 2026-08-04 at 10.35.06 PM (1) EURO\nGENUINE\nID 13mm\nC-C 135mm\nUNIEURO\nsa4E0-EWC20 6251.\n14T\nID 35mm\nS4460-EW020 UNI\nSLACK ADJ 14T FRTLH VALIDUS GH8J\nJ08E\n79884 NUMBER air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.06 PM (1).jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.06 PM (1).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.06 PM (1).jpeg",
@@ -306,7 +306,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "3551025-T37E4 3551025 T37E4 3551025-T37E4 3551025T37E4 Slack Adjuster LH 14T Df SLACK ADJUSTER LH 14T DF SLACK ADJUSTER LH 14T DF. 14T, ID 12MM, C-C 140 mm, L 228 mm, ID 12 mm, ID 35 mm.  Slack Adjuster DF 14T ID 12MM C-C 140 mm L 228 mm ID 12 mm ID 35 mm 3551025T37E4 ID 12mm\nc-c 140\nL 228\n3551025-T37E4\nAQ20260417\nSLACK ADJUSTER LH 14T DF\nID 35\n14T WhatsApp Image 2026-08-04 at 10.35.06 PM.jpeg SLACK ADJUSTER LH 14T DF",
+    "searchableText": "3551025-T37E4 SLACK ADJUSTER LH 14T DF SLACK ADJUSTER LH 14T DF. 14T, ID 12MM, C-C 140 mm, L 228 mm, ID 12 mm, ID 35 mm. SLACK ADJUSTER LH 14T DF. 14T, ID 12MM, C-C 140 mm, L 228 mm, ID 12 mm, ID 35 mm. OCR/source text preserved for search. DF slack-adjuster Slack Adjuster trailer 14T; ID 12MM; C-C 140 mm; L 228 mm; ID 12 mm; ID 35 mm 14T ID 12MM C-C 140 mm L 228 mm ID 12 mm ID 35 mm [object Object] 3551025T37E4 slack adj air brake slack adjuster 3551025 T37E4 WhatsApp Image 2026-08-04 at 10.35.06 PM ID 12mm\nc-c 140\nL 228\n3551025-T37E4\nAQ20260417\nSLACK ADJUSTER LH 14T DF\nID 35\n14T air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.06 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.06 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.06 PM.jpeg",
@@ -414,7 +414,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "S4450-EW020-UNI S4450 EW020 UNI S4450EW020UNI S4450-EW020-UNI Slack Adj 14T FRT RH Validus Gh8J J08E SLACK ADJ 14T FRT RH VALIDUS GH8J J08E SLACK ADJ 14T FRT RH VALIDUS GH8J J08E. 14T, ID 13MM, C-C 135MM, BODY 79883, C-C 135 mm, ID 13 mm, ID 35 mm. UNIEURO Slack Adjuster VALIDUS GH8J J08E 14T ID 13MM C-C 135MM BODY 79883 C-C 135 mm ID 13 mm ID 35 mm S4450EW020UNI EURO\nGENUINE\nID 13mm\nC-C 135mm\n14T\n35mm\nS4450-EW020 UNI\nSLACK ADJ 14T FRT RI-I VALIDUS GH8J\nJ08E J08E\nBODY 79883 WhatsApp Image 2026-08-04 at 10.35.07 PM (1).jpeg SLACK ADJUSTER 14T FRT RH VALIDUS GH8J J08E",
+    "searchableText": "S4450-EW020-UNI SLACK ADJUSTER 14T FRT RH VALIDUS GH8J J08E SLACK ADJ 14T FRT RH VALIDUS GH8J J08E. 14T, ID 13MM, C-C 135MM, BODY 79883, C-C 135 mm, ID 13 mm, ID 35 mm. SLACK ADJ 14T FRT RH VALIDUS GH8J J08E SLACK ADJ 14T FRT RH VALIDUS GH8J J08E. 14T, ID 13MM, C-C 135MM, BODY 79883, C-C 135 mm, ID 13 mm, ID 35 mm. OCR/source text preserved for search. VALIDUS GH8J, J08E UNIEURO slack-adjuster Slack Adjuster trailer 14T; ID 13MM; C-C 135MM; BODY 79883; C-C 135 mm; ID 13 mm; ID 35 mm 14T ID 13MM C-C 135MM BODY 79883 C-C 135 mm ID 13 mm ID 35 mm [object Object] VALIDUS GH8J J08E S4450EW020UNI slack adj air brake slack adjuster S4450 EW020 UNI WhatsApp Image 2026-08-04 at 10.35.07 PM (1) EURO\nGENUINE\nID 13mm\nC-C 135mm\n14T\n35mm\nS4450-EW020 UNI\nSLACK ADJ 14T FRT RI-I VALIDUS GH8J\nJ08E J08E\nBODY 79883 air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.07 PM (1).jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.07 PM (1).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.07 PM (1).jpeg",
@@ -519,7 +519,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "AZ-997-044-0042 AZ 997 044 0042 AZ9970440042 AZ-997-044-0042 FRT Slack Adjuster RH 26T HOWO70 ID 42 FRT SLACK ADJUSTER RH 26T HOWO70 ID 42 FRT SLACK ADJUSTER RH 26T HOWO70 ID 42. 26T, ID 42MM, ID 14MM, C-C 180MM, C-C 180 mm, ID 14 mm, ID 42 mm. SINOTRUK HOWO Slack Adjuster HOWO70 26T ID 42MM ID 14MM C-C 180MM C-C 180 mm ID 14 mm ID 42 mm AZ9970440042 ID 42mm\n26T\n202019Pr\nC-C 180mm\nID 14mm\nAZ-997 044 0042\nFRT SLACK ADJUSTER RH 26T HOW070 WhatsApp Image 2026-08-04 at 10.35.07 PM.jpeg FRT SLACK ADJUSTER RH 26T HOWO70 ID 42",
+    "searchableText": "AZ-997-044-0042 FRT SLACK ADJUSTER RH 26T HOWO70 ID 42 FRT SLACK ADJUSTER RH 26T HOWO70 ID 42. 26T, ID 42MM, ID 14MM, C-C 180MM, C-C 180 mm, ID 14 mm, ID 42 mm. FRT SLACK ADJUSTER RH 26T HOWO70 ID 42. 26T, ID 42MM, ID 14MM, C-C 180MM, C-C 180 mm, ID 14 mm, ID 42 mm. OCR/source text preserved for search. HOWO70 SINOTRUK HOWO slack-adjuster Slack Adjuster trailer 26T; ID 42MM; ID 14MM; C-C 180MM; C-C 180 mm; ID 14 mm; ID 42 mm 26T ID 42MM ID 14MM C-C 180MM C-C 180 mm ID 14 mm ID 42 mm [object Object] AZ9970440042 slack adj air brake slack adjuster AZ 997 044 0042 WhatsApp Image 2026-08-04 at 10.35.07 PM ID 42mm\n26T\n202019Pr\nC-C 180mm\nID 14mm\nAZ-997 044 0042\nFRT SLACK ADJUSTER RH 26T HOW070 air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.07 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.07 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.07 PM.jpeg",
@@ -633,7 +633,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "WG-910-034-0057 WG9100340057 WG 910 034 0057 WG-910-034-0057 Slack Adj 19T Rear RH HOWO371 SLACK ADJ 19T REAR RH HOWO371 SLACK ADJ 19T REAR RH HOWO371. 19T, ID 35MM, ID 15MM, HI 84MM, L 205MM, ID 35 mm, ID 15 mm, L 205 mm. SINOTRUK HOWO Slack Adjuster HOWO371 19T ID 35MM ID 15MM HI 84MM L 205MM ID 35 mm ID 15 mm L 205 mm HI 84 mm Rear RH WG 910 034 0057 19T\nID 35mm\nYG9100340057>-•\nYBi0260519\nID 15mm\nL 205mm\nHG9100340C5t\nHI 84mm\nWG-910 034 0057\nSLACK ADJ 19T REAR RH HOW0371 WhatsApp Image 2026-08-04 at 10.35.08 PM (1).jpeg SLACK ADJUSTER 19T REAR RH HOWO371",
+    "searchableText": "WG-910-034-0057 SLACK ADJUSTER 19T REAR RH HOWO371 SLACK ADJ 19T REAR RH HOWO371. 19T, ID 35MM, ID 15MM, HI 84MM, L 205MM, ID 35 mm, ID 15 mm, L 205 mm. SLACK ADJ 19T REAR RH HOWO371 SLACK ADJ 19T REAR RH HOWO371. 19T, ID 35MM, ID 15MM, HI 84MM, L 205MM, ID 35 mm, ID 15 mm, L 205 mm. OCR/source text preserved for search. HOWO371 SINOTRUK HOWO slack-adjuster Slack Adjuster trailer 19T; ID 35MM; ID 15MM; HI 84MM; L 205MM; ID 35 mm; ID 15 mm; L 205 mm; HI 84 mm; Rear RH 19T ID 35MM ID 15MM HI 84MM L 205MM ID 35 mm ID 15 mm L 205 mm HI 84 mm Rear RH [object Object] WG 910 034 0057 slack adj air brake slack adjuster WG9100340057 WhatsApp Image 2026-08-04 at 10.35.08 PM (1) 19T\nID 35mm\nYG9100340057>-•\nYBi0260519\nID 15mm\nL 205mm\nHG9100340C5t\nHI 84mm\nWG-910 034 0057\nSLACK ADJ 19T REAR RH HOW0371 air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.08 PM (1).jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.08 PM (1).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.08 PM (1).jpeg",
@@ -740,7 +740,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "AZ-997-044-0041 AZ-997-044-0041 AZ9970440041 AZ 997 044 0041 FRT Slack Adjuster LH 26T HOWO70 ID 42 FRT SLACK ADJUSTER LH 26T HOWO70 ID 42 FRT SLACK ADJUSTER LH 26T HOWO70 ID 42. 26T, ID 42MM, ID 14MM, C-C 180MM, C-C 180 mm, ID 14 mm, ID 42 mm. SINOTRUK HOWO Slack Adjuster HOWO70 26T ID 42MM ID 14MM C-C 180MM C-C 180 mm ID 14 mm ID 42 mm AZ9970440041 AZ 997 044 0041 ID 42mm\n26T\nc-c 180mm\nID 14mm\nAZ-997 044 0041\nFRT SLACK ADJUSTERLH 26T HOW070 ID 42 WhatsApp Image 2026-08-04 at 10.35.08 PM (2).jpeg FRT SLACK ADJUSTER LH 26T HOWO70 ID 42",
+    "searchableText": "AZ-997-044-0041 FRT SLACK ADJUSTER LH 26T HOWO70 ID 42 FRT SLACK ADJUSTER LH 26T HOWO70 ID 42. 26T, ID 42MM, ID 14MM, C-C 180MM, C-C 180 mm, ID 14 mm, ID 42 mm. FRT SLACK ADJUSTER LH 26T HOWO70 ID 42. 26T, ID 42MM, ID 14MM, C-C 180MM, C-C 180 mm, ID 14 mm, ID 42 mm. OCR/source text preserved for search. HOWO70 SINOTRUK HOWO slack-adjuster Slack Adjuster trailer 26T; ID 42MM; ID 14MM; C-C 180MM; C-C 180 mm; ID 14 mm; ID 42 mm 26T ID 42MM ID 14MM C-C 180MM C-C 180 mm ID 14 mm ID 42 mm [object Object] AZ9970440041 AZ 997 044 0041 slack adj air brake slack adjuster WhatsApp Image 2026-08-04 at 10.35.08 PM (2) ID 42mm\n26T\nc-c 180mm\nID 14mm\nAZ-997 044 0041\nFRT SLACK ADJUSTERLH 26T HOW070 ID 42 air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.08 PM (2).jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.08 PM (2).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.08 PM (2).jpeg",
@@ -859,7 +859,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "3501205-0402Z 3501205-0402Z 35012050402Z 3501205 0402Z FRT Slack Adjuster 19T L/R DAYUN 6X4 AUTO ID 38 FRT SLACK ADJUSTER 19T L/R DAYUN 6X4 AUTO ID 38 FRT SLACK ADJUSTER 19T L/R DAYUN 6X4 AUTO ID 38. 19T, ID 14MM, ID 34/38MM, C-C 110MM, HI 51MM, M14, C-C 110 mm, ID 14 mm. DAYUN Slack Adjuster DAYUN 6X4 19T ID 14MM ID 34/38MM C-C 110MM HI 51MM M14 C-C 110 mm ID 14 mm HI 51 mm ID 34/38 mm L 7 1/4 in (184 mm) 35012050402Z 3501205 0402Z C-C 110mm\nID 14mm\nHI 51mm\n19T\nID 34/38mm\n3501205-0402Z\nFRT SLACK ADJUSTER 19T L/R\nDAYUN 6X4 AUTO\nID 38 L 7 1/4\" (184MM) GOT 1 HOLE M14 WhatsApp Image 2026-08-04 at 10.35.08 PM (3).jpeg FRT SLACK ADJUSTER 19T L/R DAYUN 6X4 AUTO ID 38",
+    "searchableText": "3501205-0402Z FRT SLACK ADJUSTER 19T L/R DAYUN 6X4 AUTO ID 38 FRT SLACK ADJUSTER 19T L/R DAYUN 6X4 AUTO ID 38. 19T, ID 14MM, ID 34/38MM, C-C 110MM, HI 51MM, M14, C-C 110 mm, ID 14 mm. FRT SLACK ADJUSTER 19T L/R DAYUN 6X4 AUTO ID 38. 19T, ID 14MM, ID 34/38MM, C-C 110MM, HI 51MM, M14, C-C 110 mm, ID 14 mm. OCR/source text preserved for search. DAYUN 6X4 DAYUN slack-adjuster Slack Adjuster trailer 19T; ID 14MM; ID 34/38MM; C-C 110MM; HI 51MM; M14; C-C 110 mm; ID 14 mm; HI 51 mm; ID 34/38 mm; L 7 1/4 in (184 mm) 19T ID 14MM ID 34/38MM C-C 110MM HI 51MM M14 C-C 110 mm ID 14 mm HI 51 mm ID 34/38 mm L 7 1/4 in (184 mm) [object Object] 35012050402Z 3501205 0402Z slack adj air brake slack adjuster WhatsApp Image 2026-08-04 at 10.35.08 PM (3) C-C 110mm\nID 14mm\nHI 51mm\n19T\nID 34/38mm\n3501205-0402Z\nFRT SLACK ADJUSTER 19T L/R\nDAYUN 6X4 AUTO\nID 38 L 7 1/4\" (184MM) GOT 1 HOLE M14 air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.08 PM (3).jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.08 PM (3).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.08 PM (3).jpeg",
@@ -975,7 +975,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "WG-910-034-0056 WG-910-034-0056 WG9100340056 WG 910 034 0056 Slack Adj 19T Rear LH HOWO371 SLACK ADJ 19T REAR LH HOWO371 SLACK ADJ 19T REAR LH HOWO371. 19T, ID 35MM, ID 15MM, HI 84MM, L 205MM, ID 35 mm, ID 15 mm, L 205 mm. SINOTRUK HOWO Slack Adjuster HOWO371 19T ID 35MM ID 15MM HI 84MM L 205MM ID 35 mm ID 15 mm L 205 mm HI 84 mm Rear LH WG9100340056 WG 910 034 0056 19T\nID 35mm\nwå9i00340056.\nHB20260519\nL 205mm\nID 15mm\nWG9100340056\nHI 84mm\nSLACK ADJ 19T REAR LH HOW0371 WhatsApp Image 2026-08-04 at 10.35.08 PM.jpeg SLACK ADJUSTER 19T REAR LH HOWO371",
+    "searchableText": "WG-910-034-0056 SLACK ADJUSTER 19T REAR LH HOWO371 SLACK ADJ 19T REAR LH HOWO371. 19T, ID 35MM, ID 15MM, HI 84MM, L 205MM, ID 35 mm, ID 15 mm, L 205 mm. SLACK ADJ 19T REAR LH HOWO371 SLACK ADJ 19T REAR LH HOWO371. 19T, ID 35MM, ID 15MM, HI 84MM, L 205MM, ID 35 mm, ID 15 mm, L 205 mm. OCR/source text preserved for search. HOWO371 SINOTRUK HOWO slack-adjuster Slack Adjuster trailer 19T; ID 35MM; ID 15MM; HI 84MM; L 205MM; ID 35 mm; ID 15 mm; L 205 mm; HI 84 mm; Rear LH 19T ID 35MM ID 15MM HI 84MM L 205MM ID 35 mm ID 15 mm L 205 mm HI 84 mm Rear LH [object Object] WG9100340056 WG 910 034 0056 slack adj air brake slack adjuster WhatsApp Image 2026-08-04 at 10.35.08 PM 19T\nID 35mm\nwå9i00340056.\nHB20260519\nL 205mm\nID 15mm\nWG9100340056\nHI 84mm\nSLACK ADJ 19T REAR LH HOW0371 air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.08 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.08 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.08 PM.jpeg",
@@ -1080,7 +1080,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "SQ3502140KA01 SQ3502140KA01 Slack Adjuster Rear 26T LH XCMG SLACK ADJUSTER REAR 26T LH XCMG SLACK ADJUSTER REAR 26T LH XCMG. 26T, ID 39/42MM, ID 16MM, C-C 190MM, HI 92MM, C-C 190 mm, ID 16 mm, HI 92 mm. HANVAN Slack Adjuster XCMG 26T ID 39/42MM ID 16MM C-C 190MM HI 92MM C-C 190 mm ID 16 mm HI 92 mm ID 39/42 mm 26T\nID 39/42mm\nSQ3502145KA01\n320230720\nC-C 190mm\nBF20230720\nHI 92mm\nID 16mm\nSQ3502140KA01\nSLACK ADJUSTER REAR 26T LI-I XCMG WhatsApp Image 2026-08-04 at 10.35.09 PM (1).jpeg SLACK ADJUSTER REAR 26T LH XCMG",
+    "searchableText": "SQ3502140KA01 SLACK ADJUSTER REAR 26T LH XCMG SLACK ADJUSTER REAR 26T LH XCMG. 26T, ID 39/42MM, ID 16MM, C-C 190MM, HI 92MM, C-C 190 mm, ID 16 mm, HI 92 mm. SLACK ADJUSTER REAR 26T LH XCMG. 26T, ID 39/42MM, ID 16MM, C-C 190MM, HI 92MM, C-C 190 mm, ID 16 mm, HI 92 mm. OCR/source text preserved for search. XCMG HANVAN slack-adjuster Slack Adjuster trailer 26T; ID 39/42MM; ID 16MM; C-C 190MM; HI 92MM; C-C 190 mm; ID 16 mm; HI 92 mm; ID 39/42 mm 26T ID 39/42MM ID 16MM C-C 190MM HI 92MM C-C 190 mm ID 16 mm HI 92 mm ID 39/42 mm [object Object] slack adj air brake slack adjuster WhatsApp Image 2026-08-04 at 10.35.09 PM (1) 26T\nID 39/42mm\nSQ3502145KA01\n320230720\nC-C 190mm\nBF20230720\nHI 92mm\nID 16mm\nSQ3502140KA01\nSLACK ADJUSTER REAR 26T LI-I XCMG air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.09 PM (1).jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.09 PM (1).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.09 PM (1).jpeg",
@@ -1178,7 +1178,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "5204200238 5204200238 Slack Adjuster RH 26T SLACK ADJUSTER RH 26T SLACK ADJUSTER RH 26T. 26T, ID 14MM, ID 39/42MM, C-C 115MM, HI 66MM, C-C 115 mm, ID 14 mm, HI 66 mm.  Slack Adjuster 26T ID 14MM ID 39/42MM C-C 115MM HI 66MM C-C 115 mm ID 14 mm HI 66 mm ID 39/42 mm ID 14mm\nHI 66mm\nC-C 115mm\n26T\nID 39/42mm\n5204200238\nSLACK ADJUSTER RH 26T\nOil)\nSLACK ADJUSTER RI-1 26T WhatsApp Image 2026-08-04 at 10.35.09 PM (2).jpeg SLACK ADJUSTER RH 26T",
+    "searchableText": "5204200238 SLACK ADJUSTER RH 26T SLACK ADJUSTER RH 26T. 26T, ID 14MM, ID 39/42MM, C-C 115MM, HI 66MM, C-C 115 mm, ID 14 mm, HI 66 mm. SLACK ADJUSTER RH 26T. 26T, ID 14MM, ID 39/42MM, C-C 115MM, HI 66MM, C-C 115 mm, ID 14 mm, HI 66 mm. OCR/source text preserved for search. slack-adjuster Slack Adjuster trailer 26T; ID 14MM; ID 39/42MM; C-C 115MM; HI 66MM; C-C 115 mm; ID 14 mm; HI 66 mm; ID 39/42 mm 26T ID 14MM ID 39/42MM C-C 115MM HI 66MM C-C 115 mm ID 14 mm HI 66 mm ID 39/42 mm [object Object] slack adj air brake slack adjuster WhatsApp Image 2026-08-04 at 10.35.09 PM (2) ID 14mm\nHI 66mm\nC-C 115mm\n26T\nID 39/42mm\n5204200238\nSLACK ADJUSTER RH 26T\nOil)\nSLACK ADJUSTER RI-1 26T air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.09 PM (2).jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.09 PM (2).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.09 PM (2).jpeg",
@@ -1276,7 +1276,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "5204200138 5204200138 Slack Adjuster LH 26T SLACK ADJUSTER LH 26T SLACK ADJUSTER LH 26T. 26T, ID 14MM, ID 39/42MM, C-C 115MM, HI 66MM, C-C 115 mm, ID 14 mm, HI 66 mm.  Slack Adjuster 26T ID 14MM ID 39/42MM C-C 115MM HI 66MM C-C 115 mm ID 14 mm HI 66 mm ID 39/42 mm ID 14mm\nHI 66mm\nC-C 115mm\n26T\nID 39/42mm\n5204200138\nSLACK ADJUSTER LH 26T WhatsApp Image 2026-08-04 at 10.35.09 PM.jpeg SLACK ADJUSTER LH 26T",
+    "searchableText": "5204200138 SLACK ADJUSTER LH 26T SLACK ADJUSTER LH 26T. 26T, ID 14MM, ID 39/42MM, C-C 115MM, HI 66MM, C-C 115 mm, ID 14 mm, HI 66 mm. SLACK ADJUSTER LH 26T. 26T, ID 14MM, ID 39/42MM, C-C 115MM, HI 66MM, C-C 115 mm, ID 14 mm, HI 66 mm. OCR/source text preserved for search. slack-adjuster Slack Adjuster trailer 26T; ID 14MM; ID 39/42MM; C-C 115MM; HI 66MM; C-C 115 mm; ID 14 mm; HI 66 mm; ID 39/42 mm 26T ID 14MM ID 39/42MM C-C 115MM HI 66MM C-C 115 mm ID 14 mm HI 66 mm ID 39/42 mm [object Object] slack adj air brake slack adjuster WhatsApp Image 2026-08-04 at 10.35.09 PM ID 14mm\nHI 66mm\nC-C 115mm\n26T\nID 39/42mm\n5204200138\nSLACK ADJUSTER LH 26T air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.09 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.09 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.09 PM.jpeg",
@@ -1387,7 +1387,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "SQ3501210KA01 SQ3501210KA01 Slack Adjuster FRT 26T L/R XCMG ID 42 SLACK ADJUSTER FRT 26T L/R XCMG ID 42 SLACK ADJUSTER FRT 26T L/R XCMG ID 42. 26T, ID 39/42MM, ID 14MM, C-C 148MM, L 204MM, M16, C-C 148 mm, ID 14 mm. HANVAN Slack Adjuster XCMG 26T ID 39/42MM ID 14MM C-C 148MM L 204MM M16 C-C 148 mm ID 14 mm ID 42 mm ID 39/42 mm L 204 mm 26T\nID 39/42mm\nC-C 148mm\no SQ3501210KF01\nPX25T\nAQ20260408\nID 14mm\nSQ3501210KF01\n$Q3501210KA01\nSLACK ADJUSTER FRT 26T L/R XCMG\nID 42 (I-I-H L 204MM) GOT 1 HOLE M16 WhatsApp Image 2026-08-04 at 10.35.10 PM (1).jpeg SLACK ADJUSTER FRT 26T L/R XCMG ID 42",
+    "searchableText": "SQ3501210KA01 SLACK ADJUSTER FRT 26T L/R XCMG ID 42 SLACK ADJUSTER FRT 26T L/R XCMG ID 42. 26T, ID 39/42MM, ID 14MM, C-C 148MM, L 204MM, M16, C-C 148 mm, ID 14 mm. SLACK ADJUSTER FRT 26T L/R XCMG ID 42. 26T, ID 39/42MM, ID 14MM, C-C 148MM, L 204MM, M16, C-C 148 mm, ID 14 mm. OCR/source text preserved for search. XCMG HANVAN slack-adjuster Slack Adjuster trailer 26T; ID 39/42MM; ID 14MM; C-C 148MM; L 204MM; M16; C-C 148 mm; ID 14 mm; ID 42 mm; ID 39/42 mm; L 204 mm 26T ID 39/42MM ID 14MM C-C 148MM L 204MM M16 C-C 148 mm ID 14 mm ID 42 mm ID 39/42 mm L 204 mm [object Object] slack adj air brake slack adjuster WhatsApp Image 2026-08-04 at 10.35.10 PM (1) 26T\nID 39/42mm\nC-C 148mm\no SQ3501210KF01\nPX25T\nAQ20260408\nID 14mm\nSQ3501210KF01\n$Q3501210KA01\nSLACK ADJUSTER FRT 26T L/R XCMG\nID 42 (I-I-H L 204MM) GOT 1 HOLE M16 air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.10 PM (1).jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.10 PM (1).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.10 PM (1).jpeg",
@@ -1505,7 +1505,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "4041 4041 Slack Adjuster AUTO 14T LH YUTONG SLACK ADJUSTER AUTO 14T LH YUTONG SLACK ADJUSTER AUTO 14T LH YUTONG. 14T, ID 13MM, ID 35/40MM, C-C 165MM, C-C 31MM, HI 82MM, C-C 165 mm, C-C 31 mm. XIN SENG Slack Adjuster YUTONG 14T ID 13MM ID 35/40MM C-C 165MM C-C 31MM HI 82MM C-C 165 mm C-C 31 mm 2H ID 13 mm HI 82 mm ID 35/40 mm DZ9100440572 DZ9100440572 C-C 165mm\nC-C 31mm\n2K ID 13mm\nHI 82mm\n14T\nID 35/40mm\n4041\n'DZ91C044C±72\n240703\nSLACK ADJUSTER AUTO 14T LI-I YUTONG\nSLACK ADJUSTER AUTO 14T LH YUTONG WhatsApp Image 2026-08-04 at 10.35.10 PM (2).jpeg SLACK ADJUSTER AUTO 14T LH YUTONG",
+    "searchableText": "4041 SLACK ADJUSTER AUTO 14T LH YUTONG SLACK ADJUSTER AUTO 14T LH YUTONG. 14T, ID 13MM, ID 35/40MM, C-C 165MM, C-C 31MM, HI 82MM, C-C 165 mm, C-C 31 mm. SLACK ADJUSTER AUTO 14T LH YUTONG. 14T, ID 13MM, ID 35/40MM, C-C 165MM, C-C 31MM, HI 82MM, C-C 165 mm, C-C 31 mm. OCR/source text preserved for search. YUTONG XIN SENG slack-adjuster Slack Adjuster trailer 14T; ID 13MM; ID 35/40MM; C-C 165MM; C-C 31MM; HI 82MM; C-C 165 mm; C-C 31 mm; 2H ID 13 mm; HI 82 mm; ID 35/40 mm; DZ9100440572 14T ID 13MM ID 35/40MM C-C 165MM C-C 31MM HI 82MM C-C 165 mm C-C 31 mm 2H ID 13 mm HI 82 mm ID 35/40 mm DZ9100440572 [object Object] slack adj air brake slack adjuster WhatsApp Image 2026-08-04 at 10.35.10 PM (2) C-C 165mm\nC-C 31mm\n2K ID 13mm\nHI 82mm\n14T\nID 35/40mm\n4041\n'DZ91C044C±72\n240703\nSLACK ADJUSTER AUTO 14T LI-I YUTONG\nSLACK ADJUSTER AUTO 14T LH YUTONG air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.10 PM (2).jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.10 PM (2).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.10 PM (2).jpeg",
@@ -1623,7 +1623,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "4040 4040 Slack Adjuster AUTO 14T RH YUTONG SLACK ADJUSTER AUTO 14T RH YUTONG SLACK ADJUSTER AUTO 14T RH YUTONG. 14T, ID 13MM, ID 35/40MM, C-C 31MM, C-C 165MM, HI 82MM, C-C 165 mm, C-C 31 mm. XIN SENG Slack Adjuster YUTONG 14T ID 13MM ID 35/40MM C-C 31MM C-C 165MM HI 82MM C-C 165 mm C-C 31 mm 2H ID 13 mm HI 82 mm ID 35/40 mm DZ9100440571 DZ9100440571 C-C 31mm\n2H ID 13mm\nHI 82mm\n'DZg1004405/l\nC-C 165mm\n14T\nID 35/40mm\n4040\nSLACK ADJUSTER AUTO 14T RH YUTONG WhatsApp Image 2026-08-04 at 10.35.10 PM.jpeg SLACK ADJUSTER AUTO 14T RH YUTONG",
+    "searchableText": "4040 SLACK ADJUSTER AUTO 14T RH YUTONG SLACK ADJUSTER AUTO 14T RH YUTONG. 14T, ID 13MM, ID 35/40MM, C-C 31MM, C-C 165MM, HI 82MM, C-C 165 mm, C-C 31 mm. SLACK ADJUSTER AUTO 14T RH YUTONG. 14T, ID 13MM, ID 35/40MM, C-C 31MM, C-C 165MM, HI 82MM, C-C 165 mm, C-C 31 mm. OCR/source text preserved for search. YUTONG XIN SENG slack-adjuster Slack Adjuster trailer 14T; ID 13MM; ID 35/40MM; C-C 31MM; C-C 165MM; HI 82MM; C-C 165 mm; C-C 31 mm; 2H ID 13 mm; HI 82 mm; ID 35/40 mm; DZ9100440571 14T ID 13MM ID 35/40MM C-C 31MM C-C 165MM HI 82MM C-C 165 mm C-C 31 mm 2H ID 13 mm HI 82 mm ID 35/40 mm DZ9100440571 [object Object] slack adj air brake slack adjuster WhatsApp Image 2026-08-04 at 10.35.10 PM C-C 31mm\n2H ID 13mm\nHI 82mm\n'DZg1004405/l\nC-C 165mm\n14T\nID 35/40mm\n4040\nSLACK ADJUSTER AUTO 14T RH YUTONG air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.10 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.10 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.10 PM.jpeg",
@@ -1721,7 +1721,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "2400070-LE030 2400070LE030 2400070-LE030 2400070 LE030 Slack Adjuster LH JAC 10T 38Mm SLACK ADJUSTER LH JAC 10T 38MM SLACK ADJUSTER LH JAC 10T 38MM. ID 31/38MM, M16, ID 31/38 mm, 10T, 38 mm. JAC Slack Adjuster JAC ID 31/38MM M16 ID 31/38 mm 10T 38 mm 2400070 LE030 IOT\nID 31/38mm\nM16\n2400070-LE030,\n38rnm\nG) 2024M\nSLACK ADJUSTER LH JAC\nIOT 38MM WhatsApp Image 2026-08-04 at 10.35.11 PM (1).jpeg SLACK ADJUSTER LH JAC 10T 38MM",
+    "searchableText": "2400070-LE030 SLACK ADJUSTER LH JAC 10T 38MM SLACK ADJUSTER LH JAC 10T 38MM. ID 31/38MM, M16, ID 31/38 mm, 10T, 38 mm. SLACK ADJUSTER LH JAC 10T 38MM. ID 31/38MM, M16, ID 31/38 mm, 10T, 38 mm. OCR/source text preserved for search. JAC slack-adjuster Slack Adjuster trailer ID 31/38MM; M16; ID 31/38 mm; 10T; 38 mm ID 31/38MM M16 ID 31/38 mm 10T 38 mm [object Object] 2400070 LE030 slack adj air brake slack adjuster 2400070LE030 WhatsApp Image 2026-08-04 at 10.35.11 PM (1) IOT\nID 31/38mm\nM16\n2400070-LE030,\n38rnm\nG) 2024M\nSLACK ADJUSTER LH JAC\nIOT 38MM air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.11 PM (1).jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.11 PM (1).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.11 PM (1).jpeg",
@@ -1819,7 +1819,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "2400080-LE030 2400080LE030 2400080 LE030 2400080-LE030 Slack Adjuster RH JAC 10T 38Mm SLACK ADJUSTER RH JAC 10T 38MM SLACK ADJUSTER RH JAC 10T 38MM. 10T, ID 31/38MM, M16, ID 31/38 mm, 38 mm. JAC Slack Adjuster JAC 10T ID 31/38MM M16 ID 31/38 mm 38 mm 2400080 LE030 M16\n22400080-LE030\n10T 38mmTv\n'2024.04\nIOT\nID 31/38mm\n2400080-LE030\nSLACK ADJUSTER RH JAC\nIOT 38MM WhatsApp Image 2026-08-04 at 10.35.11 PM (2).jpeg SLACK ADJUSTER RH JAC 10T 38MM",
+    "searchableText": "2400080-LE030 SLACK ADJUSTER RH JAC 10T 38MM SLACK ADJUSTER RH JAC 10T 38MM. 10T, ID 31/38MM, M16, ID 31/38 mm, 38 mm. SLACK ADJUSTER RH JAC 10T 38MM. 10T, ID 31/38MM, M16, ID 31/38 mm, 38 mm. OCR/source text preserved for search. JAC slack-adjuster Slack Adjuster trailer 10T; ID 31/38MM; M16; ID 31/38 mm; 38 mm 10T ID 31/38MM M16 ID 31/38 mm 38 mm [object Object] 2400080 LE030 slack adj air brake slack adjuster 2400080LE030 WhatsApp Image 2026-08-04 at 10.35.11 PM (2) M16\n22400080-LE030\n10T 38mmTv\n'2024.04\nIOT\nID 31/38mm\n2400080-LE030\nSLACK ADJUSTER RH JAC\nIOT 38MM air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.11 PM (2).jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.11 PM (2).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.11 PM (2).jpeg",
@@ -1924,7 +1924,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "47480-1590-TWINKLE 47480 1590 TWINKLE 47480-1590-TWINKLE 474801590TWINKLE Slack Adj 14T L/R Green 40Mm Zm SLACK ADJ 14T L/R GREEN 40MM ZM SLACK ADJ 14T L/R GREEN 40MM ZM. 14T, ID 12MM, ID 35/40MM, C-C 164MM, C-C 164 mm, ID 12 mm, ID 35/40 mm. TWINKLE Slack Adjuster GREEN 14T ID 12MM ID 35/40MM C-C 164MM C-C 164 mm ID 12 mm ID 35/40 mm 474801590TWINKLE N KLE\nC-C 164mm\nID 12mm\n14T\nID 35/40mm\n47480-1590 TWINKLE\nSLACK ADJ 14T L/R GREEN 40MM ZM WhatsApp Image 2026-08-04 at 10.35.11 PM.jpeg SLACK ADJUSTER 14T L/R GREEN 40MM ZM",
+    "searchableText": "47480-1590-TWINKLE SLACK ADJUSTER 14T L/R GREEN 40MM ZM SLACK ADJ 14T L/R GREEN 40MM ZM. 14T, ID 12MM, ID 35/40MM, C-C 164MM, C-C 164 mm, ID 12 mm, ID 35/40 mm. SLACK ADJ 14T L/R GREEN 40MM ZM SLACK ADJ 14T L/R GREEN 40MM ZM. 14T, ID 12MM, ID 35/40MM, C-C 164MM, C-C 164 mm, ID 12 mm, ID 35/40 mm. OCR/source text preserved for search. GREEN TWINKLE slack-adjuster Slack Adjuster trailer 14T; ID 12MM; ID 35/40MM; C-C 164MM; C-C 164 mm; ID 12 mm; ID 35/40 mm 14T ID 12MM ID 35/40MM C-C 164MM C-C 164 mm ID 12 mm ID 35/40 mm [object Object] 474801590TWINKLE slack adj air brake slack adjuster 47480 1590 TWINKLE WhatsApp Image 2026-08-04 at 10.35.11 PM N KLE\nC-C 164mm\nID 12mm\n14T\nID 35/40mm\n47480-1590 TWINKLE\nSLACK ADJ 14T L/R GREEN 40MM ZM air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.11 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.11 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.11 PM.jpeg",
@@ -2034,7 +2034,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "47480-2760 47480 2760 474802760 47480-2760 Slack Adjuster 19T Rear FRT LH PROFIA SLACK ADJUSTER 19T REAR FRT LH PROFIA SLACK ADJUSTER 19T REAR FRT LH PROFIA. 19T, ID 13MM, ID 34/38MM, C-C 143MM, HI 65MM, C-C 143 mm, ID 13 mm, HI 65 mm.  Slack Adjuster PROFIA 19T ID 13MM ID 34/38MM C-C 143MM HI 65MM C-C 143 mm ID 13 mm HI 65 mm ID 34/38 mm 474802760 HI 65mm\nC-C 143mm\nEURO\nSlack adjuster\nID 13mm\n19T\nID 34/38mm\n47480-2760\nSLARK ADJUSTER 19T REAR FRT LH PROFIA WhatsApp Image 2026-08-04 at 10.35.12 PM (1).jpeg SLACK ADJUSTER 19T REAR FRT LH PROFIA",
+    "searchableText": "47480-2760 SLACK ADJUSTER 19T REAR FRT LH PROFIA SLACK ADJUSTER 19T REAR FRT LH PROFIA. 19T, ID 13MM, ID 34/38MM, C-C 143MM, HI 65MM, C-C 143 mm, ID 13 mm, HI 65 mm. SLACK ADJUSTER 19T REAR FRT LH PROFIA. 19T, ID 13MM, ID 34/38MM, C-C 143MM, HI 65MM, C-C 143 mm, ID 13 mm, HI 65 mm. OCR/source text preserved for search. PROFIA slack-adjuster Slack Adjuster trailer 19T; ID 13MM; ID 34/38MM; C-C 143MM; HI 65MM; C-C 143 mm; ID 13 mm; HI 65 mm; ID 34/38 mm 19T ID 13MM ID 34/38MM C-C 143MM HI 65MM C-C 143 mm ID 13 mm HI 65 mm ID 34/38 mm [object Object] 474802760 slack adj air brake slack adjuster 47480 2760 WhatsApp Image 2026-08-04 at 10.35.12 PM (1) HI 65mm\nC-C 143mm\nEURO\nSlack adjuster\nID 13mm\n19T\nID 34/38mm\n47480-2760\nSLARK ADJUSTER 19T REAR FRT LH PROFIA air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.12 PM (1).jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.12 PM (1).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.12 PM (1).jpeg",
@@ -2147,7 +2147,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "1112829-SORL 1112829-SORL 1112829 SORL 1112829SORL FRT Slack Adjuster LH Sc124 10T ID 38Mm FRT SLACK ADJUSTER LH SC124 10T ID 38MM FRT SLACK ADJUSTER LH SC124 10T ID 38MM. ID 16MM, ID 31/38MM, C-C 155MM, HI 80MM, C-C 155 mm, ID 16 mm, ID 31/38 mm, HI 80 mm. SORL Slack Adjuster SC124 ID 16MM ID 31/38MM C-C 155MM HI 80MM C-C 155 mm ID 16 mm ID 31/38 mm HI 80 mm 10T 1112829 SORL 1112829SORL C-C 155mm\nSÉRL\nID 16mm\nIOT\nID 31/38mm\n1112829-SORL\nFRT SLACK ADJUSTER LH SC124\nIOT ID 38M\nHI 80mm WhatsApp Image 2026-08-04 at 10.35.12 PM (2).jpeg FRT SLACK ADJUSTER LH SC124 10T ID 38MM",
+    "searchableText": "1112829-SORL FRT SLACK ADJUSTER LH SC124 10T ID 38MM FRT SLACK ADJUSTER LH SC124 10T ID 38MM. ID 16MM, ID 31/38MM, C-C 155MM, HI 80MM, C-C 155 mm, ID 16 mm, ID 31/38 mm, HI 80 mm. FRT SLACK ADJUSTER LH SC124 10T ID 38MM. ID 16MM, ID 31/38MM, C-C 155MM, HI 80MM, C-C 155 mm, ID 16 mm, ID 31/38 mm, HI 80 mm. OCR/source text preserved for search. SC124 SORL slack-adjuster Slack Adjuster trailer ID 16MM; ID 31/38MM; C-C 155MM; HI 80MM; C-C 155 mm; ID 16 mm; ID 31/38 mm; HI 80 mm; 10T ID 16MM ID 31/38MM C-C 155MM HI 80MM C-C 155 mm ID 16 mm ID 31/38 mm HI 80 mm 10T [object Object] 1112829 SORL 1112829SORL slack adj air brake slack adjuster WhatsApp Image 2026-08-04 at 10.35.12 PM (2) C-C 155mm\nSÉRL\nID 16mm\nIOT\nID 31/38mm\n1112829-SORL\nFRT SLACK ADJUSTER LH SC124\nIOT ID 38M\nHI 80mm air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.12 PM (2).jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.12 PM (2).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.12 PM (2).jpeg",
@@ -2255,7 +2255,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "1112833-SORL 1112833 SORL 1112833-SORL 1112833SORL Rear Slack Adjuster LH Sc124 10T ID 38Mm REAR SLACK ADJUSTER LH SC124 10T ID 38MM REAR SLACK ADJUSTER LH SC124 10T ID 38MM. ID 31/38MM, ID 38MM, C-C 130MM, HI 51MM, C-C 130 mm, ID 31/38 mm, HI 51 mm, 10T. SORL Slack Adjuster SC124 ID 31/38MM ID 38MM C-C 130MM HI 51MM C-C 130 mm ID 31/38 mm HI 51 mm 10T 1112833SORL C-C 130mm\nIOT\nHI 51mm\n- ID 31/38mm\n1112833-SORL\nREAR SLACK ADJUSTER LH sc124\nIOT ID 38MM WhatsApp Image 2026-08-04 at 10.35.12 PM (3).jpeg REAR SLACK ADJUSTER LH SC124 10T ID 38MM",
+    "searchableText": "1112833-SORL REAR SLACK ADJUSTER LH SC124 10T ID 38MM REAR SLACK ADJUSTER LH SC124 10T ID 38MM. ID 31/38MM, ID 38MM, C-C 130MM, HI 51MM, C-C 130 mm, ID 31/38 mm, HI 51 mm, 10T. REAR SLACK ADJUSTER LH SC124 10T ID 38MM. ID 31/38MM, ID 38MM, C-C 130MM, HI 51MM, C-C 130 mm, ID 31/38 mm, HI 51 mm, 10T. OCR/source text preserved for search. SC124 SORL slack-adjuster Slack Adjuster trailer ID 31/38MM; ID 38MM; C-C 130MM; HI 51MM; C-C 130 mm; ID 31/38 mm; HI 51 mm; 10T ID 31/38MM ID 38MM C-C 130MM HI 51MM C-C 130 mm ID 31/38 mm HI 51 mm 10T [object Object] 1112833SORL slack adj air brake slack adjuster 1112833 SORL WhatsApp Image 2026-08-04 at 10.35.12 PM (3) C-C 130mm\nIOT\nHI 51mm\n- ID 31/38mm\n1112833-SORL\nREAR SLACK ADJUSTER LH sc124\nIOT ID 38MM air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.12 PM (3).jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.12 PM (3).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.12 PM (3).jpeg",
@@ -2349,7 +2349,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "47480-2761 47480-2761 47480 2761 474802761 Slack Adjuster 19T Rear FRT RH PROFIA SLACK ADJUSTER 19T REAR FRT RH PROFIA SLACK ADJUSTER 19T REAR FRT RH PROFIA. 19T, C-C 143MM, C-C 143 mm.  Slack Adjuster PROFIA 19T C-C 143MM C-C 143 mm 47480 2761 474802761 C-C 143mm\nEURO)\nSlack adjuster\n47480-2761\nSLARK ADJUSTER 19T REAR FRT RH PROFIA WhatsApp Image 2026-08-04 at 10.35.12 PM.jpeg SLACK ADJUSTER 19T REAR FRT RH PROFIA",
+    "searchableText": "47480-2761 SLACK ADJUSTER 19T REAR FRT RH PROFIA SLACK ADJUSTER 19T REAR FRT RH PROFIA. 19T, C-C 143MM, C-C 143 mm. SLACK ADJUSTER 19T REAR FRT RH PROFIA. 19T, C-C 143MM, C-C 143 mm. OCR/source text preserved for search. PROFIA slack-adjuster Slack Adjuster trailer 19T; C-C 143MM; C-C 143 mm 19T C-C 143MM C-C 143 mm [object Object] 47480 2761 474802761 slack adj air brake slack adjuster WhatsApp Image 2026-08-04 at 10.35.12 PM C-C 143mm\nEURO)\nSlack adjuster\n47480-2761\nSLARK ADJUSTER 19T REAR FRT RH PROFIA air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.12 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.12 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.12 PM.jpeg",
@@ -2463,7 +2463,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "DZ-911-244-0094 DZ 911 244 0094 DZ-911-244-0094 DZ9112440094 Slack Adjuster 26T Hande Axle ID 40M XCMG 30T SHACMAN F3000 FRT Hanvan SLACK ADJUSTER 26T HANDE AXLE ID 40M XCMG 30T SHACMAN F3000 FRT HANVAN SLACK ADJUSTER 26T HANDE AXLE ID 40M XCMG 30T SHACMAN F3000 FRT HANVAN. 26T, 30T, ID 14MM, ID 40/42MM, C-C 120MM, C-C 120 mm, ID 14 mm, ID 40/42 mm. HANDE Slack Adjuster XCMG 30T SHACMAN F3000 HANVAN 26T 30T ID 14MM ID 40/42MM C-C 120MM C-C 120 mm ID 14 mm ID 40/42 mm DZ9112440094 ID 14mm\nC-C 120mm\n26T\nID 40/42mm\nDZ9112440094\nA020241208\n6\nSLACK ADJUSTER 26T\nHANDE AXLE ID 40M\nXCMG 30T SHACMAN F3000 FRT HANVAN WhatsApp Image 2026-08-04 at 10.35.13 PM (1).jpeg SLACK ADJUSTER 26T HANDE AXLE ID 40M XCMG 30T SHACMAN F3000 FRT HANVAN",
+    "searchableText": "DZ-911-244-0094 SLACK ADJUSTER 26T HANDE AXLE ID 40M XCMG 30T SHACMAN F3000 FRT HANVAN SLACK ADJUSTER 26T HANDE AXLE ID 40M XCMG 30T SHACMAN F3000 FRT HANVAN. 26T, 30T, ID 14MM, ID 40/42MM, C-C 120MM, C-C 120 mm, ID 14 mm, ID 40/42 mm. SLACK ADJUSTER 26T HANDE AXLE ID 40M XCMG 30T SHACMAN F3000 FRT HANVAN. 26T, 30T, ID 14MM, ID 40/42MM, C-C 120MM, C-C 120 mm, ID 14 mm, ID 40/42 mm. OCR/source text preserved for search. XCMG 30T, SHACMAN F3000, HANVAN HANDE slack-adjuster Slack Adjuster trailer 26T; 30T; ID 14MM; ID 40/42MM; C-C 120MM; C-C 120 mm; ID 14 mm; ID 40/42 mm 26T 30T ID 14MM ID 40/42MM C-C 120MM C-C 120 mm ID 14 mm ID 40/42 mm [object Object] XCMG 30T SHACMAN F3000 HANVAN DZ9112440094 slack adj air brake slack adjuster DZ 911 244 0094 WhatsApp Image 2026-08-04 at 10.35.13 PM (1) ID 14mm\nC-C 120mm\n26T\nID 40/42mm\nDZ9112440094\nA020241208\n6\nSLACK ADJUSTER 26T\nHANDE AXLE ID 40M\nXCMG 30T SHACMAN F3000 FRT HANVAN air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.13 PM (1).jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.13 PM (1).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.13 PM (1).jpeg",
@@ -2573,7 +2573,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "DZ-911-234-0187 DZ-911-234-0187 DZ 911 234 0187 DZ9112340187 Slack Adjuster 19T Tonly For Hande Axle ID 38M Long 240M SLACK ADJUSTER 19T TONLY FOR HANDE AXLE ID 38M LONG 240M SLACK ADJUSTER 19T TONLY FOR HANDE AXLE ID 38M LONG 240M. 19T, ID 35/38MM, ID 14MM, C-C 162MM, C-C 162 mm, ID 14 mm, ID 35/38 mm, Long 240 mm. HANDE Slack Adjuster TONLY 19T ID 35/38MM ID 14MM C-C 162MM C-C 162 mm ID 14 mm ID 35/38 mm Long 240 mm DZ 911 234 0187 DZ9112340187 19T\nID 35/38mm\n• 4•ir,'_\n.DZ9112340iÅi:\n+16202512246,\nC-C 162mm\nID 14mm\nDz-911 234 0187\nSLACK ADJUSTER 19T TONLY\nFOR HANDE AXLE ID 38M LONG 240M WhatsApp Image 2026-08-04 at 10.35.13 PM (2).jpeg SLACK ADJUSTER 19T TONLY FOR HANDE AXLE ID 38M LONG 240M",
+    "searchableText": "DZ-911-234-0187 SLACK ADJUSTER 19T TONLY FOR HANDE AXLE ID 38M LONG 240M SLACK ADJUSTER 19T TONLY FOR HANDE AXLE ID 38M LONG 240M. 19T, ID 35/38MM, ID 14MM, C-C 162MM, C-C 162 mm, ID 14 mm, ID 35/38 mm, Long 240 mm. SLACK ADJUSTER 19T TONLY FOR HANDE AXLE ID 38M LONG 240M. 19T, ID 35/38MM, ID 14MM, C-C 162MM, C-C 162 mm, ID 14 mm, ID 35/38 mm, Long 240 mm. OCR/source text preserved for search. TONLY HANDE slack-adjuster Slack Adjuster trailer 19T; ID 35/38MM; ID 14MM; C-C 162MM; C-C 162 mm; ID 14 mm; ID 35/38 mm; Long 240 mm 19T ID 35/38MM ID 14MM C-C 162MM C-C 162 mm ID 14 mm ID 35/38 mm Long 240 mm [object Object] DZ 911 234 0187 DZ9112340187 slack adj air brake slack adjuster WhatsApp Image 2026-08-04 at 10.35.13 PM (2) 19T\nID 35/38mm\n• 4•ir,'_\n.DZ9112340iÅi:\n+16202512246,\nC-C 162mm\nID 14mm\nDz-911 234 0187\nSLACK ADJUSTER 19T TONLY\nFOR HANDE AXLE ID 38M LONG 240M air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.13 PM (2).jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.13 PM (2).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.13 PM (2).jpeg",
@@ -2681,7 +2681,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "47480-1860-UNI 47480 1860 UNI 474801860UNI 47480-1860-UNI FRT Slack Adj LH 14T Fm2P PROFIA Gi-183 AUTO Body Number 8040 FRT SLACK ADJ LH 14T FM2P PROFIA GI-183 AUTO BODY NUMBER 8040 FRT SLACK ADJ LH 14T FM2P PROFIA GI-183 AUTO BODY NUMBER 8040. 14T, C-C 138MM, BODY NUMBER 8040, C-C 138 mm, BODY 8040, 12256 14T-L1 FR/LH. UNIEURO Slack Adjuster FM2P PROFIA GI-183 14T C-C 138MM BODY NUMBER 8040 C-C 138 mm BODY 8040 12256 14T-L1 FR/LH 474801860UNI C-C 138mm\n47480-1860-UNI\nERT SLACK ADJ LH 14T FM2P PROFA GI-183\nAUTO BODY NUMBER 8040 (12256 14T-L1 FR/LH ) WhatsApp Image 2026-08-04 at 10.35.13 PM.jpeg FRT SLACK ADJUSTER LH 14T FM2P PROFIA GI-183 AUTO BODY NUMBER 8040",
+    "searchableText": "47480-1860-UNI FRT SLACK ADJUSTER LH 14T FM2P PROFIA GI-183 AUTO BODY NUMBER 8040 FRT SLACK ADJ LH 14T FM2P PROFIA GI-183 AUTO BODY NUMBER 8040. 14T, C-C 138MM, BODY NUMBER 8040, C-C 138 mm, BODY 8040, 12256 14T-L1 FR/LH. FRT SLACK ADJ LH 14T FM2P PROFIA GI-183 AUTO BODY NUMBER 8040 FRT SLACK ADJ LH 14T FM2P PROFIA GI-183 AUTO BODY NUMBER 8040. 14T, C-C 138MM, BODY NUMBER 8040, C-C 138 mm, BODY 8040, 12256 14T-L1 FR/LH. OCR/source text preserved for search. FM2P, PROFIA, GI-183 UNIEURO slack-adjuster Slack Adjuster trailer 14T; C-C 138MM; BODY NUMBER 8040; C-C 138 mm; BODY 8040; 12256 14T-L1 FR/LH 14T C-C 138MM BODY NUMBER 8040 C-C 138 mm BODY 8040 12256 14T-L1 FR/LH [object Object] FM2P PROFIA GI-183 474801860UNI slack adj air brake slack adjuster 47480 1860 UNI WhatsApp Image 2026-08-04 at 10.35.13 PM C-C 138mm\n47480-1860-UNI\nERT SLACK ADJ LH 14T FM2P PROFA GI-183\nAUTO BODY NUMBER 8040 (12256 14T-L1 FR/LH ) air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.13 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.13 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.13 PM.jpeg",
@@ -2791,7 +2791,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "AJT-12256-UNI AJT-12256-UNI AJT12256UNI AJT 12256 UNI Slack Adjuster 14T LH=RH Rk1Jsll Body 8020 SLACK ADJUSTER 14T LH=RH RK1JSLL BODY 8020 SLACK ADJUSTER 14T LH=RH RK1JSLL BODY 8020. 14T, ID 12MM, ID 35/40MM, C-C 137MM, BODY 8020, C-C 137 mm, ID 12 mm, ID 35/40 mm. UNIEURO Slack Adjuster RK1JSLL 14T ID 12MM ID 35/40MM C-C 137MM BODY 8020 C-C 137 mm ID 12 mm ID 35/40 mm AJT12256UNI AJT 12256 UNI C-C 137mm\nID 12mm\n14T\nID 35/40mm\n12256C\nGesti ngesteller\nSlack adjuster\nUNIIÉURO\nAJT/12256-UN1\nUNIEURO\nG E N u INE\nSLACK ADJUSTER 14T LH=RH RKIJSLL\nBODY 8020(12256 14T) WhatsApp Image 2026-08-04 at 10.35.14 PM (1).jpeg SLACK ADJUSTER 14T LH=RH RK1JSLL BODY 8020",
+    "searchableText": "AJT-12256-UNI SLACK ADJUSTER 14T LH=RH RK1JSLL BODY 8020 SLACK ADJUSTER 14T LH=RH RK1JSLL BODY 8020. 14T, ID 12MM, ID 35/40MM, C-C 137MM, BODY 8020, C-C 137 mm, ID 12 mm, ID 35/40 mm. SLACK ADJUSTER 14T LH=RH RK1JSLL BODY 8020. 14T, ID 12MM, ID 35/40MM, C-C 137MM, BODY 8020, C-C 137 mm, ID 12 mm, ID 35/40 mm. OCR/source text preserved for search. RK1JSLL UNIEURO slack-adjuster Slack Adjuster trailer 14T; ID 12MM; ID 35/40MM; C-C 137MM; BODY 8020; C-C 137 mm; ID 12 mm; ID 35/40 mm 14T ID 12MM ID 35/40MM C-C 137MM BODY 8020 C-C 137 mm ID 12 mm ID 35/40 mm [object Object] AJT12256UNI AJT 12256 UNI slack adj air brake slack adjuster WhatsApp Image 2026-08-04 at 10.35.14 PM (1) C-C 137mm\nID 12mm\n14T\nID 35/40mm\n12256C\nGesti ngesteller\nSlack adjuster\nUNIIÉURO\nAJT/12256-UN1\nUNIEURO\nG E N u INE\nSLACK ADJUSTER 14T LH=RH RKIJSLL\nBODY 8020(12256 14T) air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.14 PM (1).jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.14 PM (1).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.14 PM (1).jpeg",
@@ -2902,7 +2902,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "1112830-SORL 1112830SORL 1112830-SORL 1112830 SORL FRT Slack Adjuster RH Sc124 10T ID 38Mm FRT SLACK ADJUSTER RH SC124 10T ID 38MM FRT SLACK ADJUSTER RH SC124 10T ID 38MM. ID 16MM, ID 31/38MM, ID 38MM, C-C 180MM, C-C 180 mm, ID 16 mm, ID 31/38 mm, HI 87 mm. SORL Slack Adjuster SC124 ID 16MM ID 31/38MM ID 38MM C-C 180MM C-C 180 mm ID 16 mm ID 31/38 mm HI 87 mm 10T 1112830 SORL H/ 87mm\nC-C 180mm\n001\n1 112830/1245\nID 16mm\nIOT\nID 31/38mm\n1112830-SORL\nFRT SLACK ADJUSTER RH SC124\nIOT ID 38MM WhatsApp Image 2026-08-04 at 10.35.14 PM (2).jpeg FRT SLACK ADJUSTER RH SC124 10T ID 38MM",
+    "searchableText": "1112830-SORL FRT SLACK ADJUSTER RH SC124 10T ID 38MM FRT SLACK ADJUSTER RH SC124 10T ID 38MM. ID 16MM, ID 31/38MM, ID 38MM, C-C 180MM, C-C 180 mm, ID 16 mm, ID 31/38 mm, HI 87 mm. FRT SLACK ADJUSTER RH SC124 10T ID 38MM. ID 16MM, ID 31/38MM, ID 38MM, C-C 180MM, C-C 180 mm, ID 16 mm, ID 31/38 mm, HI 87 mm. OCR/source text preserved for search. SC124 SORL slack-adjuster Slack Adjuster trailer ID 16MM; ID 31/38MM; ID 38MM; C-C 180MM; C-C 180 mm; ID 16 mm; ID 31/38 mm; HI 87 mm; 10T ID 16MM ID 31/38MM ID 38MM C-C 180MM C-C 180 mm ID 16 mm ID 31/38 mm HI 87 mm 10T [object Object] 1112830 SORL slack adj air brake slack adjuster 1112830SORL WhatsApp Image 2026-08-04 at 10.35.14 PM (2) H/ 87mm\nC-C 180mm\n001\n1 112830/1245\nID 16mm\nIOT\nID 31/38mm\n1112830-SORL\nFRT SLACK ADJUSTER RH SC124\nIOT ID 38MM air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.14 PM (2).jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.14 PM (2).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.14 PM (2).jpeg",
@@ -3015,7 +3015,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "AJT-12256SL-UNI AJT-12256SL-UNI AJT 12256SL UNI AJT12256SLUNI Slack Adjuster 19T PROFIA Body Number 8020 SLACK ADJUSTER 19T PROFIA BODY NUMBER 8020 SLACK ADJUSTER 19T PROFIA BODY NUMBER 8020. 19T, ID 13MM, ID 34/38MM, C-C 139MM, BODY NUMBER 8020, C-C 139 mm, ID 13 mm, ID 34/38 mm. UNIEURO Slack Adjuster PROFIA 19T ID 13MM ID 34/38MM C-C 139MM BODY NUMBER 8020 C-C 139 mm ID 13 mm ID 34/38 mm BODY 8020 AJT 12256SL UNI AJT12256SLUNI C-C 139mm\nslack adjuster\nID 13mm\n19T\nID 34/38mm\nAJT/1225\nSLACK ADJUSTER 19T PROFIA\nBODY NUMBER 8020 (12256 19T) WhatsApp Image 2026-08-04 at 10.35.14 PM.jpeg SLACK ADJUSTER 19T PROFIA BODY NUMBER 8020",
+    "searchableText": "AJT-12256SL-UNI SLACK ADJUSTER 19T PROFIA BODY NUMBER 8020 SLACK ADJUSTER 19T PROFIA BODY NUMBER 8020. 19T, ID 13MM, ID 34/38MM, C-C 139MM, BODY NUMBER 8020, C-C 139 mm, ID 13 mm, ID 34/38 mm. SLACK ADJUSTER 19T PROFIA BODY NUMBER 8020. 19T, ID 13MM, ID 34/38MM, C-C 139MM, BODY NUMBER 8020, C-C 139 mm, ID 13 mm, ID 34/38 mm. OCR/source text preserved for search. PROFIA UNIEURO slack-adjuster Slack Adjuster trailer 19T; ID 13MM; ID 34/38MM; C-C 139MM; BODY NUMBER 8020; C-C 139 mm; ID 13 mm; ID 34/38 mm; BODY 8020 19T ID 13MM ID 34/38MM C-C 139MM BODY NUMBER 8020 C-C 139 mm ID 13 mm ID 34/38 mm BODY 8020 [object Object] AJT 12256SL UNI AJT12256SLUNI slack adj air brake slack adjuster WhatsApp Image 2026-08-04 at 10.35.14 PM C-C 139mm\nslack adjuster\nID 13mm\n19T\nID 34/38mm\nAJT/1225\nSLACK ADJUSTER 19T PROFIA\nBODY NUMBER 8020 (12256 19T) air-brake heavy-truck-parts WhatsApp Image 2026-08-04 at 10.35.14 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-04 at 10.35.14 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-04 at 10.35.14 PM.jpeg",
@@ -3112,7 +3112,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "MC-826062-FUTZSU SLACK ADJUSTER REAR 25T FUSO NS FUTZSU slack-adjuster SLACK ADJUSTER REAR 25T FUSO NS. 25T, ID 36/40 mm, C-C 129 mm, ID 16 mm. SLACK ADJUSTER REAR 25T FUSO NS. 25T, ID 36/40 mm, C-C 129 mm, ID 16 mm. OCR/source text preserved for search. FUSO NS 25T; ID 36/40 mm; C-C 129 mm; ID 16 mm Ready stock 25T ID 36/40 mm C-C 129 mm ID 16 mm slack adjuster slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 1.14.24 PM MC826062FUTZSU MC 826062 FUTZSU FUSO UFUTZSU MC826062 C-C 129mm 25T ID 36/40mm ID 16mm UFWZSV /Æ826062 MC 826062 EUTZSU SLACK ADJUSTER REAR 25T FUSO NS nme visibleText SLACK ADJUSTER REAR 25T FUSO NS measurements 25T measurements ID 36/40 mm measurements C-C 129 mm measurements ID 16 mm vehicleModels FUSO NS UFUTZSU\nMC826062\nC-C 129mm\n25T\nID 36/40mm\nID 16mm\nUFWZSV\n/Æ826062\nMC 826062 EUTZSU\nSLACK ADJUSTER REAR 25T FUSO NS\nnme",
+    "searchableText": "MC-826062-FUTZSU SLACK ADJUSTER REAR 25T FUSO NS SLACK ADJUSTER REAR 25T FUSO NS. 25T, ID 36/40 mm, C-C 129 mm, ID 16 mm. SLACK ADJUSTER REAR 25T FUSO NS. 25T, ID 36/40 mm, C-C 129 mm, ID 16 mm. OCR/source text preserved for search. FUSO NS FUTZSU slack-adjuster Slack Adjuster trailer 25T; ID 36/40 mm; C-C 129 mm; ID 16 mm 25T ID 36/40 mm C-C 129 mm ID 16 mm [object Object] MC826062FUTZSU MC 826062 FUTZSU slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 1.14.24 PM FUSO UFUTZSU MC826062 C-C 129mm 25T ID 36/40mm ID 16mm UFWZSV /Æ826062 MC 826062 EUTZSU SLACK ADJUSTER REAR 25T FUSO NS nme air-brake heavy-truck-parts UFUTZSU\nMC826062\nC-C 129mm\n25T\nID 36/40mm\nID 16mm\nUFWZSV\n/Æ826062\nMC 826062 EUTZSU\nSLACK ADJUSTER REAR 25T FUSO NS\nnme WhatsApp Image 2026-08-06 at 1.14.24 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-06 at 1.14.24 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-06 at 1.14.24 PM.jpeg",
@@ -3121,7 +3121,9 @@ window.NAE_IMPORTED_PRODUCTS = [
       "ocrText": "UFUTZSU\nMC826062\nC-C 129mm\n25T\nID 36/40mm\nID 16mm\nUFWZSV\n/Æ826062\nMC 826062 EUTZSU\nSLACK ADJUSTER REAR 25T FUSO NS\nnme",
       "importedAt": "2026-08-06T23:55:28",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest red product code visible in the source image."
-    }
+    },
+    "slug": "mc-826062-futzsu-slack-adjuster",
+    "url": "products/mc-826062-futzsu-slack-adjuster.html"
   },
   {
     "id": "HD-901-293-40257",
@@ -3211,7 +3213,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "HD-901-293-40257 SLACK ADJUSTER 19T LH SHACMAN AUTO SHACMAN slack-adjuster SLACK ADJUSTER 19T LH SHACMAN AUTO. 19T, HI 96 mm, C-C 160 mm, ID 14 mm, ID 35/38 mm. SLACK ADJUSTER 19T LH SHACMAN AUTO. 19T, HI 96 mm, C-C 160 mm, ID 14 mm, ID 35/38 mm. OCR/source text preserved for search. 19T; HI 96 mm; C-C 160 mm; ID 14 mm; ID 35/38 mm Ready stock 19T HI 96 mm C-C 160 mm ID 14 mm ID 35/38 mm slack adjuster slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 11.27.33 AM HD90129340257 HD 901 293 40257 AUTO C-C 160mm D0129340257 DH 17017M SC c o ID 14mm 19T ID 35/38mm HI 96mm 1701m HD-901293 40257 SLACK ADJUSTER 19T LH SHACMAN AUTO visibleText SLACK ADJUSTER 19T LH SHACMAN AUTO measurements 19T measurements HI 96 mm measurements C-C 160 mm measurements ID 14 mm measurements ID 35/38 mm vehicleModels SHACMAN C-C 160mm\nD0129340257 DH\n17017M\nSC c\no\nID 14mm\n19T\nID 35/38mm\nHI 96mm\n1701m\nHD-901293 40257\nSLACK ADJUSTER 19T LH SHACMAN\nAUTO",
+    "searchableText": "HD-901-293-40257 SLACK ADJUSTER 19T LH SHACMAN AUTO SLACK ADJUSTER 19T LH SHACMAN AUTO. 19T, HI 96 mm, C-C 160 mm, ID 14 mm, ID 35/38 mm. SLACK ADJUSTER 19T LH SHACMAN AUTO. 19T, HI 96 mm, C-C 160 mm, ID 14 mm, ID 35/38 mm. OCR/source text preserved for search. SHACMAN slack-adjuster Slack Adjuster trailer 19T; HI 96 mm; C-C 160 mm; ID 14 mm; ID 35/38 mm 19T HI 96 mm C-C 160 mm ID 14 mm ID 35/38 mm [object Object] HD90129340257 HD 901 293 40257 slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 11.27.33 AM AUTO C-C 160mm D0129340257 DH 17017M SC c o ID 14mm 19T ID 35/38mm HI 96mm 1701m HD-901293 40257 SLACK ADJUSTER 19T LH SHACMAN AUTO air-brake heavy-truck-parts C-C 160mm\nD0129340257 DH\n17017M\nSC c\no\nID 14mm\n19T\nID 35/38mm\nHI 96mm\n1701m\nHD-901293 40257\nSLACK ADJUSTER 19T LH SHACMAN\nAUTO WhatsApp Image 2026-08-06 at 11.27.33 AM.jpeg Slack Adjuster/WhatsApp Image 2026-08-06 at 11.27.33 AM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-06 at 11.27.33 AM.jpeg",
@@ -3220,7 +3222,9 @@ window.NAE_IMPORTED_PRODUCTS = [
       "ocrText": "C-C 160mm\nD0129340257 DH\n17017M\nSC c\no\nID 14mm\n19T\nID 35/38mm\nHI 96mm\n1701m\nHD-901293 40257\nSLACK ADJUSTER 19T LH SHACMAN\nAUTO",
       "importedAt": "2026-08-06T23:55:28",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest red product code visible in the source image."
-    }
+    },
+    "slug": "hd-901-293-40257-slack-adjuster",
+    "url": "products/hd-901-293-40257-slack-adjuster.html"
   },
   {
     "id": "HD-901-293-40258",
@@ -3310,7 +3314,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "HD-901-293-40258 SLACK ADJUSTER 19T RH SHACMAN AUTO SHACMAN slack-adjuster SLACK ADJUSTER 19T RH SHACMAN AUTO. 19T, HI 87 mm, C-C 160 mm, ID 14 mm, ID 35/38 mm. SLACK ADJUSTER 19T RH SHACMAN AUTO. 19T, HI 87 mm, C-C 160 mm, ID 14 mm, ID 35/38 mm. OCR/source text preserved for search. 19T; HI 87 mm; C-C 160 mm; ID 14 mm; ID 35/38 mm Ready stock 19T HI 87 mm C-C 160 mm ID 14 mm ID 35/38 mm slack adjuster slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 12.03.03 PM HD90129340258 HD 901 293 40258 AUTO HI 87mm C-C 160mm ID 14mm L/' HD90129340258 01080078 19T ID 35/38mm HD-901293 40258 SLACK ADJUSTER 19T RH SHACMAN AUTO visibleText SLACK ADJUSTER 19T RH SHACMAN AUTO measurements 19T measurements HI 87 mm measurements C-C 160 mm measurements ID 14 mm measurements ID 35/38 mm vehicleModels SHACMAN HI 87mm\nC-C 160mm\nID 14mm\nL/' HD90129340258\n01080078\n19T\nID 35/38mm\nHD-901293 40258\nSLACK ADJUSTER 19T RH SHACMAN\nAUTO",
+    "searchableText": "HD-901-293-40258 SLACK ADJUSTER 19T RH SHACMAN AUTO SLACK ADJUSTER 19T RH SHACMAN AUTO. 19T, HI 87 mm, C-C 160 mm, ID 14 mm, ID 35/38 mm. SLACK ADJUSTER 19T RH SHACMAN AUTO. 19T, HI 87 mm, C-C 160 mm, ID 14 mm, ID 35/38 mm. OCR/source text preserved for search. SHACMAN slack-adjuster Slack Adjuster trailer 19T; HI 87 mm; C-C 160 mm; ID 14 mm; ID 35/38 mm 19T HI 87 mm C-C 160 mm ID 14 mm ID 35/38 mm [object Object] HD90129340258 HD 901 293 40258 slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 12.03.03 PM AUTO HI 87mm C-C 160mm ID 14mm L/' HD90129340258 01080078 19T ID 35/38mm HD-901293 40258 SLACK ADJUSTER 19T RH SHACMAN AUTO air-brake heavy-truck-parts HI 87mm\nC-C 160mm\nID 14mm\nL/' HD90129340258\n01080078\n19T\nID 35/38mm\nHD-901293 40258\nSLACK ADJUSTER 19T RH SHACMAN\nAUTO WhatsApp Image 2026-08-06 at 12.03.03 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-06 at 12.03.03 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-06 at 12.03.03 PM.jpeg",
@@ -3319,7 +3323,9 @@ window.NAE_IMPORTED_PRODUCTS = [
       "ocrText": "HI 87mm\nC-C 160mm\nID 14mm\nL/' HD90129340258\n01080078\n19T\nID 35/38mm\nHD-901293 40258\nSLACK ADJUSTER 19T RH SHACMAN\nAUTO",
       "importedAt": "2026-08-06T23:55:28",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest red product code visible in the source image."
-    }
+    },
+    "slug": "hd-901-293-40258-slack-adjuster",
+    "url": "products/hd-901-293-40258-slack-adjuster.html"
   },
   {
     "id": "HD-950-094-40009",
@@ -3406,7 +3412,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "HD-950-094-40009 SLACK ADJUSTER AUTO 26T L SHAPE Brand not specified slack-adjuster SLACK ADJUSTER AUTO 26T L SHAPE. 26T, ID 14 mm, C-C 105 mm, ID 39/42 mm. SLACK ADJUSTER AUTO 26T L SHAPE. 26T, ID 14 mm, C-C 105 mm, ID 39/42 mm. OCR/source text preserved for search. L SHAPE 26T; ID 14 mm; C-C 105 mm; ID 39/42 mm Ready stock 26T ID 14 mm C-C 105 mm ID 39/42 mm slack adjuster slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 12.22.38 PM HD95009440009 HD 950 094 40009 AUTO HD95009440009 2502100010 sc i'..en ID 14mm C-C 105mm 26T ID 39/42mm SLACK ADJUSTER AUTO 26T L SHAPE visibleText SLACK ADJUSTER AUTO 26T L SHAPE measurements 26T measurements ID 14 mm measurements C-C 105 mm measurements ID 39/42 mm vehicleModels L SHAPE HD95009440009\n2502100010\nsc\ni'..en\nID 14mm\nC-C 105mm\n26T\nID 39/42mm\nSLACK ADJUSTER AUTO 26T\nL SHAPE",
+    "searchableText": "HD-950-094-40009 SLACK ADJUSTER AUTO 26T L SHAPE SLACK ADJUSTER AUTO 26T L SHAPE. 26T, ID 14 mm, C-C 105 mm, ID 39/42 mm. SLACK ADJUSTER AUTO 26T L SHAPE. 26T, ID 14 mm, C-C 105 mm, ID 39/42 mm. OCR/source text preserved for search. L SHAPE Brand not specified slack-adjuster Slack Adjuster trailer 26T; ID 14 mm; C-C 105 mm; ID 39/42 mm 26T ID 14 mm C-C 105 mm ID 39/42 mm [object Object] HD95009440009 HD 950 094 40009 slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 12.22.38 PM AUTO HD95009440009 2502100010 sc i'..en ID 14mm C-C 105mm 26T ID 39/42mm SLACK ADJUSTER AUTO 26T L SHAPE air-brake heavy-truck-parts HD95009440009\n2502100010\nsc\ni'..en\nID 14mm\nC-C 105mm\n26T\nID 39/42mm\nSLACK ADJUSTER AUTO 26T\nL SHAPE WhatsApp Image 2026-08-06 at 12.22.38 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-06 at 12.22.38 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-06 at 12.22.38 PM.jpeg",
@@ -3415,7 +3421,9 @@ window.NAE_IMPORTED_PRODUCTS = [
       "ocrText": "HD95009440009\n2502100010\nsc\ni'..en\nID 14mm\nC-C 105mm\n26T\nID 39/42mm\nSLACK ADJUSTER AUTO 26T\nL SHAPE",
       "importedAt": "2026-08-06T23:55:28",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest red product code visible in the source image."
-    }
+    },
+    "slug": "hd-950-094-40009-slack-adjuster",
+    "url": "products/hd-950-094-40009-slack-adjuster.html"
   },
   {
     "id": "MC-826062-SORL",
@@ -3503,7 +3511,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "MC-826062-SORL SLACK ADJUSTER REAR 25T FUSO NS SORL slack-adjuster SLACK ADJUSTER REAR 25T FUSO NS. 25T, ID 36/39 mm, C-C 155 mm, ID 14 mm. SLACK ADJUSTER REAR 25T FUSO NS. 25T, ID 36/39 mm, C-C 155 mm, ID 14 mm. OCR/source text preserved for search. FUSO NS 25T; ID 36/39 mm; C-C 155 mm; ID 14 mm Ready stock 25T ID 36/39 mm C-C 155 mm ID 14 mm slack adjuster slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 12.56.52 PM MC826062SORL MC 826062 SORL FUSO SORL„, 25T ID 36/39mm ID 14mm C-C 155mm seRL mc 826062-SORL SLACK ADJUSTER REAR 25T FUSO NS visibleText SLACK ADJUSTER REAR 25T FUSO NS measurements 25T measurements ID 36/39 mm measurements C-C 155 mm measurements ID 14 mm vehicleModels FUSO NS SORL„,\n25T\nID 36/39mm\nID 14mm\nC-C 155mm\nseRL\nmc 826062-SORL\nSLACK ADJUSTER REAR 25T FUSO NS",
+    "searchableText": "MC-826062-SORL SLACK ADJUSTER REAR 25T FUSO NS SLACK ADJUSTER REAR 25T FUSO NS. 25T, ID 36/39 mm, C-C 155 mm, ID 14 mm. SLACK ADJUSTER REAR 25T FUSO NS. 25T, ID 36/39 mm, C-C 155 mm, ID 14 mm. OCR/source text preserved for search. FUSO NS SORL slack-adjuster Slack Adjuster trailer 25T; ID 36/39 mm; C-C 155 mm; ID 14 mm 25T ID 36/39 mm C-C 155 mm ID 14 mm [object Object] MC826062SORL MC 826062 SORL slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 12.56.52 PM FUSO SORL„, 25T ID 36/39mm ID 14mm C-C 155mm seRL mc 826062-SORL SLACK ADJUSTER REAR 25T FUSO NS air-brake heavy-truck-parts SORL„,\n25T\nID 36/39mm\nID 14mm\nC-C 155mm\nseRL\nmc 826062-SORL\nSLACK ADJUSTER REAR 25T FUSO NS WhatsApp Image 2026-08-06 at 12.56.52 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-06 at 12.56.52 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-06 at 12.56.52 PM.jpeg",
@@ -3512,7 +3520,9 @@ window.NAE_IMPORTED_PRODUCTS = [
       "ocrText": "SORL„,\n25T\nID 36/39mm\nID 14mm\nC-C 155mm\nseRL\nmc 826062-SORL\nSLACK ADJUSTER REAR 25T FUSO NS",
       "importedAt": "2026-08-06T23:55:28",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest red product code visible in the source image."
-    }
+    },
+    "slug": "mc-826062-sorl-slack-adjuster",
+    "url": "products/mc-826062-sorl-slack-adjuster.html"
   },
   {
     "id": "MC-826064-TWINKLE",
@@ -3606,7 +3616,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "MC-826064-TWINKLE SLACK ADJUSTER FRT RH 25T N/S FUSO TWINKLE slack-adjuster SLACK ADJUSTER FRT RH 25T N/S FUSO. 25T, HI 90 mm, C-C 165 mm, ID 14 mm, ID 36/39 mm. SLACK ADJUSTER FRT RH 25T N/S FUSO. 25T, HI 90 mm, C-C 165 mm, ID 14 mm, ID 36/39 mm. OCR/source text preserved for search. N/S FUSO, FUSO 25T; HI 90 mm; C-C 165 mm; ID 14 mm; ID 36/39 mm Ready stock 25T HI 90 mm C-C 165 mm ID 14 mm ID 36/39 mm slack adjuster slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 4.11.35 PM N/S FUSO FUSO MC826064TWINKLE MC 826064 TWINKLE FRT RH N KLE HI 90mm C-C 165mm 25T 36/39mm MC 826064 ID 14mm MC 826064-TWINKLE SLACK ADJUSTER FRTRH 25T N/s FUSO visibleText SLACK ADJUSTER FRT RH 25T N/S FUSO measurements 25T measurements HI 90 mm measurements C-C 165 mm measurements ID 14 mm measurements ID 36/39 mm vehicleModels N/S FUSO vehicleModels FUSO N KLE\nHI 90mm\nC-C 165mm\n25T\n36/39mm\nMC 826064\nID 14mm\nMC 826064-TWINKLE\nSLACK ADJUSTER FRTRH 25T N/s FUSO",
+    "searchableText": "MC-826064-TWINKLE SLACK ADJUSTER FRT RH 25T N/S FUSO SLACK ADJUSTER FRT RH 25T N/S FUSO. 25T, HI 90 mm, C-C 165 mm, ID 14 mm, ID 36/39 mm. SLACK ADJUSTER FRT RH 25T N/S FUSO. 25T, HI 90 mm, C-C 165 mm, ID 14 mm, ID 36/39 mm. OCR/source text preserved for search. N/S FUSO, FUSO TWINKLE slack-adjuster Slack Adjuster trailer 25T; HI 90 mm; C-C 165 mm; ID 14 mm; ID 36/39 mm 25T HI 90 mm C-C 165 mm ID 14 mm ID 36/39 mm [object Object] N/S FUSO FUSO MC826064TWINKLE MC 826064 TWINKLE slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 4.11.35 PM FRT RH N KLE HI 90mm C-C 165mm 25T 36/39mm MC 826064 ID 14mm MC 826064-TWINKLE SLACK ADJUSTER FRTRH 25T N/s FUSO air-brake heavy-truck-parts N KLE\nHI 90mm\nC-C 165mm\n25T\n36/39mm\nMC 826064\nID 14mm\nMC 826064-TWINKLE\nSLACK ADJUSTER FRTRH 25T N/s FUSO WhatsApp Image 2026-08-06 at 4.11.35 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-06 at 4.11.35 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-06 at 4.11.35 PM.jpeg",
@@ -3615,7 +3625,9 @@ window.NAE_IMPORTED_PRODUCTS = [
       "ocrText": "N KLE\nHI 90mm\nC-C 165mm\n25T\n36/39mm\nMC 826064\nID 14mm\nMC 826064-TWINKLE\nSLACK ADJUSTER FRTRH 25T N/s FUSO",
       "importedAt": "2026-08-06T23:55:29",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest red product code visible in the source image."
-    }
+    },
+    "slug": "mc-826064-twinkle-slack-adjuster",
+    "url": "products/mc-826064-twinkle-slack-adjuster.html"
   },
   {
     "id": "MC-826063-TWINKLE",
@@ -3709,7 +3721,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "MC-826063-TWINKLE SLACK ADJUSTER FRT LH 25T N/S FUSO TWINKLE slack-adjuster SLACK ADJUSTER FRT LH 25T N/S FUSO. 25T, HI 90 mm, C-C 165 mm, ID 14 mm, ID 36/39 mm. SLACK ADJUSTER FRT LH 25T N/S FUSO. 25T, HI 90 mm, C-C 165 mm, ID 14 mm, ID 36/39 mm. OCR/source text preserved for search. N/S FUSO, FUSO 25T; HI 90 mm; C-C 165 mm; ID 14 mm; ID 36/39 mm Ready stock 25T HI 90 mm C-C 165 mm ID 14 mm ID 36/39 mm slack adjuster slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 4.37.18 PM N/S FUSO FUSO MC826063TWINKLE MC 826063 TWINKLE FRT LH HI 90mm 25T ID 36/39mm IIC 826063 TWINKLE 826063 C-C 165mm ID 14mm MC-826063-TWINKLE SLACK ADJUSTER FRT LH 25T N/s FUSO visibleText SLACK ADJUSTER FRT LH 25T N/S FUSO measurements 25T measurements HI 90 mm measurements C-C 165 mm measurements ID 14 mm measurements ID 36/39 mm vehicleModels N/S FUSO vehicleModels FUSO HI 90mm\n25T\nID 36/39mm\nIIC 826063\nTWINKLE\n826063\nC-C 165mm\nID 14mm\nMC-826063-TWINKLE\nSLACK ADJUSTER FRT LH 25T N/s FUSO",
+    "searchableText": "MC-826063-TWINKLE SLACK ADJUSTER FRT LH 25T N/S FUSO SLACK ADJUSTER FRT LH 25T N/S FUSO. 25T, HI 90 mm, C-C 165 mm, ID 14 mm, ID 36/39 mm. SLACK ADJUSTER FRT LH 25T N/S FUSO. 25T, HI 90 mm, C-C 165 mm, ID 14 mm, ID 36/39 mm. OCR/source text preserved for search. N/S FUSO, FUSO TWINKLE slack-adjuster Slack Adjuster trailer 25T; HI 90 mm; C-C 165 mm; ID 14 mm; ID 36/39 mm 25T HI 90 mm C-C 165 mm ID 14 mm ID 36/39 mm [object Object] N/S FUSO FUSO MC826063TWINKLE MC 826063 TWINKLE slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 4.37.18 PM FRT LH HI 90mm 25T ID 36/39mm IIC 826063 TWINKLE 826063 C-C 165mm ID 14mm MC-826063-TWINKLE SLACK ADJUSTER FRT LH 25T N/s FUSO air-brake heavy-truck-parts HI 90mm\n25T\nID 36/39mm\nIIC 826063\nTWINKLE\n826063\nC-C 165mm\nID 14mm\nMC-826063-TWINKLE\nSLACK ADJUSTER FRT LH 25T N/s FUSO WhatsApp Image 2026-08-06 at 4.37.18 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-06 at 4.37.18 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-06 at 4.37.18 PM.jpeg",
@@ -3718,7 +3730,9 @@ window.NAE_IMPORTED_PRODUCTS = [
       "ocrText": "HI 90mm\n25T\nID 36/39mm\nIIC 826063\nTWINKLE\n826063\nC-C 165mm\nID 14mm\nMC-826063-TWINKLE\nSLACK ADJUSTER FRT LH 25T N/s FUSO",
       "importedAt": "2026-08-06T23:55:29",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest red product code visible in the source image."
-    }
+    },
+    "slug": "mc-826063-twinkle-slack-adjuster",
+    "url": "products/mc-826063-twinkle-slack-adjuster.html"
   },
   {
     "id": "WG-716-145-9003",
@@ -3806,7 +3820,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "WG-716-145-9003 SLACK ADJUSTER L/R 26T SITRAK T7H SITRAK slack-adjuster SLACK ADJUSTER L/R 26T SITRAK T7H. 26T, C-C 132 mm, ID 14 mm, ID 39/42 mm. SLACK ADJUSTER L/R 26T SITRAK T7H. 26T, C-C 132 mm, ID 14 mm, ID 39/42 mm. OCR/source text preserved for search. SITRAK T7H 26T; C-C 132 mm; ID 14 mm; ID 39/42 mm Ready stock 26T C-C 132 mm ID 14 mm ID 39/42 mm slack adjuster slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 7.43.04 PM WG7161459003 WG 716 145 9003 L/R C-C 132mm WG7161459003 10310073 ID 14mm 334gÅ 1031MJi3 we-716145 9003 SLACK ADJUSTER L/R 26T SITRAK T7H visibleText SLACK ADJUSTER L/R 26T SITRAK T7H measurements 26T measurements C-C 132 mm measurements ID 14 mm measurements ID 39/42 mm vehicleModels SITRAK T7H C-C 132mm\nWG7161459003\n10310073\nID 14mm\n334gÅ\n1031MJi3\nwe-716145 9003\nSLACK ADJUSTER L/R 26T\nSITRAK T7H",
+    "searchableText": "WG-716-145-9003 SLACK ADJUSTER L/R 26T SITRAK T7H SLACK ADJUSTER L/R 26T SITRAK T7H. 26T, C-C 132 mm, ID 14 mm, ID 39/42 mm. SLACK ADJUSTER L/R 26T SITRAK T7H. 26T, C-C 132 mm, ID 14 mm, ID 39/42 mm. OCR/source text preserved for search. SITRAK T7H SITRAK slack-adjuster Slack Adjuster trailer 26T; C-C 132 mm; ID 14 mm; ID 39/42 mm 26T C-C 132 mm ID 14 mm ID 39/42 mm [object Object] WG7161459003 WG 716 145 9003 slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 7.43.04 PM L/R C-C 132mm WG7161459003 10310073 ID 14mm 334gÅ 1031MJi3 we-716145 9003 SLACK ADJUSTER L/R 26T SITRAK T7H air-brake heavy-truck-parts C-C 132mm\nWG7161459003\n10310073\nID 14mm\n334gÅ\n1031MJi3\nwe-716145 9003\nSLACK ADJUSTER L/R 26T\nSITRAK T7H WhatsApp Image 2026-08-06 at 7.43.04 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-06 at 7.43.04 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-06 at 7.43.04 PM.jpeg",
@@ -3815,7 +3829,9 @@ window.NAE_IMPORTED_PRODUCTS = [
       "ocrText": "C-C 132mm\nWG7161459003\n10310073\nID 14mm\n334gÅ\n1031MJi3\nwe-716145 9003\nSLACK ADJUSTER L/R 26T\nSITRAK T7H",
       "importedAt": "2026-08-06T23:55:29",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest red product code visible in the source image."
-    }
+    },
+    "slug": "wg-716-145-9003-slack-adjuster",
+    "url": "products/wg-716-145-9003-slack-adjuster.html"
   },
   {
     "id": "WG-910-034-0061",
@@ -3908,7 +3924,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "WG-910-034-0061 SLACK ADJUSTER 19T LH DAYUN HOWO DAYUN HOWO slack-adjuster SLACK ADJUSTER 19T LH DAYUN HOWO. 19T, HI 92 mm, C-C 140 mm, ID 14 mm, ID 34/38 mm. SLACK ADJUSTER 19T LH DAYUN HOWO. 19T, HI 92 mm, C-C 140 mm, ID 14 mm, ID 34/38 mm. OCR/source text preserved for search. DAYUN HOWO, CHINA BUS CP11 19T; HI 92 mm; C-C 140 mm; ID 14 mm; ID 34/38 mm Ready stock 19T HI 92 mm C-C 140 mm ID 14 mm ID 34/38 mm slack adjuster slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 8.10.26 PM CHINA BUS CP11 WG9100340061 WG 910 034 0061 AUTO TYPE STR HI 92mm C-C 140mm ID 14mm 19T ID 34/38mm we-910 034 0061 SLACK ADJUSTER 19T LI-I DAYI-JN HOWO AUTO TYPE (STR) CHINA BUS CPII visibleText SLACK ADJUSTER 19T LH DAYUN HOWO measurements 19T measurements HI 92 mm measurements C-C 140 mm measurements ID 14 mm measurements ID 34/38 mm vehicleModels DAYUN HOWO vehicleModels CHINA BUS CP11 HI 92mm\nC-C 140mm\nID 14mm\n19T\nID 34/38mm\nwe-910 034 0061\nSLACK ADJUSTER 19T LI-I\nDAYI-JN HOWO\nAUTO TYPE (STR) CHINA BUS CPII",
+    "searchableText": "WG-910-034-0061 SLACK ADJUSTER 19T LH DAYUN HOWO SLACK ADJUSTER 19T LH DAYUN HOWO. 19T, HI 92 mm, C-C 140 mm, ID 14 mm, ID 34/38 mm. SLACK ADJUSTER 19T LH DAYUN HOWO. 19T, HI 92 mm, C-C 140 mm, ID 14 mm, ID 34/38 mm. OCR/source text preserved for search. DAYUN HOWO, CHINA BUS CP11 DAYUN HOWO slack-adjuster Slack Adjuster trailer 19T; HI 92 mm; C-C 140 mm; ID 14 mm; ID 34/38 mm 19T HI 92 mm C-C 140 mm ID 14 mm ID 34/38 mm [object Object] CHINA BUS CP11 WG9100340061 WG 910 034 0061 slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 8.10.26 PM AUTO TYPE STR HI 92mm C-C 140mm ID 14mm 19T ID 34/38mm we-910 034 0061 SLACK ADJUSTER 19T LI-I DAYI-JN HOWO AUTO TYPE (STR) CHINA BUS CPII air-brake heavy-truck-parts HI 92mm\nC-C 140mm\nID 14mm\n19T\nID 34/38mm\nwe-910 034 0061\nSLACK ADJUSTER 19T LI-I\nDAYI-JN HOWO\nAUTO TYPE (STR) CHINA BUS CPII WhatsApp Image 2026-08-06 at 8.10.26 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-06 at 8.10.26 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-06 at 8.10.26 PM.jpeg",
@@ -3917,7 +3933,9 @@ window.NAE_IMPORTED_PRODUCTS = [
       "ocrText": "HI 92mm\nC-C 140mm\nID 14mm\n19T\nID 34/38mm\nwe-910 034 0061\nSLACK ADJUSTER 19T LI-I\nDAYI-JN HOWO\nAUTO TYPE (STR) CHINA BUS CPII",
       "importedAt": "2026-08-06T23:55:29",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest red product code visible in the source image."
-    }
+    },
+    "slug": "wg-910-034-0061-slack-adjuster",
+    "url": "products/wg-910-034-0061-slack-adjuster.html"
   },
   {
     "id": "WG-910-034-0060",
@@ -4010,7 +4028,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "WG-910-034-0060 SLACK ADJUSTER 19T RH DAYUN HOWO DAYUN HOWO slack-adjuster SLACK ADJUSTER 19T RH DAYUN HOWO. 19T, HI 88 mm, C-C 140 mm, ID 14 mm, ID 34/38 mm. SLACK ADJUSTER 19T RH DAYUN HOWO. 19T, HI 88 mm, C-C 140 mm, ID 14 mm, ID 34/38 mm. OCR/source text preserved for search. DAYUN HOWO, CHINA BUS 19T; HI 88 mm; C-C 140 mm; ID 14 mm; ID 34/38 mm Ready stock 19T HI 88 mm C-C 140 mm ID 14 mm ID 34/38 mm slack adjuster slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 8.13.20 PM CHINA BUS WG9100340060 WG 910 034 0060 AUTO TYPE STR C-C 140mm ID 14mm 19T ID 34/38mm HI 88mm 9) we-910 034 0060 SLACK ADJUSTER 19T RH DAYI-JN HOWO AUTO TYPE (STR) CPII CHINA BUS visibleText SLACK ADJUSTER 19T RH DAYUN HOWO measurements 19T measurements HI 88 mm measurements C-C 140 mm measurements ID 14 mm measurements ID 34/38 mm vehicleModels DAYUN HOWO vehicleModels CHINA BUS C-C 140mm\nID 14mm\n19T\nID 34/38mm\nHI 88mm\n9)\nwe-910 034 0060\nSLACK ADJUSTER 19T RH\nDAYI-JN HOWO\nAUTO TYPE (STR) CPII CHINA BUS",
+    "searchableText": "WG-910-034-0060 SLACK ADJUSTER 19T RH DAYUN HOWO SLACK ADJUSTER 19T RH DAYUN HOWO. 19T, HI 88 mm, C-C 140 mm, ID 14 mm, ID 34/38 mm. SLACK ADJUSTER 19T RH DAYUN HOWO. 19T, HI 88 mm, C-C 140 mm, ID 14 mm, ID 34/38 mm. OCR/source text preserved for search. DAYUN HOWO, CHINA BUS DAYUN HOWO slack-adjuster Slack Adjuster trailer 19T; HI 88 mm; C-C 140 mm; ID 14 mm; ID 34/38 mm 19T HI 88 mm C-C 140 mm ID 14 mm ID 34/38 mm [object Object] CHINA BUS WG9100340060 WG 910 034 0060 slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 8.13.20 PM AUTO TYPE STR C-C 140mm ID 14mm 19T ID 34/38mm HI 88mm 9) we-910 034 0060 SLACK ADJUSTER 19T RH DAYI-JN HOWO AUTO TYPE (STR) CPII CHINA BUS air-brake heavy-truck-parts C-C 140mm\nID 14mm\n19T\nID 34/38mm\nHI 88mm\n9)\nwe-910 034 0060\nSLACK ADJUSTER 19T RH\nDAYI-JN HOWO\nAUTO TYPE (STR) CPII CHINA BUS WhatsApp Image 2026-08-06 at 8.13.20 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-06 at 8.13.20 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-06 at 8.13.20 PM.jpeg",
@@ -4019,7 +4037,9 @@ window.NAE_IMPORTED_PRODUCTS = [
       "ocrText": "C-C 140mm\nID 14mm\n19T\nID 34/38mm\nHI 88mm\n9)\nwe-910 034 0060\nSLACK ADJUSTER 19T RH\nDAYI-JN HOWO\nAUTO TYPE (STR) CPII CHINA BUS",
       "importedAt": "2026-08-06T23:55:29",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest red product code visible in the source image."
-    }
+    },
+    "slug": "wg-910-034-0060-slack-adjuster",
+    "url": "products/wg-910-034-0060-slack-adjuster.html"
   },
   {
     "id": "WG-400-545-6212",
@@ -4113,7 +4133,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "WG-400-545-6212 AUTO SLACK ADJUSTER 14T RH SITRAK ID 40 SITRAK slack-adjuster AUTO SLACK ADJUSTER 14T RH SITRAK ID 40. 14T, HI 99 mm, C-C 120 mm, ID 12 mm, ID 35/40 mm, ID 40. AUTO SLACK ADJUSTER 14T RH SITRAK ID 40. 14T, HI 99 mm, C-C 120 mm, ID 12 mm, ID 35/40 mm, ID 40. OCR/source text preserved for search. 14T; HI 99 mm; C-C 120 mm; ID 12 mm; ID 35/40 mm; ID 40 Ready stock 14T HI 99 mm C-C 120 mm ID 12 mm ID 35/40 mm ID 40 slack adjuster slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 8.28.52 PM WG4005456212 WG 400 545 6212 AUTO RH C-C 120mm 1464005456212600129 210505ABO116 • srrRAK ID 12mm 14T ID 35/40mm HI 99mm wc-400 545 6212 AUTO SLACK ADJUSTER 14T RH SITRAK ID 40 visibleText AUTO SLACK ADJUSTER 14T RH SITRAK ID 40 measurements 14T measurements HI 99 mm measurements C-C 120 mm measurements ID 12 mm measurements ID 35/40 mm measurements ID 40 vehicleModels SITRAK C-C 120mm\n1464005456212600129\n210505ABO116\n• srrRAK\nID 12mm\n14T\nID 35/40mm\nHI 99mm\nwc-400 545 6212\nAUTO SLACK ADJUSTER 14T RH SITRAK\nID 40",
+    "searchableText": "WG-400-545-6212 AUTO SLACK ADJUSTER 14T RH SITRAK ID 40 AUTO SLACK ADJUSTER 14T RH SITRAK ID 40. 14T, HI 99 mm, C-C 120 mm, ID 12 mm, ID 35/40 mm, ID 40. AUTO SLACK ADJUSTER 14T RH SITRAK ID 40. 14T, HI 99 mm, C-C 120 mm, ID 12 mm, ID 35/40 mm, ID 40. OCR/source text preserved for search. SITRAK slack-adjuster Slack Adjuster trailer 14T; HI 99 mm; C-C 120 mm; ID 12 mm; ID 35/40 mm; ID 40 14T HI 99 mm C-C 120 mm ID 12 mm ID 35/40 mm ID 40 [object Object] WG4005456212 WG 400 545 6212 slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 8.28.52 PM AUTO RH C-C 120mm 1464005456212600129 210505ABO116 • srrRAK ID 12mm 14T ID 35/40mm HI 99mm wc-400 545 6212 AUTO SLACK ADJUSTER 14T RH SITRAK ID 40 air-brake heavy-truck-parts C-C 120mm\n1464005456212600129\n210505ABO116\n• srrRAK\nID 12mm\n14T\nID 35/40mm\nHI 99mm\nwc-400 545 6212\nAUTO SLACK ADJUSTER 14T RH SITRAK\nID 40 WhatsApp Image 2026-08-06 at 8.28.52 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-06 at 8.28.52 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-06 at 8.28.52 PM.jpeg",
@@ -4122,7 +4142,9 @@ window.NAE_IMPORTED_PRODUCTS = [
       "ocrText": "C-C 120mm\n1464005456212600129\n210505ABO116\n• srrRAK\nID 12mm\n14T\nID 35/40mm\nHI 99mm\nwc-400 545 6212\nAUTO SLACK ADJUSTER 14T RH SITRAK\nID 40",
       "importedAt": "2026-08-06T23:55:30",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest red product code visible in the source image."
-    }
+    },
+    "slug": "wg-400-545-6212-slack-adjuster",
+    "url": "products/wg-400-545-6212-slack-adjuster.html"
   },
   {
     "id": "WG-400-545-6211",
@@ -4216,7 +4238,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "WG-400-545-6211 AUTO SLACK ADJUSTER 14T LH SITRAK ID 40 SITRAK slack-adjuster AUTO SLACK ADJUSTER 14T LH SITRAK ID 40. 14T, HI 99 mm, C-C 120 mm, ID 12 mm, ID 35/40 mm, ID 40. AUTO SLACK ADJUSTER 14T LH SITRAK ID 40. 14T, HI 99 mm, C-C 120 mm, ID 12 mm, ID 35/40 mm, ID 40. OCR/source text preserved for search. 14T; HI 99 mm; C-C 120 mm; ID 12 mm; ID 35/40 mm; ID 40 Ready stock 14T HI 99 mm C-C 120 mm ID 12 mm ID 35/40 mm ID 40 slack adjuster slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 8.32.07 PM WG4005456211 WG 400 545 6211 AUTO LH C-C 120mm WG40054562122680129 210405782270 ID 12mm 14T ID 35/40mm HI 99mm we-400 545 6211 AUTO SLACK ADJUSTER 14T LH SITRAK ID 40 visibleText AUTO SLACK ADJUSTER 14T LH SITRAK ID 40 measurements 14T measurements HI 99 mm measurements C-C 120 mm measurements ID 12 mm measurements ID 35/40 mm measurements ID 40 vehicleModels SITRAK C-C 120mm\nWG40054562122680129\n210405782270\nID 12mm\n14T\nID 35/40mm\nHI 99mm\nwe-400 545 6211\nAUTO SLACK ADJUSTER 14T LH SITRAK\nID 40",
+    "searchableText": "WG-400-545-6211 AUTO SLACK ADJUSTER 14T LH SITRAK ID 40 AUTO SLACK ADJUSTER 14T LH SITRAK ID 40. 14T, HI 99 mm, C-C 120 mm, ID 12 mm, ID 35/40 mm, ID 40. AUTO SLACK ADJUSTER 14T LH SITRAK ID 40. 14T, HI 99 mm, C-C 120 mm, ID 12 mm, ID 35/40 mm, ID 40. OCR/source text preserved for search. SITRAK slack-adjuster Slack Adjuster trailer 14T; HI 99 mm; C-C 120 mm; ID 12 mm; ID 35/40 mm; ID 40 14T HI 99 mm C-C 120 mm ID 12 mm ID 35/40 mm ID 40 [object Object] WG4005456211 WG 400 545 6211 slack adj air brake slack adjuster WhatsApp Image 2026-08-06 at 8.32.07 PM AUTO LH C-C 120mm WG40054562122680129 210405782270 ID 12mm 14T ID 35/40mm HI 99mm we-400 545 6211 AUTO SLACK ADJUSTER 14T LH SITRAK ID 40 air-brake heavy-truck-parts C-C 120mm\nWG40054562122680129\n210405782270\nID 12mm\n14T\nID 35/40mm\nHI 99mm\nwe-400 545 6211\nAUTO SLACK ADJUSTER 14T LH SITRAK\nID 40 WhatsApp Image 2026-08-06 at 8.32.07 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-06 at 8.32.07 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-06 at 8.32.07 PM.jpeg",
@@ -4225,7 +4247,9 @@ window.NAE_IMPORTED_PRODUCTS = [
       "ocrText": "C-C 120mm\nWG40054562122680129\n210405782270\nID 12mm\n14T\nID 35/40mm\nHI 99mm\nwe-400 545 6211\nAUTO SLACK ADJUSTER 14T LH SITRAK\nID 40",
       "importedAt": "2026-08-06T23:55:30",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest red product code visible in the source image."
-    }
+    },
+    "slug": "wg-400-545-6211-slack-adjuster",
+    "url": "products/wg-400-545-6211-slack-adjuster.html"
   },
   {
     "id": "1-48270-044-1-UNI",
@@ -4369,7 +4393,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "1-48270-044-1-UNI 1482700441UNI 1 48270 044 1 UNI REAR ADJUSTER AUTO ADJ RH=LH 25T GIGA CXZ 10PE1 UNIEURO slack-adjuster REAR ADJUSTER AUTO ADJ RH=LH 25T GIGA CXZ 10PE1. 25T, C-C 139 mm, ID 16 mm, ID 37/40 mm. REAR ADJUSTER AUTO ADJ RH=LH 25T GIGA CXZ 10PE1. 25T, C-C 139 mm, ID 16 mm, ID 37/40 mm. OCR/source text preserved for search. GIGA CXZ, CXZ, 10PE1 10PE1 25T; C-C 139 mm; ID 16 mm; ID 37/40 mm Ready stock WhatsApp Image 2026-08-07 at 2.24.36 PM EURO GENUINE\nC-C 139mm\n1-48270-044-1\nID 16mm\n1-48270-044-1 UNI\n25T\nID 37/40mm\nREAR ADJUSTER AUTO ADJ RH=LH 25T GIGA CXZ 10PE1 visibleText measurements 25T C-C 139 mm ID 16 mm ID 37/40 mm teethSpline side RH=LH position Rear vehicleModels GIGA CXZ CXZ engineModels oemNumbers 1-48270-044-1 alternateNumbers 1482700441 1 48270 044 1 1-48270-044-1 UNI slack adjuster slack adj auto slack adjuster air brake slack adjuster EURO GENUINE C-C 139mm ID 16mm UNI 37/40mm ADJUSTER AUTO ADJ GIGA",
+    "searchableText": "1-48270-044-1-UNI REAR ADJUSTER AUTO ADJ RH=LH 25T GIGA CXZ 10PE1 REAR ADJUSTER AUTO ADJ RH=LH 25T GIGA CXZ 10PE1. 25T, C-C 139 mm, ID 16 mm, ID 37/40 mm. REAR ADJUSTER AUTO ADJ RH=LH 25T GIGA CXZ 10PE1. 25T, C-C 139 mm, ID 16 mm, ID 37/40 mm. OCR/source text preserved for search. GIGA CXZ, CXZ, 10PE1 UNIEURO slack-adjuster Slack Adjuster trailer 25T; C-C 139 mm; ID 16 mm; ID 37/40 mm 25T C-C 139 mm ID 16 mm ID 37/40 mm [object Object] GIGA CXZ CXZ 10PE1 1-48270-044-1 1482700441UNI 1 48270 044 1 UNI 1482700441 1 48270 044 1 1-48270-044-1 UNI slack adj auto slack adjuster air brake slack adjuster WhatsApp Image 2026-08-07 at 2.24.36 PM RH=LH Rear EURO GENUINE C-C 139mm ID 16mm UNI 37/40mm ADJUSTER AUTO ADJ GIGA air-brake heavy-truck-parts EURO GENUINE\nC-C 139mm\n1-48270-044-1\nID 16mm\n1-48270-044-1 UNI\n25T\nID 37/40mm\nREAR ADJUSTER AUTO ADJ RH=LH 25T GIGA CXZ 10PE1 WhatsApp Image 2026-08-07 at 2.24.36 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-07 at 2.24.36 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-07 at 2.24.36 PM.jpeg",
@@ -4525,7 +4549,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "1-48270-043-0-UNI 1482700430UNI 1 48270 043 0 UNI AUTO ADJ ADJUSTER 25T RH CXZ 10PE1 GIGA UNIEURO slack-adjuster AUTO ADJ ADJUSTER 25T RH CXZ 10PE1 GIGA. 25T, C-C 160 mm, HI 131 mm, ID 16 mm, ID 37/40 mm. AUTO ADJ ADJUSTER 25T RH CXZ 10PE1 GIGA. 25T, C-C 160 mm, HI 131 mm, ID 16 mm, ID 37/40 mm. OCR/source text preserved for search. CXZ, 10PE1, GIGA 10PE1 25T; C-C 160 mm; HI 131 mm; ID 16 mm; ID 37/40 mm Ready stock WhatsApp Image 2026-08-07 at 3.19.49 PM EURO GENUINE\nC-C 160mm\n1-48270-043-0\nHI 131mm\nID 16mm\n25T\nID 37/40mm\n1-48270-043-0 UNI\nAUTO ADJ ADJUSTER 25T RH CXZ 10PE1 GIGA visibleText measurements 25T C-C 160 mm HI 131 mm ID 16 mm ID 37/40 mm teethSpline side RH position vehicleModels CXZ GIGA engineModels oemNumbers 1-48270-043-0 alternateNumbers 1482700430 1 48270 043 0 1-48270-043-0 UNI slack adjuster slack adj auto slack adjuster air brake slack adjuster EURO GENUINE C-C 160mm HI 131mm ID 16mm 37/40mm UNI AUTO ADJ ADJUSTER",
+    "searchableText": "1-48270-043-0-UNI AUTO ADJ ADJUSTER 25T RH CXZ 10PE1 GIGA AUTO ADJ ADJUSTER 25T RH CXZ 10PE1 GIGA. 25T, C-C 160 mm, HI 131 mm, ID 16 mm, ID 37/40 mm. AUTO ADJ ADJUSTER 25T RH CXZ 10PE1 GIGA. 25T, C-C 160 mm, HI 131 mm, ID 16 mm, ID 37/40 mm. OCR/source text preserved for search. CXZ, 10PE1, GIGA UNIEURO slack-adjuster Slack Adjuster trailer 25T; C-C 160 mm; HI 131 mm; ID 16 mm; ID 37/40 mm 25T C-C 160 mm HI 131 mm ID 16 mm ID 37/40 mm [object Object] CXZ 10PE1 GIGA 1-48270-043-0 1482700430UNI 1 48270 043 0 UNI 1482700430 1 48270 043 0 1-48270-043-0 UNI slack adj auto slack adjuster air brake slack adjuster WhatsApp Image 2026-08-07 at 3.19.49 PM RH EURO GENUINE C-C 160mm HI 131mm ID 16mm 37/40mm UNI AUTO ADJ ADJUSTER air-brake heavy-truck-parts EURO GENUINE\nC-C 160mm\n1-48270-043-0\nHI 131mm\nID 16mm\n25T\nID 37/40mm\n1-48270-043-0 UNI\nAUTO ADJ ADJUSTER 25T RH CXZ 10PE1 GIGA WhatsApp Image 2026-08-07 at 3.19.49 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-07 at 3.19.49 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-07 at 3.19.49 PM.jpeg",
@@ -4681,7 +4705,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "1-48270-044-0-UNI 1482700440UNI 1 48270 044 0 UNI AUTO ADJ ADJUSTER 25T LH CXZ 10PE1 GIGA UNIEURO slack-adjuster AUTO ADJ ADJUSTER 25T LH CXZ 10PE1 GIGA. 25T, C-C 160 mm, HI 131 mm, ID 16 mm, ID 37/40 mm. AUTO ADJ ADJUSTER 25T LH CXZ 10PE1 GIGA. 25T, C-C 160 mm, HI 131 mm, ID 16 mm, ID 37/40 mm. OCR/source text preserved for search. CXZ, 10PE1, GIGA 10PE1 25T; C-C 160 mm; HI 131 mm; ID 16 mm; ID 37/40 mm Ready stock WhatsApp Image 2026-08-07 at 3.22.24 PM EURO GENUINE\nC-C 160mm\n1-48270-044-0\nHI 131mm\nID 16mm\n25T\nID 37/40mm\n1-48270-044-0 UNI\nAUTO ADJ ADJUSTER 25T LH CXZ 10PE1 GIGA visibleText measurements 25T C-C 160 mm HI 131 mm ID 16 mm ID 37/40 mm teethSpline side LH position vehicleModels CXZ GIGA engineModels oemNumbers 1-48270-044-0 alternateNumbers 1482700440 1 48270 044 0 1-48270-044-0 UNI slack adjuster slack adj auto slack adjuster air brake slack adjuster EURO GENUINE C-C 160mm HI 131mm ID 16mm 37/40mm UNI AUTO ADJ ADJUSTER",
+    "searchableText": "1-48270-044-0-UNI AUTO ADJ ADJUSTER 25T LH CXZ 10PE1 GIGA AUTO ADJ ADJUSTER 25T LH CXZ 10PE1 GIGA. 25T, C-C 160 mm, HI 131 mm, ID 16 mm, ID 37/40 mm. AUTO ADJ ADJUSTER 25T LH CXZ 10PE1 GIGA. 25T, C-C 160 mm, HI 131 mm, ID 16 mm, ID 37/40 mm. OCR/source text preserved for search. CXZ, 10PE1, GIGA UNIEURO slack-adjuster Slack Adjuster trailer 25T; C-C 160 mm; HI 131 mm; ID 16 mm; ID 37/40 mm 25T C-C 160 mm HI 131 mm ID 16 mm ID 37/40 mm [object Object] CXZ 10PE1 GIGA 1-48270-044-0 1482700440UNI 1 48270 044 0 UNI 1482700440 1 48270 044 0 1-48270-044-0 UNI slack adj auto slack adjuster air brake slack adjuster WhatsApp Image 2026-08-07 at 3.22.24 PM LH EURO GENUINE C-C 160mm HI 131mm ID 16mm 37/40mm UNI AUTO ADJ ADJUSTER air-brake heavy-truck-parts EURO GENUINE\nC-C 160mm\n1-48270-044-0\nHI 131mm\nID 16mm\n25T\nID 37/40mm\n1-48270-044-0 UNI\nAUTO ADJ ADJUSTER 25T LH CXZ 10PE1 GIGA WhatsApp Image 2026-08-07 at 3.22.24 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-07 at 3.22.24 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-07 at 3.22.24 PM.jpeg",
@@ -4807,7 +4831,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "3551020-ZB100 3551020ZB100 3551020 ZB 100 ADJUSTER 14T REAR LH DF KINDLAND ID 40M LONG 200M XIN SENG slack-adjuster ADJUSTER 14T REAR LH DF KINDLAND ID 40M LONG 200M. 14T, ID 35/40 mm, M16. ADJUSTER 14T REAR LH DF KINDLAND ID 40M LONG 200M. 14T, ID 35/40 mm, M16. OCR/source text preserved for search. DF KINDLAND, KINDLAND 14T; ID 35/40 mm; M16; ID 40M; LONG 200M Ready stock WhatsApp Image 2026-08-07 at 3.45.34 PM XIN SENG\nID 35/40mm\nM16\n14T\n3551020-ZB100\nADJUSTER 14T REAR LH DF KINDLAND ID 40M LONG 200M visibleText measurements 14T ID 35/40 mm M16 ID 40M LONG 200M teethSpline side LH position Rear vehicleModels DF KINDLAND KINDLAND engineModels oemNumbers alternateNumbers 3551020 ZB100 slack adjuster slack adj auto slack adjuster air brake slack adjuster XIN SENG ID 35/40mm ADJUSTER DF 40M LONG 200M",
+    "searchableText": "3551020-ZB100 ADJUSTER 14T REAR LH DF KINDLAND ID 40M LONG 200M ADJUSTER 14T REAR LH DF KINDLAND ID 40M LONG 200M. 14T, ID 35/40 mm, M16. ADJUSTER 14T REAR LH DF KINDLAND ID 40M LONG 200M. 14T, ID 35/40 mm, M16. OCR/source text preserved for search. DF KINDLAND, KINDLAND XIN SENG slack-adjuster Slack Adjuster trailer 14T; ID 35/40 mm; M16; ID 40M; LONG 200M 14T ID 35/40 mm M16 ID 40M LONG 200M [object Object] DF KINDLAND KINDLAND 3551020ZB100 3551020 ZB100 slack adj auto slack adjuster air brake slack adjuster WhatsApp Image 2026-08-07 at 3.45.34 PM LH Rear XIN SENG ID 35/40mm ADJUSTER DF 40M LONG 200M air-brake heavy-truck-parts XIN SENG\nID 35/40mm\nM16\n14T\n3551020-ZB100\nADJUSTER 14T REAR LH DF KINDLAND ID 40M LONG 200M WhatsApp Image 2026-08-07 at 3.45.34 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-07 at 3.45.34 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-07 at 3.45.34 PM.jpeg",
@@ -4934,7 +4958,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "3551025-ZB100 3551025ZB100 3551025 ZB 100 ADJUSTER 14T REAR RH DF KINDLAND ID 40M LONG 200M XIN SENG slack-adjuster ADJUSTER 14T REAR RH DF KINDLAND ID 40M LONG 200M. 14T, ID 35/40 mm, M16. ADJUSTER 14T REAR RH DF KINDLAND ID 40M LONG 200M. 14T, ID 35/40 mm, M16. OCR/source text preserved for search. DF KINDLAND, KINDLAND 14T; ID 35/40 mm; M16; ID 40M; LONG 200M Ready stock WhatsApp Image 2026-08-07 at 3.47.19 PM XIN SENG\nID 35/40mm\nM16\n14T\n3551025-ZB100\nADJUSTER 14T REAR RH DF KINDLAND ID 40M LONG 200M visibleText measurements 14T ID 35/40 mm M16 ID 40M LONG 200M teethSpline side RH position Rear vehicleModels DF KINDLAND KINDLAND engineModels oemNumbers alternateNumbers 3551025 ZB100 slack adjuster slack adj auto slack adjuster air brake slack adjuster XIN SENG ID 35/40mm ADJUSTER DF 40M LONG 200M",
+    "searchableText": "3551025-ZB100 ADJUSTER 14T REAR RH DF KINDLAND ID 40M LONG 200M ADJUSTER 14T REAR RH DF KINDLAND ID 40M LONG 200M. 14T, ID 35/40 mm, M16. ADJUSTER 14T REAR RH DF KINDLAND ID 40M LONG 200M. 14T, ID 35/40 mm, M16. OCR/source text preserved for search. DF KINDLAND, KINDLAND XIN SENG slack-adjuster Slack Adjuster trailer 14T; ID 35/40 mm; M16; ID 40M; LONG 200M 14T ID 35/40 mm M16 ID 40M LONG 200M [object Object] DF KINDLAND KINDLAND 3551025ZB100 3551025 ZB100 slack adj auto slack adjuster air brake slack adjuster WhatsApp Image 2026-08-07 at 3.47.19 PM RH Rear XIN SENG ID 35/40mm ADJUSTER DF 40M LONG 200M air-brake heavy-truck-parts XIN SENG\nID 35/40mm\nM16\n14T\n3551025-ZB100\nADJUSTER 14T REAR RH DF KINDLAND ID 40M LONG 200M WhatsApp Image 2026-08-07 at 3.47.19 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-07 at 3.47.19 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-07 at 3.47.19 PM.jpeg",
@@ -5054,7 +5078,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "3551ZB6-001 3551ZB6001 3551 ZB 6 001 FRT ADJUSTER LH 14T DF DONG FENG XIN SENG slack-adjuster FRT ADJUSTER LH 14T DF DONG FENG. 14T, ID 36/40 mm, M16. FRT ADJUSTER LH 14T DF DONG FENG. 14T, ID 36/40 mm, M16. OCR/source text preserved for search. DF, DONG FENG 14T; ID 36/40 mm; M16 Ready stock WhatsApp Image 2026-08-07 at 4.00.32 PM XIN SENG\nID 36/40mm\nM16\n14T\n3551ZB6-001\nFRT ADJUSTER LH 14T DF DONG FENG visibleText measurements 14T ID 36/40 mm M16 teethSpline side LH position Front vehicleModels DF DONG FENG engineModels oemNumbers alternateNumbers 3551ZB6 001 slack adjuster slack adj auto slack adjuster air brake slack adjuster XIN SENG ID 36/40mm FRT ADJUSTER DONG FENG",
+    "searchableText": "3551ZB6-001 FRT ADJUSTER LH 14T DF DONG FENG FRT ADJUSTER LH 14T DF DONG FENG. 14T, ID 36/40 mm, M16. FRT ADJUSTER LH 14T DF DONG FENG. 14T, ID 36/40 mm, M16. OCR/source text preserved for search. DF, DONG FENG XIN SENG slack-adjuster Slack Adjuster trailer 14T; ID 36/40 mm; M16 14T ID 36/40 mm M16 [object Object] DF DONG FENG 3551ZB6001 3551ZB6 001 slack adj auto slack adjuster air brake slack adjuster WhatsApp Image 2026-08-07 at 4.00.32 PM LH Front XIN SENG ID 36/40mm FRT ADJUSTER DONG FENG air-brake heavy-truck-parts XIN SENG\nID 36/40mm\nM16\n14T\n3551ZB6-001\nFRT ADJUSTER LH 14T DF DONG FENG WhatsApp Image 2026-08-07 at 4.00.32 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-07 at 4.00.32 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-07 at 4.00.32 PM.jpeg",
@@ -5174,7 +5198,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "3551ZB6-002 3551ZB6002 3551 ZB 6 002 FRT ADJUSTER RH 14T DF DONG FENG XIN SENG slack-adjuster FRT ADJUSTER RH 14T DF DONG FENG. 14T, ID 36/40 mm, M16. FRT ADJUSTER RH 14T DF DONG FENG. 14T, ID 36/40 mm, M16. OCR/source text preserved for search. DF, DONG FENG 14T; ID 36/40 mm; M16 Ready stock WhatsApp Image 2026-08-07 at 4.06.39 PM XIN SENG\nID 36/40mm\nM16\n14T\n3551ZB6-002\nFRT ADJUSTER RH 14T DF DONG FENG visibleText measurements 14T ID 36/40 mm M16 teethSpline side RH position Front vehicleModels DF DONG FENG engineModels oemNumbers alternateNumbers 3551ZB6 002 slack adjuster slack adj auto slack adjuster air brake slack adjuster XIN SENG ID 36/40mm FRT ADJUSTER DONG FENG",
+    "searchableText": "3551ZB6-002 FRT ADJUSTER RH 14T DF DONG FENG FRT ADJUSTER RH 14T DF DONG FENG. 14T, ID 36/40 mm, M16. FRT ADJUSTER RH 14T DF DONG FENG. 14T, ID 36/40 mm, M16. OCR/source text preserved for search. DF, DONG FENG XIN SENG slack-adjuster Slack Adjuster trailer 14T; ID 36/40 mm; M16 14T ID 36/40 mm M16 [object Object] DF DONG FENG 3551ZB6002 3551ZB6 002 slack adj auto slack adjuster air brake slack adjuster WhatsApp Image 2026-08-07 at 4.06.39 PM RH Front XIN SENG ID 36/40mm FRT ADJUSTER DONG FENG air-brake heavy-truck-parts XIN SENG\nID 36/40mm\nM16\n14T\n3551ZB6-002\nFRT ADJUSTER RH 14T DF DONG FENG WhatsApp Image 2026-08-07 at 4.06.39 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-07 at 4.06.39 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-07 at 4.06.39 PM.jpeg",
@@ -5306,7 +5330,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "44341-90178 4434190178 44341 90178 FRT RH ADJUSTER 25T HI 125 GE13 FUTZSU slack-adjuster FRT RH ADJUSTER 25T HI 125 GE13. 25T, C-C 175 mm, HI 122 mm, ID 36/39 mm, ID 13 mm. FRT RH ADJUSTER 25T HI 125 GE13. 25T, C-C 175 mm, HI 122 mm, ID 36/39 mm, ID 13 mm. OCR/source text preserved for search. GE13 25T; HI 125; C-C 175 mm; HI 122 mm; ID 36/39 mm; ID 13 mm Ready stock WhatsApp Image 2026-08-07 at 6.31.51 PM FUTZSU\nC-C 175mm\nHI 122mm\n25T\nID 36/39mm\nID 13mm\n44341-90178\nFRT RH ADJUSTER 25T HI 125 GE13 visibleText measurements 25T HI 125 C-C 175 mm HI 122 mm ID 36/39 mm ID 13 mm teethSpline side RH position Front vehicleModels engineModels oemNumbers alternateNumbers slack adjuster slack adj auto slack adjuster air brake slack adjuster C-C 175mm HI 122mm ID 36/39mm 13mm FRT ADJUSTER 125",
+    "searchableText": "44341-90178 FRT RH ADJUSTER 25T HI 125 GE13 FRT RH ADJUSTER 25T HI 125 GE13. 25T, C-C 175 mm, HI 122 mm, ID 36/39 mm, ID 13 mm. FRT RH ADJUSTER 25T HI 125 GE13. 25T, C-C 175 mm, HI 122 mm, ID 36/39 mm, ID 13 mm. OCR/source text preserved for search. GE13 FUTZSU slack-adjuster Slack Adjuster trailer 25T; HI 125; C-C 175 mm; HI 122 mm; ID 36/39 mm; ID 13 mm 25T HI 125 C-C 175 mm HI 122 mm ID 36/39 mm ID 13 mm [object Object] 4434190178 44341 90178 slack adj auto slack adjuster air brake slack adjuster WhatsApp Image 2026-08-07 at 6.31.51 PM RH Front C-C 175mm HI 122mm ID 36/39mm 13mm FRT ADJUSTER 125 air-brake heavy-truck-parts FUTZSU\nC-C 175mm\nHI 122mm\n25T\nID 36/39mm\nID 13mm\n44341-90178\nFRT RH ADJUSTER 25T HI 125 GE13 WhatsApp Image 2026-08-07 at 6.31.51 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-07 at 6.31.51 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-07 at 6.31.51 PM.jpeg",
@@ -5437,7 +5461,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "44341-90179 4434190179 44341 90179 FRT LH ADJUSTER 25T HI 125 GE13 FUTZSU slack-adjuster FRT LH ADJUSTER 25T HI 125 GE13. 25T, C-C 185 mm, HI 176 mm, ID 36/39 mm, ID 12 mm. FRT LH ADJUSTER 25T HI 125 GE13. 25T, C-C 185 mm, HI 176 mm, ID 36/39 mm, ID 12 mm. OCR/source text preserved for search. GE13 25T; HI 125; C-C 185 mm; HI 176 mm; ID 36/39 mm; ID 12 mm Ready stock WhatsApp Image 2026-08-07 at 6.52.24 PM FUTZSU\nC-C 185mm\nHI 176mm\n25T\nID 36/39mm\nID 12mm\n44341-90179\nFRT LH ADJUSTER 25T HI 125 GE13 visibleText measurements 25T HI 125 C-C 185 mm HI 176 mm ID 36/39 mm ID 12 mm teethSpline side LH position Front vehicleModels engineModels oemNumbers alternateNumbers slack adjuster slack adj auto slack adjuster air brake slack adjuster C-C 185mm HI 176mm ID 36/39mm 12mm FRT ADJUSTER 125",
+    "searchableText": "44341-90179 FRT LH ADJUSTER 25T HI 125 GE13 FRT LH ADJUSTER 25T HI 125 GE13. 25T, C-C 185 mm, HI 176 mm, ID 36/39 mm, ID 12 mm. FRT LH ADJUSTER 25T HI 125 GE13. 25T, C-C 185 mm, HI 176 mm, ID 36/39 mm, ID 12 mm. OCR/source text preserved for search. GE13 FUTZSU slack-adjuster Slack Adjuster trailer 25T; HI 125; C-C 185 mm; HI 176 mm; ID 36/39 mm; ID 12 mm 25T HI 125 C-C 185 mm HI 176 mm ID 36/39 mm ID 12 mm [object Object] 4434190179 44341 90179 slack adj auto slack adjuster air brake slack adjuster WhatsApp Image 2026-08-07 at 6.52.24 PM LH Front C-C 185mm HI 176mm ID 36/39mm 12mm FRT ADJUSTER 125 air-brake heavy-truck-parts FUTZSU\nC-C 185mm\nHI 176mm\n25T\nID 36/39mm\nID 12mm\n44341-90179\nFRT LH ADJUSTER 25T HI 125 GE13 WhatsApp Image 2026-08-07 at 6.52.24 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-07 at 6.52.24 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-07 at 6.52.24 PM.jpeg",
@@ -5575,7 +5599,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "47480-1590-FUTZSU 474801590FUTZSU 47480 1590 FUTZSU SLACK ADJ 14T L/R ZM FUTZSU slack-adjuster SLACK ADJ 14T L/R ZM. 14T, C-C 135 mm, ID 35/40 mm, ID 12 mm. SLACK ADJ 14T L/R ZM. 14T, C-C 135 mm, ID 35/40 mm, ID 12 mm. OCR/source text preserved for search. ZM 14T; C-C 135 mm; ID 35/40 mm; ID 12 mm Ready stock WhatsApp Image 2026-08-07 at 7.37.35 PM FUTZSU\nC-C 135mm\n47480-1590\n14T\nID 35/40mm\nID 12mm\n47480-1590-FUTZSU\nSLACK ADJ 14T L/R ZM visibleText measurements 14T C-C 135 mm ID 35/40 mm ID 12 mm teethSpline side L/R position vehicleModels engineModels oemNumbers 47480-1590 alternateNumbers 474801590 47480 1590 47480-1590 FUTZSU slack adjuster slack adj auto slack adjuster air brake slack adjuster C-C 135mm ID 35/40mm 12mm SLACK ADJ",
+    "searchableText": "47480-1590-FUTZSU SLACK ADJ 14T L/R ZM SLACK ADJ 14T L/R ZM. 14T, C-C 135 mm, ID 35/40 mm, ID 12 mm. SLACK ADJ 14T L/R ZM. 14T, C-C 135 mm, ID 35/40 mm, ID 12 mm. OCR/source text preserved for search. ZM FUTZSU slack-adjuster Slack Adjuster trailer 14T; C-C 135 mm; ID 35/40 mm; ID 12 mm 14T C-C 135 mm ID 35/40 mm ID 12 mm [object Object] 47480-1590 474801590FUTZSU 47480 1590 FUTZSU 474801590 47480 1590 47480-1590 FUTZSU slack adj auto slack adjuster air brake slack adjuster WhatsApp Image 2026-08-07 at 7.37.35 PM L/R C-C 135mm ID 35/40mm 12mm SLACK ADJ air-brake heavy-truck-parts FUTZSU\nC-C 135mm\n47480-1590\n14T\nID 35/40mm\nID 12mm\n47480-1590-FUTZSU\nSLACK ADJ 14T L/R ZM WhatsApp Image 2026-08-07 at 7.37.35 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-07 at 7.37.35 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-07 at 7.37.35 PM.jpeg",
@@ -5699,7 +5723,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "41028-90163 4102890163 41028 90163 FRT ADJUSTER LH 25T CW520 FUTZSU slack-adjuster FRT ADJUSTER LH 25T CW520. 25T, HI 96 mm, C-C 180 mm, ID 37/39 mm, ID 11 mm. FRT ADJUSTER LH 25T CW520. 25T, HI 96 mm, C-C 180 mm, ID 37/39 mm, ID 11 mm. OCR/source text preserved for search. CW520 25T; HI 96 mm; C-C 180 mm; ID 37/39 mm; ID 11 mm Ready stock WhatsApp Image 2026-08-07 at 7.49.53 PM FUTZSU\nHI 96mm\nC-C 180mm\n25T\nID 37/39mm\nID 11mm\n41028-90163\nFRT ADJUSTER LH 25T CW520 visibleText measurements 25T HI 96 mm C-C 180 mm ID 37/39 mm ID 11 mm teethSpline side LH position Front vehicleModels engineModels oemNumbers alternateNumbers slack adjuster slack adj auto slack adjuster air brake slack adjuster HI 96mm C-C 180mm ID 37/39mm 11mm FRT ADJUSTER",
+    "searchableText": "41028-90163 FRT ADJUSTER LH 25T CW520 FRT ADJUSTER LH 25T CW520. 25T, HI 96 mm, C-C 180 mm, ID 37/39 mm, ID 11 mm. FRT ADJUSTER LH 25T CW520. 25T, HI 96 mm, C-C 180 mm, ID 37/39 mm, ID 11 mm. OCR/source text preserved for search. CW520 FUTZSU slack-adjuster Slack Adjuster trailer 25T; HI 96 mm; C-C 180 mm; ID 37/39 mm; ID 11 mm 25T HI 96 mm C-C 180 mm ID 37/39 mm ID 11 mm [object Object] 4102890163 41028 90163 slack adj auto slack adjuster air brake slack adjuster WhatsApp Image 2026-08-07 at 7.49.53 PM LH Front HI 96mm C-C 180mm ID 37/39mm 11mm FRT ADJUSTER air-brake heavy-truck-parts FUTZSU\nHI 96mm\nC-C 180mm\n25T\nID 37/39mm\nID 11mm\n41028-90163\nFRT ADJUSTER LH 25T CW520 WhatsApp Image 2026-08-07 at 7.49.53 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-07 at 7.49.53 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-07 at 7.49.53 PM.jpeg",
@@ -5814,7 +5838,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "44341-90269-SORL 4434190269SORL 44341 90269 SORL 44341-90269 4434190269 44341 90269 REAR ADJUSTER L/R 25T CW520 REAR ADJUSTER L/R 25T CW520. 25T, ID 36/39 mm, C-C 120 mm, C-C 145 mm, ID 12 mm. REAR ADJUSTER L/R 25T CW520. 25T, ID 36/39 mm, C-C 120 mm, C-C 145 mm, ID 12 mm. OCR/source text preserved for search. CW520 SORL slack-adjuster Slack Adjuster trailer 25T; ID 36/39 mm; C-C 120 mm; C-C 145 mm; ID 12 mm 25T ID 36/39 mm C-C 120 mm C-C 145 mm ID 12 mm slack adjuster slack adj auto slack adjuster air brake slack adjuster 25T\nID 36/39mm\nC-C 120mm\nC-C 145mm\nID 12mm\n44341-90269-SORL\nREAR ADJUSTER L/R 25T CW520\nSORL\nSTANDARD DAY air-brake heavy-truck-parts WhatsApp Image 2026-08-11 at 11.18.52 PM.jpeg",
+    "searchableText": "44341-90269-SORL REAR ADJUSTER L/R 25T CW520 REAR ADJUSTER L/R 25T CW520. 25T, ID 36/39 mm, C-C 120 mm, C-C 145 mm, ID 12 mm. REAR ADJUSTER L/R 25T CW520. 25T, ID 36/39 mm, C-C 120 mm, C-C 145 mm, ID 12 mm. OCR/source text preserved for search. CW520 SORL slack-adjuster Slack Adjuster trailer 25T; ID 36/39 mm; C-C 120 mm; C-C 145 mm; ID 12 mm 25T ID 36/39 mm C-C 120 mm C-C 145 mm ID 12 mm [object Object] 44341-90269 4434190269SORL 44341 90269 SORL 4434190269 44341 90269 slack adj auto slack adjuster air brake slack adjuster 25T\nID 36/39mm\nC-C 120mm\nC-C 145mm\nID 12mm\n44341-90269-SORL\nREAR ADJUSTER L/R 25T CW520\nSORL\nSTANDARD DAY air-brake heavy-truck-parts WhatsApp Image 2026-08-11 at 11.18.52 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-11 at 11.18.52 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-11 at 11.18.52 PM.jpeg",
@@ -5823,7 +5847,9 @@ window.NAE_IMPORTED_PRODUCTS = [
       "ocrText": "25T\nID 36/39mm\nC-C 120mm\nC-C 145mm\nID 12mm\n44341-90269-SORL\nREAR ADJUSTER L/R 25T CW520\nSORL\nSTANDARD DAY",
       "importedAt": "2026-08-11T23:30:00",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image."
-    }
+    },
+    "slug": "44341-90269-sorl-slack-adjuster",
+    "url": "products/44341-90269-sorl-slack-adjuster.html"
   },
   {
     "id": "44341-90269 TWINKLE",
@@ -5932,7 +5958,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "44341-90269 TWINKLE REAR ADJUSTER L/R 25T CW520 REAR ADJUSTER L/R 25T CW520. 25T, ID 36/39 mm, C-C 109 mm, C-C 134 mm, ID 12 mm. REAR ADJUSTER L/R 25T CW520. 25T, ID 36/39 mm, C-C 109 mm, C-C 134 mm, ID 12 mm. OCR/source text preserved for search. TWINKLE slack-adjuster Slack Adjuster 25T; ID 36/39 mm; C-C 109 mm; C-C 134 mm; ID 12 mm 25T ID 36/39 mm C-C 109 mm C-C 134 mm ID 12 mm CW520 44341-90269 44341-90269-TWINKLE 4434190269TWINKLE 44341 90269 TWINKLE 4434190269 44341 90269 slack adjuster slack adj auto slack adjuster air brake slack adjuster TWINKLE\n25T\nID 36/39mm\nC-C 109mm\nC-C 134mm\nID 12mm\n44341-90269 TWINKLE\nREAR ADJUSTER L/R 25T CW520 WhatsApp Image 2026-08-11 at 11.18.52 PM (1).jpeg",
+    "searchableText": "44341-90269 TWINKLE REAR ADJUSTER L/R 25T CW520 REAR ADJUSTER L/R 25T CW520. 25T, ID 36/39 mm, C-C 109 mm, C-C 134 mm, ID 12 mm. REAR ADJUSTER L/R 25T CW520. 25T, ID 36/39 mm, C-C 109 mm, C-C 134 mm, ID 12 mm. OCR/source text preserved for search. CW520 TWINKLE slack-adjuster Slack Adjuster trailer 25T; ID 36/39 mm; C-C 109 mm; C-C 134 mm; ID 12 mm 25T ID 36/39 mm C-C 109 mm C-C 134 mm ID 12 mm [object Object] 44341-90269 44341-90269-TWINKLE 4434190269TWINKLE 44341 90269 TWINKLE 4434190269 44341 90269 slack adj auto slack adjuster air brake slack adjuster TWINKLE\n25T\nID 36/39mm\nC-C 109mm\nC-C 134mm\nID 12mm\n44341-90269 TWINKLE\nREAR ADJUSTER L/R 25T CW520 air-brake heavy-truck-parts WhatsApp Image 2026-08-11 at 11.18.52 PM (1).jpeg Slack Adjuster/WhatsApp Image 2026-08-11 at 11.18.52 PM (1).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-11 at 11.18.52 PM (1).jpeg",
@@ -5941,7 +5967,9 @@ window.NAE_IMPORTED_PRODUCTS = [
       "ocrText": "TWINKLE\n25T\nID 36/39mm\nC-C 109mm\nC-C 134mm\nID 12mm\n44341-90269 TWINKLE\nREAR ADJUSTER L/R 25T CW520",
       "importedAt": "2026-08-11T23:30:00",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image."
-    }
+    },
+    "slug": "44341-90269-twinkle-slack-adjuster",
+    "url": "products/44341-90269-twinkle-slack-adjuster.html"
   },
   {
     "id": "44341-9Z01D",
@@ -6039,7 +6067,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "44341-9Z01D 443419Z01D 44341 9Z01D ADJUSTER 24T AUTO R-F RH NISSAN ID 38 L 240M REAR - FRT ADJUSTER 24T AUTO R-F RH NISSAN ID 38 L 240M REAR - FRT. 24T, ID 13 mm, ID 35/38 mm, HI 108 mm, C-C 140 mm. ADJUSTER 24T AUTO R-F RH NISSAN ID 38 L 240M REAR - FRT. 24T, ID 13 mm, ID 35/38 mm, HI 108 mm, C-C 140 mm. OCR/source text preserved for search. NISSAN slack-adjuster Slack Adjuster trailer 24T; ID 13 mm; ID 35/38 mm; HI 108 mm; C-C 140 mm 24T ID 13 mm ID 35/38 mm HI 108 mm C-C 140 mm slack adjuster slack adj auto slack adjuster air brake slack adjuster ID 13mm\nHI 108mm\nC-C 140mm\n24T\nID 35/38mm\n44341-9Z01D\nADJUSTER 24T AUTO R-F RH\nNISSAN ID 38 L 240M REAR - FRT air-brake heavy-truck-parts WhatsApp Image 2026-08-11 at 11.18.52 PM (2).jpeg",
+    "searchableText": "44341-9Z01D ADJUSTER 24T AUTO R-F RH NISSAN ID 38 L 240M REAR - FRT ADJUSTER 24T AUTO R-F RH NISSAN ID 38 L 240M REAR - FRT. 24T, ID 13 mm, ID 35/38 mm, HI 108 mm, C-C 140 mm. ADJUSTER 24T AUTO R-F RH NISSAN ID 38 L 240M REAR - FRT. 24T, ID 13 mm, ID 35/38 mm, HI 108 mm, C-C 140 mm. OCR/source text preserved for search. NISSAN slack-adjuster Slack Adjuster trailer 24T; ID 13 mm; ID 35/38 mm; HI 108 mm; C-C 140 mm 24T ID 13 mm ID 35/38 mm HI 108 mm C-C 140 mm [object Object] 443419Z01D 44341 9Z01D slack adj auto slack adjuster air brake slack adjuster ID 13mm\nHI 108mm\nC-C 140mm\n24T\nID 35/38mm\n44341-9Z01D\nADJUSTER 24T AUTO R-F RH\nNISSAN ID 38 L 240M REAR - FRT air-brake heavy-truck-parts WhatsApp Image 2026-08-11 at 11.18.52 PM (2).jpeg Slack Adjuster/WhatsApp Image 2026-08-11 at 11.18.52 PM (2).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-11 at 11.18.52 PM (2).jpeg",
@@ -6048,7 +6076,9 @@ window.NAE_IMPORTED_PRODUCTS = [
       "ocrText": "ID 13mm\nHI 108mm\nC-C 140mm\n24T\nID 35/38mm\n44341-9Z01D\nADJUSTER 24T AUTO R-F RH\nNISSAN ID 38 L 240M REAR - FRT",
       "importedAt": "2026-08-11T23:30:00",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image."
-    }
+    },
+    "slug": "44341-9z01d-slack-adjuster",
+    "url": "products/44341-9z01d-slack-adjuster.html"
   },
   {
     "id": "44341-9Z01C",
@@ -6147,7 +6177,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "44341-9Z01C 443419Z01C 44341 9Z01C ADJUSTER 24T AUTO R-F LH NISSAN ID 38 L 240M REAR - FRT ADJUSTER 24T AUTO R-F LH NISSAN ID 38 L 240M REAR - FRT. 24T, ID 13 mm, ID 35/38 mm, HI 100 mm, C-C 140 mm. ADJUSTER 24T AUTO R-F LH NISSAN ID 38 L 240M REAR - FRT. 24T, ID 13 mm, ID 35/38 mm, HI 100 mm, C-C 140 mm. OCR/source text preserved for search. NISSAN ASHINO slack-adjuster Slack Adjuster trailer 24T; ID 13 mm; ID 35/38 mm; HI 100 mm; C-C 140 mm 24T ID 13 mm ID 35/38 mm HI 100 mm C-C 140 mm slack adjuster slack adj auto slack adjuster air brake slack adjuster ID 13mm\nHI 100mm\nC-C 140mm\n24T\nID 35/38mm\nASHINO\n44341-9Z01C\nADJUSTER 24T AUTO R-F LH\nNISSAN ID 38 L 240M REAR - FRT air-brake heavy-truck-parts WhatsApp Image 2026-08-11 at 11.18.53 PM.jpeg",
+    "searchableText": "44341-9Z01C ADJUSTER 24T AUTO R-F LH NISSAN ID 38 L 240M REAR - FRT ADJUSTER 24T AUTO R-F LH NISSAN ID 38 L 240M REAR - FRT. 24T, ID 13 mm, ID 35/38 mm, HI 100 mm, C-C 140 mm. ADJUSTER 24T AUTO R-F LH NISSAN ID 38 L 240M REAR - FRT. 24T, ID 13 mm, ID 35/38 mm, HI 100 mm, C-C 140 mm. OCR/source text preserved for search. NISSAN ASHINO slack-adjuster Slack Adjuster trailer 24T; ID 13 mm; ID 35/38 mm; HI 100 mm; C-C 140 mm 24T ID 13 mm ID 35/38 mm HI 100 mm C-C 140 mm [object Object] 443419Z01C 44341 9Z01C slack adj auto slack adjuster air brake slack adjuster ID 13mm\nHI 100mm\nC-C 140mm\n24T\nID 35/38mm\nASHINO\n44341-9Z01C\nADJUSTER 24T AUTO R-F LH\nNISSAN ID 38 L 240M REAR - FRT air-brake heavy-truck-parts WhatsApp Image 2026-08-11 at 11.18.53 PM.jpeg Slack Adjuster/WhatsApp Image 2026-08-11 at 11.18.53 PM.jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-11 at 11.18.53 PM.jpeg",
@@ -6156,7 +6186,9 @@ window.NAE_IMPORTED_PRODUCTS = [
       "ocrText": "ID 13mm\nHI 100mm\nC-C 140mm\n24T\nID 35/38mm\nASHINO\n44341-9Z01C\nADJUSTER 24T AUTO R-F LH\nNISSAN ID 38 L 240M REAR - FRT",
       "importedAt": "2026-08-11T23:30:00",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image."
-    }
+    },
+    "slug": "44341-9z01c-slack-adjuster",
+    "url": "products/44341-9z01c-slack-adjuster.html"
   },
   {
     "id": "800052 SORL HD",
@@ -6250,7 +6282,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "800052 SORL HD ADJUSTER 37T TRAILLER TMC ADJUSTER 37T TRAILLER TMC. 37T, ID 38/40 mm, 4H ID 13 mm, C-C 190 mm. ADJUSTER 37T TRAILLER TMC. 37T, ID 38/40 mm, 4H ID 13 mm, C-C 190 mm. OCR/source text preserved for search. SORL slack-adjuster Slack Adjuster 37T; ID 38/40 mm; 4H ID 13 mm; C-C 190 mm 37T ID 38/40 mm 4H ID 13 mm C-C 190 mm TMC 800052-SORL-HD 800052SORLHD 800052 slack adjuster slack adj auto slack adjuster air brake slack adjuster SORL\n37T\nID 38/40mm\n4H ID 13mm\nC-C 190mm\n800052 SORL HD\nADJUSTER 37T TRAILLER TMC WhatsApp Image 2026-08-11 at 11.18.53 PM (1).jpeg",
+    "searchableText": "800052 SORL HD ADJUSTER 37T TRAILLER TMC ADJUSTER 37T TRAILLER TMC. 37T, ID 38/40 mm, 4H ID 13 mm, C-C 190 mm. ADJUSTER 37T TRAILLER TMC. 37T, ID 38/40 mm, 4H ID 13 mm, C-C 190 mm. OCR/source text preserved for search. TMC SORL slack-adjuster Slack Adjuster trailer 37T; ID 38/40 mm; 4H ID 13 mm; C-C 190 mm 37T ID 38/40 mm 4H ID 13 mm C-C 190 mm [object Object] 800052-SORL-HD 800052SORLHD 800052 slack adj auto slack adjuster air brake slack adjuster SORL\n37T\nID 38/40mm\n4H ID 13mm\nC-C 190mm\n800052 SORL HD\nADJUSTER 37T TRAILLER TMC air-brake heavy-truck-parts WhatsApp Image 2026-08-11 at 11.18.53 PM (1).jpeg Slack Adjuster/WhatsApp Image 2026-08-11 at 11.18.53 PM (1).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-11 at 11.18.53 PM (1).jpeg",
@@ -6259,7 +6291,9 @@ window.NAE_IMPORTED_PRODUCTS = [
       "ocrText": "SORL\n37T\nID 38/40mm\n4H ID 13mm\nC-C 190mm\n800052 SORL HD\nADJUSTER 37T TRAILLER TMC",
       "importedAt": "2026-08-11T23:30:00",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image."
-    }
+    },
+    "slug": "800052-sorl-hd-slack-adjuster",
+    "url": "products/800052-sorl-hd-slack-adjuster.html"
   },
   {
     "id": "44341-9Z01E",
@@ -6357,7 +6391,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "44341-9Z01E 443419Z01E 44341 9Z01E ADJUSTER 24T AUTO RH=LH QUESTER NISSAN ID 38 L 240M REAR ADJUSTER 24T AUTO RH=LH QUESTER NISSAN ID 38 L 240M REAR. 24T, ID 13 mm, ID 35/38 mm, C-C 156 mm. ADJUSTER 24T AUTO RH=LH QUESTER NISSAN ID 38 L 240M REAR. 24T, ID 13 mm, ID 35/38 mm, C-C 156 mm. OCR/source text preserved for search. QUESTER, NISSAN UNIEURO slack-adjuster Slack Adjuster trailer 24T; ID 13 mm; ID 35/38 mm; C-C 156 mm 24T ID 13 mm ID 35/38 mm C-C 156 mm QUESTER NISSAN slack adjuster slack adj auto slack adjuster air brake slack adjuster UNIEURO GENUINE\nC-C 156mm\nID 13mm\n24T\nID 35/38mm\n44341-9Z01E\nADJUSTER 24T AUTO RH=LH QUESTER NISSAN\nID 38 L 240M REAR air-brake heavy-truck-parts WhatsApp Image 2026-08-11 at 11.18.53 PM (2).jpeg",
+    "searchableText": "44341-9Z01E ADJUSTER 24T AUTO RH=LH QUESTER NISSAN ID 38 L 240M REAR ADJUSTER 24T AUTO RH=LH QUESTER NISSAN ID 38 L 240M REAR. 24T, ID 13 mm, ID 35/38 mm, C-C 156 mm. ADJUSTER 24T AUTO RH=LH QUESTER NISSAN ID 38 L 240M REAR. 24T, ID 13 mm, ID 35/38 mm, C-C 156 mm. OCR/source text preserved for search. QUESTER, NISSAN UNIEURO slack-adjuster Slack Adjuster trailer 24T; ID 13 mm; ID 35/38 mm; C-C 156 mm 24T ID 13 mm ID 35/38 mm C-C 156 mm [object Object] QUESTER NISSAN 443419Z01E 44341 9Z01E slack adj auto slack adjuster air brake slack adjuster UNIEURO GENUINE\nC-C 156mm\nID 13mm\n24T\nID 35/38mm\n44341-9Z01E\nADJUSTER 24T AUTO RH=LH QUESTER NISSAN\nID 38 L 240M REAR air-brake heavy-truck-parts WhatsApp Image 2026-08-11 at 11.18.53 PM (2).jpeg Slack Adjuster/WhatsApp Image 2026-08-11 at 11.18.53 PM (2).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-11 at 11.18.53 PM (2).jpeg",
@@ -6366,7 +6400,9 @@ window.NAE_IMPORTED_PRODUCTS = [
       "ocrText": "UNIEURO GENUINE\nC-C 156mm\nID 13mm\n24T\nID 35/38mm\n44341-9Z01E\nADJUSTER 24T AUTO RH=LH QUESTER NISSAN\nID 38 L 240M REAR",
       "importedAt": "2026-08-11T23:30:00",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image."
-    }
+    },
+    "slug": "44341-9z01e-slack-adjuster",
+    "url": "products/44341-9z01e-slack-adjuster.html"
   },
   {
     "id": "81.50610.6211",
@@ -6457,7 +6493,7 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 96,
-    "searchableText": "81.50610.6211 81506106211 81 50610 6211 REAR BRAKE ADJUSTER LH 26T AUTO ADJUSTER REAR BRAKE ADJUSTER LH 26T AUTO ADJUSTER. 26T, ID 14 mm, ID 39/42 mm, HI 87 mm, C-C 140 mm. REAR BRAKE ADJUSTER LH 26T AUTO ADJUSTER. 26T, ID 14 mm, ID 39/42 mm, HI 87 mm, C-C 140 mm. OCR/source text preserved for search. slack-adjuster Slack Adjuster trailer 26T; ID 14 mm; ID 39/42 mm; HI 87 mm; C-C 140 mm 26T ID 14 mm ID 39/42 mm HI 87 mm C-C 140 mm slack adjuster slack adj auto slack adjuster air brake slack adjuster HI 87mm\nID 14mm\nC-C 140mm\n26T\nID 39/42mm\n81.50610.6211\nREAR BRAKE ADJUSTER LH 26T\nAUTO ADJUSTER air-brake heavy-truck-parts WhatsApp Image 2026-08-11 at 11.18.53 PM (3).jpeg",
+    "searchableText": "81.50610.6211 REAR BRAKE ADJUSTER LH 26T AUTO ADJUSTER REAR BRAKE ADJUSTER LH 26T AUTO ADJUSTER. 26T, ID 14 mm, ID 39/42 mm, HI 87 mm, C-C 140 mm. REAR BRAKE ADJUSTER LH 26T AUTO ADJUSTER. 26T, ID 14 mm, ID 39/42 mm, HI 87 mm, C-C 140 mm. OCR/source text preserved for search. slack-adjuster Slack Adjuster trailer 26T; ID 14 mm; ID 39/42 mm; HI 87 mm; C-C 140 mm 26T ID 14 mm ID 39/42 mm HI 87 mm C-C 140 mm [object Object] 81506106211 81 50610 6211 slack adj auto slack adjuster air brake slack adjuster HI 87mm\nID 14mm\nC-C 140mm\n26T\nID 39/42mm\n81.50610.6211\nREAR BRAKE ADJUSTER LH 26T\nAUTO ADJUSTER air-brake heavy-truck-parts WhatsApp Image 2026-08-11 at 11.18.53 PM (3).jpeg Slack Adjuster/WhatsApp Image 2026-08-11 at 11.18.53 PM (3).jpeg",
     "source": {
       "type": "slack-adjuster-folder-image",
       "originalFile": "WhatsApp Image 2026-08-11 at 11.18.53 PM (3).jpeg",
@@ -6466,14 +6502,16 @@ window.NAE_IMPORTED_PRODUCTS = [
       "ocrText": "HI 87mm\nID 14mm\nC-C 140mm\n26T\nID 39/42mm\n81.50610.6211\nREAR BRAKE ADJUSTER LH 26T\nAUTO ADJUSTER",
       "importedAt": "2026-08-11T23:30:00",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image."
-    }
+    },
+    "slug": "81-50610-6211-slack-adjuster",
+    "url": "products/81-50610-6211-slack-adjuster.html"
   }
 ];
 window.NAE_IMPORT_META = {
-  "generatedAt": "2026-08-11T23:30:00",
+  "generatedAt": "2026-08-11T15:35:18",
   "totalProducts": 58,
-  "importedThisRun": 7,
-  "updatedThisRun": 0,
+  "importedThisRun": 0,
+  "updatedThisRun": 19,
   "skippedDuplicates": 0,
   "skippedProducts": 0,
   "needsReview": 0,
@@ -6481,5 +6519,5 @@ window.NAE_IMPORT_META = {
   "archivedThisRun": 0,
   "duplicateProductsMerged": 0,
   "searchIndexRebuilt": true,
-  "source": "slack-adjuster-folder"
+  "source": "slack-adjuster-detail-page-repair"
 };
