@@ -1413,20 +1413,29 @@ h1 em,h2 em{
     max-width:1140px
 }
 .whatsapp-sales-head{
-    display:flex;
+    display:grid;
+    grid-template-columns:minmax(0,1fr) minmax(0,760px) minmax(0,1fr);
     align-items:flex-end;
-    justify-content:space-between;
     gap:36px;
     margin-bottom:34px
 }
+.whatsapp-sales-head>.eyebrow{
+    grid-column:1;
+    justify-self:start
+}
 .whatsapp-sales-head h2{
+    grid-column:2;
+    justify-self:center;
     margin:12px 0 0;
     color:#111214;
     font-size:clamp(34px,4.5vw,58px);
     line-height:1.02;
-    letter-spacing:-.05em
+    letter-spacing:-.05em;
+    text-align:center
 }
-.whatsapp-sales-head>p{
+.whatsapp-sales-head>p:not(.eyebrow){
+    grid-column:3;
+    justify-self:end;
     max-width:370px;
     margin:0 0 8px;
     color:#686a6d;
@@ -3018,7 +3027,7 @@ h1 em,h2 em{
         display:block;
         margin-bottom:26px
     }
-    .whatsapp-sales-head>p{
+    .whatsapp-sales-head>p:not(.eyebrow){
         max-width:100%;
         margin:14px 0 0
     }
