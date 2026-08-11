@@ -5709,12 +5709,770 @@ window.NAE_IMPORTED_PRODUCTS = [
       "importedAt": "2026-08-07T22:46:39",
       "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image."
     }
+  },
+  {
+    "id": "44341-90269-SORL",
+    "code": "44341-90269-SORL",
+    "number": "44341-90269-SORL",
+    "productNumber": "44341-90269-SORL",
+    "partNumber": "44341-90269-SORL",
+    "name": "REAR ADJUSTER L/R 25T CW520",
+    "productName": "REAR ADJUSTER L/R 25T CW520",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "REAR ADJUSTER L/R 25T CW520. 25T, ID 36/39 mm, C-C 120 mm, C-C 145 mm, ID 12 mm.",
+    "visibleDescription": "REAR ADJUSTER L/R 25T CW520",
+    "longDescription": "REAR ADJUSTER L/R 25T CW520. 25T, ID 36/39 mm, C-C 120 mm, C-C 145 mm, ID 12 mm. OCR/source text preserved for search.",
+    "application": "CW520",
+    "brand": "SORL",
+    "vehicleModel": "CW520",
+    "vehicleModels": [
+      "CW520"
+    ],
+    "engineModel": "",
+    "engineModels": [],
+    "oeNumber": "44341-90269",
+    "oeNumbers": [
+      "44341-90269"
+    ],
+    "alternateNumbers": [
+      "4434190269SORL",
+      "44341 90269 SORL",
+      "44341-90269",
+      "4434190269",
+      "44341 90269"
+    ],
+    "alternatePartNumbers": [
+      "4434190269SORL",
+      "44341 90269 SORL",
+      "44341-90269",
+      "4434190269",
+      "44341 90269"
+    ],
+    "availability": "Ready stock",
+    "image": "assets/img/products/44341-90269-SORL.jpeg",
+    "thumbnail": "assets/img/products/44341-90269-SORL.jpeg",
+    "images": [
+      "assets/img/products/44341-90269-SORL.jpeg"
+    ],
+    "alt": "44341-90269-SORL rear adjuster l r 25t cw520 product image",
+    "specifications": {
+      "visibleText": "REAR ADJUSTER L/R 25T CW520",
+      "teethSpline": [
+        "25T"
+      ],
+      "measurements": [
+        "ID 36/39 mm",
+        "C-C 120 mm",
+        "C-C 145 mm",
+        "ID 12 mm"
+      ],
+      "side": [
+        "L/R"
+      ],
+      "vehicleModels": [
+        "CW520"
+      ]
+    },
+    "specs": [
+      "25T",
+      "ID 36/39 mm",
+      "C-C 120 mm",
+      "C-C 145 mm",
+      "ID 12 mm"
+    ],
+    "specification": "25T; ID 36/39 mm; C-C 120 mm; C-C 145 mm; ID 12 mm",
+    "keywords": [
+      "slack adjuster",
+      "slack adj",
+      "auto slack adjuster",
+      "air brake slack adjuster",
+      "REAR ADJUSTER L/R 25T CW520",
+      "SORL",
+      "CW520",
+      "25T",
+      "ID 36/39 mm",
+      "C-C 120 mm",
+      "C-C 145 mm",
+      "ID 12 mm",
+      "44341-90269-SORL",
+      "4434190269SORL",
+      "44341 90269 SORL",
+      "44341-90269",
+      "4434190269",
+      "44341 90269",
+      "25T\nID 36/39mm\nC-C 120mm\nC-C 145mm\nID 12mm\n44341-90269-SORL\nREAR ADJUSTER L/R 25T CW520\nSORL\nSTANDARD DAY"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 96,
+    "searchableText": "44341-90269-SORL 4434190269SORL 44341 90269 SORL 44341-90269 4434190269 44341 90269 REAR ADJUSTER L/R 25T CW520 REAR ADJUSTER L/R 25T CW520. 25T, ID 36/39 mm, C-C 120 mm, C-C 145 mm, ID 12 mm. REAR ADJUSTER L/R 25T CW520. 25T, ID 36/39 mm, C-C 120 mm, C-C 145 mm, ID 12 mm. OCR/source text preserved for search. CW520 SORL slack-adjuster Slack Adjuster trailer 25T; ID 36/39 mm; C-C 120 mm; C-C 145 mm; ID 12 mm 25T ID 36/39 mm C-C 120 mm C-C 145 mm ID 12 mm slack adjuster slack adj auto slack adjuster air brake slack adjuster 25T\nID 36/39mm\nC-C 120mm\nC-C 145mm\nID 12mm\n44341-90269-SORL\nREAR ADJUSTER L/R 25T CW520\nSORL\nSTANDARD DAY air-brake heavy-truck-parts WhatsApp Image 2026-08-11 at 11.18.52 PM.jpeg",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-11 at 11.18.52 PM.jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-11 at 11.18.52 PM.jpeg",
+      "hash": "d4414921e317a201e3558af051c42b54e623d525a462806133c6d6821afd4da3",
+      "ocrText": "25T\nID 36/39mm\nC-C 120mm\nC-C 145mm\nID 12mm\n44341-90269-SORL\nREAR ADJUSTER L/R 25T CW520\nSORL\nSTANDARD DAY",
+      "importedAt": "2026-08-11T23:30:00",
+      "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image."
+    }
+  },
+  {
+    "id": "44341-90269 TWINKLE",
+    "code": "44341-90269 TWINKLE",
+    "number": "44341-90269 TWINKLE",
+    "productNumber": "44341-90269 TWINKLE",
+    "partNumber": "44341-90269 TWINKLE",
+    "name": "REAR ADJUSTER L/R 25T CW520",
+    "productName": "REAR ADJUSTER L/R 25T CW520",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "REAR ADJUSTER L/R 25T CW520. 25T, ID 36/39 mm, C-C 109 mm, C-C 134 mm, ID 12 mm.",
+    "visibleDescription": "REAR ADJUSTER L/R 25T CW520",
+    "longDescription": "REAR ADJUSTER L/R 25T CW520. 25T, ID 36/39 mm, C-C 109 mm, C-C 134 mm, ID 12 mm. OCR/source text preserved for search.",
+    "application": "CW520",
+    "brand": "TWINKLE",
+    "vehicleModel": "CW520",
+    "vehicleModels": [
+      "CW520"
+    ],
+    "engineModel": "",
+    "engineModels": [],
+    "oeNumber": "44341-90269",
+    "oeNumbers": [
+      "44341-90269"
+    ],
+    "alternateNumbers": [
+      "44341-90269-TWINKLE",
+      "4434190269TWINKLE",
+      "44341 90269 TWINKLE",
+      "44341-90269",
+      "4434190269",
+      "44341 90269"
+    ],
+    "alternatePartNumbers": [
+      "44341-90269-TWINKLE",
+      "4434190269TWINKLE",
+      "44341 90269 TWINKLE",
+      "44341-90269",
+      "4434190269",
+      "44341 90269"
+    ],
+    "availability": "Ready stock",
+    "image": "assets/img/products/44341-90269-TWINKLE.jpeg",
+    "thumbnail": "assets/img/products/44341-90269-TWINKLE.jpeg",
+    "images": [
+      "assets/img/products/44341-90269-TWINKLE.jpeg"
+    ],
+    "alt": "44341-90269 TWINKLE rear adjuster l r 25t cw520 product image",
+    "specifications": {
+      "visibleText": "REAR ADJUSTER L/R 25T CW520",
+      "teethSpline": [
+        "25T"
+      ],
+      "measurements": [
+        "ID 36/39 mm",
+        "C-C 109 mm",
+        "C-C 134 mm",
+        "ID 12 mm"
+      ],
+      "side": [
+        "L/R"
+      ],
+      "vehicleModels": [
+        "CW520"
+      ]
+    },
+    "specs": [
+      "25T",
+      "ID 36/39 mm",
+      "C-C 109 mm",
+      "C-C 134 mm",
+      "ID 12 mm"
+    ],
+    "specification": "25T; ID 36/39 mm; C-C 109 mm; C-C 134 mm; ID 12 mm",
+    "keywords": [
+      "slack adjuster",
+      "slack adj",
+      "auto slack adjuster",
+      "air brake slack adjuster",
+      "REAR ADJUSTER L/R 25T CW520",
+      "TWINKLE",
+      "CW520",
+      "25T",
+      "ID 36/39 mm",
+      "C-C 109 mm",
+      "C-C 134 mm",
+      "ID 12 mm",
+      "44341-90269-TWINKLE",
+      "44341-90269 TWINKLE",
+      "4434190269TWINKLE",
+      "44341 90269 TWINKLE",
+      "44341-90269",
+      "4434190269",
+      "44341 90269",
+      "TWINKLE\n25T\nID 36/39mm\nC-C 109mm\nC-C 134mm\nID 12mm\n44341-90269 TWINKLE\nREAR ADJUSTER L/R 25T CW520"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 96,
+    "searchableText": "44341-90269 TWINKLE REAR ADJUSTER L/R 25T CW520 REAR ADJUSTER L/R 25T CW520. 25T, ID 36/39 mm, C-C 109 mm, C-C 134 mm, ID 12 mm. REAR ADJUSTER L/R 25T CW520. 25T, ID 36/39 mm, C-C 109 mm, C-C 134 mm, ID 12 mm. OCR/source text preserved for search. TWINKLE slack-adjuster Slack Adjuster 25T; ID 36/39 mm; C-C 109 mm; C-C 134 mm; ID 12 mm 25T ID 36/39 mm C-C 109 mm C-C 134 mm ID 12 mm CW520 44341-90269 44341-90269-TWINKLE 4434190269TWINKLE 44341 90269 TWINKLE 4434190269 44341 90269 slack adjuster slack adj auto slack adjuster air brake slack adjuster TWINKLE\n25T\nID 36/39mm\nC-C 109mm\nC-C 134mm\nID 12mm\n44341-90269 TWINKLE\nREAR ADJUSTER L/R 25T CW520 WhatsApp Image 2026-08-11 at 11.18.52 PM (1).jpeg",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-11 at 11.18.52 PM (1).jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-11 at 11.18.52 PM (1).jpeg",
+      "hash": "34d0e09002f717854bcce39326e124d69e06eeb6957628b72c834117ec9a82dd",
+      "ocrText": "TWINKLE\n25T\nID 36/39mm\nC-C 109mm\nC-C 134mm\nID 12mm\n44341-90269 TWINKLE\nREAR ADJUSTER L/R 25T CW520",
+      "importedAt": "2026-08-11T23:30:00",
+      "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image."
+    }
+  },
+  {
+    "id": "44341-9Z01D",
+    "code": "44341-9Z01D",
+    "number": "44341-9Z01D",
+    "productNumber": "44341-9Z01D",
+    "partNumber": "44341-9Z01D",
+    "name": "ADJUSTER 24T AUTO R-F RH NISSAN ID 38 L 240M REAR - FRT",
+    "productName": "ADJUSTER 24T AUTO R-F RH NISSAN ID 38 L 240M REAR - FRT",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "ADJUSTER 24T AUTO R-F RH NISSAN ID 38 L 240M REAR - FRT. 24T, ID 13 mm, ID 35/38 mm, HI 108 mm, C-C 140 mm.",
+    "visibleDescription": "ADJUSTER 24T AUTO R-F RH NISSAN ID 38 L 240M REAR - FRT",
+    "longDescription": "ADJUSTER 24T AUTO R-F RH NISSAN ID 38 L 240M REAR - FRT. 24T, ID 13 mm, ID 35/38 mm, HI 108 mm, C-C 140 mm. OCR/source text preserved for search.",
+    "application": "NISSAN",
+    "brand": "",
+    "vehicleModel": "NISSAN",
+    "vehicleModels": [
+      "NISSAN"
+    ],
+    "engineModel": "",
+    "engineModels": [],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [
+      "443419Z01D",
+      "44341 9Z01D"
+    ],
+    "alternatePartNumbers": [
+      "443419Z01D",
+      "44341 9Z01D"
+    ],
+    "availability": "Ready stock",
+    "image": "assets/img/products/44341-9Z01D.jpeg",
+    "thumbnail": "assets/img/products/44341-9Z01D.jpeg",
+    "images": [
+      "assets/img/products/44341-9Z01D.jpeg"
+    ],
+    "alt": "44341-9Z01D adjuster 24t auto r f rh nissan id 38 l 240m rear frt product image",
+    "specifications": {
+      "visibleText": "ADJUSTER 24T AUTO R-F RH NISSAN ID 38 L 240M REAR - FRT",
+      "teethSpline": [
+        "24T"
+      ],
+      "measurements": [
+        "ID 13 mm",
+        "ID 35/38 mm",
+        "HI 108 mm",
+        "C-C 140 mm"
+      ],
+      "side": [
+        "RH"
+      ],
+      "position": [
+        "Rear",
+        "Front"
+      ],
+      "vehicleModels": [
+        "NISSAN"
+      ]
+    },
+    "specs": [
+      "24T",
+      "ID 13 mm",
+      "ID 35/38 mm",
+      "HI 108 mm",
+      "C-C 140 mm"
+    ],
+    "specification": "24T; ID 13 mm; ID 35/38 mm; HI 108 mm; C-C 140 mm",
+    "keywords": [
+      "slack adjuster",
+      "slack adj",
+      "auto slack adjuster",
+      "air brake slack adjuster",
+      "ADJUSTER 24T AUTO R-F RH NISSAN ID 38 L 240M REAR - FRT",
+      "NISSAN",
+      "24T",
+      "ID 13 mm",
+      "ID 35/38 mm",
+      "HI 108 mm",
+      "C-C 140 mm",
+      "44341-9Z01D",
+      "443419Z01D",
+      "44341 9Z01D",
+      "ID 13mm\nHI 108mm\nC-C 140mm\n24T\nID 35/38mm\n44341-9Z01D\nADJUSTER 24T AUTO R-F RH\nNISSAN ID 38 L 240M REAR - FRT"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 96,
+    "searchableText": "44341-9Z01D 443419Z01D 44341 9Z01D ADJUSTER 24T AUTO R-F RH NISSAN ID 38 L 240M REAR - FRT ADJUSTER 24T AUTO R-F RH NISSAN ID 38 L 240M REAR - FRT. 24T, ID 13 mm, ID 35/38 mm, HI 108 mm, C-C 140 mm. ADJUSTER 24T AUTO R-F RH NISSAN ID 38 L 240M REAR - FRT. 24T, ID 13 mm, ID 35/38 mm, HI 108 mm, C-C 140 mm. OCR/source text preserved for search. NISSAN slack-adjuster Slack Adjuster trailer 24T; ID 13 mm; ID 35/38 mm; HI 108 mm; C-C 140 mm 24T ID 13 mm ID 35/38 mm HI 108 mm C-C 140 mm slack adjuster slack adj auto slack adjuster air brake slack adjuster ID 13mm\nHI 108mm\nC-C 140mm\n24T\nID 35/38mm\n44341-9Z01D\nADJUSTER 24T AUTO R-F RH\nNISSAN ID 38 L 240M REAR - FRT air-brake heavy-truck-parts WhatsApp Image 2026-08-11 at 11.18.52 PM (2).jpeg",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-11 at 11.18.52 PM (2).jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-11 at 11.18.52 PM (2).jpeg",
+      "hash": "dc8ee2f71b7682de1a265d412a4483f7937455631fd6128ace2c888852d3a538",
+      "ocrText": "ID 13mm\nHI 108mm\nC-C 140mm\n24T\nID 35/38mm\n44341-9Z01D\nADJUSTER 24T AUTO R-F RH\nNISSAN ID 38 L 240M REAR - FRT",
+      "importedAt": "2026-08-11T23:30:00",
+      "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image."
+    }
+  },
+  {
+    "id": "44341-9Z01C",
+    "code": "44341-9Z01C",
+    "number": "44341-9Z01C",
+    "productNumber": "44341-9Z01C",
+    "partNumber": "44341-9Z01C",
+    "name": "ADJUSTER 24T AUTO R-F LH NISSAN ID 38 L 240M REAR - FRT",
+    "productName": "ADJUSTER 24T AUTO R-F LH NISSAN ID 38 L 240M REAR - FRT",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "ADJUSTER 24T AUTO R-F LH NISSAN ID 38 L 240M REAR - FRT. 24T, ID 13 mm, ID 35/38 mm, HI 100 mm, C-C 140 mm.",
+    "visibleDescription": "ADJUSTER 24T AUTO R-F LH NISSAN ID 38 L 240M REAR - FRT",
+    "longDescription": "ADJUSTER 24T AUTO R-F LH NISSAN ID 38 L 240M REAR - FRT. 24T, ID 13 mm, ID 35/38 mm, HI 100 mm, C-C 140 mm. OCR/source text preserved for search.",
+    "application": "NISSAN",
+    "brand": "ASHINO",
+    "vehicleModel": "NISSAN",
+    "vehicleModels": [
+      "NISSAN"
+    ],
+    "engineModel": "",
+    "engineModels": [],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [
+      "443419Z01C",
+      "44341 9Z01C"
+    ],
+    "alternatePartNumbers": [
+      "443419Z01C",
+      "44341 9Z01C"
+    ],
+    "availability": "Ready stock",
+    "image": "assets/img/products/44341-9Z01C.jpeg",
+    "thumbnail": "assets/img/products/44341-9Z01C.jpeg",
+    "images": [
+      "assets/img/products/44341-9Z01C.jpeg"
+    ],
+    "alt": "44341-9Z01C adjuster 24t auto r f lh nissan id 38 l 240m rear frt product image",
+    "specifications": {
+      "visibleText": "ADJUSTER 24T AUTO R-F LH NISSAN ID 38 L 240M REAR - FRT",
+      "teethSpline": [
+        "24T"
+      ],
+      "measurements": [
+        "ID 13 mm",
+        "ID 35/38 mm",
+        "HI 100 mm",
+        "C-C 140 mm"
+      ],
+      "side": [
+        "LH"
+      ],
+      "position": [
+        "Rear",
+        "Front"
+      ],
+      "vehicleModels": [
+        "NISSAN"
+      ]
+    },
+    "specs": [
+      "24T",
+      "ID 13 mm",
+      "ID 35/38 mm",
+      "HI 100 mm",
+      "C-C 140 mm"
+    ],
+    "specification": "24T; ID 13 mm; ID 35/38 mm; HI 100 mm; C-C 140 mm",
+    "keywords": [
+      "slack adjuster",
+      "slack adj",
+      "auto slack adjuster",
+      "air brake slack adjuster",
+      "ADJUSTER 24T AUTO R-F LH NISSAN ID 38 L 240M REAR - FRT",
+      "ASHINO",
+      "NISSAN",
+      "24T",
+      "ID 13 mm",
+      "ID 35/38 mm",
+      "HI 100 mm",
+      "C-C 140 mm",
+      "44341-9Z01C",
+      "443419Z01C",
+      "44341 9Z01C",
+      "ID 13mm\nHI 100mm\nC-C 140mm\n24T\nID 35/38mm\nASHINO\n44341-9Z01C\nADJUSTER 24T AUTO R-F LH\nNISSAN ID 38 L 240M REAR - FRT"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 96,
+    "searchableText": "44341-9Z01C 443419Z01C 44341 9Z01C ADJUSTER 24T AUTO R-F LH NISSAN ID 38 L 240M REAR - FRT ADJUSTER 24T AUTO R-F LH NISSAN ID 38 L 240M REAR - FRT. 24T, ID 13 mm, ID 35/38 mm, HI 100 mm, C-C 140 mm. ADJUSTER 24T AUTO R-F LH NISSAN ID 38 L 240M REAR - FRT. 24T, ID 13 mm, ID 35/38 mm, HI 100 mm, C-C 140 mm. OCR/source text preserved for search. NISSAN ASHINO slack-adjuster Slack Adjuster trailer 24T; ID 13 mm; ID 35/38 mm; HI 100 mm; C-C 140 mm 24T ID 13 mm ID 35/38 mm HI 100 mm C-C 140 mm slack adjuster slack adj auto slack adjuster air brake slack adjuster ID 13mm\nHI 100mm\nC-C 140mm\n24T\nID 35/38mm\nASHINO\n44341-9Z01C\nADJUSTER 24T AUTO R-F LH\nNISSAN ID 38 L 240M REAR - FRT air-brake heavy-truck-parts WhatsApp Image 2026-08-11 at 11.18.53 PM.jpeg",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-11 at 11.18.53 PM.jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-11 at 11.18.53 PM.jpeg",
+      "hash": "de8146ec181895623033a1d457a5517053c3b46c85017cf2b35f83af9166cd7c",
+      "ocrText": "ID 13mm\nHI 100mm\nC-C 140mm\n24T\nID 35/38mm\nASHINO\n44341-9Z01C\nADJUSTER 24T AUTO R-F LH\nNISSAN ID 38 L 240M REAR - FRT",
+      "importedAt": "2026-08-11T23:30:00",
+      "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image."
+    }
+  },
+  {
+    "id": "800052 SORL HD",
+    "code": "800052 SORL HD",
+    "number": "800052 SORL HD",
+    "productNumber": "800052 SORL HD",
+    "partNumber": "800052 SORL HD",
+    "name": "ADJUSTER 37T TRAILLER TMC",
+    "productName": "ADJUSTER 37T TRAILLER TMC",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "ADJUSTER 37T TRAILLER TMC. 37T, ID 38/40 mm, 4H ID 13 mm, C-C 190 mm.",
+    "visibleDescription": "ADJUSTER 37T TRAILLER TMC",
+    "longDescription": "ADJUSTER 37T TRAILLER TMC. 37T, ID 38/40 mm, 4H ID 13 mm, C-C 190 mm. OCR/source text preserved for search.",
+    "application": "TMC",
+    "brand": "SORL",
+    "vehicleModel": "TMC",
+    "vehicleModels": [
+      "TMC"
+    ],
+    "engineModel": "",
+    "engineModels": [],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [
+      "800052-SORL-HD",
+      "800052SORLHD",
+      "800052 SORL HD",
+      "800052"
+    ],
+    "alternatePartNumbers": [
+      "800052-SORL-HD",
+      "800052SORLHD",
+      "800052 SORL HD",
+      "800052"
+    ],
+    "availability": "Ready stock",
+    "image": "assets/img/products/800052-SORL-HD.jpeg",
+    "thumbnail": "assets/img/products/800052-SORL-HD.jpeg",
+    "images": [
+      "assets/img/products/800052-SORL-HD.jpeg"
+    ],
+    "alt": "800052 SORL HD adjuster 37t trailler tmc product image",
+    "specifications": {
+      "visibleText": "ADJUSTER 37T TRAILLER TMC",
+      "teethSpline": [
+        "37T"
+      ],
+      "measurements": [
+        "ID 38/40 mm",
+        "4H ID 13 mm",
+        "C-C 190 mm"
+      ],
+      "vehicleModels": [
+        "TMC"
+      ]
+    },
+    "specs": [
+      "37T",
+      "ID 38/40 mm",
+      "4H ID 13 mm",
+      "C-C 190 mm"
+    ],
+    "specification": "37T; ID 38/40 mm; 4H ID 13 mm; C-C 190 mm",
+    "keywords": [
+      "slack adjuster",
+      "slack adj",
+      "auto slack adjuster",
+      "air brake slack adjuster",
+      "ADJUSTER 37T TRAILLER TMC",
+      "SORL",
+      "TMC",
+      "37T",
+      "ID 38/40 mm",
+      "4H ID 13 mm",
+      "C-C 190 mm",
+      "800052-SORL-HD",
+      "800052 SORL HD",
+      "800052SORLHD",
+      "800052",
+      "SORL\n37T\nID 38/40mm\n4H ID 13mm\nC-C 190mm\n800052 SORL HD\nADJUSTER 37T TRAILLER TMC"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 96,
+    "searchableText": "800052 SORL HD ADJUSTER 37T TRAILLER TMC ADJUSTER 37T TRAILLER TMC. 37T, ID 38/40 mm, 4H ID 13 mm, C-C 190 mm. ADJUSTER 37T TRAILLER TMC. 37T, ID 38/40 mm, 4H ID 13 mm, C-C 190 mm. OCR/source text preserved for search. SORL slack-adjuster Slack Adjuster 37T; ID 38/40 mm; 4H ID 13 mm; C-C 190 mm 37T ID 38/40 mm 4H ID 13 mm C-C 190 mm TMC 800052-SORL-HD 800052SORLHD 800052 slack adjuster slack adj auto slack adjuster air brake slack adjuster SORL\n37T\nID 38/40mm\n4H ID 13mm\nC-C 190mm\n800052 SORL HD\nADJUSTER 37T TRAILLER TMC WhatsApp Image 2026-08-11 at 11.18.53 PM (1).jpeg",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-11 at 11.18.53 PM (1).jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-11 at 11.18.53 PM (1).jpeg",
+      "hash": "ce4e57757b11933f327f505696a3e299094f03462ef8661f2efe1ac4fce881a7",
+      "ocrText": "SORL\n37T\nID 38/40mm\n4H ID 13mm\nC-C 190mm\n800052 SORL HD\nADJUSTER 37T TRAILLER TMC",
+      "importedAt": "2026-08-11T23:30:00",
+      "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image."
+    }
+  },
+  {
+    "id": "44341-9Z01E",
+    "code": "44341-9Z01E",
+    "number": "44341-9Z01E",
+    "productNumber": "44341-9Z01E",
+    "partNumber": "44341-9Z01E",
+    "name": "ADJUSTER 24T AUTO RH=LH QUESTER NISSAN ID 38 L 240M REAR",
+    "productName": "ADJUSTER 24T AUTO RH=LH QUESTER NISSAN ID 38 L 240M REAR",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "ADJUSTER 24T AUTO RH=LH QUESTER NISSAN ID 38 L 240M REAR. 24T, ID 13 mm, ID 35/38 mm, C-C 156 mm.",
+    "visibleDescription": "ADJUSTER 24T AUTO RH=LH QUESTER NISSAN ID 38 L 240M REAR",
+    "longDescription": "ADJUSTER 24T AUTO RH=LH QUESTER NISSAN ID 38 L 240M REAR. 24T, ID 13 mm, ID 35/38 mm, C-C 156 mm. OCR/source text preserved for search.",
+    "application": "QUESTER, NISSAN",
+    "brand": "UNIEURO",
+    "vehicleModel": "QUESTER, NISSAN",
+    "vehicleModels": [
+      "QUESTER",
+      "NISSAN"
+    ],
+    "engineModel": "",
+    "engineModels": [],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [
+      "443419Z01E",
+      "44341 9Z01E"
+    ],
+    "alternatePartNumbers": [
+      "443419Z01E",
+      "44341 9Z01E"
+    ],
+    "availability": "Ready stock",
+    "image": "assets/img/products/44341-9Z01E.jpeg",
+    "thumbnail": "assets/img/products/44341-9Z01E.jpeg",
+    "images": [
+      "assets/img/products/44341-9Z01E.jpeg"
+    ],
+    "alt": "44341-9Z01E adjuster 24t auto rh lh quester nissan id 38 l 240m rear product image",
+    "specifications": {
+      "visibleText": "ADJUSTER 24T AUTO RH=LH QUESTER NISSAN ID 38 L 240M REAR",
+      "teethSpline": [
+        "24T"
+      ],
+      "measurements": [
+        "ID 13 mm",
+        "ID 35/38 mm",
+        "C-C 156 mm"
+      ],
+      "side": [
+        "RH=LH"
+      ],
+      "position": [
+        "Rear"
+      ],
+      "vehicleModels": [
+        "QUESTER",
+        "NISSAN"
+      ]
+    },
+    "specs": [
+      "24T",
+      "ID 13 mm",
+      "ID 35/38 mm",
+      "C-C 156 mm"
+    ],
+    "specification": "24T; ID 13 mm; ID 35/38 mm; C-C 156 mm",
+    "keywords": [
+      "slack adjuster",
+      "slack adj",
+      "auto slack adjuster",
+      "air brake slack adjuster",
+      "ADJUSTER 24T AUTO RH=LH QUESTER NISSAN ID 38 L 240M REAR",
+      "UNIEURO",
+      "QUESTER",
+      "NISSAN",
+      "24T",
+      "ID 13 mm",
+      "ID 35/38 mm",
+      "C-C 156 mm",
+      "44341-9Z01E",
+      "443419Z01E",
+      "44341 9Z01E",
+      "UNIEURO GENUINE\nC-C 156mm\nID 13mm\n24T\nID 35/38mm\n44341-9Z01E\nADJUSTER 24T AUTO RH=LH QUESTER NISSAN\nID 38 L 240M REAR"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 96,
+    "searchableText": "44341-9Z01E 443419Z01E 44341 9Z01E ADJUSTER 24T AUTO RH=LH QUESTER NISSAN ID 38 L 240M REAR ADJUSTER 24T AUTO RH=LH QUESTER NISSAN ID 38 L 240M REAR. 24T, ID 13 mm, ID 35/38 mm, C-C 156 mm. ADJUSTER 24T AUTO RH=LH QUESTER NISSAN ID 38 L 240M REAR. 24T, ID 13 mm, ID 35/38 mm, C-C 156 mm. OCR/source text preserved for search. QUESTER, NISSAN UNIEURO slack-adjuster Slack Adjuster trailer 24T; ID 13 mm; ID 35/38 mm; C-C 156 mm 24T ID 13 mm ID 35/38 mm C-C 156 mm QUESTER NISSAN slack adjuster slack adj auto slack adjuster air brake slack adjuster UNIEURO GENUINE\nC-C 156mm\nID 13mm\n24T\nID 35/38mm\n44341-9Z01E\nADJUSTER 24T AUTO RH=LH QUESTER NISSAN\nID 38 L 240M REAR air-brake heavy-truck-parts WhatsApp Image 2026-08-11 at 11.18.53 PM (2).jpeg",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-11 at 11.18.53 PM (2).jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-11 at 11.18.53 PM (2).jpeg",
+      "hash": "73be2f7239ab42265be7f9803204e494f91ff4457d4097949862ab12eb4d803f",
+      "ocrText": "UNIEURO GENUINE\nC-C 156mm\nID 13mm\n24T\nID 35/38mm\n44341-9Z01E\nADJUSTER 24T AUTO RH=LH QUESTER NISSAN\nID 38 L 240M REAR",
+      "importedAt": "2026-08-11T23:30:00",
+      "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image."
+    }
+  },
+  {
+    "id": "81.50610.6211",
+    "code": "81.50610.6211",
+    "number": "81.50610.6211",
+    "productNumber": "81.50610.6211",
+    "partNumber": "81.50610.6211",
+    "name": "REAR BRAKE ADJUSTER LH 26T AUTO ADJUSTER",
+    "productName": "REAR BRAKE ADJUSTER LH 26T AUTO ADJUSTER",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "REAR BRAKE ADJUSTER LH 26T AUTO ADJUSTER. 26T, ID 14 mm, ID 39/42 mm, HI 87 mm, C-C 140 mm.",
+    "visibleDescription": "REAR BRAKE ADJUSTER LH 26T AUTO ADJUSTER",
+    "longDescription": "REAR BRAKE ADJUSTER LH 26T AUTO ADJUSTER. 26T, ID 14 mm, ID 39/42 mm, HI 87 mm, C-C 140 mm. OCR/source text preserved for search.",
+    "application": "",
+    "brand": "",
+    "vehicleModel": "",
+    "vehicleModels": [],
+    "engineModel": "",
+    "engineModels": [],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [
+      "81506106211",
+      "81 50610 6211"
+    ],
+    "alternatePartNumbers": [
+      "81506106211",
+      "81 50610 6211"
+    ],
+    "availability": "Ready stock",
+    "image": "assets/img/products/81.50610.6211.jpeg",
+    "thumbnail": "assets/img/products/81.50610.6211.jpeg",
+    "images": [
+      "assets/img/products/81.50610.6211.jpeg"
+    ],
+    "alt": "81.50610.6211 rear brake adjuster lh 26t auto adjuster product image",
+    "specifications": {
+      "visibleText": "REAR BRAKE ADJUSTER LH 26T AUTO ADJUSTER",
+      "teethSpline": [
+        "26T"
+      ],
+      "measurements": [
+        "ID 14 mm",
+        "ID 39/42 mm",
+        "HI 87 mm",
+        "C-C 140 mm"
+      ],
+      "side": [
+        "LH"
+      ],
+      "position": [
+        "Rear"
+      ]
+    },
+    "specs": [
+      "26T",
+      "ID 14 mm",
+      "ID 39/42 mm",
+      "HI 87 mm",
+      "C-C 140 mm"
+    ],
+    "specification": "26T; ID 14 mm; ID 39/42 mm; HI 87 mm; C-C 140 mm",
+    "keywords": [
+      "slack adjuster",
+      "slack adj",
+      "auto slack adjuster",
+      "air brake slack adjuster",
+      "REAR BRAKE ADJUSTER LH 26T AUTO ADJUSTER",
+      "26T",
+      "ID 14 mm",
+      "ID 39/42 mm",
+      "HI 87 mm",
+      "C-C 140 mm",
+      "81.50610.6211",
+      "81506106211",
+      "81 50610 6211",
+      "HI 87mm\nID 14mm\nC-C 140mm\n26T\nID 39/42mm\n81.50610.6211\nREAR BRAKE ADJUSTER LH 26T\nAUTO ADJUSTER"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 96,
+    "searchableText": "81.50610.6211 81506106211 81 50610 6211 REAR BRAKE ADJUSTER LH 26T AUTO ADJUSTER REAR BRAKE ADJUSTER LH 26T AUTO ADJUSTER. 26T, ID 14 mm, ID 39/42 mm, HI 87 mm, C-C 140 mm. REAR BRAKE ADJUSTER LH 26T AUTO ADJUSTER. 26T, ID 14 mm, ID 39/42 mm, HI 87 mm, C-C 140 mm. OCR/source text preserved for search. slack-adjuster Slack Adjuster trailer 26T; ID 14 mm; ID 39/42 mm; HI 87 mm; C-C 140 mm 26T ID 14 mm ID 39/42 mm HI 87 mm C-C 140 mm slack adjuster slack adj auto slack adjuster air brake slack adjuster HI 87mm\nID 14mm\nC-C 140mm\n26T\nID 39/42mm\n81.50610.6211\nREAR BRAKE ADJUSTER LH 26T\nAUTO ADJUSTER air-brake heavy-truck-parts WhatsApp Image 2026-08-11 at 11.18.53 PM (3).jpeg",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-11 at 11.18.53 PM (3).jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-11 at 11.18.53 PM (3).jpeg",
+      "hash": "51cbd140298aadf9fd492a2fa9f31d20f2d16204f6c9e57f876a0b4008e6323d",
+      "ocrText": "HI 87mm\nID 14mm\nC-C 140mm\n26T\nID 39/42mm\n81.50610.6211\nREAR BRAKE ADJUSTER LH 26T\nAUTO ADJUSTER",
+      "importedAt": "2026-08-11T23:30:00",
+      "recognitionNote": "Incremental Slack Adjuster import; primary product code verified from the largest prominent product code visible in the source image."
+    }
   }
 ];
 window.NAE_IMPORT_META = {
-  "generatedAt": "2026-08-07T22:46:39",
-  "totalProducts": 51,
-  "importedThisRun": 11,
+  "generatedAt": "2026-08-11T23:30:00",
+  "totalProducts": 58,
+  "importedThisRun": 7,
   "updatedThisRun": 0,
   "skippedDuplicates": 0,
   "skippedProducts": 0,
