@@ -1373,10 +1373,6 @@ function bindHomepageFinderEvents() {
 
     const lightboxEnquiry = event.target.closest("[data-lightbox-enquire]");
     if (lightboxEnquiry) {
-      const enquiryText = lightboxEnquiry.dataset.lightboxEnquire || "";
-      if (enquiryText) {
-        sessionStorage.setItem("nihonAsiaEnquiry", enquiryText);
-      }
       closeHomepageLightbox();
       return;
     }
@@ -1661,42 +1657,3 @@ observeRevealElements();
 document
   .querySelector("#year")
   ?.append(new Date().getFullYear());
-
-
-// ===========================
-// Enquiry Form
-// ===========================
-
-const form = document.querySelector("#enquiryForm");
-const toast = document.querySelector("#toast");
-
-if (form) {
-  const stored =
-    sessionStorage.getItem("nihonAsiaEnquiry");
-
-  if (stored) {
-    form.elements.message.value =
-      `I would like to enquire about ${stored}.`;
-
-    sessionStorage.removeItem("nihonAsiaEnquiry");
-  }
-
-  form.addEventListener("submit", (e) => {
-    e.preventDefault();
-
-    const data = new FormData(form);
-
-    const msg =
-      `Enquiry prepared for ${data.get("name")}. The sales team can use these details to identify the correct part faster.`;
-
-    if (toast) {
-      toast.textContent = msg;
-
-      toast.classList.add("show");
-
-      setTimeout(() => {
-        toast.classList.remove("show");
-      }, 5200);
-    }
-  });
-}

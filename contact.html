@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Contact NIHON ASIA ENTERPRISE for heavy-duty truck parts enquiries and quotation support.">
+  <meta name="description" content="Contact the NIHON ASIA ENTERPRISE sales team directly via WhatsApp for heavy-duty truck parts enquiries.">
   <meta name="theme-color" content="#111111">
   <meta property="og:title" content="Contact NIHON ASIA | Kuala Lumpur">
-  <meta property="og:description" content="Send heavy-duty truck parts enquiries to NIHON ASIA ENTERPRISE with part numbers, product photos, engine models or vehicle details.">
+  <meta property="og:description" content="Contact the NIHON ASIA ENTERPRISE sales team directly via WhatsApp for heavy-duty truck parts enquiries.">
   <link rel="canonical" href="https://titan-900.github.io/NAE-TRUCK/contact.html">
   <title>Contact NIHON ASIA | Kuala Lumpur</title>
   <link rel="stylesheet" href="assets/css/styles.css">
@@ -27,35 +27,21 @@
     <section class="category-hero">
       <div class="container">
         <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Contact Us</span></div>
-        <div class="category-hero-grid">
-          <div class="category-hero-copy"><p class="eyebrow eyebrow-light"><span></span> Contact NIHON ASIA</p><h1>Contact Us</h1><p>Send a product code, product photo, engine model or vehicle model so the parts team can identify the right item faster.</p></div>
-          
+        <div class="category-hero-grid contact-hero-grid">
+          <div class="category-hero-copy contact-hero-copy"><p class="eyebrow eyebrow-light"><span></span> Contact NIHON ASIA</p><h1>Contact Our Sales Team</h1></div>
         </div>
       </div>
     </section>
 
-    <section class="section contact-detail-section">
-      <div class="container contact-grid">
-        <div class="contact-copy reveal">
-          <p class="eyebrow eyebrow-light"><span></span> Parts enquiry</p>
-          <h2>Share the<br><em>part details.</em></h2>
-          <p>Share the part number, product photo, engine model or vehicle details. The sales team can use these details to identify the correct heavy-duty truck part faster.</p>
-          <div class="contact-list">
-            <div><span>PN</span><p><small>Part Number</small><strong>Include any visible code</strong></p></div>
-            <div><span>PH</span><p><small>Product Photo</small><strong>Attach a clear image</strong></p></div>
-            <div><span>EM</span><p><small>Engine Model</small><strong>Add model details if known</strong></p></div>
-            <div><span>BR</span><p><small>Truck Brand</small><strong>Include vehicle application</strong></p></div>
-          </div>
+    <section class="section whatsapp-sales-section" aria-labelledby="salesContactTitle">
+      <div class="container whatsapp-sales-shell">
+        <div class="whatsapp-sales-head reveal">
+          <p class="eyebrow"><span></span> WhatsApp sales directory</p>
+          <h2 id="salesContactTitle">Choose a sales representative.</h2>
+          <p>Choose a sales representative and contact them directly via WhatsApp.</p>
         </div>
 
-        <form class="enquiry-form reveal delay-1" id="enquiryForm">
-          <div class="form-title"><strong>Request a parts quote</strong><span>Prepared for WhatsApp or email connection</span></div>
-          <label><span>Your name</span><input required name="name" autocomplete="name" placeholder="Name / company"></label>
-          <div class="form-row"><label><span>Phone</span><input required name="phone" autocomplete="tel" placeholder="+60"></label><label><span>Brand</span><input name="brand" placeholder="Brand / truck model"></label></div>
-          <label><span>Part needed</span><textarea required name="message" rows="4" placeholder="Product code, description, engine model, vehicle model or notes..."></textarea></label>
-          <button class="button button-orange button-full" type="submit">Prepare enquiry <span>&nearr;</span></button>
-          <p class="form-note">Use this form to prepare a clean enquiry before sending it to the sales team.</p>
-        </form>
+        <div class="whatsapp-contact-grid reveal delay-1" id="whatsappContactGrid" aria-live="polite"></div>
       </div>
     </section>
   </main>
@@ -66,7 +52,62 @@
     </div>
     <div class="container footer-bottom"><span>&copy; <span id="year"></span> NIHON ASIA ENTERPRISE Sdn. Bhd.</span><span>Heavy-duty truck parts catalog</span></div>
   </footer>
-  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script>
+    const whatsappContacts = [
+      /*
+      Add real sales contacts here when ready. Do not publish fake data.
+      {
+        name: "SALES PERSON NAME",
+        role: "SALES ROLE",
+        phone: "60XXXXXXXXX",
+        displayPhone: "+60 XX-XXXX XXXX"
+      }
+      */
+    ];
+
+    (() => {
+      const grid = document.querySelector("#whatsappContactGrid");
+      const message = "Hello, I would like to enquire about a heavy-duty truck part.";
+
+      if (!grid) return;
+
+      const cleanPhone = value => String(value || "").replace(/\D/g, "");
+      const safeText = value => String(value || "").replace(/[&<>"']/g, character => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        "\"": "&quot;",
+        "'": "&#39;"
+      }[character]));
+
+      const contacts = whatsappContacts
+        .map(contact => ({
+          name: String(contact.name || "").trim(),
+          role: String(contact.role || "Sales").trim(),
+          phone: cleanPhone(contact.phone),
+          displayPhone: String(contact.displayPhone || "").trim()
+        }))
+        .filter(contact => contact.name && contact.phone && contact.displayPhone);
+
+      if (!contacts.length) {
+        grid.innerHTML = '<div class="whatsapp-empty-state"><strong>Sales WhatsApp contacts will be added soon.</strong><span>Please add real sales representatives before publishing this directory.</span></div>';
+        return;
+      }
+
+      grid.innerHTML = contacts.map(contact => {
+        const url = `https://wa.me/${contact.phone}?text=${encodeURIComponent(message)}`;
+
+        return `<article class="whatsapp-contact-card">
+          <div>
+            <strong>${safeText(contact.name)}</strong>
+            <span>${safeText(contact.role)}</span>
+          </div>
+          <p>${safeText(contact.displayPhone)}</p>
+          <a class="whatsapp-button" href="${url}" target="_blank" rel="noopener">Chat on WhatsApp <span>&nearr;</span></a>
+        </article>`;
+      }).join("");
+    })();
+  </script>
   <script src="assets/js/site.js"></script>
 </body>
 </html>
