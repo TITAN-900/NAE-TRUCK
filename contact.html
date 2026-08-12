@@ -36,12 +36,36 @@
     <section class="section whatsapp-sales-section" aria-labelledby="salesContactTitle">
       <div class="container whatsapp-sales-shell">
         <div class="whatsapp-sales-head reveal">
-          <p class="eyebrow"><span></span> WhatsApp sales directory</p>
-          <h2 id="salesContactTitle">Choose a sales representative.</h2>
-          <p>Choose a sales representative and contact them directly via WhatsApp.</p>
+          <h2 id="salesContactTitle">CHOOSE A SALES REPRESENTATIVE.</h2>
         </div>
 
-        <div class="whatsapp-contact-grid reveal delay-1" id="whatsappContactGrid" aria-live="polite"></div>
+        <div class="whatsapp-contact-grid reveal delay-1" id="whatsappContactGrid" aria-label="WhatsApp representatives">
+          <article class="whatsapp-contact-card">
+            <strong>KEONG</strong>
+            <p>016 331 2282</p>
+            <a class="whatsapp-button" href="https://wa.me/60163312282?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20a%20heavy-duty%20truck%20part." target="_blank" rel="noopener">CHAT ON WHATSAPP</a>
+          </article>
+          <article class="whatsapp-contact-card">
+            <strong>CHUAN</strong>
+            <p>010 288 3200</p>
+            <a class="whatsapp-button" href="https://wa.me/60102883200?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20a%20heavy-duty%20truck%20part." target="_blank" rel="noopener">CHAT ON WHATSAPP</a>
+          </article>
+          <article class="whatsapp-contact-card">
+            <strong>JASON</strong>
+            <p>012 817 2377</p>
+            <a class="whatsapp-button" href="https://wa.me/60128172377?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20a%20heavy-duty%20truck%20part." target="_blank" rel="noopener">CHAT ON WHATSAPP</a>
+          </article>
+          <article class="whatsapp-contact-card">
+            <strong>BILLY</strong>
+            <p>018 373 4689</p>
+            <a class="whatsapp-button" href="https://wa.me/60183734689?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20a%20heavy-duty%20truck%20part." target="_blank" rel="noopener">CHAT ON WHATSAPP</a>
+          </article>
+          <article class="whatsapp-contact-card">
+            <strong>QIANG</strong>
+            <p>012 376 3801</p>
+            <a class="whatsapp-button" href="https://wa.me/60123763801?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20a%20heavy-duty%20truck%20part." target="_blank" rel="noopener">CHAT ON WHATSAPP</a>
+          </article>
+        </div>
       </div>
     </section>
   </main>
@@ -52,62 +76,6 @@
     </div>
     <div class="container footer-bottom"><span>&copy; <span id="year"></span> NIHON ASIA ENTERPRISE Sdn. Bhd.</span><span>Heavy-duty truck parts catalog</span></div>
   </footer>
-  <script>
-    const whatsappContacts = [
-      /*
-      Add real sales contacts here when ready. Do not publish fake data.
-      {
-        name: "SALES PERSON NAME",
-        role: "SALES ROLE",
-        phone: "60XXXXXXXXX",
-        displayPhone: "+60 XX-XXXX XXXX"
-      }
-      */
-    ];
-
-    (() => {
-      const grid = document.querySelector("#whatsappContactGrid");
-      const message = "Hello, I would like to enquire about a heavy-duty truck part.";
-
-      if (!grid) return;
-
-      const cleanPhone = value => String(value || "").replace(/\D/g, "");
-      const safeText = value => String(value || "").replace(/[&<>"']/g, character => ({
-        "&": "&amp;",
-        "<": "&lt;",
-        ">": "&gt;",
-        "\"": "&quot;",
-        "'": "&#39;"
-      }[character]));
-
-      const contacts = whatsappContacts
-        .map(contact => ({
-          name: String(contact.name || "").trim(),
-          role: String(contact.role || "Sales").trim(),
-          phone: cleanPhone(contact.phone),
-          displayPhone: String(contact.displayPhone || "").trim()
-        }))
-        .filter(contact => contact.name && contact.phone && contact.displayPhone);
-
-      if (!contacts.length) {
-        grid.innerHTML = '<div class="whatsapp-empty-state"><strong>Sales WhatsApp contacts will be added soon.</strong><span>Please add real sales representatives before publishing this directory.</span></div>';
-        return;
-      }
-
-      grid.innerHTML = contacts.map(contact => {
-        const url = `https://wa.me/${contact.phone}?text=${encodeURIComponent(message)}`;
-
-        return `<article class="whatsapp-contact-card">
-          <div>
-            <strong>${safeText(contact.name)}</strong>
-            <span>${safeText(contact.role)}</span>
-          </div>
-          <p>${safeText(contact.displayPhone)}</p>
-          <a class="whatsapp-button" href="${url}" target="_blank" rel="noopener">Chat on WhatsApp <span>&nearr;</span></a>
-        </article>`;
-      }).join("");
-    })();
-  </script>
   <script src="assets/js/site.js"></script>
 </body>
 </html>
