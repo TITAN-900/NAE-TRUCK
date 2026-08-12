@@ -1,4 +1,10 @@
 User-agent: *
+Disallow: /scripts/
+Disallow: /tmp/
+Disallow: /whatsapp-import/
+Disallow: /Slack%20Adjuster/
+Disallow: /Rubber%20Hose/
+Disallow: /WhatsApp%20Unknown%202026-07-20%20at%2010.37.03%20PM/
 Allow: /
 
 Sitemap: https://titan-900.github.io/NAE-TRUCK/sitemap.xml

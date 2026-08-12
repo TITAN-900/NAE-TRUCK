@@ -8344,8 +8344,8 @@ window.NAE_IMPORTED_PRODUCTS = [
 window.NAE_IMPORT_META = {
   "generatedAt": "2026-08-12T14:52:58",
   "totalProducts": 80,
-  "source": "product-seo-audit",
+  "source": "google-indexing-audit",
   "searchIndexRebuilt": true,
-  "seoPagesChecked": 80,
-  "seoElementsRepaired": 29
+  "productSeoPagesChecked": 80,
+  "productionBaseUrl": "https://titan-900.github.io/NAE-TRUCK/"
 };

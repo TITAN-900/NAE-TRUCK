@@ -1,0 +1,19 @@
+{
+  "productionBaseUrl": "https://titan-900.github.io/NAE-TRUCK/",
+  "productionUrlSource": "Existing robots.txt, sitemap.xml and canonical tags in this project. Update this value before deployment if the final public domain changes.",
+  "company": {
+    "name": "NIHON ASIA ENTERPRISE",
+    "legalName": "NIHON ASIA ENTERPRISE SDN. BHD.",
+    "subtitle": "Heavy Duty Truck Parts",
+    "description": "Heavy-duty truck spare parts and product catalog supplier in Kuala Lumpur, Malaysia.",
+    "logo": "assets/img/nihon-asia-logo.png",
+    "defaultOgImage": "assets/img/hero-truck-mountain-banner.png",
+    "address": {
+      "streetAddress": "8, Jalan 3/46a, Jalan Selingsing 7, Taman Niaga Waris",
+      "postalCode": "51200",
+      "addressLocality": "Kuala Lumpur",
+      "addressRegion": "Federal Territory of Kuala Lumpur",
+      "addressCountry": "MY"
+    }
+  }
+}
