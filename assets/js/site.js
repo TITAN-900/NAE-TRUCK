@@ -835,6 +835,13 @@ function updateFinderStatus() {
     return;
   }
 
+  if (!finderResults) {
+    finderStatus.textContent = query
+      ? `${total} ${total === 1 ? "product" : "products"} found. Open full catalog to view results.`
+      : `${total} ${total === 1 ? "product" : "products"} available in the catalog.`;
+    return;
+  }
+
   finderStatus.textContent = query
     ? `${total} ${total === 1 ? "product" : "products"} found. Showing ${shown}.`
     : `${total} ${total === 1 ? "product" : "products"} available. Showing ${shown}.`;
@@ -852,19 +859,21 @@ function appendFinderCards(records, searchState, startIndex, endIndex) {
 }
 
 function renderFinderResults(records, query, options = {}) {
-  if (!finderResults) return;
-
   const trimmedQuery = String(query || "").trim();
   finderCurrentQuery = trimmedQuery;
   const { searchState, matches } = getFilteredFinderMatches(records, trimmedQuery);
   finderCurrentSearchState = searchState;
   finderCurrentMatches = matches;
   finderVisibleCount = Math.min(Math.max(finderVisibleCount, finderPageSize), matches.length || finderPageSize);
-  finderResults.hidden = false;
   if (finderToolbar) finderToolbar.hidden = false;
   if (finderLoadMore) finderLoadMore.hidden = true;
   if (finderClearSearch) finderClearSearch.hidden = !trimmedQuery;
   updateFinderViewAllResultsHref(trimmedQuery);
+  updateFinderStatus();
+
+  if (!finderResults) return;
+
+  finderResults.hidden = false;
 
   finderResults.innerHTML = "";
   if (matches.length) {
