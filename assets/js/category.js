@@ -127,11 +127,11 @@ const fallbackCategories = [
     slug: "rubber-hose",
     num: "12",
     title: "RUBBER HOSE",
-    desc: "Heavy-duty truck rubber hoses and hose components.",
-    intro: "Heavy-duty truck rubber hoses and hose components.",
+    desc: "Heavy-duty truck rubber hose components.",
+    intro: "Heavy-duty truck rubber hose components.",
     thumbnail: "",
-    categoryImage: "",
-    futureCategoryImage: "",
+    categoryImage: "assets/img/categories/rubber-hose-cover.png",
+    futureCategoryImage: "assets/img/categories/rubber-hose-cover.png",
     productCategory: true,
     items: ["Rubber Hose"]
   }
