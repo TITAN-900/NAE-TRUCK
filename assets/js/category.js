@@ -143,8 +143,8 @@ const fallbackCategories = [
     desc: "Heavy-duty truck flywheel components.",
     intro: "Heavy-duty truck flywheel components.",
     thumbnail: "",
-    categoryImage: "",
-    futureCategoryImage: "",
+    categoryImage: "assets/img/categories/flywheel-cover.jpeg",
+    futureCategoryImage: "assets/img/categories/flywheel-cover.jpeg",
     productCategory: true,
     items: ["Flywheel"]
   }
