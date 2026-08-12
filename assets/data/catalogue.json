@@ -169,6 +169,20 @@
       "items": [
         "Rubber Hose"
       ]
+    },
+    {
+      "slug": "flywheel",
+      "num": "13",
+      "title": "FLYWHEEL",
+      "desc": "Heavy-duty truck flywheel components.",
+      "intro": "Heavy-duty truck flywheel components.",
+      "thumbnail": "",
+      "categoryImage": "",
+      "futureCategoryImage": "",
+      "productCategory": true,
+      "items": [
+        "Flywheel"
+      ]
     }
   ]
 }

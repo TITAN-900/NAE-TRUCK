@@ -44,6 +44,7 @@ const categoryGroupMap = {
   "trailer-parts": "trailer",
   "slack-adjuster": "trailer",
   "rubber-hose": "other",
+  "flywheel": "engine",
   other: "other"
 };
 
@@ -134,6 +135,18 @@ const fallbackCategories = [
     futureCategoryImage: "assets/img/categories/rubber-hose-cover.png",
     productCategory: true,
     items: ["Rubber Hose"]
+  },
+  {
+    slug: "flywheel",
+    num: "13",
+    title: "FLYWHEEL",
+    desc: "Heavy-duty truck flywheel components.",
+    intro: "Heavy-duty truck flywheel components.",
+    thumbnail: "",
+    categoryImage: "",
+    futureCategoryImage: "",
+    productCategory: true,
+    items: ["Flywheel"]
   }
 ];
 
@@ -1048,6 +1061,8 @@ function render() {
   if (count) {
     count.textContent = browseMode === "brand" && !hasBaseProducts
       ? "No products available for this brand yet."
+      : hasProductsCategoryScope() && !hasSearch && filtered.length === 0
+      ? "0 products"
       : hasAnyProducts
       ? (searchState.tokens.length
         ? `${visible.length} of ${filtered.length} matching products shown`
