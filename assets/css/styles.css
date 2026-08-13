@@ -2919,7 +2919,7 @@ h1 em,h2 em{
     max-height:740px;
     overflow:hidden;
     isolation:isolate;
-    background:linear-gradient(135deg,#cfcac1 0%,#e7e3dc 48%,#fff 100%)
+    background:#fff
 }
 .about-photo-hero:before{
     content:"";
@@ -2938,50 +2938,40 @@ h1 em,h2 em{
     display:block;
     object-fit:cover;
     object-position:center;
-    transform:scale(1.001)
+    transform:scale(1.001);
+    -webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 96%,rgba(0,0,0,.55) 98.5%,rgba(0,0,0,0) 100%);
+    mask-image:linear-gradient(to bottom,#000 0%,#000 96%,rgba(0,0,0,.55) 98.5%,rgba(0,0,0,0) 100%)
 }
 .about-company-photo[hidden]{
     display:none
 }
 .about-photo-fade{
     position:absolute;
-    left:0;
-    right:0;
-    bottom:-1px;
+    inset:0;
     z-index:2;
-    height:8%;
     pointer-events:none;
-    overflow:visible;
+    overflow:hidden;
     background:transparent
 }
-.about-photo-fade:before{
-    content:"";
+.about-photo-fade img{
     position:absolute;
-    left:-2%;
-    right:-2%;
-    bottom:0;
-    height:1250%;
+    inset:0;
+    z-index:1;
+    width:100%;
+    height:100%;
+    max-width:none;
     pointer-events:none;
-    background-image:url("../img/about/company.png");
-    background-size:cover;
-    background-position:center;
-    filter:blur(18px);
-    transform:scale(1.035);
+    object-fit:cover;
+    object-position:center;
+    display:block;
+    filter:blur(20px);
+    transform:scale(1.04);
     transform-origin:center bottom;
-    -webkit-mask-image:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 91.8%,rgba(0,0,0,.08) 93.4%,rgba(0,0,0,.34) 95.8%,rgba(0,0,0,.72) 98.2%,#000 100%);
-    mask-image:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 91.8%,rgba(0,0,0,.08) 93.4%,rgba(0,0,0,.34) 95.8%,rgba(0,0,0,.72) 98.2%,#000 100%)
+    -webkit-mask-image:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 88%,rgba(0,0,0,.35) 89.5%,#000 91%,#000 96%,rgba(0,0,0,.55) 98.5%,rgba(0,0,0,0) 100%);
+    mask-image:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 88%,rgba(0,0,0,.35) 89.5%,#000 91%,#000 96%,rgba(0,0,0,.55) 98.5%,rgba(0,0,0,0) 100%)
 }
 .about-photo-fade:after{
-    content:"";
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:-18px;
-    pointer-events:none;
-    background:#fff;
-    -webkit-mask-image:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 44%,rgba(0,0,0,.08) 64%,rgba(0,0,0,.32) 80%,rgba(0,0,0,.72) 92%,#000 100%);
-    mask-image:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 44%,rgba(0,0,0,.08) 64%,rgba(0,0,0,.32) 80%,rgba(0,0,0,.72) 92%,#000 100%)
+    content:none
 }
 .about-content-section{
     position:relative;
@@ -3251,10 +3241,6 @@ h1 em,h2 em{
     }
     .about-photo-hero:before{
         height:48%
-    }
-    .about-photo-fade{
-        height:8%;
-        background:transparent
     }
     .about-content-section{
         padding:68px 0 88px
