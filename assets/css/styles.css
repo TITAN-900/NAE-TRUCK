@@ -2951,7 +2951,7 @@ h1 em,h2 em{
     z-index:2;
     height:12%;
     pointer-events:none;
-    overflow:visible;
+    overflow:hidden;
     background:transparent
 }
 .about-photo-fade:before{
@@ -2965,21 +2965,22 @@ h1 em,h2 em{
     background-image:url("../img/about/company.png");
     background-size:cover;
     background-position:center;
-    filter:blur(20px);
-    transform:scale(1.045);
+    filter:blur(24px);
+    opacity:1;
+    transform:scale(1.055);
     transform-origin:center bottom;
-    -webkit-mask-image:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 86.5%,rgba(0,0,0,.06) 88.5%,rgba(0,0,0,.24) 91.5%,rgba(0,0,0,.55) 95%,rgba(0,0,0,.86) 98%,#000 100%);
-    mask-image:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 86.5%,rgba(0,0,0,.06) 88.5%,rgba(0,0,0,.24) 91.5%,rgba(0,0,0,.55) 95%,rgba(0,0,0,.86) 98%,#000 100%)
+    -webkit-mask-image:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 86.9%,rgba(0,0,0,.1) 88.2%,rgba(0,0,0,.45) 90.4%,rgba(0,0,0,.82) 92.5%,#000 94%,#000 99.2%,rgba(0,0,0,.65) 100%);
+    mask-image:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0) 86.9%,rgba(0,0,0,.1) 88.2%,rgba(0,0,0,.45) 90.4%,rgba(0,0,0,.82) 92.5%,#000 94%,#000 99.2%,rgba(0,0,0,.65) 100%)
 }
 .about-photo-fade:after{
     content:"";
     position:absolute;
-    top:-10px;
+    top:0;
     left:0;
     right:0;
-    bottom:-34px;
+    bottom:0;
     pointer-events:none;
-    background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,.02) 22%,rgba(255,255,255,.08) 38%,rgba(255,255,255,.2) 54%,rgba(255,255,255,.42) 70%,rgba(255,255,255,.72) 86%,#fff 100%);
+    background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 70%,rgba(255,255,255,.08) 80%,rgba(255,255,255,.36) 90%,rgba(255,255,255,.76) 97%,#fff 100%);
     filter:blur(10px)
 }
 .about-content-section{
