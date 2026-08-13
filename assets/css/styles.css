@@ -4039,8 +4039,7 @@ Product Image Lightbox
 }
 .premium-home .premium-section-head h2,
 .premium-brands-section h2,
-.company-intro-copy h2,
-.homepage-cta-card h2{
+.company-intro-copy h2{
     letter-spacing:-.055em
 }
 .premium-home .homepage-featured-grid{
@@ -4336,37 +4335,6 @@ Product Image Lightbox
     object-fit:cover;
     transform:scale(1.01)
 }
-.premium-home .homepage-cta-section{
-    padding:112px 0;
-    background:#111214
-}
-.homepage-cta-card{
-    max-width:940px;
-    margin:0 auto;
-    padding:72px clamp(28px,7vw,86px);
-    border:1px solid rgba(255,255,255,.11);
-    border-radius:24px;
-    background:linear-gradient(135deg,rgba(255,255,255,.08),rgba(255,255,255,.025));
-    color:#fff;
-    text-align:center
-}
-.homepage-cta-card h2{
-    margin:14px auto 10px;
-    font-size:clamp(40px,5.8vw,76px);
-    line-height:.96
-}
-.homepage-cta-card p:not(.eyebrow){
-    margin:0;
-    color:rgba(255,255,255,.72);
-    font-size:20px
-}
-.homepage-cta-actions{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:14px;
-    margin-top:34px
-}
 .premium-home .site-footer{
     background:#090a0c
 }
@@ -4427,8 +4395,7 @@ Product Image Lightbox
         grid-template-columns:repeat(2,minmax(0,1fr))
     }
     .premium-home .premium-brands-section,
-    .premium-home .company-intro-section,
-    .premium-home .homepage-cta-section{
+    .premium-home .company-intro-section{
         padding:88px 0
     }
 }
@@ -4509,16 +4476,6 @@ Product Image Lightbox
     .company-intro-copy p:not(.eyebrow){
         font-size:16px;
         line-height:1.7
-    }
-    .homepage-cta-card{
-        padding:52px 22px;
-        border-radius:20px
-    }
-    .homepage-cta-actions{
-        flex-direction:column
-    }
-    .homepage-cta-actions .button{
-        justify-content:center
     }
 }
 @media(max-width:460px){
@@ -4657,9 +4614,6 @@ Product Image Lightbox
     font-size:clamp(18px,1.8vw,24px);
     line-height:1.16;
     letter-spacing:-.025em
-}
-.why-choose-action{
-    margin-top:42px
 }
 .category-symbol{
     display:none!important
@@ -4923,6 +4877,14 @@ Product Image Lightbox
     }
     .container{
         width:min(100% - 40px,var(--max))
+    }
+    .nav-menu{
+        opacity:0;
+        transform:none
+    }
+    .nav-menu.open{
+        opacity:1;
+        transform:none
     }
     .site-header,
     .premium-home .site-header{
