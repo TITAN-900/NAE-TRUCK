@@ -4302,6 +4302,19 @@ Product Image Lightbox
 .brands-index-page .brand-card:hover .brand-logo-block img{
     transform:scale(1.05)
 }
+.brands-index-page .brand-card[href*="brands/twinkle"] .brand-logo-block.has-logo{
+    overflow:hidden;
+    background:#fff url("../img/brands/twinkle-logo.jpg") center/auto 170% no-repeat;
+    transition:background-size .34s var(--ease)
+}
+.brands-index-page .brand-card[href*="brands/twinkle"] .brand-logo-block img,
+.brands-index-page .brand-card[href*="brands/twinkle"]:hover .brand-logo-block img{
+    opacity:0;
+    transform:none
+}
+.brands-index-page .brand-card[href*="brands/twinkle"]:hover .brand-logo-block.has-logo{
+    background-size:auto 178.5%
+}
 .brand-card strong,
 .premium-home .brand-card strong,
 .brands-index-page .brand-card strong{
