@@ -1443,6 +1443,7 @@ h1 em,h2 em{
 }
 .whatsapp-contact-card{
     position:relative;
+    isolation:isolate;
     display:flex;
     grid-column:span 2;
     min-height:214px;
@@ -1465,6 +1466,23 @@ h1 em,h2 em{
     height:3px;
     background:linear-gradient(90deg,rgba(37,211,102,.95),rgba(37,211,102,.12));
     opacity:.82
+}
+.whatsapp-contact-card:after{
+    content:"";
+    position:absolute;
+    inset:28px;
+    z-index:0;
+    pointer-events:none;
+    background-image:url("../img/nae-contact-hover-logo.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    opacity:0;
+    transition:opacity .35s ease
+}
+.whatsapp-contact-card>*{
+    position:relative;
+    z-index:1
 }
 .whatsapp-card-icon{
     position:absolute;
@@ -1550,6 +1568,10 @@ h1 em,h2 em{
         border-color:rgba(31,170,89,.32);
         box-shadow:0 26px 58px rgba(17,18,20,.1);
         transform:translateY(-4px)
+    }
+    .whatsapp-contact-card:hover:after,
+    .whatsapp-contact-card:focus-within:after{
+        opacity:.19
     }
     .whatsapp-contact-card:hover .whatsapp-card-icon{
         background:rgba(37,211,102,.16);
