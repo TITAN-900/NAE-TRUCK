@@ -8339,5 +8339,2324 @@ window.NAE_IMPORTED_PRODUCTS = [
     },
     "slug": "11a40d-19011-rubber-hose",
     "url": "products/11a40d-19011-rubber-hose.html"
+  },
+  {
+    "id": "8-94395-519-0",
+    "code": "8-94395-519-0",
+    "number": "8-94395-519-0",
+    "productNumber": "8-94395-519-0",
+    "partNumber": "8-94395-519-0",
+    "name": "FLYWHEEL 14\" 8H 140T IZ 6HH1",
+    "productName": "FLYWHEEL 14\" 8H 140T IZ 6HH1",
+    "category": "flywheel",
+    "categoryLabel": "FLYWHEEL",
+    "categoryGroup": "engine",
+    "subcategory": "",
+    "description": "FLYWHEEL 14\" 8H 140T IZ 6HH1",
+    "visibleDescription": "FLYWHEEL 14\" 8H 140T IZ 6HH1",
+    "longDescription": "FLYWHEEL 14\" 8H 140T IZ 6HH1. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "IZ 6HH1, 6HH1",
+    "brand": "",
+    "vehicleModel": "IZ 6HH1",
+    "vehicleModels": [
+      "IZ 6HH1"
+    ],
+    "engineModel": "6HH1",
+    "engineModels": [
+      "6HH1"
+    ],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/8-94395-519-0.jpeg",
+    "thumbnail": "assets/img/products/8-94395-519-0.jpeg",
+    "images": [
+      "assets/img/products/8-94395-519-0.jpeg"
+    ],
+    "alt": "8-94395-519-0 FLYWHEEL 14\" 8H 140T IZ 6HH1 for IZ 6HH1, IZ 6HH1, 6HH1 heavy duty truck part",
+    "slug": "8-94395-519-0-flywheel",
+    "url": "products/8-94395-519-0-flywheel.html",
+    "specifications": {
+      "visibleText": "FLYWHEEL 14\" 8H 140T IZ 6HH1",
+      "measurements": [
+        "Gear OD 426 mm",
+        "Gear ID 393 mm",
+        "8H M16",
+        "ID 104 mm",
+        "ID 52 mm",
+        "HI 12 mm",
+        "ID 215 mm",
+        "14 in / 355 mm",
+        "140T",
+        "HI 84 mm"
+      ],
+      "vehicleModels": [
+        "IZ 6HH1"
+      ],
+      "engineModels": [
+        "6HH1"
+      ],
+      "oeNumbers": []
+    },
+    "specs": [
+      "Gear OD 426 mm",
+      "Gear ID 393 mm",
+      "8H M16",
+      "ID 104 mm",
+      "ID 52 mm",
+      "HI 12 mm",
+      "ID 215 mm",
+      "14 in / 355 mm",
+      "140T",
+      "HI 84 mm"
+    ],
+    "specification": "Gear OD 426 mm; Gear ID 393 mm; 8H M16; ID 104 mm; ID 52 mm; HI 12 mm; ID 215 mm; 14 in / 355 mm; 140T; HI 84 mm",
+    "keywords": [
+      "flywheel",
+      "heavy duty truck flywheel",
+      "truck flywheel",
+      "8-94395-519-0",
+      "FLYWHEEL 14\" 8H 140T IZ 6HH1",
+      "IZ 6HH1",
+      "6HH1",
+      "Gear OD 426 mm",
+      "Gear ID 393 mm",
+      "8H M16",
+      "ID 104 mm",
+      "ID 52 mm",
+      "HI 12 mm",
+      "ID 215 mm",
+      "14 in / 355 mm",
+      "140T",
+      "HI 84 mm"
+    ],
+    "tags": [
+      "flywheel",
+      "engine",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "8-94395-519-0 FLYWHEEL 14\" 8H 140T IZ 6HH1 flywheel engine FLYWHEEL 14\" 8H 140T IZ 6HH1. Confirmed visible catalogue specifications are preserved for search. IZ 6HH1, 6HH1 IZ 6HH1 6HH1 Gear OD 426 mm; Gear ID 393 mm; 8H M16; ID 104 mm; ID 52 mm; HI 12 mm; ID 215 mm; 14 in / 355 mm; 140T; HI 84 mm Gear OD 426 mm Gear ID 393 mm 8H M16 ID 104 mm ID 52 mm HI 12 mm ID 215 mm 14 in / 355 mm 140T HI 84 mm heavy duty truck flywheel truck flywheel heavy-truck-parts WhatsApp Image 2026-04-02 at 10.18.48 PM.jpeg assets/images/products/Flywheel/WhatsApp Image 2026-04-02 at 10.18.48 PM.jpeg 8-94395-519-0 FLYWHEEL 14\" 8H 140T IZ 6HH1 IZ 6HH1 6HH1 Gear OD 426 mm; Gear ID 393 mm; 8H M16; ID 104 mm; ID 52 mm; HI 12 mm; ID 215 mm; 14 in / 355 mm; 140T; HI 84 mm visibleText measurements vehicleModels engineModels oeNumbers",
+    "source": {
+      "type": "flywheel-folder-image",
+      "originalFile": "WhatsApp Image 2026-04-02 at 10.18.48 PM.jpeg",
+      "originalPath": "assets/images/products/Flywheel/WhatsApp Image 2026-04-02 at 10.18.48 PM.jpeg",
+      "hash": "9a7b302d3a0872f253aca623359c937ee7b9bec978469e5016116e4c0bb32bb4",
+      "ocrText": "8-94395-519-0\nFLYWHEEL 14\" 8H 140T IZ 6HH1\nIZ 6HH1\n6HH1\nGear OD 426 mm; Gear ID 393 mm; 8H M16; ID 104 mm; ID 52 mm; HI 12 mm; ID 215 mm; 14 in / 355 mm; 140T; HI 84 mm",
+      "importedAt": "2026-08-17T01:40:51",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Flywheel catalogue image."
+    }
+  },
+  {
+    "id": "13450-1912",
+    "code": "13450-1912",
+    "number": "13450-1912",
+    "productNumber": "13450-1912",
+    "partNumber": "13450-1912",
+    "name": "FLYWHEEL 14\" 8H 129T ID47 J08C J07C J05C SAME 56H 13450-E0281",
+    "productName": "FLYWHEEL 14\" 8H 129T ID47 J08C J07C J05C SAME 56H 13450-E0281",
+    "category": "flywheel",
+    "categoryLabel": "FLYWHEEL",
+    "categoryGroup": "engine",
+    "subcategory": "",
+    "description": "FLYWHEEL 14\" 8H 129T ID47 J08C J07C J05C SAME 56H 13450-E0281",
+    "visibleDescription": "FLYWHEEL 14\" 8H 129T ID47 J08C J07C J05C SAME 56H 13450-E0281",
+    "longDescription": "FLYWHEEL 14\" 8H 129T ID47 J08C J07C J05C SAME 56H 13450-E0281. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "J08C, J07C, J05C",
+    "brand": "",
+    "vehicleModel": "J08C, J07C, J05C",
+    "vehicleModels": [
+      "J08C",
+      "J07C",
+      "J05C"
+    ],
+    "engineModel": "J08C, J07C, J05C",
+    "engineModels": [
+      "J08C",
+      "J07C",
+      "J05C"
+    ],
+    "oeNumber": "13450-E0281",
+    "oeNumbers": [
+      "13450-E0281"
+    ],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/13450-1912.jpeg",
+    "thumbnail": "assets/img/products/13450-1912.jpeg",
+    "images": [
+      "assets/img/products/13450-1912.jpeg"
+    ],
+    "alt": "13450-1912 FLYWHEEL 14\" 8H 129T ID47 J08C J07C J05C SAME 56H 13450-E0281 for J08C, J07C, J05C, J08C, J07C, J05C heavy duty truck part",
+    "slug": "13450-1912-flywheel",
+    "url": "products/13450-1912-flywheel.html",
+    "specifications": {
+      "visibleText": "FLYWHEEL 14\" 8H 129T ID47 J08C J07C J05C SAME 56H 13450-E0281",
+      "measurements": [
+        "Gear OD 392 mm",
+        "Gear ID 355 mm",
+        "8H M14",
+        "ID 100 mm",
+        "ID 47 mm",
+        "HI 14 mm",
+        "ID 218 mm",
+        "14 in / 355 mm",
+        "129T",
+        "No Sensor",
+        "56H",
+        "HI 86 mm"
+      ],
+      "vehicleModels": [
+        "J08C",
+        "J07C",
+        "J05C"
+      ],
+      "engineModels": [
+        "J08C",
+        "J07C",
+        "J05C"
+      ],
+      "oeNumbers": [
+        "13450-E0281"
+      ]
+    },
+    "specs": [
+      "Gear OD 392 mm",
+      "Gear ID 355 mm",
+      "8H M14",
+      "ID 100 mm",
+      "ID 47 mm",
+      "HI 14 mm",
+      "ID 218 mm",
+      "14 in / 355 mm",
+      "129T",
+      "No Sensor",
+      "56H",
+      "HI 86 mm"
+    ],
+    "specification": "Gear OD 392 mm; Gear ID 355 mm; 8H M14; ID 100 mm; ID 47 mm; HI 14 mm; ID 218 mm; 14 in / 355 mm; 129T; No Sensor; 56H; HI 86 mm",
+    "keywords": [
+      "flywheel",
+      "heavy duty truck flywheel",
+      "truck flywheel",
+      "13450-1912",
+      "FLYWHEEL 14\" 8H 129T ID47 J08C J07C J05C SAME 56H 13450-E0281",
+      "J08C",
+      "J07C",
+      "J05C",
+      "13450-E0281",
+      "Gear OD 392 mm",
+      "Gear ID 355 mm",
+      "8H M14",
+      "ID 100 mm",
+      "ID 47 mm",
+      "HI 14 mm",
+      "ID 218 mm",
+      "14 in / 355 mm",
+      "129T",
+      "No Sensor",
+      "56H",
+      "HI 86 mm"
+    ],
+    "tags": [
+      "flywheel",
+      "engine",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "13450-1912 FLYWHEEL 14\" 8H 129T ID47 J08C J07C J05C SAME 56H 13450-E0281 flywheel engine FLYWHEEL 14\" 8H 129T ID47 J08C J07C J05C SAME 56H 13450-E0281. Confirmed visible catalogue specifications are preserved for search. J08C, J07C, J05C J08C J07C J05C 13450-E0281 Gear OD 392 mm; Gear ID 355 mm; 8H M14; ID 100 mm; ID 47 mm; HI 14 mm; ID 218 mm; 14 in / 355 mm; 129T; No Sensor; 56H; HI 86 mm Gear OD 392 mm Gear ID 355 mm 8H M14 ID 100 mm ID 47 mm HI 14 mm ID 218 mm 14 in / 355 mm 129T No Sensor 56H HI 86 mm heavy duty truck flywheel truck flywheel heavy-truck-parts WhatsApp Image 2026-04-02 at 6.56.02 PM.jpeg assets/images/products/Flywheel/WhatsApp Image 2026-04-02 at 6.56.02 PM.jpeg 13450-1912 FLYWHEEL 14\" 8H 129T ID47 J08C J07C J05C SAME 56H 13450-E0281 J08C J07C J05C J08C J07C J05C 13450-E0281 Gear OD 392 mm; Gear ID 355 mm; 8H M14; ID 100 mm; ID 47 mm; HI 14 mm; ID 218 mm; 14 in / 355 mm; 129T; No Sensor; 56H; HI 86 mm visibleText measurements vehicleModels engineModels oeNumbers",
+    "source": {
+      "type": "flywheel-folder-image",
+      "originalFile": "WhatsApp Image 2026-04-02 at 6.56.02 PM.jpeg",
+      "originalPath": "assets/images/products/Flywheel/WhatsApp Image 2026-04-02 at 6.56.02 PM.jpeg",
+      "hash": "7e8427cd63dfd654049922c4add757c5214275a2cae5f574b758a902056b5a9e",
+      "ocrText": "13450-1912\nFLYWHEEL 14\" 8H 129T ID47 J08C J07C J05C SAME 56H 13450-E0281\nJ08C J07C J05C\nJ08C J07C J05C\n13450-E0281\nGear OD 392 mm; Gear ID 355 mm; 8H M14; ID 100 mm; ID 47 mm; HI 14 mm; ID 218 mm; 14 in / 355 mm; 129T; No Sensor; 56H; HI 86 mm",
+      "importedAt": "2026-08-17T01:40:51",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Flywheel catalogue image."
+    }
+  },
+  {
+    "id": "13450-3980",
+    "code": "13450-3980",
+    "number": "13450-3980",
+    "productNumber": "13450-3980",
+    "partNumber": "13450-3980",
+    "name": "FLYWHEEL 17\" 8H 145T J08E ABS HOLE 56",
+    "productName": "FLYWHEEL 17\" 8H 145T J08E ABS HOLE 56",
+    "category": "flywheel",
+    "categoryLabel": "FLYWHEEL",
+    "categoryGroup": "engine",
+    "subcategory": "",
+    "description": "FLYWHEEL 17\" 8H 145T J08E ABS HOLE 56",
+    "visibleDescription": "FLYWHEEL 17\" 8H 145T J08E ABS HOLE 56",
+    "longDescription": "FLYWHEEL 17\" 8H 145T J08E ABS HOLE 56. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "J08E",
+    "brand": "",
+    "vehicleModel": "J08E",
+    "vehicleModels": [
+      "J08E"
+    ],
+    "engineModel": "J08E",
+    "engineModels": [
+      "J08E"
+    ],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/13450-3980.jpeg",
+    "thumbnail": "assets/img/products/13450-3980.jpeg",
+    "images": [
+      "assets/img/products/13450-3980.jpeg"
+    ],
+    "alt": "13450-3980 FLYWHEEL 17\" 8H 145T J08E ABS HOLE 56 for J08E heavy duty truck part",
+    "slug": "13450-3980-flywheel",
+    "url": "products/13450-3980-flywheel.html",
+    "specifications": {
+      "visibleText": "FLYWHEEL 17\" 8H 145T J08E ABS HOLE 56",
+      "measurements": [
+        "Gear OD 442 mm",
+        "Gear ID 396 mm",
+        "8H M14",
+        "ID 100 mm",
+        "ID 47 mm",
+        "HI 28 mm",
+        "ID 248 mm",
+        "17 in / 432 mm",
+        "145T",
+        "ABS Hole 56",
+        "HI 110 mm"
+      ],
+      "vehicleModels": [
+        "J08E"
+      ],
+      "engineModels": [
+        "J08E"
+      ],
+      "oeNumbers": []
+    },
+    "specs": [
+      "Gear OD 442 mm",
+      "Gear ID 396 mm",
+      "8H M14",
+      "ID 100 mm",
+      "ID 47 mm",
+      "HI 28 mm",
+      "ID 248 mm",
+      "17 in / 432 mm",
+      "145T",
+      "ABS Hole 56",
+      "HI 110 mm"
+    ],
+    "specification": "Gear OD 442 mm; Gear ID 396 mm; 8H M14; ID 100 mm; ID 47 mm; HI 28 mm; ID 248 mm; 17 in / 432 mm; 145T; ABS Hole 56; HI 110 mm",
+    "keywords": [
+      "flywheel",
+      "heavy duty truck flywheel",
+      "truck flywheel",
+      "13450-3980",
+      "FLYWHEEL 17\" 8H 145T J08E ABS HOLE 56",
+      "J08E",
+      "Gear OD 442 mm",
+      "Gear ID 396 mm",
+      "8H M14",
+      "ID 100 mm",
+      "ID 47 mm",
+      "HI 28 mm",
+      "ID 248 mm",
+      "17 in / 432 mm",
+      "145T",
+      "ABS Hole 56",
+      "HI 110 mm"
+    ],
+    "tags": [
+      "flywheel",
+      "engine",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "13450-3980 FLYWHEEL 17\" 8H 145T J08E ABS HOLE 56 flywheel engine FLYWHEEL 17\" 8H 145T J08E ABS HOLE 56. Confirmed visible catalogue specifications are preserved for search. J08E Gear OD 442 mm; Gear ID 396 mm; 8H M14; ID 100 mm; ID 47 mm; HI 28 mm; ID 248 mm; 17 in / 432 mm; 145T; ABS Hole 56; HI 110 mm Gear OD 442 mm Gear ID 396 mm 8H M14 ID 100 mm ID 47 mm HI 28 mm ID 248 mm 17 in / 432 mm 145T ABS Hole 56 HI 110 mm heavy duty truck flywheel truck flywheel heavy-truck-parts WhatsApp Image 2026-04-02 at 6.56.29 PM.jpeg assets/images/products/Flywheel/WhatsApp Image 2026-04-02 at 6.56.29 PM.jpeg 13450-3980 FLYWHEEL 17\" 8H 145T J08E ABS HOLE 56 J08E J08E Gear OD 442 mm; Gear ID 396 mm; 8H M14; ID 100 mm; ID 47 mm; HI 28 mm; ID 248 mm; 17 in / 432 mm; 145T; ABS Hole 56; HI 110 mm visibleText measurements vehicleModels engineModels oeNumbers",
+    "source": {
+      "type": "flywheel-folder-image",
+      "originalFile": "WhatsApp Image 2026-04-02 at 6.56.29 PM.jpeg",
+      "originalPath": "assets/images/products/Flywheel/WhatsApp Image 2026-04-02 at 6.56.29 PM.jpeg",
+      "hash": "d084f267539779e4ae4e919cc9cc8369b72424d67f745e946f5d7f2bf51bcb36",
+      "ocrText": "13450-3980\nFLYWHEEL 17\" 8H 145T J08E ABS HOLE 56\nJ08E\nJ08E\nGear OD 442 mm; Gear ID 396 mm; 8H M14; ID 100 mm; ID 47 mm; HI 28 mm; ID 248 mm; 17 in / 432 mm; 145T; ABS Hole 56; HI 110 mm",
+      "importedAt": "2026-08-17T01:40:51",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Flywheel catalogue image."
+    }
+  },
+  {
+    "id": "13450-E0444",
+    "code": "13450-E0444",
+    "number": "13450-E0444",
+    "productNumber": "13450-E0444",
+    "partNumber": "13450-E0444",
+    "name": "FLYWHEEL 17\" ID62 P11C 137T 9H (GOT ABS HOLE 56 HOLE) GOT LEG 4 PART LEG",
+    "productName": "FLYWHEEL 17\" ID62 P11C 137T 9H (GOT ABS HOLE 56 HOLE) GOT LEG 4 PART LEG",
+    "category": "flywheel",
+    "categoryLabel": "FLYWHEEL",
+    "categoryGroup": "engine",
+    "subcategory": "",
+    "description": "FLYWHEEL 17\" ID62 P11C 137T 9H (GOT ABS HOLE 56 HOLE) GOT LEG 4 PART LEG",
+    "visibleDescription": "FLYWHEEL 17\" ID62 P11C 137T 9H (GOT ABS HOLE 56 HOLE) GOT LEG 4 PART LEG",
+    "longDescription": "FLYWHEEL 17\" ID62 P11C 137T 9H (GOT ABS HOLE 56 HOLE) GOT LEG 4 PART LEG. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "P11C",
+    "brand": "",
+    "vehicleModel": "P11C",
+    "vehicleModels": [
+      "P11C"
+    ],
+    "engineModel": "P11C",
+    "engineModels": [
+      "P11C"
+    ],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/13450-E0444.jpeg",
+    "thumbnail": "assets/img/products/13450-E0444.jpeg",
+    "images": [
+      "assets/img/products/13450-E0444.jpeg"
+    ],
+    "alt": "13450-E0444 FLYWHEEL 17\" ID62 P11C 137T 9H (GOT ABS HOLE 56 HOLE) GOT LEG 4 PART LEG for P11C heavy duty truck part",
+    "slug": "13450-e0444-flywheel",
+    "url": "products/13450-e0444-flywheel.html",
+    "specifications": {
+      "visibleText": "FLYWHEEL 17\" ID62 P11C 137T 9H (GOT ABS HOLE 56 HOLE) GOT LEG 4 PART LEG",
+      "measurements": [
+        "Gear OD 487 mm",
+        "Gear ID 440 mm",
+        "12H M12",
+        "2H M10",
+        "9H M16",
+        "ID 62 mm",
+        "ID 116 mm",
+        "HI 23 mm",
+        "ID 248 mm",
+        "17 in / 432 mm",
+        "137T",
+        "ABS Hole 56",
+        "4 Part Leg",
+        "HI 95 mm"
+      ],
+      "vehicleModels": [
+        "P11C"
+      ],
+      "engineModels": [
+        "P11C"
+      ],
+      "oeNumbers": []
+    },
+    "specs": [
+      "Gear OD 487 mm",
+      "Gear ID 440 mm",
+      "12H M12",
+      "2H M10",
+      "9H M16",
+      "ID 62 mm",
+      "ID 116 mm",
+      "HI 23 mm",
+      "ID 248 mm",
+      "17 in / 432 mm",
+      "137T",
+      "ABS Hole 56",
+      "4 Part Leg",
+      "HI 95 mm"
+    ],
+    "specification": "Gear OD 487 mm; Gear ID 440 mm; 12H M12; 2H M10; 9H M16; ID 62 mm; ID 116 mm; HI 23 mm; ID 248 mm; 17 in / 432 mm; 137T; ABS Hole 56; 4 Part Leg; HI 95 mm",
+    "keywords": [
+      "flywheel",
+      "heavy duty truck flywheel",
+      "truck flywheel",
+      "13450-E0444",
+      "FLYWHEEL 17\" ID62 P11C 137T 9H (GOT ABS HOLE 56 HOLE) GOT LEG 4 PART LEG",
+      "P11C",
+      "Gear OD 487 mm",
+      "Gear ID 440 mm",
+      "12H M12",
+      "2H M10",
+      "9H M16",
+      "ID 62 mm",
+      "ID 116 mm",
+      "HI 23 mm",
+      "ID 248 mm",
+      "17 in / 432 mm",
+      "137T",
+      "ABS Hole 56",
+      "4 Part Leg",
+      "HI 95 mm"
+    ],
+    "tags": [
+      "flywheel",
+      "engine",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "13450-E0444 FLYWHEEL 17\" ID62 P11C 137T 9H (GOT ABS HOLE 56 HOLE) GOT LEG 4 PART LEG flywheel engine FLYWHEEL 17\" ID62 P11C 137T 9H (GOT ABS HOLE 56 HOLE) GOT LEG 4 PART LEG. Confirmed visible catalogue specifications are preserved for search. P11C Gear OD 487 mm; Gear ID 440 mm; 12H M12; 2H M10; 9H M16; ID 62 mm; ID 116 mm; HI 23 mm; ID 248 mm; 17 in / 432 mm; 137T; ABS Hole 56; 4 Part Leg; HI 95 mm Gear OD 487 mm Gear ID 440 mm 12H M12 2H M10 9H M16 ID 62 mm ID 116 mm HI 23 mm ID 248 mm 17 in / 432 mm 137T ABS Hole 56 4 Part Leg HI 95 mm heavy duty truck flywheel truck flywheel heavy-truck-parts WhatsApp Image 2026-04-02 at 6.57.08 PM.jpeg assets/images/products/Flywheel/WhatsApp Image 2026-04-02 at 6.57.08 PM.jpeg 13450-E0444 FLYWHEEL 17\" ID62 P11C 137T 9H (GOT ABS HOLE 56 HOLE) GOT LEG 4 PART LEG P11C P11C Gear OD 487 mm; Gear ID 440 mm; 12H M12; 2H M10; 9H M16; ID 62 mm; ID 116 mm; HI 23 mm; ID 248 mm; 17 in / 432 mm; 137T; ABS Hole 56; 4 Part Leg; HI 95 mm visibleText measurements vehicleModels engineModels oeNumbers",
+    "source": {
+      "type": "flywheel-folder-image",
+      "originalFile": "WhatsApp Image 2026-04-02 at 6.57.08 PM.jpeg",
+      "originalPath": "assets/images/products/Flywheel/WhatsApp Image 2026-04-02 at 6.57.08 PM.jpeg",
+      "hash": "f574d9eec5401d3ee00681a5d80725f770e238139d28f6e677078f2e1fde7242",
+      "ocrText": "13450-E0444\nFLYWHEEL 17\" ID62 P11C 137T 9H (GOT ABS HOLE 56 HOLE) GOT LEG 4 PART LEG\nP11C\nP11C\nGear OD 487 mm; Gear ID 440 mm; 12H M12; 2H M10; 9H M16; ID 62 mm; ID 116 mm; HI 23 mm; ID 248 mm; 17 in / 432 mm; 137T; ABS Hole 56; 4 Part Leg; HI 95 mm",
+      "importedAt": "2026-08-17T01:40:51",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Flywheel catalogue image."
+    }
+  },
+  {
+    "id": "13450-1912-SENSOR",
+    "code": "13450-1912-SENSOR",
+    "number": "13450-1912-SENSOR",
+    "productNumber": "13450-1912-SENSOR",
+    "partNumber": "13450-1912-SENSOR",
+    "name": "FLYWHEEL 14\" 8H 129T ID47 J07E J07 56 ABS SENSOR HOLE 4 LEG ALL COMPLETE ABS HOLE J08C",
+    "productName": "FLYWHEEL 14\" 8H 129T ID47 J07E J07 56 ABS SENSOR HOLE 4 LEG ALL COMPLETE ABS HOLE J08C",
+    "category": "flywheel",
+    "categoryLabel": "FLYWHEEL",
+    "categoryGroup": "engine",
+    "subcategory": "",
+    "description": "FLYWHEEL 14\" 8H 129T ID47 J07E J07 56 ABS SENSOR HOLE 4 LEG ALL COMPLETE ABS HOLE J08C",
+    "visibleDescription": "FLYWHEEL 14\" 8H 129T ID47 J07E J07 56 ABS SENSOR HOLE 4 LEG ALL COMPLETE ABS HOLE J08C",
+    "longDescription": "FLYWHEEL 14\" 8H 129T ID47 J07E J07 56 ABS SENSOR HOLE 4 LEG ALL COMPLETE ABS HOLE J08C. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "J07E, J07, J08C",
+    "brand": "",
+    "vehicleModel": "J07E, J07, J08C",
+    "vehicleModels": [
+      "J07E",
+      "J07",
+      "J08C"
+    ],
+    "engineModel": "J07E, J07, J08C",
+    "engineModels": [
+      "J07E",
+      "J07",
+      "J08C"
+    ],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/13450-1912-SENSOR.jpeg",
+    "thumbnail": "assets/img/products/13450-1912-SENSOR.jpeg",
+    "images": [
+      "assets/img/products/13450-1912-SENSOR.jpeg"
+    ],
+    "alt": "13450-1912-SENSOR FLYWHEEL 14\" 8H 129T ID47 J07E J07 56 ABS SENSOR HOLE 4 LEG ALL COMPLETE ABS HOLE J08C for J07E, J07, J08C, J07E, J07, J08C heavy duty truck part",
+    "slug": "13450-1912-sensor-flywheel",
+    "url": "products/13450-1912-sensor-flywheel.html",
+    "specifications": {
+      "visibleText": "FLYWHEEL 14\" 8H 129T ID47 J07E J07 56 ABS SENSOR HOLE 4 LEG ALL COMPLETE ABS HOLE J08C",
+      "measurements": [
+        "8H M14",
+        "ID 47 mm",
+        "HI 14 mm",
+        "ID 100 mm",
+        "ID 217 mm",
+        "14 in / 356 mm",
+        "56H",
+        "129T",
+        "ABS Sensor Hole",
+        "4 Leg",
+        "HI 87 mm"
+      ],
+      "vehicleModels": [
+        "J07E",
+        "J07",
+        "J08C"
+      ],
+      "engineModels": [
+        "J07E",
+        "J07",
+        "J08C"
+      ],
+      "oeNumbers": []
+    },
+    "specs": [
+      "8H M14",
+      "ID 47 mm",
+      "HI 14 mm",
+      "ID 100 mm",
+      "ID 217 mm",
+      "14 in / 356 mm",
+      "56H",
+      "129T",
+      "ABS Sensor Hole",
+      "4 Leg",
+      "HI 87 mm"
+    ],
+    "specification": "8H M14; ID 47 mm; HI 14 mm; ID 100 mm; ID 217 mm; 14 in / 356 mm; 56H; 129T; ABS Sensor Hole; 4 Leg; HI 87 mm",
+    "keywords": [
+      "flywheel",
+      "heavy duty truck flywheel",
+      "truck flywheel",
+      "13450-1912-SENSOR",
+      "FLYWHEEL 14\" 8H 129T ID47 J07E J07 56 ABS SENSOR HOLE 4 LEG ALL COMPLETE ABS HOLE J08C",
+      "J07E",
+      "J07",
+      "J08C",
+      "8H M14",
+      "ID 47 mm",
+      "HI 14 mm",
+      "ID 100 mm",
+      "ID 217 mm",
+      "14 in / 356 mm",
+      "56H",
+      "129T",
+      "ABS Sensor Hole",
+      "4 Leg",
+      "HI 87 mm"
+    ],
+    "tags": [
+      "flywheel",
+      "engine",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "13450-1912-SENSOR FLYWHEEL 14\" 8H 129T ID47 J07E J07 56 ABS SENSOR HOLE 4 LEG ALL COMPLETE ABS HOLE J08C flywheel engine FLYWHEEL 14\" 8H 129T ID47 J07E J07 56 ABS SENSOR HOLE 4 LEG ALL COMPLETE ABS HOLE J08C. Confirmed visible catalogue specifications are preserved for search. J07E, J07, J08C J07E J07 J08C 8H M14; ID 47 mm; HI 14 mm; ID 100 mm; ID 217 mm; 14 in / 356 mm; 56H; 129T; ABS Sensor Hole; 4 Leg; HI 87 mm 8H M14 ID 47 mm HI 14 mm ID 100 mm ID 217 mm 14 in / 356 mm 56H 129T ABS Sensor Hole 4 Leg HI 87 mm heavy duty truck flywheel truck flywheel heavy-truck-parts WhatsApp Image 2026-04-02 at 6.58.08 PM.jpeg assets/images/products/Flywheel/WhatsApp Image 2026-04-02 at 6.58.08 PM.jpeg 13450-1912-SENSOR FLYWHEEL 14\" 8H 129T ID47 J07E J07 56 ABS SENSOR HOLE 4 LEG ALL COMPLETE ABS HOLE J08C J07E J07 J08C J07E J07 J08C 8H M14; ID 47 mm; HI 14 mm; ID 100 mm; ID 217 mm; 14 in / 356 mm; 56H; 129T; ABS Sensor Hole; 4 Leg; HI 87 mm visibleText measurements vehicleModels engineModels oeNumbers",
+    "source": {
+      "type": "flywheel-folder-image",
+      "originalFile": "WhatsApp Image 2026-04-02 at 6.58.08 PM.jpeg",
+      "originalPath": "assets/images/products/Flywheel/WhatsApp Image 2026-04-02 at 6.58.08 PM.jpeg",
+      "hash": "be0ad08b39b74d34ea3821b7c1ac2df9f5dc556704d1a443adc2f97a89a5533b",
+      "ocrText": "13450-1912-SENSOR\nFLYWHEEL 14\" 8H 129T ID47 J07E J07 56 ABS SENSOR HOLE 4 LEG ALL COMPLETE ABS HOLE J08C\nJ07E J07 J08C\nJ07E J07 J08C\n8H M14; ID 47 mm; HI 14 mm; ID 100 mm; ID 217 mm; 14 in / 356 mm; 56H; 129T; ABS Sensor Hole; 4 Leg; HI 87 mm",
+      "importedAt": "2026-08-17T01:40:51",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Flywheel catalogue image."
+    }
+  },
+  {
+    "id": "ME 012551",
+    "code": "ME 012551",
+    "number": "ME 012551",
+    "productNumber": "ME 012551",
+    "partNumber": "ME 012551",
+    "name": "FLYWHEEL ASSY 11\" 114T 6H MIT CANTER 4D34 FE639 M14",
+    "productName": "FLYWHEEL ASSY 11\" 114T 6H MIT CANTER 4D34 FE639 M14",
+    "category": "flywheel",
+    "categoryLabel": "FLYWHEEL",
+    "categoryGroup": "engine",
+    "subcategory": "",
+    "description": "FLYWHEEL ASSY 11\" 114T 6H MIT CANTER 4D34 FE639 M14",
+    "visibleDescription": "FLYWHEEL ASSY 11\" 114T 6H MIT CANTER 4D34 FE639 M14",
+    "longDescription": "FLYWHEEL ASSY 11\" 114T 6H MIT CANTER 4D34 FE639 M14. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "MIT CANTER, FE639, 4D34",
+    "brand": "",
+    "vehicleModel": "MIT CANTER, FE639",
+    "vehicleModels": [
+      "MIT CANTER",
+      "FE639"
+    ],
+    "engineModel": "4D34",
+    "engineModels": [
+      "4D34"
+    ],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/ME-012551.jpeg",
+    "thumbnail": "assets/img/products/ME-012551.jpeg",
+    "images": [
+      "assets/img/products/ME-012551.jpeg"
+    ],
+    "alt": "ME 012551 FLYWHEEL ASSY 11\" 114T 6H MIT CANTER 4D34 FE639 M14 for MIT CANTER, FE639, MIT CANTER, FE639, MIT CANTER, FE639, 4D34 heavy duty truck part",
+    "slug": "me-012551-flywheel",
+    "url": "products/me-012551-flywheel.html",
+    "specifications": {
+      "visibleText": "FLYWHEEL ASSY 11\" 114T 6H MIT CANTER 4D34 FE639 M14",
+      "measurements": [
+        "Gear OD 348 mm",
+        "Gear ID 315 mm",
+        "6H M14",
+        "ID 100 mm",
+        "ID 40 mm",
+        "HI 15 mm",
+        "ID 173 mm",
+        "11 7/8 in / 300 mm",
+        "114T",
+        "HI 37 mm"
+      ],
+      "vehicleModels": [
+        "MIT CANTER",
+        "FE639"
+      ],
+      "engineModels": [
+        "4D34"
+      ],
+      "oeNumbers": []
+    },
+    "specs": [
+      "Gear OD 348 mm",
+      "Gear ID 315 mm",
+      "6H M14",
+      "ID 100 mm",
+      "ID 40 mm",
+      "HI 15 mm",
+      "ID 173 mm",
+      "11 7/8 in / 300 mm",
+      "114T",
+      "HI 37 mm"
+    ],
+    "specification": "Gear OD 348 mm; Gear ID 315 mm; 6H M14; ID 100 mm; ID 40 mm; HI 15 mm; ID 173 mm; 11 7/8 in / 300 mm; 114T; HI 37 mm",
+    "keywords": [
+      "flywheel",
+      "heavy duty truck flywheel",
+      "truck flywheel",
+      "ME 012551",
+      "FLYWHEEL ASSY 11\" 114T 6H MIT CANTER 4D34 FE639 M14",
+      "MIT CANTER",
+      "FE639",
+      "4D34",
+      "Gear OD 348 mm",
+      "Gear ID 315 mm",
+      "6H M14",
+      "ID 100 mm",
+      "ID 40 mm",
+      "HI 15 mm",
+      "ID 173 mm",
+      "11 7/8 in / 300 mm",
+      "114T",
+      "HI 37 mm"
+    ],
+    "tags": [
+      "flywheel",
+      "engine",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "ME 012551 FLYWHEEL ASSY 11\" 114T 6H MIT CANTER 4D34 FE639 M14 flywheel engine FLYWHEEL ASSY 11\" 114T 6H MIT CANTER 4D34 FE639 M14. Confirmed visible catalogue specifications are preserved for search. MIT CANTER, FE639, 4D34 MIT CANTER, FE639 MIT CANTER FE639 4D34 Gear OD 348 mm; Gear ID 315 mm; 6H M14; ID 100 mm; ID 40 mm; HI 15 mm; ID 173 mm; 11 7/8 in / 300 mm; 114T; HI 37 mm Gear OD 348 mm Gear ID 315 mm 6H M14 ID 100 mm ID 40 mm HI 15 mm ID 173 mm 11 7/8 in / 300 mm 114T HI 37 mm heavy duty truck flywheel truck flywheel heavy-truck-parts WhatsApp Image 2026-04-03 at 9.39.39 AM.jpeg assets/images/products/Flywheel/WhatsApp Image 2026-04-03 at 9.39.39 AM.jpeg ME 012551 FLYWHEEL ASSY 11\" 114T 6H MIT CANTER 4D34 FE639 M14 MIT CANTER FE639 4D34 Gear OD 348 mm; Gear ID 315 mm; 6H M14; ID 100 mm; ID 40 mm; HI 15 mm; ID 173 mm; 11 7/8 in / 300 mm; 114T; HI 37 mm visibleText measurements vehicleModels engineModels oeNumbers",
+    "source": {
+      "type": "flywheel-folder-image",
+      "originalFile": "WhatsApp Image 2026-04-03 at 9.39.39 AM.jpeg",
+      "originalPath": "assets/images/products/Flywheel/WhatsApp Image 2026-04-03 at 9.39.39 AM.jpeg",
+      "hash": "97ff5cde05fa0fe1d1debc285162029c245d718e2d69472d11f279fa1e680dcb",
+      "ocrText": "ME 012551\nFLYWHEEL ASSY 11\" 114T 6H MIT CANTER 4D34 FE639 M14\nMIT CANTER FE639\n4D34\nGear OD 348 mm; Gear ID 315 mm; 6H M14; ID 100 mm; ID 40 mm; HI 15 mm; ID 173 mm; 11 7/8 in / 300 mm; 114T; HI 37 mm",
+      "importedAt": "2026-08-17T01:40:51",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Flywheel catalogue image."
+    }
+  },
+  {
+    "id": "12310-97773",
+    "code": "12310-97773",
+    "number": "12310-97773",
+    "productNumber": "12310-97773",
+    "partNumber": "12310-97773",
+    "name": "FLYWHEEL 17\" 10H 140T RF8 NS 16.5MM",
+    "productName": "FLYWHEEL 17\" 10H 140T RF8 NS 16.5MM",
+    "category": "flywheel",
+    "categoryLabel": "FLYWHEEL",
+    "categoryGroup": "engine",
+    "subcategory": "",
+    "description": "FLYWHEEL 17\" 10H 140T RF8 NS 16.5MM",
+    "visibleDescription": "FLYWHEEL 17\" 10H 140T RF8 NS 16.5MM",
+    "longDescription": "FLYWHEEL 17\" 10H 140T RF8 NS 16.5MM. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "RF8, NS",
+    "brand": "",
+    "vehicleModel": "RF8, NS",
+    "vehicleModels": [
+      "RF8",
+      "NS"
+    ],
+    "engineModel": "RF8",
+    "engineModels": [
+      "RF8"
+    ],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/12310-97773.jpeg",
+    "thumbnail": "assets/img/products/12310-97773.jpeg",
+    "images": [
+      "assets/img/products/12310-97773.jpeg"
+    ],
+    "alt": "12310-97773 FLYWHEEL 17\" 10H 140T RF8 NS 16.5MM for RF8, NS, RF8, NS heavy duty truck part",
+    "slug": "12310-97773-flywheel",
+    "url": "products/12310-97773-flywheel.html",
+    "specifications": {
+      "visibleText": "FLYWHEEL 17\" 10H 140T RF8 NS 16.5MM",
+      "measurements": [
+        "Gear OD 498 mm",
+        "Gear ID 460 mm",
+        "10H ID 17 mm",
+        "ID 133 mm",
+        "ID 58 mm",
+        "HI 20 mm",
+        "ID 220 mm",
+        "17 in / 432 mm",
+        "140T",
+        "12H",
+        "16.5 mm",
+        "HI 105 mm"
+      ],
+      "vehicleModels": [
+        "RF8",
+        "NS"
+      ],
+      "engineModels": [
+        "RF8"
+      ],
+      "oeNumbers": []
+    },
+    "specs": [
+      "Gear OD 498 mm",
+      "Gear ID 460 mm",
+      "10H ID 17 mm",
+      "ID 133 mm",
+      "ID 58 mm",
+      "HI 20 mm",
+      "ID 220 mm",
+      "17 in / 432 mm",
+      "140T",
+      "12H",
+      "16.5 mm",
+      "HI 105 mm"
+    ],
+    "specification": "Gear OD 498 mm; Gear ID 460 mm; 10H ID 17 mm; ID 133 mm; ID 58 mm; HI 20 mm; ID 220 mm; 17 in / 432 mm; 140T; 12H; 16.5 mm; HI 105 mm",
+    "keywords": [
+      "flywheel",
+      "heavy duty truck flywheel",
+      "truck flywheel",
+      "12310-97773",
+      "FLYWHEEL 17\" 10H 140T RF8 NS 16.5MM",
+      "RF8",
+      "NS",
+      "Gear OD 498 mm",
+      "Gear ID 460 mm",
+      "10H ID 17 mm",
+      "ID 133 mm",
+      "ID 58 mm",
+      "HI 20 mm",
+      "ID 220 mm",
+      "17 in / 432 mm",
+      "140T",
+      "12H",
+      "16.5 mm",
+      "HI 105 mm"
+    ],
+    "tags": [
+      "flywheel",
+      "engine",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "12310-97773 FLYWHEEL 17\" 10H 140T RF8 NS 16.5MM flywheel engine FLYWHEEL 17\" 10H 140T RF8 NS 16.5MM. Confirmed visible catalogue specifications are preserved for search. RF8, NS RF8 NS Gear OD 498 mm; Gear ID 460 mm; 10H ID 17 mm; ID 133 mm; ID 58 mm; HI 20 mm; ID 220 mm; 17 in / 432 mm; 140T; 12H; 16.5 mm; HI 105 mm Gear OD 498 mm Gear ID 460 mm 10H ID 17 mm ID 133 mm ID 58 mm HI 20 mm ID 220 mm 17 in / 432 mm 140T 12H 16.5 mm HI 105 mm heavy duty truck flywheel truck flywheel heavy-truck-parts WhatsApp Image 2026-04-04 at 3.35.08 PM.jpeg assets/images/products/Flywheel/WhatsApp Image 2026-04-04 at 3.35.08 PM.jpeg 12310-97773 FLYWHEEL 17\" 10H 140T RF8 NS 16.5MM RF8 NS RF8 Gear OD 498 mm; Gear ID 460 mm; 10H ID 17 mm; ID 133 mm; ID 58 mm; HI 20 mm; ID 220 mm; 17 in / 432 mm; 140T; 12H; 16.5 mm; HI 105 mm visibleText measurements vehicleModels engineModels oeNumbers",
+    "source": {
+      "type": "flywheel-folder-image",
+      "originalFile": "WhatsApp Image 2026-04-04 at 3.35.08 PM.jpeg",
+      "originalPath": "assets/images/products/Flywheel/WhatsApp Image 2026-04-04 at 3.35.08 PM.jpeg",
+      "hash": "7f7519ad2162f82e8da2ca451a7482ec8ade72829118ea2b6dadd33bb9f725b8",
+      "ocrText": "12310-97773\nFLYWHEEL 17\" 10H 140T RF8 NS 16.5MM\nRF8 NS\nRF8\nGear OD 498 mm; Gear ID 460 mm; 10H ID 17 mm; ID 133 mm; ID 58 mm; HI 20 mm; ID 220 mm; 17 in / 432 mm; 140T; 12H; 16.5 mm; HI 105 mm",
+      "importedAt": "2026-08-17T01:40:51",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Flywheel catalogue image."
+    }
+  },
+  {
+    "id": "HINO-FW-P11C-45H",
+    "code": "HINO-FW-P11C-45H",
+    "number": "HINO-FW-P11C-45H",
+    "productNumber": "HINO-FW-P11C-45H",
+    "partNumber": "HINO-FW-P11C-45H",
+    "name": "FLYWHEEL 17\" ABS 45 ID 62 P11C COMMAINRAIL 137T 9H (GOT ABS HOLE 45 HOLE) GOT LEG",
+    "productName": "FLYWHEEL 17\" ABS 45 ID 62 P11C COMMAINRAIL 137T 9H (GOT ABS HOLE 45 HOLE) GOT LEG",
+    "category": "flywheel",
+    "categoryLabel": "FLYWHEEL",
+    "categoryGroup": "engine",
+    "subcategory": "",
+    "description": "FLYWHEEL 17\" ABS 45 ID 62 P11C COMMAINRAIL 137T 9H (GOT ABS HOLE 45 HOLE) GOT LEG",
+    "visibleDescription": "FLYWHEEL 17\" ABS 45 ID 62 P11C COMMAINRAIL 137T 9H (GOT ABS HOLE 45 HOLE) GOT LEG",
+    "longDescription": "FLYWHEEL 17\" ABS 45 ID 62 P11C COMMAINRAIL 137T 9H (GOT ABS HOLE 45 HOLE) GOT LEG. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "HINO, P11C",
+    "brand": "HINO",
+    "vehicleModel": "HINO, P11C",
+    "vehicleModels": [
+      "HINO",
+      "P11C"
+    ],
+    "engineModel": "P11C",
+    "engineModels": [
+      "P11C"
+    ],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/HINO-FW-P11C-45H.jpeg",
+    "thumbnail": "assets/img/products/HINO-FW-P11C-45H.jpeg",
+    "images": [
+      "assets/img/products/HINO-FW-P11C-45H.jpeg"
+    ],
+    "alt": "HINO-FW-P11C-45H FLYWHEEL 17\" ABS 45 ID 62 P11C COMMAINRAIL 137T 9H (GOT ABS HOLE 45 HOLE) GOT LEG for HINO, P11C, HINO, P11C heavy duty truck part",
+    "slug": "hino-fw-p11c-45h-flywheel",
+    "url": "products/hino-fw-p11c-45h-flywheel.html",
+    "specifications": {
+      "visibleText": "FLYWHEEL 17\" ABS 45 ID 62 P11C COMMAINRAIL 137T 9H (GOT ABS HOLE 45 HOLE) GOT LEG",
+      "measurements": [
+        "Gear OD 485 mm",
+        "Gear ID 439 mm",
+        "9H 16 mm",
+        "ID 116 mm",
+        "ID 62 mm",
+        "HI 21 mm",
+        "ID 245 mm",
+        "17 in / 432 mm",
+        "137T",
+        "ABS Hole 45",
+        "Got Leg",
+        "HI 98 mm"
+      ],
+      "vehicleModels": [
+        "HINO",
+        "P11C"
+      ],
+      "engineModels": [
+        "P11C"
+      ],
+      "oeNumbers": []
+    },
+    "specs": [
+      "Gear OD 485 mm",
+      "Gear ID 439 mm",
+      "9H 16 mm",
+      "ID 116 mm",
+      "ID 62 mm",
+      "HI 21 mm",
+      "ID 245 mm",
+      "17 in / 432 mm",
+      "137T",
+      "ABS Hole 45",
+      "Got Leg",
+      "HI 98 mm"
+    ],
+    "specification": "Gear OD 485 mm; Gear ID 439 mm; 9H 16 mm; ID 116 mm; ID 62 mm; HI 21 mm; ID 245 mm; 17 in / 432 mm; 137T; ABS Hole 45; Got Leg; HI 98 mm",
+    "keywords": [
+      "flywheel",
+      "heavy duty truck flywheel",
+      "truck flywheel",
+      "HINO-FW-P11C-45H",
+      "FLYWHEEL 17\" ABS 45 ID 62 P11C COMMAINRAIL 137T 9H (GOT ABS HOLE 45 HOLE) GOT LEG",
+      "HINO",
+      "P11C",
+      "Gear OD 485 mm",
+      "Gear ID 439 mm",
+      "9H 16 mm",
+      "ID 116 mm",
+      "ID 62 mm",
+      "HI 21 mm",
+      "ID 245 mm",
+      "17 in / 432 mm",
+      "137T",
+      "ABS Hole 45",
+      "Got Leg",
+      "HI 98 mm"
+    ],
+    "tags": [
+      "flywheel",
+      "engine",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "HINO-FW-P11C-45H FLYWHEEL 17\" ABS 45 ID 62 P11C COMMAINRAIL 137T 9H (GOT ABS HOLE 45 HOLE) GOT LEG flywheel engine FLYWHEEL 17\" ABS 45 ID 62 P11C COMMAINRAIL 137T 9H (GOT ABS HOLE 45 HOLE) GOT LEG. Confirmed visible catalogue specifications are preserved for search. HINO, P11C HINO P11C Gear OD 485 mm; Gear ID 439 mm; 9H 16 mm; ID 116 mm; ID 62 mm; HI 21 mm; ID 245 mm; 17 in / 432 mm; 137T; ABS Hole 45; Got Leg; HI 98 mm Gear OD 485 mm Gear ID 439 mm 9H 16 mm ID 116 mm ID 62 mm HI 21 mm ID 245 mm 17 in / 432 mm 137T ABS Hole 45 Got Leg HI 98 mm heavy duty truck flywheel truck flywheel heavy-truck-parts WhatsApp Image 2026-04-17 at 10.37.35 AM.jpeg assets/images/products/Flywheel/WhatsApp Image 2026-04-17 at 10.37.35 AM.jpeg HINO-FW-P11C-45H FLYWHEEL 17\" ABS 45 ID 62 P11C COMMAINRAIL 137T 9H (GOT ABS HOLE 45 HOLE) GOT LEG HINO P11C P11C Gear OD 485 mm; Gear ID 439 mm; 9H 16 mm; ID 116 mm; ID 62 mm; HI 21 mm; ID 245 mm; 17 in / 432 mm; 137T; ABS Hole 45; Got Leg; HI 98 mm visibleText measurements vehicleModels engineModels oeNumbers",
+    "source": {
+      "type": "flywheel-folder-image",
+      "originalFile": "WhatsApp Image 2026-04-17 at 10.37.35 AM.jpeg",
+      "originalPath": "assets/images/products/Flywheel/WhatsApp Image 2026-04-17 at 10.37.35 AM.jpeg",
+      "hash": "f99e5ccad5ad84017cc5a0c1f60f981656cb667ea0200e1db0d16028cfd4c997",
+      "ocrText": "HINO-FW-P11C-45H\nFLYWHEEL 17\" ABS 45 ID 62 P11C COMMAINRAIL 137T 9H (GOT ABS HOLE 45 HOLE) GOT LEG\nHINO P11C\nP11C\nGear OD 485 mm; Gear ID 439 mm; 9H 16 mm; ID 116 mm; ID 62 mm; HI 21 mm; ID 245 mm; 17 in / 432 mm; 137T; ABS Hole 45; Got Leg; HI 98 mm",
+      "importedAt": "2026-08-17T01:40:51",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Flywheel catalogue image."
+    }
+  },
+  {
+    "id": "12310-9Z00E",
+    "code": "12310-9Z00E",
+    "number": "12310-9Z00E",
+    "productNumber": "12310-9Z00E",
+    "partNumber": "12310-9Z00E",
+    "name": "FLYWHEEL 17\" 153T 12H 50.5 QUESTER GH11",
+    "productName": "FLYWHEEL 17\" 153T 12H 50.5 QUESTER GH11",
+    "category": "flywheel",
+    "categoryLabel": "FLYWHEEL",
+    "categoryGroup": "engine",
+    "subcategory": "",
+    "description": "FLYWHEEL 17\" 153T 12H 50.5 QUESTER GH11",
+    "visibleDescription": "FLYWHEEL 17\" 153T 12H 50.5 QUESTER GH11",
+    "longDescription": "FLYWHEEL 17\" 153T 12H 50.5 QUESTER GH11. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "QUESTER GH11, GH11",
+    "brand": "",
+    "vehicleModel": "QUESTER GH11",
+    "vehicleModels": [
+      "QUESTER GH11"
+    ],
+    "engineModel": "GH11",
+    "engineModels": [
+      "GH11"
+    ],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/12310-9Z00E.jpeg",
+    "thumbnail": "assets/img/products/12310-9Z00E.jpeg",
+    "images": [
+      "assets/img/products/12310-9Z00E.jpeg"
+    ],
+    "alt": "12310-9Z00E FLYWHEEL 17\" 153T 12H 50.5 QUESTER GH11 for QUESTER GH11, QUESTER GH11, GH11 heavy duty truck part",
+    "slug": "12310-9z00e-flywheel",
+    "url": "products/12310-9z00e-flywheel.html",
+    "specifications": {
+      "visibleText": "FLYWHEEL 17\" 153T 12H 50.5 QUESTER GH11",
+      "measurements": [
+        "Gear OD 494 mm",
+        "Gear ID 450 mm",
+        "12H 16 mm",
+        "ID 149.5 mm",
+        "ID 72 mm",
+        "HI 21 mm",
+        "ID 260 mm",
+        "17 3/4 in / 450 mm",
+        "153T",
+        "50.5",
+        "HI 73 mm"
+      ],
+      "vehicleModels": [
+        "QUESTER GH11"
+      ],
+      "engineModels": [
+        "GH11"
+      ],
+      "oeNumbers": []
+    },
+    "specs": [
+      "Gear OD 494 mm",
+      "Gear ID 450 mm",
+      "12H 16 mm",
+      "ID 149.5 mm",
+      "ID 72 mm",
+      "HI 21 mm",
+      "ID 260 mm",
+      "17 3/4 in / 450 mm",
+      "153T",
+      "50.5",
+      "HI 73 mm"
+    ],
+    "specification": "Gear OD 494 mm; Gear ID 450 mm; 12H 16 mm; ID 149.5 mm; ID 72 mm; HI 21 mm; ID 260 mm; 17 3/4 in / 450 mm; 153T; 50.5; HI 73 mm",
+    "keywords": [
+      "flywheel",
+      "heavy duty truck flywheel",
+      "truck flywheel",
+      "12310-9Z00E",
+      "FLYWHEEL 17\" 153T 12H 50.5 QUESTER GH11",
+      "QUESTER GH11",
+      "GH11",
+      "Gear OD 494 mm",
+      "Gear ID 450 mm",
+      "12H 16 mm",
+      "ID 149.5 mm",
+      "ID 72 mm",
+      "HI 21 mm",
+      "ID 260 mm",
+      "17 3/4 in / 450 mm",
+      "153T",
+      "50.5",
+      "HI 73 mm"
+    ],
+    "tags": [
+      "flywheel",
+      "engine",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "12310-9Z00E FLYWHEEL 17\" 153T 12H 50.5 QUESTER GH11 flywheel engine FLYWHEEL 17\" 153T 12H 50.5 QUESTER GH11. Confirmed visible catalogue specifications are preserved for search. QUESTER GH11, GH11 QUESTER GH11 GH11 Gear OD 494 mm; Gear ID 450 mm; 12H 16 mm; ID 149.5 mm; ID 72 mm; HI 21 mm; ID 260 mm; 17 3/4 in / 450 mm; 153T; 50.5; HI 73 mm Gear OD 494 mm Gear ID 450 mm 12H 16 mm ID 149.5 mm ID 72 mm HI 21 mm ID 260 mm 17 3/4 in / 450 mm 153T 50.5 HI 73 mm heavy duty truck flywheel truck flywheel heavy-truck-parts WhatsApp Image 2026-04-17 at 11.38.33 AM.jpeg assets/images/products/Flywheel/WhatsApp Image 2026-04-17 at 11.38.33 AM.jpeg 12310-9Z00E FLYWHEEL 17\" 153T 12H 50.5 QUESTER GH11 QUESTER GH11 GH11 Gear OD 494 mm; Gear ID 450 mm; 12H 16 mm; ID 149.5 mm; ID 72 mm; HI 21 mm; ID 260 mm; 17 3/4 in / 450 mm; 153T; 50.5; HI 73 mm visibleText measurements vehicleModels engineModels oeNumbers",
+    "source": {
+      "type": "flywheel-folder-image",
+      "originalFile": "WhatsApp Image 2026-04-17 at 11.38.33 AM.jpeg",
+      "originalPath": "assets/images/products/Flywheel/WhatsApp Image 2026-04-17 at 11.38.33 AM.jpeg",
+      "hash": "739b545efebf17f9292e425a2bc35cb086d75519ce7953cdd9df906c8bee608e",
+      "ocrText": "12310-9Z00E\nFLYWHEEL 17\" 153T 12H 50.5 QUESTER GH11\nQUESTER GH11\nGH11\nGear OD 494 mm; Gear ID 450 mm; 12H 16 mm; ID 149.5 mm; ID 72 mm; HI 21 mm; ID 260 mm; 17 3/4 in / 450 mm; 153T; 50.5; HI 73 mm",
+      "importedAt": "2026-08-17T01:40:51",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Flywheel catalogue image."
+    }
+  },
+  {
+    "id": "12310-9Z00D",
+    "code": "12310-9Z00D",
+    "number": "12310-9Z00D",
+    "productNumber": "12310-9Z00D",
+    "partNumber": "12310-9Z00D",
+    "name": "FLYWHEEL 17\" 10H 137T NS QUESTER GHB 21499565",
+    "productName": "FLYWHEEL 17\" 10H 137T NS QUESTER GHB 21499565",
+    "category": "flywheel",
+    "categoryLabel": "FLYWHEEL",
+    "categoryGroup": "engine",
+    "subcategory": "",
+    "description": "FLYWHEEL 17\" 10H 137T NS QUESTER GHB 21499565",
+    "visibleDescription": "FLYWHEEL 17\" 10H 137T NS QUESTER GHB 21499565",
+    "longDescription": "FLYWHEEL 17\" 10H 137T NS QUESTER GHB 21499565. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "NS QUESTER GHB, GHB",
+    "brand": "",
+    "vehicleModel": "NS QUESTER GHB",
+    "vehicleModels": [
+      "NS QUESTER GHB"
+    ],
+    "engineModel": "GHB",
+    "engineModels": [
+      "GHB"
+    ],
+    "oeNumber": "21499565",
+    "oeNumbers": [
+      "21499565"
+    ],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/12310-9Z00D.jpeg",
+    "thumbnail": "assets/img/products/12310-9Z00D.jpeg",
+    "images": [
+      "assets/img/products/12310-9Z00D.jpeg"
+    ],
+    "alt": "12310-9Z00D FLYWHEEL 17\" 10H 137T NS QUESTER GHB 21499565 for NS QUESTER GHB, NS QUESTER GHB, GHB heavy duty truck part",
+    "slug": "12310-9z00d-flywheel",
+    "url": "products/12310-9z00d-flywheel.html",
+    "specifications": {
+      "visibleText": "FLYWHEEL 17\" 10H 137T NS QUESTER GHB 21499565",
+      "measurements": [
+        "Gear OD 440 mm",
+        "Gear ID 402 mm",
+        "10H 16 mm",
+        "ID 125 mm",
+        "ID 46 mm",
+        "HI 22 mm",
+        "ID 235 mm",
+        "17 3/4 in / 500 mm",
+        "137T",
+        "ABS Hole 58",
+        "HI 62 mm"
+      ],
+      "vehicleModels": [
+        "NS QUESTER GHB"
+      ],
+      "engineModels": [
+        "GHB"
+      ],
+      "oeNumbers": [
+        "21499565"
+      ]
+    },
+    "specs": [
+      "Gear OD 440 mm",
+      "Gear ID 402 mm",
+      "10H 16 mm",
+      "ID 125 mm",
+      "ID 46 mm",
+      "HI 22 mm",
+      "ID 235 mm",
+      "17 3/4 in / 500 mm",
+      "137T",
+      "ABS Hole 58",
+      "HI 62 mm"
+    ],
+    "specification": "Gear OD 440 mm; Gear ID 402 mm; 10H 16 mm; ID 125 mm; ID 46 mm; HI 22 mm; ID 235 mm; 17 3/4 in / 500 mm; 137T; ABS Hole 58; HI 62 mm",
+    "keywords": [
+      "flywheel",
+      "heavy duty truck flywheel",
+      "truck flywheel",
+      "12310-9Z00D",
+      "FLYWHEEL 17\" 10H 137T NS QUESTER GHB 21499565",
+      "NS QUESTER GHB",
+      "GHB",
+      "21499565",
+      "Gear OD 440 mm",
+      "Gear ID 402 mm",
+      "10H 16 mm",
+      "ID 125 mm",
+      "ID 46 mm",
+      "HI 22 mm",
+      "ID 235 mm",
+      "17 3/4 in / 500 mm",
+      "137T",
+      "ABS Hole 58",
+      "HI 62 mm"
+    ],
+    "tags": [
+      "flywheel",
+      "engine",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "12310-9Z00D FLYWHEEL 17\" 10H 137T NS QUESTER GHB 21499565 flywheel engine FLYWHEEL 17\" 10H 137T NS QUESTER GHB 21499565. Confirmed visible catalogue specifications are preserved for search. NS QUESTER GHB, GHB NS QUESTER GHB GHB 21499565 Gear OD 440 mm; Gear ID 402 mm; 10H 16 mm; ID 125 mm; ID 46 mm; HI 22 mm; ID 235 mm; 17 3/4 in / 500 mm; 137T; ABS Hole 58; HI 62 mm Gear OD 440 mm Gear ID 402 mm 10H 16 mm ID 125 mm ID 46 mm HI 22 mm ID 235 mm 17 3/4 in / 500 mm 137T ABS Hole 58 HI 62 mm heavy duty truck flywheel truck flywheel heavy-truck-parts WhatsApp Image 2026-04-17 at 6.04.37 PM.jpeg assets/images/products/Flywheel/WhatsApp Image 2026-04-17 at 6.04.37 PM.jpeg 12310-9Z00D FLYWHEEL 17\" 10H 137T NS QUESTER GHB 21499565 NS QUESTER GHB GHB 21499565 Gear OD 440 mm; Gear ID 402 mm; 10H 16 mm; ID 125 mm; ID 46 mm; HI 22 mm; ID 235 mm; 17 3/4 in / 500 mm; 137T; ABS Hole 58; HI 62 mm visibleText measurements vehicleModels engineModels oeNumbers",
+    "source": {
+      "type": "flywheel-folder-image",
+      "originalFile": "WhatsApp Image 2026-04-17 at 6.04.37 PM.jpeg",
+      "originalPath": "assets/images/products/Flywheel/WhatsApp Image 2026-04-17 at 6.04.37 PM.jpeg",
+      "hash": "c8b9542b2a54013b61705bdb3966b2c89204b5c7de44f83cd67cbf8064b0d964",
+      "ocrText": "12310-9Z00D\nFLYWHEEL 17\" 10H 137T NS QUESTER GHB 21499565\nNS QUESTER GHB\nGHB\n21499565\nGear OD 440 mm; Gear ID 402 mm; 10H 16 mm; ID 125 mm; ID 46 mm; HI 22 mm; ID 235 mm; 17 3/4 in / 500 mm; 137T; ABS Hole 58; HI 62 mm",
+      "importedAt": "2026-08-17T01:40:51",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Flywheel catalogue image."
+    }
+  },
+  {
+    "id": "12310-Z603B",
+    "code": "12310-Z603B",
+    "number": "12310-Z603B",
+    "productNumber": "12310-Z603B",
+    "partNumber": "12310-Z603B",
+    "name": "FLYWHEEL 17\" 8H 153T ID 46/55 16.5M BUS MD92 BRG 62M",
+    "productName": "FLYWHEEL 17\" 8H 153T ID 46/55 16.5M BUS MD92 BRG 62M",
+    "category": "flywheel",
+    "categoryLabel": "FLYWHEEL",
+    "categoryGroup": "engine",
+    "subcategory": "",
+    "description": "FLYWHEEL 17\" 8H 153T ID 46/55 16.5M BUS MD92 BRG 62M",
+    "visibleDescription": "FLYWHEEL 17\" 8H 153T ID 46/55 16.5M BUS MD92 BRG 62M",
+    "longDescription": "FLYWHEEL 17\" 8H 153T ID 46/55 16.5M BUS MD92 BRG 62M. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "BUS MD92, MD92",
+    "brand": "",
+    "vehicleModel": "BUS MD92",
+    "vehicleModels": [
+      "BUS MD92"
+    ],
+    "engineModel": "MD92",
+    "engineModels": [
+      "MD92"
+    ],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/12310-Z603B.jpeg",
+    "thumbnail": "assets/img/products/12310-Z603B.jpeg",
+    "images": [
+      "assets/img/products/12310-Z603B.jpeg"
+    ],
+    "alt": "12310-Z603B FLYWHEEL 17\" 8H 153T ID 46/55 16.5M BUS MD92 BRG 62M for BUS MD92, BUS MD92, MD92 heavy duty truck part",
+    "slug": "12310-z603b-flywheel",
+    "url": "products/12310-z603b-flywheel.html",
+    "specifications": {
+      "visibleText": "FLYWHEEL 17\" 8H 153T ID 46/55 16.5M BUS MD92 BRG 62M",
+      "measurements": [
+        "Gear OD 461 mm",
+        "Gear ID 425 mm",
+        "8H 16 mm",
+        "ID 112 mm",
+        "ID 46/55 mm",
+        "HI 36 mm",
+        "12H M10",
+        "ID 215 mm",
+        "17 1/8 in / 435 mm",
+        "153T",
+        "ABS Hole 56",
+        "12H 20 mm",
+        "16.5M",
+        "BRG 62M",
+        "HI 108 mm"
+      ],
+      "vehicleModels": [
+        "BUS MD92"
+      ],
+      "engineModels": [
+        "MD92"
+      ],
+      "oeNumbers": []
+    },
+    "specs": [
+      "Gear OD 461 mm",
+      "Gear ID 425 mm",
+      "8H 16 mm",
+      "ID 112 mm",
+      "ID 46/55 mm",
+      "HI 36 mm",
+      "12H M10",
+      "ID 215 mm",
+      "17 1/8 in / 435 mm",
+      "153T",
+      "ABS Hole 56",
+      "12H 20 mm",
+      "16.5M",
+      "BRG 62M",
+      "HI 108 mm"
+    ],
+    "specification": "Gear OD 461 mm; Gear ID 425 mm; 8H 16 mm; ID 112 mm; ID 46/55 mm; HI 36 mm; 12H M10; ID 215 mm; 17 1/8 in / 435 mm; 153T; ABS Hole 56; 12H 20 mm; 16.5M; BRG 62M; HI 108 mm",
+    "keywords": [
+      "flywheel",
+      "heavy duty truck flywheel",
+      "truck flywheel",
+      "12310-Z603B",
+      "FLYWHEEL 17\" 8H 153T ID 46/55 16.5M BUS MD92 BRG 62M",
+      "BUS MD92",
+      "MD92",
+      "Gear OD 461 mm",
+      "Gear ID 425 mm",
+      "8H 16 mm",
+      "ID 112 mm",
+      "ID 46/55 mm",
+      "HI 36 mm",
+      "12H M10",
+      "ID 215 mm",
+      "17 1/8 in / 435 mm",
+      "153T",
+      "ABS Hole 56",
+      "12H 20 mm",
+      "16.5M",
+      "BRG 62M",
+      "HI 108 mm"
+    ],
+    "tags": [
+      "flywheel",
+      "engine",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "12310-Z603B FLYWHEEL 17\" 8H 153T ID 46/55 16.5M BUS MD92 BRG 62M flywheel engine FLYWHEEL 17\" 8H 153T ID 46/55 16.5M BUS MD92 BRG 62M. Confirmed visible catalogue specifications are preserved for search. BUS MD92, MD92 BUS MD92 MD92 Gear OD 461 mm; Gear ID 425 mm; 8H 16 mm; ID 112 mm; ID 46/55 mm; HI 36 mm; 12H M10; ID 215 mm; 17 1/8 in / 435 mm; 153T; ABS Hole 56; 12H 20 mm; 16.5M; BRG 62M; HI 108 mm Gear OD 461 mm Gear ID 425 mm 8H 16 mm ID 112 mm ID 46/55 mm HI 36 mm 12H M10 ID 215 mm 17 1/8 in / 435 mm 153T ABS Hole 56 12H 20 mm 16.5M BRG 62M HI 108 mm heavy duty truck flywheel truck flywheel heavy-truck-parts WhatsApp Image 2026-04-21 at 1.00.02 PM.jpeg assets/images/products/Flywheel/WhatsApp Image 2026-04-21 at 1.00.02 PM.jpeg 12310-Z603B FLYWHEEL 17\" 8H 153T ID 46/55 16.5M BUS MD92 BRG 62M BUS MD92 MD92 Gear OD 461 mm; Gear ID 425 mm; 8H 16 mm; ID 112 mm; ID 46/55 mm; HI 36 mm; 12H M10; ID 215 mm; 17 1/8 in / 435 mm; 153T; ABS Hole 56; 12H 20 mm; 16.5M; BRG 62M; HI 108 mm visibleText measurements vehicleModels engineModels oeNumbers",
+    "source": {
+      "type": "flywheel-folder-image",
+      "originalFile": "WhatsApp Image 2026-04-21 at 1.00.02 PM.jpeg",
+      "originalPath": "assets/images/products/Flywheel/WhatsApp Image 2026-04-21 at 1.00.02 PM.jpeg",
+      "hash": "98298a8afcf226dcde03635ac4f5b9261bb3798ba45fb853a24a7b7af6ca74f1",
+      "ocrText": "12310-Z603B\nFLYWHEEL 17\" 8H 153T ID 46/55 16.5M BUS MD92 BRG 62M\nBUS MD92\nMD92\nGear OD 461 mm; Gear ID 425 mm; 8H 16 mm; ID 112 mm; ID 46/55 mm; HI 36 mm; 12H M10; ID 215 mm; 17 1/8 in / 435 mm; 153T; ABS Hole 56; 12H 20 mm; 16.5M; BRG 62M; HI 108 mm",
+      "importedAt": "2026-08-17T01:40:51",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Flywheel catalogue image."
+    }
+  },
+  {
+    "id": "12310-96450-MIYAKE",
+    "code": "12310-96450-MIYAKE",
+    "number": "12310-96450-MIYAKE",
+    "productNumber": "12310-96450-MIYAKE",
+    "partNumber": "12310-96450-MIYAKE",
+    "name": "FLYWHEEL 17\" 153T 10H PE6 PF6 DIAPHRAGM COVER",
+    "productName": "FLYWHEEL 17\" 153T 10H PE6 PF6 DIAPHRAGM COVER",
+    "category": "flywheel",
+    "categoryLabel": "FLYWHEEL",
+    "categoryGroup": "engine",
+    "subcategory": "",
+    "description": "FLYWHEEL 17\" 153T 10H PE6 PF6 DIAPHRAGM COVER",
+    "visibleDescription": "FLYWHEEL 17\" 153T 10H PE6 PF6 DIAPHRAGM COVER",
+    "longDescription": "FLYWHEEL 17\" 153T 10H PE6 PF6 DIAPHRAGM COVER. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "PE6, PF6",
+    "brand": "",
+    "vehicleModel": "PE6, PF6",
+    "vehicleModels": [
+      "PE6",
+      "PF6"
+    ],
+    "engineModel": "PE6, PF6",
+    "engineModels": [
+      "PE6",
+      "PF6"
+    ],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/12310-96450-MIYAKE.jpeg",
+    "thumbnail": "assets/img/products/12310-96450-MIYAKE.jpeg",
+    "images": [
+      "assets/img/products/12310-96450-MIYAKE.jpeg"
+    ],
+    "alt": "12310-96450-MIYAKE FLYWHEEL 17\" 153T 10H PE6 PF6 DIAPHRAGM COVER for PE6, PF6, PE6, PF6 heavy duty truck part",
+    "slug": "12310-96450-miyake-flywheel",
+    "url": "products/12310-96450-miyake-flywheel.html",
+    "specifications": {
+      "visibleText": "FLYWHEEL 17\" 153T 10H PE6 PF6 DIAPHRAGM COVER",
+      "measurements": [
+        "Gear OD 465 mm",
+        "Gear ID 427 mm",
+        "10H 16 mm",
+        "ID 138 mm",
+        "ID 63/72 mm",
+        "HI 22 mm",
+        "12H M10",
+        "ID 248 mm",
+        "17 1/8 in / 435 mm",
+        "153T",
+        "HI 105 mm"
+      ],
+      "vehicleModels": [
+        "PE6",
+        "PF6"
+      ],
+      "engineModels": [
+        "PE6",
+        "PF6"
+      ],
+      "oeNumbers": []
+    },
+    "specs": [
+      "Gear OD 465 mm",
+      "Gear ID 427 mm",
+      "10H 16 mm",
+      "ID 138 mm",
+      "ID 63/72 mm",
+      "HI 22 mm",
+      "12H M10",
+      "ID 248 mm",
+      "17 1/8 in / 435 mm",
+      "153T",
+      "HI 105 mm"
+    ],
+    "specification": "Gear OD 465 mm; Gear ID 427 mm; 10H 16 mm; ID 138 mm; ID 63/72 mm; HI 22 mm; 12H M10; ID 248 mm; 17 1/8 in / 435 mm; 153T; HI 105 mm",
+    "keywords": [
+      "flywheel",
+      "heavy duty truck flywheel",
+      "truck flywheel",
+      "12310-96450-MIYAKE",
+      "FLYWHEEL 17\" 153T 10H PE6 PF6 DIAPHRAGM COVER",
+      "PE6",
+      "PF6",
+      "Gear OD 465 mm",
+      "Gear ID 427 mm",
+      "10H 16 mm",
+      "ID 138 mm",
+      "ID 63/72 mm",
+      "HI 22 mm",
+      "12H M10",
+      "ID 248 mm",
+      "17 1/8 in / 435 mm",
+      "153T",
+      "HI 105 mm"
+    ],
+    "tags": [
+      "flywheel",
+      "engine",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "12310-96450-MIYAKE FLYWHEEL 17\" 153T 10H PE6 PF6 DIAPHRAGM COVER flywheel engine FLYWHEEL 17\" 153T 10H PE6 PF6 DIAPHRAGM COVER. Confirmed visible catalogue specifications are preserved for search. PE6, PF6 PE6 PF6 Gear OD 465 mm; Gear ID 427 mm; 10H 16 mm; ID 138 mm; ID 63/72 mm; HI 22 mm; 12H M10; ID 248 mm; 17 1/8 in / 435 mm; 153T; HI 105 mm Gear OD 465 mm Gear ID 427 mm 10H 16 mm ID 138 mm ID 63/72 mm HI 22 mm 12H M10 ID 248 mm 17 1/8 in / 435 mm 153T HI 105 mm heavy duty truck flywheel truck flywheel heavy-truck-parts WhatsApp Image 2026-04-21 at 10.27.46 AM.jpeg assets/images/products/Flywheel/WhatsApp Image 2026-04-21 at 10.27.46 AM.jpeg 12310-96450-MIYAKE FLYWHEEL 17\" 153T 10H PE6 PF6 DIAPHRAGM COVER PE6 PF6 PE6 PF6 Gear OD 465 mm; Gear ID 427 mm; 10H 16 mm; ID 138 mm; ID 63/72 mm; HI 22 mm; 12H M10; ID 248 mm; 17 1/8 in / 435 mm; 153T; HI 105 mm visibleText measurements vehicleModels engineModels oeNumbers",
+    "source": {
+      "type": "flywheel-folder-image",
+      "originalFile": "WhatsApp Image 2026-04-21 at 10.27.46 AM.jpeg",
+      "originalPath": "assets/images/products/Flywheel/WhatsApp Image 2026-04-21 at 10.27.46 AM.jpeg",
+      "hash": "73545710288e6ee8fd4396ef49e519f823fe56c8ed25aedd948dd9f78a112314",
+      "ocrText": "12310-96450-MIYAKE\nFLYWHEEL 17\" 153T 10H PE6 PF6 DIAPHRAGM COVER\nPE6 PF6\nPE6 PF6\nGear OD 465 mm; Gear ID 427 mm; 10H 16 mm; ID 138 mm; ID 63/72 mm; HI 22 mm; 12H M10; ID 248 mm; 17 1/8 in / 435 mm; 153T; HI 105 mm",
+      "importedAt": "2026-08-17T01:40:51",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Flywheel catalogue image."
+    }
+  },
+  {
+    "id": "12310-96006",
+    "code": "12310-96006",
+    "number": "12310-96006",
+    "productNumber": "12310-96006",
+    "partNumber": "12310-96006",
+    "name": "FLYWHEEL 16\" 9H 140T NS RD8",
+    "productName": "FLYWHEEL 16\" 9H 140T NS RD8",
+    "category": "flywheel",
+    "categoryLabel": "FLYWHEEL",
+    "categoryGroup": "engine",
+    "subcategory": "",
+    "description": "FLYWHEEL 16\" 9H 140T NS RD8",
+    "visibleDescription": "FLYWHEEL 16\" 9H 140T NS RD8",
+    "longDescription": "FLYWHEEL 16\" 9H 140T NS RD8. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "NS RD8, RD8",
+    "brand": "",
+    "vehicleModel": "NS RD8",
+    "vehicleModels": [
+      "NS RD8"
+    ],
+    "engineModel": "RD8",
+    "engineModels": [
+      "RD8"
+    ],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/12310-96006.jpeg",
+    "thumbnail": "assets/img/products/12310-96006.jpeg",
+    "images": [
+      "assets/img/products/12310-96006.jpeg"
+    ],
+    "alt": "12310-96006 FLYWHEEL 16\" 9H 140T NS RD8 for NS RD8, NS RD8, RD8 heavy duty truck part",
+    "slug": "12310-96006-flywheel",
+    "url": "products/12310-96006-flywheel.html",
+    "specifications": {
+      "visibleText": "FLYWHEEL 16\" 9H 140T NS RD8",
+      "measurements": [
+        "Gear OD 498 mm",
+        "Gear ID 460 mm",
+        "9H 17 mm",
+        "ID 125 mm",
+        "ID 46/49 mm",
+        "HI 31 mm",
+        "12H M10",
+        "ID 203 mm",
+        "16 1/2 in / 418 mm",
+        "140T",
+        "12H 15 mm",
+        "HI 110 mm"
+      ],
+      "vehicleModels": [
+        "NS RD8"
+      ],
+      "engineModels": [
+        "RD8"
+      ],
+      "oeNumbers": []
+    },
+    "specs": [
+      "Gear OD 498 mm",
+      "Gear ID 460 mm",
+      "9H 17 mm",
+      "ID 125 mm",
+      "ID 46/49 mm",
+      "HI 31 mm",
+      "12H M10",
+      "ID 203 mm",
+      "16 1/2 in / 418 mm",
+      "140T",
+      "12H 15 mm",
+      "HI 110 mm"
+    ],
+    "specification": "Gear OD 498 mm; Gear ID 460 mm; 9H 17 mm; ID 125 mm; ID 46/49 mm; HI 31 mm; 12H M10; ID 203 mm; 16 1/2 in / 418 mm; 140T; 12H 15 mm; HI 110 mm",
+    "keywords": [
+      "flywheel",
+      "heavy duty truck flywheel",
+      "truck flywheel",
+      "12310-96006",
+      "FLYWHEEL 16\" 9H 140T NS RD8",
+      "NS RD8",
+      "RD8",
+      "Gear OD 498 mm",
+      "Gear ID 460 mm",
+      "9H 17 mm",
+      "ID 125 mm",
+      "ID 46/49 mm",
+      "HI 31 mm",
+      "12H M10",
+      "ID 203 mm",
+      "16 1/2 in / 418 mm",
+      "140T",
+      "12H 15 mm",
+      "HI 110 mm"
+    ],
+    "tags": [
+      "flywheel",
+      "engine",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "12310-96006 FLYWHEEL 16\" 9H 140T NS RD8 flywheel engine FLYWHEEL 16\" 9H 140T NS RD8. Confirmed visible catalogue specifications are preserved for search. NS RD8, RD8 NS RD8 RD8 Gear OD 498 mm; Gear ID 460 mm; 9H 17 mm; ID 125 mm; ID 46/49 mm; HI 31 mm; 12H M10; ID 203 mm; 16 1/2 in / 418 mm; 140T; 12H 15 mm; HI 110 mm Gear OD 498 mm Gear ID 460 mm 9H 17 mm ID 125 mm ID 46/49 mm HI 31 mm 12H M10 ID 203 mm 16 1/2 in / 418 mm 140T 12H 15 mm HI 110 mm heavy duty truck flywheel truck flywheel heavy-truck-parts WhatsApp Image 2026-04-22 at 6.00.53 PM.jpeg assets/images/products/Flywheel/WhatsApp Image 2026-04-22 at 6.00.53 PM.jpeg 12310-96006 FLYWHEEL 16\" 9H 140T NS RD8 NS RD8 RD8 Gear OD 498 mm; Gear ID 460 mm; 9H 17 mm; ID 125 mm; ID 46/49 mm; HI 31 mm; 12H M10; ID 203 mm; 16 1/2 in / 418 mm; 140T; 12H 15 mm; HI 110 mm visibleText measurements vehicleModels engineModels oeNumbers",
+    "source": {
+      "type": "flywheel-folder-image",
+      "originalFile": "WhatsApp Image 2026-04-22 at 6.00.53 PM.jpeg",
+      "originalPath": "assets/images/products/Flywheel/WhatsApp Image 2026-04-22 at 6.00.53 PM.jpeg",
+      "hash": "cabee4234259070e36192a41db23f404e2783b1673c45b72864351b89f548bb0",
+      "ocrText": "12310-96006\nFLYWHEEL 16\" 9H 140T NS RD8\nNS RD8\nRD8\nGear OD 498 mm; Gear ID 460 mm; 9H 17 mm; ID 125 mm; ID 46/49 mm; HI 31 mm; 12H M10; ID 203 mm; 16 1/2 in / 418 mm; 140T; 12H 15 mm; HI 110 mm",
+      "importedAt": "2026-08-17T01:40:51",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Flywheel catalogue image."
+    }
+  },
+  {
+    "id": "ME 072584",
+    "code": "ME 072584",
+    "number": "ME 072584",
+    "productNumber": "ME 072584",
+    "partNumber": "ME 072584",
+    "name": "FLYWHEEL 14\" 6H 129T 6D16 6M60",
+    "productName": "FLYWHEEL 14\" 6H 129T 6D16 6M60",
+    "category": "flywheel",
+    "categoryLabel": "FLYWHEEL",
+    "categoryGroup": "engine",
+    "subcategory": "",
+    "description": "FLYWHEEL 14\" 6H 129T 6D16 6M60",
+    "visibleDescription": "FLYWHEEL 14\" 6H 129T 6D16 6M60",
+    "longDescription": "FLYWHEEL 14\" 6H 129T 6D16 6M60. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "6D16, 6M60",
+    "brand": "",
+    "vehicleModel": "6D16, 6M60",
+    "vehicleModels": [
+      "6D16",
+      "6M60"
+    ],
+    "engineModel": "6D16, 6M60",
+    "engineModels": [
+      "6D16",
+      "6M60"
+    ],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/ME-072584.jpeg",
+    "thumbnail": "assets/img/products/ME-072584.jpeg",
+    "images": [
+      "assets/img/products/ME-072584.jpeg"
+    ],
+    "alt": "ME 072584 FLYWHEEL 14\" 6H 129T 6D16 6M60 for 6D16, 6M60, 6D16, 6M60 heavy duty truck part",
+    "slug": "me-072584-flywheel",
+    "url": "products/me-072584-flywheel.html",
+    "specifications": {
+      "visibleText": "FLYWHEEL 14\" 6H 129T 6D16 6M60",
+      "measurements": [
+        "Gear OD 394 mm",
+        "Gear ID 353 mm",
+        "6H 17 mm",
+        "9H M10",
+        "ID 100 mm",
+        "ID 47 mm",
+        "HI 14 mm",
+        "ID 215 mm",
+        "14 3/8 in / 650 mm",
+        "129T",
+        "ABS Hole 45",
+        "HI 36 mm"
+      ],
+      "vehicleModels": [
+        "6D16",
+        "6M60"
+      ],
+      "engineModels": [
+        "6D16",
+        "6M60"
+      ],
+      "oeNumbers": []
+    },
+    "specs": [
+      "Gear OD 394 mm",
+      "Gear ID 353 mm",
+      "6H 17 mm",
+      "9H M10",
+      "ID 100 mm",
+      "ID 47 mm",
+      "HI 14 mm",
+      "ID 215 mm",
+      "14 3/8 in / 650 mm",
+      "129T",
+      "ABS Hole 45",
+      "HI 36 mm"
+    ],
+    "specification": "Gear OD 394 mm; Gear ID 353 mm; 6H 17 mm; 9H M10; ID 100 mm; ID 47 mm; HI 14 mm; ID 215 mm; 14 3/8 in / 650 mm; 129T; ABS Hole 45; HI 36 mm",
+    "keywords": [
+      "flywheel",
+      "heavy duty truck flywheel",
+      "truck flywheel",
+      "ME 072584",
+      "FLYWHEEL 14\" 6H 129T 6D16 6M60",
+      "6D16",
+      "6M60",
+      "Gear OD 394 mm",
+      "Gear ID 353 mm",
+      "6H 17 mm",
+      "9H M10",
+      "ID 100 mm",
+      "ID 47 mm",
+      "HI 14 mm",
+      "ID 215 mm",
+      "14 3/8 in / 650 mm",
+      "129T",
+      "ABS Hole 45",
+      "HI 36 mm"
+    ],
+    "tags": [
+      "flywheel",
+      "engine",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "ME 072584 FLYWHEEL 14\" 6H 129T 6D16 6M60 flywheel engine FLYWHEEL 14\" 6H 129T 6D16 6M60. Confirmed visible catalogue specifications are preserved for search. 6D16, 6M60 6D16 6M60 Gear OD 394 mm; Gear ID 353 mm; 6H 17 mm; 9H M10; ID 100 mm; ID 47 mm; HI 14 mm; ID 215 mm; 14 3/8 in / 650 mm; 129T; ABS Hole 45; HI 36 mm Gear OD 394 mm Gear ID 353 mm 6H 17 mm 9H M10 ID 100 mm ID 47 mm HI 14 mm ID 215 mm 14 3/8 in / 650 mm 129T ABS Hole 45 HI 36 mm heavy duty truck flywheel truck flywheel heavy-truck-parts WhatsApp Image 2026-04-30 at 4.23.05 PM.jpeg assets/images/products/Flywheel/WhatsApp Image 2026-04-30 at 4.23.05 PM.jpeg ME 072584 FLYWHEEL 14\" 6H 129T 6D16 6M60 6D16 6M60 6D16 6M60 Gear OD 394 mm; Gear ID 353 mm; 6H 17 mm; 9H M10; ID 100 mm; ID 47 mm; HI 14 mm; ID 215 mm; 14 3/8 in / 650 mm; 129T; ABS Hole 45; HI 36 mm visibleText measurements vehicleModels engineModels oeNumbers",
+    "source": {
+      "type": "flywheel-folder-image",
+      "originalFile": "WhatsApp Image 2026-04-30 at 4.23.05 PM.jpeg",
+      "originalPath": "assets/images/products/Flywheel/WhatsApp Image 2026-04-30 at 4.23.05 PM.jpeg",
+      "hash": "4831157862561a1175d73b048bfd75adf489d04869d1d8a6d8b977a32fa98ab8",
+      "ocrText": "ME 072584\nFLYWHEEL 14\" 6H 129T 6D16 6M60\n6D16 6M60\n6D16 6M60\nGear OD 394 mm; Gear ID 353 mm; 6H 17 mm; 9H M10; ID 100 mm; ID 47 mm; HI 14 mm; ID 215 mm; 14 3/8 in / 650 mm; 129T; ABS Hole 45; HI 36 mm",
+      "importedAt": "2026-08-17T01:40:51",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Flywheel catalogue image."
+    }
+  },
+  {
+    "id": "ME 072448",
+    "code": "ME 072448",
+    "number": "ME 072448",
+    "productNumber": "ME 072448",
+    "partNumber": "ME 072448",
+    "name": "FLYWHEEL 14\" 6H 129T 6D16 6D14 2AT 350M 17M FM658 FWA658 6D17 SAME",
+    "productName": "FLYWHEEL 14\" 6H 129T 6D16 6D14 2AT 350M 17M FM658 FWA658 6D17 SAME",
+    "category": "flywheel",
+    "categoryLabel": "FLYWHEEL",
+    "categoryGroup": "engine",
+    "subcategory": "",
+    "description": "FLYWHEEL 14\" 6H 129T 6D16 6D14 2AT 350M 17M FM658 FWA658 6D17 SAME",
+    "visibleDescription": "FLYWHEEL 14\" 6H 129T 6D16 6D14 2AT 350M 17M FM658 FWA658 6D17 SAME",
+    "longDescription": "FLYWHEEL 14\" 6H 129T 6D16 6D14 2AT 350M 17M FM658 FWA658 6D17 SAME. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "FM658, FWA658, 6D16, 6D14, 6D17",
+    "brand": "",
+    "vehicleModel": "FM658, FWA658",
+    "vehicleModels": [
+      "FM658",
+      "FWA658"
+    ],
+    "engineModel": "6D16, 6D14, 6D17",
+    "engineModels": [
+      "6D16",
+      "6D14",
+      "6D17"
+    ],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/ME-072448.jpeg",
+    "thumbnail": "assets/img/products/ME-072448.jpeg",
+    "images": [
+      "assets/img/products/ME-072448.jpeg"
+    ],
+    "alt": "ME 072448 FLYWHEEL 14\" 6H 129T 6D16 6D14 2AT 350M 17M FM658 FWA658 6D17 SAME for FM658, FWA658, FM658, FWA658, FM658, FWA658, 6D16, 6D14, 6D17 heavy duty truck part",
+    "slug": "me-072448-flywheel",
+    "url": "products/me-072448-flywheel.html",
+    "specifications": {
+      "visibleText": "FLYWHEEL 14\" 6H 129T 6D16 6D14 2AT 350M 17M FM658 FWA658 6D17 SAME",
+      "measurements": [
+        "2AT",
+        "350M",
+        "17M",
+        "Gear OD 394 mm",
+        "Gear ID 353 mm",
+        "6H 16 mm",
+        "ID 100 mm",
+        "2H M14",
+        "1H 14 mm",
+        "ID 47 mm",
+        "HI 14 mm",
+        "12H M10",
+        "ID 215 mm",
+        "14 in / 357 mm",
+        "129T",
+        "No ABS Hole",
+        "HI 79 mm"
+      ],
+      "vehicleModels": [
+        "FM658",
+        "FWA658"
+      ],
+      "engineModels": [
+        "6D16",
+        "6D14",
+        "6D17"
+      ],
+      "oeNumbers": []
+    },
+    "specs": [
+      "2AT",
+      "350M",
+      "17M",
+      "Gear OD 394 mm",
+      "Gear ID 353 mm",
+      "6H 16 mm",
+      "ID 100 mm",
+      "2H M14",
+      "1H 14 mm",
+      "ID 47 mm",
+      "HI 14 mm",
+      "12H M10",
+      "ID 215 mm",
+      "14 in / 357 mm",
+      "129T",
+      "No ABS Hole",
+      "HI 79 mm"
+    ],
+    "specification": "2AT; 350M; 17M; Gear OD 394 mm; Gear ID 353 mm; 6H 16 mm; ID 100 mm; 2H M14; 1H 14 mm; ID 47 mm; HI 14 mm; 12H M10; ID 215 mm; 14 in / 357 mm; 129T; No ABS Hole; HI 79 mm",
+    "keywords": [
+      "flywheel",
+      "heavy duty truck flywheel",
+      "truck flywheel",
+      "ME 072448",
+      "FLYWHEEL 14\" 6H 129T 6D16 6D14 2AT 350M 17M FM658 FWA658 6D17 SAME",
+      "FM658",
+      "FWA658",
+      "6D16",
+      "6D14",
+      "6D17",
+      "2AT",
+      "350M",
+      "17M",
+      "Gear OD 394 mm",
+      "Gear ID 353 mm",
+      "6H 16 mm",
+      "ID 100 mm",
+      "2H M14",
+      "1H 14 mm",
+      "ID 47 mm",
+      "HI 14 mm",
+      "12H M10",
+      "ID 215 mm",
+      "14 in / 357 mm",
+      "129T",
+      "No ABS Hole",
+      "HI 79 mm"
+    ],
+    "tags": [
+      "flywheel",
+      "engine",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "ME 072448 FLYWHEEL 14\" 6H 129T 6D16 6D14 2AT 350M 17M FM658 FWA658 6D17 SAME flywheel engine FLYWHEEL 14\" 6H 129T 6D16 6D14 2AT 350M 17M FM658 FWA658 6D17 SAME. Confirmed visible catalogue specifications are preserved for search. FM658, FWA658, 6D16, 6D14, 6D17 FM658, FWA658 FM658 FWA658 6D16, 6D14, 6D17 6D16 6D14 6D17 2AT; 350M; 17M; Gear OD 394 mm; Gear ID 353 mm; 6H 16 mm; ID 100 mm; 2H M14; 1H 14 mm; ID 47 mm; HI 14 mm; 12H M10; ID 215 mm; 14 in / 357 mm; 129T; No ABS Hole; HI 79 mm 2AT 350M 17M Gear OD 394 mm Gear ID 353 mm 6H 16 mm ID 100 mm 2H M14 1H 14 mm ID 47 mm HI 14 mm 12H M10 ID 215 mm 14 in / 357 mm 129T No ABS Hole HI 79 mm heavy duty truck flywheel truck flywheel heavy-truck-parts WhatsApp Image 2026-04-30 at 5.41.42 PM.jpeg assets/images/products/Flywheel/WhatsApp Image 2026-04-30 at 5.41.42 PM.jpeg ME 072448 FLYWHEEL 14\" 6H 129T 6D16 6D14 2AT 350M 17M FM658 FWA658 6D17 SAME FM658 FWA658 6D16 6D14 6D17 2AT; 350M; 17M; Gear OD 394 mm; Gear ID 353 mm; 6H 16 mm; ID 100 mm; 2H M14; 1H 14 mm; ID 47 mm; HI 14 mm; 12H M10; ID 215 mm; 14 in / 357 mm; 129T; No ABS Hole; HI 79 mm visibleText measurements vehicleModels engineModels oeNumbers",
+    "source": {
+      "type": "flywheel-folder-image",
+      "originalFile": "WhatsApp Image 2026-04-30 at 5.41.42 PM.jpeg",
+      "originalPath": "assets/images/products/Flywheel/WhatsApp Image 2026-04-30 at 5.41.42 PM.jpeg",
+      "hash": "24a893be937eecfa9b04ca3ec13125f4be67c4a016abf023308ba50016b315cb",
+      "ocrText": "ME 072448\nFLYWHEEL 14\" 6H 129T 6D16 6D14 2AT 350M 17M FM658 FWA658 6D17 SAME\nFM658 FWA658\n6D16 6D14 6D17\n2AT; 350M; 17M; Gear OD 394 mm; Gear ID 353 mm; 6H 16 mm; ID 100 mm; 2H M14; 1H 14 mm; ID 47 mm; HI 14 mm; 12H M10; ID 215 mm; 14 in / 357 mm; 129T; No ABS Hole; HI 79 mm",
+      "importedAt": "2026-08-17T01:40:51",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Flywheel catalogue image."
+    }
+  },
+  {
+    "id": "8-94127-250-0",
+    "code": "8-94127-250-0",
+    "number": "8-94127-250-0",
+    "productNumber": "8-94127-250-0",
+    "partNumber": "8-94127-250-0",
+    "name": "FLYWHEEL 12\" 128T 6H IZ 4BD1 NPR 14.5M",
+    "productName": "FLYWHEEL 12\" 128T 6H IZ 4BD1 NPR 14.5M",
+    "category": "flywheel",
+    "categoryLabel": "FLYWHEEL",
+    "categoryGroup": "engine",
+    "subcategory": "",
+    "description": "FLYWHEEL 12\" 128T 6H IZ 4BD1 NPR 14.5M",
+    "visibleDescription": "FLYWHEEL 12\" 128T 6H IZ 4BD1 NPR 14.5M",
+    "longDescription": "FLYWHEEL 12\" 128T 6H IZ 4BD1 NPR 14.5M. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "IZ, NPR, 4BD1",
+    "brand": "",
+    "vehicleModel": "IZ, NPR",
+    "vehicleModels": [
+      "IZ",
+      "NPR"
+    ],
+    "engineModel": "4BD1",
+    "engineModels": [
+      "4BD1"
+    ],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/8-94127-250-0.jpeg",
+    "thumbnail": "assets/img/products/8-94127-250-0.jpeg",
+    "images": [
+      "assets/img/products/8-94127-250-0.jpeg"
+    ],
+    "alt": "8-94127-250-0 FLYWHEEL 12\" 128T 6H IZ 4BD1 NPR 14.5M for IZ, NPR, IZ, NPR, IZ, NPR, 4BD1 heavy duty truck part",
+    "slug": "8-94127-250-0-flywheel",
+    "url": "products/8-94127-250-0-flywheel.html",
+    "specifications": {
+      "visibleText": "FLYWHEEL 12\" 128T 6H IZ 4BD1 NPR 14.5M",
+      "measurements": [
+        "Gear OD 390 mm",
+        "Gear ID 355 mm",
+        "6H ID 14 mm",
+        "ID 100 mm",
+        "ID 34 mm",
+        "HI 14 mm",
+        "ID 180 mm",
+        "13 3/8 in / 340 mm",
+        "128T",
+        "14.5M",
+        "HI 38 mm"
+      ],
+      "vehicleModels": [
+        "IZ",
+        "NPR"
+      ],
+      "engineModels": [
+        "4BD1"
+      ],
+      "oeNumbers": []
+    },
+    "specs": [
+      "Gear OD 390 mm",
+      "Gear ID 355 mm",
+      "6H ID 14 mm",
+      "ID 100 mm",
+      "ID 34 mm",
+      "HI 14 mm",
+      "ID 180 mm",
+      "13 3/8 in / 340 mm",
+      "128T",
+      "14.5M",
+      "HI 38 mm"
+    ],
+    "specification": "Gear OD 390 mm; Gear ID 355 mm; 6H ID 14 mm; ID 100 mm; ID 34 mm; HI 14 mm; ID 180 mm; 13 3/8 in / 340 mm; 128T; 14.5M; HI 38 mm",
+    "keywords": [
+      "flywheel",
+      "heavy duty truck flywheel",
+      "truck flywheel",
+      "8-94127-250-0",
+      "FLYWHEEL 12\" 128T 6H IZ 4BD1 NPR 14.5M",
+      "IZ",
+      "NPR",
+      "4BD1",
+      "Gear OD 390 mm",
+      "Gear ID 355 mm",
+      "6H ID 14 mm",
+      "ID 100 mm",
+      "ID 34 mm",
+      "HI 14 mm",
+      "ID 180 mm",
+      "13 3/8 in / 340 mm",
+      "128T",
+      "14.5M",
+      "HI 38 mm"
+    ],
+    "tags": [
+      "flywheel",
+      "engine",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "8-94127-250-0 FLYWHEEL 12\" 128T 6H IZ 4BD1 NPR 14.5M flywheel engine FLYWHEEL 12\" 128T 6H IZ 4BD1 NPR 14.5M. Confirmed visible catalogue specifications are preserved for search. IZ, NPR, 4BD1 IZ, NPR IZ NPR 4BD1 Gear OD 390 mm; Gear ID 355 mm; 6H ID 14 mm; ID 100 mm; ID 34 mm; HI 14 mm; ID 180 mm; 13 3/8 in / 340 mm; 128T; 14.5M; HI 38 mm Gear OD 390 mm Gear ID 355 mm 6H ID 14 mm ID 100 mm ID 34 mm HI 14 mm ID 180 mm 13 3/8 in / 340 mm 128T 14.5M HI 38 mm heavy duty truck flywheel truck flywheel heavy-truck-parts WhatsApp Image 2026-05-24 at 2.53.58 PM.jpeg assets/images/products/Flywheel/WhatsApp Image 2026-05-24 at 2.53.58 PM.jpeg 8-94127-250-0 FLYWHEEL 12\" 128T 6H IZ 4BD1 NPR 14.5M IZ NPR 4BD1 Gear OD 390 mm; Gear ID 355 mm; 6H ID 14 mm; ID 100 mm; ID 34 mm; HI 14 mm; ID 180 mm; 13 3/8 in / 340 mm; 128T; 14.5M; HI 38 mm visibleText measurements vehicleModels engineModels oeNumbers",
+    "source": {
+      "type": "flywheel-folder-image",
+      "originalFile": "WhatsApp Image 2026-05-24 at 2.53.58 PM.jpeg",
+      "originalPath": "assets/images/products/Flywheel/WhatsApp Image 2026-05-24 at 2.53.58 PM.jpeg",
+      "hash": "6163de027abe498f4b5b6fa3559fa9b14fc02f774179deca924c9ab0ffbcdf3a",
+      "ocrText": "8-94127-250-0\nFLYWHEEL 12\" 128T 6H IZ 4BD1 NPR 14.5M\nIZ NPR\n4BD1\nGear OD 390 mm; Gear ID 355 mm; 6H ID 14 mm; ID 100 mm; ID 34 mm; HI 14 mm; ID 180 mm; 13 3/8 in / 340 mm; 128T; 14.5M; HI 38 mm",
+      "importedAt": "2026-08-17T01:40:51",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Flywheel catalogue image."
+    }
+  },
+  {
+    "id": "12310-Z3026",
+    "code": "12310-Z3026",
+    "number": "12310-Z3026",
+    "productNumber": "12310-Z3026",
+    "partNumber": "12310-Z3026",
+    "name": "FLYWHEEL 13\" 6H 129T NS FE6T LKA211 M17",
+    "productName": "FLYWHEEL 13\" 6H 129T NS FE6T LKA211 M17",
+    "category": "flywheel",
+    "categoryLabel": "FLYWHEEL",
+    "categoryGroup": "engine",
+    "subcategory": "",
+    "description": "FLYWHEEL 13\" 6H 129T NS FE6T LKA211 M17",
+    "visibleDescription": "FLYWHEEL 13\" 6H 129T NS FE6T LKA211 M17",
+    "longDescription": "FLYWHEEL 13\" 6H 129T NS FE6T LKA211 M17. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "NS, LKA211, FE6T",
+    "brand": "",
+    "vehicleModel": "NS, LKA211",
+    "vehicleModels": [
+      "NS",
+      "LKA211"
+    ],
+    "engineModel": "FE6T",
+    "engineModels": [
+      "FE6T"
+    ],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/12310-Z3026.jpeg",
+    "thumbnail": "assets/img/products/12310-Z3026.jpeg",
+    "images": [
+      "assets/img/products/12310-Z3026.jpeg"
+    ],
+    "alt": "12310-Z3026 FLYWHEEL 13\" 6H 129T NS FE6T LKA211 M17 for NS, LKA211, NS, LKA211, NS, LKA211, FE6T heavy duty truck part",
+    "slug": "12310-z3026-flywheel",
+    "url": "products/12310-z3026-flywheel.html",
+    "specifications": {
+      "visibleText": "FLYWHEEL 13\" 6H 129T NS FE6T LKA211 M17",
+      "measurements": [
+        "Gear OD 392 mm",
+        "Gear ID 362 mm",
+        "6H ID 16 mm",
+        "ID 110 mm",
+        "ID 40 mm",
+        "HI 18 mm",
+        "ID 227 mm",
+        "13 in / 330.2 mm",
+        "129T",
+        "M17",
+        "HI 50 mm"
+      ],
+      "vehicleModels": [
+        "NS",
+        "LKA211"
+      ],
+      "engineModels": [
+        "FE6T"
+      ],
+      "oeNumbers": []
+    },
+    "specs": [
+      "Gear OD 392 mm",
+      "Gear ID 362 mm",
+      "6H ID 16 mm",
+      "ID 110 mm",
+      "ID 40 mm",
+      "HI 18 mm",
+      "ID 227 mm",
+      "13 in / 330.2 mm",
+      "129T",
+      "M17",
+      "HI 50 mm"
+    ],
+    "specification": "Gear OD 392 mm; Gear ID 362 mm; 6H ID 16 mm; ID 110 mm; ID 40 mm; HI 18 mm; ID 227 mm; 13 in / 330.2 mm; 129T; M17; HI 50 mm",
+    "keywords": [
+      "flywheel",
+      "heavy duty truck flywheel",
+      "truck flywheel",
+      "12310-Z3026",
+      "FLYWHEEL 13\" 6H 129T NS FE6T LKA211 M17",
+      "NS",
+      "LKA211",
+      "FE6T",
+      "Gear OD 392 mm",
+      "Gear ID 362 mm",
+      "6H ID 16 mm",
+      "ID 110 mm",
+      "ID 40 mm",
+      "HI 18 mm",
+      "ID 227 mm",
+      "13 in / 330.2 mm",
+      "129T",
+      "M17",
+      "HI 50 mm"
+    ],
+    "tags": [
+      "flywheel",
+      "engine",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "12310-Z3026 FLYWHEEL 13\" 6H 129T NS FE6T LKA211 M17 flywheel engine FLYWHEEL 13\" 6H 129T NS FE6T LKA211 M17. Confirmed visible catalogue specifications are preserved for search. NS, LKA211, FE6T NS, LKA211 NS LKA211 FE6T Gear OD 392 mm; Gear ID 362 mm; 6H ID 16 mm; ID 110 mm; ID 40 mm; HI 18 mm; ID 227 mm; 13 in / 330.2 mm; 129T; M17; HI 50 mm Gear OD 392 mm Gear ID 362 mm 6H ID 16 mm ID 110 mm ID 40 mm HI 18 mm ID 227 mm 13 in / 330.2 mm 129T M17 HI 50 mm heavy duty truck flywheel truck flywheel heavy-truck-parts WhatsApp Image 2026-06-09 at 3.42.41 PM.jpeg assets/images/products/Flywheel/WhatsApp Image 2026-06-09 at 3.42.41 PM.jpeg 12310-Z3026 FLYWHEEL 13\" 6H 129T NS FE6T LKA211 M17 NS LKA211 FE6T Gear OD 392 mm; Gear ID 362 mm; 6H ID 16 mm; ID 110 mm; ID 40 mm; HI 18 mm; ID 227 mm; 13 in / 330.2 mm; 129T; M17; HI 50 mm visibleText measurements vehicleModels engineModels oeNumbers",
+    "source": {
+      "type": "flywheel-folder-image",
+      "originalFile": "WhatsApp Image 2026-06-09 at 3.42.41 PM.jpeg",
+      "originalPath": "assets/images/products/Flywheel/WhatsApp Image 2026-06-09 at 3.42.41 PM.jpeg",
+      "hash": "d080850fb419512e80bd8588bbb8902ac5f9330a5dd09f2d39e385d96f6a3b32",
+      "ocrText": "12310-Z3026\nFLYWHEEL 13\" 6H 129T NS FE6T LKA211 M17\nNS LKA211\nFE6T\nGear OD 392 mm; Gear ID 362 mm; 6H ID 16 mm; ID 110 mm; ID 40 mm; HI 18 mm; ID 227 mm; 13 in / 330.2 mm; 129T; M17; HI 50 mm",
+      "importedAt": "2026-08-17T01:40:51",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Flywheel catalogue image."
+    }
+  },
+  {
+    "id": "FW-8DC9-H",
+    "code": "FW-8DC9-H",
+    "number": "FW-8DC9-H",
+    "productNumber": "FW-8DC9-H",
+    "partNumber": "FW-8DC9-H",
+    "name": "FLYWHEEL 17\" 143T HIGH 8 HOLE 8DC9 FUSO",
+    "productName": "FLYWHEEL 17\" 143T HIGH 8 HOLE 8DC9 FUSO",
+    "category": "flywheel",
+    "categoryLabel": "FLYWHEEL",
+    "categoryGroup": "engine",
+    "subcategory": "",
+    "description": "FLYWHEEL 17\" 143T HIGH 8 HOLE 8DC9 FUSO",
+    "visibleDescription": "FLYWHEEL 17\" 143T HIGH 8 HOLE 8DC9 FUSO",
+    "longDescription": "FLYWHEEL 17\" 143T HIGH 8 HOLE 8DC9 FUSO. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "FUSO, 8DC9",
+    "brand": "FUSO",
+    "vehicleModel": "FUSO, 8DC9",
+    "vehicleModels": [
+      "FUSO",
+      "8DC9"
+    ],
+    "engineModel": "8DC9",
+    "engineModels": [
+      "8DC9"
+    ],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/FW-8DC9-H.jpeg",
+    "thumbnail": "assets/img/products/FW-8DC9-H.jpeg",
+    "images": [
+      "assets/img/products/FW-8DC9-H.jpeg"
+    ],
+    "alt": "FW-8DC9-H FLYWHEEL 17\" 143T HIGH 8 HOLE 8DC9 FUSO for FUSO, 8DC9, FUSO, 8DC9 heavy duty truck part",
+    "slug": "fw-8dc9-h-flywheel",
+    "url": "products/fw-8dc9-h-flywheel.html",
+    "specifications": {
+      "visibleText": "FLYWHEEL 17\" 143T HIGH 8 HOLE 8DC9 FUSO",
+      "measurements": [
+        "Gear OD 510 mm",
+        "Gear ID 475 mm",
+        "ID 62 mm",
+        "HI 34 mm",
+        "16H M10",
+        "8H ID 16 mm",
+        "ID 120 mm",
+        "17 in / 431.8 mm",
+        "H-H 465 mm",
+        "OD 133 mm",
+        "HI 25 mm",
+        "143T",
+        "8H ID 17 mm",
+        "HI 121 mm"
+      ],
+      "vehicleModels": [
+        "FUSO",
+        "8DC9"
+      ],
+      "engineModels": [
+        "8DC9"
+      ],
+      "oeNumbers": []
+    },
+    "specs": [
+      "Gear OD 510 mm",
+      "Gear ID 475 mm",
+      "ID 62 mm",
+      "HI 34 mm",
+      "16H M10",
+      "8H ID 16 mm",
+      "ID 120 mm",
+      "17 in / 431.8 mm",
+      "H-H 465 mm",
+      "OD 133 mm",
+      "HI 25 mm",
+      "143T",
+      "8H ID 17 mm",
+      "HI 121 mm"
+    ],
+    "specification": "Gear OD 510 mm; Gear ID 475 mm; ID 62 mm; HI 34 mm; 16H M10; 8H ID 16 mm; ID 120 mm; 17 in / 431.8 mm; H-H 465 mm; OD 133 mm; HI 25 mm; 143T; 8H ID 17 mm; HI 121 mm",
+    "keywords": [
+      "flywheel",
+      "heavy duty truck flywheel",
+      "truck flywheel",
+      "FW-8DC9-H",
+      "FLYWHEEL 17\" 143T HIGH 8 HOLE 8DC9 FUSO",
+      "FUSO",
+      "8DC9",
+      "Gear OD 510 mm",
+      "Gear ID 475 mm",
+      "ID 62 mm",
+      "HI 34 mm",
+      "16H M10",
+      "8H ID 16 mm",
+      "ID 120 mm",
+      "17 in / 431.8 mm",
+      "H-H 465 mm",
+      "OD 133 mm",
+      "HI 25 mm",
+      "143T",
+      "8H ID 17 mm",
+      "HI 121 mm"
+    ],
+    "tags": [
+      "flywheel",
+      "engine",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "FW-8DC9-H FLYWHEEL 17\" 143T HIGH 8 HOLE 8DC9 FUSO flywheel engine FLYWHEEL 17\" 143T HIGH 8 HOLE 8DC9 FUSO. Confirmed visible catalogue specifications are preserved for search. FUSO, 8DC9 FUSO 8DC9 Gear OD 510 mm; Gear ID 475 mm; ID 62 mm; HI 34 mm; 16H M10; 8H ID 16 mm; ID 120 mm; 17 in / 431.8 mm; H-H 465 mm; OD 133 mm; HI 25 mm; 143T; 8H ID 17 mm; HI 121 mm Gear OD 510 mm Gear ID 475 mm ID 62 mm HI 34 mm 16H M10 8H ID 16 mm ID 120 mm 17 in / 431.8 mm H-H 465 mm OD 133 mm HI 25 mm 143T 8H ID 17 mm HI 121 mm heavy duty truck flywheel truck flywheel heavy-truck-parts WhatsApp Image 2026-07-15 at 2.21.59 PM.jpeg assets/images/products/Flywheel/WhatsApp Image 2026-07-15 at 2.21.59 PM.jpeg FW-8DC9-H FLYWHEEL 17\" 143T HIGH 8 HOLE 8DC9 FUSO FUSO 8DC9 8DC9 Gear OD 510 mm; Gear ID 475 mm; ID 62 mm; HI 34 mm; 16H M10; 8H ID 16 mm; ID 120 mm; 17 in / 431.8 mm; H-H 465 mm; OD 133 mm; HI 25 mm; 143T; 8H ID 17 mm; HI 121 mm visibleText measurements vehicleModels engineModels oeNumbers",
+    "source": {
+      "type": "flywheel-folder-image",
+      "originalFile": "WhatsApp Image 2026-07-15 at 2.21.59 PM.jpeg",
+      "originalPath": "assets/images/products/Flywheel/WhatsApp Image 2026-07-15 at 2.21.59 PM.jpeg",
+      "hash": "2813d504469d83c4d1af8944ee8804a9d2faa257836cfc8c129bf5d1a3bc3ffa",
+      "ocrText": "FW-8DC9-H\nFLYWHEEL 17\" 143T HIGH 8 HOLE 8DC9 FUSO\nFUSO 8DC9\n8DC9\nGear OD 510 mm; Gear ID 475 mm; ID 62 mm; HI 34 mm; 16H M10; 8H ID 16 mm; ID 120 mm; 17 in / 431.8 mm; H-H 465 mm; OD 133 mm; HI 25 mm; 143T; 8H ID 17 mm; HI 121 mm",
+      "importedAt": "2026-08-17T01:40:51",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Flywheel catalogue image."
+    }
+  },
+  {
+    "id": "12310-00Z10",
+    "code": "12310-00Z10",
+    "number": "12310-00Z10",
+    "productNumber": "12310-00Z10",
+    "partNumber": "12310-00Z10",
+    "name": "FLYWHEEL 17\" 131T 10H CD48 GE13",
+    "productName": "FLYWHEEL 17\" 131T 10H CD48 GE13",
+    "category": "flywheel",
+    "categoryLabel": "FLYWHEEL",
+    "categoryGroup": "engine",
+    "subcategory": "",
+    "description": "FLYWHEEL 17\" 131T 10H CD48 GE13",
+    "visibleDescription": "FLYWHEEL 17\" 131T 10H CD48 GE13",
+    "longDescription": "FLYWHEEL 17\" 131T 10H CD48 GE13. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "CD48, GE13",
+    "brand": "",
+    "vehicleModel": "CD48, GE13",
+    "vehicleModels": [
+      "CD48",
+      "GE13"
+    ],
+    "engineModel": "GE13",
+    "engineModels": [
+      "GE13"
+    ],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/12310-00Z10.jpeg",
+    "thumbnail": "assets/img/products/12310-00Z10.jpeg",
+    "images": [
+      "assets/img/products/12310-00Z10.jpeg"
+    ],
+    "alt": "12310-00Z10 FLYWHEEL 17\" 131T 10H CD48 GE13 for CD48, GE13, CD48, GE13 heavy duty truck part",
+    "slug": "12310-00z10-flywheel",
+    "url": "products/12310-00z10-flywheel.html",
+    "specifications": {
+      "visibleText": "FLYWHEEL 17\" 131T 10H CD48 GE13",
+      "measurements": [
+        "12H M10",
+        "10H ID 16 mm",
+        "Gear OD 465 mm",
+        "Gear ID 430 mm",
+        "ID 132 mm",
+        "ID 215 mm",
+        "17 in / 432 mm",
+        "Inner ID 72 mm",
+        "Inner HI 20 mm",
+        "OD 53 mm",
+        "131T",
+        "ABS Hole 54",
+        "12H ID 22 mm",
+        "HI 107 mm"
+      ],
+      "vehicleModels": [
+        "CD48",
+        "GE13"
+      ],
+      "engineModels": [
+        "GE13"
+      ],
+      "oeNumbers": []
+    },
+    "specs": [
+      "12H M10",
+      "10H ID 16 mm",
+      "Gear OD 465 mm",
+      "Gear ID 430 mm",
+      "ID 132 mm",
+      "ID 215 mm",
+      "17 in / 432 mm",
+      "Inner ID 72 mm",
+      "Inner HI 20 mm",
+      "OD 53 mm",
+      "131T",
+      "ABS Hole 54",
+      "12H ID 22 mm",
+      "HI 107 mm"
+    ],
+    "specification": "12H M10; 10H ID 16 mm; Gear OD 465 mm; Gear ID 430 mm; ID 132 mm; ID 215 mm; 17 in / 432 mm; Inner ID 72 mm; Inner HI 20 mm; OD 53 mm; 131T; ABS Hole 54; 12H ID 22 mm; HI 107 mm",
+    "keywords": [
+      "flywheel",
+      "heavy duty truck flywheel",
+      "truck flywheel",
+      "12310-00Z10",
+      "FLYWHEEL 17\" 131T 10H CD48 GE13",
+      "CD48",
+      "GE13",
+      "12H M10",
+      "10H ID 16 mm",
+      "Gear OD 465 mm",
+      "Gear ID 430 mm",
+      "ID 132 mm",
+      "ID 215 mm",
+      "17 in / 432 mm",
+      "Inner ID 72 mm",
+      "Inner HI 20 mm",
+      "OD 53 mm",
+      "131T",
+      "ABS Hole 54",
+      "12H ID 22 mm",
+      "HI 107 mm"
+    ],
+    "tags": [
+      "flywheel",
+      "engine",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "12310-00Z10 FLYWHEEL 17\" 131T 10H CD48 GE13 flywheel engine FLYWHEEL 17\" 131T 10H CD48 GE13. Confirmed visible catalogue specifications are preserved for search. CD48, GE13 CD48 GE13 12H M10; 10H ID 16 mm; Gear OD 465 mm; Gear ID 430 mm; ID 132 mm; ID 215 mm; 17 in / 432 mm; Inner ID 72 mm; Inner HI 20 mm; OD 53 mm; 131T; ABS Hole 54; 12H ID 22 mm; HI 107 mm 12H M10 10H ID 16 mm Gear OD 465 mm Gear ID 430 mm ID 132 mm ID 215 mm 17 in / 432 mm Inner ID 72 mm Inner HI 20 mm OD 53 mm 131T ABS Hole 54 12H ID 22 mm HI 107 mm heavy duty truck flywheel truck flywheel heavy-truck-parts WhatsApp Image 2026-08-12 at 12.11.36 PM.jpeg assets/images/products/Flywheel/WhatsApp Image 2026-08-12 at 12.11.36 PM.jpeg 12310-00Z10 FLYWHEEL 17\" 131T 10H CD48 GE13 CD48 GE13 GE13 12H M10; 10H ID 16 mm; Gear OD 465 mm; Gear ID 430 mm; ID 132 mm; ID 215 mm; 17 in / 432 mm; Inner ID 72 mm; Inner HI 20 mm; OD 53 mm; 131T; ABS Hole 54; 12H ID 22 mm; HI 107 mm visibleText measurements vehicleModels engineModels oeNumbers",
+    "source": {
+      "type": "flywheel-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-12 at 12.11.36 PM.jpeg",
+      "originalPath": "assets/images/products/Flywheel/WhatsApp Image 2026-08-12 at 12.11.36 PM.jpeg",
+      "hash": "0c64b86b892105dcfb5b7301a562819df19ac3e9dbacfca1e384f59287d6bd93",
+      "ocrText": "12310-00Z10\nFLYWHEEL 17\" 131T 10H CD48 GE13\nCD48 GE13\nGE13\n12H M10; 10H ID 16 mm; Gear OD 465 mm; Gear ID 430 mm; ID 132 mm; ID 215 mm; 17 in / 432 mm; Inner ID 72 mm; Inner HI 20 mm; OD 53 mm; 131T; ABS Hole 54; 12H ID 22 mm; HI 107 mm",
+      "importedAt": "2026-08-17T01:40:51",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Flywheel catalogue image."
+    }
   }
 ];
+window.NAE_IMPORT_META = {
+  "generatedAt": "2026-08-17T01:40:51",
+  "totalProducts": 99,
+  "source": "google-indexing-audit",
+  "searchIndexRebuilt": true,
+  "productSeoPagesChecked": 99,
+  "productionBaseUrl": "https://titan-900.github.io/NAE-TRUCK/"
+};
