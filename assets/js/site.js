@@ -358,6 +358,7 @@ if (grid) {
 
 const brandCardGrid = document.querySelector("#brandCardGrid");
 const partsSearch = document.querySelector("#partsSearch");
+const finderSuggestions = document.querySelector("#finderSuggestions");
 const finderResults = document.querySelector("#finderResults");
 const finderToolbar = document.querySelector("#finderToolbar");
 const finderStatus = document.querySelector("#finderStatus");
@@ -369,6 +370,7 @@ const finderTrackPrev = document.querySelector("#finderTrackPrev");
 const finderTrackNext = document.querySelector("#finderTrackNext");
 const finderViewAllResults = document.querySelector("#finderViewAllResults");
 const finderPageSize = 8;
+const finderSuggestionLimit = 8;
 let finderRecords = [];
 let finderVisibleCount = finderPageSize;
 let finderCurrentQuery = "";
@@ -768,6 +770,73 @@ function getFilteredFinderMatches(records, query) {
   return { searchState, matches };
 }
 
+function closeFinderSuggestions() {
+  if (!finderSuggestions) return;
+  finderSuggestions.hidden = true;
+  finderSuggestions.innerHTML = "";
+  partsSearch?.setAttribute("aria-expanded", "false");
+}
+
+function getFinderSuggestionHref(record) {
+  const productPath = record?.product?.url || record?.product?.href || record?.product?.detailUrl || "";
+  return productPath ? resolveSiteAsset(productPath) : getProductsPageUrl(record?.number || "");
+}
+
+function getFinderSuggestionMeta(record) {
+  const product = record?.product || {};
+  const vehicleModel = cleanCustomerField(
+    product.vehicleModel || flattenFinderValue(product.vehicleModels)[0],
+    ""
+  );
+
+  return [record?.summary?.brand, vehicleModel]
+    .filter(Boolean)
+    .filter((value, index, values) => values.indexOf(value) === index)
+    .join(" / ");
+}
+
+function renderFinderProductSuggestion(record, searchState) {
+  const summary = record.summary;
+  const label = `${summary.number} ${summary.name}`.trim();
+  const meta = getFinderSuggestionMeta(record);
+  const thumbnail = summary.image
+    ? `<span class="finder-suggestion-thumb"><img loading="lazy" decoding="async" fetchpriority="low" src="${escapeHtml(summary.image)}" alt="${escapeHtml(label)}"></span>`
+    : "";
+
+  return `<a class="finder-suggestion finder-suggestion-product${thumbnail ? "" : " without-thumbnail"}" href="${escapeHtml(getFinderSuggestionHref(record))}" role="option" aria-label="${escapeHtml(`Open product ${label}`)}">
+    ${thumbnail}
+    <span class="finder-suggestion-copy">
+      <strong>${highlightFinderText(summary.number, searchState.highlightTerms)}</strong>
+      <span>${highlightFinderText(summary.name, searchState.highlightTerms)}</span>
+      ${meta ? `<small>${highlightFinderText(meta, searchState.highlightTerms)}</small>` : ""}
+    </span>
+  </a>`;
+}
+
+function renderFinderSuggestions(query) {
+  if (!finderSuggestions || !partsSearch) return;
+
+  const trimmedQuery = String(query || "").trim();
+  if (!trimmedQuery) {
+    closeFinderSuggestions();
+    return;
+  }
+
+  const { searchState, matches } = getFilteredFinderMatches(finderRecords, trimmedQuery);
+  const suggestions = matches.slice(0, finderSuggestionLimit);
+
+  if (!suggestions.length) {
+    finderSuggestions.innerHTML = `<p class="finder-suggestion-empty">No matching products found.</p>`;
+  } else {
+    finderSuggestions.innerHTML = suggestions
+      .map(record => renderFinderProductSuggestion(record, searchState))
+      .join("");
+  }
+
+  finderSuggestions.hidden = false;
+  partsSearch.setAttribute("aria-expanded", "true");
+}
+
 function renderHomepageResultImage(summary) {
   const alt = `${summary.name} ${summary.number}`.trim();
 
@@ -929,10 +998,12 @@ function maybeLoadMoreFinderProducts() {
 
 function runFinderSearch(options = {}) {
   finderVisibleCount = finderPageSize;
-  renderFinderResults(finderRecords, partsSearch?.value || "", {
+  const query = partsSearch?.value || "";
+  renderFinderResults(finderRecords, query, {
     resetScroll: true,
     scroll: Boolean(options.scroll)
   });
+  renderFinderSuggestions(query);
 }
 
 function scheduleFinderSearch() {
@@ -1243,6 +1314,40 @@ function bindHomepageFinderEvents() {
     partsSearch?.focus({ preventScroll: true });
   });
 
+  finderSuggestions?.addEventListener("error", event => {
+    const image = event.target;
+    if (!(image instanceof HTMLImageElement)) return;
+
+    const thumbnail = image.closest(".finder-suggestion-thumb");
+    const suggestion = image.closest(".finder-suggestion-product");
+    if (thumbnail) thumbnail.hidden = true;
+    suggestion?.classList.add("without-thumbnail");
+  }, true);
+
+  finderSuggestions?.addEventListener("keydown", event => {
+    const suggestions = Array.from(finderSuggestions.querySelectorAll(".finder-suggestion"));
+    const currentIndex = suggestions.indexOf(document.activeElement);
+
+    if (event.key === "Escape") {
+      event.preventDefault();
+      partsSearch?.focus({ preventScroll: true });
+      closeFinderSuggestions();
+      return;
+    }
+
+    if (event.key !== "ArrowDown" && event.key !== "ArrowUp") return;
+    event.preventDefault();
+    const direction = event.key === "ArrowDown" ? 1 : -1;
+    const nextIndex = (currentIndex + direction + suggestions.length) % suggestions.length;
+    suggestions[nextIndex]?.focus();
+  });
+
+  document.addEventListener("pointerdown", event => {
+    if (!finderSuggestions || finderSuggestions.hidden) return;
+    if (event.target.closest(".premium-search-control")) return;
+    closeFinderSuggestions();
+  });
+
   finderTrackPrev?.addEventListener("click", () => scrollFinderTrackBy(-1));
   finderTrackNext?.addEventListener("click", () => scrollFinderTrackBy(1));
 
@@ -1519,7 +1624,25 @@ async function initHomepageFinder() {
     scheduleFinderSearch();
   });
 
+  partsSearch?.addEventListener("focus", () => {
+    if (partsSearch.value.trim()) renderFinderSuggestions(partsSearch.value);
+  });
+
   partsSearch?.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeFinderSuggestions();
+      return;
+    }
+
+    if (event.key === "ArrowDown" && finderSuggestions && !finderSuggestions.hidden) {
+      const firstSuggestion = finderSuggestions.querySelector(".finder-suggestion");
+      if (firstSuggestion instanceof HTMLElement) {
+        event.preventDefault();
+        firstSuggestion.focus();
+      }
+      return;
+    }
+
     if (event.key !== "Enter") return;
     event.preventDefault();
     window.clearTimeout(finderSearchDebounce);

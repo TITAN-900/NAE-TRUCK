@@ -3988,6 +3988,7 @@ Product Image Lightbox
     line-height:.96
 }
 .premium-search-control{
+    position:relative;
     min-width:0
 }
 .premium-home .premium-search-bar{
@@ -4019,6 +4020,110 @@ Product Image Lightbox
 }
 .premium-home .premium-search-bar input::placeholder{
     color:#8b8c8f
+}
+.finder-suggestions{
+    position:absolute;
+    z-index:30;
+    top:84px;
+    right:0;
+    left:0;
+    max-height:min(424px,55vh);
+    overflow-x:hidden;
+    overflow-y:auto;
+    padding:6px;
+    border:1px solid rgba(17,18,20,.12);
+    border-radius:18px;
+    background:#fff;
+    box-shadow:0 24px 70px rgba(17,18,20,.16);
+    overscroll-behavior:contain
+}
+.finder-suggestions[hidden],
+.finder-suggestion-thumb[hidden]{
+    display:none
+}
+.finder-suggestion{
+    display:grid;
+    grid-template-columns:48px minmax(0,1fr);
+    gap:12px;
+    align-items:center;
+    width:100%;
+    height:68px;
+    max-height:68px;
+    padding:8px 12px;
+    border-radius:11px;
+    color:#151619;
+    text-decoration:none;
+    transition:background-color .18s var(--ease)
+}
+.finder-suggestion+.finder-suggestion{
+    border-top:1px solid rgba(17,18,20,.07)
+}
+.finder-suggestion:hover,
+.finder-suggestion:focus-visible{
+    outline:0;
+    background:#f4f2ee
+}
+.finder-suggestion.without-thumbnail{
+    grid-template-columns:minmax(0,1fr)
+}
+.finder-suggestion-thumb{
+    display:grid;
+    width:48px;
+    height:48px;
+    place-items:center;
+    overflow:hidden;
+    border:1px solid rgba(17,18,20,.08);
+    border-radius:8px;
+    background:#f4f3f0
+}
+.finder-suggestion-thumb img{
+    display:block;
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    object-position:center
+}
+.finder-suggestion-copy{
+    display:flex;
+    min-width:0;
+    flex-direction:column;
+    gap:2px;
+    line-height:1.15
+}
+.finder-suggestion-copy strong,
+.finder-suggestion-copy>span,
+.finder-suggestion-copy small{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap
+}
+.finder-suggestion-copy strong{
+    font-size:13px;
+    font-weight:900;
+    letter-spacing:.035em
+}
+.finder-suggestion-copy>span{
+    color:#35363a;
+    font-size:12px;
+    font-weight:750
+}
+.finder-suggestion-copy small{
+    color:#7c7d80;
+    font-size:9px;
+    font-weight:800;
+    letter-spacing:.08em;
+    text-transform:uppercase
+}
+.finder-suggestion-copy mark{
+    background:transparent;
+    color:var(--orange)
+}
+.finder-suggestion-empty{
+    margin:0;
+    padding:18px 16px;
+    color:#77787b;
+    font-size:12px;
+    font-weight:750
 }
 .premium-search-meta{
     display:flex;
@@ -4487,6 +4592,34 @@ Product Image Lightbox
     .premium-home .premium-search-bar input{
         min-height:64px;
         font-size:15px
+    }
+    .finder-suggestions{
+        top:74px;
+        max-height:min(310px,45vh);
+        padding:5px;
+        border-radius:15px
+    }
+    .finder-suggestion{
+        grid-template-columns:42px minmax(0,1fr);
+        gap:10px;
+        height:60px;
+        max-height:60px;
+        padding:7px 9px;
+        border-radius:9px
+    }
+    .finder-suggestion.without-thumbnail{
+        grid-template-columns:minmax(0,1fr)
+    }
+    .finder-suggestion-thumb{
+        width:42px;
+        height:42px;
+        border-radius:7px
+    }
+    .finder-suggestion-copy strong{
+        font-size:12px
+    }
+    .finder-suggestion-copy>span{
+        font-size:11px
     }
     .premium-search-meta{
         align-items:flex-start;

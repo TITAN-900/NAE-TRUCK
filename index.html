@@ -101,8 +101,9 @@
           <div class="premium-search-control">
             <label class="parts-search premium-search-bar" for="partsSearch">
               <span class="parts-search-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M16 16l5 5"></path></svg></span>
-              <input id="partsSearch" type="search" autocomplete="off" spellcheck="false" placeholder="Search Part Number, Product Description, Engine Model or Brand">
+              <input id="partsSearch" type="search" autocomplete="off" spellcheck="false" placeholder="Search Part Number, Product Description, Engine Model or Brand" aria-autocomplete="list" aria-controls="finderSuggestions" aria-expanded="false">
             </label>
+            <div class="finder-suggestions" id="finderSuggestions" role="listbox" aria-label="Product search suggestions" hidden></div>
             <div class="premium-search-meta">
               <p id="finderStatus">Loading catalogue products...</p>
               <button class="finder-clear-search" id="finderClearSearch" type="button" hidden>Clear search</button>
