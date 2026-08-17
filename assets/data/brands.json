@@ -1,6 +1,6 @@
 ﻿{
     "version":  1,
-    "updated":  "2026-07-29",
+    "updated":  "2026-08-17",
     "brands":  [
                    {
                        "id":  "brand-1",
@@ -151,6 +151,22 @@
                                           "Transmission",
                                           "Axle",
                                           "Trailer"
+                                      ],
+                       "products":  [
+
+                                    ]
+                   },
+                   {
+                       "id":  "twinkle",
+                       "name":  "TWINKLE",
+                       "logo":  "assets/img/brands/twinkle-logo.jpg",
+                       "page":  "brands/twinkle/index.html",
+                       "aliases":  [
+                                       "TWINKLE",
+                                       "Twinkle"
+                                   ],
+                       "categories":  [
+                                          "Brake"
                                       ],
                        "products":  [
 
