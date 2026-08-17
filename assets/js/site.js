@@ -186,6 +186,14 @@ async function loadBrandsData() {
         page: "brands/xin-seng/index.html",
         aliases: ["XIN SENG", "Xin Seng", "Xinseng"],
         products: []
+      },
+      {
+        id: "twinkle",
+        name: "TWINKLE",
+        logo: "assets/img/brands/twinkle-logo.jpg",
+        page: "brands/twinkle/index.html",
+        aliases: ["TWINKLE", "Twinkle"],
+        products: []
       }
     ]
   };
