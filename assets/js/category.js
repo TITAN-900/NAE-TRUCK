@@ -45,6 +45,7 @@ const categoryGroupMap = {
   "slack-adjuster": "trailer",
   "rubber-hose": "other",
   "flywheel": "engine",
+  "clutch-plate-cover": "other",
   other: "other"
 };
 
@@ -147,6 +148,21 @@ const fallbackCategories = [
     futureCategoryImage: "assets/img/categories/flywheel-cover.jpeg",
     productCategory: true,
     items: ["Flywheel"]
+  },
+  {
+    slug: "clutch-plate-cover",
+    num: "14",
+    title: "CLUTCH PLATE & CLUTCH COVER",
+    desc: "Heavy-duty truck clutch plate and clutch cover components.",
+    intro: "Heavy-duty truck clutch plate and clutch cover components.",
+    thumbnail: "",
+    categoryImage: "assets/img/categories/clutch-plate-cover.png",
+    futureCategoryImage: "assets/img/categories/clutch-plate-cover.png",
+    productCategory: true,
+    seoTitle: "Clutch Plate & Clutch Cover | Heavy-Duty Truck Parts | NIHON ASIA ENTERPRISE",
+    metaDescription: "Browse heavy-duty truck clutch plate and clutch cover components from NIHON ASIA ENTERPRISE.",
+    canonical: "https://titan-900.github.io/NAE-TRUCK/products.html?category=clutch-plate-cover",
+    items: ["Clutch Plate", "Clutch Cover"]
   }
 ];
 
@@ -789,7 +805,26 @@ function updateProductsPageChrome() {
   }
 
   data = category;
-  document.title = `${category.title} Products | NIHON ASIA ENTERPRISE Heavy Duty Truck Parts`;
+  document.title = category.seoTitle || `${category.title} Products | NIHON ASIA ENTERPRISE Heavy Duty Truck Parts`;
+
+  if (category.metaDescription) {
+    const description = document.querySelector('meta[name="description"]');
+    const ogDescription = document.querySelector('meta[property="og:description"]');
+    if (description) description.content = category.metaDescription;
+    if (ogDescription) ogDescription.content = category.metaDescription;
+  }
+
+  if (category.seoTitle) {
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) ogTitle.content = category.seoTitle;
+  }
+
+  if (category.canonical) {
+    const canonical = document.querySelector('link[rel="canonical"]');
+    const ogUrl = document.querySelector('meta[property="og:url"]');
+    if (canonical) canonical.href = category.canonical;
+    if (ogUrl) ogUrl.content = category.canonical;
+  }
 
   document.querySelector(".category-hero-copy h1")?.replaceChildren(document.createTextNode(category.title));
 
