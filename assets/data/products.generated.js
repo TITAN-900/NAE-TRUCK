@@ -6761,11 +6761,11 @@ window.NAE_IMPORTED_PRODUCTS = [
     "url": "products/119aau00001-rubber-hose.html"
   },
   {
-    "id": "IIA18D-19026",
-    "code": "IIA18D-19026",
-    "number": "IIA18D-19026",
-    "productNumber": "IIA18D-19026",
-    "partNumber": "IIA18D-19026",
+    "id": "11A18D-19026",
+    "code": "11A18D-19026",
+    "number": "11A18D-19026",
+    "productNumber": "11A18D-19026",
+    "partNumber": "11A18D-19026",
     "name": "INTERCOOLER RUBBER HOSE CAMC",
     "productName": "INTERCOOLER RUBBER HOSE CAMC",
     "category": "rubber-hose",
@@ -6788,12 +6788,12 @@ window.NAE_IMPORTED_PRODUCTS = [
     "alternateNumbers": [],
     "alternatePartNumbers": [],
     "availability": "Ready stock",
-    "image": "assets/img/products/IIA18D-19026.jpeg",
-    "thumbnail": "assets/img/products/IIA18D-19026.jpeg",
+    "image": "assets/img/products/11A18D-19026.jpeg",
+    "thumbnail": "assets/img/products/11A18D-19026.jpeg",
     "images": [
-      "assets/img/products/IIA18D-19026.jpeg"
+      "assets/img/products/11A18D-19026.jpeg"
     ],
-    "alt": "IIA18D-19026 Rubber Hose for CAMC heavy duty truck part",
+    "alt": "11A18D-19026 Rubber Hose for CAMC heavy duty truck part",
     "specifications": {
       "ID": [
         "80 mm",
@@ -6832,25 +6832,25 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "IIA18D-19026 INTERCOOLER RUBBER HOSE CAMC rubber-hose RUBBER HOSE other INTERCOOLER RUBBER HOSE CAMC. ID 80 mm, ID 90 mm, Length 140 mm, Other RED. INTERCOOLER RUBBER HOSE CAMC. ID 80 mm, ID 90 mm, Length 140 mm, Other RED. OCR/source text preserved for search. CAMC ID 80 mm; ID 90 mm; Length 140 mm; Other RED Ready stock WhatsApp Image 2026-08-12 at 10.00.00 PM (2).jpeg Rubber Hose/WhatsApp Image 2026-08-12 at 10.00.00 PM (2).jpeg ID 80mm L 140mm ID 90mm IIA18D-19026 INTERCOOLER RUBBER HOSE CAMC RED ID 80 X 90 L 140 heavy truck rubber hose truck hose hose component ID 80 mm ID 90 mm Length 140 mm Other RED truck rubber hose heavy-duty truck rubber hose",
+    "searchableText": "11A18D-19026 INTERCOOLER RUBBER HOSE CAMC rubber-hose RUBBER HOSE other INTERCOOLER RUBBER HOSE CAMC. ID 80 mm, ID 90 mm, Length 140 mm, Other RED. INTERCOOLER RUBBER HOSE CAMC. ID 80 mm, ID 90 mm, Length 140 mm, Other RED. OCR/source text preserved for search. CAMC ID 80 mm; ID 90 mm; Length 140 mm; Other RED Ready stock WhatsApp Image 2026-08-12 at 10.00.00 PM (2).jpeg Rubber Hose/WhatsApp Image 2026-08-12 at 10.00.00 PM (2).jpeg ID 80mm L 140mm ID 90mm 11A18D-19026 INTERCOOLER RUBBER HOSE CAMC RED ID 80 X 90 L 140 heavy truck rubber hose truck hose hose component ID 80 mm ID 90 mm Length 140 mm Other RED truck rubber hose heavy-duty truck rubber hose",
     "source": {
       "type": "rubber-hose-folder-image",
       "originalFile": "WhatsApp Image 2026-08-12 at 10.00.00 PM (2).jpeg",
       "originalPath": "Rubber Hose/WhatsApp Image 2026-08-12 at 10.00.00 PM (2).jpeg",
       "hash": "933a31daa25b567e4ef815071997d409f6f0681b787642b233a4533352a71b49",
-      "ocrText": "ID 80mm\nL 140mm\nID 90mm\nIIA18D-19026\nINTERCOOLER RUBBER HOSE CAMC\nRED ID 80 X 90 L 140",
+      "ocrText": "ID 80mm\nL 140mm\nID 90mm\n11A18D-19026\nINTERCOOLER RUBBER HOSE CAMC\nRED ID 80 X 90 L 140",
       "importedAt": "2026-08-12T14:23:15",
-      "recognitionNote": "Rubber Hose import; product code read from the prominent visible product code in the source image."
+      "recognitionNote": "Product code manually verified against the original catalogue image on 2026-08-17."
     },
-    "slug": "iia18d-19026-rubber-hose",
-    "url": "products/iia18d-19026-rubber-hose.html"
+    "slug": "11a18d-19026-rubber-hose",
+    "url": "products/11a18d-19026-rubber-hose.html"
   },
   {
-    "id": "IIA22D-19026",
-    "code": "IIA22D-19026",
-    "number": "IIA22D-19026",
-    "productNumber": "IIA22D-19026",
-    "partNumber": "IIA22D-19026",
+    "id": "11A22D-19026",
+    "code": "11A22D-19026",
+    "number": "11A22D-19026",
+    "productNumber": "11A22D-19026",
+    "partNumber": "11A22D-19026",
     "name": "INTERCOOLER RUBBER HOSE CAMC",
     "productName": "INTERCOOLER RUBBER HOSE CAMC",
     "category": "rubber-hose",
@@ -6873,12 +6873,12 @@ window.NAE_IMPORTED_PRODUCTS = [
     "alternateNumbers": [],
     "alternatePartNumbers": [],
     "availability": "Ready stock",
-    "image": "assets/img/products/IIA22D-19026.jpeg",
-    "thumbnail": "assets/img/products/IIA22D-19026.jpeg",
+    "image": "assets/img/products/11A22D-19026.jpeg",
+    "thumbnail": "assets/img/products/11A22D-19026.jpeg",
     "images": [
-      "assets/img/products/IIA22D-19026.jpeg"
+      "assets/img/products/11A22D-19026.jpeg"
     ],
-    "alt": "IIA22D-19026 Rubber Hose for CAMC heavy duty truck part",
+    "alt": "11A22D-19026 Rubber Hose for CAMC heavy duty truck part",
     "specifications": {
       "ID": [
         "102 mm"
@@ -6914,25 +6914,25 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "IIA22D-19026 INTERCOOLER RUBBER HOSE CAMC rubber-hose RUBBER HOSE other INTERCOOLER RUBBER HOSE CAMC. ID 102 mm, Length 140 mm, Other RED. INTERCOOLER RUBBER HOSE CAMC. ID 102 mm, Length 140 mm, Other RED. OCR/source text preserved for search. CAMC ID 102 mm; Length 140 mm; Other RED Ready stock WhatsApp Image 2026-08-12 at 10.00.00 PM (3).jpeg Rubber Hose/WhatsApp Image 2026-08-12 at 10.00.00 PM (3).jpeg ID 102mm L 140mm IIA22D-19026 INTERCOOLER RUBBER HOSE CAMC RED ID 102 L 140 heavy truck rubber hose truck hose hose component ID 102 mm Length 140 mm Other RED truck rubber hose heavy-duty truck rubber hose",
+    "searchableText": "11A22D-19026 INTERCOOLER RUBBER HOSE CAMC rubber-hose RUBBER HOSE other INTERCOOLER RUBBER HOSE CAMC. ID 102 mm, Length 140 mm, Other RED. INTERCOOLER RUBBER HOSE CAMC. ID 102 mm, Length 140 mm, Other RED. OCR/source text preserved for search. CAMC ID 102 mm; Length 140 mm; Other RED Ready stock WhatsApp Image 2026-08-12 at 10.00.00 PM (3).jpeg Rubber Hose/WhatsApp Image 2026-08-12 at 10.00.00 PM (3).jpeg ID 102mm L 140mm 11A22D-19026 INTERCOOLER RUBBER HOSE CAMC RED ID 102 L 140 heavy truck rubber hose truck hose hose component ID 102 mm Length 140 mm Other RED truck rubber hose heavy-duty truck rubber hose",
     "source": {
       "type": "rubber-hose-folder-image",
       "originalFile": "WhatsApp Image 2026-08-12 at 10.00.00 PM (3).jpeg",
       "originalPath": "Rubber Hose/WhatsApp Image 2026-08-12 at 10.00.00 PM (3).jpeg",
       "hash": "d09dcf620a3b73a5c4135d8944daa91a28a88c38d06ba019d76dcf7e54624129",
-      "ocrText": "ID 102mm\nL 140mm\nIIA22D-19026\nINTERCOOLER RUBBER HOSE CAMC\nRED ID 102 L 140",
+      "ocrText": "ID 102mm\nL 140mm\n11A22D-19026\nINTERCOOLER RUBBER HOSE CAMC\nRED ID 102 L 140",
       "importedAt": "2026-08-12T14:23:15",
-      "recognitionNote": "Rubber Hose import; product code read from the prominent visible product code in the source image."
+      "recognitionNote": "Product code manually verified against the original catalogue image on 2026-08-17."
     },
-    "slug": "iia22d-19026-rubber-hose",
-    "url": "products/iia22d-19026-rubber-hose.html"
+    "slug": "11a22d-19026-rubber-hose",
+    "url": "products/11a22d-19026-rubber-hose.html"
   },
   {
-    "id": "IIA49D-19014",
-    "code": "IIA49D-19014",
-    "number": "IIA49D-19014",
-    "productNumber": "IIA49D-19014",
-    "partNumber": "IIA49D-19014",
+    "id": "11A49D-19014",
+    "code": "11A49D-19014",
+    "number": "11A49D-19014",
+    "productNumber": "11A49D-19014",
+    "partNumber": "11A49D-19014",
     "name": "INTERCOOLER RUBBER HOSE CAMC",
     "productName": "INTERCOOLER RUBBER HOSE CAMC",
     "category": "rubber-hose",
@@ -6955,12 +6955,12 @@ window.NAE_IMPORTED_PRODUCTS = [
     "alternateNumbers": [],
     "alternatePartNumbers": [],
     "availability": "Ready stock",
-    "image": "assets/img/products/IIA49D-19014.jpeg",
-    "thumbnail": "assets/img/products/IIA49D-19014.jpeg",
+    "image": "assets/img/products/11A49D-19014.jpeg",
+    "thumbnail": "assets/img/products/11A49D-19014.jpeg",
     "images": [
-      "assets/img/products/IIA49D-19014.jpeg"
+      "assets/img/products/11A49D-19014.jpeg"
     ],
-    "alt": "IIA49D-19014 Rubber Hose for CAMC heavy duty truck part",
+    "alt": "11A49D-19014 Rubber Hose for CAMC heavy duty truck part",
     "specifications": {
       "ID": [
         "87 mm"
@@ -6996,25 +6996,25 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "IIA49D-19014 INTERCOOLER RUBBER HOSE CAMC rubber-hose RUBBER HOSE other INTERCOOLER RUBBER HOSE CAMC. ID 87 mm, Length 16 mm, Other RED. INTERCOOLER RUBBER HOSE CAMC. ID 87 mm, Length 16 mm, Other RED. OCR/source text preserved for search. CAMC ID 87 mm; Length 16 mm; Other RED Ready stock WhatsApp Image 2026-08-12 at 10.00.00 PM.jpeg Rubber Hose/WhatsApp Image 2026-08-12 at 10.00.00 PM.jpeg ID 87mm L 16\" /407mm ID IOOmm IIA49D-19014 INTERCOOLER RUBBER HOSE CAMC RED ID 87/100 L 16\" SAME IIA49D-19011-A heavy truck rubber hose truck hose hose component ID 87 mm Length 16 mm Other RED truck rubber hose heavy-duty truck rubber hose",
+    "searchableText": "11A49D-19014 INTERCOOLER RUBBER HOSE CAMC rubber-hose RUBBER HOSE other INTERCOOLER RUBBER HOSE CAMC. ID 87 mm, Length 16 mm, Other RED. INTERCOOLER RUBBER HOSE CAMC. ID 87 mm, Length 16 mm, Other RED. OCR/source text preserved for search. CAMC ID 87 mm; Length 16 mm; Other RED Ready stock WhatsApp Image 2026-08-12 at 10.00.00 PM.jpeg Rubber Hose/WhatsApp Image 2026-08-12 at 10.00.00 PM.jpeg ID 87mm L 16\" /407mm ID IOOmm 11A49D-19014 INTERCOOLER RUBBER HOSE CAMC RED ID 87/100 L 16\" SAME 11A49D-19011-A heavy truck rubber hose truck hose hose component ID 87 mm Length 16 mm Other RED truck rubber hose heavy-duty truck rubber hose",
     "source": {
       "type": "rubber-hose-folder-image",
       "originalFile": "WhatsApp Image 2026-08-12 at 10.00.00 PM.jpeg",
       "originalPath": "Rubber Hose/WhatsApp Image 2026-08-12 at 10.00.00 PM.jpeg",
       "hash": "a8ff456c82ef412d17a65c5d6f982fe5756ca7bf68ed3a52e82f90a1a73bfe2c",
-      "ocrText": "ID 87mm\nL 16\" /407mm\nID IOOmm\nIIA49D-19014\nINTERCOOLER RUBBER HOSE CAMC\nRED ID 87/100 L 16\" SAME IIA49D-19011-A",
+      "ocrText": "ID 87mm\nL 16\" /407mm\nID IOOmm\n11A49D-19014\nINTERCOOLER RUBBER HOSE CAMC\nRED ID 87/100 L 16\" SAME 11A49D-19011-A",
       "importedAt": "2026-08-12T14:23:15",
-      "recognitionNote": "Rubber Hose import; product code read from the prominent visible product code in the source image."
+      "recognitionNote": "Product code manually verified against the original catalogue image on 2026-08-17."
     },
-    "slug": "iia49d-19014-rubber-hose",
-    "url": "products/iia49d-19014-rubber-hose.html"
+    "slug": "11a49d-19014-rubber-hose",
+    "url": "products/11a49d-19014-rubber-hose.html"
   },
   {
-    "id": "IIA44D-19014-A",
-    "code": "IIA44D-19014-A",
-    "number": "IIA44D-19014-A",
-    "productNumber": "IIA44D-19014-A",
-    "partNumber": "IIA44D-19014-A",
+    "id": "11A44D-19014-A",
+    "code": "11A44D-19014-A",
+    "number": "11A44D-19014-A",
+    "productNumber": "11A44D-19014-A",
+    "partNumber": "11A44D-19014-A",
     "name": "INTERCOOLER RUBBER HOSE S SHAPE RED ID 93 L=280M",
     "productName": "INTERCOOLER RUBBER HOSE S SHAPE RED ID 93 L=280M",
     "category": "rubber-hose",
@@ -7035,12 +7035,12 @@ window.NAE_IMPORTED_PRODUCTS = [
     "alternateNumbers": [],
     "alternatePartNumbers": [],
     "availability": "Ready stock",
-    "image": "assets/img/products/IIA44D-19014-A.jpeg",
-    "thumbnail": "assets/img/products/IIA44D-19014-A.jpeg",
+    "image": "assets/img/products/11A44D-19014-A.jpeg",
+    "thumbnail": "assets/img/products/11A44D-19014-A.jpeg",
     "images": [
-      "assets/img/products/IIA44D-19014-A.jpeg"
+      "assets/img/products/11A44D-19014-A.jpeg"
     ],
-    "alt": "IIA44D-19014-A Rubber Hose heavy duty truck part",
+    "alt": "11A44D-19014-A Rubber Hose heavy duty truck part",
     "specifications": {
       "ID": [
         "93 mm"
@@ -7075,25 +7075,25 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "IIA44D-19014-A INTERCOOLER RUBBER HOSE S SHAPE RED ID 93 L=280M rubber-hose RUBBER HOSE other INTERCOOLER RUBBER HOSE S SHAPE RED ID 93 L=280M. ID 93 mm, Length 11 mm, Other RED. INTERCOOLER RUBBER HOSE S SHAPE RED ID 93 L=280M. ID 93 mm, Length 11 mm, Other RED. OCR/source text preserved for search. ID 93 mm; Length 11 mm; Other RED Ready stock WhatsApp Image 2026-08-12 at 10.00.01 PM (1).jpeg Rubber Hose/WhatsApp Image 2026-08-12 at 10.00.01 PM (1).jpeg ID 93mm L 11\" 1280mm IIA44D-19014-A INTERCOOLER RUBBER HOSE S SHAPE RED ID 93 L=280M CAMO heavy truck rubber hose truck hose hose component ID 93 mm Length 11 mm Other RED truck rubber hose heavy-duty truck rubber hose",
+    "searchableText": "11A44D-19014-A INTERCOOLER RUBBER HOSE S SHAPE RED ID 93 L=280M rubber-hose RUBBER HOSE other INTERCOOLER RUBBER HOSE S SHAPE RED ID 93 L=280M. ID 93 mm, Length 11 mm, Other RED. INTERCOOLER RUBBER HOSE S SHAPE RED ID 93 L=280M. ID 93 mm, Length 11 mm, Other RED. OCR/source text preserved for search. ID 93 mm; Length 11 mm; Other RED Ready stock WhatsApp Image 2026-08-12 at 10.00.01 PM (1).jpeg Rubber Hose/WhatsApp Image 2026-08-12 at 10.00.01 PM (1).jpeg ID 93mm L 11\" 1280mm 11A44D-19014-A INTERCOOLER RUBBER HOSE S SHAPE RED ID 93 L=280M CAMO heavy truck rubber hose truck hose hose component ID 93 mm Length 11 mm Other RED truck rubber hose heavy-duty truck rubber hose",
     "source": {
       "type": "rubber-hose-folder-image",
       "originalFile": "WhatsApp Image 2026-08-12 at 10.00.01 PM (1).jpeg",
       "originalPath": "Rubber Hose/WhatsApp Image 2026-08-12 at 10.00.01 PM (1).jpeg",
       "hash": "9d9dffdb2b6af5943e9e9c478d2862fc9e9c8ab1a0724984643303a6c7b9cfd4",
-      "ocrText": "ID 93mm\nL 11\" 1280mm\nIIA44D-19014-A\nINTERCOOLER RUBBER HOSE S SHAPE RED ID 93 L=280M\nCAMO",
+      "ocrText": "ID 93mm\nL 11\" 1280mm\n11A44D-19014-A\nINTERCOOLER RUBBER HOSE S SHAPE RED ID 93 L=280M\nCAMO",
       "importedAt": "2026-08-12T14:23:15",
-      "recognitionNote": "Rubber Hose import; product code read from the prominent visible product code in the source image."
+      "recognitionNote": "Product code manually verified against the original catalogue image on 2026-08-17."
     },
-    "slug": "iia44d-19014-a-rubber-hose",
-    "url": "products/iia44d-19014-a-rubber-hose.html"
+    "slug": "11a44d-19014-a-rubber-hose",
+    "url": "products/11a44d-19014-a-rubber-hose.html"
   },
   {
-    "id": "IIA49D-19011-A",
-    "code": "IIA49D-19011-A",
-    "number": "IIA49D-19011-A",
-    "productNumber": "IIA49D-19011-A",
-    "partNumber": "IIA49D-19011-A",
+    "id": "11A49D-19011-A",
+    "code": "11A49D-19011-A",
+    "number": "11A49D-19011-A",
+    "productNumber": "11A49D-19011-A",
+    "partNumber": "11A49D-19011-A",
     "name": "INTERCOOLER RUBBER HOSE",
     "productName": "INTERCOOLER RUBBER HOSE",
     "category": "rubber-hose",
@@ -7116,12 +7116,12 @@ window.NAE_IMPORTED_PRODUCTS = [
     "alternateNumbers": [],
     "alternatePartNumbers": [],
     "availability": "Ready stock",
-    "image": "assets/img/products/IIA49D-19011-A.jpeg",
-    "thumbnail": "assets/img/products/IIA49D-19011-A.jpeg",
+    "image": "assets/img/products/11A49D-19011-A.jpeg",
+    "thumbnail": "assets/img/products/11A49D-19011-A.jpeg",
     "images": [
-      "assets/img/products/IIA49D-19011-A.jpeg"
+      "assets/img/products/11A49D-19011-A.jpeg"
     ],
-    "alt": "IIA49D-19011-A Rubber Hose for CAMC heavy duty truck part",
+    "alt": "11A49D-19011-A Rubber Hose for CAMC heavy duty truck part",
     "specifications": {
       "ID": [
         "87 mm"
@@ -7157,18 +7157,18 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "IIA49D-19011-A INTERCOOLER RUBBER HOSE rubber-hose RUBBER HOSE other INTERCOOLER RUBBER HOSE. ID 87 mm, Length 15 mm, Other RED. INTERCOOLER RUBBER HOSE. ID 87 mm, Length 15 mm, Other RED. OCR/source text preserved for search. CAMC ID 87 mm; Length 15 mm; Other RED Ready stock WhatsApp Image 2026-08-12 at 10.00.01 PM (2).jpeg Rubber Hose/WhatsApp Image 2026-08-12 at 10.00.01 PM (2).jpeg L 15\" ID 87mm / 381mm ID IOOmm IIA49D-19011-A INTERCOOLER RUBBER HOSE CAMC RED ID 87/100 L 15* SAME IIA49D-19014 heavy truck rubber hose truck hose hose component ID 87 mm Length 15 mm Other RED truck rubber hose heavy-duty truck rubber hose",
+    "searchableText": "11A49D-19011-A INTERCOOLER RUBBER HOSE rubber-hose RUBBER HOSE other INTERCOOLER RUBBER HOSE. ID 87 mm, Length 15 mm, Other RED. INTERCOOLER RUBBER HOSE. ID 87 mm, Length 15 mm, Other RED. OCR/source text preserved for search. CAMC ID 87 mm; Length 15 mm; Other RED Ready stock WhatsApp Image 2026-08-12 at 10.00.01 PM (2).jpeg Rubber Hose/WhatsApp Image 2026-08-12 at 10.00.01 PM (2).jpeg L 15\" ID 87mm / 381mm ID IOOmm 11A49D-19011-A INTERCOOLER RUBBER HOSE CAMC RED ID 87/100 L 15* SAME 11A49D-19014 heavy truck rubber hose truck hose hose component ID 87 mm Length 15 mm Other RED truck rubber hose heavy-duty truck rubber hose",
     "source": {
       "type": "rubber-hose-folder-image",
       "originalFile": "WhatsApp Image 2026-08-12 at 10.00.01 PM (2).jpeg",
       "originalPath": "Rubber Hose/WhatsApp Image 2026-08-12 at 10.00.01 PM (2).jpeg",
       "hash": "78e0668fca9f96bcc0c4754e5e91f53507d95022839acc40617219b1a6612d48",
-      "ocrText": "L 15\"\nID 87mm\n/ 381mm\nID IOOmm\nIIA49D-19011-A\nINTERCOOLER RUBBER HOSE\nCAMC\nRED ID 87/100 L 15* SAME IIA49D-19014",
+      "ocrText": "L 15\"\nID 87mm\n/ 381mm\nID IOOmm\n11A49D-19011-A\nINTERCOOLER RUBBER HOSE\nCAMC\nRED ID 87/100 L 15* SAME 11A49D-19014",
       "importedAt": "2026-08-12T14:23:15",
-      "recognitionNote": "Rubber Hose import; product code read from the prominent visible product code in the source image."
+      "recognitionNote": "Product code manually verified against the original catalogue image on 2026-08-17."
     },
-    "slug": "iia49d-19011-a-rubber-hose",
-    "url": "products/iia49d-19011-a-rubber-hose.html"
+    "slug": "11a49d-19011-a-rubber-hose",
+    "url": "products/11a49d-19011-a-rubber-hose.html"
   },
   {
     "id": "DZ-932-595-35308",
@@ -7428,11 +7428,11 @@ window.NAE_IMPORTED_PRODUCTS = [
     "url": "products/vg-100-006-0241-rubber-hose.html"
   },
   {
-    "id": "IIDKB-09331",
-    "code": "IIDKB-09331",
-    "number": "IIDKB-09331",
-    "productNumber": "IIDKB-09331",
-    "partNumber": "IIDKB-09331",
+    "id": "11DKB-09331",
+    "code": "11DKB-09331",
+    "number": "11DKB-09331",
+    "productNumber": "11DKB-09331",
+    "partNumber": "11DKB-09331",
     "name": "INTERCOOLER RUBBER HOSE",
     "productName": "INTERCOOLER RUBBER HOSE",
     "category": "rubber-hose",
@@ -7455,12 +7455,12 @@ window.NAE_IMPORTED_PRODUCTS = [
     "alternateNumbers": [],
     "alternatePartNumbers": [],
     "availability": "Ready stock",
-    "image": "assets/img/products/IIDKB-09331.jpeg",
-    "thumbnail": "assets/img/products/IIDKB-09331.jpeg",
+    "image": "assets/img/products/11DKB-09331.jpeg",
+    "thumbnail": "assets/img/products/11DKB-09331.jpeg",
     "images": [
-      "assets/img/products/IIDKB-09331.jpeg"
+      "assets/img/products/11DKB-09331.jpeg"
     ],
-    "alt": "IIDKB-09331 Rubber Hose for HANVAN heavy duty truck part",
+    "alt": "11DKB-09331 Rubber Hose for HANVAN heavy duty truck part",
     "specifications": {
       "ID": [
         "78 mm"
@@ -7501,18 +7501,18 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "IIDKB-09331 INTERCOOLER RUBBER HOSE rubber-hose RUBBER HOSE other INTERCOOLER RUBBER HOSE. ID 78 mm, OD 90 mm, Length 110 mm, Other RED. INTERCOOLER RUBBER HOSE. ID 78 mm, OD 90 mm, Length 110 mm, Other RED. OCR/source text preserved for search. HANVAN ID 78 mm; OD 90 mm; Length 110 mm; Other RED Ready stock WhatsApp Image 2026-08-12 at 10.00.02 PM.jpeg Rubber Hose/WhatsApp Image 2026-08-12 at 10.00.02 PM.jpeg ID 78mm L 110mm IIDKB-09331 INTERCOOLER RUBBER HOSE XCMG HANVAN RED ID 78 OD 90 L 110 GOT 2 SPG heavy truck rubber hose truck hose hose component ID 78 mm OD 90 mm Length 110 mm Other RED truck rubber hose heavy-duty truck rubber hose",
+    "searchableText": "11DKB-09331 INTERCOOLER RUBBER HOSE rubber-hose RUBBER HOSE other INTERCOOLER RUBBER HOSE. ID 78 mm, OD 90 mm, Length 110 mm, Other RED. INTERCOOLER RUBBER HOSE. ID 78 mm, OD 90 mm, Length 110 mm, Other RED. OCR/source text preserved for search. HANVAN ID 78 mm; OD 90 mm; Length 110 mm; Other RED Ready stock WhatsApp Image 2026-08-12 at 10.00.02 PM.jpeg Rubber Hose/WhatsApp Image 2026-08-12 at 10.00.02 PM.jpeg ID 78mm L 110mm 11DKB-09331 INTERCOOLER RUBBER HOSE XCMG HANVAN RED ID 78 OD 90 L 110 GOT 2 SPG heavy truck rubber hose truck hose hose component ID 78 mm OD 90 mm Length 110 mm Other RED truck rubber hose heavy-duty truck rubber hose",
     "source": {
       "type": "rubber-hose-folder-image",
       "originalFile": "WhatsApp Image 2026-08-12 at 10.00.02 PM.jpeg",
       "originalPath": "Rubber Hose/WhatsApp Image 2026-08-12 at 10.00.02 PM.jpeg",
       "hash": "478ef32cedb91bcbd8fcca7e4870792ac96fe6e8d00fb9c80dc7f44a31aff85e",
-      "ocrText": "ID 78mm\nL 110mm\nIIDKB-09331\nINTERCOOLER RUBBER HOSE\nXCMG HANVAN\nRED ID 78 OD 90 L 110 GOT 2 SPG",
+      "ocrText": "ID 78mm\nL 110mm\n11DKB-09331\nINTERCOOLER RUBBER HOSE\nXCMG HANVAN\nRED ID 78 OD 90 L 110 GOT 2 SPG",
       "importedAt": "2026-08-12T14:23:15",
-      "recognitionNote": "Rubber Hose import; product code read from the prominent visible product code in the source image."
+      "recognitionNote": "Product code manually verified against the original catalogue image on 2026-08-17."
     },
-    "slug": "iidkb-09331-rubber-hose",
-    "url": "products/iidkb-09331-rubber-hose.html"
+    "slug": "11dkb-09331-rubber-hose",
+    "url": "products/11dkb-09331-rubber-hose.html"
   },
   {
     "id": "VG-104-711-0103",
@@ -8256,11 +8256,11 @@ window.NAE_IMPORTED_PRODUCTS = [
     "url": "products/117haq00008-rubber-hose.html"
   },
   {
-    "id": "IIA40D-19011",
-    "code": "IIA40D-19011",
-    "number": "IIA40D-19011",
-    "productNumber": "IIA40D-19011",
-    "partNumber": "IIA40D-19011",
+    "id": "11A40D-19011",
+    "code": "11A40D-19011",
+    "number": "11A40D-19011",
+    "productNumber": "11A40D-19011",
+    "partNumber": "11A40D-19011",
     "name": "INTERCOOLER RUBBER HOSE CAMC",
     "productName": "INTERCOOLER RUBBER HOSE CAMC",
     "category": "rubber-hose",
@@ -8283,12 +8283,12 @@ window.NAE_IMPORTED_PRODUCTS = [
     "alternateNumbers": [],
     "alternatePartNumbers": [],
     "availability": "Ready stock",
-    "image": "assets/img/products/IIA40D-19011.jpeg",
-    "thumbnail": "assets/img/products/IIA40D-19011.jpeg",
+    "image": "assets/img/products/11A40D-19011.jpeg",
+    "thumbnail": "assets/img/products/11A40D-19011.jpeg",
     "images": [
-      "assets/img/products/IIA40D-19011.jpeg"
+      "assets/img/products/11A40D-19011.jpeg"
     ],
-    "alt": "IIA40D-19011 Rubber Hose for CAMC heavy duty truck part",
+    "alt": "11A40D-19011 Rubber Hose for CAMC heavy duty truck part",
     "specifications": {
       "ID": [
         "87 mm",
@@ -8327,25 +8327,17 @@ window.NAE_IMPORTED_PRODUCTS = [
     "needsReview": false,
     "reviewReason": "",
     "confidence": 100,
-    "searchableText": "IIA40D-19011 INTERCOOLER RUBBER HOSE CAMC rubber-hose RUBBER HOSE other INTERCOOLER RUBBER HOSE CAMC. ID 87 mm, ID 98 mm, Length 233 mm, Other RED. INTERCOOLER RUBBER HOSE CAMC. ID 87 mm, ID 98 mm, Length 233 mm, Other RED. OCR/source text preserved for search. CAMC ID 87 mm; ID 98 mm; Length 233 mm; Other RED Ready stock WhatsApp Image 2026-08-12 at 9.59.59 PM.jpeg Rubber Hose/WhatsApp Image 2026-08-12 at 9.59.59 PM.jpeg ID 87mm L 233mm ID 98mm IIA40D-19011 INTERCOOLER RUBBER HOSE CAMC RED ID 87 X 98 L=233 heavy truck rubber hose truck hose hose component ID 87 mm ID 98 mm Length 233 mm Other RED truck rubber hose heavy-duty truck rubber hose",
+    "searchableText": "11A40D-19011 INTERCOOLER RUBBER HOSE CAMC rubber-hose RUBBER HOSE other INTERCOOLER RUBBER HOSE CAMC. ID 87 mm, ID 98 mm, Length 233 mm, Other RED. INTERCOOLER RUBBER HOSE CAMC. ID 87 mm, ID 98 mm, Length 233 mm, Other RED. OCR/source text preserved for search. CAMC ID 87 mm; ID 98 mm; Length 233 mm; Other RED Ready stock WhatsApp Image 2026-08-12 at 9.59.59 PM.jpeg Rubber Hose/WhatsApp Image 2026-08-12 at 9.59.59 PM.jpeg ID 87mm L 233mm ID 98mm 11A40D-19011 INTERCOOLER RUBBER HOSE CAMC RED ID 87 X 98 L=233 heavy truck rubber hose truck hose hose component ID 87 mm ID 98 mm Length 233 mm Other RED truck rubber hose heavy-duty truck rubber hose",
     "source": {
       "type": "rubber-hose-folder-image",
       "originalFile": "WhatsApp Image 2026-08-12 at 9.59.59 PM.jpeg",
       "originalPath": "Rubber Hose/WhatsApp Image 2026-08-12 at 9.59.59 PM.jpeg",
       "hash": "4f72a77bd73a2a5a35ee3931ef1d26e7d8c18d44d7a29243aa85961e2bb72f46",
-      "ocrText": "ID 87mm\nL 233mm\nID 98mm\nIIA40D-19011\nINTERCOOLER RUBBER HOSE CAMC\nRED ID 87 X 98 L=233",
+      "ocrText": "ID 87mm\nL 233mm\nID 98mm\n11A40D-19011\nINTERCOOLER RUBBER HOSE CAMC\nRED ID 87 X 98 L=233",
       "importedAt": "2026-08-12T14:23:15",
-      "recognitionNote": "Rubber Hose import; product code read from the prominent visible product code in the source image."
+      "recognitionNote": "Product code manually verified against the original catalogue image on 2026-08-17."
     },
-    "slug": "iia40d-19011-rubber-hose",
-    "url": "products/iia40d-19011-rubber-hose.html"
+    "slug": "11a40d-19011-rubber-hose",
+    "url": "products/11a40d-19011-rubber-hose.html"
   }
 ];
-window.NAE_IMPORT_META = {
-  "generatedAt": "2026-08-12T14:52:58",
-  "totalProducts": 80,
-  "source": "google-indexing-audit",
-  "searchIndexRebuilt": true,
-  "productSeoPagesChecked": 80,
-  "productionBaseUrl": "https://titan-900.github.io/NAE-TRUCK/"
-};
