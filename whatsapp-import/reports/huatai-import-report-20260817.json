@@ -1,0 +1,3006 @@
+{
+  "generatedAt": "2026-08-17T02:13:44",
+  "sourceFolders": [
+    "whatsapp-import/HUATAI-2026-07-21",
+    "whatsapp-import/HUATAI-BATCH-02"
+  ],
+  "canonicalSourceFolder": "whatsapp-import/HUATAI-2026-07-21",
+  "summary": {
+    "physicalImagesFound": 202,
+    "uniqueImagesBySha256": 100,
+    "mirroredOrExactDuplicateFiles": 102,
+    "productsAlreadyPresentBeforeImport": 0,
+    "newProductsImported": 94,
+    "duplicateProductCodeImagesSkipped": 5,
+    "manualReviewRequired": 1,
+    "totalProductsAfterImport": 197
+  },
+  "rows": [
+    {
+      "sourceImage": "WhatsApp Image 2026-07-16 at 5.00.13 PM.jpeg",
+      "productCode": "612630040001-HT",
+      "description": "Cylinder Head Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612630040001-HT-F8359A10F7A0.jpeg",
+      "url": "products/612630040001-ht-engine-parts.html",
+      "hash": "f8359a10f7a0d8c247108fcd24294a0497803e69c2fbef4698f856970fc0c1ca"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-16 at 5.02.11 PM.jpeg",
+      "productCode": "AZ-124-202-0561-HT",
+      "description": "Flywheel",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/AZ-124-202-0561-HT-5AAA5EDFAC2F.jpeg",
+      "url": "products/az-124-202-0561-ht-flywheel.html",
+      "hash": "5aaa5edfac2f5059b983f12660bc16ae82b60f7df4dd8f0124e3c084653d4cae"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-16 at 5.48.30 PM.jpeg",
+      "productCode": "VG-156-009-0001-HT",
+      "description": "Starter Motor",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-156-009-0001-HT-8BB0B6C2D4A9.jpeg",
+      "url": "products/vg-156-009-0001-ht-electrical-system.html",
+      "hash": "8bb0b6c2d4a930785e5ec188c5ca3ac22373ac2b53d7f5820f4d7760512a668d"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.49 PM (1).jpeg",
+      "productCode": "612600091077-HT",
+      "description": "Starter Motor",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612600091077-HT-C7D7A1B271C2.jpeg",
+      "url": "products/612600091077-ht-electrical-system.html",
+      "hash": "c7d7a1b271c201184b06569a24b1a06c57968da41dbf51e8edbfdacf622d1294"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.49 PM.jpeg",
+      "productCode": "VG-124-606-0002-HT",
+      "description": "Belt Tensioner",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-124-606-0002-HT-EE2C58A7945F.jpeg",
+      "url": "products/vg-124-606-0002-ht-engine-parts.html",
+      "hash": "ee2c58a7945f14cdb9f45dbef31e89f685d2122fe0b4824be5ffe922fa170979"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.50 PM (1).jpeg",
+      "productCode": "VG-124-605-0021-HT",
+      "description": "Intake Valve",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-124-605-0021-HT-49A72221ECD6.jpeg",
+      "url": "products/vg-124-605-0021-ht-engine-parts.html",
+      "hash": "49a72221ecd6ba0d77c326d866eb41c020f514bef698cbb1aaf9efb666e8b3b3"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.50 PM (2).jpeg",
+      "productCode": "VG-156-003-7033-HT",
+      "description": "Connecting Rod Bearing Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-156-003-7033-HT-DCB4389C14FB.jpeg",
+      "url": "products/vg-156-003-7033-ht-engine-parts.html",
+      "hash": "dcb4389c14fbe11648e9b7bf9c29a6a6f9af784f59de3e4105ad3f4ce6d3258f"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.50 PM.jpeg",
+      "productCode": "WP6G-OHG-HT",
+      "description": "Engine Overhaul Gasket Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/1302395801.jpeg",
+      "url": "products/wp6g-ohg-ht-engine-parts.html",
+      "hash": "23c774b9c54b0e3edcfd5d381554d6e3a46a5cc649d764003789a7d70c7ebac3"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.51 PM (1).jpeg",
+      "productCode": "612600062371-HT",
+      "description": "Belt Tensioner",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612600062371-HT-2851BE9AA715.jpeg",
+      "url": "products/612600062371-ht-engine-parts.html",
+      "hash": "2851be9aa715043902071dfefca1660d0c12cb1a3613b6dd7f1a3327790ac0b4"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.51 PM (2).jpeg",
+      "productCode": "1307010CM50-02000-HT",
+      "description": "Water Pump Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/HT1905.jpeg",
+      "url": "products/1307010cm50-02000-ht-cooling-system.html",
+      "hash": "2ac84389babd7ecc255a7b383decd05b4d1943db641d9346bdef55ed71136dc0"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.51 PM.jpeg",
+      "productCode": "VG-150-001-0006-HT",
+      "description": "Cylinder Liner",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-150-001-0006-HT-BEFD262F90AF.jpeg",
+      "url": "products/vg-150-001-0006-ht-engine-parts.html",
+      "hash": "befd262f90afc09627b5191573c77809143153f8049449527233472114e55ef4"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.52 PM (1).jpeg",
+      "productCode": "AZ-124-202-0561-HT",
+      "description": "Flywheel",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Product code already exists in the current database.",
+      "hash": "bada25836864cf7d79bfd570c3b22734f572e41489c275b6a5d558bdadd1e7d0"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.52 PM.jpeg",
+      "productCode": "61260040282-HT",
+      "description": "Cylinder Head",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/61260040282-HT-75B4968BB0D2.jpeg",
+      "url": "products/61260040282-ht-engine-parts.html",
+      "hash": "75b4968bb0d29c658b481f1498dd7f2583649b7e7c02ffde2593f0ea96070cf7"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.53 PM (1).jpeg",
+      "productCode": "615600060050-HT",
+      "description": "Water Pump Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/615600060050-HT-604C858A55A1.jpeg",
+      "url": "products/615600060050-ht-cooling-system.html",
+      "hash": "604c858a55a12ff370491e68f2c7c6112fbb6be80fae2c44e028fe6c94517b89"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.53 PM (2).jpeg",
+      "productCode": "WG-971-923-0023-HT",
+      "description": "Top Pump Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/WG-971-923-0023-HT-68C1AC98DF8F.jpeg",
+      "url": "products/wg-971-923-0023-ht-brake-system.html",
+      "hash": "68c1ac98df8f08840aea47556ac8c0ce1dd67d31a30d842174ab1a00dddecd3d"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.53 PM.jpeg",
+      "productCode": "612630030405-HEAD-HT",
+      "description": "Air Compressor Head",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612630030405.jpeg",
+      "url": "products/612630030405-head-ht-engine-parts.html",
+      "hash": "d67eb24dabfe441b09f7141cba7c6540368dad71ba2d6405f732c389808a6f13"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.54 PM (1).jpeg",
+      "productCode": "612630040006-HT",
+      "description": "Cylinder Head Gasket",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612630040006-HT-91844C9FF079.jpeg",
+      "url": "products/612630040006-ht-engine-parts.html",
+      "hash": "91844c9ff0799798a50b3684297e1634389a4091e8f9d9384fcf2dafb8764419"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.54 PM (2).jpeg",
+      "productCode": "VG-150-006-0051-HT",
+      "description": "Water Pump Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-150-006-0051-HT-3C765CBEACA4.jpeg",
+      "url": "products/vg-150-006-0051-ht-cooling-system.html",
+      "hash": "3c765cbeaca46f2b6a9d644db0a4ad38664636d3b510c3465cbbc48393d14bab"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.54 PM (3).jpeg",
+      "productCode": "VG-156-003-7011-HT",
+      "description": "Piston",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-156-003-7011-HT-3F538CA0388F.jpeg",
+      "url": "products/vg-156-003-7011-ht-engine-parts.html",
+      "hash": "3f538ca0388f7dc390efcca83fd7f227563047e675d3ea2d800078efc96f9d09"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.54 PM.jpeg",
+      "productCode": "VG-14050048-HT",
+      "description": "Intake Valve Rocker Arm",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-14050048-HT.jpeg",
+      "url": "products/vg-14050048-ht-engine-parts.html",
+      "hash": "afee9445181b27f46cc7561fbfc1829b3c5c5645a6fb9fd8947ed93874de5aac"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.55 PM (1).jpeg",
+      "productCode": "WG-156-005-0041-HT",
+      "description": "Exhaust Valve",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/WG-156-005-0041-HT-EF59FD4BE87C.jpeg",
+      "url": "products/wg-156-005-0041-ht-engine-parts.html",
+      "hash": "ef59fd4be87c21179292afd8c48d161d3094d56a097ea35cb83061a3431d1eb5"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.55 PM (2).jpeg",
+      "productCode": "VG-154-008-0110-HT",
+      "description": "Fuel Filter",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-154-008-0110-HT-F2B9D1CE876F.jpeg",
+      "url": "products/vg-154-008-0110-ht-engine-parts.html",
+      "hash": "f2b9d1ce876fdaeb7f4acfb4559ff31053663f8cd615ea4e51c4f99d4ae03d2b"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.55 PM.jpeg",
+      "productCode": "57X144-HT",
+      "description": "Coupling",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/57X144-HT.jpeg",
+      "url": "products/57x144-ht-transmission-parts.html",
+      "hash": "b0a49a2c66e2276dd16fa2b72edc3c32a5d8557d11fedb14f30db6299ef1b8e9"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.56 PM (1).jpeg",
+      "productCode": "VG-150-004-0049-HT",
+      "description": "Cylinder Head Gasket",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-150-004-0049-HT.jpeg",
+      "url": "products/vg-150-004-0049-ht-engine-parts.html",
+      "hash": "2fdb0b8f857a04efe8457f401f3c2514669851a65312f2f35611232e187f1fad"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.56 PM (2).jpeg",
+      "productCode": "VG-260-001-0990-HT",
+      "description": "Camshaft Bush Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-260-001-0990-HT.jpeg",
+      "url": "products/vg-260-001-0990-ht-engine-parts.html",
+      "hash": "ee665bdbc26b41252d845a29f5bae2cc727c1537a5ddfd3b9c07d822a016f98f"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.56 PM (3).jpeg",
+      "productCode": "VG-156-003-7033-2-HT",
+      "description": "Connecting Rod Bearing Set 0.50",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-156-003-7033-2-HT.jpeg",
+      "url": "products/vg-156-003-7033-2-ht-engine-parts.html",
+      "hash": "af43651246dcbfa3fe7c980cf034b04142449166c2b14a000b2040c3bf308046"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.56 PM.jpeg",
+      "productCode": "12159599-HT",
+      "description": "Camshaft Bush Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/12159599-HT-08EC467F2D92.jpeg",
+      "url": "products/12159599-ht-engine-parts.html",
+      "hash": "08ec467f2d9243edb8796d47797d38791c28e406e4b7d09c4cbfce85fcdee52a"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.57 PM (1).jpeg",
+      "productCode": "612630040001-HT",
+      "description": "Cylinder Head Assembly",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Product code already exists in the current database.",
+      "hash": "41cb046b0ef597e23692b9ee5fe679590e6c574dba1823b781da3fc51c3dc786"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.57 PM (2).jpeg",
+      "productCode": "HT5091",
+      "description": "Clutch Bearing Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/HT5091.jpeg",
+      "url": "products/ht5091-clutch-system.html",
+      "hash": "be6f6a0c63b99cfab636478d0f7140d373ceed2df7b45f281da946d56897fb62"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.57 PM.jpeg",
+      "productCode": "VG-156-003-7011-HT",
+      "description": "Piston",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Product code already exists in the current database.",
+      "hash": "0659f15adaf5c4d0c1bd07de39b5f0b13ca5f0b0d325a81c23ab1e070937a713"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.58 PM (1).jpeg",
+      "productCode": "KC612600030017-HT",
+      "description": "Piston Liner Kit",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/KC612600030017-HT.jpeg",
+      "url": "products/kc612600030017-ht-engine-parts.html",
+      "hash": "19f76722cb42df6042f49b47a4c59604db389bba3c9c59fde5a1e8c5d5aa16e4"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.58 PM (2).jpeg",
+      "productCode": "614080719-HT",
+      "description": "Hand Oil Pump",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/614080719-HT-BF332C0FD716.jpeg",
+      "url": "products/614080719-ht-engine-parts.html",
+      "hash": "bf332c0fd7163b96ebb79a6c1908121817067cc8842f407da462dbfecb83c0a8"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.58 PM (3).jpeg",
+      "productCode": "12273934-HT",
+      "description": "Thrust Washer",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/12273934-HT-9101A842B31B.jpeg",
+      "url": "products/12273934-ht-engine-parts.html",
+      "hash": "9101a842b31bf8d157349860f5f220ad09b46a0a670c8dbbee71a63d70293fef"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.58 PM.jpeg",
+      "productCode": "VG-150-005-0032-HT",
+      "description": "Valve Tappet",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-150-005-0032-HT-1423D88F2F56.jpeg",
+      "url": "products/vg-150-005-0032-ht-engine-parts.html",
+      "hash": "1423d88f2f56d59c62957371ae5ba2d90542fd98f218648f3aed6534641162bd"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.59 PM (1).jpeg",
+      "productCode": "WG-961-947-0080-HT",
+      "description": "Power Steering Pump",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/WG-961-947-0080-HT-72ECB9EDD134.jpeg",
+      "url": "products/wg-961-947-0080-ht-steering-system.html",
+      "hash": "72ecb9edd134d066816230e0dc00e07ad70323b09c8b62f0ffc2a8af4356d58e"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.59 PM (2).jpeg",
+      "productCode": "CM-5752508-HT",
+      "description": "Engine Overhaul Gasket Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/CM-5752508-HT.jpeg",
+      "url": "products/cm-5752508-ht-engine-parts.html",
+      "hash": "25c1d8ebdff3dc36e2904e0b037a34c2ffa84940a6ac32b7242bd32913781783"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.21.59 PM.jpeg",
+      "productCode": "5257188-HT",
+      "description": "Engine Overhaul Gasket Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/5257188-HT-2D5282410258.jpeg",
+      "url": "products/5257188-ht-engine-parts.html",
+      "hash": "2d5282410258bae1fd685f4de270a0244a60d11c265f5061e34648bbaf9791f3"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.00 PM (1).jpeg",
+      "productCode": "612600130777-HT",
+      "description": "Air Compressor Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612600130777-HT-F6A4BB78058C.jpeg",
+      "url": "products/612600130777-ht-engine-parts.html",
+      "hash": "f6a4bb78058c29b5555526e60b8b146db11e079ccbe3415418dbf580abf811f6"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.00 PM (2).jpeg",
+      "productCode": "612600030033-0.25-HT",
+      "description": "Connecting Rod Bearing Set 0.25",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612600030033-0-25-HT.jpeg",
+      "url": "products/612600030033-0-25-ht-engine-parts.html",
+      "hash": "e101ce303667e58a1d5c7687d38f2b0967e2d569b244cd75b62412d2175ba8a2"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.00 PM (3).jpeg",
+      "productCode": "VG-124-605-0027-HT",
+      "description": "Valve Seal",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-124-605-0027-HT.jpeg",
+      "url": "products/vg-124-605-0027-ht-engine-parts.html",
+      "hash": "a67aa655fe4035c2f24fc7e0887c912997de94e341855a9bddca88711be61760"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.00 PM.jpeg",
+      "productCode": "612600061256-HT",
+      "description": "Belt Tensioner",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612600061256-HT-227C660A2ECD.jpeg",
+      "url": "products/612600061256-ht-engine-parts.html",
+      "hash": "227c660a2ecd0886740ad6563b898191c2769cac9a78b3af54140e31f9b88990"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.01 PM (1).jpeg",
+      "productCode": "VG-260-001-0659-HT",
+      "description": "Oil Jet",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-260-001-0659-HT-D042068AA8FB.jpeg",
+      "url": "products/vg-260-001-0659-ht-engine-parts.html",
+      "hash": "d042068aa8fb3ab52888fee9b10b633b1badffe86697547804eb5802c1268021"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.01 PM (2).jpeg",
+      "productCode": "VG-109-313-0001-HT",
+      "description": "Air Compressor Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-109-313-0001-HT-4F528A2E4384.jpeg",
+      "url": "products/vg-109-313-0001-ht-engine-parts.html",
+      "hash": "4f528a2e4384fcd6e4d1aee427cfebaf0bc11c772feb43b580e402c0b3b3ccca"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.01 PM (3).jpeg",
+      "productCode": "K3046-HT",
+      "description": "Air Filter Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/K3046-HT.jpeg",
+      "url": "products/k3046-ht-engine-parts.html",
+      "hash": "24d608e7b0edd45b30a15a155946a5729ee05110179516237202c65ba107faca"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.01 PM.jpeg",
+      "productCode": "WG-972-516-0510-HT",
+      "description": "Clutch Bearing",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/WG-972-516-0510-HT-5425BA08CD0C.jpeg",
+      "url": "products/wg-972-516-0510-ht-clutch-system.html",
+      "hash": "5425ba08cd0cb6ab27ceb97e260f2223f827b6cf916b539633c095a09c4b974e"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.02 PM (1).jpeg",
+      "productCode": "WG-972-523-0041/1-OLD-HT",
+      "description": "Clutch Servo",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/HT5877.jpeg",
+      "url": "products/wg-972-523-0041-1-old-ht-clutch-system.html",
+      "hash": "9f9b043518cafe2609d98e50abdd956065f2a43144606cf1198f2a4c776141b3"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.02 PM (2).jpeg",
+      "productCode": "AZ-923-132-0014-HT",
+      "description": "Two-Speed Flange",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/AZ-923-132-0014-HT-C55B92D30287.jpeg",
+      "url": "products/az-923-132-0014-ht-axle-parts.html",
+      "hash": "c55b92d30287a39327b2e840019c6a29a861ed558be13b28ce3b8a08d36f4b08"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.02 PM.jpeg",
+      "productCode": "VG-156-003-7033-1-HT",
+      "description": "Connecting Rod Bearing Set 0.25",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-156-003-7033-1-HT.jpeg",
+      "url": "products/vg-156-003-7033-1-ht-engine-parts.html",
+      "hash": "f0f2517082f592bac40f5f00d49ab7461d8d5d20ab6ccbcd081fe5d47e6a1cf3"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.03 PM (1).jpeg",
+      "productCode": "VG-610-0007-0005-HT",
+      "description": "Oil Filter",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-610-0007-0005-HT-9156ECECC819.jpeg",
+      "url": "products/vg-610-0007-0005-ht-engine-parts.html",
+      "hash": "9156ececc819666e709dfedd447524a3b22a5af375d6c717659e702a89ae54be"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.03 PM (2).jpeg",
+      "productCode": "612630040026-HT",
+      "description": "Nozzle Tube",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612630040026-HT-14BF74F2D9E8.jpeg",
+      "url": "products/612630040026-ht-engine-parts.html",
+      "hash": "14bf74f2d9e8c0c4c2f73ed5454d056f6d0313569004ba458deb4703229210da"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.03 PM.jpeg",
+      "productCode": "AZ-923-132-0007-HT",
+      "description": "Rear Differential Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/AZ-923-132-0007-HT.jpeg",
+      "url": "products/az-923-132-0007-ht-axle-parts.html",
+      "hash": "2336c6655e65b17ba353ba8cafd2e3e2ca51f96b8395b26e11f56c03f291dae1"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.04 PM (1).jpeg",
+      "productCode": "080V95800-7477-HT",
+      "description": "Belt Tensioner",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/080V95800-7477-HT-BD446F48925C.jpeg",
+      "url": "products/080v95800-7477-ht-engine-parts.html",
+      "hash": "bd446f48925c4ffd4880f487f006953a6ee9984f87143e3d82604c20e766602a"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.04 PM (2).jpeg",
+      "productCode": "13068736-HT",
+      "description": "Connecting Rod Bearing Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/13068736-HT-FEBBC2CBEFF5.jpeg",
+      "url": "products/13068736-ht-engine-parts.html",
+      "hash": "febbc2cbeff5b38e3d19b9c74ade64abf66678a606e5fe297271e7f6102bb1b8"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.04 PM (3).jpeg",
+      "productCode": "WP12-OHG-SET-HT",
+      "description": "Engine Overhaul Gasket Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/WP12-OHG-SET-HT.jpeg",
+      "url": "products/wp12-ohg-set-ht-engine-parts.html",
+      "hash": "f83b63d4e4ae967428f75429e88809f8c59ea5164d4c8dd0380a2da6f833759f"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.04 PM.jpeg",
+      "productCode": "KC1560037011-HT",
+      "description": "Piston Liner Kit",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/KC1560037011-HT.jpeg",
+      "url": "products/kc1560037011-ht-engine-parts.html",
+      "hash": "c2632dc1d4bfde25e2c0dd372b5a1e63014ef80bb2e48ded0597adf4609d17b8"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.05 PM (1).jpeg",
+      "productCode": "68X165-HT",
+      "description": "Coupling",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/68X165-HT.jpeg",
+      "url": "products/68x165-ht-transmission-parts.html",
+      "hash": "abbe599fa5ec1283f63f0d8691ac3415b4dd991fee15ba096ab09d0e1f8151e1"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.05 PM (2).jpeg",
+      "productCode": "612600040282-ASSY-HT",
+      "description": "Cylinder Head Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612600040282-ASSY-HT.jpeg",
+      "url": "products/612600040282-assy-ht-engine-parts.html",
+      "hash": "41655abc4017c6b586b645d3b40add2ad4621bfd9c538ffb05756f3f46ced4c2"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.05 PM.jpeg",
+      "productCode": "VG-154-004-0068-HT",
+      "description": "Cylinder Head",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-154-004-0068-HT-D1DA52E3E885.jpeg",
+      "url": "products/vg-154-004-0068-ht-engine-parts.html",
+      "hash": "d1da52e3e885c77c54008764c9eef959e1f0574050e6596730c5d8eeee891227"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.06 PM (1).jpeg",
+      "productCode": "HT5094",
+      "description": "Clutch Bearing",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/HT5094.jpeg",
+      "url": "products/ht5094-clutch-system.html",
+      "hash": "5692a1b709dfd27f150da361b8b4aebcd58f92d79f3a635429a3fcfbd9472a5b"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.06 PM (2).jpeg",
+      "productCode": "AZ-124-604-0010-A-HT",
+      "description": "Cylinder Head Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/AZ-124-604-0010-A-HT.jpeg",
+      "url": "products/az-124-604-0010-a-ht-engine-parts.html",
+      "hash": "9314a3fecc45ec71398fa6eec3de266e18f61d2359575db7d2caef61cb6a22cc"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.06 PM (3).jpeg",
+      "productCode": "VG-156-004-0057-HT",
+      "description": "Intake Valve Seat",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-156-004-0057-HT-D4C58F6BF629.jpeg",
+      "url": "products/vg-156-004-0057-ht-engine-parts.html",
+      "hash": "d4c58f6bf629c683507fd88323684af2de14ea77e5242a6e6826826b4bf11714"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.06 PM.jpeg",
+      "productCode": "VG-124-608-0036-HT",
+      "description": "Fuel Injector",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-124-608-0036-HT-CA6077FCEF73.jpeg",
+      "url": "products/vg-124-608-0036-ht-engine-parts.html",
+      "hash": "ca6077fcef734ff3431edb9cb544168e6171890683780cbde8720a28bfe21170"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.07 PM (1).jpeg",
+      "productCode": "WG-923-134-2068-HT",
+      "description": "Rear Brake Lining Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/WG-923-134-2068-HT.jpeg",
+      "url": "products/wg-923-134-2068-ht-brake-system.html",
+      "hash": "a3f93ce3fbf8a4667e0e476d0cbcca16c1deedb08362d9b86202e622472d9eed"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.07 PM (2).jpeg",
+      "productCode": "47X140-HT",
+      "description": "Coupling",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/HT5427.jpeg",
+      "url": "products/47x140-ht-transmission-parts.html",
+      "hash": "4a80fc91463775e5d89147359577986bf31d38eb0ff3da722ed55bdd270c4b8d"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.07 PM.jpeg",
+      "productCode": "AZ-221-010-0026-HT",
+      "description": "King Pin Kit",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/AZ-221-010-0026-HT-B0A86D909E9F.jpeg",
+      "url": "products/az-221-010-0026-ht-steering-system.html",
+      "hash": "b0a86d909e9f8cd81acf569c5e818e1e6d1fc93d2d011d50c20e706948229564"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.08 PM (1).jpeg",
+      "productCode": "080V95800-7479-HT",
+      "description": "Belt Tensioner",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/080V95800-7479-HT-7FE955C51950.jpeg",
+      "url": "products/080v95800-7479-ht-engine-parts.html",
+      "hash": "7fe955c5195093efb999c5b7859f8344f50edee4aab11a15752b190a9e6766ad"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.08 PM (2).jpeg",
+      "productCode": "60X152-HT",
+      "description": "Coupling",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/60X152-HT.jpeg",
+      "url": "products/60x152-ht-transmission-parts.html",
+      "hash": "24f952eff490a8695bae20265bacc95696b34e39359bd3fac5f694373f25b6cd"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.08 PM.jpeg",
+      "productCode": "612630020038-HT",
+      "description": "Crankshaft",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612630020038-HT-6D67E8E4CC18.jpeg",
+      "url": "products/612630020038-ht-engine-parts.html",
+      "hash": "6d67e8e4cc180d6684133e267e233f56d3bd22dfdc4ebe88d41e10870bcdb148"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.09 PM (1).jpeg",
+      "productCode": "WG-156-001-0701-HT",
+      "description": "Engine Overhaul Gasket Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-156-004-0032-3D6CDF9EF13C.jpeg",
+      "url": "products/wg-156-001-0701-ht-engine-parts.html",
+      "hash": "3d6cdf9ef13cfb63087bcc71289eaf71c8b34cab80181674a7806b0f01ab24ff"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.09 PM (2).jpeg",
+      "productCode": "AZ-221-010-0026-HT",
+      "description": "King Pin Kit",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Product code already exists in the current database.",
+      "hash": "5203faa327bf8d2aaf8ac915b448e351d78365225a9fabfe8453b0dcde21905e"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.09 PM (3).jpeg",
+      "productCode": "WG-920-034-0068-HT",
+      "description": "Rear Brake Lining Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/920-034-0068.jpeg",
+      "url": "products/wg-920-034-0068-ht-brake-system.html",
+      "hash": "17d4e61f7b02f16d1249fcbe93512450e6eebc0276670cba087a7caaaab4c902"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.10 PM (1).jpeg",
+      "productCode": "62X149-HT",
+      "description": "Coupling",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/62X149-HT.jpeg",
+      "url": "products/62x149-ht-transmission-parts.html",
+      "hash": "623091ac7d9b0b44b7539c2c03626bb05e8bf00426639f476479cda26884a665"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.10 PM (2).jpeg",
+      "productCode": "612600130618-XLB-HT",
+      "description": "Air Compressor Repair Kit",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612600130618-XLB-HT.jpeg",
+      "url": "products/612600130618-xlb-ht-engine-parts.html",
+      "hash": "523c5526fc38560caadae6047d47c1369aa5147d57d3c6ce60d2a1596dd434ff"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.10 PM.jpeg",
+      "productCode": "WG-910-022-0027/9-HT",
+      "description": "Brake Lining Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/WG-910-022-0027-9-HT.jpeg",
+      "url": "products/wg-910-022-0027-9-ht-brake-system.html",
+      "hash": "14e46cfae3982d5ff54381cbc722e1c853e65950ac6eeaffcde70c67d4fa1213"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.11 PM (1).jpeg",
+      "productCode": "VG-156-004-0032-HT",
+      "description": "Valve Seal",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-156-004-0032-HT-25001EE6BB80.jpeg",
+      "url": "products/vg-156-004-0032-ht-engine-parts.html",
+      "hash": "25001ee6bb80c4d11672c87b929fcbb7de8f05d5f6c10fd37439c56f9c6c0353"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.11 PM (2).jpeg",
+      "productCode": "VG-156-002-0024-HT",
+      "description": "Crankshaft",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-156-002-0024-HT.jpeg",
+      "url": "products/vg-156-002-0024-ht-engine-parts.html",
+      "hash": "ef0a1303f6d005e8109c67cff535a2dfeed5d566ba8d04431910e05f1b1f2c4b"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.11 PM.jpeg",
+      "productCode": "VG-124-605-0022-HT",
+      "description": "Exhaust Valve",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-124-605-0022-HT-1A4191592570.jpeg",
+      "url": "products/vg-124-605-0022-ht-engine-parts.html",
+      "hash": "1a41915925708ef27eab821538e2e5621228b3f23f0627082fd18c8ec2217776"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.12 PM (1).jpeg",
+      "productCode": "VG-124-613-0008-HT",
+      "description": "Air Compressor Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-124-613-0008-HT-FAEC1745D221.jpeg",
+      "url": "products/vg-124-613-0008-ht-engine-parts.html",
+      "hash": "faec1745d221536db7a48cb1b382bcaa6d6831e20b2dd9391bc73ee64f365755"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.12 PM.jpeg",
+      "productCode": "VG-156-008-0276-HT",
+      "description": "Fuel Injector",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-156-008-0276-HT-62C447681D18.jpeg",
+      "url": "products/vg-156-008-0276-ht-engine-parts.html",
+      "hash": "62c447681d18650bfd1ab72f79b5fdbdc08c0ca10865f9bb31e21b52a97f1a8d"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.13 PM (1).jpeg",
+      "productCode": "1000549569-HT",
+      "description": "Valve Seal",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/1000549569-HT-0B74DBE11192.jpeg",
+      "url": "products/1000549569-ht-engine-parts.html",
+      "hash": "0b74dbe1119222dfcad0cfc7c9afc283528e7995b76b3c28b430611ebe40fbc5"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.13 PM (2).jpeg",
+      "productCode": "13038398-KIT-HT",
+      "description": "Piston Liner Kit",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/13038398-KIT-HT.jpeg",
+      "url": "products/13038398-kit-ht-engine-parts.html",
+      "hash": "56e3dfa829e2033ba251028b4be3442213bc0d35c822835decc1ded5c428444b"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.13 PM.jpeg",
+      "productCode": "WG-407-545-0160-HT",
+      "description": "Front Brake Lining Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/WG-407-545-0160-HT.jpeg",
+      "url": "products/wg-407-545-0160-ht-brake-system.html",
+      "hash": "8d6b33bbaf4118a5776e23764e0b7cc58a732dbac1855f2c1f771a126c7c72fc"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.14 PM (1).jpeg",
+      "productCode": "612600040113-HT",
+      "description": "Valve Guide",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612600040113-HT-9837BF69CBFC.jpeg",
+      "url": "products/612600040113-ht-engine-parts.html",
+      "hash": "9837bf69cbfc85ee2540521fdfba678cfa9cb2a599253d1225250419acd1b489"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.14 PM (2).jpeg",
+      "productCode": "VG-124-606-0006-HT",
+      "description": "Belt Tensioner",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-124-606-0006-HT.jpeg",
+      "url": "products/vg-124-606-0006-ht-engine-parts.html",
+      "hash": "cbe22d57f9536f60f25b65de8fbe436ce58d60f6f574ed0e947b07502027121e"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.14 PM.jpeg",
+      "productCode": "612620010055-HT",
+      "description": "Cylinder Liner",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612620010055-HT-241D34D1C2A4.jpeg",
+      "url": "products/612620010055-ht-engine-parts.html",
+      "hash": "241d34d1c2a4aa61939146c9873592aabb76462c5e732284613bc0693b7f8e1b"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.15 PM (1).jpeg",
+      "productCode": "200V05504-0122-HT",
+      "description": "Oil Filter",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/200V05504-0122-HT-F586B0DFB299.jpeg",
+      "url": "products/200v05504-0122-ht-engine-parts.html",
+      "hash": "f586b0dfb299067953269195d2e8848ba71a1fcd009790ef5cf2e896402b3b66"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.15 PM (2).jpeg",
+      "productCode": "VG-156-011-8229-HT",
+      "description": "Turbocharger",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/HT2430H.jpeg",
+      "url": "products/vg-156-011-8229-ht-engine-parts.html",
+      "hash": "82d5e30e8217a6e3afb561537ce8e80b273c08fa6333bc51659280ae691d86d1"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.15 PM.jpeg",
+      "productCode": "VG-124-601-0034-HT",
+      "description": "Main Bearing Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-124-601-0034-HT-C6D2383FAA2E.jpeg",
+      "url": "products/vg-124-601-0034-ht-engine-parts.html",
+      "hash": "c6d2383faa2ef33c9e95ccee6eb088543138ea5914579c72e6aef19f154a328f"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.16 PM (1).jpeg",
+      "productCode": "612600081334-HT",
+      "description": "Fuel Filter",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612600081334-HT-5F32AA2A43AC.jpeg",
+      "url": "products/612600081334-ht-engine-parts.html",
+      "hash": "5f32aa2a43ac107cc738cc969b0795811478535de54dfe36c0eaa8477232e79c"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.16 PM (2).jpeg",
+      "productCode": "",
+      "description": "Product code and description are not visibly present in the original catalogue image.",
+      "status": "MANUAL REVIEW",
+      "reason": "Only measurements are visible; publishing a primary product code would require guessing.",
+      "hash": "1823a7476c43419f3cc383cfd478653b73410daa41061978bbca41a4d1603d71"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.16 PM.jpeg",
+      "productCode": "612630030405-XLB-HT",
+      "description": "Air Compressor Repair Kit",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612630030405-XLB-HT.jpeg",
+      "url": "products/612630030405-xlb-ht-engine-parts.html",
+      "hash": "b9c744f8a23aa1b6d552eca2ff50d186a5c9206a730a979586649692df0d5867"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.17 PM (1).jpeg",
+      "productCode": "39X118-PLATE-HT",
+      "description": "Coupling Use Plate",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/HT5434H.jpeg",
+      "url": "products/39x118-plate-ht-transmission-parts.html",
+      "hash": "f9ed90a5d3d1a200f123c7a5d063071d31b2d317d65618fed66539c4fbff2dbc"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.17 PM.jpeg",
+      "productCode": "WG-711-745-0180-HT",
+      "description": "Rear Brake Lining Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/WG-711-745-0180-HT.jpeg",
+      "url": "products/wg-711-745-0180-ht-brake-system.html",
+      "hash": "b44e41509c82162894c6956ca71576fe932b4d72da664bbcadb3efc78b711c9f"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.18 PM (1).jpeg",
+      "productCode": "NAE-156-011-0000-HT",
+      "description": "Intake Manifold Gasket",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/HT2967.jpeg",
+      "url": "products/nae-156-011-0000-ht-engine-parts.html",
+      "hash": "92de57e196e059c6a2f2598569dc77afc6426813e199abf7eee91c19e1c9a7ae"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.18 PM (2).jpeg",
+      "productCode": "13034908-HT",
+      "description": "Main Bearing Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/13034908-HT-556FEE07EA19.jpeg",
+      "url": "products/13034908-ht-engine-parts.html",
+      "hash": "556fee07ea19d30d80dd816c963b080aaef45962d95ffe92f9a94aed19027168"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.18 PM.jpeg",
+      "productCode": "612600030068-HT",
+      "description": "Piston Liner Kit",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612600030068-HT-DCA3D848401D.jpeg",
+      "url": "products/612600030068-ht-engine-parts.html",
+      "hash": "dca3d848401dd013a5fa52f5a3c392c9c799ebf00b3f90edd6fd8756857b91c0"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.19 PM (1).jpeg",
+      "productCode": "61800050143-HT",
+      "description": "Push Rod",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/61800050143-HT-D1F95CCAD992.jpeg",
+      "url": "products/61800050143-ht-engine-parts.html",
+      "hash": "d1f95ccad992ba95d9356b9d728d289b4c5e20ce606ed998387d5bfe4209242a"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.19 PM (2).jpeg",
+      "productCode": "68X165-HT",
+      "description": "Coupling",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Product code already exists in the current database.",
+      "hash": "e43db330ff6feff895a4513aba12381703fac7897f39f324353275c6b504581b"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.19 PM.jpeg",
+      "productCode": "VG-14050049-HT",
+      "description": "Exhaust Valve Rocker Arm",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-14050049-HT.jpeg",
+      "url": "products/vg-14050049-ht-engine-parts.html",
+      "hash": "ea19132a6ebcfcc740b7710a9b7592020345c32778961cbf7a6ceb4c17c4c36d"
+    },
+    {
+      "sourceImage": "WhatsApp Image 2026-07-21 at 11.22.20 PM.jpeg",
+      "productCode": "WG-992-555-0202-HT",
+      "description": "Pre-Fuel Filter",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/WG-992-555-0202-HT-FDE338CBB128.jpeg",
+      "url": "products/wg-992-555-0202-ht-engine-parts.html",
+      "hash": "fde338cbb12861b9ae7a66458acf7bfe0f1d6d607b29776b60cdfd158b1b2ab1"
+    }
+  ],
+  "physicalRows": [
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-16 at 5.00.13 PM.jpeg",
+      "productCode": "612630040001-HT",
+      "description": "Cylinder Head Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612630040001-HT-F8359A10F7A0.jpeg",
+      "url": "products/612630040001-ht-engine-parts.html",
+      "hash": "f8359a10f7a0d8c247108fcd24294a0497803e69c2fbef4698f856970fc0c1ca"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-16 at 5.02.11 PM.jpeg",
+      "productCode": "AZ-124-202-0561-HT",
+      "description": "Flywheel",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/AZ-124-202-0561-HT-5AAA5EDFAC2F.jpeg",
+      "url": "products/az-124-202-0561-ht-flywheel.html",
+      "hash": "5aaa5edfac2f5059b983f12660bc16ae82b60f7df4dd8f0124e3c084653d4cae"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-16 at 5.48.30 PM.jpeg",
+      "productCode": "VG-156-009-0001-HT",
+      "description": "Starter Motor",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-156-009-0001-HT-8BB0B6C2D4A9.jpeg",
+      "url": "products/vg-156-009-0001-ht-electrical-system.html",
+      "hash": "8bb0b6c2d4a930785e5ec188c5ca3ac22373ac2b53d7f5820f4d7760512a668d"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.49 PM (1).jpeg",
+      "productCode": "612600091077-HT",
+      "description": "Starter Motor",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612600091077-HT-C7D7A1B271C2.jpeg",
+      "url": "products/612600091077-ht-electrical-system.html",
+      "hash": "c7d7a1b271c201184b06569a24b1a06c57968da41dbf51e8edbfdacf622d1294"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.49 PM.jpeg",
+      "productCode": "VG-124-606-0002-HT",
+      "description": "Belt Tensioner",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-124-606-0002-HT-EE2C58A7945F.jpeg",
+      "url": "products/vg-124-606-0002-ht-engine-parts.html",
+      "hash": "ee2c58a7945f14cdb9f45dbef31e89f685d2122fe0b4824be5ffe922fa170979"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.50 PM (1).jpeg",
+      "productCode": "VG-124-605-0021-HT",
+      "description": "Intake Valve",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-124-605-0021-HT-49A72221ECD6.jpeg",
+      "url": "products/vg-124-605-0021-ht-engine-parts.html",
+      "hash": "49a72221ecd6ba0d77c326d866eb41c020f514bef698cbb1aaf9efb666e8b3b3"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.50 PM (2).jpeg",
+      "productCode": "VG-156-003-7033-HT",
+      "description": "Connecting Rod Bearing Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-156-003-7033-HT-DCB4389C14FB.jpeg",
+      "url": "products/vg-156-003-7033-ht-engine-parts.html",
+      "hash": "dcb4389c14fbe11648e9b7bf9c29a6a6f9af784f59de3e4105ad3f4ce6d3258f"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.50 PM.jpeg",
+      "productCode": "WP6G-OHG-HT",
+      "description": "Engine Overhaul Gasket Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/1302395801.jpeg",
+      "url": "products/wp6g-ohg-ht-engine-parts.html",
+      "hash": "23c774b9c54b0e3edcfd5d381554d6e3a46a5cc649d764003789a7d70c7ebac3"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.51 PM (1).jpeg",
+      "productCode": "612600062371-HT",
+      "description": "Belt Tensioner",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612600062371-HT-2851BE9AA715.jpeg",
+      "url": "products/612600062371-ht-engine-parts.html",
+      "hash": "2851be9aa715043902071dfefca1660d0c12cb1a3613b6dd7f1a3327790ac0b4"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.51 PM (2).jpeg",
+      "productCode": "1307010CM50-02000-HT",
+      "description": "Water Pump Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/HT1905.jpeg",
+      "url": "products/1307010cm50-02000-ht-cooling-system.html",
+      "hash": "2ac84389babd7ecc255a7b383decd05b4d1943db641d9346bdef55ed71136dc0"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.51 PM.jpeg",
+      "productCode": "VG-150-001-0006-HT",
+      "description": "Cylinder Liner",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-150-001-0006-HT-BEFD262F90AF.jpeg",
+      "url": "products/vg-150-001-0006-ht-engine-parts.html",
+      "hash": "befd262f90afc09627b5191573c77809143153f8049449527233472114e55ef4"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.52 PM (1).jpeg",
+      "productCode": "AZ-124-202-0561-HT",
+      "description": "Flywheel",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Product code already exists in the current database.",
+      "hash": "bada25836864cf7d79bfd570c3b22734f572e41489c275b6a5d558bdadd1e7d0"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.52 PM.jpeg",
+      "productCode": "61260040282-HT",
+      "description": "Cylinder Head",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/61260040282-HT-75B4968BB0D2.jpeg",
+      "url": "products/61260040282-ht-engine-parts.html",
+      "hash": "75b4968bb0d29c658b481f1498dd7f2583649b7e7c02ffde2593f0ea96070cf7"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.53 PM (1).jpeg",
+      "productCode": "615600060050-HT",
+      "description": "Water Pump Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/615600060050-HT-604C858A55A1.jpeg",
+      "url": "products/615600060050-ht-cooling-system.html",
+      "hash": "604c858a55a12ff370491e68f2c7c6112fbb6be80fae2c44e028fe6c94517b89"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.53 PM (2).jpeg",
+      "productCode": "WG-971-923-0023-HT",
+      "description": "Top Pump Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/WG-971-923-0023-HT-68C1AC98DF8F.jpeg",
+      "url": "products/wg-971-923-0023-ht-brake-system.html",
+      "hash": "68c1ac98df8f08840aea47556ac8c0ce1dd67d31a30d842174ab1a00dddecd3d"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.53 PM.jpeg",
+      "productCode": "612630030405-HEAD-HT",
+      "description": "Air Compressor Head",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612630030405.jpeg",
+      "url": "products/612630030405-head-ht-engine-parts.html",
+      "hash": "d67eb24dabfe441b09f7141cba7c6540368dad71ba2d6405f732c389808a6f13"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.54 PM (1).jpeg",
+      "productCode": "612630040006-HT",
+      "description": "Cylinder Head Gasket",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612630040006-HT-91844C9FF079.jpeg",
+      "url": "products/612630040006-ht-engine-parts.html",
+      "hash": "91844c9ff0799798a50b3684297e1634389a4091e8f9d9384fcf2dafb8764419"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.54 PM (2).jpeg",
+      "productCode": "VG-150-006-0051-HT",
+      "description": "Water Pump Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-150-006-0051-HT-3C765CBEACA4.jpeg",
+      "url": "products/vg-150-006-0051-ht-cooling-system.html",
+      "hash": "3c765cbeaca46f2b6a9d644db0a4ad38664636d3b510c3465cbbc48393d14bab"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.54 PM (3).jpeg",
+      "productCode": "VG-156-003-7011-HT",
+      "description": "Piston",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-156-003-7011-HT-3F538CA0388F.jpeg",
+      "url": "products/vg-156-003-7011-ht-engine-parts.html",
+      "hash": "3f538ca0388f7dc390efcca83fd7f227563047e675d3ea2d800078efc96f9d09"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.54 PM.jpeg",
+      "productCode": "VG-14050048-HT",
+      "description": "Intake Valve Rocker Arm",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-14050048-HT.jpeg",
+      "url": "products/vg-14050048-ht-engine-parts.html",
+      "hash": "afee9445181b27f46cc7561fbfc1829b3c5c5645a6fb9fd8947ed93874de5aac"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.55 PM (1).jpeg",
+      "productCode": "WG-156-005-0041-HT",
+      "description": "Exhaust Valve",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/WG-156-005-0041-HT-EF59FD4BE87C.jpeg",
+      "url": "products/wg-156-005-0041-ht-engine-parts.html",
+      "hash": "ef59fd4be87c21179292afd8c48d161d3094d56a097ea35cb83061a3431d1eb5"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.55 PM (2).jpeg",
+      "productCode": "VG-154-008-0110-HT",
+      "description": "Fuel Filter",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-154-008-0110-HT-F2B9D1CE876F.jpeg",
+      "url": "products/vg-154-008-0110-ht-engine-parts.html",
+      "hash": "f2b9d1ce876fdaeb7f4acfb4559ff31053663f8cd615ea4e51c4f99d4ae03d2b"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.55 PM.jpeg",
+      "productCode": "57X144-HT",
+      "description": "Coupling",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/57X144-HT.jpeg",
+      "url": "products/57x144-ht-transmission-parts.html",
+      "hash": "b0a49a2c66e2276dd16fa2b72edc3c32a5d8557d11fedb14f30db6299ef1b8e9"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.56 PM (1).jpeg",
+      "productCode": "VG-150-004-0049-HT",
+      "description": "Cylinder Head Gasket",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-150-004-0049-HT.jpeg",
+      "url": "products/vg-150-004-0049-ht-engine-parts.html",
+      "hash": "2fdb0b8f857a04efe8457f401f3c2514669851a65312f2f35611232e187f1fad"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.56 PM (2).jpeg",
+      "productCode": "VG-260-001-0990-HT",
+      "description": "Camshaft Bush Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-260-001-0990-HT.jpeg",
+      "url": "products/vg-260-001-0990-ht-engine-parts.html",
+      "hash": "ee665bdbc26b41252d845a29f5bae2cc727c1537a5ddfd3b9c07d822a016f98f"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.56 PM (3).jpeg",
+      "productCode": "VG-156-003-7033-2-HT",
+      "description": "Connecting Rod Bearing Set 0.50",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-156-003-7033-2-HT.jpeg",
+      "url": "products/vg-156-003-7033-2-ht-engine-parts.html",
+      "hash": "af43651246dcbfa3fe7c980cf034b04142449166c2b14a000b2040c3bf308046"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.56 PM.jpeg",
+      "productCode": "12159599-HT",
+      "description": "Camshaft Bush Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/12159599-HT-08EC467F2D92.jpeg",
+      "url": "products/12159599-ht-engine-parts.html",
+      "hash": "08ec467f2d9243edb8796d47797d38791c28e406e4b7d09c4cbfce85fcdee52a"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.57 PM (1).jpeg",
+      "productCode": "612630040001-HT",
+      "description": "Cylinder Head Assembly",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Product code already exists in the current database.",
+      "hash": "41cb046b0ef597e23692b9ee5fe679590e6c574dba1823b781da3fc51c3dc786"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.57 PM (2).jpeg",
+      "productCode": "HT5091",
+      "description": "Clutch Bearing Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/HT5091.jpeg",
+      "url": "products/ht5091-clutch-system.html",
+      "hash": "be6f6a0c63b99cfab636478d0f7140d373ceed2df7b45f281da946d56897fb62"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.57 PM.jpeg",
+      "productCode": "VG-156-003-7011-HT",
+      "description": "Piston",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Product code already exists in the current database.",
+      "hash": "0659f15adaf5c4d0c1bd07de39b5f0b13ca5f0b0d325a81c23ab1e070937a713"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.58 PM (1).jpeg",
+      "productCode": "KC612600030017-HT",
+      "description": "Piston Liner Kit",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/KC612600030017-HT.jpeg",
+      "url": "products/kc612600030017-ht-engine-parts.html",
+      "hash": "19f76722cb42df6042f49b47a4c59604db389bba3c9c59fde5a1e8c5d5aa16e4"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.58 PM (2).jpeg",
+      "productCode": "614080719-HT",
+      "description": "Hand Oil Pump",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/614080719-HT-BF332C0FD716.jpeg",
+      "url": "products/614080719-ht-engine-parts.html",
+      "hash": "bf332c0fd7163b96ebb79a6c1908121817067cc8842f407da462dbfecb83c0a8"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.58 PM (3).jpeg",
+      "productCode": "12273934-HT",
+      "description": "Thrust Washer",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/12273934-HT-9101A842B31B.jpeg",
+      "url": "products/12273934-ht-engine-parts.html",
+      "hash": "9101a842b31bf8d157349860f5f220ad09b46a0a670c8dbbee71a63d70293fef"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.58 PM.jpeg",
+      "productCode": "VG-150-005-0032-HT",
+      "description": "Valve Tappet",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-150-005-0032-HT-1423D88F2F56.jpeg",
+      "url": "products/vg-150-005-0032-ht-engine-parts.html",
+      "hash": "1423d88f2f56d59c62957371ae5ba2d90542fd98f218648f3aed6534641162bd"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.59 PM (1).jpeg",
+      "productCode": "WG-961-947-0080-HT",
+      "description": "Power Steering Pump",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/WG-961-947-0080-HT-72ECB9EDD134.jpeg",
+      "url": "products/wg-961-947-0080-ht-steering-system.html",
+      "hash": "72ecb9edd134d066816230e0dc00e07ad70323b09c8b62f0ffc2a8af4356d58e"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.59 PM (2).jpeg",
+      "productCode": "CM-5752508-HT",
+      "description": "Engine Overhaul Gasket Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/CM-5752508-HT.jpeg",
+      "url": "products/cm-5752508-ht-engine-parts.html",
+      "hash": "25c1d8ebdff3dc36e2904e0b037a34c2ffa84940a6ac32b7242bd32913781783"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.59 PM.jpeg",
+      "productCode": "5257188-HT",
+      "description": "Engine Overhaul Gasket Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/5257188-HT-2D5282410258.jpeg",
+      "url": "products/5257188-ht-engine-parts.html",
+      "hash": "2d5282410258bae1fd685f4de270a0244a60d11c265f5061e34648bbaf9791f3"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.00 PM (1).jpeg",
+      "productCode": "612600130777-HT",
+      "description": "Air Compressor Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612600130777-HT-F6A4BB78058C.jpeg",
+      "url": "products/612600130777-ht-engine-parts.html",
+      "hash": "f6a4bb78058c29b5555526e60b8b146db11e079ccbe3415418dbf580abf811f6"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.00 PM (2).jpeg",
+      "productCode": "612600030033-0.25-HT",
+      "description": "Connecting Rod Bearing Set 0.25",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612600030033-0-25-HT.jpeg",
+      "url": "products/612600030033-0-25-ht-engine-parts.html",
+      "hash": "e101ce303667e58a1d5c7687d38f2b0967e2d569b244cd75b62412d2175ba8a2"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.00 PM (3).jpeg",
+      "productCode": "VG-124-605-0027-HT",
+      "description": "Valve Seal",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-124-605-0027-HT.jpeg",
+      "url": "products/vg-124-605-0027-ht-engine-parts.html",
+      "hash": "a67aa655fe4035c2f24fc7e0887c912997de94e341855a9bddca88711be61760"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.00 PM.jpeg",
+      "productCode": "612600061256-HT",
+      "description": "Belt Tensioner",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612600061256-HT-227C660A2ECD.jpeg",
+      "url": "products/612600061256-ht-engine-parts.html",
+      "hash": "227c660a2ecd0886740ad6563b898191c2769cac9a78b3af54140e31f9b88990"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.01 PM (1).jpeg",
+      "productCode": "VG-260-001-0659-HT",
+      "description": "Oil Jet",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-260-001-0659-HT-D042068AA8FB.jpeg",
+      "url": "products/vg-260-001-0659-ht-engine-parts.html",
+      "hash": "d042068aa8fb3ab52888fee9b10b633b1badffe86697547804eb5802c1268021"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.01 PM (2).jpeg",
+      "productCode": "VG-109-313-0001-HT",
+      "description": "Air Compressor Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-109-313-0001-HT-4F528A2E4384.jpeg",
+      "url": "products/vg-109-313-0001-ht-engine-parts.html",
+      "hash": "4f528a2e4384fcd6e4d1aee427cfebaf0bc11c772feb43b580e402c0b3b3ccca"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.01 PM (3).jpeg",
+      "productCode": "K3046-HT",
+      "description": "Air Filter Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/K3046-HT.jpeg",
+      "url": "products/k3046-ht-engine-parts.html",
+      "hash": "24d608e7b0edd45b30a15a155946a5729ee05110179516237202c65ba107faca"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.01 PM.jpeg",
+      "productCode": "WG-972-516-0510-HT",
+      "description": "Clutch Bearing",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/WG-972-516-0510-HT-5425BA08CD0C.jpeg",
+      "url": "products/wg-972-516-0510-ht-clutch-system.html",
+      "hash": "5425ba08cd0cb6ab27ceb97e260f2223f827b6cf916b539633c095a09c4b974e"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.02 PM (1).jpeg",
+      "productCode": "WG-972-523-0041/1-OLD-HT",
+      "description": "Clutch Servo",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/HT5877.jpeg",
+      "url": "products/wg-972-523-0041-1-old-ht-clutch-system.html",
+      "hash": "9f9b043518cafe2609d98e50abdd956065f2a43144606cf1198f2a4c776141b3"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.02 PM (2).jpeg",
+      "productCode": "AZ-923-132-0014-HT",
+      "description": "Two-Speed Flange",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/AZ-923-132-0014-HT-C55B92D30287.jpeg",
+      "url": "products/az-923-132-0014-ht-axle-parts.html",
+      "hash": "c55b92d30287a39327b2e840019c6a29a861ed558be13b28ce3b8a08d36f4b08"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.02 PM.jpeg",
+      "productCode": "VG-156-003-7033-1-HT",
+      "description": "Connecting Rod Bearing Set 0.25",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-156-003-7033-1-HT.jpeg",
+      "url": "products/vg-156-003-7033-1-ht-engine-parts.html",
+      "hash": "f0f2517082f592bac40f5f00d49ab7461d8d5d20ab6ccbcd081fe5d47e6a1cf3"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.03 PM (1).jpeg",
+      "productCode": "VG-610-0007-0005-HT",
+      "description": "Oil Filter",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-610-0007-0005-HT-9156ECECC819.jpeg",
+      "url": "products/vg-610-0007-0005-ht-engine-parts.html",
+      "hash": "9156ececc819666e709dfedd447524a3b22a5af375d6c717659e702a89ae54be"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.03 PM (2).jpeg",
+      "productCode": "612630040026-HT",
+      "description": "Nozzle Tube",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612630040026-HT-14BF74F2D9E8.jpeg",
+      "url": "products/612630040026-ht-engine-parts.html",
+      "hash": "14bf74f2d9e8c0c4c2f73ed5454d056f6d0313569004ba458deb4703229210da"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.03 PM.jpeg",
+      "productCode": "AZ-923-132-0007-HT",
+      "description": "Rear Differential Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/AZ-923-132-0007-HT.jpeg",
+      "url": "products/az-923-132-0007-ht-axle-parts.html",
+      "hash": "2336c6655e65b17ba353ba8cafd2e3e2ca51f96b8395b26e11f56c03f291dae1"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.04 PM (1).jpeg",
+      "productCode": "080V95800-7477-HT",
+      "description": "Belt Tensioner",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/080V95800-7477-HT-BD446F48925C.jpeg",
+      "url": "products/080v95800-7477-ht-engine-parts.html",
+      "hash": "bd446f48925c4ffd4880f487f006953a6ee9984f87143e3d82604c20e766602a"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.04 PM (2).jpeg",
+      "productCode": "13068736-HT",
+      "description": "Connecting Rod Bearing Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/13068736-HT-FEBBC2CBEFF5.jpeg",
+      "url": "products/13068736-ht-engine-parts.html",
+      "hash": "febbc2cbeff5b38e3d19b9c74ade64abf66678a606e5fe297271e7f6102bb1b8"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.04 PM (3).jpeg",
+      "productCode": "WP12-OHG-SET-HT",
+      "description": "Engine Overhaul Gasket Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/WP12-OHG-SET-HT.jpeg",
+      "url": "products/wp12-ohg-set-ht-engine-parts.html",
+      "hash": "f83b63d4e4ae967428f75429e88809f8c59ea5164d4c8dd0380a2da6f833759f"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.04 PM.jpeg",
+      "productCode": "KC1560037011-HT",
+      "description": "Piston Liner Kit",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/KC1560037011-HT.jpeg",
+      "url": "products/kc1560037011-ht-engine-parts.html",
+      "hash": "c2632dc1d4bfde25e2c0dd372b5a1e63014ef80bb2e48ded0597adf4609d17b8"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.05 PM (1).jpeg",
+      "productCode": "68X165-HT",
+      "description": "Coupling",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/68X165-HT.jpeg",
+      "url": "products/68x165-ht-transmission-parts.html",
+      "hash": "abbe599fa5ec1283f63f0d8691ac3415b4dd991fee15ba096ab09d0e1f8151e1"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.05 PM (2).jpeg",
+      "productCode": "612600040282-ASSY-HT",
+      "description": "Cylinder Head Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612600040282-ASSY-HT.jpeg",
+      "url": "products/612600040282-assy-ht-engine-parts.html",
+      "hash": "41655abc4017c6b586b645d3b40add2ad4621bfd9c538ffb05756f3f46ced4c2"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.05 PM.jpeg",
+      "productCode": "VG-154-004-0068-HT",
+      "description": "Cylinder Head",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-154-004-0068-HT-D1DA52E3E885.jpeg",
+      "url": "products/vg-154-004-0068-ht-engine-parts.html",
+      "hash": "d1da52e3e885c77c54008764c9eef959e1f0574050e6596730c5d8eeee891227"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.06 PM (1).jpeg",
+      "productCode": "HT5094",
+      "description": "Clutch Bearing",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/HT5094.jpeg",
+      "url": "products/ht5094-clutch-system.html",
+      "hash": "5692a1b709dfd27f150da361b8b4aebcd58f92d79f3a635429a3fcfbd9472a5b"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.06 PM (2).jpeg",
+      "productCode": "AZ-124-604-0010-A-HT",
+      "description": "Cylinder Head Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/AZ-124-604-0010-A-HT.jpeg",
+      "url": "products/az-124-604-0010-a-ht-engine-parts.html",
+      "hash": "9314a3fecc45ec71398fa6eec3de266e18f61d2359575db7d2caef61cb6a22cc"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.06 PM (3).jpeg",
+      "productCode": "VG-156-004-0057-HT",
+      "description": "Intake Valve Seat",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-156-004-0057-HT-D4C58F6BF629.jpeg",
+      "url": "products/vg-156-004-0057-ht-engine-parts.html",
+      "hash": "d4c58f6bf629c683507fd88323684af2de14ea77e5242a6e6826826b4bf11714"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.06 PM.jpeg",
+      "productCode": "VG-124-608-0036-HT",
+      "description": "Fuel Injector",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-124-608-0036-HT-CA6077FCEF73.jpeg",
+      "url": "products/vg-124-608-0036-ht-engine-parts.html",
+      "hash": "ca6077fcef734ff3431edb9cb544168e6171890683780cbde8720a28bfe21170"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.07 PM (1).jpeg",
+      "productCode": "WG-923-134-2068-HT",
+      "description": "Rear Brake Lining Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/WG-923-134-2068-HT.jpeg",
+      "url": "products/wg-923-134-2068-ht-brake-system.html",
+      "hash": "a3f93ce3fbf8a4667e0e476d0cbcca16c1deedb08362d9b86202e622472d9eed"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.07 PM (2).jpeg",
+      "productCode": "47X140-HT",
+      "description": "Coupling",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/HT5427.jpeg",
+      "url": "products/47x140-ht-transmission-parts.html",
+      "hash": "4a80fc91463775e5d89147359577986bf31d38eb0ff3da722ed55bdd270c4b8d"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.07 PM.jpeg",
+      "productCode": "AZ-221-010-0026-HT",
+      "description": "King Pin Kit",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/AZ-221-010-0026-HT-B0A86D909E9F.jpeg",
+      "url": "products/az-221-010-0026-ht-steering-system.html",
+      "hash": "b0a86d909e9f8cd81acf569c5e818e1e6d1fc93d2d011d50c20e706948229564"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.08 PM (1).jpeg",
+      "productCode": "080V95800-7479-HT",
+      "description": "Belt Tensioner",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/080V95800-7479-HT-7FE955C51950.jpeg",
+      "url": "products/080v95800-7479-ht-engine-parts.html",
+      "hash": "7fe955c5195093efb999c5b7859f8344f50edee4aab11a15752b190a9e6766ad"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.08 PM (2).jpeg",
+      "productCode": "60X152-HT",
+      "description": "Coupling",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/60X152-HT.jpeg",
+      "url": "products/60x152-ht-transmission-parts.html",
+      "hash": "24f952eff490a8695bae20265bacc95696b34e39359bd3fac5f694373f25b6cd"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.08 PM.jpeg",
+      "productCode": "612630020038-HT",
+      "description": "Crankshaft",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612630020038-HT-6D67E8E4CC18.jpeg",
+      "url": "products/612630020038-ht-engine-parts.html",
+      "hash": "6d67e8e4cc180d6684133e267e233f56d3bd22dfdc4ebe88d41e10870bcdb148"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.09 PM (1).jpeg",
+      "productCode": "WG-156-001-0701-HT",
+      "description": "Engine Overhaul Gasket Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-156-004-0032-3D6CDF9EF13C.jpeg",
+      "url": "products/wg-156-001-0701-ht-engine-parts.html",
+      "hash": "3d6cdf9ef13cfb63087bcc71289eaf71c8b34cab80181674a7806b0f01ab24ff"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.09 PM (2).jpeg",
+      "productCode": "AZ-221-010-0026-HT",
+      "description": "King Pin Kit",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Product code already exists in the current database.",
+      "hash": "5203faa327bf8d2aaf8ac915b448e351d78365225a9fabfe8453b0dcde21905e"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.09 PM (3).jpeg",
+      "productCode": "WG-920-034-0068-HT",
+      "description": "Rear Brake Lining Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/920-034-0068.jpeg",
+      "url": "products/wg-920-034-0068-ht-brake-system.html",
+      "hash": "17d4e61f7b02f16d1249fcbe93512450e6eebc0276670cba087a7caaaab4c902"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.09 PM.jpeg",
+      "productCode": "5257188-HT",
+      "description": "Engine Overhaul Gasket Set",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.59 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/5257188-HT-2D5282410258.jpeg",
+      "url": "products/5257188-ht-engine-parts.html",
+      "hash": "2d5282410258bae1fd685f4de270a0244a60d11c265f5061e34648bbaf9791f3"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.10 PM (1).jpeg",
+      "productCode": "62X149-HT",
+      "description": "Coupling",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/62X149-HT.jpeg",
+      "url": "products/62x149-ht-transmission-parts.html",
+      "hash": "623091ac7d9b0b44b7539c2c03626bb05e8bf00426639f476479cda26884a665"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.10 PM (2).jpeg",
+      "productCode": "612600130618-XLB-HT",
+      "description": "Air Compressor Repair Kit",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612600130618-XLB-HT.jpeg",
+      "url": "products/612600130618-xlb-ht-engine-parts.html",
+      "hash": "523c5526fc38560caadae6047d47c1369aa5147d57d3c6ce60d2a1596dd434ff"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.10 PM.jpeg",
+      "productCode": "WG-910-022-0027/9-HT",
+      "description": "Brake Lining Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/WG-910-022-0027-9-HT.jpeg",
+      "url": "products/wg-910-022-0027-9-ht-brake-system.html",
+      "hash": "14e46cfae3982d5ff54381cbc722e1c853e65950ac6eeaffcde70c67d4fa1213"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.11 PM (1).jpeg",
+      "productCode": "VG-156-004-0032-HT",
+      "description": "Valve Seal",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-156-004-0032-HT-25001EE6BB80.jpeg",
+      "url": "products/vg-156-004-0032-ht-engine-parts.html",
+      "hash": "25001ee6bb80c4d11672c87b929fcbb7de8f05d5f6c10fd37439c56f9c6c0353"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.11 PM (2).jpeg",
+      "productCode": "VG-156-002-0024-HT",
+      "description": "Crankshaft",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-156-002-0024-HT.jpeg",
+      "url": "products/vg-156-002-0024-ht-engine-parts.html",
+      "hash": "ef0a1303f6d005e8109c67cff535a2dfeed5d566ba8d04431910e05f1b1f2c4b"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.11 PM.jpeg",
+      "productCode": "VG-124-605-0022-HT",
+      "description": "Exhaust Valve",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-124-605-0022-HT-1A4191592570.jpeg",
+      "url": "products/vg-124-605-0022-ht-engine-parts.html",
+      "hash": "1a41915925708ef27eab821538e2e5621228b3f23f0627082fd18c8ec2217776"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.12 PM (1).jpeg",
+      "productCode": "VG-124-613-0008-HT",
+      "description": "Air Compressor Assembly",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-124-613-0008-HT-FAEC1745D221.jpeg",
+      "url": "products/vg-124-613-0008-ht-engine-parts.html",
+      "hash": "faec1745d221536db7a48cb1b382bcaa6d6831e20b2dd9391bc73ee64f365755"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.12 PM.jpeg",
+      "productCode": "VG-156-008-0276-HT",
+      "description": "Fuel Injector",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-156-008-0276-HT-62C447681D18.jpeg",
+      "url": "products/vg-156-008-0276-ht-engine-parts.html",
+      "hash": "62c447681d18650bfd1ab72f79b5fdbdc08c0ca10865f9bb31e21b52a97f1a8d"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.13 PM (1).jpeg",
+      "productCode": "1000549569-HT",
+      "description": "Valve Seal",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/1000549569-HT-0B74DBE11192.jpeg",
+      "url": "products/1000549569-ht-engine-parts.html",
+      "hash": "0b74dbe1119222dfcad0cfc7c9afc283528e7995b76b3c28b430611ebe40fbc5"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.13 PM (2).jpeg",
+      "productCode": "13038398-KIT-HT",
+      "description": "Piston Liner Kit",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/13038398-KIT-HT.jpeg",
+      "url": "products/13038398-kit-ht-engine-parts.html",
+      "hash": "56e3dfa829e2033ba251028b4be3442213bc0d35c822835decc1ded5c428444b"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.13 PM.jpeg",
+      "productCode": "WG-407-545-0160-HT",
+      "description": "Front Brake Lining Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/WG-407-545-0160-HT.jpeg",
+      "url": "products/wg-407-545-0160-ht-brake-system.html",
+      "hash": "8d6b33bbaf4118a5776e23764e0b7cc58a732dbac1855f2c1f771a126c7c72fc"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.14 PM (1).jpeg",
+      "productCode": "612600040113-HT",
+      "description": "Valve Guide",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612600040113-HT-9837BF69CBFC.jpeg",
+      "url": "products/612600040113-ht-engine-parts.html",
+      "hash": "9837bf69cbfc85ee2540521fdfba678cfa9cb2a599253d1225250419acd1b489"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.14 PM (2).jpeg",
+      "productCode": "VG-124-606-0006-HT",
+      "description": "Belt Tensioner",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-124-606-0006-HT.jpeg",
+      "url": "products/vg-124-606-0006-ht-engine-parts.html",
+      "hash": "cbe22d57f9536f60f25b65de8fbe436ce58d60f6f574ed0e947b07502027121e"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.14 PM.jpeg",
+      "productCode": "612620010055-HT",
+      "description": "Cylinder Liner",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612620010055-HT-241D34D1C2A4.jpeg",
+      "url": "products/612620010055-ht-engine-parts.html",
+      "hash": "241d34d1c2a4aa61939146c9873592aabb76462c5e732284613bc0693b7f8e1b"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.15 PM (1).jpeg",
+      "productCode": "200V05504-0122-HT",
+      "description": "Oil Filter",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/200V05504-0122-HT-F586B0DFB299.jpeg",
+      "url": "products/200v05504-0122-ht-engine-parts.html",
+      "hash": "f586b0dfb299067953269195d2e8848ba71a1fcd009790ef5cf2e896402b3b66"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.15 PM (2).jpeg",
+      "productCode": "VG-156-011-8229-HT",
+      "description": "Turbocharger",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/HT2430H.jpeg",
+      "url": "products/vg-156-011-8229-ht-engine-parts.html",
+      "hash": "82d5e30e8217a6e3afb561537ce8e80b273c08fa6333bc51659280ae691d86d1"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.15 PM.jpeg",
+      "productCode": "VG-124-601-0034-HT",
+      "description": "Main Bearing Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-124-601-0034-HT-C6D2383FAA2E.jpeg",
+      "url": "products/vg-124-601-0034-ht-engine-parts.html",
+      "hash": "c6d2383faa2ef33c9e95ccee6eb088543138ea5914579c72e6aef19f154a328f"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.16 PM (1).jpeg",
+      "productCode": "612600081334-HT",
+      "description": "Fuel Filter",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612600081334-HT-5F32AA2A43AC.jpeg",
+      "url": "products/612600081334-ht-engine-parts.html",
+      "hash": "5f32aa2a43ac107cc738cc969b0795811478535de54dfe36c0eaa8477232e79c"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.16 PM (2).jpeg",
+      "productCode": "",
+      "description": "Product code and description are not visibly present in the original catalogue image.",
+      "status": "MANUAL REVIEW",
+      "reason": "Only measurements are visible; publishing a primary product code would require guessing.",
+      "hash": "1823a7476c43419f3cc383cfd478653b73410daa41061978bbca41a4d1603d71"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.16 PM.jpeg",
+      "productCode": "612630030405-XLB-HT",
+      "description": "Air Compressor Repair Kit",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612630030405-XLB-HT.jpeg",
+      "url": "products/612630030405-xlb-ht-engine-parts.html",
+      "hash": "b9c744f8a23aa1b6d552eca2ff50d186a5c9206a730a979586649692df0d5867"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.17 PM (1).jpeg",
+      "productCode": "39X118-PLATE-HT",
+      "description": "Coupling Use Plate",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/HT5434H.jpeg",
+      "url": "products/39x118-plate-ht-transmission-parts.html",
+      "hash": "f9ed90a5d3d1a200f123c7a5d063071d31b2d317d65618fed66539c4fbff2dbc"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.17 PM.jpeg",
+      "productCode": "WG-711-745-0180-HT",
+      "description": "Rear Brake Lining Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/WG-711-745-0180-HT.jpeg",
+      "url": "products/wg-711-745-0180-ht-brake-system.html",
+      "hash": "b44e41509c82162894c6956ca71576fe932b4d72da664bbcadb3efc78b711c9f"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.18 PM (1).jpeg",
+      "productCode": "NAE-156-011-0000-HT",
+      "description": "Intake Manifold Gasket",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/HT2967.jpeg",
+      "url": "products/nae-156-011-0000-ht-engine-parts.html",
+      "hash": "92de57e196e059c6a2f2598569dc77afc6426813e199abf7eee91c19e1c9a7ae"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.18 PM (2).jpeg",
+      "productCode": "13034908-HT",
+      "description": "Main Bearing Set",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/13034908-HT-556FEE07EA19.jpeg",
+      "url": "products/13034908-ht-engine-parts.html",
+      "hash": "556fee07ea19d30d80dd816c963b080aaef45962d95ffe92f9a94aed19027168"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.18 PM.jpeg",
+      "productCode": "612600030068-HT",
+      "description": "Piston Liner Kit",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/612600030068-HT-DCA3D848401D.jpeg",
+      "url": "products/612600030068-ht-engine-parts.html",
+      "hash": "dca3d848401dd013a5fa52f5a3c392c9c799ebf00b3f90edd6fd8756857b91c0"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.19 PM (1).jpeg",
+      "productCode": "61800050143-HT",
+      "description": "Push Rod",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/61800050143-HT-D1F95CCAD992.jpeg",
+      "url": "products/61800050143-ht-engine-parts.html",
+      "hash": "d1f95ccad992ba95d9356b9d728d289b4c5e20ce606ed998387d5bfe4209242a"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.19 PM (2).jpeg",
+      "productCode": "68X165-HT",
+      "description": "Coupling",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Product code already exists in the current database.",
+      "hash": "e43db330ff6feff895a4513aba12381703fac7897f39f324353275c6b504581b"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.19 PM.jpeg",
+      "productCode": "VG-14050049-HT",
+      "description": "Exhaust Valve Rocker Arm",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/VG-14050049-HT.jpeg",
+      "url": "products/vg-14050049-ht-engine-parts.html",
+      "hash": "ea19132a6ebcfcc740b7710a9b7592020345c32778961cbf7a6ceb4c17c4c36d"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.20 PM.jpeg",
+      "productCode": "WG-992-555-0202-HT",
+      "description": "Pre-Fuel Filter",
+      "status": "NEW — IMPORTED",
+      "reason": "Product code visually confirmed; no existing database match found.",
+      "image": "assets/img/products/WG-992-555-0202-HT-FDE338CBB128.jpeg",
+      "url": "products/wg-992-555-0202-ht-engine-parts.html",
+      "hash": "fde338cbb12861b9ae7a66458acf7bfe0f1d6d607b29776b60cdfd158b1b2ab1"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-16 at 5.00.13 PM.jpeg",
+      "productCode": "612630040001-HT",
+      "description": "Cylinder Head Assembly",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-16 at 5.00.13 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/612630040001-HT-F8359A10F7A0.jpeg",
+      "url": "products/612630040001-ht-engine-parts.html",
+      "hash": "f8359a10f7a0d8c247108fcd24294a0497803e69c2fbef4698f856970fc0c1ca"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-16 at 5.02.11 PM.jpeg",
+      "productCode": "AZ-124-202-0561-HT",
+      "description": "Flywheel",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-16 at 5.02.11 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/AZ-124-202-0561-HT-5AAA5EDFAC2F.jpeg",
+      "url": "products/az-124-202-0561-ht-flywheel.html",
+      "hash": "5aaa5edfac2f5059b983f12660bc16ae82b60f7df4dd8f0124e3c084653d4cae"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-16 at 5.48.30 PM.jpeg",
+      "productCode": "VG-156-009-0001-HT",
+      "description": "Starter Motor",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-16 at 5.48.30 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-156-009-0001-HT-8BB0B6C2D4A9.jpeg",
+      "url": "products/vg-156-009-0001-ht-electrical-system.html",
+      "hash": "8bb0b6c2d4a930785e5ec188c5ca3ac22373ac2b53d7f5820f4d7760512a668d"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.49 PM (1).jpeg",
+      "productCode": "612600091077-HT",
+      "description": "Starter Motor",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.49 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/612600091077-HT-C7D7A1B271C2.jpeg",
+      "url": "products/612600091077-ht-electrical-system.html",
+      "hash": "c7d7a1b271c201184b06569a24b1a06c57968da41dbf51e8edbfdacf622d1294"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.49 PM.jpeg",
+      "productCode": "VG-124-606-0002-HT",
+      "description": "Belt Tensioner",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.49 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-124-606-0002-HT-EE2C58A7945F.jpeg",
+      "url": "products/vg-124-606-0002-ht-engine-parts.html",
+      "hash": "ee2c58a7945f14cdb9f45dbef31e89f685d2122fe0b4824be5ffe922fa170979"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.50 PM (1).jpeg",
+      "productCode": "VG-124-605-0021-HT",
+      "description": "Intake Valve",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.50 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-124-605-0021-HT-49A72221ECD6.jpeg",
+      "url": "products/vg-124-605-0021-ht-engine-parts.html",
+      "hash": "49a72221ecd6ba0d77c326d866eb41c020f514bef698cbb1aaf9efb666e8b3b3"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.50 PM (2).jpeg",
+      "productCode": "VG-156-003-7033-HT",
+      "description": "Connecting Rod Bearing Set",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.50 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-156-003-7033-HT-DCB4389C14FB.jpeg",
+      "url": "products/vg-156-003-7033-ht-engine-parts.html",
+      "hash": "dcb4389c14fbe11648e9b7bf9c29a6a6f9af784f59de3e4105ad3f4ce6d3258f"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.50 PM.jpeg",
+      "productCode": "WP6G-OHG-HT",
+      "description": "Engine Overhaul Gasket Set",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.50 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/1302395801.jpeg",
+      "url": "products/wp6g-ohg-ht-engine-parts.html",
+      "hash": "23c774b9c54b0e3edcfd5d381554d6e3a46a5cc649d764003789a7d70c7ebac3"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.51 PM (1).jpeg",
+      "productCode": "612600062371-HT",
+      "description": "Belt Tensioner",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.51 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/612600062371-HT-2851BE9AA715.jpeg",
+      "url": "products/612600062371-ht-engine-parts.html",
+      "hash": "2851be9aa715043902071dfefca1660d0c12cb1a3613b6dd7f1a3327790ac0b4"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.51 PM (2).jpeg",
+      "productCode": "1307010CM50-02000-HT",
+      "description": "Water Pump Assembly",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.51 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/HT1905.jpeg",
+      "url": "products/1307010cm50-02000-ht-cooling-system.html",
+      "hash": "2ac84389babd7ecc255a7b383decd05b4d1943db641d9346bdef55ed71136dc0"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.51 PM.jpeg",
+      "productCode": "VG-150-001-0006-HT",
+      "description": "Cylinder Liner",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.51 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-150-001-0006-HT-BEFD262F90AF.jpeg",
+      "url": "products/vg-150-001-0006-ht-engine-parts.html",
+      "hash": "befd262f90afc09627b5191573c77809143153f8049449527233472114e55ef4"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.52 PM (1).jpeg",
+      "productCode": "AZ-124-202-0561-HT",
+      "description": "Flywheel",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.52 PM (1).jpeg; no duplicate product created.",
+      "hash": "bada25836864cf7d79bfd570c3b22734f572e41489c275b6a5d558bdadd1e7d0"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.52 PM.jpeg",
+      "productCode": "61260040282-HT",
+      "description": "Cylinder Head",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.52 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/61260040282-HT-75B4968BB0D2.jpeg",
+      "url": "products/61260040282-ht-engine-parts.html",
+      "hash": "75b4968bb0d29c658b481f1498dd7f2583649b7e7c02ffde2593f0ea96070cf7"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.53 PM (1).jpeg",
+      "productCode": "615600060050-HT",
+      "description": "Water Pump Assembly",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.53 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/615600060050-HT-604C858A55A1.jpeg",
+      "url": "products/615600060050-ht-cooling-system.html",
+      "hash": "604c858a55a12ff370491e68f2c7c6112fbb6be80fae2c44e028fe6c94517b89"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.53 PM (2).jpeg",
+      "productCode": "WG-971-923-0023-HT",
+      "description": "Top Pump Assembly",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.53 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/WG-971-923-0023-HT-68C1AC98DF8F.jpeg",
+      "url": "products/wg-971-923-0023-ht-brake-system.html",
+      "hash": "68c1ac98df8f08840aea47556ac8c0ce1dd67d31a30d842174ab1a00dddecd3d"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.53 PM.jpeg",
+      "productCode": "612630030405-HEAD-HT",
+      "description": "Air Compressor Head",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.53 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/612630030405.jpeg",
+      "url": "products/612630030405-head-ht-engine-parts.html",
+      "hash": "d67eb24dabfe441b09f7141cba7c6540368dad71ba2d6405f732c389808a6f13"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.54 PM (1).jpeg",
+      "productCode": "612630040006-HT",
+      "description": "Cylinder Head Gasket",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.54 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/612630040006-HT-91844C9FF079.jpeg",
+      "url": "products/612630040006-ht-engine-parts.html",
+      "hash": "91844c9ff0799798a50b3684297e1634389a4091e8f9d9384fcf2dafb8764419"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.54 PM (2).jpeg",
+      "productCode": "VG-150-006-0051-HT",
+      "description": "Water Pump Assembly",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.54 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-150-006-0051-HT-3C765CBEACA4.jpeg",
+      "url": "products/vg-150-006-0051-ht-cooling-system.html",
+      "hash": "3c765cbeaca46f2b6a9d644db0a4ad38664636d3b510c3465cbbc48393d14bab"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.54 PM (3).jpeg",
+      "productCode": "VG-156-003-7011-HT",
+      "description": "Piston",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.54 PM (3).jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-156-003-7011-HT-3F538CA0388F.jpeg",
+      "url": "products/vg-156-003-7011-ht-engine-parts.html",
+      "hash": "3f538ca0388f7dc390efcca83fd7f227563047e675d3ea2d800078efc96f9d09"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.54 PM.jpeg",
+      "productCode": "VG-14050048-HT",
+      "description": "Intake Valve Rocker Arm",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.54 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-14050048-HT.jpeg",
+      "url": "products/vg-14050048-ht-engine-parts.html",
+      "hash": "afee9445181b27f46cc7561fbfc1829b3c5c5645a6fb9fd8947ed93874de5aac"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.55 PM (1).jpeg",
+      "productCode": "WG-156-005-0041-HT",
+      "description": "Exhaust Valve",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.55 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/WG-156-005-0041-HT-EF59FD4BE87C.jpeg",
+      "url": "products/wg-156-005-0041-ht-engine-parts.html",
+      "hash": "ef59fd4be87c21179292afd8c48d161d3094d56a097ea35cb83061a3431d1eb5"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.55 PM (2).jpeg",
+      "productCode": "VG-154-008-0110-HT",
+      "description": "Fuel Filter",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.55 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-154-008-0110-HT-F2B9D1CE876F.jpeg",
+      "url": "products/vg-154-008-0110-ht-engine-parts.html",
+      "hash": "f2b9d1ce876fdaeb7f4acfb4559ff31053663f8cd615ea4e51c4f99d4ae03d2b"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.55 PM.jpeg",
+      "productCode": "57X144-HT",
+      "description": "Coupling",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.55 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/57X144-HT.jpeg",
+      "url": "products/57x144-ht-transmission-parts.html",
+      "hash": "b0a49a2c66e2276dd16fa2b72edc3c32a5d8557d11fedb14f30db6299ef1b8e9"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.56 PM (1).jpeg",
+      "productCode": "VG-150-004-0049-HT",
+      "description": "Cylinder Head Gasket",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.56 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-150-004-0049-HT.jpeg",
+      "url": "products/vg-150-004-0049-ht-engine-parts.html",
+      "hash": "2fdb0b8f857a04efe8457f401f3c2514669851a65312f2f35611232e187f1fad"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.56 PM (2).jpeg",
+      "productCode": "VG-260-001-0990-HT",
+      "description": "Camshaft Bush Set",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.56 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-260-001-0990-HT.jpeg",
+      "url": "products/vg-260-001-0990-ht-engine-parts.html",
+      "hash": "ee665bdbc26b41252d845a29f5bae2cc727c1537a5ddfd3b9c07d822a016f98f"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.56 PM (3).jpeg",
+      "productCode": "VG-156-003-7033-2-HT",
+      "description": "Connecting Rod Bearing Set 0.50",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.56 PM (3).jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-156-003-7033-2-HT.jpeg",
+      "url": "products/vg-156-003-7033-2-ht-engine-parts.html",
+      "hash": "af43651246dcbfa3fe7c980cf034b04142449166c2b14a000b2040c3bf308046"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.56 PM.jpeg",
+      "productCode": "12159599-HT",
+      "description": "Camshaft Bush Set",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.56 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/12159599-HT-08EC467F2D92.jpeg",
+      "url": "products/12159599-ht-engine-parts.html",
+      "hash": "08ec467f2d9243edb8796d47797d38791c28e406e4b7d09c4cbfce85fcdee52a"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.57 PM (1).jpeg",
+      "productCode": "612630040001-HT",
+      "description": "Cylinder Head Assembly",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.57 PM (1).jpeg; no duplicate product created.",
+      "hash": "41cb046b0ef597e23692b9ee5fe679590e6c574dba1823b781da3fc51c3dc786"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.57 PM (2).jpeg",
+      "productCode": "HT5091",
+      "description": "Clutch Bearing Assembly",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.57 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/HT5091.jpeg",
+      "url": "products/ht5091-clutch-system.html",
+      "hash": "be6f6a0c63b99cfab636478d0f7140d373ceed2df7b45f281da946d56897fb62"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.57 PM.jpeg",
+      "productCode": "VG-156-003-7011-HT",
+      "description": "Piston",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.57 PM.jpeg; no duplicate product created.",
+      "hash": "0659f15adaf5c4d0c1bd07de39b5f0b13ca5f0b0d325a81c23ab1e070937a713"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.58 PM (1).jpeg",
+      "productCode": "KC612600030017-HT",
+      "description": "Piston Liner Kit",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.58 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/KC612600030017-HT.jpeg",
+      "url": "products/kc612600030017-ht-engine-parts.html",
+      "hash": "19f76722cb42df6042f49b47a4c59604db389bba3c9c59fde5a1e8c5d5aa16e4"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.58 PM (2).jpeg",
+      "productCode": "614080719-HT",
+      "description": "Hand Oil Pump",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.58 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/614080719-HT-BF332C0FD716.jpeg",
+      "url": "products/614080719-ht-engine-parts.html",
+      "hash": "bf332c0fd7163b96ebb79a6c1908121817067cc8842f407da462dbfecb83c0a8"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.58 PM (3).jpeg",
+      "productCode": "12273934-HT",
+      "description": "Thrust Washer",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.58 PM (3).jpeg; no duplicate product created.",
+      "image": "assets/img/products/12273934-HT-9101A842B31B.jpeg",
+      "url": "products/12273934-ht-engine-parts.html",
+      "hash": "9101a842b31bf8d157349860f5f220ad09b46a0a670c8dbbee71a63d70293fef"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.58 PM.jpeg",
+      "productCode": "VG-150-005-0032-HT",
+      "description": "Valve Tappet",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.58 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-150-005-0032-HT-1423D88F2F56.jpeg",
+      "url": "products/vg-150-005-0032-ht-engine-parts.html",
+      "hash": "1423d88f2f56d59c62957371ae5ba2d90542fd98f218648f3aed6534641162bd"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.59 PM (1).jpeg",
+      "productCode": "WG-961-947-0080-HT",
+      "description": "Power Steering Pump",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.59 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/WG-961-947-0080-HT-72ECB9EDD134.jpeg",
+      "url": "products/wg-961-947-0080-ht-steering-system.html",
+      "hash": "72ecb9edd134d066816230e0dc00e07ad70323b09c8b62f0ffc2a8af4356d58e"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.59 PM (2).jpeg",
+      "productCode": "CM-5752508-HT",
+      "description": "Engine Overhaul Gasket Set",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.59 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/CM-5752508-HT.jpeg",
+      "url": "products/cm-5752508-ht-engine-parts.html",
+      "hash": "25c1d8ebdff3dc36e2904e0b037a34c2ffa84940a6ac32b7242bd32913781783"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.21.59 PM.jpeg",
+      "productCode": "5257188-HT",
+      "description": "Engine Overhaul Gasket Set",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.59 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/5257188-HT-2D5282410258.jpeg",
+      "url": "products/5257188-ht-engine-parts.html",
+      "hash": "2d5282410258bae1fd685f4de270a0244a60d11c265f5061e34648bbaf9791f3"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.00 PM (1).jpeg",
+      "productCode": "612600130777-HT",
+      "description": "Air Compressor Assembly",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.00 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/612600130777-HT-F6A4BB78058C.jpeg",
+      "url": "products/612600130777-ht-engine-parts.html",
+      "hash": "f6a4bb78058c29b5555526e60b8b146db11e079ccbe3415418dbf580abf811f6"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.00 PM (2).jpeg",
+      "productCode": "612600030033-0.25-HT",
+      "description": "Connecting Rod Bearing Set 0.25",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.00 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/612600030033-0-25-HT.jpeg",
+      "url": "products/612600030033-0-25-ht-engine-parts.html",
+      "hash": "e101ce303667e58a1d5c7687d38f2b0967e2d569b244cd75b62412d2175ba8a2"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.00 PM (3).jpeg",
+      "productCode": "VG-124-605-0027-HT",
+      "description": "Valve Seal",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.00 PM (3).jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-124-605-0027-HT.jpeg",
+      "url": "products/vg-124-605-0027-ht-engine-parts.html",
+      "hash": "a67aa655fe4035c2f24fc7e0887c912997de94e341855a9bddca88711be61760"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.00 PM.jpeg",
+      "productCode": "612600061256-HT",
+      "description": "Belt Tensioner",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.00 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/612600061256-HT-227C660A2ECD.jpeg",
+      "url": "products/612600061256-ht-engine-parts.html",
+      "hash": "227c660a2ecd0886740ad6563b898191c2769cac9a78b3af54140e31f9b88990"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.01 PM (1).jpeg",
+      "productCode": "VG-260-001-0659-HT",
+      "description": "Oil Jet",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.01 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-260-001-0659-HT-D042068AA8FB.jpeg",
+      "url": "products/vg-260-001-0659-ht-engine-parts.html",
+      "hash": "d042068aa8fb3ab52888fee9b10b633b1badffe86697547804eb5802c1268021"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.01 PM (2).jpeg",
+      "productCode": "VG-109-313-0001-HT",
+      "description": "Air Compressor Assembly",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.01 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-109-313-0001-HT-4F528A2E4384.jpeg",
+      "url": "products/vg-109-313-0001-ht-engine-parts.html",
+      "hash": "4f528a2e4384fcd6e4d1aee427cfebaf0bc11c772feb43b580e402c0b3b3ccca"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.01 PM (3).jpeg",
+      "productCode": "K3046-HT",
+      "description": "Air Filter Set",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.01 PM (3).jpeg; no duplicate product created.",
+      "image": "assets/img/products/K3046-HT.jpeg",
+      "url": "products/k3046-ht-engine-parts.html",
+      "hash": "24d608e7b0edd45b30a15a155946a5729ee05110179516237202c65ba107faca"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.01 PM.jpeg",
+      "productCode": "WG-972-516-0510-HT",
+      "description": "Clutch Bearing",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.01 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/WG-972-516-0510-HT-5425BA08CD0C.jpeg",
+      "url": "products/wg-972-516-0510-ht-clutch-system.html",
+      "hash": "5425ba08cd0cb6ab27ceb97e260f2223f827b6cf916b539633c095a09c4b974e"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.02 PM (1).jpeg",
+      "productCode": "WG-972-523-0041/1-OLD-HT",
+      "description": "Clutch Servo",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.02 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/HT5877.jpeg",
+      "url": "products/wg-972-523-0041-1-old-ht-clutch-system.html",
+      "hash": "9f9b043518cafe2609d98e50abdd956065f2a43144606cf1198f2a4c776141b3"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.02 PM (2).jpeg",
+      "productCode": "AZ-923-132-0014-HT",
+      "description": "Two-Speed Flange",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.02 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/AZ-923-132-0014-HT-C55B92D30287.jpeg",
+      "url": "products/az-923-132-0014-ht-axle-parts.html",
+      "hash": "c55b92d30287a39327b2e840019c6a29a861ed558be13b28ce3b8a08d36f4b08"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.02 PM.jpeg",
+      "productCode": "VG-156-003-7033-1-HT",
+      "description": "Connecting Rod Bearing Set 0.25",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.02 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-156-003-7033-1-HT.jpeg",
+      "url": "products/vg-156-003-7033-1-ht-engine-parts.html",
+      "hash": "f0f2517082f592bac40f5f00d49ab7461d8d5d20ab6ccbcd081fe5d47e6a1cf3"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.03 PM (1).jpeg",
+      "productCode": "VG-610-0007-0005-HT",
+      "description": "Oil Filter",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.03 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-610-0007-0005-HT-9156ECECC819.jpeg",
+      "url": "products/vg-610-0007-0005-ht-engine-parts.html",
+      "hash": "9156ececc819666e709dfedd447524a3b22a5af375d6c717659e702a89ae54be"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.03 PM (2).jpeg",
+      "productCode": "612630040026-HT",
+      "description": "Nozzle Tube",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.03 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/612630040026-HT-14BF74F2D9E8.jpeg",
+      "url": "products/612630040026-ht-engine-parts.html",
+      "hash": "14bf74f2d9e8c0c4c2f73ed5454d056f6d0313569004ba458deb4703229210da"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.03 PM.jpeg",
+      "productCode": "AZ-923-132-0007-HT",
+      "description": "Rear Differential Assembly",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.03 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/AZ-923-132-0007-HT.jpeg",
+      "url": "products/az-923-132-0007-ht-axle-parts.html",
+      "hash": "2336c6655e65b17ba353ba8cafd2e3e2ca51f96b8395b26e11f56c03f291dae1"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.04 PM (1).jpeg",
+      "productCode": "080V95800-7477-HT",
+      "description": "Belt Tensioner",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.04 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/080V95800-7477-HT-BD446F48925C.jpeg",
+      "url": "products/080v95800-7477-ht-engine-parts.html",
+      "hash": "bd446f48925c4ffd4880f487f006953a6ee9984f87143e3d82604c20e766602a"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.04 PM (2).jpeg",
+      "productCode": "13068736-HT",
+      "description": "Connecting Rod Bearing Set",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.04 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/13068736-HT-FEBBC2CBEFF5.jpeg",
+      "url": "products/13068736-ht-engine-parts.html",
+      "hash": "febbc2cbeff5b38e3d19b9c74ade64abf66678a606e5fe297271e7f6102bb1b8"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.04 PM (3).jpeg",
+      "productCode": "WP12-OHG-SET-HT",
+      "description": "Engine Overhaul Gasket Set",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.04 PM (3).jpeg; no duplicate product created.",
+      "image": "assets/img/products/WP12-OHG-SET-HT.jpeg",
+      "url": "products/wp12-ohg-set-ht-engine-parts.html",
+      "hash": "f83b63d4e4ae967428f75429e88809f8c59ea5164d4c8dd0380a2da6f833759f"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.04 PM.jpeg",
+      "productCode": "KC1560037011-HT",
+      "description": "Piston Liner Kit",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.04 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/KC1560037011-HT.jpeg",
+      "url": "products/kc1560037011-ht-engine-parts.html",
+      "hash": "c2632dc1d4bfde25e2c0dd372b5a1e63014ef80bb2e48ded0597adf4609d17b8"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.05 PM (1).jpeg",
+      "productCode": "68X165-HT",
+      "description": "Coupling",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.05 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/68X165-HT.jpeg",
+      "url": "products/68x165-ht-transmission-parts.html",
+      "hash": "abbe599fa5ec1283f63f0d8691ac3415b4dd991fee15ba096ab09d0e1f8151e1"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.05 PM (2).jpeg",
+      "productCode": "612600040282-ASSY-HT",
+      "description": "Cylinder Head Assembly",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.05 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/612600040282-ASSY-HT.jpeg",
+      "url": "products/612600040282-assy-ht-engine-parts.html",
+      "hash": "41655abc4017c6b586b645d3b40add2ad4621bfd9c538ffb05756f3f46ced4c2"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.05 PM.jpeg",
+      "productCode": "VG-154-004-0068-HT",
+      "description": "Cylinder Head",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.05 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-154-004-0068-HT-D1DA52E3E885.jpeg",
+      "url": "products/vg-154-004-0068-ht-engine-parts.html",
+      "hash": "d1da52e3e885c77c54008764c9eef959e1f0574050e6596730c5d8eeee891227"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.06 PM (1).jpeg",
+      "productCode": "HT5094",
+      "description": "Clutch Bearing",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.06 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/HT5094.jpeg",
+      "url": "products/ht5094-clutch-system.html",
+      "hash": "5692a1b709dfd27f150da361b8b4aebcd58f92d79f3a635429a3fcfbd9472a5b"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.06 PM (2).jpeg",
+      "productCode": "AZ-124-604-0010-A-HT",
+      "description": "Cylinder Head Assembly",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.06 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/AZ-124-604-0010-A-HT.jpeg",
+      "url": "products/az-124-604-0010-a-ht-engine-parts.html",
+      "hash": "9314a3fecc45ec71398fa6eec3de266e18f61d2359575db7d2caef61cb6a22cc"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.06 PM (3).jpeg",
+      "productCode": "VG-156-004-0057-HT",
+      "description": "Intake Valve Seat",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.06 PM (3).jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-156-004-0057-HT-D4C58F6BF629.jpeg",
+      "url": "products/vg-156-004-0057-ht-engine-parts.html",
+      "hash": "d4c58f6bf629c683507fd88323684af2de14ea77e5242a6e6826826b4bf11714"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.06 PM.jpeg",
+      "productCode": "VG-124-608-0036-HT",
+      "description": "Fuel Injector",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.06 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-124-608-0036-HT-CA6077FCEF73.jpeg",
+      "url": "products/vg-124-608-0036-ht-engine-parts.html",
+      "hash": "ca6077fcef734ff3431edb9cb544168e6171890683780cbde8720a28bfe21170"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.07 PM (1).jpeg",
+      "productCode": "WG-923-134-2068-HT",
+      "description": "Rear Brake Lining Set",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.07 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/WG-923-134-2068-HT.jpeg",
+      "url": "products/wg-923-134-2068-ht-brake-system.html",
+      "hash": "a3f93ce3fbf8a4667e0e476d0cbcca16c1deedb08362d9b86202e622472d9eed"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.07 PM (2).jpeg",
+      "productCode": "47X140-HT",
+      "description": "Coupling",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.07 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/HT5427.jpeg",
+      "url": "products/47x140-ht-transmission-parts.html",
+      "hash": "4a80fc91463775e5d89147359577986bf31d38eb0ff3da722ed55bdd270c4b8d"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.07 PM.jpeg",
+      "productCode": "AZ-221-010-0026-HT",
+      "description": "King Pin Kit",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.07 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/AZ-221-010-0026-HT-B0A86D909E9F.jpeg",
+      "url": "products/az-221-010-0026-ht-steering-system.html",
+      "hash": "b0a86d909e9f8cd81acf569c5e818e1e6d1fc93d2d011d50c20e706948229564"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.08 PM (1).jpeg",
+      "productCode": "080V95800-7479-HT",
+      "description": "Belt Tensioner",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.08 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/080V95800-7479-HT-7FE955C51950.jpeg",
+      "url": "products/080v95800-7479-ht-engine-parts.html",
+      "hash": "7fe955c5195093efb999c5b7859f8344f50edee4aab11a15752b190a9e6766ad"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.08 PM (2).jpeg",
+      "productCode": "60X152-HT",
+      "description": "Coupling",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.08 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/60X152-HT.jpeg",
+      "url": "products/60x152-ht-transmission-parts.html",
+      "hash": "24f952eff490a8695bae20265bacc95696b34e39359bd3fac5f694373f25b6cd"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.08 PM.jpeg",
+      "productCode": "612630020038-HT",
+      "description": "Crankshaft",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.08 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/612630020038-HT-6D67E8E4CC18.jpeg",
+      "url": "products/612630020038-ht-engine-parts.html",
+      "hash": "6d67e8e4cc180d6684133e267e233f56d3bd22dfdc4ebe88d41e10870bcdb148"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.09 PM (1).jpeg",
+      "productCode": "WG-156-001-0701-HT",
+      "description": "Engine Overhaul Gasket Set",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.09 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-156-004-0032-3D6CDF9EF13C.jpeg",
+      "url": "products/wg-156-001-0701-ht-engine-parts.html",
+      "hash": "3d6cdf9ef13cfb63087bcc71289eaf71c8b34cab80181674a7806b0f01ab24ff"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.09 PM (2).jpeg",
+      "productCode": "AZ-221-010-0026-HT",
+      "description": "King Pin Kit",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.09 PM (2).jpeg; no duplicate product created.",
+      "hash": "5203faa327bf8d2aaf8ac915b448e351d78365225a9fabfe8453b0dcde21905e"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.09 PM (3).jpeg",
+      "productCode": "WG-920-034-0068-HT",
+      "description": "Rear Brake Lining Set",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.09 PM (3).jpeg; no duplicate product created.",
+      "image": "assets/img/products/920-034-0068.jpeg",
+      "url": "products/wg-920-034-0068-ht-brake-system.html",
+      "hash": "17d4e61f7b02f16d1249fcbe93512450e6eebc0276670cba087a7caaaab4c902"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.09 PM.jpeg",
+      "productCode": "5257188-HT",
+      "description": "Engine Overhaul Gasket Set",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.21.59 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/5257188-HT-2D5282410258.jpeg",
+      "url": "products/5257188-ht-engine-parts.html",
+      "hash": "2d5282410258bae1fd685f4de270a0244a60d11c265f5061e34648bbaf9791f3"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.10 PM (1).jpeg",
+      "productCode": "62X149-HT",
+      "description": "Coupling",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.10 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/62X149-HT.jpeg",
+      "url": "products/62x149-ht-transmission-parts.html",
+      "hash": "623091ac7d9b0b44b7539c2c03626bb05e8bf00426639f476479cda26884a665"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.10 PM (2).jpeg",
+      "productCode": "612600130618-XLB-HT",
+      "description": "Air Compressor Repair Kit",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.10 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/612600130618-XLB-HT.jpeg",
+      "url": "products/612600130618-xlb-ht-engine-parts.html",
+      "hash": "523c5526fc38560caadae6047d47c1369aa5147d57d3c6ce60d2a1596dd434ff"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.10 PM.jpeg",
+      "productCode": "WG-910-022-0027/9-HT",
+      "description": "Brake Lining Set",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.10 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/WG-910-022-0027-9-HT.jpeg",
+      "url": "products/wg-910-022-0027-9-ht-brake-system.html",
+      "hash": "14e46cfae3982d5ff54381cbc722e1c853e65950ac6eeaffcde70c67d4fa1213"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.11 PM (1).jpeg",
+      "productCode": "VG-156-004-0032-HT",
+      "description": "Valve Seal",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.11 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-156-004-0032-HT-25001EE6BB80.jpeg",
+      "url": "products/vg-156-004-0032-ht-engine-parts.html",
+      "hash": "25001ee6bb80c4d11672c87b929fcbb7de8f05d5f6c10fd37439c56f9c6c0353"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.11 PM (2).jpeg",
+      "productCode": "VG-156-002-0024-HT",
+      "description": "Crankshaft",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.11 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-156-002-0024-HT.jpeg",
+      "url": "products/vg-156-002-0024-ht-engine-parts.html",
+      "hash": "ef0a1303f6d005e8109c67cff535a2dfeed5d566ba8d04431910e05f1b1f2c4b"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.11 PM.jpeg",
+      "productCode": "VG-124-605-0022-HT",
+      "description": "Exhaust Valve",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.11 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-124-605-0022-HT-1A4191592570.jpeg",
+      "url": "products/vg-124-605-0022-ht-engine-parts.html",
+      "hash": "1a41915925708ef27eab821538e2e5621228b3f23f0627082fd18c8ec2217776"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.12 PM (1).jpeg",
+      "productCode": "VG-124-613-0008-HT",
+      "description": "Air Compressor Assembly",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.12 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-124-613-0008-HT-FAEC1745D221.jpeg",
+      "url": "products/vg-124-613-0008-ht-engine-parts.html",
+      "hash": "faec1745d221536db7a48cb1b382bcaa6d6831e20b2dd9391bc73ee64f365755"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.12 PM.jpeg",
+      "productCode": "VG-156-008-0276-HT",
+      "description": "Fuel Injector",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.12 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-156-008-0276-HT-62C447681D18.jpeg",
+      "url": "products/vg-156-008-0276-ht-engine-parts.html",
+      "hash": "62c447681d18650bfd1ab72f79b5fdbdc08c0ca10865f9bb31e21b52a97f1a8d"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.13 PM (1).jpeg",
+      "productCode": "1000549569-HT",
+      "description": "Valve Seal",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.13 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/1000549569-HT-0B74DBE11192.jpeg",
+      "url": "products/1000549569-ht-engine-parts.html",
+      "hash": "0b74dbe1119222dfcad0cfc7c9afc283528e7995b76b3c28b430611ebe40fbc5"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.13 PM (2).jpeg",
+      "productCode": "13038398-KIT-HT",
+      "description": "Piston Liner Kit",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.13 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/13038398-KIT-HT.jpeg",
+      "url": "products/13038398-kit-ht-engine-parts.html",
+      "hash": "56e3dfa829e2033ba251028b4be3442213bc0d35c822835decc1ded5c428444b"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.13 PM.jpeg",
+      "productCode": "WG-407-545-0160-HT",
+      "description": "Front Brake Lining Set",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.13 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/WG-407-545-0160-HT.jpeg",
+      "url": "products/wg-407-545-0160-ht-brake-system.html",
+      "hash": "8d6b33bbaf4118a5776e23764e0b7cc58a732dbac1855f2c1f771a126c7c72fc"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.14 PM (1).jpeg",
+      "productCode": "612600040113-HT",
+      "description": "Valve Guide",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.14 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/612600040113-HT-9837BF69CBFC.jpeg",
+      "url": "products/612600040113-ht-engine-parts.html",
+      "hash": "9837bf69cbfc85ee2540521fdfba678cfa9cb2a599253d1225250419acd1b489"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.14 PM (2).jpeg",
+      "productCode": "VG-124-606-0006-HT",
+      "description": "Belt Tensioner",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.14 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-124-606-0006-HT.jpeg",
+      "url": "products/vg-124-606-0006-ht-engine-parts.html",
+      "hash": "cbe22d57f9536f60f25b65de8fbe436ce58d60f6f574ed0e947b07502027121e"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.14 PM.jpeg",
+      "productCode": "612620010055-HT",
+      "description": "Cylinder Liner",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.14 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/612620010055-HT-241D34D1C2A4.jpeg",
+      "url": "products/612620010055-ht-engine-parts.html",
+      "hash": "241d34d1c2a4aa61939146c9873592aabb76462c5e732284613bc0693b7f8e1b"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.15 PM (1).jpeg",
+      "productCode": "200V05504-0122-HT",
+      "description": "Oil Filter",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.15 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/200V05504-0122-HT-F586B0DFB299.jpeg",
+      "url": "products/200v05504-0122-ht-engine-parts.html",
+      "hash": "f586b0dfb299067953269195d2e8848ba71a1fcd009790ef5cf2e896402b3b66"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.15 PM (2).jpeg",
+      "productCode": "VG-156-011-8229-HT",
+      "description": "Turbocharger",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.15 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/HT2430H.jpeg",
+      "url": "products/vg-156-011-8229-ht-engine-parts.html",
+      "hash": "82d5e30e8217a6e3afb561537ce8e80b273c08fa6333bc51659280ae691d86d1"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.15 PM.jpeg",
+      "productCode": "VG-124-601-0034-HT",
+      "description": "Main Bearing Set",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.15 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-124-601-0034-HT-C6D2383FAA2E.jpeg",
+      "url": "products/vg-124-601-0034-ht-engine-parts.html",
+      "hash": "c6d2383faa2ef33c9e95ccee6eb088543138ea5914579c72e6aef19f154a328f"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.16 PM (1).jpeg",
+      "productCode": "612600081334-HT",
+      "description": "Fuel Filter",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.16 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/612600081334-HT-5F32AA2A43AC.jpeg",
+      "url": "products/612600081334-ht-engine-parts.html",
+      "hash": "5f32aa2a43ac107cc738cc969b0795811478535de54dfe36c0eaa8477232e79c"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.16 PM (2).jpeg",
+      "productCode": "",
+      "description": "Product code and description are not visibly present in the original catalogue image.",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.16 PM (2).jpeg; no duplicate product created.",
+      "hash": "1823a7476c43419f3cc383cfd478653b73410daa41061978bbca41a4d1603d71"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.16 PM.jpeg",
+      "productCode": "612630030405-XLB-HT",
+      "description": "Air Compressor Repair Kit",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.16 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/612630030405-XLB-HT.jpeg",
+      "url": "products/612630030405-xlb-ht-engine-parts.html",
+      "hash": "b9c744f8a23aa1b6d552eca2ff50d186a5c9206a730a979586649692df0d5867"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.17 PM (1).jpeg",
+      "productCode": "39X118-PLATE-HT",
+      "description": "Coupling Use Plate",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.17 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/HT5434H.jpeg",
+      "url": "products/39x118-plate-ht-transmission-parts.html",
+      "hash": "f9ed90a5d3d1a200f123c7a5d063071d31b2d317d65618fed66539c4fbff2dbc"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.17 PM.jpeg",
+      "productCode": "WG-711-745-0180-HT",
+      "description": "Rear Brake Lining Set",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.17 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/WG-711-745-0180-HT.jpeg",
+      "url": "products/wg-711-745-0180-ht-brake-system.html",
+      "hash": "b44e41509c82162894c6956ca71576fe932b4d72da664bbcadb3efc78b711c9f"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.18 PM (1).jpeg",
+      "productCode": "NAE-156-011-0000-HT",
+      "description": "Intake Manifold Gasket",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.18 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/HT2967.jpeg",
+      "url": "products/nae-156-011-0000-ht-engine-parts.html",
+      "hash": "92de57e196e059c6a2f2598569dc77afc6426813e199abf7eee91c19e1c9a7ae"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.18 PM (2).jpeg",
+      "productCode": "13034908-HT",
+      "description": "Main Bearing Set",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.18 PM (2).jpeg; no duplicate product created.",
+      "image": "assets/img/products/13034908-HT-556FEE07EA19.jpeg",
+      "url": "products/13034908-ht-engine-parts.html",
+      "hash": "556fee07ea19d30d80dd816c963b080aaef45962d95ffe92f9a94aed19027168"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.18 PM.jpeg",
+      "productCode": "612600030068-HT",
+      "description": "Piston Liner Kit",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.18 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/612600030068-HT-DCA3D848401D.jpeg",
+      "url": "products/612600030068-ht-engine-parts.html",
+      "hash": "dca3d848401dd013a5fa52f5a3c392c9c799ebf00b3f90edd6fd8756857b91c0"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.19 PM (1).jpeg",
+      "productCode": "61800050143-HT",
+      "description": "Push Rod",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.19 PM (1).jpeg; no duplicate product created.",
+      "image": "assets/img/products/61800050143-HT-D1F95CCAD992.jpeg",
+      "url": "products/61800050143-ht-engine-parts.html",
+      "hash": "d1f95ccad992ba95d9356b9d728d289b4c5e20ce606ed998387d5bfe4209242a"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.19 PM (2).jpeg",
+      "productCode": "68X165-HT",
+      "description": "Coupling",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.19 PM (2).jpeg; no duplicate product created.",
+      "hash": "e43db330ff6feff895a4513aba12381703fac7897f39f324353275c6b504581b"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.19 PM.jpeg",
+      "productCode": "VG-14050049-HT",
+      "description": "Exhaust Valve Rocker Arm",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.19 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/VG-14050049-HT.jpeg",
+      "url": "products/vg-14050049-ht-engine-parts.html",
+      "hash": "ea19132a6ebcfcc740b7710a9b7592020345c32778961cbf7a6ceb4c17c4c36d"
+    },
+    {
+      "sourceImage": "whatsapp-import/HUATAI-BATCH-02/WhatsApp Image 2026-07-21 at 11.22.20 PM.jpeg",
+      "productCode": "WG-992-555-0202-HT",
+      "description": "Pre-Fuel Filter",
+      "status": "ALREADY EXISTS — SKIPPED",
+      "reason": "Exact SHA-256 duplicate of whatsapp-import/HUATAI-2026-07-21/WhatsApp Image 2026-07-21 at 11.22.20 PM.jpeg; no duplicate product created.",
+      "image": "assets/img/products/WG-992-555-0202-HT-FDE338CBB128.jpeg",
+      "url": "products/wg-992-555-0202-ht-engine-parts.html",
+      "hash": "fde338cbb12861b9ae7a66458acf7bfe0f1d6d607b29776b60cdfd158b1b2ab1"
+    }
+  ]
+}
