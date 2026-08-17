@@ -10650,13 +10650,393 @@ window.NAE_IMPORTED_PRODUCTS = [
       "importedAt": "2026-08-17T01:40:51",
       "recognitionNote": "Primary product code visually verified against the large red code in the original Flywheel catalogue image."
     }
+  },
+  {
+    "id": "DZ-901 494 46012",
+    "code": "DZ-901 494 46012",
+    "number": "DZ-901 494 46012",
+    "productNumber": "DZ-901 494 46012",
+    "partNumber": "DZ-901 494 46012",
+    "name": "ADJUSTER 19T FRT LH PA80 ID 38M HANDE AXLE",
+    "productName": "ADJUSTER 19T FRT LH PA80 ID 38M HANDE AXLE",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "ADJUSTER 19T FRT LH PA80 ID 38M HANDE AXLE. 19T, ID 35/38 mm, HI 91 mm, C-C 180 mm, ID 14 mm, Front, Left Hand.",
+    "visibleDescription": "ADJUSTER 19T FRT LH PA80 ID 38M HANDE AXLE",
+    "longDescription": "ADJUSTER 19T FRT LH PA80 ID 38M HANDE AXLE. 19T, ID 35/38 mm, HI 91 mm, C-C 180 mm, ID 14 mm, Front, Left Hand. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "PA80, HANDE AXLE",
+    "brand": "HANDE",
+    "vehicleModel": "PA80, HANDE AXLE",
+    "vehicleModels": [
+      "PA80",
+      "HANDE AXLE"
+    ],
+    "engineModel": "",
+    "engineModels": [],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/DZ-901-494-46012.jpeg",
+    "thumbnail": "assets/img/products/DZ-901-494-46012.jpeg",
+    "images": [
+      "assets/img/products/DZ-901-494-46012.jpeg"
+    ],
+    "alt": "DZ-901 494 46012 ADJUSTER 19T FRT LH PA80 ID 38M HANDE AXLE for PA80, HANDE AXLE, PA80, HANDE AXLE heavy duty truck part",
+    "slug": "dz-901-494-46012-slack-adjuster",
+    "url": "products/dz-901-494-46012-slack-adjuster.html",
+    "specifications": {
+      "visibleText": "ADJUSTER 19T FRT LH PA80 ID 38M HANDE AXLE",
+      "measurements": [
+        "19T",
+        "ID 35/38 mm",
+        "HI 91 mm",
+        "C-C 180 mm",
+        "ID 14 mm",
+        "Front",
+        "Left Hand"
+      ],
+      "vehicleModels": [
+        "PA80",
+        "HANDE AXLE"
+      ]
+    },
+    "specs": [
+      "19T",
+      "ID 35/38 mm",
+      "HI 91 mm",
+      "C-C 180 mm",
+      "ID 14 mm",
+      "Front",
+      "Left Hand"
+    ],
+    "specification": "19T; ID 35/38 mm; HI 91 mm; C-C 180 mm; ID 14 mm; Front; Left Hand",
+    "keywords": [
+      "slack adjuster",
+      "slack-adjuster",
+      "air brake slack adjuster",
+      "DZ-901 494 46012",
+      "ADJUSTER 19T FRT LH PA80 ID 38M HANDE AXLE",
+      "HANDE",
+      "PA80",
+      "HANDE AXLE",
+      "19T",
+      "ID 35/38 mm",
+      "HI 91 mm",
+      "C-C 180 mm",
+      "ID 14 mm",
+      "Front",
+      "Left Hand"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "DZ-901 494 46012 ADJUSTER 19T FRT LH PA80 ID 38M HANDE AXLE slack-adjuster Slack Adjuster trailer ADJUSTER 19T FRT LH PA80 ID 38M HANDE AXLE. 19T, ID 35/38 mm, HI 91 mm, C-C 180 mm, ID 14 mm, Front, Left Hand. ADJUSTER 19T FRT LH PA80 ID 38M HANDE AXLE. 19T, ID 35/38 mm, HI 91 mm, C-C 180 mm, ID 14 mm, Front, Left Hand. Confirmed visible catalogue specifications are preserved for search. PA80, HANDE AXLE HANDE PA80 HANDE AXLE 19T; ID 35/38 mm; HI 91 mm; C-C 180 mm; ID 14 mm; Front; Left Hand 19T ID 35/38 mm HI 91 mm C-C 180 mm ID 14 mm Front Left Hand air brake slack adjuster air-brake heavy-truck-parts WhatsApp Image 2026-08-13 at 11.42.19 AM.jpeg Slack Adjuster/WhatsApp Image 2026-08-13 at 11.42.19 AM.jpeg DZ-901 494 46012 ADJUSTER 19T FRT LH PA80 ID 38M HANDE AXLE HANDE PA80 HANDE AXLE 19T; ID 35/38 mm; HI 91 mm; C-C 180 mm; ID 14 mm; Front; Left Hand visibleText measurements vehicleModels",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-13 at 11.42.19 AM.jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-13 at 11.42.19 AM.jpeg",
+      "hash": "c28385f9a5224612cbc3e163b1d7a920b6cd7ab94fa8f1dae9ae1d91c65143ac",
+      "ocrText": "DZ-901 494 46012\nADJUSTER 19T FRT LH PA80 ID 38M HANDE AXLE\nHANDE\nPA80 HANDE AXLE\n19T; ID 35/38 mm; HI 91 mm; C-C 180 mm; ID 14 mm; Front; Left Hand",
+      "importedAt": "2026-08-17T01:54:14",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Slack Adjuster catalogue image."
+    }
+  },
+  {
+    "id": "NAE-ADJ-37T",
+    "code": "NAE-ADJ-37T",
+    "number": "NAE-ADJ-37T",
+    "productNumber": "NAE-ADJ-37T",
+    "partNumber": "NAE-ADJ-37T",
+    "name": "ADJUSTER 37T TRAILLER FUSO",
+    "productName": "ADJUSTER 37T TRAILLER FUSO",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "ADJUSTER 37T TRAILLER FUSO. 37T, ID 39/40 mm, 4H ID 13 mm, C-C 190 mm.",
+    "visibleDescription": "ADJUSTER 37T TRAILLER FUSO",
+    "longDescription": "ADJUSTER 37T TRAILLER FUSO. 37T, ID 39/40 mm, 4H ID 13 mm, C-C 190 mm. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "FUSO, TRAILLER",
+    "brand": "FUTZSU",
+    "vehicleModel": "FUSO, TRAILLER",
+    "vehicleModels": [
+      "FUSO",
+      "TRAILLER"
+    ],
+    "engineModel": "",
+    "engineModels": [],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/NAE-ADJ-37T.jpeg",
+    "thumbnail": "assets/img/products/NAE-ADJ-37T.jpeg",
+    "images": [
+      "assets/img/products/NAE-ADJ-37T.jpeg"
+    ],
+    "alt": "NAE-ADJ-37T ADJUSTER 37T TRAILLER FUSO for FUSO, TRAILLER, FUSO, TRAILLER heavy duty truck part",
+    "slug": "nae-adj-37t-slack-adjuster",
+    "url": "products/nae-adj-37t-slack-adjuster.html",
+    "specifications": {
+      "visibleText": "ADJUSTER 37T TRAILLER FUSO",
+      "measurements": [
+        "37T",
+        "ID 39/40 mm",
+        "4H ID 13 mm",
+        "C-C 190 mm"
+      ],
+      "vehicleModels": [
+        "FUSO",
+        "TRAILLER"
+      ]
+    },
+    "specs": [
+      "37T",
+      "ID 39/40 mm",
+      "4H ID 13 mm",
+      "C-C 190 mm"
+    ],
+    "specification": "37T; ID 39/40 mm; 4H ID 13 mm; C-C 190 mm",
+    "keywords": [
+      "slack adjuster",
+      "slack-adjuster",
+      "air brake slack adjuster",
+      "NAE-ADJ-37T",
+      "ADJUSTER 37T TRAILLER FUSO",
+      "FUTZSU",
+      "FUSO",
+      "TRAILLER",
+      "37T",
+      "ID 39/40 mm",
+      "4H ID 13 mm",
+      "C-C 190 mm"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "NAE-ADJ-37T ADJUSTER 37T TRAILLER FUSO slack-adjuster Slack Adjuster trailer ADJUSTER 37T TRAILLER FUSO. 37T, ID 39/40 mm, 4H ID 13 mm, C-C 190 mm. ADJUSTER 37T TRAILLER FUSO. 37T, ID 39/40 mm, 4H ID 13 mm, C-C 190 mm. Confirmed visible catalogue specifications are preserved for search. FUSO, TRAILLER FUTZSU FUSO TRAILLER 37T; ID 39/40 mm; 4H ID 13 mm; C-C 190 mm 37T ID 39/40 mm 4H ID 13 mm C-C 190 mm air brake slack adjuster air-brake heavy-truck-parts WhatsApp Image 2026-08-14 at 10.05.51 AM.jpeg Slack Adjuster/WhatsApp Image 2026-08-14 at 10.05.51 AM.jpeg NAE-ADJ-37T ADJUSTER 37T TRAILLER FUSO FUTZSU FUSO TRAILLER 37T; ID 39/40 mm; 4H ID 13 mm; C-C 190 mm visibleText measurements vehicleModels",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-14 at 10.05.51 AM.jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-14 at 10.05.51 AM.jpeg",
+      "hash": "018f5d71c82cd092583f19f876c2fccd969d1220c451703a5f31a729085eac86",
+      "ocrText": "NAE-ADJ-37T\nADJUSTER 37T TRAILLER FUSO\nFUTZSU\nFUSO TRAILLER\n37T; ID 39/40 mm; 4H ID 13 mm; C-C 190 mm",
+      "importedAt": "2026-08-17T01:54:14",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Slack Adjuster catalogue image."
+    }
+  },
+  {
+    "id": "NAE-ADJ-10T",
+    "code": "NAE-ADJ-10T",
+    "number": "NAE-ADJ-10T",
+    "productNumber": "NAE-ADJ-10T",
+    "partNumber": "NAE-ADJ-10T",
+    "name": "ADJUSTER 10T TRAILLER",
+    "productName": "ADJUSTER 10T TRAILLER",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "ADJUSTER 10T TRAILLER. 10T, ID 31/38 mm, 4H ID 13 mm, C-C 190 mm.",
+    "visibleDescription": "ADJUSTER 10T TRAILLER",
+    "longDescription": "ADJUSTER 10T TRAILLER. 10T, ID 31/38 mm, 4H ID 13 mm, C-C 190 mm. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "TRAILLER",
+    "brand": "FUTZSU",
+    "vehicleModel": "TRAILLER",
+    "vehicleModels": [
+      "TRAILLER"
+    ],
+    "engineModel": "",
+    "engineModels": [],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/NAE-ADJ-10T.jpeg",
+    "thumbnail": "assets/img/products/NAE-ADJ-10T.jpeg",
+    "images": [
+      "assets/img/products/NAE-ADJ-10T.jpeg"
+    ],
+    "alt": "NAE-ADJ-10T ADJUSTER 10T TRAILLER for TRAILLER heavy duty truck part",
+    "slug": "nae-adj-10t-slack-adjuster",
+    "url": "products/nae-adj-10t-slack-adjuster.html",
+    "specifications": {
+      "visibleText": "ADJUSTER 10T TRAILLER",
+      "measurements": [
+        "10T",
+        "ID 31/38 mm",
+        "4H ID 13 mm",
+        "C-C 190 mm"
+      ],
+      "vehicleModels": [
+        "TRAILLER"
+      ]
+    },
+    "specs": [
+      "10T",
+      "ID 31/38 mm",
+      "4H ID 13 mm",
+      "C-C 190 mm"
+    ],
+    "specification": "10T; ID 31/38 mm; 4H ID 13 mm; C-C 190 mm",
+    "keywords": [
+      "slack adjuster",
+      "slack-adjuster",
+      "air brake slack adjuster",
+      "NAE-ADJ-10T",
+      "ADJUSTER 10T TRAILLER",
+      "FUTZSU",
+      "TRAILLER",
+      "10T",
+      "ID 31/38 mm",
+      "4H ID 13 mm",
+      "C-C 190 mm"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "NAE-ADJ-10T ADJUSTER 10T TRAILLER slack-adjuster Slack Adjuster trailer ADJUSTER 10T TRAILLER. 10T, ID 31/38 mm, 4H ID 13 mm, C-C 190 mm. ADJUSTER 10T TRAILLER. 10T, ID 31/38 mm, 4H ID 13 mm, C-C 190 mm. Confirmed visible catalogue specifications are preserved for search. TRAILLER FUTZSU 10T; ID 31/38 mm; 4H ID 13 mm; C-C 190 mm 10T ID 31/38 mm 4H ID 13 mm C-C 190 mm air brake slack adjuster air-brake heavy-truck-parts WhatsApp Image 2026-08-14 at 10.34.18 AM.jpeg Slack Adjuster/WhatsApp Image 2026-08-14 at 10.34.18 AM.jpeg NAE-ADJ-10T ADJUSTER 10T TRAILLER FUTZSU TRAILLER 10T; ID 31/38 mm; 4H ID 13 mm; C-C 190 mm visibleText measurements vehicleModels",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-14 at 10.34.18 AM.jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-14 at 10.34.18 AM.jpeg",
+      "hash": "dc423b85fbc91bc6103436b59b4ea65b4cdbb2076fd0984ec73c1e43a60c2a6b",
+      "ocrText": "NAE-ADJ-10T\nADJUSTER 10T TRAILLER\nFUTZSU\nTRAILLER\n10T; ID 31/38 mm; 4H ID 13 mm; C-C 190 mm",
+      "importedAt": "2026-08-17T01:54:14",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Slack Adjuster catalogue image."
+    }
+  },
+  {
+    "id": "MC 826063",
+    "code": "MC 826063",
+    "number": "MC 826063",
+    "productNumber": "MC 826063",
+    "partNumber": "MC 826063",
+    "name": "SLACK ADJUSTER FRT LH 25T FUSO",
+    "productName": "SLACK ADJUSTER FRT LH 25T FUSO",
+    "category": "slack-adjuster",
+    "categoryLabel": "Slack Adjuster",
+    "categoryGroup": "trailer",
+    "subcategory": "",
+    "description": "SLACK ADJUSTER FRT LH 25T FUSO. 25T, ID 37/40 mm, HI 92 mm, C-C 135 mm, ID 14 mm, Front, Left Hand.",
+    "visibleDescription": "SLACK ADJUSTER FRT LH 25T FUSO",
+    "longDescription": "SLACK ADJUSTER FRT LH 25T FUSO. 25T, ID 37/40 mm, HI 92 mm, C-C 135 mm, ID 14 mm, Front, Left Hand. Confirmed visible catalogue specifications are preserved for search.",
+    "application": "FUSO",
+    "brand": "FUSO",
+    "vehicleModel": "FUSO",
+    "vehicleModels": [
+      "FUSO"
+    ],
+    "engineModel": "",
+    "engineModels": [],
+    "oeNumber": "",
+    "oeNumbers": [],
+    "alternateNumbers": [
+      "TL1014AG"
+    ],
+    "alternatePartNumbers": [
+      "TL1014AG"
+    ],
+    "availability": "Ready stock",
+    "image": "assets/img/products/MC-826063.jpeg",
+    "thumbnail": "assets/img/products/MC-826063.jpeg",
+    "images": [
+      "assets/img/products/MC-826063.jpeg"
+    ],
+    "alt": "MC 826063 SLACK ADJUSTER FRT LH 25T FUSO for FUSO heavy duty truck part",
+    "slug": "mc-826063-slack-adjuster",
+    "url": "products/mc-826063-slack-adjuster.html",
+    "specifications": {
+      "visibleText": "SLACK ADJUSTER FRT LH 25T FUSO",
+      "measurements": [
+        "25T",
+        "ID 37/40 mm",
+        "HI 92 mm",
+        "C-C 135 mm",
+        "ID 14 mm",
+        "Front",
+        "Left Hand"
+      ],
+      "vehicleModels": [
+        "FUSO"
+      ]
+    },
+    "specs": [
+      "25T",
+      "ID 37/40 mm",
+      "HI 92 mm",
+      "C-C 135 mm",
+      "ID 14 mm",
+      "Front",
+      "Left Hand"
+    ],
+    "specification": "25T; ID 37/40 mm; HI 92 mm; C-C 135 mm; ID 14 mm; Front; Left Hand",
+    "keywords": [
+      "slack adjuster",
+      "slack-adjuster",
+      "air brake slack adjuster",
+      "MC 826063",
+      "SLACK ADJUSTER FRT LH 25T FUSO",
+      "FUSO",
+      "TL1014AG",
+      "25T",
+      "ID 37/40 mm",
+      "HI 92 mm",
+      "C-C 135 mm",
+      "ID 14 mm",
+      "Front",
+      "Left Hand"
+    ],
+    "tags": [
+      "slack-adjuster",
+      "air-brake",
+      "heavy-truck-parts"
+    ],
+    "needsManualReview": false,
+    "needsReview": false,
+    "reviewReason": "",
+    "confidence": 100,
+    "searchableText": "MC 826063 SLACK ADJUSTER FRT LH 25T FUSO slack-adjuster Slack Adjuster trailer SLACK ADJUSTER FRT LH 25T FUSO. 25T, ID 37/40 mm, HI 92 mm, C-C 135 mm, ID 14 mm, Front, Left Hand. SLACK ADJUSTER FRT LH 25T FUSO. 25T, ID 37/40 mm, HI 92 mm, C-C 135 mm, ID 14 mm, Front, Left Hand. Confirmed visible catalogue specifications are preserved for search. FUSO TL1014AG 25T; ID 37/40 mm; HI 92 mm; C-C 135 mm; ID 14 mm; Front; Left Hand 25T ID 37/40 mm HI 92 mm C-C 135 mm ID 14 mm Front Left Hand air brake slack adjuster air-brake heavy-truck-parts WhatsApp Image 2026-08-14 at 9.40.45 AM.jpeg Slack Adjuster/WhatsApp Image 2026-08-14 at 9.40.45 AM.jpeg MC 826063 SLACK ADJUSTER FRT LH 25T FUSO FUSO FUSO TL1014AG 25T; ID 37/40 mm; HI 92 mm; C-C 135 mm; ID 14 mm; Front; Left Hand visibleText measurements vehicleModels",
+    "source": {
+      "type": "slack-adjuster-folder-image",
+      "originalFile": "WhatsApp Image 2026-08-14 at 9.40.45 AM.jpeg",
+      "originalPath": "Slack Adjuster/WhatsApp Image 2026-08-14 at 9.40.45 AM.jpeg",
+      "hash": "08e205720543f039bc0fa477d6a39d8a73c4119b4b75e961178c08f7360a33cc",
+      "ocrText": "MC 826063\nSLACK ADJUSTER FRT LH 25T FUSO\nFUSO\nFUSO\nTL1014AG\n25T; ID 37/40 mm; HI 92 mm; C-C 135 mm; ID 14 mm; Front; Left Hand",
+      "importedAt": "2026-08-17T01:54:14",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Slack Adjuster catalogue image."
+    }
   }
 ];
 window.NAE_IMPORT_META = {
-  "generatedAt": "2026-08-17T01:40:51",
-  "totalProducts": 99,
+  "generatedAt": "2026-08-17T01:54:14",
+  "totalProducts": 103,
   "source": "google-indexing-audit",
   "searchIndexRebuilt": true,
-  "productSeoPagesChecked": 99,
+  "productSeoPagesChecked": 103,
   "productionBaseUrl": "https://titan-900.github.io/NAE-TRUCK/"
 };
