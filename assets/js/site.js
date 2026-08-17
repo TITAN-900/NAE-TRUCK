@@ -212,7 +212,9 @@ async function loadBrandsData() {
 }
 
 async function loadProductData() {
-  if (!window.fetch) return Array.isArray(window.NAE_IMPORTED_PRODUCTS) ? window.NAE_IMPORTED_PRODUCTS : [];
+  const generatedProducts = Array.isArray(window.NAE_IMPORTED_PRODUCTS) ? window.NAE_IMPORTED_PRODUCTS : [];
+  if (generatedProducts.length) return generatedProducts;
+  if (!window.fetch) return generatedProducts;
 
   try {
     const response = await fetch(productsDataUrl, { cache: "no-cache" });
@@ -221,7 +223,7 @@ async function loadProductData() {
     const data = JSON.parse(text.replace(/^\uFEFF/, ""));
     return Array.isArray(data) ? data : [];
   } catch (error) {
-    return Array.isArray(window.NAE_IMPORTED_PRODUCTS) ? window.NAE_IMPORTED_PRODUCTS : [];
+    return generatedProducts;
   }
 }
 
