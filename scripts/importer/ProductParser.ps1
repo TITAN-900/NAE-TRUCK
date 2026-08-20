@@ -199,7 +199,7 @@ function Get-ProductNameFromText {
     @{ Pattern = '\bINTERCOOLER\s+HOSE\b|\bHOSE\s+INTERCOOLER\b'; Name = 'Intercooler Hose'; Category = 'cooling-system' },
     @{ Pattern = '\bINTERCOOLER\s+ASSY\b|\bINTERCOOLER\b'; Name = 'Intercooler Assembly'; Category = 'cooling-system' },
     @{ Pattern = '\bW\/?\s*PUMP\s+ASSY\b|\bWATER\s*PUMP\s+ASSY\b'; Name = 'Water Pump Assembly'; Category = 'cooling-system' },
-    @{ Pattern = '\bTURBO\s+ASSY\b|\bTURBOCHARGER\b'; Name = 'Turbo Assembly'; Category = 'engine-parts' },
+    @{ Pattern = '\bTURBO\s*(?:ASSY|CHARGER)\b'; Name = 'Turbo Charger'; Category = 'turbo-charger' },
     @{ Pattern = '\bDRI(?:VE|VER)\s+SHAFT\s+HANGER\s+ASSEMBLY\b|\bDRI(?:VE|VER)\s+SHAFT\s+HANGER\b'; Name = 'Drive Shaft Hanger Assembly'; Category = 'transmission-parts' },
     @{ Pattern = '\bCABIN\s+BELLOW\b|\bCABIN\s+BELOW\b|\bCABIN\s+BELLOWS\b|\bAIR\s+BEL(?:LOW|OW)\b|\bAIR\s+BELOW\b|\bBELLOWS\b'; Name = 'Cabin Bellow'; Category = 'suspension-system' },
     @{ Pattern = '\bCABIN\s+BUSH\s+KIT\b'; Name = 'Cabin Bush Kit'; Category = 'suspension-system' },

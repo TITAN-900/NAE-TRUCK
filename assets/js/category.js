@@ -46,6 +46,7 @@ const categoryGroupMap = {
   "rubber-hose": "other",
   "flywheel": "engine",
   "clutch-plate-cover": "other",
+  "turbo-charger": "engine",
   other: "other"
 };
 
@@ -163,6 +164,21 @@ const fallbackCategories = [
     metaDescription: "Browse heavy-duty truck clutch plate and clutch cover components from NIHON ASIA ENTERPRISE.",
     canonical: "https://titan-900.github.io/NAE-TRUCK/products.html?category=clutch-plate-cover",
     items: ["Clutch Plate", "Clutch Cover"]
+  },
+  {
+    slug: "turbo-charger",
+    num: "15",
+    title: "TURBO CHARGER",
+    desc: "Heavy-duty truck turbo charger components.",
+    intro: "Heavy-duty truck turbo charger components.",
+    thumbnail: "",
+    categoryImage: "assets/img/categories/turbo-charger-cover.png",
+    futureCategoryImage: "assets/img/categories/turbo-charger-cover.png",
+    productCategory: true,
+    seoTitle: "Turbo Charger | Heavy-Duty Truck Parts | NIHON ASIA ENTERPRISE",
+    metaDescription: "Browse heavy-duty truck turbo charger components from NIHON ASIA ENTERPRISE.",
+    canonical: "https://titan-900.github.io/NAE-TRUCK/products.html?category=turbo-charger",
+    items: ["Turbo Charger"]
   }
 ];
 
