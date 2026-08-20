@@ -199,7 +199,7 @@ function Get-ProductNameFromText {
     @{ Pattern = '\bINTERCOOLER\s+HOSE\b|\bHOSE\s+INTERCOOLER\b'; Name = 'Intercooler Hose'; Category = 'cooling-system' },
     @{ Pattern = '\bINTERCOOLER\s+ASSY\b|\bINTERCOOLER\b'; Name = 'Intercooler Assembly'; Category = 'cooling-system' },
     @{ Pattern = '\bW\/?\s*PUMP\s+ASSY\b|\bWATER\s*PUMP\s+ASSY\b'; Name = 'Water Pump Assembly'; Category = 'cooling-system' },
-    @{ Pattern = '\bTURBO\s*(?:ASSY|CHARGER)\b'; Name = 'Turbo Charger'; Category = 'turbo-charger' },
+    @{ Pattern = '\bTURBO\s*(?:ASSY|CHARGER)\b|\bTURBO\s+(?:WITH\s+)?MANIFOLD\b'; Name = 'Turbo Charger'; Category = 'turbo-charger' },
     @{ Pattern = '\bDRI(?:VE|VER)\s+SHAFT\s+HANGER\s+ASSEMBLY\b|\bDRI(?:VE|VER)\s+SHAFT\s+HANGER\b'; Name = 'Drive Shaft Hanger Assembly'; Category = 'transmission-parts' },
     @{ Pattern = '\bCABIN\s+BELLOW\b|\bCABIN\s+BELOW\b|\bCABIN\s+BELLOWS\b|\bAIR\s+BEL(?:LOW|OW)\b|\bAIR\s+BELOW\b|\bBELLOWS\b'; Name = 'Cabin Bellow'; Category = 'suspension-system' },
     @{ Pattern = '\bCABIN\s+BUSH\s+KIT\b'; Name = 'Cabin Bush Kit'; Category = 'suspension-system' },
@@ -292,6 +292,8 @@ function Get-VehicleBrandFromText {
   param([Parameter(Mandatory)][string]$Text)
 
   $brandRules = @(
+    @{ Pattern = '\bGARRETT\b'; Brand = 'GARRETT' },
+    @{ Pattern = '\bGARETZ\b|\bGAR\.?EV\b'; Brand = 'GARETZ' },
     @{ Pattern = '\bSINOTRUK\b|\bHOWO\d*\b|\bHOW\d{3,4}\b|\bCNHTC\b'; Brand = 'SINOTRUK HOWO' },
     @{ Pattern = '\bSITRAK\b'; Brand = 'SITRAK' },
     @{ Pattern = '\bHANVAN\b|\bXCMG\b'; Brand = 'HANVAN' },
@@ -873,6 +875,7 @@ function Get-ProductLine {
   )
 
   $compactNumber = $Number -replace '[^A-Z0-9]', ''
+  $numberLine = ''
   foreach ($line in $Lines) {
     $lineText = ConvertTo-CleanOcrText ([string]$line.Text)
     $compactLine = $lineText -replace '[^A-Z0-9]', ''
@@ -880,7 +883,12 @@ function Get-ProductLine {
       $lineText.Contains($Number) -or
       ($compactNumber.Length -ge 6 -and $compactLine.Contains($compactNumber))
     ) {
-      return $lineText
+      if ($lineText -match '\b(?:TURBO|FLYWHEEL|SLACK|HOSE|CLUTCH|BRAKE|PUMP|FILTER|VALVE|BEARING|ASSY|ASSEMBLY|MANIFOLD)\b') {
+        return $lineText
+      }
+      if ([string]::IsNullOrWhiteSpace($numberLine)) {
+        $numberLine = $lineText
+      }
     }
   }
 
@@ -893,12 +901,12 @@ function Get-ProductLine {
 
   foreach ($line in $Lines) {
     $lineText = ConvertTo-CleanOcrText ([string]$line.Text)
-    if ($lineText -match '\b(ENGINE\s+REPAIR\s+KIT|O\/?\s*H\s+GASKET|GASKET\s+SET|HEAD\s+GASKET|PISTON\s+LINER\s+KIT|CYLINDER\s+LINER\s+KIT|CYLINDER\s+LINER|LINER|C\/?\s*R\s+BRG|M\/?\s*BRG|MAIN\s+BRG|VALVE\s+ROCKER\s+ARM|VALVE\s+SEAL|VALVE\s+TAPPET|VALVE\s+GUIDE|VALVE\s+INSEAT|CAM\s+SHAFT\s+BUSH|CAM\s+BUSH|T\/?\s*WASHER|CRANKSHAFT|AIR\s+COMP(?:RESSOR)?|HAND\s+OIL\s+PUMP|BELT\s+TENSION(?:ER|E)|BELT\s+TANSIONER|TENSIONER\s+ROLLAR|OIL\s+JET|INJ(?:E)?TOR\s+SLEEVE|NOZZLE\s+TUBE|FUEL\s+INJECTOR|PUSH\s+ROD|MANIFOLD\s+GASKET|FUEL\s+FILTER|OIL\s+FILTER|AIR\s+FILTER|FUEL\s+WATER\s+SEPARATOR|TOP\s+PUMP|2\s*SPEED\s+FLANGE|REAR\s+DIFF|KING\s+PIN\s+KIT|UNIVERSAL\s+JOINT|CLUTCH\s+SERVO|CLUTCH\s+BOOSTER\s+CYLINDER|SPARE\s+TANK|OIL\s+COOLER|FILTER\s+HEAD|CYL(?:INDER)?\s+HEAD|IN\s+VALVE|INTAKE\s+VALVE|EXHAUST\s+VALVE|CONNECTING\s+ROD|CON\s+ROD|NOZZLE\s+PIPE|FUEL\s+INJECTION\s+PIPE|B\/?\s*LINING|BRAKE\s+LINING|BRAKE\s+SHOE|B\/?\s*SHOE|VALVE\s+CAP|CAMSHAFT|OIL\s+PUMP|INTERCOOLER|TORQUE\s+BUSH|MAGN(?:E|EC)TIC\s+VALVE|MAGNETIC\s+VALVE|SOLENOID\s+VALVE|FUEL\s+TANK\s+FLOAT|SHIFTING\s+DEVICE|CLUTCH\s+BRG|CLUTCH\s+BEARING|HUB\s+BEARING|HAND\s+BRAKE|HB\s+SHAFT|TEMP\s+SWITCH|AIR\s+BEL(?:LOW|OW)|AIR\s+BELOW|WATER\s*PUMP|W\/?\s*PUMP|2\s*SPEED|SPG\s+SHACKLE|SPRING\s+SHACKLE|SLACK\s+ADJ|TURBO\s+ASSY|TURBOCHARGER|TURBO\s+CHARG|TIE\s+ROD\s+ARM|COUPLING|KNUCKLE|DIFFERENTIAL|SUN\s+GEAR\s+WASHER|PRESSURE\s+PROTECTION\s+VALVE)\b') {
+    if ($lineText -match '\b(ENGINE\s+REPAIR\s+KIT|O\/?\s*H\s+GASKET|GASKET\s+SET|HEAD\s+GASKET|PISTON\s+LINER\s+KIT|CYLINDER\s+LINER\s+KIT|CYLINDER\s+LINER|LINER|C\/?\s*R\s+BRG|M\/?\s*BRG|MAIN\s+BRG|VALVE\s+ROCKER\s+ARM|VALVE\s+SEAL|VALVE\s+TAPPET|VALVE\s+GUIDE|VALVE\s+INSEAT|CAM\s+SHAFT\s+BUSH|CAM\s+BUSH|T\/?\s*WASHER|CRANKSHAFT|AIR\s+COMP(?:RESSOR)?|HAND\s+OIL\s+PUMP|BELT\s+TENSION(?:ER|E)|BELT\s+TANSIONER|TENSIONER\s+ROLLAR|OIL\s+JET|INJ(?:E)?TOR\s+SLEEVE|NOZZLE\s+TUBE|FUEL\s+INJECTOR|PUSH\s+ROD|MANIFOLD\s+GASKET|FUEL\s+FILTER|OIL\s+FILTER|AIR\s+FILTER|FUEL\s+WATER\s+SEPARATOR|TOP\s+PUMP|2\s*SPEED\s+FLANGE|REAR\s+DIFF|KING\s+PIN\s+KIT|UNIVERSAL\s+JOINT|CLUTCH\s+SERVO|CLUTCH\s+BOOSTER\s+CYLINDER|SPARE\s+TANK|OIL\s+COOLER|FILTER\s+HEAD|CYL(?:INDER)?\s+HEAD|IN\s+VALVE|INTAKE\s+VALVE|EXHAUST\s+VALVE|CONNECTING\s+ROD|CON\s+ROD|NOZZLE\s+PIPE|FUEL\s+INJECTION\s+PIPE|B\/?\s*LINING|BRAKE\s+LINING|BRAKE\s+SHOE|B\/?\s*SHOE|VALVE\s+CAP|CAMSHAFT|OIL\s+PUMP|INTERCOOLER|TORQUE\s+BUSH|MAGN(?:E|EC)TIC\s+VALVE|MAGNETIC\s+VALVE|SOLENOID\s+VALVE|FUEL\s+TANK\s+FLOAT|SHIFTING\s+DEVICE|CLUTCH\s+BRG|CLUTCH\s+BEARING|HUB\s+BEARING|HAND\s+BRAKE|HB\s+SHAFT|TEMP\s+SWITCH|AIR\s+BEL(?:LOW|OW)|AIR\s+BELOW|WATER\s*PUMP|W\/?\s*PUMP|2\s*SPEED|SPG\s+SHACKLE|SPRING\s+SHACKLE|SLACK\s+ADJ|TURBO\s+ASSY|TURBOCHARGER|TURBO\s+CHARG|TURBO\s+(?:WITH\s+)?MANIFOLD|TIE\s+ROD\s+ARM|COUPLING|KNUCKLE|DIFFERENTIAL|SUN\s+GEAR\s+WASHER|PRESSURE\s+PROTECTION\s+VALVE)\b') {
       return $lineText
     }
   }
 
-  return ''
+  return $numberLine
 }
 
 function Get-SpecificationsFromText {
@@ -920,6 +928,15 @@ function Get-SpecificationsFromText {
 
   $holeMatches = @([regex]::Matches($Text, '(?<![A-Z0-9])([0-9]{1,2})\s*H\s*(?:M\s*)?([0-9]+(?:\.[0-9]+)?)(?:MM)?') | ForEach-Object { "$($_.Groups[1].Value)H M$($_.Groups[2].Value)" })
   if ($holeMatches.Count) { $specs.Holes = @($holeMatches | Select-Object -Unique) }
+
+  $centerDistanceMatches = @([regex]::Matches($Text, '\bC\s*-\s*C\s*([0-9]+(?:\.[0-9]+)?)\s*(?:MM)?') | ForEach-Object { $_.Groups[1].Value })
+  if ($centerDistanceMatches.Count) { $specs.'C-C' = @($centerDistanceMatches | Select-Object -Unique) }
+
+  $threadMatches = @([regex]::Matches($Text, '(?<![A-Z0-9])H?M\s*([0-9IO]{1,3})(?![A-Z0-9])') | ForEach-Object {
+    $size = $_.Groups[1].Value.ToUpperInvariant().Replace('I', '1').Replace('O', '0')
+    "M$size"
+  })
+  if ($threadMatches.Count) { $specs.Thread = @($threadMatches | Select-Object -Unique) }
 
   $diameterMatches = @([regex]::Matches($Text, '([0-9]{1,2}(?:\s+[0-9]/[0-9])?)\s*"\s*/?\s*([0-9]{3}(?:\.[0-9]+)?)\s*MM') | ForEach-Object { "$($_.Groups[1].Value)`" / $($_.Groups[2].Value)mm" })
   if ($diameterMatches.Count) { $specs.Diameter = @($diameterMatches | Select-Object -Unique) }
@@ -1036,6 +1053,11 @@ function Get-EngineModelsFromText {
     '\bP\s*11C\b',
     '\bJ08E\b',
     '\bE13C\b',
+    '\b4HL[1IL]\b',
+    '\bK13C\b',
+    '\bW[O0]4D\b',
+    '\bN[O0]4C\b',
+    '\bJ[O0]5E\b',
     '\bCA6D[A-Z0-9]*\b',
     '\bYC6[A-Z0-9]*\b',
     '\bISF\s*[0-9.]+\b',
@@ -1047,7 +1069,11 @@ function Get-EngineModelsFromText {
     foreach ($match in [regex]::Matches($Text, $pattern)) {
       $value = ($match.Value.ToUpperInvariant() -replace '\s+', '')
       $value = $value -replace '^WPI[O0]$', 'WP10'
-      if ($value -match '^(WD|WP|TD|MC|D|6D|4D|6M|P|ISF|ISG)' -and -not [string]::IsNullOrWhiteSpace($value)) {
+      $value = $value -replace '^4HL[IL]$', '4HL1'
+      $value = $value -replace '^W[O0]4D$', 'W04D'
+      $value = $value -replace '^N[O0]4C$', 'N04C'
+      $value = $value -replace '^J[O0]5E$', 'J05E'
+      if ($value -match '^(WD|WP|TD|MC|D|6D|4D|6M|P|ISF|ISG|4HL1|K13C|W04D|N04C|J05E)' -and -not [string]::IsNullOrWhiteSpace($value)) {
         $values.Add($value) | Out-Null
       }
     }
@@ -1079,6 +1105,7 @@ function Get-VehicleModelsFromText {
     @{ Pattern = '\bHINO\b|\b700\s*SERIES\b|\b500\s*SERIES\b'; Value = 'HINO' },
     @{ Pattern = '\bMITSUBISHI\b|\bFUSO\b'; Value = 'MITSUBISHI FUSO' },
     @{ Pattern = '\bISUZU\b'; Value = 'ISUZU' },
+    @{ Pattern = '\bDUTRO\b'; Value = 'DUTRO' },
     @{ Pattern = '\bTRAILER\b|\bSEMI\s*TRAILER\b|\bCONTAINER\s+HAULER\b'; Value = 'TRAILER' }
   )
 

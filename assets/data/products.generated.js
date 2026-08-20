@@ -18716,13 +18716,305 @@ window.NAE_IMPORTED_PRODUCTS = [
       "heavy-truck-parts"
     ],
     "needsReview": false
+  },
+  {
+    "id": "8-98213-669-3",
+    "number": "8-98213-669-3",
+    "productNumber": "8-98213-669-3",
+    "partNumber": "8-98213-669-3",
+    "name": "Turbo Charger",
+    "productName": "Turbo Charger",
+    "category": "turbo-charger",
+    "subcategory": "",
+    "description": "TURBO WITH MANIFOLD",
+    "visibleDescription": "TURBO WITH MANIFOLD OD 60MM 61-1 ID 14MM ARE 51-1 M8 C-C 52MM ID 47MM M14 C-C 40MM 21-1 M6 INCLUBE 8-98213-669-3 TURBO WITH MANIFOLD 41-11.1 GAR.EV 4HLL",
+    "longDescription": "TURBO WITH MANIFOLD OD 60MM 61-1 ID 14MM ARE 51-1 M8 C-C 52MM ID 47MM M14 C-C 40MM 21-1 M6 INCLUBE 8-98213-669-3 TURBO WITH MANIFOLD 41-11.1 GAR.EV 4HLL",
+    "application": "4HL1",
+    "brand": "GARETZ",
+    "vehicleModel": "",
+    "engineModel": "4HL1",
+    "oeNumber": "",
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/8-98213-669-3.jpeg",
+    "thumbnail": "assets/img/products/8-98213-669-3.jpeg",
+    "specifications": {
+      "OD": [
+        "60"
+      ],
+      "ID": [
+        "14",
+        "47"
+      ],
+      "C-C": [
+        "52",
+        "40"
+      ],
+      "Thread": [
+        "M8",
+        "M14",
+        "M6"
+      ]
+    },
+    "specs": [
+      "OD 60",
+      "ID 14, 47",
+      "C-C 52, 40",
+      "Thread M8, M14, M6"
+    ],
+    "specification": "OD 60; ID 14, 47; C-C 52, 40; Thread M8, M14, M6",
+    "keywords": [
+      "4HL1",
+      "OD 60",
+      "ID 14, 47",
+      "C-C 52, 40",
+      "Thread M8, M14, M6",
+      "Turbo Charger",
+      "TURBO"
+    ],
+    "needsManualReview": false,
+    "reviewReason": "",
+    "searchableText": "8-98213-669-3 Turbo Charger GARETZ turbo-charger TURBO WITH MANIFOLD TURBO WITH MANIFOLD OD 60MM 61-1 ID 14MM ARE 51-1 M8 C-C 52MM ID 47MM M14 C-C 40MM 21-1 M6 INCLUBE 8-98213-669-3 TURBO WITH MANIFOLD 41-11.1 GAR.EV 4HLL 4HL1 OD 60; ID 14, 47; C-C 52, 40; Thread M8, M14, M6 Ready stock OD 60 ID 14, 47 C-C 52, 40 Thread M8, M14, M6 TURBO ID 14 ID 47 C-C 52 C-C 40 Thread M8 Thread M14 Thread M6 OD 60MM 61-1 ID 14MM ARE 51-1 M8 C-C 52MM ID 47MM M14 C-C 40MM 21-1 M6 INCLUBE 8-98213-669-3 TURBO WITH MANIFOLD 41-11.1 GAR.EV 4HLL",
+    "confidence": 100,
+    "source": {
+      "type": "whatsapp-image",
+      "originalFile": "WhatsApp Image 2026-08-08 at 10.26.24 AM.jpeg",
+      "originalPath": "assets/images/products/turbo-charger/WhatsApp Image 2026-08-08 at 10.26.24 AM.jpeg",
+      "hash": "e1fc9b82887e4d4163d09393ab2637c5378a3fc39e9b83a5d07b88ab7b8f52c6",
+      "ocrText": "OD 60MM 61-1 ID 14MM ARE 51-1 M8 C-C 52MM ID 47MM M14 C-C 40MM 21-1 M6 INCLUBE 8-98213-669-3 TURBO WITH MANIFOLD 41-11.1 GAR.EV 4HLL",
+      "importedAt": "2026-08-20T23:36:30",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Turbo Charger catalogue image."
+    },
+    "slug": "8-98213-669-3-turbo-charger",
+    "url": "products/8-98213-669-3-turbo-charger.html",
+    "alt": "8-98213-669-3 Turbo Charger for 4HL1 heavy duty truck part"
+  },
+  {
+    "id": "704136-0002-GARETZ",
+    "number": "704136-0002-GARETZ",
+    "productNumber": "704136-0002-GARETZ",
+    "partNumber": "704136-0002-GARETZ",
+    "name": "Turbo Charger",
+    "productName": "Turbo Charger",
+    "category": "turbo-charger",
+    "subcategory": "",
+    "description": "TURBO WITH MANIFOLD",
+    "visibleDescription": "TURBO WITH MANIFOLD OD 60MM 2K M12 IH M14 ID 14MM ID 50MM 5H M8-4' LONG C-C 40MM INCLUBE 704136-0002-GARETZ TURBO WITH MANIFOLD 4HL1 41-ILI",
+    "longDescription": "TURBO WITH MANIFOLD OD 60MM 2K M12 IH M14 ID 14MM ID 50MM 5H M8-4' LONG C-C 40MM INCLUBE 704136-0002-GARETZ TURBO WITH MANIFOLD 4HL1 41-ILI",
+    "application": "4HL1",
+    "brand": "GARETZ",
+    "vehicleModel": "",
+    "engineModel": "4HL1",
+    "oeNumber": "",
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/704136-0002-GARETZ.jpeg",
+    "thumbnail": "assets/img/products/704136-0002-GARETZ.jpeg",
+    "specifications": {
+      "OD": [
+        "60"
+      ],
+      "ID": [
+        "14",
+        "50"
+      ],
+      "Holes": [
+        "5H M8"
+      ],
+      "C-C": [
+        "40"
+      ],
+      "Thread": [
+        "M12",
+        "M14",
+        "M8"
+      ]
+    },
+    "specs": [
+      "OD 60",
+      "ID 14, 50",
+      "Holes 5H M8",
+      "C-C 40",
+      "Thread M12, M14, M8"
+    ],
+    "specification": "OD 60; ID 14, 50; Holes 5H M8; C-C 40; Thread M12, M14, M8",
+    "keywords": [
+      "4HL1",
+      "OD 60",
+      "ID 14, 50",
+      "Holes 5H M8",
+      "C-C 40",
+      "Thread M12, M14, M8",
+      "Turbo Charger",
+      "TURBO"
+    ],
+    "needsManualReview": false,
+    "reviewReason": "",
+    "searchableText": "704136-0002-GARETZ Turbo Charger GARETZ turbo-charger TURBO WITH MANIFOLD TURBO WITH MANIFOLD OD 60MM 2K M12 IH M14 ID 14MM ID 50MM 5H M8-4' LONG C-C 40MM INCLUBE 704136-0002-GARETZ TURBO WITH MANIFOLD 4HL1 41-ILI 4HL1 OD 60; ID 14, 50; Holes 5H M8; C-C 40; Thread M12, M14, M8 Ready stock OD 60 ID 14, 50 Holes 5H M8 C-C 40 Thread M12, M14, M8 TURBO ID 14 ID 50 Thread M12 Thread M14 Thread M8 OD 60MM 2K M12 IH M14 ID 14MM ID 50MM 5H M8-4' LONG C-C 40MM INCLUBE 704136-0002-GARETZ TURBO WITH MANIFOLD 4HL1 41-ILI",
+    "confidence": 100,
+    "source": {
+      "type": "whatsapp-image",
+      "originalFile": "WhatsApp Image 2026-08-09 at 10.33.48 AM.jpeg",
+      "originalPath": "assets/images/products/turbo-charger/WhatsApp Image 2026-08-09 at 10.33.48 AM.jpeg",
+      "hash": "08f2b0745a02f0114a4629250448baf6f586aa2a45e97023cb251530c0f6c076",
+      "ocrText": "OD 60MM 2K M12 IH M14 ID 14MM ID 50MM 5H M8-4' LONG C-C 40MM INCLUBE 704136-0002-GARETZ TURBO WITH MANIFOLD 4HL1 41-ILI",
+      "importedAt": "2026-08-20T23:36:30",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Turbo Charger catalogue image."
+    },
+    "slug": "704136-0002-garetz-turbo-charger",
+    "url": "products/704136-0002-garetz-turbo-charger.html",
+    "alt": "704136-0002-GARETZ Turbo Charger for 4HL1 heavy duty truck part"
+  },
+  {
+    "id": "24100-3424-GARETZ",
+    "number": "24100-3424-GARETZ",
+    "productNumber": "24100-3424-GARETZ",
+    "partNumber": "24100-3424-GARETZ",
+    "name": "Turbo Charger",
+    "productName": "Turbo Charger",
+    "category": "turbo-charger",
+    "subcategory": "",
+    "description": "TURBO ASSY K13C TE ELECTRIC",
+    "visibleDescription": "TURBO ASSY K13C TE ELECTRIC OD 115MM C-C 85MM C-C 90MM M12 M16 24100-3424-GARETZ GARETZ TURBO ASSY K13C TE ELECTRIC TURBO PIPE USE 1 ROUND HOLE",
+    "longDescription": "TURBO ASSY K13C TE ELECTRIC OD 115MM C-C 85MM C-C 90MM M12 M16 24100-3424-GARETZ GARETZ TURBO ASSY K13C TE ELECTRIC TURBO PIPE USE 1 ROUND HOLE",
+    "application": "K13C",
+    "brand": "GARETZ",
+    "vehicleModel": "",
+    "engineModel": "K13C",
+    "oeNumber": "",
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/24100-3424-GARETZ.jpeg",
+    "thumbnail": "assets/img/products/24100-3424-GARETZ.jpeg",
+    "specifications": {
+      "OD": [
+        "115"
+      ],
+      "C-C": [
+        "85",
+        "90"
+      ],
+      "Thread": [
+        "M12",
+        "M16"
+      ]
+    },
+    "specs": [
+      "OD 115",
+      "C-C 85, 90",
+      "Thread M12, M16"
+    ],
+    "specification": "OD 115; C-C 85, 90; Thread M12, M16",
+    "keywords": [
+      "K13C",
+      "OD 115",
+      "C-C 85, 90",
+      "Thread M12, M16",
+      "Turbo Charger",
+      "TURBO"
+    ],
+    "needsManualReview": false,
+    "reviewReason": "",
+    "searchableText": "24100-3424-GARETZ Turbo Charger GARETZ turbo-charger TURBO ASSY K13C TE ELECTRIC TURBO ASSY K13C TE ELECTRIC OD 115MM C-C 85MM C-C 90MM M12 M16 24100-3424-GARETZ GARETZ TURBO ASSY K13C TE ELECTRIC TURBO PIPE USE 1 ROUND HOLE K13C OD 115; C-C 85, 90; Thread M12, M16 Ready stock OD 115 C-C 85, 90 Thread M12, M16 TURBO C-C 85 C-C 90 Thread M12 Thread M16 OD 115MM C-C 85MM C-C 90MM M12 M16 24100-3424-GARETZ GARETZ TURBO ASSY K13C TE ELECTRIC TURBO PIPE USE 1 ROUND HOLE",
+    "confidence": 100,
+    "source": {
+      "type": "whatsapp-image",
+      "originalFile": "WhatsApp Image 2026-08-14 at 12.21.19 PM.jpeg",
+      "originalPath": "assets/images/products/turbo-charger/WhatsApp Image 2026-08-14 at 12.21.19 PM.jpeg",
+      "hash": "f67bb4683fb8d778a82a7fb3c85f42bc032bc112d17030b35b07bcc917d5aad1",
+      "ocrText": "OD 115MM C-C 85MM C-C 90MM M12 M16 24100-3424-GARETZ GARETZ TURBO ASSY K13C TE ELECTRIC TURBO PIPE USE 1 ROUND HOLE",
+      "importedAt": "2026-08-20T23:36:31",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Turbo Charger catalogue image."
+    },
+    "slug": "24100-3424-garetz-turbo-charger",
+    "url": "products/24100-3424-garetz-turbo-charger.html",
+    "alt": "24100-3424-GARETZ Turbo Charger for K13C heavy duty truck part"
+  },
+  {
+    "id": "17201-E0450",
+    "number": "17201-E0450",
+    "productNumber": "17201-E0450",
+    "partNumber": "17201-E0450",
+    "name": "Turbo Charger",
+    "productName": "Turbo Charger",
+    "category": "turbo-charger",
+    "subcategory": "",
+    "description": "Turbo Charger",
+    "visibleDescription": "17201-E0450 OD 60MM 2H ID IOMM 2B MIO C-C 45MM M14 C-C 70MM MIO HM8 GARRETT• ORIGINAL C-C 87MM 17201-E0450 TURBO CHARGER DUTRO W04D N04C J05E 21-1 ID 10MM 2H MIO ORIGINA!",
+    "longDescription": "17201-E0450 OD 60MM 2H ID IOMM 2B MIO C-C 45MM M14 C-C 70MM MIO HM8 GARRETT• ORIGINAL C-C 87MM 17201-E0450 TURBO CHARGER DUTRO W04D N04C J05E 21-1 ID 10MM 2H MIO ORIGINA!",
+    "application": "DUTRO, W04D, N04C, J05E",
+    "brand": "GARRETT",
+    "vehicleModel": "DUTRO",
+    "engineModel": "W04D, N04C, J05E",
+    "oeNumber": "",
+    "alternateNumbers": [],
+    "alternatePartNumbers": [],
+    "availability": "Ready stock",
+    "image": "assets/img/products/17201-E0450.jpeg",
+    "thumbnail": "assets/img/products/17201-E0450.jpeg",
+    "specifications": {
+      "OD": [
+        "60"
+      ],
+      "ID": [
+        "10"
+      ],
+      "C-C": [
+        "45",
+        "70",
+        "87"
+      ],
+      "Thread": [
+        "M10",
+        "M14",
+        "M8"
+      ]
+    },
+    "specs": [
+      "OD 60",
+      "ID 10",
+      "C-C 45, 70, 87",
+      "Thread M10, M14, M8"
+    ],
+    "specification": "OD 60; ID 10; C-C 45, 70, 87; Thread M10, M14, M8",
+    "keywords": [
+      "W04D",
+      "N04C",
+      "J05E",
+      "DUTRO",
+      "OD 60",
+      "ID 10",
+      "C-C 45, 70, 87",
+      "Thread M10, M14, M8",
+      "Turbo Charger",
+      "TURBO"
+    ],
+    "needsManualReview": false,
+    "reviewReason": "",
+    "searchableText": "17201-E0450 Turbo Charger GARRETT turbo-charger 17201-E0450 OD 60MM 2H ID IOMM 2B MIO C-C 45MM M14 C-C 70MM MIO HM8 GARRETT• ORIGINAL C-C 87MM 17201-E0450 TURBO CHARGER DUTRO W04D N04C J05E 21-1 ID 10MM 2H MIO ORIGINA! DUTRO, W04D, N04C, J05E DUTRO W04D, N04C, J05E OD 60; ID 10; C-C 45, 70, 87; Thread M10, M14, M8 Ready stock OD 60 ID 10 C-C 45, 70, 87 Thread M10, M14, M8 W04D N04C J05E TURBO C-C 45 C-C 70 C-C 87 Thread M10 Thread M14 Thread M8 OD 60MM 2H ID IOMM 2B MIO C-C 45MM M14 C-C 70MM MIO HM8 GARRETT• ORIGINAL C-C 87MM 17201-E0450 TURBO CHARGER DUTRO W04D N04C J05E 21-1 ID 10MM 2H MIO ORIGINA!",
+    "confidence": 100,
+    "source": {
+      "type": "whatsapp-image",
+      "originalFile": "WhatsApp Image 2026-08-20 at 3.12.19 PM.jpeg",
+      "originalPath": "assets/images/products/turbo-charger/WhatsApp Image 2026-08-20 at 3.12.19 PM.jpeg",
+      "hash": "ec3587e772b3accfe9d1936d3e858deeeb47d9fa1bed108c6c7b52c33b7da69c",
+      "ocrText": "OD 60MM 2H ID IOMM 2B MIO C-C 45MM M14 C-C 70MM MIO HM8 GARRETT• ORIGINAL C-C 87MM 17201-E0450 TURBO CHARGER DUTRO W04D N04C J05E 21-1 ID 10MM 2H MIO ORIGINA!",
+      "importedAt": "2026-08-20T23:36:31",
+      "recognitionNote": "Primary product code visually verified against the large red code in the original Turbo Charger catalogue image."
+    },
+    "slug": "17201-e0450-turbo-charger",
+    "url": "products/17201-e0450-turbo-charger.html",
+    "alt": "17201-E0450 Turbo Charger for DUTRO, DUTRO, W04D, N04C, J05E heavy duty truck part"
   }
 ];
 window.NAE_IMPORT_META = {
-  "generatedAt": "2026-08-17T02:18:23",
-  "totalProducts": 197,
+  "generatedAt": "2026-08-20T15:44:33",
+  "totalProducts": 201,
   "source": "google-indexing-audit",
   "searchIndexRebuilt": true,
-  "productSeoPagesChecked": 197,
+  "productSeoPagesChecked": 201,
   "productionBaseUrl": "https://titan-900.github.io/NAE-TRUCK/"
 };
